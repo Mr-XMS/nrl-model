@@ -474,7 +474,7 @@ with tab_bet:
                           index=done.sort_values("date").date.dt.date))
         if len(pend):
             st.caption(f"{len(pend)} bets pending this round: " + ", ".join(
-                f"{r.side.split('-')[-1]} @ {r.odds} (${r.stake:.0f})"
+                f"{r.side.split('-')[-1]} @ {r.odds} (\\${r.stake:.0f})"
                 for r in pend.itertuples()))
         st.caption("Fixed $100/round paper bankroll, 6% EV threshold, quarter-Kelly, "
                    "best scanned price. Placed by Tuesday automation, graded as results land. "
