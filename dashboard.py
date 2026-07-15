@@ -81,9 +81,10 @@ fhist = load("forecast_history.csv")
 scen = load("scenarios.csv")
 players = load("player_ratings.csv")
 
-tab_week, tab_record, tab_sgm, tab_market, tab_scen, tab_players, tab_verdict = st.tabs(
+(tab_week, tab_record, tab_sgm, tab_market, tab_scen, tab_players,
+ tab_verdict, tab_bet) = st.tabs(
     ["📋 This Week", "📈 Track Record", "🎯 SGM Ledger", "💹 Market",
-     "🩹 Scenarios", "👤 Players", "⚖️ Verdict"])
+     "🩹 Scenarios", "👤 Players", "⚖️ Verdict", "💰 Bet Simulator"])
 
 # ---------------------------------------------------------------- This Week
 with tab_week:
@@ -372,3 +373,80 @@ with tab_verdict:
                                  index=cal.predicted.round(2))
             st.line_chart(chart)
             st.caption("Actual should hug the 'perfect' diagonal.")
+
+
+# ------------------------------------------------------------ Bet Simulator
+with tab_bet:
+    st.subheader("Round staking simulator (paper)")
+    st.caption("Allocates a hypothetical bankroll across this round's genuine edges "
+               "using quarter-Kelly staking, then simulates 10,000 rounds so you see "
+               "the full distribution — not just the average. Paper tool: the model's "
+               "edges are unproven until the season's ledgers say otherwise.")
+    if comp is None or hist is None or not len(hist):
+        st.info("Needs logged predictions and at least one odds scan.")
+    else:
+        bankroll = st.number_input("Hypothetical round bankroll ($)", 10, 10000, 100, step=10)
+        min_edge = st.slider("Minimum EV to bet (%)", 2, 15, 4) / 100.0
+        up = comp[comp.actual_home_win.isna()].copy()
+        H = hist.copy()
+        H["scan_time"] = pd.to_datetime(H.scan_time)
+        latest = H[H.scan_time == H.scan_time.max()]
+        lg = lambda q: np.log(np.clip(q, 1e-6, 1-1e-6) / (1 - np.clip(q, 1e-6, 1-1e-6)))
+        cands = []
+        for r in up.itertuples():
+            gh = latest[(latest.home == r.home_team) & (latest.away == r.away_team)]
+            if not len(gh):
+                continue
+            bh = gh[gh.team == r.home_team].odds.max()
+            ba = gh[gh.team == r.away_team].odds.max()
+            bkh = gh[(gh.team == r.home_team) & (gh.odds == bh)].book.iloc[0] if bh == bh else ""
+            bka = gh[(gh.team == r.away_team) & (gh.odds == ba)].book.iloc[0] if ba == ba else ""
+            if not (bh > 1 and ba > 1):
+                continue
+            ih, ia = 1/bh, 1/ba
+            mkt = ih / (ih + ia)
+            pb = 1 / (1 + np.exp(-0.5 * (lg(float(r.p_base)) + lg(mkt))))   # live blend
+            for side, prob, odds, book in ((r.home_team, pb, bh, bkh),
+                                           (r.away_team, 1-pb, ba, bka)):
+                ev = prob * odds - 1
+                if ev > min_edge:
+                    kelly = (prob * odds - 1) / (odds - 1)
+                    cands.append(dict(game=f"{r.home_team.split('-')[-1]} v {r.away_team.split('-')[-1]}",
+                                      side=side, prob=prob, odds=odds, book=book,
+                                      ev=ev, kelly=kelly))
+        if not cands:
+            st.success(f"No bets clear the {min_edge:.0%} EV bar at current prices — "
+                       "the disciplined recommendation this round is: don't bet. "
+                       "That is a real and common output of a real system.")
+        else:
+            C = pd.DataFrame(cands)
+            C["stake"] = C.kelly * 0.25 * bankroll          # quarter-Kelly
+            if C.stake.sum() > bankroll:                    # cap at bankroll
+                C["stake"] *= bankroll / C.stake.sum()
+            C["stake"] = C.stake.round(0)
+            C = C[C.stake >= 1]
+            show = C.copy()
+            show["model prob"] = (show.prob*100).round(0).astype(int).astype(str) + "%"
+            show["EV"] = (show.ev*100).round(1).astype(str) + "%"
+            show["stake $"] = show.stake.astype(int)
+            st.dataframe(show[["game","side","model prob","odds","book","EV","stake $"]],
+                         use_container_width=True, hide_index=True)
+            total = C.stake.sum()
+            st.write(f"Total staked: **${total:.0f}** of ${bankroll} "
+                     f"(unstaked bankroll sits out — no edge, no bet)")
+            # Monte Carlo the slate
+            rng = np.random.default_rng(11)
+            wins = rng.random((10000, len(C))) < C.prob.values
+            pl = (wins * (C.stake.values * (C.odds.values - 1))
+                  - (~wins) * C.stake.values).sum(axis=1)
+            c1, c2, c3, c4 = st.columns(4)
+            c1.metric("Expected profit", f"${pl.mean():+.0f}")
+            c2.metric("Chance round loses money", f"{(pl < 0).mean():.0%}")
+            c3.metric("Median outcome", f"${np.median(pl):+.0f}")
+            c4.metric("Worst 5% of rounds", f"${np.percentile(pl, 5):+.0f}")
+            counts, edges_ = np.histogram(pl, bins=30)
+            st.bar_chart(pd.DataFrame({"rounds": counts},
+                         index=np.round(edges_[:-1], 0)))
+            st.caption("Distribution of round profit/loss across 10,000 simulations, "
+                       "using the model's own probabilities. If the model is "
+                       "overconfident, reality is worse than this chart.")
