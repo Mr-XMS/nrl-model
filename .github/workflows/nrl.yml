@@ -9,7 +9,12 @@ on:
     - cron: '0 1 * * 5'    # Fri 11:00 AEST  - game-day scan + lineup check
     - cron: '0 1 * * 6'    # Sat 11:00 AEST
     - cron: '0 1 * * 0'    # Sun 11:00 AEST
-  workflow_dispatch: {}    # allows manual "Run workflow" button on GitHub
+  workflow_dispatch:
+    inputs:
+      force_day:
+        description: 'Run tasks as if this weekday: 1=Mon grading, 2=Tue full forecast, 4=Thu scan, 5=game-day scan. Blank = today.'
+        required: false
+        default: ''
 
 permissions:
   contents: write
@@ -41,6 +46,7 @@ jobs:
       - name: Run scheduled tasks
         env:
           TZ: Australia/Sydney
+          FORCE_DAY: ${{ github.event.inputs.force_day }}
         run: bash nrl_auto.sh
 
       - name: Commit updated ledgers

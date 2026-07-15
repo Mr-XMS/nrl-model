@@ -4,6 +4,7 @@
 cd "$(dirname "$0")"
 LOG="automation.log"
 DAY=$(date +%u)   # 1=Mon ... 7=Sun
+if [ -n "$FORCE_DAY" ]; then DAY="$FORCE_DAY"; echo "forced day: $DAY" >> "$LOG"; fi
 echo "" >> "$LOG"
 echo "===== $(date '+%Y-%m-%d %H:%M') (day $DAY) =====" >> "$LOG"
 
