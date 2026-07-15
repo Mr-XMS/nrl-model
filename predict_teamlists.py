@@ -344,6 +344,13 @@ def main(round_arg=None):
             line += f"  [return-adjusted variant: home {p_b:.0%}]"
         if wet_flag:
             line += f"  [WET forecast {mm:.0f}mm - weather variant: home {p_c:.0%}]"
+        if fx["state"] in ("Upcoming", "Pre"):
+            fh = os.path.join(HERE, "forecast_history.csv")
+            pd.DataFrame([dict(run_time=pd.Timestamp.now().strftime("%Y-%m-%d %H:%M"),
+                date=fixture_date.normalize(), home_team=h, away_team=a,
+                p_base=round(p, 4), p_market=round(p_mkt, 4) if p_mkt is not None else np.nan,
+                wet=wet_flag, notes=len(notes))]).to_csv(
+                fh, mode="a", header=not os.path.exists(fh), index=False)
         if p_mkt is not None and fx["state"] in ("Upcoming", "Pre"):
             edge = p - p_mkt
             line += f"\n    market {p_mkt:.0%} home | blend {p_blend:.0%} home"
@@ -372,13 +379,19 @@ def main(round_arg=None):
 
     if comp_rows:
         new = pd.DataFrame(comp_rows)
+        n_before = 0
         if os.path.exists(COMPARE_LOG):
             old = pd.read_csv(COMPARE_LOG, parse_dates=["date"])
+            n_before = len(old)
             key = ["date", "home_team", "away_team"]
             new = new[~new.set_index(key).index.isin(old.set_index(key).index)]
             new = pd.concat([old, new], ignore_index=True)
+        appended = len(new) - n_before
         new.to_csv(COMPARE_LOG, index=False)
-        print(f"Logged {len(comp_rows)} fixtures to model comparison trial.")
+        if appended > 0:
+            print(f"Logged {appended} new fixtures to model comparison trial.")
+        else:
+            print("All fixtures already logged this week (first predictions kept).")
 
 if __name__ == "__main__":
     main(sys.argv[1] if len(sys.argv) > 1 else None)
