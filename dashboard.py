@@ -16,6 +16,31 @@ HERE = os.path.dirname(os.path.abspath(__file__))
 def path(f): return os.path.join(HERE, f)
 
 st.set_page_config(page_title="NRL Model", page_icon="🏉", layout="wide")
+
+TEAM_STYLE = {
+ "brisbane-broncos": ("Broncos", "#6C1D45"), "canberra-raiders": ("Raiders", "#95C11F"),
+ "canterbury-bankstown-bulldogs": ("Bulldogs", "#00468B"),
+ "cronulla-sutherland-sharks": ("Sharks", "#00A9E0"), "dolphins": ("Dolphins", "#BE1E2D"),
+ "gold-coast-titans": ("Titans", "#0FAAA2"), "manly-warringah-sea-eagles": ("Sea Eagles", "#78002E"),
+ "melbourne-storm": ("Storm", "#632390"), "newcastle-knights": ("Knights", "#EE3524"),
+ "north-queensland-cowboys": ("Cowboys", "#002B5C"), "parramatta-eels": ("Eels", "#006EB5"),
+ "penrith-panthers": ("Panthers", "#E6007E"), "south-sydney-rabbitohs": ("Rabbitohs", "#00453A"),
+ "st-george-illawarra-dragons": ("Dragons", "#E2231B"), "sydney-roosters": ("Roosters", "#00305E"),
+ "warriors": ("Warriors", "#151F6D"), "wests-tigers": ("Tigers", "#F68B1F"),
+}
+def chip(slug, bold=False):
+    name, col = TEAM_STYLE.get(slug, (slug, "#666"))
+    w = "700" if bold else "500"
+    return (f'<span style="display:inline-flex;align-items:center;gap:6px;font-weight:{w}">'
+            f'<span style="width:12px;height:12px;border-radius:3px;background:{col};'
+            f'display:inline-block"></span>{name}</span>')
+def conf_bar(p):
+    pct = int(round(p * 100))
+    return (f'<div style="display:flex;align-items:center;gap:8px">'
+            f'<div style="background:#eee;border-radius:6px;width:90px;height:10px">'
+            f'<div style="background:#2b8a3e;width:{pct}%;height:10px;border-radius:6px"></div></div>'
+            f'<b>{pct}%</b></div>')
+
 st.title("🏉 NRL Prediction Model")
 
 def load(f, dates=None):
@@ -50,19 +75,47 @@ with tab_week:
             st.info("No upcoming games logged — next Tuesday run will add the new round.")
         else:
             st.subheader("Current round picks")
-            rows = []
-            for r in upcoming.itertuples():
+            # kickoff/venue from the latest forecast snapshot, if recorded
+            ko = {}
+            if fhist is not None and "kickoff" in fhist.columns:
+                fh = fhist.dropna(subset=["kickoff"]).copy()
+                for r in fh.itertuples():
+                    try:
+                        t = pd.to_datetime(r.kickoff).tz_convert("Australia/Sydney")
+                    except Exception:
+                        try:
+                            t = pd.to_datetime(r.kickoff).tz_localize("UTC").tz_convert("Australia/Sydney")
+                        except Exception:
+                            continue
+                    ko[(r.home_team, r.away_team)] = (t, getattr(r, "venue_city", ""))
+            html = ['<table style="width:100%;border-collapse:collapse;font-size:15px">',
+                    '<tr style="text-align:left;color:#888;border-bottom:2px solid #ddd">'
+                    '<th style="padding:8px 6px">Kickoff</th><th>Match</th><th>Pick</th>'
+                    '<th>Confidence</th><th>Market</th><th>Edge</th></tr>']
+            for r in upcoming.sort_values("date").itertuples():
                 p = r.p_base
-                pick, conf = (r.home_team, p) if p > 0.5 else (r.away_team, 1 - p)
+                pick_team = r.home_team if p > 0.5 else r.away_team
+                conf = p if p > 0.5 else 1 - p
                 mkt = getattr(r, "p_market", np.nan)
                 edge = (p - mkt) if mkt == mkt else np.nan
-                rows.append(dict(
-                    Date=r.date.date(), Home=r.home_team, Away=r.away_team,
-                    Pick=pick, Confidence=f"{conf:.0%}",
-                    Market=f"{mkt:.0%} home" if mkt == mkt else "—",
-                    Edge=f"{edge*100:+.0f} pts" if edge == edge else "—",
-                    Flag="🚩" if (edge == edge and abs(edge) > 0.06) else ""))
-            st.dataframe(pd.DataFrame(rows), use_container_width=True, hide_index=True)
+                k = ko.get((r.home_team, r.away_team))
+                when = (k[0].strftime("%a %-I:%M%p").replace("AM","am").replace("PM","pm")
+                        + f'<br><span style="color:#999;font-size:12px">{(k[1] or "")}</span>')                     if k else r.date.strftime("%a %d %b")
+                edge_html = "—"
+                if edge == edge:
+                    col = "#c92a2a" if abs(edge) > 0.06 else "#888"
+                    flag = " 🚩" if abs(edge) > 0.06 else ""
+                    edge_html = f'<span style="color:{col};font-weight:600">{edge*100:+.0f} pts{flag}</span>'
+                html.append(
+                    f'<tr style="border-bottom:1px solid #eee">'
+                    f'<td style="padding:10px 6px;white-space:nowrap">{when}</td>'
+                    f'<td>{chip(r.home_team)} <span style="color:#bbb">v</span> {chip(r.away_team)}</td>'
+                    f'<td>{chip(pick_team, bold=True)}</td>'
+                    f'<td>{conf_bar(conf)}</td>'
+                    f'<td>{f"{mkt:.0%} home" if mkt == mkt else "—"}</td>'
+                    f'<td>{edge_html}</td></tr>')
+            html.append("</table>")
+            st.markdown("".join(html), unsafe_allow_html=True)
             st.caption("🚩 = model and market disagree by more than 6 points. "
                        "B (fitness) and C (weather) variants are graded in Track Record.")
         if fhist is not None and len(fhist):

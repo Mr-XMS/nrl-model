@@ -348,6 +348,7 @@ def main(round_arg=None):
             fh = os.path.join(HERE, "forecast_history.csv")
             pd.DataFrame([dict(run_time=pd.Timestamp.now().strftime("%Y-%m-%d %H:%M"),
                 date=fixture_date.normalize(), home_team=h, away_team=a,
+                kickoff=fx.get("kickoff"), venue_city=fx.get("venue_city"),
                 p_base=round(p, 4), p_market=round(p_mkt, 4) if p_mkt is not None else np.nan,
                 wet=wet_flag, notes=len(notes))]).to_csv(
                 fh, mode="a", header=not os.path.exists(fh), index=False)
