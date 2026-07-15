@@ -1,0 +1,5 @@
+odds_api_key.txt
+__pycache__/
+*.pyc
+scrape_progress.txt
+.DS_Store

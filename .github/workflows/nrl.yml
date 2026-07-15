@@ -48,7 +48,10 @@ jobs:
           rm -f odds_api_key.txt
           git config user.name "nrl-model-bot"
           git config user.email "bot@users.noreply.github.com"
-          git add -A '*.csv' '*.jsonl' automation.log || true
-          git diff --cached --quiet || git commit -m "Automated run $(date -u '+%Y-%m-%d %H:%M UTC')"
-          git pull --rebase origin main || true
-          git push
+          git add -A
+          if git diff --cached --quiet; then
+            echo "No changes to commit"
+          else
+            git commit -m "Automated run $(date -u '+%Y-%m-%d %H:%M UTC')"
+            git push origin HEAD:main
+          fi
