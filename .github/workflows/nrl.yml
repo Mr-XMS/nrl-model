@@ -1,0 +1,54 @@
+name: NRL Model Automation
+
+on:
+  schedule:
+    # Cron is UTC. AEST = UTC+10. All entries land on the same weekday in both zones.
+    - cron: '0 0 * * 1'    # Mon 10:00 AEST  - results + grading
+    - cron: '30 10 * * 2'  # Tue 20:30 AEST  - full forecast + ledger + odds fill + scan
+    - cron: '0 8 * * 4'    # Thu 18:00 AEST  - odds scan
+    - cron: '0 1 * * 5'    # Fri 11:00 AEST  - game-day scan + lineup check
+    - cron: '0 1 * * 6'    # Sat 11:00 AEST
+    - cron: '0 1 * * 0'    # Sun 11:00 AEST
+  workflow_dispatch: {}    # allows manual "Run workflow" button on GitHub
+
+permissions:
+  contents: write
+
+concurrency:
+  group: nrl-model
+  cancel-in-progress: false
+
+jobs:
+  run:
+    runs-on: ubuntu-latest
+    timeout-minutes: 45
+    steps:
+      - name: Check out repo
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+          cache: pip
+
+      - name: Install dependencies
+        run: pip install -r requirements.txt
+
+      - name: Write API key from secret
+        run: echo "${{ secrets.ODDS_API_KEY }}" > odds_api_key.txt
+
+      - name: Run scheduled tasks
+        env:
+          TZ: Australia/Sydney
+        run: bash nrl_auto.sh
+
+      - name: Commit updated ledgers
+        run: |
+          rm -f odds_api_key.txt
+          git config user.name "nrl-model-bot"
+          git config user.email "bot@users.noreply.github.com"
+          git add -A '*.csv' '*.jsonl' automation.log || true
+          git diff --cached --quiet || git commit -m "Automated run $(date -u '+%Y-%m-%d %H:%M UTC')"
+          git pull --rebase origin main || true
+          git push

@@ -1,0 +1,16 @@
+run_date,date,home_team,away_team,p_base,p_retadj,p_wet,forecast_rain_mm,actual_home_win,p_market,p_blend
+2026-07-05,2026-07-05,parramatta-eels,manly-warringah-sea-eagles,0.2293,0.2311,0.2215,2.7,1.0,,
+2026-07-05,2026-07-05,newcastle-knights,dolphins,0.3979,0.3978,0.3956,4.6,1.0,,
+2026-07-11,2026-07-11,canterbury-bankstown-bulldogs,canberra-raiders,0.6224,0.6226,0.6311,0.0,0.0,,
+2026-07-11,2026-07-11,sydney-roosters,parramatta-eels,0.77,0.7698,0.7844,0.0,1.0,,
+2026-07-11,2026-07-12,south-sydney-rabbitohs,newcastle-knights,0.5612,0.5607,0.5678,0.0,1.0,,
+2026-07-11,2026-07-12,manly-warringah-sea-eagles,north-queensland-cowboys,0.6995,0.7004,0.7119,0.0,0.0,,
+2026-07-11,2026-07-12,melbourne-storm,gold-coast-titans,0.7528,0.7527,0.63,6.2,1.0,,
+2026-07-13,2026-07-16,penrith-panthers,brisbane-broncos,0.8234,0.8234,0.7174,11.7,,0.8059,0.8148
+2026-07-13,2026-07-17,cronulla-sutherland-sharks,newcastle-knights,0.7491,0.7491,0.7629,4.7,,0.5975,0.6779
+2026-07-13,2026-07-17,sydney-roosters,melbourne-storm,0.677,0.6767,0.6872,4.7,,0.6341,0.6559
+2026-07-13,2026-07-18,canberra-raiders,south-sydney-rabbitohs,0.5754,0.5753,0.5776,0.0,,0.526,0.5508
+2026-07-13,2026-07-18,warriors,st-george-illawarra-dragons,0.8676,0.8669,0.8828,0.3,,0.8204,0.8455
+2026-07-13,2026-07-18,canterbury-bankstown-bulldogs,wests-tigers,0.6038,0.6036,0.5311,6.2,,0.6556,0.6301
+2026-07-13,2026-07-19,gold-coast-titans,manly-warringah-sea-eagles,0.2528,0.2526,0.2428,4.0,,0.3659,0.3064
+2026-07-13,2026-07-19,dolphins,north-queensland-cowboys,0.5979,0.5979,0.6069,1.8,,0.5852,0.5916
