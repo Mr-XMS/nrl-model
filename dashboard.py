@@ -76,6 +76,7 @@ def load(f, dates=None):
 comp = load("model_comparison.csv", ["date"])
 preds = load("predictions.csv", ["date"])
 ledger = load("sgm_ledger.csv")
+bets = load("bets_ledger.csv", ["date"])
 hist = load("odds_history.csv")
 fhist = load("forecast_history.csv")
 scen = load("scenarios.csv")
@@ -450,3 +451,31 @@ with tab_bet:
             st.caption("Distribution of round profit/loss across 10,000 simulations, "
                        "using the model's own probabilities. If the model is "
                        "overconfident, reality is worse than this chart.")
+
+
+with tab_bet:
+    st.divider()
+    st.subheader("Season paper P&L (official record)")
+    if bets is None or not len(bets):
+        st.info("The paper betting record starts with the next Tuesday run - "
+                "$100 hypothetical bankroll per round, 6% EV threshold, quarter-Kelly.")
+    else:
+        done = bets.dropna(subset=["profit"]).copy()
+        pend = bets[bets.profit.isna()]
+        if len(done):
+            staked, pl = done.stake.sum(), done.profit.sum()
+            c1, c2, c3, c4 = st.columns(4)
+            c1.metric("Bets settled", f"{len(done)} ({(done.result=='win').sum()}W)")
+            c2.metric("Total staked", f"${staked:.0f}")
+            c3.metric("Season P&L", f"${pl:+.0f}", delta=f"{pl/staked:+.1%} ROI")
+            eq = done.sort_values("date").profit.cumsum()
+            c4.metric("Max drawdown", f"${(eq - eq.cummax()).min():.0f}")
+            st.line_chart(pd.DataFrame({"cumulative P&L ($)": eq.values},
+                          index=done.sort_values("date").date.dt.date))
+        if len(pend):
+            st.caption(f"{len(pend)} bets pending this round: " + ", ".join(
+                f"{r.side.split('-')[-1]} @ {r.odds} (${r.stake:.0f})"
+                for r in pend.itertuples()))
+        st.caption("Fixed $100/round paper bankroll, 6% EV threshold, quarter-Kelly, "
+                   "best scanned price. Placed by Tuesday automation, graded as results land. "
+                   "No real money.")
