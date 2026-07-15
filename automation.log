@@ -26,3 +26,217 @@ no scheduled tasks today
 ===== 2026-07-15 18:01 (day 3) =====
 no scheduled tasks today
 ===== done =====
+forced day: 2
+
+===== 2026-07-15 18:20 (day 2) =====
+Fetching NRL 2026 from Rugby League Project...
+Season 2026: 140 completed matches on site, 0 new added to dataset (3561 total). 64 future fixtures listed.
+Graded 0 new predictions. Running record: 11 graded, accuracy 45.5%, Brier 0.2626
+Lineups refreshed.
+
+Predictions — Round 20 - Women in League Round:
+  2026-07-16  penrith-panthers                 v brisbane-broncos                 -> penrith-panthers (87%)
+  2026-07-17  cronulla-sutherland-sharks       v newcastle-knights                -> cronulla-sutherland-sharks (77%)
+  2026-07-17  sydney-roosters                  v melbourne-storm                  -> sydney-roosters (66%)
+  2026-07-18  canberra-raiders                 v south-sydney-rabbitohs           -> canberra-raiders (90%)
+  2026-07-18  warriors                         v st-george-illawarra-dragons      -> warriors (55%)
+  2026-07-18  canterbury-bankstown-bulldogs    v wests-tigers                     -> canterbury-bankstown-bulldogs (67%)
+  2026-07-19  gold-coast-titans                v manly-warringah-sea-eagles       -> manly-warringah-sea-eagles (67%)
+  2026-07-19  dolphins                         v north-queensland-cowboys         -> dolphins (64%)
+
+Logged to predictions.csv
+Fetching announced team lists: 2026 Round 20...
+Casualty ward: 91 players listed
+done: 0 scraped
+Running model comparison record:
+  A: baseline            n=7  acc=0.429  logloss=0.8134  brier=0.3057
+  B: return-adjusted     n=7  acc=0.429  logloss=0.8130  brier=0.3056
+  C: weather-adjusted    n=7  acc=0.429  logloss=0.8496  brier=0.3209
+  Matches where the two models actually differ: 7 of 7
+
+penrith-panthers v brisbane-broncos: penrith-panthers (82%)
+    market 79% home | blend 81% home
+    player strength diff +0.37 | retention 71% v 65% | spine run 1 v 1
+    note: penrith-panthers: Casey McLean (Quad, listed return TBC) - IN DOUBT, rating x0.6
+    note: penrith-panthers: Isaiah Papali'i (Head knock, listed return Round 20) - first game back, rating x0.8
+    note: brisbane-broncos: Ezra Mam (Shoulder, listed return Round 20) - first game back, rating x0.8
+    note: brisbane-broncos: Adam Reynolds (Calf, listed return Round 20) - first game back, rating x0.8
+    note: brisbane-broncos: Brendan Piakura (Head knock, listed return Round 20) - first game back, rating x0.8
+
+cronulla-sutherland-sharks v newcastle-knights: cronulla-sutherland-sharks (75%)  [WET forecast 9mm - weather variant: home 68%]
+    market 68% home | blend 72% home  >>> EDGE: model likes cronulla-sutherland-sharks (8 pts vs market)
+    player strength diff +0.22 | retention 94% v 76% | spine run 2 v 1
+    note: newcastle-knights: Greg Marzhew (Hip, listed return TBC) - IN DOUBT, rating x0.6
+    note: newcastle-knights: 1 debutant/unmatched (rated league-average): Lachlan Crouch
+
+sydney-roosters v melbourne-storm: sydney-roosters (70%)  [WET forecast 9mm - weather variant: home 61%]
+    market 74% home | blend 72% home
+    player strength diff +1.22 | retention 76% v 76% | spine run 1 v 1
+    note: sydney-roosters: Nat Butcher (Suspension, listed return Round 20) - first game back, rating x0.8
+    note: melbourne-storm: Moses Leo (Concussion, listed return Round 20) - first game back, rating x0.8
+
+canberra-raiders v south-sydney-rabbitohs: canberra-raiders (58%)
+    market 50% home | blend 54% home  >>> EDGE: model likes canberra-raiders (8 pts vs market)
+    player strength diff +0.08 | retention 100% v 82% | spine run 1 v 1
+    note: south-sydney-rabbitohs: Alex Johnston (Calf, listed return Round 20) - first game back, rating x0.8
+    note: south-sydney-rabbitohs: Cody Walker (Suspension, listed return Round 20) - first game back, rating x0.8
+    note: south-sydney-rabbitohs: Euan Aitken (Illness, listed return Round 20) - first game back, rating x0.8
+
+warriors v st-george-illawarra-dragons: warriors (82%)  [return-adjusted variant: home 82%]
+    market 79% home | blend 81% home
+    player strength diff +2.29 | retention 76% v 94% | spine run 7 v 8
+    note: warriors: Dallin Watene-Zelezniak (Hamstring, listed return Round 20) - first game back, rating x0.8
+    note: warriors: 1 debutant/unmatched (rated league-average): Leka Halasima
+    note: st-george-illawarra-dragons: Tyrell Sloan (Hamstring, listed return Round 20) - first game back, rating x0.8
+
+canterbury-bankstown-bulldogs v wests-tigers: canterbury-bankstown-bulldogs (57%)
+    market 63% home | blend 60% home  >>> EDGE: model likes wests-tigers (7 pts vs market)
+    player strength diff +0.06 | retention 82% v 94% | spine run 1 v 1
+    note: canterbury-bankstown-bulldogs: Enari Tuala (Illness, listed return Round 20) - first game back, rating x0.8
+    note: canterbury-bankstown-bulldogs: 1 debutant/unmatched (rated league-average): Jethro Rinakama
+
+gold-coast-titans v manly-warringah-sea-eagles: manly-warringah-sea-eagles (80%)  [WET forecast 10mm - weather variant: home 28%]
+    market 39% home | blend 28% home  >>> EDGE: model likes manly-warringah-sea-eagles (20 pts vs market)
+    player strength diff -1.40 | retention 88% v 88% | spine run 8 v 3
+    note: gold-coast-titans: 1 debutant/unmatched (rated league-average): Jojo Fifita
+
+dolphins v north-queensland-cowboys: dolphins (65%)
+    market 59% home | blend 62% home  >>> EDGE: model likes dolphins (6 pts vs market)
+    player strength diff +0.16 | retention 82% v 88% | spine run 1 v 4
+    note: dolphins: Jack Bostock (Head knock, listed return Round 20) - first game back, rating x0.8
+    note: dolphins: Max Plath (Ankle, listed return Round 20) - first game back, rating x0.8
+
+All fixtures already logged this week (first predictions kept).
+Ledger: 104 total rows -> sgm_ledger.csv (fill book_odds column from your betting app before kickoff)
+36 blank legs across 8 games
+
+Filled 2 legs -> sgm_ledger.csv
+API credits remaining this month: 449
+34 legs still blank (combos + anything the books don't list) - fill manually or leave.
+16 upcoming NRL games, scanning...
+
+penrith-panthers v brisbane-broncos
+  best: penrith-panthers @ 1.24 (Betfair)  |  brisbane-broncos @ 4.90 (Betfair)
+  combined implied: 101.1%
+  live blend 81% home -> best-price EV: penrith-panthers +0.6% @ 1.24 (Betfair)
+
+cronulla-sutherland-sharks v newcastle-knights
+  best: cronulla-sutherland-sharks @ 1.45 (Betr)  |  newcastle-knights @ 3.20 (Ladbrokes)
+  combined implied: 100.2%
+  live blend 72% home -> best-price EV: cronulla-sutherland-sharks +4.3% @ 1.45 (Betr)  >>> VALUE
+
+sydney-roosters v melbourne-storm
+  best: sydney-roosters @ 1.31 (Betfair)  |  melbourne-storm @ 4.00 (TAB)
+  combined implied: 101.3%
+  live blend 72% home -> best-price EV: melbourne-storm +13.3% @ 4.00 (TAB)  >>> VALUE
+
+canberra-raiders v south-sydney-rabbitohs
+  best: canberra-raiders @ 2.00 (Neds)  |  south-sydney-rabbitohs @ 2.00 (Betfair)
+  combined implied: 100.0%
+  live blend 54% home -> best-price EV: canberra-raiders +7.6% @ 2.00 (Neds)  >>> VALUE
+
+warriors v st-george-illawarra-dragons
+  best: warriors @ 1.21 (Betfair)  |  st-george-illawarra-dragons @ 5.20 (Ladbrokes)
+  combined implied: 101.9%
+  live blend 84% home -> best-price EV: warriors +1.8% @ 1.21 (Betfair)
+
+canterbury-bankstown-bulldogs v wests-tigers
+  best: canterbury-bankstown-bulldogs @ 1.57 (Neds)  |  wests-tigers @ 2.65 (TAB)
+  combined implied: 101.4%
+  live blend 62% home -> best-price EV: wests-tigers +1.8% @ 2.65 (TAB)
+
+gold-coast-titans v manly-warringah-sea-eagles
+  best: gold-coast-titans @ 2.66 (Betfair)  |  manly-warringah-sea-eagles @ 1.58 (TAB)
+  combined implied: 100.9%
+  live blend 31% home -> best-price EV: manly-warringah-sea-eagles +9.1% @ 1.58 (TAB)  >>> VALUE
+
+dolphins v north-queensland-cowboys
+  best: dolphins @ 1.66 (Betfair)  |  north-queensland-cowboys @ 2.45 (TAB)
+  combined implied: 101.1%
+  live blend 60% home -> best-price EV: dolphins -0.9% @ 1.66 (Betfair)
+
+parramatta-eels v penrith-panthers
+  best: parramatta-eels @ 4.90 (SportsBet)  |  penrith-panthers @ 1.18 (SportsBet)
+  combined implied: 105.2%
+
+newcastle-knights v sydney-roosters
+  best: newcastle-knights @ 2.27 (SportsBet)  |  sydney-roosters @ 1.64 (SportsBet)
+  combined implied: 105.0%
+
+south-sydney-rabbitohs v melbourne-storm
+  best: south-sydney-rabbitohs @ 1.48 (SportsBet)  |  melbourne-storm @ 2.67 (SportsBet)
+  combined implied: 105.0%
+
+canberra-raiders v wests-tigers
+  best: canberra-raiders @ 1.39 (SportsBet)  |  wests-tigers @ 3.25 (Betr)
+  combined implied: 102.7%
+
+canterbury-bankstown-bulldogs v warriors
+  best: canterbury-bankstown-bulldogs @ 2.80 (Betr)  |  warriors @ 1.51 (SportsBet)
+  combined implied: 101.9%
+
+north-queensland-cowboys v brisbane-broncos
+  best: north-queensland-cowboys @ 1.63 (SportsBet)  |  brisbane-broncos @ 2.30 (SportsBet)
+  combined implied: 104.8%
+
+st-george-illawarra-dragons v gold-coast-titans
+  best: st-george-illawarra-dragons @ 1.92 (SportsBet)  |  gold-coast-titans @ 1.92 (SportsBet)
+  combined implied: 104.2%
+
+manly-warringah-sea-eagles v cronulla-sutherland-sharks
+  best: manly-warringah-sea-eagles @ 1.87 (SportsBet)  |  cronulla-sutherland-sharks @ 1.97 (SportsBet)
+  combined implied: 104.2%
+
+Price snapshot logged: 196 quotes -> odds_history.csv
+Paper bets: slate recorded -> bets_ledger.csv
+Scenario analysis: 2026 Round 20
+
+penrith-panthers v brisbane-broncos  (home win, production baseline: 83.6%)
+  Casey McLean               (penrith-panthers, IN DOUBT)
+      plays fully fit 83.6% | as named 83.6% | WITHDRAWN 83.7%   swing fit-to-out: 0.1 pts
+  Isaiah Papali'i            (penrith-panthers, returning)
+      plays fully fit 83.6% | as named 83.6% | WITHDRAWN 83.5%   swing fit-to-out: 0.1 pts
+  Ezra Mam                   (brisbane-broncos, returning)
+      plays fully fit 83.6% | as named 83.6% | WITHDRAWN 83.5%   swing fit-to-out: 0.0 pts
+  Adam Reynolds              (brisbane-broncos, returning)
+      plays fully fit 83.0% | as named 83.6% | WITHDRAWN 85.8%   swing fit-to-out: 2.8 pts
+  Brendan Piakura            (brisbane-broncos, returning)
+      plays fully fit 83.6% | as named 83.6% | WITHDRAWN 84.1%   swing fit-to-out: 0.5 pts
+
+cronulla-sutherland-sharks v newcastle-knights  (home win, production baseline: 74.9%)
+  Greg Marzhew               (newcastle-knights, IN DOUBT)
+      plays fully fit 74.8% | as named 74.9% | WITHDRAWN 75.7%   swing fit-to-out: 0.9 pts
+
+sydney-roosters v melbourne-storm  (home win, production baseline: 66.1%)
+  Nat Butcher                (sydney-roosters, returning)
+      plays fully fit 66.2% | as named 66.1% | WITHDRAWN 66.0%   swing fit-to-out: 0.2 pts
+  Moses Leo                  (melbourne-storm, returning)
+      plays fully fit 66.1% | as named 66.1% | WITHDRAWN 66.4%   swing fit-to-out: 0.3 pts
+
+canberra-raiders v south-sydney-rabbitohs  (home win, production baseline: 59.6%)
+  Alex Johnston              (south-sydney-rabbitohs, returning)
+      plays fully fit 59.4% | as named 59.6% | WITHDRAWN 60.3%   swing fit-to-out: 0.9 pts
+  Cody Walker                (south-sydney-rabbitohs, returning)
+      plays fully fit 59.4% | as named 59.6% | WITHDRAWN 60.1%   swing fit-to-out: 0.7 pts
+  Euan Aitken                (south-sydney-rabbitohs, returning)
+      plays fully fit 59.6% | as named 59.6% | WITHDRAWN 59.8%   swing fit-to-out: 0.2 pts
+
+warriors v st-george-illawarra-dragons  (home win, production baseline: 83.1%)
+  Dallin Watene-Zelezniak    (warriors, returning)
+      plays fully fit 83.1% | as named 83.1% | WITHDRAWN 83.6%   swing fit-to-out: 0.5 pts
+  Tyrell Sloan               (st-george-illawarra-dragons, returning)
+      plays fully fit 83.1% | as named 83.1% | WITHDRAWN 83.1%   swing fit-to-out: 0.0 pts
+
+canterbury-bankstown-bulldogs v wests-tigers  (home win, production baseline: 56.0%)
+  Enari Tuala                (canterbury-bankstown-bulldogs, returning)
+      plays fully fit 56.0% | as named 56.0% | WITHDRAWN 56.3%   swing fit-to-out: 0.3 pts
+
+dolphins v north-queensland-cowboys  (home win, production baseline: 65.7%)
+  Jack Bostock               (dolphins, returning)
+      plays fully fit 65.7% | as named 65.7% | WITHDRAWN 65.3%   swing fit-to-out: 0.5 pts
+  Max Plath                  (dolphins, returning)
+      plays fully fit 65.7% | as named 65.7% | WITHDRAWN 65.0%   swing fit-to-out: 0.7 pts
+
+16 scenarios -> scenarios.csv
+1026 players -> player_ratings.csv
+===== done =====
