@@ -28,12 +28,32 @@ TEAM_STYLE = {
  "st-george-illawarra-dragons": ("Dragons", "#E2231B"), "sydney-roosters": ("Roosters", "#00305E"),
  "warriors": ("Warriors", "#151F6D"), "wests-tigers": ("Tigers", "#F68B1F"),
 }
+BADGE_KEY = {
+ "brisbane-broncos": "broncos", "canberra-raiders": "raiders",
+ "canterbury-bankstown-bulldogs": "bulldogs", "cronulla-sutherland-sharks": "sharks",
+ "dolphins": "dolphins", "gold-coast-titans": "titans",
+ "manly-warringah-sea-eagles": "sea-eagles", "melbourne-storm": "storm",
+ "newcastle-knights": "knights", "north-queensland-cowboys": "cowboys",
+ "parramatta-eels": "eels", "penrith-panthers": "panthers",
+ "south-sydney-rabbitohs": "rabbitohs", "st-george-illawarra-dragons": "dragons",
+ "sydney-roosters": "roosters", "warriors": "warriors", "wests-tigers": "wests-tigers",
+}
 def chip(slug, bold=False):
     name, col = TEAM_STYLE.get(slug, (slug, "#666"))
     w = "700" if bold else "500"
+    key = BADGE_KEY.get(slug)
+    if key:
+        # official badge hotlinked from nrl.com; colour dot appears if it fails to load
+        icon = (f'<img src="https://www.nrl.com/.theme/{key}/badge.svg" '
+                f'style="width:22px;height:22px;vertical-align:middle" '
+                f'onerror="this.style.display=\'none\';this.nextElementSibling.style.display=\'inline-block\'">'
+                f'<span style="width:12px;height:12px;border-radius:3px;background:{col};'
+                f'display:none"></span>')
+    else:
+        icon = (f'<span style="width:12px;height:12px;border-radius:3px;background:{col};'
+                f'display:inline-block"></span>')
     return (f'<span style="display:inline-flex;align-items:center;gap:6px;font-weight:{w}">'
-            f'<span style="width:12px;height:12px;border-radius:3px;background:{col};'
-            f'display:inline-block"></span>{name}</span>')
+            f'{icon}{name}</span>')
 def conf_bar(p):
     pct = int(round(p * 100))
     return (f'<div style="display:flex;align-items:center;gap:8px">'
