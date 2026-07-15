@@ -1,17 +1,17 @@
 home,away,player,team,status,p_fit,p_named,p_withdrawn,swing_pts
-penrith-panthers,brisbane-broncos,Casey McLean,penrith-panthers,IN DOUBT,0.8305,0.8304,0.8336,0.3
-penrith-panthers,brisbane-broncos,Isaiah Papali'i,penrith-panthers,returning,0.8306,0.8304,0.8349,0.4
-penrith-panthers,brisbane-broncos,Ezra Mam,brisbane-broncos,returning,0.8301,0.8304,0.8273,0.3
-penrith-panthers,brisbane-broncos,Adam Reynolds,brisbane-broncos,returning,0.8228,0.8304,0.8581,3.5
-penrith-panthers,brisbane-broncos,Brendan Piakura,brisbane-broncos,returning,0.8299,0.8304,0.8317,0.2
-cronulla-sutherland-sharks,newcastle-knights,Greg Marzhew,newcastle-knights,IN DOUBT,0.757,0.7585,0.7649,0.8
-sydney-roosters,melbourne-storm,Nat Butcher,sydney-roosters,returning,0.6995,0.699,0.7065,0.7
-sydney-roosters,melbourne-storm,Moses Leo,melbourne-storm,returning,0.6987,0.699,0.6973,0.1
-canberra-raiders,south-sydney-rabbitohs,Alex Johnston,south-sydney-rabbitohs,returning,0.5822,0.583,0.5861,0.4
-canberra-raiders,south-sydney-rabbitohs,Cody Walker,south-sydney-rabbitohs,returning,0.5811,0.583,0.5842,0.3
-canberra-raiders,south-sydney-rabbitohs,Euan Aitken,south-sydney-rabbitohs,returning,0.583,0.583,0.5787,0.4
-warriors,st-george-illawarra-dragons,Dallin Watene-Zelezniak,warriors,returning,0.8167,0.8167,0.8247,0.8
-warriors,st-george-illawarra-dragons,Tyrell Sloan,st-george-illawarra-dragons,returning,0.8167,0.8167,0.819,0.2
-canterbury-bankstown-bulldogs,wests-tigers,Enari Tuala,canterbury-bankstown-bulldogs,returning,0.5599,0.5597,0.5668,0.7
-dolphins,north-queensland-cowboys,Jack Bostock,dolphins,returning,0.654,0.6531,0.6538,0.0
-dolphins,north-queensland-cowboys,Max Plath,dolphins,returning,0.6531,0.6531,0.6547,0.2
+penrith-panthers,brisbane-broncos,Casey McLean,penrith-panthers,IN DOUBT,0.8404,0.8402,0.8414,0.1
+penrith-panthers,brisbane-broncos,Isaiah Papali'i,penrith-panthers,returning,0.8405,0.8402,0.8391,0.1
+penrith-panthers,brisbane-broncos,Ezra Mam,brisbane-broncos,returning,0.84,0.8402,0.8394,0.1
+penrith-panthers,brisbane-broncos,Adam Reynolds,brisbane-broncos,returning,0.834,0.8402,0.8632,2.9
+penrith-panthers,brisbane-broncos,Brendan Piakura,brisbane-broncos,returning,0.8397,0.8402,0.8469,0.7
+cronulla-sutherland-sharks,newcastle-knights,Greg Marzhew,newcastle-knights,IN DOUBT,0.7528,0.7546,0.7645,1.2
+sydney-roosters,melbourne-storm,Nat Butcher,sydney-roosters,returning,0.6633,0.6629,0.6617,0.2
+sydney-roosters,melbourne-storm,Moses Leo,melbourne-storm,returning,0.6622,0.6629,0.6654,0.3
+canberra-raiders,south-sydney-rabbitohs,Alex Johnston,south-sydney-rabbitohs,returning,0.5983,0.6001,0.6071,0.9
+canberra-raiders,south-sydney-rabbitohs,Cody Walker,south-sydney-rabbitohs,returning,0.5982,0.6001,0.605,0.7
+canberra-raiders,south-sydney-rabbitohs,Euan Aitken,south-sydney-rabbitohs,returning,0.6001,0.6001,0.6057,0.6
+warriors,st-george-illawarra-dragons,Dallin Watene-Zelezniak,warriors,returning,0.827,0.8269,0.8318,0.5
+warriors,st-george-illawarra-dragons,Tyrell Sloan,st-george-illawarra-dragons,returning,0.8269,0.8269,0.8283,0.1
+canterbury-bankstown-bulldogs,wests-tigers,Enari Tuala,canterbury-bankstown-bulldogs,returning,0.5582,0.558,0.5616,0.3
+dolphins,north-queensland-cowboys,Jack Bostock,dolphins,returning,0.6617,0.6607,0.6569,0.5
+dolphins,north-queensland-cowboys,Max Plath,dolphins,returning,0.661,0.6607,0.651,1.0

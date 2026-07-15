@@ -106,3 +106,29 @@ def build_stats_feature(results):
                 break
     ratings = {pid: psum[pid] / (pn[pid] + SHRINK_GAMES) for pid in psum}
     return feat, ratings
+
+
+def positional_means():
+    """Mean stats rating by position - for centring individual-level uses.
+    (Team-level features are unaffected: identical positional structure
+    means centring cancels in home-away differences.)"""
+    import json
+    PG, stat_cols = _load_player_games()
+    sc, w = _stage1_weights(PG, stat_cols)
+    PG, psum, pn = _walk_forward(PG, stat_cols, sc, w)
+    ratings = {pid: psum[pid] / (pn[pid] + SHRINK_GAMES) for pid in psum}
+    pos = {}
+    recs = [json.loads(l) for l in open(STATS)]
+    for r in recs:
+        for p in r.get("players", []):
+            if p.get("position"):
+                pos.setdefault(p["playerId"], []).append(p["position"])
+    from collections import Counter
+    modal = {pid: Counter(v).most_common(1)[0][0] for pid, v in pos.items()}
+    bypos = {}
+    for pid, rt in ratings.items():
+        if pn.get(pid, 0) >= 5 and pid in modal:
+            bypos.setdefault(modal[pid], []).append(rt)
+    import numpy as np
+    means = {k: float(np.mean(v)) for k, v in bypos.items() if len(v) >= 10}
+    return means, modal

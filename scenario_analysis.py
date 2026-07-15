@@ -24,7 +24,7 @@ from nrl_model import build_features
 from nrl_player_model import load_lineups, attach_lineups, build_player_features, \
     fit_player_ratings, SPINE
 from injury_adjust import get_casualty_list, injury_status
-from stats_ratings import build_stats_feature
+from stats_ratings import build_stats_feature, positional_means
 
 
 def main(round_arg=None):
@@ -49,6 +49,10 @@ def main(round_arg=None):
     X_pl = build_player_features(results, lbr)
     X = pd.concat([X_elo.reset_index(drop=True), X_pl], axis=1)
     stats_feat, stats_rt = build_stats_feature(results)
+    pos_means, modal_pos = positional_means()
+    def centred(nrlid):
+        r = stats_rt.get(nrlid, 0.0)
+        return r - pos_means.get(modal_pos.get(nrlid, ""), 0.0)
     X["stats_strength_diff"] = stats_feat
     ok = X.notna().all(axis=1).values
     tr = mask.values & ok & (df.season >= 2021)
@@ -122,7 +126,7 @@ def main(round_arg=None):
                         if p["pos"] in SPINE:
                             spine_ids.add(p["pid"])
                     if p["nrlid"]:
-                        rs = stats_rt.get(p["nrlid"], 0.0)
+                        rs = centred(p["nrlid"])
                         stat += rs * f if rs > 0 else rs
                 s_pres[key], s_stat[key] = pres, stat
                 ret[key] = len(ids & last17.get(team, set())) / 17.0
