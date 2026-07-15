@@ -18,11 +18,21 @@ BANKROLL = 100.0
 MIN_EV = 0.06            # supported by the 2022-26 threshold backtest
 KELLY_FRACTION = 0.25
 
+KEY = ["date_key", "home", "away", "side"]
+
+def _load_ledger():
+    L = pd.read_csv(LEDGER, parse_dates=["date"])
+    L["date_key"] = L.date.dt.strftime("%Y-%m-%d")
+    before = len(L)
+    L = L.drop_duplicates(subset=KEY, keep="first").reset_index(drop=True)
+    if len(L) < before:
+        print(f"Paper bets: removed {before - len(L)} duplicate rows (self-heal)")
+    return L
 
 def grade():
     if not os.path.exists(LEDGER):
         return
-    L = pd.read_csv(LEDGER, parse_dates=["date"])
+    L = _load_ledger()
     results = pd.read_csv(os.path.join(HERE, "nrl_results.csv"), parse_dates=["date"])
     n = 0
     for i in L[L.result.isna()].index:
@@ -40,7 +50,7 @@ def grade():
             L.loc[i, "result"] = "win" if won else "loss"
             L.loc[i, "profit"] = round(r.stake * (r.odds - 1), 2) if won else -r.stake
         n += 1
-    L.to_csv(LEDGER, index=False)
+    L.drop(columns="date_key").to_csv(LEDGER, index=False)
     done = L.dropna(subset=["profit"])
     if len(done):
         print(f"Paper bets: graded {n} new | season: {len(done)} bets, "
@@ -86,14 +96,17 @@ def place():
     if C.stake.sum() > BANKROLL:
         C["stake"] = (C.stake * BANKROLL / C.stake.sum()).round(0)
     C = C[C.stake >= 1].drop(columns="_kelly")
+    C["date_key"] = pd.to_datetime(C.date).dt.strftime("%Y-%m-%d")
     if os.path.exists(LEDGER):
-        old = pd.read_csv(LEDGER, parse_dates=["date"])
-        key = ["date", "home", "away", "side"]
-        C = C[~C.set_index(key).index.isin(old.set_index(key).index)]
+        old = _load_ledger()
+        C = C[~C.set_index(KEY).index.isin(old.set_index(KEY).index)]
+        n_new = len(C)
         C = pd.concat([old, C], ignore_index=True)
-    C.to_csv(LEDGER, index=False)
-    new_n = len(C) - (len(old) if os.path.exists(LEDGER) and "old" in dir() else 0)
-    print(f"Paper bets: slate recorded -> bets_ledger.csv")
+    else:
+        n_new = len(C)
+    C = C.drop_duplicates(subset=KEY, keep="first")
+    C.drop(columns="date_key").to_csv(LEDGER, index=False)
+    print(f"Paper bets: {n_new} new bets recorded -> bets_ledger.csv")
 
 
 if __name__ == "__main__":
