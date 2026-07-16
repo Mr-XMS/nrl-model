@@ -346,7 +346,9 @@ def main(round_arg=None):
             line += f"  [WET forecast {mm:.0f}mm - weather variant: home {p_c:.0%}]"
         if fx["state"] in ("Upcoming", "Pre"):
             fh = os.path.join(HERE, "forecast_history.csv")
-            pd.DataFrame([dict(run_time=pd.Timestamp.now().strftime("%Y-%m-%d %H:%M"),
+            if "RUN_STAMP" not in globals():
+                globals()["RUN_STAMP"] = pd.Timestamp.now().strftime("%Y-%m-%d %H:%M")
+            pd.DataFrame([dict(run_time=RUN_STAMP,
                 date=fixture_date.normalize(), home_team=h, away_team=a,
                 kickoff=fx.get("kickoff"), venue_city=fx.get("venue_city"),
                 p_base=round(p, 4), p_market=round(p_mkt, 4) if p_mkt is not None else np.nan,

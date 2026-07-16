@@ -143,7 +143,8 @@ with tab_week:
         if fhist is not None and len(fhist):
             st.subheader("What changed since the previous run")
             f = fhist.copy()
-            f["run_time"] = pd.to_datetime(f.run_time)
+            f["run_time"] = pd.to_datetime(f.run_time).dt.floor("30min")
+            f = f.drop_duplicates(["run_time", "home_team", "away_team"], keep="last")
             runs = sorted(f.run_time.unique())
             if len(runs) >= 2:
                 cur = f[f.run_time == runs[-1]].set_index(["home_team", "away_team"])
