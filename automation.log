@@ -966,3 +966,122 @@ manly-warringah-sea-eagles v cronulla-sutherland-sharks
 
 Price snapshot logged: 208 quotes -> odds_history.csv
 ===== done =====
+
+===== 2026-07-17 13:56 (day 5) =====
+15 upcoming NRL games, scanning...
+
+cronulla-sutherland-sharks v newcastle-knights
+  best: cronulla-sutherland-sharks @ 1.40 (PointsBet (AU))  |  newcastle-knights @ 3.40 (Betfair)
+  combined implied: 100.8%
+  live blend 73% home -> best-price EV: cronulla-sutherland-sharks +2.1% @ 1.40 (PointsBet (AU))
+
+sydney-roosters v melbourne-storm
+  best: sydney-roosters @ 1.31 (Betfair)  |  melbourne-storm @ 4.00 (Betfair)
+  combined implied: 101.3%
+  live blend 72% home -> best-price EV: melbourne-storm +13.3% @ 4.00 (Betfair)  >>> VALUE
+
+canberra-raiders v south-sydney-rabbitohs
+  best: canberra-raiders @ 1.98 (Betfair)  |  south-sydney-rabbitohs @ 1.92 (SportsBet)
+  combined implied: 102.6%
+  live blend 53% home -> best-price EV: canberra-raiders +5.7% @ 1.98 (Betfair)  >>> VALUE
+
+warriors v st-george-illawarra-dragons
+  best: warriors @ 1.20 (SportsBet)  |  st-george-illawarra-dragons @ 5.90 (Betfair)
+  combined implied: 100.3%
+  live blend 85% home -> best-price EV: warriors +2.0% @ 1.20 (SportsBet)
+
+canterbury-bankstown-bulldogs v wests-tigers
+  best: canterbury-bankstown-bulldogs @ 1.56 (Betfair)  |  wests-tigers @ 2.70 (TABtouch)
+  combined implied: 101.1%
+  live blend 62% home -> best-price EV: wests-tigers +2.9% @ 2.70 (TABtouch)
+
+gold-coast-titans v manly-warringah-sea-eagles
+  best: gold-coast-titans @ 2.48 (TABtouch)  |  manly-warringah-sea-eagles @ 1.60 (TAB)
+  combined implied: 102.8%
+  live blend 32% home -> best-price EV: manly-warringah-sea-eagles +9.1% @ 1.60 (TAB)  >>> VALUE
+
+dolphins v north-queensland-cowboys
+  best: dolphins @ 1.67 (SportsBet)  |  north-queensland-cowboys @ 2.46 (Betfair)
+  combined implied: 100.5%
+  live blend 60% home -> best-price EV: dolphins -0.3% @ 1.67 (SportsBet)
+
+parramatta-eels v penrith-panthers
+  best: parramatta-eels @ 4.35 (SportsBet)  |  penrith-panthers @ 1.22 (SportsBet)
+  combined implied: 105.0%
+
+newcastle-knights v sydney-roosters
+  best: newcastle-knights @ 2.27 (SportsBet)  |  sydney-roosters @ 1.65 (TAB)
+  combined implied: 104.7%
+
+south-sydney-rabbitohs v melbourne-storm
+  best: south-sydney-rabbitohs @ 1.50 (TAB)  |  melbourne-storm @ 2.67 (SportsBet)
+  combined implied: 104.1%
+
+canberra-raiders v wests-tigers
+  best: canberra-raiders @ 1.40 (TAB)  |  wests-tigers @ 3.03 (SportsBet)
+  combined implied: 104.4%
+
+canterbury-bankstown-bulldogs v warriors
+  best: canterbury-bankstown-bulldogs @ 2.60 (TAB)  |  warriors @ 1.51 (SportsBet)
+  combined implied: 104.7%
+
+north-queensland-cowboys v brisbane-broncos
+  best: north-queensland-cowboys @ 1.91 (SportsBet)  |  brisbane-broncos @ 2.05 (TAB)
+  combined implied: 101.1%
+
+st-george-illawarra-dragons v gold-coast-titans
+  best: st-george-illawarra-dragons @ 1.92 (SportsBet)  |  gold-coast-titans @ 1.92 (SportsBet)
+  combined implied: 104.2%
+
+manly-warringah-sea-eagles v cronulla-sutherland-sharks
+  best: manly-warringah-sea-eagles @ 1.90 (TAB)  |  cronulla-sutherland-sharks @ 1.97 (SportsBet)
+  combined implied: 103.4%
+
+Price snapshot logged: 186 quotes -> odds_history.csv
+Fetching announced team lists: 2026 Round 20...
+Casualty ward: 72 players listed
+done: 1 scraped
+Running model comparison record:
+  A: baseline            n=7  acc=0.429  logloss=0.8134  brier=0.3057
+  B: return-adjusted     n=7  acc=0.429  logloss=0.8130  brier=0.3056
+  C: weather-adjusted    n=7  acc=0.429  logloss=0.8496  brier=0.3209
+  Matches where the two models actually differ: 7 of 7
+
+penrith-panthers v brisbane-broncos: penrith-panthers (82%)  [WET forecast 7mm - weather variant: home 71%]   [PLAYED: 12-14]
+    player strength diff +0.36 | retention 71% v 65% | spine run 1 v 1
+    note: brisbane-broncos: Brendan Piakura (Head knock, listed return TBC) - IN DOUBT, rating x0.6
+
+cronulla-sutherland-sharks v newcastle-knights: cronulla-sutherland-sharks (75%)  [WET forecast 7mm - weather variant: home 67%]
+    market 69% home | blend 72% home  >>> EDGE: model likes cronulla-sutherland-sharks (7 pts vs market)
+    player strength diff +0.06 | retention 88% v 76% | spine run 2 v 1
+    note: newcastle-knights: 1 debutant/unmatched (rated league-average): Lachlan Crouch
+
+sydney-roosters v melbourne-storm: sydney-roosters (69%)  [WET forecast 7mm - weather variant: home 61%]
+    market 74% home | blend 72% home
+    player strength diff +1.23 | retention 76% v 76% | spine run 1 v 1
+
+canberra-raiders v south-sydney-rabbitohs: canberra-raiders (58%)
+    market 50% home | blend 54% home  >>> EDGE: model likes canberra-raiders (8 pts vs market)
+    player strength diff -0.03 | retention 100% v 82% | spine run 1 v 1
+
+warriors v st-george-illawarra-dragons: warriors (82%)  [return-adjusted variant: home 82%]
+    market 79% home | blend 81% home
+    player strength diff +2.29 | retention 76% v 94% | spine run 7 v 8
+    note: warriors: 1 debutant/unmatched (rated league-average): Leka Halasima
+
+canterbury-bankstown-bulldogs v wests-tigers: canterbury-bankstown-bulldogs (57%)
+    market 63% home | blend 60% home  >>> EDGE: model likes wests-tigers (6 pts vs market)
+    player strength diff +0.06 | retention 82% v 94% | spine run 1 v 1
+    note: canterbury-bankstown-bulldogs: 1 debutant/unmatched (rated league-average): Jethro Rinakama
+
+gold-coast-titans v manly-warringah-sea-eagles: manly-warringah-sea-eagles (80%)  [WET forecast 9mm - weather variant: home 28%]
+    market 39% home | blend 28% home  >>> EDGE: model likes manly-warringah-sea-eagles (19 pts vs market)
+    player strength diff -1.40 | retention 88% v 88% | spine run 8 v 3
+    note: gold-coast-titans: 1 debutant/unmatched (rated league-average): Jojo Fifita
+
+dolphins v north-queensland-cowboys: dolphins (65%)
+    market 57% home | blend 61% home  >>> EDGE: model likes dolphins (8 pts vs market)
+    player strength diff +0.20 | retention 82% v 88% | spine run 1 v 4
+
+All fixtures already logged this week (first predictions kept).
+===== done =====
