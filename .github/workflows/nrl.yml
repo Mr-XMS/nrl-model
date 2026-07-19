@@ -2,13 +2,12 @@ name: NRL Model Automation
 
 on:
   schedule:
-    # Cron is UTC. AEST = UTC+10. All entries land on the same weekday in both zones.
-    - cron: '0 0 * * 1'    # Mon 10:00 AEST  - results + grading
-    - cron: '30 10 * * 2'  # Tue 20:30 AEST  - full forecast + ledger + odds fill + scan
-    - cron: '0 8 * * 4'    # Thu 18:00 AEST  - odds scan
-    - cron: '0 1 * * 5'    # Fri 11:00 AEST  - game-day scan + lineup check
-    - cron: '0 1 * * 6'    # Sat 11:00 AEST
-    - cron: '0 1 * * 0'    # Sun 11:00 AEST
+    - cron: '13 0 * * 1'    # Mon ~10:13 AEST - grading (timing uncritical)
+    - cron: '43 10 * * 2'   # Tue ~20:43 AEST - full pipeline (drift-safe: lists out by then)
+    - cron: '13 5 * * 4'    # Thu ~15:13 AEST - game-day scan, 4.5h before typical 7:50pm kickoff
+    - cron: '13 23 * * 4'   # Fri ~09:13 AEST (cron day is Thursday in UTC - see note)
+    - cron: '13 23 * * 5'   # Sat ~09:13 AEST
+    - cron: '13 23 * * 6'   # Sun ~09:13 AEST - hours clear of 2pm Sunday footy
   workflow_dispatch:
     inputs:
       force_day:
