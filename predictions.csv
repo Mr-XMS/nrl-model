@@ -11,11 +11,19 @@ run_date,season,round,date,home_team,away_team,venue,p_home_win,predicted_winner
 2026-07-07,2026,Round 19,2026-07-12,manly-warringah-sea-eagles,north-queensland-cowboys,4 Pines,0.594,manly-warringah-sea-eagles,0.0
 2026-07-07,2026,Round 19,2026-07-12,melbourne-storm,gold-coast-titans,AAMI,0.767,melbourne-storm,1.0
 2026-07-10,2026,Round 19,2026-07-11,dolphins,cronulla,Kayo,0.663,dolphins,
-2026-07-13,2026,Round 20 - Women in League Round,2026-07-16,penrith-panthers,brisbane-broncos,CommBank,0.864,penrith-panthers,
-2026-07-13,2026,Round 20 - Women in League Round,2026-07-17,cronulla-sutherland-sharks,newcastle-knights,Ocean Protect,0.767,cronulla-sutherland-sharks,
-2026-07-13,2026,Round 20 - Women in League Round,2026-07-17,sydney-roosters,melbourne-storm,Allianz,0.658,sydney-roosters,
-2026-07-13,2026,Round 20 - Women in League Round,2026-07-18,canberra-raiders,south-sydney-rabbitohs,GIO,0.889,canberra-raiders,
-2026-07-13,2026,Round 20 - Women in League Round,2026-07-18,warriors,st-george-illawarra-dragons,Go Media,0.53,warriors,
-2026-07-13,2026,Round 20 - Women in League Round,2026-07-18,canterbury-bankstown-bulldogs,wests-tigers,Accor,0.672,canterbury-bankstown-bulldogs,
-2026-07-13,2026,Round 20 - Women in League Round,2026-07-19,gold-coast-titans,manly-warringah-sea-eagles,Cbus Super,0.309,manly-warringah-sea-eagles,
-2026-07-13,2026,Round 20 - Women in League Round,2026-07-19,dolphins,north-queensland-cowboys,Suncorp,0.646,dolphins,
+2026-07-13,2026,Round 20 - Women in League Round,2026-07-16,penrith-panthers,brisbane-broncos,CommBank,0.864,penrith-panthers,0.0
+2026-07-13,2026,Round 20 - Women in League Round,2026-07-17,cronulla-sutherland-sharks,newcastle-knights,Ocean Protect,0.767,cronulla-sutherland-sharks,1.0
+2026-07-13,2026,Round 20 - Women in League Round,2026-07-17,sydney-roosters,melbourne-storm,Allianz,0.658,sydney-roosters,1.0
+2026-07-13,2026,Round 20 - Women in League Round,2026-07-18,canberra-raiders,south-sydney-rabbitohs,GIO,0.889,canberra-raiders,1.0
+2026-07-13,2026,Round 20 - Women in League Round,2026-07-18,warriors,st-george-illawarra-dragons,Go Media,0.53,warriors,1.0
+2026-07-13,2026,Round 20 - Women in League Round,2026-07-18,canterbury-bankstown-bulldogs,wests-tigers,Accor,0.672,canterbury-bankstown-bulldogs,1.0
+2026-07-13,2026,Round 20 - Women in League Round,2026-07-19,gold-coast-titans,manly-warringah-sea-eagles,Cbus Super,0.309,manly-warringah-sea-eagles,1.0
+2026-07-13,2026,Round 20 - Women in League Round,2026-07-19,dolphins,north-queensland-cowboys,Suncorp,0.646,dolphins,1.0
+2026-07-20,2026,Round 21,2026-07-23,parramatta-eels,penrith-panthers,CommBank,0.318,penrith-panthers,
+2026-07-20,2026,Round 21,2026-07-24,newcastle-knights,sydney-roosters,McD. Jones,0.439,sydney-roosters,
+2026-07-20,2026,Round 21,2026-07-24,south-sydney-rabbitohs,melbourne-storm,Accor,0.56,south-sydney-rabbitohs,
+2026-07-20,2026,Round 21,2026-07-25,canberra-raiders,wests-tigers,GIO,0.323,wests-tigers,
+2026-07-20,2026,Round 21,2026-07-25,canterbury-bankstown-bulldogs,warriors,Accor,0.728,canterbury-bankstown-bulldogs,
+2026-07-20,2026,Round 21,2026-07-25,north-queensland-cowboys,brisbane-broncos,QLD C. Bank,0.609,north-queensland-cowboys,
+2026-07-20,2026,Round 21,2026-07-26,st-george-illawarra-dragons,gold-coast-titans,SGV Jubilee,0.641,st-george-illawarra-dragons,
+2026-07-20,2026,Round 21,2026-07-26,manly-warringah-sea-eagles,cronulla-sutherland-sharks,4 Pines,0.403,cronulla-sutherland-sharks,
