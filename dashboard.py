@@ -184,6 +184,20 @@ with tab_record:
             done["cumulative accuracy"] = done.correct.expanding().mean()
             st.line_chart(done.set_index("date")["cumulative accuracy"])
             st.caption("Long-run backtest expectation: ~65%")
+            st.subheader("Accuracy by round")
+            import re as _re
+            done["rnd"] = done["round"].astype(str).apply(
+                lambda s: "R" + _re.search(r"(\d+)", s).group(1)
+                if _re.search(r"(\d+)", s) else s)
+            byr = done.groupby("rnd", sort=False).agg(
+                picks=("correct", "size"),
+                won=("correct", "sum"),
+                accuracy=("correct", "mean"))
+            byr["brier"] = done.groupby("rnd", sort=False).apply(
+                lambda g: ((g.p_home_win - g.actual_home_win) ** 2).mean()).round(3)
+            byr["accuracy"] = (byr.accuracy * 100).round(0).astype(int).astype(str) + "%"
+            st.dataframe(byr, use_container_width=True)
+            st.bar_chart(done.groupby("rnd", sort=False).correct.mean())
         else:
             st.info("No graded picks yet.")
     with c2:
