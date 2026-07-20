@@ -38,9 +38,9 @@ ROW_RE = re.compile(
     r'<td align="right">(?P<date>[^<]*)</td>\s*'
     r'<td>(?P<daytime>[^<]*)</td>\s*'
     r'<td class="team"><a href="/seasons/[^/]+/(?P<home>[^/]+)/summary\.html">[^<]*</a></td>\s*'
-    r'<td class="n">(?P<hp>\d+|&nbsp;)<!--[^>]*-->\s*</td>\s*'
+    r'<td class="n">(?P<hp>\d+|&nbsp;)(?:<!--[^>]*-->)?\s*</td>\s*'
     r'<td class="team"><a href="/seasons/[^/]+/(?P<away>[^/]+)/summary\.html">[^<]*</a></td>\s*'
-    r'<td class="n">(?P<ap>\d+|&nbsp;)<!--[^>]*-->\s*</td>\s*'
+    r'<td class="n">(?P<ap>\d+|&nbsp;)(?:<!--[^>]*-->)?\s*</td>\s*'
     r'(?P<rest>.*?)</tr>', re.S)
 VENUE_RE = re.compile(r'<a href="/venues/\d+">([^<]+)</a>')
 
@@ -92,6 +92,9 @@ def merge_results(played):
     df[["home_team", "away_team"]] = df[["home_team", "away_team"]].replace(ALIASES)
     df = df.drop_duplicates(subset=["season", "date", "home_team", "away_team"], keep="first")
     new = pd.DataFrame(played)
+    if not len(new):
+        print("WARNING: RLP parser found no completed matches - site layout may have changed")
+        return df, 0
     new["date"] = pd.to_datetime(new["date"])
     key = ["season", "date", "home_team", "away_team"]
     merged = pd.concat([df, new], ignore_index=True)
