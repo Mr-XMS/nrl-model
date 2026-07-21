@@ -3,7 +3,7 @@ name: NRL Model Automation
 on:
   schedule:
     - cron: '13 0 * * 1'    # Mon ~10:13 AEST - grading (timing uncritical)
-    - cron: '43 10 * * 2'   # Tue ~20:43 AEST - full pipeline (drift-safe: lists out by then)
+    - cron: '30 7 * * 2'   # Tue ~17:30 AEST - full pipeline (drift-safe: lists out by then)
     - cron: '13 5 * * 4'    # Thu ~15:13 AEST - game-day scan, 4.5h before typical 7:50pm kickoff
     - cron: '13 23 * * 4'   # Fri ~09:13 AEST (cron day is Thursday in UTC - see note)
     - cron: '13 23 * * 5'   # Sat ~09:13 AEST
