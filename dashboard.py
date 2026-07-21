@@ -333,10 +333,6 @@ with tab_verdict:
     if comp is not None:
         done = comp.dropna(subset=["actual_home_win"]).copy()
         if len(done) >= 5:
-            y = done.actual_home_win.astype(float).values
-            def ll(p):
-                p = np.clip(pd.to_numeric(p, errors="coerce").values, 1e-6, 1-1e-6)
-                return -(y*np.log(p) + (1-y)*np.log(1-p))
             comparisons = [("B (fitness) vs A", "p_retadj", "p_base"),
                            ("C (weather) vs A", "p_wet", "p_base"),
                            ("Blend vs Market", "p_blend", "p_market")]
@@ -347,6 +343,10 @@ with tab_verdict:
                 ok = done[c1].notna() & done[c2].notna()
                 if ok.sum() < 5:
                     continue
+                yy = done.loc[ok, "actual_home_win"].astype(float).values
+                def ll(p):
+                    p = np.clip(pd.to_numeric(p, errors="coerce").values, 1e-6, 1-1e-6)
+                    return -(yy*np.log(p) + (1-yy)*np.log(1-p))
                 d = ll(done.loc[ok, c2]) - ll(done.loc[ok, c1])   # + means c1 better
                 boots = [d[rng.integers(0, len(d), len(d))].mean() for _ in range(2000)]
                 lo, hi = np.percentile(boots, [5, 95])
