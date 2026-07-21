@@ -45,3 +45,11 @@ run_time,date,home_team,away_team,kickoff,venue_city,p_base,p_market,wet,notes
 2026-07-18 13:56,2026-07-19,dolphins,north-queensland-cowboys,2026-07-19T06:05:00Z,Brisbane,0.6506,0.5685,0,0
 2026-07-19 14:11,2026-07-19,dolphins,north-queensland-cowboys,2026-07-19T06:05:00Z,Brisbane,0.6372,0.5795,0,0
 2026-07-19 14:21,2026-07-19,dolphins,north-queensland-cowboys,2026-07-19T06:05:00Z,Brisbane,0.6372,0.5795,0,0
+2026-07-21 17:10,2026-07-23,parramatta-eels,penrith-panthers,2026-07-23T09:50:00Z,Sydney,0.2341,0.1853,0,3
+2026-07-21 17:10,2026-07-24,newcastle-knights,sydney-roosters,2026-07-24T08:00:00Z,Newcastle,0.4429,0.443,0,4
+2026-07-21 17:10,2026-07-24,south-sydney-rabbitohs,melbourne-storm,2026-07-24T10:00:00Z,Sydney,0.5647,0.4896,0,3
+2026-07-21 17:10,2026-07-25,canberra-raiders,wests-tigers,2026-07-25T05:00:00Z,Canberra,0.6991,0.781,0,3
+2026-07-21 17:10,2026-07-25,canterbury-bankstown-bulldogs,warriors,2026-07-25T07:30:00Z,Sydney,0.3067,0.3692,0,3
+2026-07-21 17:10,2026-07-25,north-queensland-cowboys,brisbane-broncos,2026-07-25T09:35:00Z,Townsville,0.5453,0.4416,0,1
+2026-07-21 17:10,2026-07-26,st-george-illawarra-dragons,gold-coast-titans,2026-07-26T04:00:00Z,Kogarah,0.6465,0.5013,0,2
+2026-07-21 17:10,2026-07-26,manly-warringah-sea-eagles,cronulla-sutherland-sharks,2026-07-26T06:05:00Z,Sydney,0.469,0.4231,0,4
