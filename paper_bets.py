@@ -22,17 +22,7 @@ KEY = ["date_key", "home", "away", "side"]
 
 def _load_ledger():
     L = pd.read_csv(LEDGER, parse_dates=["date"])
-    L["date_key"] = L.date.dt.strftime("%Y-%m-%d")
-    before = len(L)
-    L = L.drop_duplicates(subset=KEY, keep="first").reset_index(drop=True)
-    if len(L) < before:
-        print(f"Paper bets: removed {before - len(L)} duplicate rows (self-heal)")
-    return L
-
-KEY = ["date_key", "home", "away", "side"]
-
-def _load_ledger():
-    L = pd.read_csv(LEDGER, parse_dates=["date"])
+    L["result"] = L["result"].astype("object")
     L["date_key"] = L.date.dt.strftime("%Y-%m-%d")
     before = len(L)
     L = L.drop_duplicates(subset=KEY, keep="first").reset_index(drop=True)

@@ -184,6 +184,20 @@ with tab_record:
             done["cumulative accuracy"] = done.correct.expanding().mean()
             st.line_chart(done.set_index("date")["cumulative accuracy"])
             st.caption("Long-run backtest expectation: ~65%")
+            st.subheader("Accuracy by round")
+            import re as _re
+            done["rnd"] = done["round"].astype(str).apply(
+                lambda s: "R" + _re.search(r"(\d+)", s).group(1)
+                if _re.search(r"(\d+)", s) else s)
+            byr = done.groupby("rnd", sort=False).agg(
+                picks=("correct", "size"),
+                won=("correct", "sum"),
+                accuracy=("correct", "mean"))
+            byr["brier"] = done.groupby("rnd", sort=False).apply(
+                lambda g: ((g.p_home_win - g.actual_home_win) ** 2).mean()).round(3)
+            byr["accuracy"] = (byr.accuracy * 100).round(0).astype(int).astype(str) + "%"
+            st.dataframe(byr, use_container_width=True)
+            st.bar_chart(done.groupby("rnd", sort=False).correct.mean())
         else:
             st.info("No graded picks yet.")
     with c2:
@@ -319,10 +333,6 @@ with tab_verdict:
     if comp is not None:
         done = comp.dropna(subset=["actual_home_win"]).copy()
         if len(done) >= 5:
-            y = done.actual_home_win.astype(float).values
-            def ll(p):
-                p = np.clip(pd.to_numeric(p, errors="coerce").values, 1e-6, 1-1e-6)
-                return -(y*np.log(p) + (1-y)*np.log(1-p))
             comparisons = [("B (fitness) vs A", "p_retadj", "p_base"),
                            ("C (weather) vs A", "p_wet", "p_base"),
                            ("Blend vs Market", "p_blend", "p_market")]
@@ -333,6 +343,10 @@ with tab_verdict:
                 ok = done[c1].notna() & done[c2].notna()
                 if ok.sum() < 5:
                     continue
+                yy = done.loc[ok, "actual_home_win"].astype(float).values
+                def ll(p):
+                    p = np.clip(pd.to_numeric(p, errors="coerce").values, 1e-6, 1-1e-6)
+                    return -(yy*np.log(p) + (1-yy)*np.log(1-p))
                 d = ll(done.loc[ok, c2]) - ll(done.loc[ok, c1])   # + means c1 better
                 boots = [d[rng.integers(0, len(d), len(d))].mean() for _ in range(2000)]
                 lo, hi = np.percentile(boots, [5, 95])

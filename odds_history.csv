@@ -1743,3 +1743,1335 @@ scan_time,kickoff,home,away,book,team,odds
 2026-07-16 19:59,2026-07-26,manly-warringah-sea-eagles,cronulla-sutherland-sharks,SportsBet,manly-warringah-sea-eagles,1.87
 2026-07-16 19:59,2026-07-26,manly-warringah-sea-eagles,cronulla-sutherland-sharks,TAB,cronulla-sutherland-sharks,1.9
 2026-07-16 19:59,2026-07-26,manly-warringah-sea-eagles,cronulla-sutherland-sharks,TAB,manly-warringah-sea-eagles,1.9
+2026-07-17 13:56,2026-07-17,cronulla-sutherland-sharks,newcastle-knights,SportsBet,cronulla-sutherland-sharks,1.38
+2026-07-17 13:56,2026-07-17,cronulla-sutherland-sharks,newcastle-knights,SportsBet,newcastle-knights,3.04
+2026-07-17 13:56,2026-07-17,cronulla-sutherland-sharks,newcastle-knights,TAB,cronulla-sutherland-sharks,1.38
+2026-07-17 13:56,2026-07-17,cronulla-sutherland-sharks,newcastle-knights,TAB,newcastle-knights,3.1
+2026-07-17 13:56,2026-07-17,cronulla-sutherland-sharks,newcastle-knights,PointsBet (AU),cronulla-sutherland-sharks,1.4
+2026-07-17 13:56,2026-07-17,cronulla-sutherland-sharks,newcastle-knights,PointsBet (AU),newcastle-knights,2.9
+2026-07-17 13:56,2026-07-17,cronulla-sutherland-sharks,newcastle-knights,Ladbrokes,cronulla-sutherland-sharks,1.36
+2026-07-17 13:56,2026-07-17,cronulla-sutherland-sharks,newcastle-knights,Ladbrokes,newcastle-knights,3.1
+2026-07-17 13:56,2026-07-17,cronulla-sutherland-sharks,newcastle-knights,Neds,cronulla-sutherland-sharks,1.36
+2026-07-17 13:56,2026-07-17,cronulla-sutherland-sharks,newcastle-knights,Neds,newcastle-knights,3.1
+2026-07-17 13:56,2026-07-17,cronulla-sutherland-sharks,newcastle-knights,PlayUp,cronulla-sutherland-sharks,1.37
+2026-07-17 13:56,2026-07-17,cronulla-sutherland-sharks,newcastle-knights,PlayUp,newcastle-knights,3.1
+2026-07-17 13:56,2026-07-17,cronulla-sutherland-sharks,newcastle-knights,Betr,cronulla-sutherland-sharks,1.38
+2026-07-17 13:56,2026-07-17,cronulla-sutherland-sharks,newcastle-knights,Betr,newcastle-knights,3.05
+2026-07-17 13:56,2026-07-17,cronulla-sutherland-sharks,newcastle-knights,TABtouch,cronulla-sutherland-sharks,1.36
+2026-07-17 13:56,2026-07-17,cronulla-sutherland-sharks,newcastle-knights,TABtouch,newcastle-knights,3.15
+2026-07-17 13:56,2026-07-17,cronulla-sutherland-sharks,newcastle-knights,Unibet,cronulla-sutherland-sharks,1.35
+2026-07-17 13:56,2026-07-17,cronulla-sutherland-sharks,newcastle-knights,Unibet,newcastle-knights,3.15
+2026-07-17 13:56,2026-07-17,cronulla-sutherland-sharks,newcastle-knights,Bet Right,cronulla-sutherland-sharks,1.38
+2026-07-17 13:56,2026-07-17,cronulla-sutherland-sharks,newcastle-knights,Bet Right,newcastle-knights,3.05
+2026-07-17 13:56,2026-07-17,cronulla-sutherland-sharks,newcastle-knights,Betfair,cronulla-sutherland-sharks,1.4
+2026-07-17 13:56,2026-07-17,cronulla-sutherland-sharks,newcastle-knights,Betfair,newcastle-knights,3.4
+2026-07-17 13:56,2026-07-17,sydney-roosters,melbourne-storm,SportsBet,melbourne-storm,3.66
+2026-07-17 13:56,2026-07-17,sydney-roosters,melbourne-storm,SportsBet,sydney-roosters,1.28
+2026-07-17 13:56,2026-07-17,sydney-roosters,melbourne-storm,TAB,melbourne-storm,3.9
+2026-07-17 13:56,2026-07-17,sydney-roosters,melbourne-storm,TAB,sydney-roosters,1.26
+2026-07-17 13:56,2026-07-17,sydney-roosters,melbourne-storm,Neds,melbourne-storm,3.75
+2026-07-17 13:56,2026-07-17,sydney-roosters,melbourne-storm,Neds,sydney-roosters,1.28
+2026-07-17 13:56,2026-07-17,sydney-roosters,melbourne-storm,Ladbrokes,melbourne-storm,3.75
+2026-07-17 13:56,2026-07-17,sydney-roosters,melbourne-storm,Ladbrokes,sydney-roosters,1.28
+2026-07-17 13:56,2026-07-17,sydney-roosters,melbourne-storm,PointsBet (AU),melbourne-storm,3.85
+2026-07-17 13:56,2026-07-17,sydney-roosters,melbourne-storm,PointsBet (AU),sydney-roosters,1.25
+2026-07-17 13:56,2026-07-17,sydney-roosters,melbourne-storm,PlayUp,melbourne-storm,3.9
+2026-07-17 13:56,2026-07-17,sydney-roosters,melbourne-storm,PlayUp,sydney-roosters,1.26
+2026-07-17 13:56,2026-07-17,sydney-roosters,melbourne-storm,Betr,melbourne-storm,3.7
+2026-07-17 13:56,2026-07-17,sydney-roosters,melbourne-storm,Betr,sydney-roosters,1.28
+2026-07-17 13:56,2026-07-17,sydney-roosters,melbourne-storm,TABtouch,melbourne-storm,3.9
+2026-07-17 13:56,2026-07-17,sydney-roosters,melbourne-storm,TABtouch,sydney-roosters,1.26
+2026-07-17 13:56,2026-07-17,sydney-roosters,melbourne-storm,Unibet,melbourne-storm,3.8
+2026-07-17 13:56,2026-07-17,sydney-roosters,melbourne-storm,Unibet,sydney-roosters,1.25
+2026-07-17 13:56,2026-07-17,sydney-roosters,melbourne-storm,Bet Right,melbourne-storm,3.75
+2026-07-17 13:56,2026-07-17,sydney-roosters,melbourne-storm,Bet Right,sydney-roosters,1.27
+2026-07-17 13:56,2026-07-17,sydney-roosters,melbourne-storm,Betfair,melbourne-storm,4.0
+2026-07-17 13:56,2026-07-17,sydney-roosters,melbourne-storm,Betfair,sydney-roosters,1.31
+2026-07-17 13:56,2026-07-18,canberra-raiders,south-sydney-rabbitohs,SportsBet,canberra-raiders,1.92
+2026-07-17 13:56,2026-07-18,canberra-raiders,south-sydney-rabbitohs,SportsBet,south-sydney-rabbitohs,1.92
+2026-07-17 13:56,2026-07-18,canberra-raiders,south-sydney-rabbitohs,Betr,canberra-raiders,1.95
+2026-07-17 13:56,2026-07-18,canberra-raiders,south-sydney-rabbitohs,Betr,south-sydney-rabbitohs,1.85
+2026-07-17 13:56,2026-07-18,canberra-raiders,south-sydney-rabbitohs,TAB,canberra-raiders,1.9
+2026-07-17 13:56,2026-07-18,canberra-raiders,south-sydney-rabbitohs,TAB,south-sydney-rabbitohs,1.9
+2026-07-17 13:56,2026-07-18,canberra-raiders,south-sydney-rabbitohs,Neds,canberra-raiders,1.95
+2026-07-17 13:56,2026-07-18,canberra-raiders,south-sydney-rabbitohs,Neds,south-sydney-rabbitohs,1.87
+2026-07-17 13:56,2026-07-18,canberra-raiders,south-sydney-rabbitohs,Ladbrokes,canberra-raiders,1.95
+2026-07-17 13:56,2026-07-18,canberra-raiders,south-sydney-rabbitohs,Ladbrokes,south-sydney-rabbitohs,1.87
+2026-07-17 13:56,2026-07-18,canberra-raiders,south-sydney-rabbitohs,PointsBet (AU),canberra-raiders,1.9
+2026-07-17 13:56,2026-07-18,canberra-raiders,south-sydney-rabbitohs,PointsBet (AU),south-sydney-rabbitohs,1.9
+2026-07-17 13:56,2026-07-18,canberra-raiders,south-sydney-rabbitohs,PlayUp,canberra-raiders,1.9
+2026-07-17 13:56,2026-07-18,canberra-raiders,south-sydney-rabbitohs,PlayUp,south-sydney-rabbitohs,1.9
+2026-07-17 13:56,2026-07-18,canberra-raiders,south-sydney-rabbitohs,TABtouch,canberra-raiders,1.93
+2026-07-17 13:56,2026-07-18,canberra-raiders,south-sydney-rabbitohs,TABtouch,south-sydney-rabbitohs,1.85
+2026-07-17 13:56,2026-07-18,canberra-raiders,south-sydney-rabbitohs,Unibet,canberra-raiders,1.93
+2026-07-17 13:56,2026-07-18,canberra-raiders,south-sydney-rabbitohs,Unibet,south-sydney-rabbitohs,1.85
+2026-07-17 13:56,2026-07-18,canberra-raiders,south-sydney-rabbitohs,Bet Right,canberra-raiders,1.95
+2026-07-17 13:56,2026-07-18,canberra-raiders,south-sydney-rabbitohs,Bet Right,south-sydney-rabbitohs,1.85
+2026-07-17 13:56,2026-07-18,canberra-raiders,south-sydney-rabbitohs,Betfair,canberra-raiders,1.98
+2026-07-17 13:56,2026-07-18,canberra-raiders,south-sydney-rabbitohs,Betfair,south-sydney-rabbitohs,1.92
+2026-07-17 13:56,2026-07-18,warriors,st-george-illawarra-dragons,SportsBet,warriors,1.2
+2026-07-17 13:56,2026-07-18,warriors,st-george-illawarra-dragons,SportsBet,st-george-illawarra-dragons,4.6
+2026-07-17 13:56,2026-07-18,warriors,st-george-illawarra-dragons,Betr,warriors,1.17
+2026-07-17 13:56,2026-07-18,warriors,st-george-illawarra-dragons,Betr,st-george-illawarra-dragons,5.15
+2026-07-17 13:56,2026-07-18,warriors,st-george-illawarra-dragons,TAB,warriors,1.16
+2026-07-17 13:56,2026-07-18,warriors,st-george-illawarra-dragons,TAB,st-george-illawarra-dragons,5.2
+2026-07-17 13:56,2026-07-18,warriors,st-george-illawarra-dragons,Ladbrokes,warriors,1.16
+2026-07-17 13:56,2026-07-18,warriors,st-george-illawarra-dragons,Ladbrokes,st-george-illawarra-dragons,5.25
+2026-07-17 13:56,2026-07-18,warriors,st-george-illawarra-dragons,Neds,warriors,1.16
+2026-07-17 13:56,2026-07-18,warriors,st-george-illawarra-dragons,Neds,st-george-illawarra-dragons,5.25
+2026-07-17 13:56,2026-07-18,warriors,st-george-illawarra-dragons,PointsBet (AU),warriors,1.16
+2026-07-17 13:56,2026-07-18,warriors,st-george-illawarra-dragons,PointsBet (AU),st-george-illawarra-dragons,5.0
+2026-07-17 13:56,2026-07-18,warriors,st-george-illawarra-dragons,PlayUp,warriors,1.15
+2026-07-17 13:56,2026-07-18,warriors,st-george-illawarra-dragons,PlayUp,st-george-illawarra-dragons,5.5
+2026-07-17 13:56,2026-07-18,warriors,st-george-illawarra-dragons,TABtouch,warriors,1.19
+2026-07-17 13:56,2026-07-18,warriors,st-george-illawarra-dragons,TABtouch,st-george-illawarra-dragons,4.75
+2026-07-17 13:56,2026-07-18,warriors,st-george-illawarra-dragons,Unibet,warriors,1.19
+2026-07-17 13:56,2026-07-18,warriors,st-george-illawarra-dragons,Unibet,st-george-illawarra-dragons,4.6
+2026-07-17 13:56,2026-07-18,warriors,st-george-illawarra-dragons,Bet Right,warriors,1.17
+2026-07-17 13:56,2026-07-18,warriors,st-george-illawarra-dragons,Bet Right,st-george-illawarra-dragons,5.0
+2026-07-17 13:56,2026-07-18,warriors,st-george-illawarra-dragons,Betfair,warriors,1.2
+2026-07-17 13:56,2026-07-18,warriors,st-george-illawarra-dragons,Betfair,st-george-illawarra-dragons,5.9
+2026-07-17 13:56,2026-07-18,canterbury-bankstown-bulldogs,wests-tigers,SportsBet,canterbury-bankstown-bulldogs,1.5
+2026-07-17 13:56,2026-07-18,canterbury-bankstown-bulldogs,wests-tigers,SportsBet,wests-tigers,2.6
+2026-07-17 13:56,2026-07-18,canterbury-bankstown-bulldogs,wests-tigers,Betr,canterbury-bankstown-bulldogs,1.5
+2026-07-17 13:56,2026-07-18,canterbury-bankstown-bulldogs,wests-tigers,Betr,wests-tigers,2.6
+2026-07-17 13:56,2026-07-18,canterbury-bankstown-bulldogs,wests-tigers,TAB,canterbury-bankstown-bulldogs,1.52
+2026-07-17 13:56,2026-07-18,canterbury-bankstown-bulldogs,wests-tigers,TAB,wests-tigers,2.55
+2026-07-17 13:56,2026-07-18,canterbury-bankstown-bulldogs,wests-tigers,Neds,canterbury-bankstown-bulldogs,1.48
+2026-07-17 13:56,2026-07-18,canterbury-bankstown-bulldogs,wests-tigers,Neds,wests-tigers,2.65
+2026-07-17 13:56,2026-07-18,canterbury-bankstown-bulldogs,wests-tigers,Ladbrokes,canterbury-bankstown-bulldogs,1.48
+2026-07-17 13:56,2026-07-18,canterbury-bankstown-bulldogs,wests-tigers,Ladbrokes,wests-tigers,2.65
+2026-07-17 13:56,2026-07-18,canterbury-bankstown-bulldogs,wests-tigers,PointsBet (AU),canterbury-bankstown-bulldogs,1.5
+2026-07-17 13:56,2026-07-18,canterbury-bankstown-bulldogs,wests-tigers,PointsBet (AU),wests-tigers,2.55
+2026-07-17 13:56,2026-07-18,canterbury-bankstown-bulldogs,wests-tigers,PlayUp,canterbury-bankstown-bulldogs,1.52
+2026-07-17 13:56,2026-07-18,canterbury-bankstown-bulldogs,wests-tigers,PlayUp,wests-tigers,2.55
+2026-07-17 13:56,2026-07-18,canterbury-bankstown-bulldogs,wests-tigers,TABtouch,canterbury-bankstown-bulldogs,1.47
+2026-07-17 13:56,2026-07-18,canterbury-bankstown-bulldogs,wests-tigers,TABtouch,wests-tigers,2.7
+2026-07-17 13:56,2026-07-18,canterbury-bankstown-bulldogs,wests-tigers,Unibet,canterbury-bankstown-bulldogs,1.47
+2026-07-17 13:56,2026-07-18,canterbury-bankstown-bulldogs,wests-tigers,Unibet,wests-tigers,2.65
+2026-07-17 13:56,2026-07-18,canterbury-bankstown-bulldogs,wests-tigers,Bet Right,canterbury-bankstown-bulldogs,1.5
+2026-07-17 13:56,2026-07-18,canterbury-bankstown-bulldogs,wests-tigers,Bet Right,wests-tigers,2.6
+2026-07-17 13:56,2026-07-18,canterbury-bankstown-bulldogs,wests-tigers,Betfair,canterbury-bankstown-bulldogs,1.56
+2026-07-17 13:56,2026-07-18,canterbury-bankstown-bulldogs,wests-tigers,Betfair,wests-tigers,2.58
+2026-07-17 13:56,2026-07-19,gold-coast-titans,manly-warringah-sea-eagles,SportsBet,gold-coast-titans,2.43
+2026-07-17 13:56,2026-07-19,gold-coast-titans,manly-warringah-sea-eagles,SportsBet,manly-warringah-sea-eagles,1.56
+2026-07-17 13:56,2026-07-19,gold-coast-titans,manly-warringah-sea-eagles,Betr,gold-coast-titans,2.45
+2026-07-17 13:56,2026-07-19,gold-coast-titans,manly-warringah-sea-eagles,Betr,manly-warringah-sea-eagles,1.55
+2026-07-17 13:56,2026-07-19,gold-coast-titans,manly-warringah-sea-eagles,TAB,gold-coast-titans,2.35
+2026-07-17 13:56,2026-07-19,gold-coast-titans,manly-warringah-sea-eagles,TAB,manly-warringah-sea-eagles,1.6
+2026-07-17 13:56,2026-07-19,gold-coast-titans,manly-warringah-sea-eagles,Ladbrokes,gold-coast-titans,2.4
+2026-07-17 13:56,2026-07-19,gold-coast-titans,manly-warringah-sea-eagles,Ladbrokes,manly-warringah-sea-eagles,1.57
+2026-07-17 13:56,2026-07-19,gold-coast-titans,manly-warringah-sea-eagles,Neds,gold-coast-titans,2.4
+2026-07-17 13:56,2026-07-19,gold-coast-titans,manly-warringah-sea-eagles,Neds,manly-warringah-sea-eagles,1.57
+2026-07-17 13:56,2026-07-19,gold-coast-titans,manly-warringah-sea-eagles,PointsBet (AU),gold-coast-titans,2.35
+2026-07-17 13:56,2026-07-19,gold-coast-titans,manly-warringah-sea-eagles,PointsBet (AU),manly-warringah-sea-eagles,1.57
+2026-07-17 13:56,2026-07-19,gold-coast-titans,manly-warringah-sea-eagles,PlayUp,gold-coast-titans,2.35
+2026-07-17 13:56,2026-07-19,gold-coast-titans,manly-warringah-sea-eagles,PlayUp,manly-warringah-sea-eagles,1.6
+2026-07-17 13:56,2026-07-19,gold-coast-titans,manly-warringah-sea-eagles,TABtouch,gold-coast-titans,2.48
+2026-07-17 13:56,2026-07-19,gold-coast-titans,manly-warringah-sea-eagles,TABtouch,manly-warringah-sea-eagles,1.54
+2026-07-17 13:56,2026-07-19,gold-coast-titans,manly-warringah-sea-eagles,Unibet,gold-coast-titans,2.45
+2026-07-17 13:56,2026-07-19,gold-coast-titans,manly-warringah-sea-eagles,Unibet,manly-warringah-sea-eagles,1.54
+2026-07-17 13:56,2026-07-19,gold-coast-titans,manly-warringah-sea-eagles,Bet Right,gold-coast-titans,2.4
+2026-07-17 13:56,2026-07-19,gold-coast-titans,manly-warringah-sea-eagles,Bet Right,manly-warringah-sea-eagles,1.57
+2026-07-17 13:56,2026-07-19,gold-coast-titans,manly-warringah-sea-eagles,Betfair,gold-coast-titans,2.06
+2026-07-17 13:56,2026-07-19,gold-coast-titans,manly-warringah-sea-eagles,Betfair,manly-warringah-sea-eagles,1.57
+2026-07-17 13:56,2026-07-19,dolphins,north-queensland-cowboys,SportsBet,dolphins,1.67
+2026-07-17 13:56,2026-07-19,dolphins,north-queensland-cowboys,SportsBet,north-queensland-cowboys,2.2
+2026-07-17 13:56,2026-07-19,dolphins,north-queensland-cowboys,TAB,dolphins,1.62
+2026-07-17 13:56,2026-07-19,dolphins,north-queensland-cowboys,TAB,north-queensland-cowboys,2.3
+2026-07-17 13:56,2026-07-19,dolphins,north-queensland-cowboys,Ladbrokes,dolphins,1.62
+2026-07-17 13:56,2026-07-19,dolphins,north-queensland-cowboys,Ladbrokes,north-queensland-cowboys,2.3
+2026-07-17 13:56,2026-07-19,dolphins,north-queensland-cowboys,Neds,dolphins,1.62
+2026-07-17 13:56,2026-07-19,dolphins,north-queensland-cowboys,Neds,north-queensland-cowboys,2.3
+2026-07-17 13:56,2026-07-19,dolphins,north-queensland-cowboys,PointsBet (AU),dolphins,1.6
+2026-07-17 13:56,2026-07-19,dolphins,north-queensland-cowboys,PointsBet (AU),north-queensland-cowboys,2.3
+2026-07-17 13:56,2026-07-19,dolphins,north-queensland-cowboys,PlayUp,dolphins,1.62
+2026-07-17 13:56,2026-07-19,dolphins,north-queensland-cowboys,PlayUp,north-queensland-cowboys,2.3
+2026-07-17 13:56,2026-07-19,dolphins,north-queensland-cowboys,Betr,dolphins,1.65
+2026-07-17 13:56,2026-07-19,dolphins,north-queensland-cowboys,Betr,north-queensland-cowboys,2.25
+2026-07-17 13:56,2026-07-19,dolphins,north-queensland-cowboys,TABtouch,dolphins,1.56
+2026-07-17 13:56,2026-07-19,dolphins,north-queensland-cowboys,TABtouch,north-queensland-cowboys,2.4
+2026-07-17 13:56,2026-07-19,dolphins,north-queensland-cowboys,Unibet,dolphins,1.56
+2026-07-17 13:56,2026-07-19,dolphins,north-queensland-cowboys,Unibet,north-queensland-cowboys,2.4
+2026-07-17 13:56,2026-07-19,dolphins,north-queensland-cowboys,Bet Right,dolphins,1.63
+2026-07-17 13:56,2026-07-19,dolphins,north-queensland-cowboys,Bet Right,north-queensland-cowboys,2.25
+2026-07-17 13:56,2026-07-19,dolphins,north-queensland-cowboys,Betfair,dolphins,1.66
+2026-07-17 13:56,2026-07-19,dolphins,north-queensland-cowboys,Betfair,north-queensland-cowboys,2.46
+2026-07-17 13:56,2026-07-23,parramatta-eels,penrith-panthers,SportsBet,parramatta-eels,4.35
+2026-07-17 13:56,2026-07-23,parramatta-eels,penrith-panthers,SportsBet,penrith-panthers,1.22
+2026-07-17 13:56,2026-07-23,parramatta-eels,penrith-panthers,TAB,parramatta-eels,4.2
+2026-07-17 13:56,2026-07-23,parramatta-eels,penrith-panthers,TAB,penrith-panthers,1.22
+2026-07-17 13:56,2026-07-24,newcastle-knights,sydney-roosters,SportsBet,newcastle-knights,2.27
+2026-07-17 13:56,2026-07-24,newcastle-knights,sydney-roosters,SportsBet,sydney-roosters,1.64
+2026-07-17 13:56,2026-07-24,newcastle-knights,sydney-roosters,TAB,newcastle-knights,2.25
+2026-07-17 13:56,2026-07-24,newcastle-knights,sydney-roosters,TAB,sydney-roosters,1.65
+2026-07-17 13:56,2026-07-24,south-sydney-rabbitohs,melbourne-storm,SportsBet,melbourne-storm,2.67
+2026-07-17 13:56,2026-07-24,south-sydney-rabbitohs,melbourne-storm,SportsBet,south-sydney-rabbitohs,1.48
+2026-07-17 13:56,2026-07-24,south-sydney-rabbitohs,melbourne-storm,TAB,melbourne-storm,2.6
+2026-07-17 13:56,2026-07-24,south-sydney-rabbitohs,melbourne-storm,TAB,south-sydney-rabbitohs,1.5
+2026-07-17 13:56,2026-07-25,canberra-raiders,wests-tigers,SportsBet,canberra-raiders,1.39
+2026-07-17 13:56,2026-07-25,canberra-raiders,wests-tigers,SportsBet,wests-tigers,3.03
+2026-07-17 13:56,2026-07-25,canberra-raiders,wests-tigers,TAB,canberra-raiders,1.4
+2026-07-17 13:56,2026-07-25,canberra-raiders,wests-tigers,TAB,wests-tigers,2.9
+2026-07-17 13:56,2026-07-25,canterbury-bankstown-bulldogs,warriors,SportsBet,canterbury-bankstown-bulldogs,2.58
+2026-07-17 13:56,2026-07-25,canterbury-bankstown-bulldogs,warriors,SportsBet,warriors,1.51
+2026-07-17 13:56,2026-07-25,canterbury-bankstown-bulldogs,warriors,TAB,canterbury-bankstown-bulldogs,2.6
+2026-07-17 13:56,2026-07-25,canterbury-bankstown-bulldogs,warriors,TAB,warriors,1.5
+2026-07-17 13:56,2026-07-25,north-queensland-cowboys,brisbane-broncos,SportsBet,brisbane-broncos,1.93
+2026-07-17 13:56,2026-07-25,north-queensland-cowboys,brisbane-broncos,SportsBet,north-queensland-cowboys,1.91
+2026-07-17 13:56,2026-07-25,north-queensland-cowboys,brisbane-broncos,TAB,brisbane-broncos,2.05
+2026-07-17 13:56,2026-07-25,north-queensland-cowboys,brisbane-broncos,TAB,north-queensland-cowboys,1.75
+2026-07-17 13:56,2026-07-26,st-george-illawarra-dragons,gold-coast-titans,SportsBet,gold-coast-titans,1.92
+2026-07-17 13:56,2026-07-26,st-george-illawarra-dragons,gold-coast-titans,SportsBet,st-george-illawarra-dragons,1.92
+2026-07-17 13:56,2026-07-26,st-george-illawarra-dragons,gold-coast-titans,TAB,gold-coast-titans,1.9
+2026-07-17 13:56,2026-07-26,st-george-illawarra-dragons,gold-coast-titans,TAB,st-george-illawarra-dragons,1.9
+2026-07-17 13:56,2026-07-26,manly-warringah-sea-eagles,cronulla-sutherland-sharks,SportsBet,cronulla-sutherland-sharks,1.97
+2026-07-17 13:56,2026-07-26,manly-warringah-sea-eagles,cronulla-sutherland-sharks,SportsBet,manly-warringah-sea-eagles,1.87
+2026-07-17 13:56,2026-07-26,manly-warringah-sea-eagles,cronulla-sutherland-sharks,TAB,cronulla-sutherland-sharks,1.9
+2026-07-17 13:56,2026-07-26,manly-warringah-sea-eagles,cronulla-sutherland-sharks,TAB,manly-warringah-sea-eagles,1.9
+2026-07-18 13:55,2026-07-18,canberra-raiders,south-sydney-rabbitohs,SportsBet,canberra-raiders,1.83
+2026-07-18 13:55,2026-07-18,canberra-raiders,south-sydney-rabbitohs,SportsBet,south-sydney-rabbitohs,2.01
+2026-07-18 13:55,2026-07-18,canberra-raiders,south-sydney-rabbitohs,Betr,canberra-raiders,1.85
+2026-07-18 13:55,2026-07-18,canberra-raiders,south-sydney-rabbitohs,Betr,south-sydney-rabbitohs,1.95
+2026-07-18 13:55,2026-07-18,canberra-raiders,south-sydney-rabbitohs,TAB,canberra-raiders,1.9
+2026-07-18 13:55,2026-07-18,canberra-raiders,south-sydney-rabbitohs,TAB,south-sydney-rabbitohs,1.9
+2026-07-18 13:55,2026-07-18,canberra-raiders,south-sydney-rabbitohs,Neds,canberra-raiders,1.85
+2026-07-18 13:55,2026-07-18,canberra-raiders,south-sydney-rabbitohs,Neds,south-sydney-rabbitohs,1.96
+2026-07-18 13:55,2026-07-18,canberra-raiders,south-sydney-rabbitohs,Ladbrokes,canberra-raiders,1.85
+2026-07-18 13:55,2026-07-18,canberra-raiders,south-sydney-rabbitohs,Ladbrokes,south-sydney-rabbitohs,1.96
+2026-07-18 13:55,2026-07-18,canberra-raiders,south-sydney-rabbitohs,PointsBet (AU),canberra-raiders,1.85
+2026-07-18 13:55,2026-07-18,canberra-raiders,south-sydney-rabbitohs,PointsBet (AU),south-sydney-rabbitohs,1.95
+2026-07-18 13:55,2026-07-18,canberra-raiders,south-sydney-rabbitohs,PlayUp,canberra-raiders,1.85
+2026-07-18 13:55,2026-07-18,canberra-raiders,south-sydney-rabbitohs,PlayUp,south-sydney-rabbitohs,1.95
+2026-07-18 13:55,2026-07-18,canberra-raiders,south-sydney-rabbitohs,TABtouch,canberra-raiders,1.89
+2026-07-18 13:55,2026-07-18,canberra-raiders,south-sydney-rabbitohs,TABtouch,south-sydney-rabbitohs,1.89
+2026-07-18 13:55,2026-07-18,canberra-raiders,south-sydney-rabbitohs,Unibet,canberra-raiders,1.89
+2026-07-18 13:55,2026-07-18,canberra-raiders,south-sydney-rabbitohs,Unibet,south-sydney-rabbitohs,1.89
+2026-07-18 13:55,2026-07-18,canberra-raiders,south-sydney-rabbitohs,Bet Right,canberra-raiders,1.85
+2026-07-18 13:55,2026-07-18,canberra-raiders,south-sydney-rabbitohs,Bet Right,south-sydney-rabbitohs,1.95
+2026-07-18 13:55,2026-07-18,canberra-raiders,south-sydney-rabbitohs,Betfair,canberra-raiders,1.94
+2026-07-18 13:55,2026-07-18,canberra-raiders,south-sydney-rabbitohs,Betfair,south-sydney-rabbitohs,2.04
+2026-07-18 13:55,2026-07-18,warriors,st-george-illawarra-dragons,SportsBet,warriors,1.15
+2026-07-18 13:55,2026-07-18,warriors,st-george-illawarra-dragons,SportsBet,st-george-illawarra-dragons,5.5
+2026-07-18 13:55,2026-07-18,warriors,st-george-illawarra-dragons,Betr,warriors,1.18
+2026-07-18 13:55,2026-07-18,warriors,st-george-illawarra-dragons,Betr,st-george-illawarra-dragons,4.9
+2026-07-18 13:55,2026-07-18,warriors,st-george-illawarra-dragons,TAB,warriors,1.17
+2026-07-18 13:55,2026-07-18,warriors,st-george-illawarra-dragons,TAB,st-george-illawarra-dragons,5.0
+2026-07-18 13:55,2026-07-18,warriors,st-george-illawarra-dragons,Ladbrokes,warriors,1.16
+2026-07-18 13:55,2026-07-18,warriors,st-george-illawarra-dragons,Ladbrokes,st-george-illawarra-dragons,5.25
+2026-07-18 13:55,2026-07-18,warriors,st-george-illawarra-dragons,Neds,warriors,1.16
+2026-07-18 13:55,2026-07-18,warriors,st-george-illawarra-dragons,Neds,st-george-illawarra-dragons,5.25
+2026-07-18 13:55,2026-07-18,warriors,st-george-illawarra-dragons,PointsBet (AU),warriors,1.16
+2026-07-18 13:55,2026-07-18,warriors,st-george-illawarra-dragons,PointsBet (AU),st-george-illawarra-dragons,5.0
+2026-07-18 13:55,2026-07-18,warriors,st-george-illawarra-dragons,PlayUp,warriors,1.17
+2026-07-18 13:55,2026-07-18,warriors,st-george-illawarra-dragons,PlayUp,st-george-illawarra-dragons,5.0
+2026-07-18 13:55,2026-07-18,warriors,st-george-illawarra-dragons,TABtouch,warriors,1.18
+2026-07-18 13:55,2026-07-18,warriors,st-george-illawarra-dragons,TABtouch,st-george-illawarra-dragons,4.9
+2026-07-18 13:55,2026-07-18,warriors,st-george-illawarra-dragons,Unibet,warriors,1.18
+2026-07-18 13:55,2026-07-18,warriors,st-george-illawarra-dragons,Unibet,st-george-illawarra-dragons,4.75
+2026-07-18 13:55,2026-07-18,warriors,st-george-illawarra-dragons,Bet Right,warriors,1.18
+2026-07-18 13:55,2026-07-18,warriors,st-george-illawarra-dragons,Bet Right,st-george-illawarra-dragons,4.9
+2026-07-18 13:55,2026-07-18,warriors,st-george-illawarra-dragons,Betfair,warriors,1.18
+2026-07-18 13:55,2026-07-18,warriors,st-george-illawarra-dragons,Betfair,st-george-illawarra-dragons,6.2
+2026-07-18 13:55,2026-07-18,canterbury-bankstown-bulldogs,wests-tigers,SportsBet,canterbury-bankstown-bulldogs,1.47
+2026-07-18 13:55,2026-07-18,canterbury-bankstown-bulldogs,wests-tigers,SportsBet,wests-tigers,2.7
+2026-07-18 13:55,2026-07-18,canterbury-bankstown-bulldogs,wests-tigers,Betr,canterbury-bankstown-bulldogs,1.5
+2026-07-18 13:55,2026-07-18,canterbury-bankstown-bulldogs,wests-tigers,Betr,wests-tigers,2.6
+2026-07-18 13:55,2026-07-18,canterbury-bankstown-bulldogs,wests-tigers,TAB,canterbury-bankstown-bulldogs,1.48
+2026-07-18 13:55,2026-07-18,canterbury-bankstown-bulldogs,wests-tigers,TAB,wests-tigers,2.65
+2026-07-18 13:55,2026-07-18,canterbury-bankstown-bulldogs,wests-tigers,Neds,canterbury-bankstown-bulldogs,1.48
+2026-07-18 13:55,2026-07-18,canterbury-bankstown-bulldogs,wests-tigers,Neds,wests-tigers,2.65
+2026-07-18 13:55,2026-07-18,canterbury-bankstown-bulldogs,wests-tigers,Ladbrokes,canterbury-bankstown-bulldogs,1.48
+2026-07-18 13:55,2026-07-18,canterbury-bankstown-bulldogs,wests-tigers,Ladbrokes,wests-tigers,2.65
+2026-07-18 13:55,2026-07-18,canterbury-bankstown-bulldogs,wests-tigers,PointsBet (AU),canterbury-bankstown-bulldogs,1.5
+2026-07-18 13:55,2026-07-18,canterbury-bankstown-bulldogs,wests-tigers,PointsBet (AU),wests-tigers,2.55
+2026-07-18 13:55,2026-07-18,canterbury-bankstown-bulldogs,wests-tigers,PlayUp,canterbury-bankstown-bulldogs,1.48
+2026-07-18 13:55,2026-07-18,canterbury-bankstown-bulldogs,wests-tigers,PlayUp,wests-tigers,2.65
+2026-07-18 13:55,2026-07-18,canterbury-bankstown-bulldogs,wests-tigers,TABtouch,canterbury-bankstown-bulldogs,1.45
+2026-07-18 13:55,2026-07-18,canterbury-bankstown-bulldogs,wests-tigers,TABtouch,wests-tigers,2.75
+2026-07-18 13:55,2026-07-18,canterbury-bankstown-bulldogs,wests-tigers,Unibet,canterbury-bankstown-bulldogs,1.45
+2026-07-18 13:55,2026-07-18,canterbury-bankstown-bulldogs,wests-tigers,Unibet,wests-tigers,2.7
+2026-07-18 13:55,2026-07-18,canterbury-bankstown-bulldogs,wests-tigers,Bet Right,canterbury-bankstown-bulldogs,1.48
+2026-07-18 13:55,2026-07-18,canterbury-bankstown-bulldogs,wests-tigers,Bet Right,wests-tigers,2.65
+2026-07-18 13:55,2026-07-18,canterbury-bankstown-bulldogs,wests-tigers,Betfair,canterbury-bankstown-bulldogs,1.52
+2026-07-18 13:55,2026-07-18,canterbury-bankstown-bulldogs,wests-tigers,Betfair,wests-tigers,2.86
+2026-07-18 13:55,2026-07-19,gold-coast-titans,manly-warringah-sea-eagles,SportsBet,gold-coast-titans,2.43
+2026-07-18 13:55,2026-07-19,gold-coast-titans,manly-warringah-sea-eagles,SportsBet,manly-warringah-sea-eagles,1.56
+2026-07-18 13:55,2026-07-19,gold-coast-titans,manly-warringah-sea-eagles,Betr,gold-coast-titans,2.45
+2026-07-18 13:55,2026-07-19,gold-coast-titans,manly-warringah-sea-eagles,Betr,manly-warringah-sea-eagles,1.55
+2026-07-18 13:55,2026-07-19,gold-coast-titans,manly-warringah-sea-eagles,TAB,gold-coast-titans,2.45
+2026-07-18 13:55,2026-07-19,gold-coast-titans,manly-warringah-sea-eagles,TAB,manly-warringah-sea-eagles,1.55
+2026-07-18 13:55,2026-07-19,gold-coast-titans,manly-warringah-sea-eagles,Ladbrokes,gold-coast-titans,2.4
+2026-07-18 13:55,2026-07-19,gold-coast-titans,manly-warringah-sea-eagles,Ladbrokes,manly-warringah-sea-eagles,1.57
+2026-07-18 13:55,2026-07-19,gold-coast-titans,manly-warringah-sea-eagles,Neds,gold-coast-titans,2.4
+2026-07-18 13:55,2026-07-19,gold-coast-titans,manly-warringah-sea-eagles,Neds,manly-warringah-sea-eagles,1.57
+2026-07-18 13:55,2026-07-19,gold-coast-titans,manly-warringah-sea-eagles,PointsBet (AU),gold-coast-titans,2.35
+2026-07-18 13:55,2026-07-19,gold-coast-titans,manly-warringah-sea-eagles,PointsBet (AU),manly-warringah-sea-eagles,1.57
+2026-07-18 13:55,2026-07-19,gold-coast-titans,manly-warringah-sea-eagles,PlayUp,gold-coast-titans,2.45
+2026-07-18 13:55,2026-07-19,gold-coast-titans,manly-warringah-sea-eagles,PlayUp,manly-warringah-sea-eagles,1.55
+2026-07-18 13:55,2026-07-19,gold-coast-titans,manly-warringah-sea-eagles,TABtouch,gold-coast-titans,2.45
+2026-07-18 13:55,2026-07-19,gold-coast-titans,manly-warringah-sea-eagles,TABtouch,manly-warringah-sea-eagles,1.55
+2026-07-18 13:55,2026-07-19,gold-coast-titans,manly-warringah-sea-eagles,Unibet,gold-coast-titans,2.43
+2026-07-18 13:55,2026-07-19,gold-coast-titans,manly-warringah-sea-eagles,Unibet,manly-warringah-sea-eagles,1.54
+2026-07-18 13:55,2026-07-19,gold-coast-titans,manly-warringah-sea-eagles,Bet Right,gold-coast-titans,2.4
+2026-07-18 13:55,2026-07-19,gold-coast-titans,manly-warringah-sea-eagles,Bet Right,manly-warringah-sea-eagles,1.57
+2026-07-18 13:55,2026-07-19,gold-coast-titans,manly-warringah-sea-eagles,Betfair,gold-coast-titans,2.22
+2026-07-18 13:55,2026-07-19,gold-coast-titans,manly-warringah-sea-eagles,Betfair,manly-warringah-sea-eagles,1.62
+2026-07-18 13:55,2026-07-19,dolphins,north-queensland-cowboys,SportsBet,dolphins,1.67
+2026-07-18 13:55,2026-07-19,dolphins,north-queensland-cowboys,SportsBet,north-queensland-cowboys,2.2
+2026-07-18 13:55,2026-07-19,dolphins,north-queensland-cowboys,TAB,dolphins,1.65
+2026-07-18 13:55,2026-07-19,dolphins,north-queensland-cowboys,TAB,north-queensland-cowboys,2.25
+2026-07-18 13:55,2026-07-19,dolphins,north-queensland-cowboys,Ladbrokes,dolphins,1.62
+2026-07-18 13:55,2026-07-19,dolphins,north-queensland-cowboys,Ladbrokes,north-queensland-cowboys,2.3
+2026-07-18 13:55,2026-07-19,dolphins,north-queensland-cowboys,Neds,dolphins,1.62
+2026-07-18 13:55,2026-07-19,dolphins,north-queensland-cowboys,Neds,north-queensland-cowboys,2.3
+2026-07-18 13:55,2026-07-19,dolphins,north-queensland-cowboys,PointsBet (AU),dolphins,1.6
+2026-07-18 13:55,2026-07-19,dolphins,north-queensland-cowboys,PointsBet (AU),north-queensland-cowboys,2.3
+2026-07-18 13:55,2026-07-19,dolphins,north-queensland-cowboys,PlayUp,dolphins,1.65
+2026-07-18 13:55,2026-07-19,dolphins,north-queensland-cowboys,PlayUp,north-queensland-cowboys,2.25
+2026-07-18 13:55,2026-07-19,dolphins,north-queensland-cowboys,Betr,dolphins,1.65
+2026-07-18 13:55,2026-07-19,dolphins,north-queensland-cowboys,Betr,north-queensland-cowboys,2.25
+2026-07-18 13:55,2026-07-19,dolphins,north-queensland-cowboys,TABtouch,dolphins,1.56
+2026-07-18 13:55,2026-07-19,dolphins,north-queensland-cowboys,TABtouch,north-queensland-cowboys,2.4
+2026-07-18 13:55,2026-07-19,dolphins,north-queensland-cowboys,Unibet,dolphins,1.56
+2026-07-18 13:55,2026-07-19,dolphins,north-queensland-cowboys,Unibet,north-queensland-cowboys,2.4
+2026-07-18 13:55,2026-07-19,dolphins,north-queensland-cowboys,Bet Right,dolphins,1.65
+2026-07-18 13:55,2026-07-19,dolphins,north-queensland-cowboys,Bet Right,north-queensland-cowboys,2.24
+2026-07-18 13:55,2026-07-19,dolphins,north-queensland-cowboys,Betfair,dolphins,1.66
+2026-07-18 13:55,2026-07-19,dolphins,north-queensland-cowboys,Betfair,north-queensland-cowboys,2.44
+2026-07-18 13:55,2026-07-23,parramatta-eels,penrith-panthers,SportsBet,parramatta-eels,4.35
+2026-07-18 13:55,2026-07-23,parramatta-eels,penrith-panthers,SportsBet,penrith-panthers,1.22
+2026-07-18 13:55,2026-07-23,parramatta-eels,penrith-panthers,TAB,parramatta-eels,4.4
+2026-07-18 13:55,2026-07-23,parramatta-eels,penrith-panthers,TAB,penrith-panthers,1.2
+2026-07-18 13:55,2026-07-23,parramatta-eels,penrith-panthers,PointsBet (AU),parramatta-eels,4.2
+2026-07-18 13:55,2026-07-23,parramatta-eels,penrith-panthers,PointsBet (AU),penrith-panthers,1.22
+2026-07-18 13:55,2026-07-24,newcastle-knights,sydney-roosters,SportsBet,newcastle-knights,2.27
+2026-07-18 13:55,2026-07-24,newcastle-knights,sydney-roosters,SportsBet,sydney-roosters,1.64
+2026-07-18 13:55,2026-07-24,newcastle-knights,sydney-roosters,PointsBet (AU),newcastle-knights,2.25
+2026-07-18 13:55,2026-07-24,newcastle-knights,sydney-roosters,PointsBet (AU),sydney-roosters,1.62
+2026-07-18 13:55,2026-07-24,south-sydney-rabbitohs,melbourne-storm,SportsBet,melbourne-storm,2.85
+2026-07-18 13:55,2026-07-24,south-sydney-rabbitohs,melbourne-storm,SportsBet,south-sydney-rabbitohs,1.43
+2026-07-18 13:55,2026-07-24,south-sydney-rabbitohs,melbourne-storm,PointsBet (AU),melbourne-storm,2.7
+2026-07-18 13:55,2026-07-24,south-sydney-rabbitohs,melbourne-storm,PointsBet (AU),south-sydney-rabbitohs,1.45
+2026-07-18 13:55,2026-07-25,canberra-raiders,wests-tigers,SportsBet,canberra-raiders,1.39
+2026-07-18 13:55,2026-07-25,canberra-raiders,wests-tigers,SportsBet,wests-tigers,3.03
+2026-07-18 13:55,2026-07-25,canberra-raiders,wests-tigers,TAB,canberra-raiders,1.4
+2026-07-18 13:55,2026-07-25,canberra-raiders,wests-tigers,TAB,wests-tigers,2.9
+2026-07-18 13:55,2026-07-25,canberra-raiders,wests-tigers,PointsBet (AU),canberra-raiders,1.38
+2026-07-18 13:55,2026-07-25,canberra-raiders,wests-tigers,PointsBet (AU),wests-tigers,3.0
+2026-07-18 13:55,2026-07-25,canterbury-bankstown-bulldogs,warriors,SportsBet,canterbury-bankstown-bulldogs,2.58
+2026-07-18 13:55,2026-07-25,canterbury-bankstown-bulldogs,warriors,SportsBet,warriors,1.51
+2026-07-18 13:55,2026-07-25,canterbury-bankstown-bulldogs,warriors,TAB,canterbury-bankstown-bulldogs,2.6
+2026-07-18 13:55,2026-07-25,canterbury-bankstown-bulldogs,warriors,TAB,warriors,1.5
+2026-07-18 13:55,2026-07-25,canterbury-bankstown-bulldogs,warriors,PointsBet (AU),canterbury-bankstown-bulldogs,2.55
+2026-07-18 13:55,2026-07-25,canterbury-bankstown-bulldogs,warriors,PointsBet (AU),warriors,1.5
+2026-07-18 13:55,2026-07-25,north-queensland-cowboys,brisbane-broncos,SportsBet,brisbane-broncos,1.93
+2026-07-18 13:55,2026-07-25,north-queensland-cowboys,brisbane-broncos,SportsBet,north-queensland-cowboys,1.91
+2026-07-18 13:55,2026-07-25,north-queensland-cowboys,brisbane-broncos,TAB,brisbane-broncos,2.0
+2026-07-18 13:55,2026-07-25,north-queensland-cowboys,brisbane-broncos,TAB,north-queensland-cowboys,1.8
+2026-07-18 13:55,2026-07-25,north-queensland-cowboys,brisbane-broncos,PointsBet (AU),brisbane-broncos,1.95
+2026-07-18 13:55,2026-07-25,north-queensland-cowboys,brisbane-broncos,PointsBet (AU),north-queensland-cowboys,1.85
+2026-07-18 13:55,2026-07-26,st-george-illawarra-dragons,gold-coast-titans,SportsBet,gold-coast-titans,1.92
+2026-07-18 13:55,2026-07-26,st-george-illawarra-dragons,gold-coast-titans,SportsBet,st-george-illawarra-dragons,1.92
+2026-07-18 13:55,2026-07-26,st-george-illawarra-dragons,gold-coast-titans,TAB,gold-coast-titans,1.9
+2026-07-18 13:55,2026-07-26,st-george-illawarra-dragons,gold-coast-titans,TAB,st-george-illawarra-dragons,1.9
+2026-07-18 13:55,2026-07-26,st-george-illawarra-dragons,gold-coast-titans,PointsBet (AU),gold-coast-titans,1.85
+2026-07-18 13:55,2026-07-26,st-george-illawarra-dragons,gold-coast-titans,PointsBet (AU),st-george-illawarra-dragons,1.95
+2026-07-18 13:55,2026-07-26,manly-warringah-sea-eagles,cronulla-sutherland-sharks,SportsBet,cronulla-sutherland-sharks,2.0
+2026-07-18 13:55,2026-07-26,manly-warringah-sea-eagles,cronulla-sutherland-sharks,SportsBet,manly-warringah-sea-eagles,1.84
+2026-07-18 13:55,2026-07-26,manly-warringah-sea-eagles,cronulla-sutherland-sharks,TAB,cronulla-sutherland-sharks,1.9
+2026-07-18 13:55,2026-07-26,manly-warringah-sea-eagles,cronulla-sutherland-sharks,TAB,manly-warringah-sea-eagles,1.9
+2026-07-18 13:55,2026-07-26,manly-warringah-sea-eagles,cronulla-sutherland-sharks,PointsBet (AU),cronulla-sutherland-sharks,1.95
+2026-07-18 13:55,2026-07-26,manly-warringah-sea-eagles,cronulla-sutherland-sharks,PointsBet (AU),manly-warringah-sea-eagles,1.85
+2026-07-19 14:09,2026-07-19,gold-coast-titans,manly-warringah-sea-eagles,SportsBet,gold-coast-titans,2.52
+2026-07-19 14:09,2026-07-19,gold-coast-titans,manly-warringah-sea-eagles,SportsBet,manly-warringah-sea-eagles,1.53
+2026-07-19 14:09,2026-07-19,gold-coast-titans,manly-warringah-sea-eagles,Betr,gold-coast-titans,2.55
+2026-07-19 14:09,2026-07-19,gold-coast-titans,manly-warringah-sea-eagles,Betr,manly-warringah-sea-eagles,1.52
+2026-07-19 14:09,2026-07-19,gold-coast-titans,manly-warringah-sea-eagles,TAB,gold-coast-titans,3.3
+2026-07-19 14:09,2026-07-19,gold-coast-titans,manly-warringah-sea-eagles,TAB,manly-warringah-sea-eagles,1.32
+2026-07-19 14:09,2026-07-19,gold-coast-titans,manly-warringah-sea-eagles,Ladbrokes,gold-coast-titans,2.4
+2026-07-19 14:09,2026-07-19,gold-coast-titans,manly-warringah-sea-eagles,Ladbrokes,manly-warringah-sea-eagles,1.57
+2026-07-19 14:09,2026-07-19,gold-coast-titans,manly-warringah-sea-eagles,Neds,gold-coast-titans,2.4
+2026-07-19 14:09,2026-07-19,gold-coast-titans,manly-warringah-sea-eagles,Neds,manly-warringah-sea-eagles,1.57
+2026-07-19 14:09,2026-07-19,gold-coast-titans,manly-warringah-sea-eagles,PointsBet (AU),gold-coast-titans,3.75
+2026-07-19 14:09,2026-07-19,gold-coast-titans,manly-warringah-sea-eagles,PointsBet (AU),manly-warringah-sea-eagles,1.25
+2026-07-19 14:09,2026-07-19,gold-coast-titans,manly-warringah-sea-eagles,PlayUp,gold-coast-titans,2.5
+2026-07-19 14:09,2026-07-19,gold-coast-titans,manly-warringah-sea-eagles,PlayUp,manly-warringah-sea-eagles,1.53
+2026-07-19 14:09,2026-07-19,gold-coast-titans,manly-warringah-sea-eagles,TABtouch,gold-coast-titans,3.1
+2026-07-19 14:09,2026-07-19,gold-coast-titans,manly-warringah-sea-eagles,TABtouch,manly-warringah-sea-eagles,1.33
+2026-07-19 14:09,2026-07-19,gold-coast-titans,manly-warringah-sea-eagles,Unibet,gold-coast-titans,3.55
+2026-07-19 14:09,2026-07-19,gold-coast-titans,manly-warringah-sea-eagles,Unibet,manly-warringah-sea-eagles,1.28
+2026-07-19 14:09,2026-07-19,gold-coast-titans,manly-warringah-sea-eagles,Bet Right,gold-coast-titans,2.55
+2026-07-19 14:09,2026-07-19,gold-coast-titans,manly-warringah-sea-eagles,Bet Right,manly-warringah-sea-eagles,1.52
+2026-07-19 14:09,2026-07-19,gold-coast-titans,manly-warringah-sea-eagles,Betfair,gold-coast-titans,2.6
+2026-07-19 14:09,2026-07-19,gold-coast-titans,manly-warringah-sea-eagles,Betfair,manly-warringah-sea-eagles,1.22
+2026-07-19 14:09,2026-07-19,dolphins,north-queensland-cowboys,SportsBet,dolphins,1.64
+2026-07-19 14:09,2026-07-19,dolphins,north-queensland-cowboys,SportsBet,north-queensland-cowboys,2.26
+2026-07-19 14:09,2026-07-19,dolphins,north-queensland-cowboys,TAB,dolphins,1.62
+2026-07-19 14:09,2026-07-19,dolphins,north-queensland-cowboys,TAB,north-queensland-cowboys,2.3
+2026-07-19 14:09,2026-07-19,dolphins,north-queensland-cowboys,Ladbrokes,dolphins,1.65
+2026-07-19 14:09,2026-07-19,dolphins,north-queensland-cowboys,Ladbrokes,north-queensland-cowboys,2.25
+2026-07-19 14:09,2026-07-19,dolphins,north-queensland-cowboys,Neds,dolphins,1.65
+2026-07-19 14:09,2026-07-19,dolphins,north-queensland-cowboys,Neds,north-queensland-cowboys,2.25
+2026-07-19 14:09,2026-07-19,dolphins,north-queensland-cowboys,PointsBet (AU),dolphins,1.6
+2026-07-19 14:09,2026-07-19,dolphins,north-queensland-cowboys,PointsBet (AU),north-queensland-cowboys,2.3
+2026-07-19 14:09,2026-07-19,dolphins,north-queensland-cowboys,PlayUp,dolphins,1.62
+2026-07-19 14:09,2026-07-19,dolphins,north-queensland-cowboys,PlayUp,north-queensland-cowboys,2.3
+2026-07-19 14:09,2026-07-19,dolphins,north-queensland-cowboys,Betr,dolphins,1.65
+2026-07-19 14:09,2026-07-19,dolphins,north-queensland-cowboys,Betr,north-queensland-cowboys,2.25
+2026-07-19 14:09,2026-07-19,dolphins,north-queensland-cowboys,TABtouch,dolphins,1.6
+2026-07-19 14:09,2026-07-19,dolphins,north-queensland-cowboys,TABtouch,north-queensland-cowboys,2.35
+2026-07-19 14:09,2026-07-19,dolphins,north-queensland-cowboys,Unibet,dolphins,1.58
+2026-07-19 14:09,2026-07-19,dolphins,north-queensland-cowboys,Unibet,north-queensland-cowboys,2.33
+2026-07-19 14:09,2026-07-19,dolphins,north-queensland-cowboys,Bet Right,dolphins,1.66
+2026-07-19 14:09,2026-07-19,dolphins,north-queensland-cowboys,Bet Right,north-queensland-cowboys,2.2
+2026-07-19 14:09,2026-07-19,dolphins,north-queensland-cowboys,Betfair,dolphins,1.68
+2026-07-19 14:09,2026-07-19,dolphins,north-queensland-cowboys,Betfair,north-queensland-cowboys,2.44
+2026-07-19 14:09,2026-07-23,parramatta-eels,penrith-panthers,SportsBet,parramatta-eels,4.35
+2026-07-19 14:09,2026-07-23,parramatta-eels,penrith-panthers,SportsBet,penrith-panthers,1.22
+2026-07-19 14:09,2026-07-23,parramatta-eels,penrith-panthers,TAB,parramatta-eels,4.4
+2026-07-19 14:09,2026-07-23,parramatta-eels,penrith-panthers,TAB,penrith-panthers,1.2
+2026-07-19 14:09,2026-07-23,parramatta-eels,penrith-panthers,PointsBet (AU),parramatta-eels,4.2
+2026-07-19 14:09,2026-07-23,parramatta-eels,penrith-panthers,PointsBet (AU),penrith-panthers,1.22
+2026-07-19 14:09,2026-07-23,parramatta-eels,penrith-panthers,Neds,parramatta-eels,4.25
+2026-07-19 14:09,2026-07-23,parramatta-eels,penrith-panthers,Neds,penrith-panthers,1.22
+2026-07-19 14:09,2026-07-23,parramatta-eels,penrith-panthers,Ladbrokes,parramatta-eels,4.25
+2026-07-19 14:09,2026-07-23,parramatta-eels,penrith-panthers,Ladbrokes,penrith-panthers,1.22
+2026-07-19 14:09,2026-07-23,parramatta-eels,penrith-panthers,PlayUp,parramatta-eels,4.5
+2026-07-19 14:09,2026-07-23,parramatta-eels,penrith-panthers,PlayUp,penrith-panthers,1.19
+2026-07-19 14:09,2026-07-23,parramatta-eels,penrith-panthers,Betfair,parramatta-eels,1.01
+2026-07-19 14:09,2026-07-23,parramatta-eels,penrith-panthers,Betfair,penrith-panthers,1.01
+2026-07-19 14:09,2026-07-24,newcastle-knights,sydney-roosters,SportsBet,newcastle-knights,2.12
+2026-07-19 14:09,2026-07-24,newcastle-knights,sydney-roosters,SportsBet,sydney-roosters,1.73
+2026-07-19 14:09,2026-07-24,newcastle-knights,sydney-roosters,TAB,newcastle-knights,2.2
+2026-07-19 14:09,2026-07-24,newcastle-knights,sydney-roosters,TAB,sydney-roosters,1.65
+2026-07-19 14:09,2026-07-24,newcastle-knights,sydney-roosters,PointsBet (AU),newcastle-knights,2.25
+2026-07-19 14:09,2026-07-24,newcastle-knights,sydney-roosters,PointsBet (AU),sydney-roosters,1.62
+2026-07-19 14:09,2026-07-24,newcastle-knights,sydney-roosters,Neds,newcastle-knights,2.3
+2026-07-19 14:09,2026-07-24,newcastle-knights,sydney-roosters,Neds,sydney-roosters,1.64
+2026-07-19 14:09,2026-07-24,newcastle-knights,sydney-roosters,Ladbrokes,newcastle-knights,2.3
+2026-07-19 14:09,2026-07-24,newcastle-knights,sydney-roosters,Ladbrokes,sydney-roosters,1.64
+2026-07-19 14:09,2026-07-24,newcastle-knights,sydney-roosters,PlayUp,newcastle-knights,2.2
+2026-07-19 14:09,2026-07-24,newcastle-knights,sydney-roosters,PlayUp,sydney-roosters,1.65
+2026-07-19 14:09,2026-07-24,newcastle-knights,sydney-roosters,Betfair,newcastle-knights,1.01
+2026-07-19 14:09,2026-07-24,newcastle-knights,sydney-roosters,Betfair,sydney-roosters,1.01
+2026-07-19 14:09,2026-07-24,south-sydney-rabbitohs,melbourne-storm,SportsBet,melbourne-storm,2.39
+2026-07-19 14:09,2026-07-24,south-sydney-rabbitohs,melbourne-storm,SportsBet,south-sydney-rabbitohs,1.58
+2026-07-19 14:09,2026-07-24,south-sydney-rabbitohs,melbourne-storm,TAB,melbourne-storm,2.7
+2026-07-19 14:09,2026-07-24,south-sydney-rabbitohs,melbourne-storm,TAB,south-sydney-rabbitohs,1.45
+2026-07-19 14:09,2026-07-24,south-sydney-rabbitohs,melbourne-storm,PointsBet (AU),melbourne-storm,2.7
+2026-07-19 14:09,2026-07-24,south-sydney-rabbitohs,melbourne-storm,PointsBet (AU),south-sydney-rabbitohs,1.45
+2026-07-19 14:09,2026-07-24,south-sydney-rabbitohs,melbourne-storm,Neds,melbourne-storm,2.55
+2026-07-19 14:09,2026-07-24,south-sydney-rabbitohs,melbourne-storm,Neds,south-sydney-rabbitohs,1.52
+2026-07-19 14:09,2026-07-24,south-sydney-rabbitohs,melbourne-storm,Ladbrokes,melbourne-storm,2.55
+2026-07-19 14:09,2026-07-24,south-sydney-rabbitohs,melbourne-storm,Ladbrokes,south-sydney-rabbitohs,1.52
+2026-07-19 14:09,2026-07-24,south-sydney-rabbitohs,melbourne-storm,PlayUp,melbourne-storm,2.75
+2026-07-19 14:09,2026-07-24,south-sydney-rabbitohs,melbourne-storm,PlayUp,south-sydney-rabbitohs,1.44
+2026-07-19 14:09,2026-07-24,south-sydney-rabbitohs,melbourne-storm,Betfair,melbourne-storm,1.01
+2026-07-19 14:09,2026-07-24,south-sydney-rabbitohs,melbourne-storm,Betfair,south-sydney-rabbitohs,1.01
+2026-07-19 14:09,2026-07-25,canberra-raiders,wests-tigers,SportsBet,canberra-raiders,1.25
+2026-07-19 14:09,2026-07-25,canberra-raiders,wests-tigers,SportsBet,wests-tigers,4.0
+2026-07-19 14:09,2026-07-25,canberra-raiders,wests-tigers,TAB,canberra-raiders,1.24
+2026-07-19 14:09,2026-07-25,canberra-raiders,wests-tigers,TAB,wests-tigers,4.0
+2026-07-19 14:09,2026-07-25,canberra-raiders,wests-tigers,PointsBet (AU),canberra-raiders,1.23
+2026-07-19 14:09,2026-07-25,canberra-raiders,wests-tigers,PointsBet (AU),wests-tigers,4.0
+2026-07-19 14:09,2026-07-25,canberra-raiders,wests-tigers,Ladbrokes,canberra-raiders,1.26
+2026-07-19 14:09,2026-07-25,canberra-raiders,wests-tigers,Ladbrokes,wests-tigers,3.9
+2026-07-19 14:09,2026-07-25,canberra-raiders,wests-tigers,Neds,canberra-raiders,1.26
+2026-07-19 14:09,2026-07-25,canberra-raiders,wests-tigers,Neds,wests-tigers,3.9
+2026-07-19 14:09,2026-07-25,canberra-raiders,wests-tigers,PlayUp,canberra-raiders,1.25
+2026-07-19 14:09,2026-07-25,canberra-raiders,wests-tigers,PlayUp,wests-tigers,3.85
+2026-07-19 14:09,2026-07-25,canberra-raiders,wests-tigers,Betfair,canberra-raiders,1.01
+2026-07-19 14:09,2026-07-25,canberra-raiders,wests-tigers,Betfair,wests-tigers,1.01
+2026-07-19 14:09,2026-07-25,canterbury-bankstown-bulldogs,warriors,SportsBet,canterbury-bankstown-bulldogs,2.42
+2026-07-19 14:09,2026-07-25,canterbury-bankstown-bulldogs,warriors,SportsBet,warriors,1.57
+2026-07-19 14:09,2026-07-25,canterbury-bankstown-bulldogs,warriors,TAB,canterbury-bankstown-bulldogs,2.45
+2026-07-19 14:09,2026-07-25,canterbury-bankstown-bulldogs,warriors,TAB,warriors,1.53
+2026-07-19 14:09,2026-07-25,canterbury-bankstown-bulldogs,warriors,PointsBet (AU),canterbury-bankstown-bulldogs,2.55
+2026-07-19 14:09,2026-07-25,canterbury-bankstown-bulldogs,warriors,PointsBet (AU),warriors,1.5
+2026-07-19 14:09,2026-07-25,canterbury-bankstown-bulldogs,warriors,Ladbrokes,canterbury-bankstown-bulldogs,2.6
+2026-07-19 14:09,2026-07-25,canterbury-bankstown-bulldogs,warriors,Ladbrokes,warriors,1.5
+2026-07-19 14:09,2026-07-25,canterbury-bankstown-bulldogs,warriors,Neds,canterbury-bankstown-bulldogs,2.6
+2026-07-19 14:09,2026-07-25,canterbury-bankstown-bulldogs,warriors,Neds,warriors,1.5
+2026-07-19 14:09,2026-07-25,canterbury-bankstown-bulldogs,warriors,PlayUp,canterbury-bankstown-bulldogs,2.55
+2026-07-19 14:09,2026-07-25,canterbury-bankstown-bulldogs,warriors,PlayUp,warriors,1.5
+2026-07-19 14:09,2026-07-25,canterbury-bankstown-bulldogs,warriors,Betfair,canterbury-bankstown-bulldogs,1.01
+2026-07-19 14:09,2026-07-25,canterbury-bankstown-bulldogs,warriors,Betfair,warriors,1.01
+2026-07-19 14:09,2026-07-25,north-queensland-cowboys,brisbane-broncos,SportsBet,brisbane-broncos,1.93
+2026-07-19 14:09,2026-07-25,north-queensland-cowboys,brisbane-broncos,SportsBet,north-queensland-cowboys,1.91
+2026-07-19 14:09,2026-07-25,north-queensland-cowboys,brisbane-broncos,TAB,brisbane-broncos,1.8
+2026-07-19 14:09,2026-07-25,north-queensland-cowboys,brisbane-broncos,TAB,north-queensland-cowboys,2.0
+2026-07-19 14:09,2026-07-25,north-queensland-cowboys,brisbane-broncos,PointsBet (AU),brisbane-broncos,1.8
+2026-07-19 14:09,2026-07-25,north-queensland-cowboys,brisbane-broncos,PointsBet (AU),north-queensland-cowboys,2.0
+2026-07-19 14:09,2026-07-25,north-queensland-cowboys,brisbane-broncos,Neds,brisbane-broncos,1.94
+2026-07-19 14:09,2026-07-25,north-queensland-cowboys,brisbane-broncos,Neds,north-queensland-cowboys,1.87
+2026-07-19 14:09,2026-07-25,north-queensland-cowboys,brisbane-broncos,Ladbrokes,brisbane-broncos,1.94
+2026-07-19 14:09,2026-07-25,north-queensland-cowboys,brisbane-broncos,Ladbrokes,north-queensland-cowboys,1.87
+2026-07-19 14:09,2026-07-25,north-queensland-cowboys,brisbane-broncos,Betfair,brisbane-broncos,1.01
+2026-07-19 14:09,2026-07-25,north-queensland-cowboys,brisbane-broncos,Betfair,north-queensland-cowboys,1.01
+2026-07-19 14:09,2026-07-26,st-george-illawarra-dragons,gold-coast-titans,SportsBet,gold-coast-titans,2.0
+2026-07-19 14:09,2026-07-26,st-george-illawarra-dragons,gold-coast-titans,SportsBet,st-george-illawarra-dragons,1.85
+2026-07-19 14:09,2026-07-26,st-george-illawarra-dragons,gold-coast-titans,TAB,gold-coast-titans,2.0
+2026-07-19 14:09,2026-07-26,st-george-illawarra-dragons,gold-coast-titans,TAB,st-george-illawarra-dragons,1.8
+2026-07-19 14:09,2026-07-26,st-george-illawarra-dragons,gold-coast-titans,PointsBet (AU),gold-coast-titans,2.0
+2026-07-19 14:09,2026-07-26,st-george-illawarra-dragons,gold-coast-titans,PointsBet (AU),st-george-illawarra-dragons,1.8
+2026-07-19 14:09,2026-07-26,st-george-illawarra-dragons,gold-coast-titans,Neds,gold-coast-titans,2.0
+2026-07-19 14:09,2026-07-26,st-george-illawarra-dragons,gold-coast-titans,Neds,st-george-illawarra-dragons,1.82
+2026-07-19 14:09,2026-07-26,st-george-illawarra-dragons,gold-coast-titans,Ladbrokes,gold-coast-titans,2.0
+2026-07-19 14:09,2026-07-26,st-george-illawarra-dragons,gold-coast-titans,Ladbrokes,st-george-illawarra-dragons,1.82
+2026-07-19 14:09,2026-07-26,st-george-illawarra-dragons,gold-coast-titans,Betfair,gold-coast-titans,1.01
+2026-07-19 14:09,2026-07-26,st-george-illawarra-dragons,gold-coast-titans,Betfair,st-george-illawarra-dragons,1.01
+2026-07-19 14:09,2026-07-26,manly-warringah-sea-eagles,cronulla-sutherland-sharks,SportsBet,cronulla-sutherland-sharks,2.0
+2026-07-19 14:09,2026-07-26,manly-warringah-sea-eagles,cronulla-sutherland-sharks,SportsBet,manly-warringah-sea-eagles,1.84
+2026-07-19 14:09,2026-07-26,manly-warringah-sea-eagles,cronulla-sutherland-sharks,TAB,cronulla-sutherland-sharks,1.9
+2026-07-19 14:09,2026-07-26,manly-warringah-sea-eagles,cronulla-sutherland-sharks,TAB,manly-warringah-sea-eagles,1.9
+2026-07-19 14:09,2026-07-26,manly-warringah-sea-eagles,cronulla-sutherland-sharks,PointsBet (AU),cronulla-sutherland-sharks,1.95
+2026-07-19 14:09,2026-07-26,manly-warringah-sea-eagles,cronulla-sutherland-sharks,PointsBet (AU),manly-warringah-sea-eagles,1.85
+2026-07-19 14:09,2026-07-26,manly-warringah-sea-eagles,cronulla-sutherland-sharks,Neds,cronulla-sutherland-sharks,1.95
+2026-07-19 14:09,2026-07-26,manly-warringah-sea-eagles,cronulla-sutherland-sharks,Neds,manly-warringah-sea-eagles,1.87
+2026-07-19 14:09,2026-07-26,manly-warringah-sea-eagles,cronulla-sutherland-sharks,Ladbrokes,cronulla-sutherland-sharks,1.95
+2026-07-19 14:09,2026-07-26,manly-warringah-sea-eagles,cronulla-sutherland-sharks,Ladbrokes,manly-warringah-sea-eagles,1.87
+2026-07-19 14:09,2026-07-26,manly-warringah-sea-eagles,cronulla-sutherland-sharks,Betfair,cronulla-sutherland-sharks,1.01
+2026-07-19 14:09,2026-07-26,manly-warringah-sea-eagles,cronulla-sutherland-sharks,Betfair,manly-warringah-sea-eagles,1.01
+2026-07-19 14:20,2026-07-19,gold-coast-titans,manly-warringah-sea-eagles,TAB,gold-coast-titans,3.6
+2026-07-19 14:20,2026-07-19,gold-coast-titans,manly-warringah-sea-eagles,TAB,manly-warringah-sea-eagles,1.28
+2026-07-19 14:20,2026-07-19,gold-coast-titans,manly-warringah-sea-eagles,PointsBet (AU),gold-coast-titans,3.75
+2026-07-19 14:20,2026-07-19,gold-coast-titans,manly-warringah-sea-eagles,PointsBet (AU),manly-warringah-sea-eagles,1.25
+2026-07-19 14:20,2026-07-19,gold-coast-titans,manly-warringah-sea-eagles,TABtouch,gold-coast-titans,2.25
+2026-07-19 14:20,2026-07-19,gold-coast-titans,manly-warringah-sea-eagles,TABtouch,manly-warringah-sea-eagles,1.57
+2026-07-19 14:20,2026-07-19,gold-coast-titans,manly-warringah-sea-eagles,Unibet,gold-coast-titans,2.28
+2026-07-19 14:20,2026-07-19,gold-coast-titans,manly-warringah-sea-eagles,Unibet,manly-warringah-sea-eagles,1.6
+2026-07-19 14:20,2026-07-19,gold-coast-titans,manly-warringah-sea-eagles,Betfair,gold-coast-titans,2.0
+2026-07-19 14:20,2026-07-19,gold-coast-titans,manly-warringah-sea-eagles,Betfair,manly-warringah-sea-eagles,1.37
+2026-07-19 14:20,2026-07-19,dolphins,north-queensland-cowboys,SportsBet,dolphins,1.64
+2026-07-19 14:20,2026-07-19,dolphins,north-queensland-cowboys,SportsBet,north-queensland-cowboys,2.26
+2026-07-19 14:20,2026-07-19,dolphins,north-queensland-cowboys,TAB,dolphins,1.62
+2026-07-19 14:20,2026-07-19,dolphins,north-queensland-cowboys,TAB,north-queensland-cowboys,2.3
+2026-07-19 14:20,2026-07-19,dolphins,north-queensland-cowboys,Ladbrokes,dolphins,1.65
+2026-07-19 14:20,2026-07-19,dolphins,north-queensland-cowboys,Ladbrokes,north-queensland-cowboys,2.25
+2026-07-19 14:20,2026-07-19,dolphins,north-queensland-cowboys,Neds,dolphins,1.65
+2026-07-19 14:20,2026-07-19,dolphins,north-queensland-cowboys,Neds,north-queensland-cowboys,2.25
+2026-07-19 14:20,2026-07-19,dolphins,north-queensland-cowboys,PointsBet (AU),dolphins,1.6
+2026-07-19 14:20,2026-07-19,dolphins,north-queensland-cowboys,PointsBet (AU),north-queensland-cowboys,2.3
+2026-07-19 14:20,2026-07-19,dolphins,north-queensland-cowboys,PlayUp,dolphins,1.62
+2026-07-19 14:20,2026-07-19,dolphins,north-queensland-cowboys,PlayUp,north-queensland-cowboys,2.3
+2026-07-19 14:20,2026-07-19,dolphins,north-queensland-cowboys,Betr,dolphins,1.65
+2026-07-19 14:20,2026-07-19,dolphins,north-queensland-cowboys,Betr,north-queensland-cowboys,2.25
+2026-07-19 14:20,2026-07-19,dolphins,north-queensland-cowboys,TABtouch,dolphins,1.6
+2026-07-19 14:20,2026-07-19,dolphins,north-queensland-cowboys,TABtouch,north-queensland-cowboys,2.35
+2026-07-19 14:20,2026-07-19,dolphins,north-queensland-cowboys,Unibet,dolphins,1.58
+2026-07-19 14:20,2026-07-19,dolphins,north-queensland-cowboys,Unibet,north-queensland-cowboys,2.33
+2026-07-19 14:20,2026-07-19,dolphins,north-queensland-cowboys,Bet Right,dolphins,1.66
+2026-07-19 14:20,2026-07-19,dolphins,north-queensland-cowboys,Bet Right,north-queensland-cowboys,2.2
+2026-07-19 14:20,2026-07-19,dolphins,north-queensland-cowboys,Betfair,dolphins,1.67
+2026-07-19 14:20,2026-07-19,dolphins,north-queensland-cowboys,Betfair,north-queensland-cowboys,2.46
+2026-07-19 14:20,2026-07-23,parramatta-eels,penrith-panthers,SportsBet,parramatta-eels,4.35
+2026-07-19 14:20,2026-07-23,parramatta-eels,penrith-panthers,SportsBet,penrith-panthers,1.22
+2026-07-19 14:20,2026-07-23,parramatta-eels,penrith-panthers,TAB,parramatta-eels,4.4
+2026-07-19 14:20,2026-07-23,parramatta-eels,penrith-panthers,TAB,penrith-panthers,1.2
+2026-07-19 14:20,2026-07-23,parramatta-eels,penrith-panthers,PointsBet (AU),parramatta-eels,4.2
+2026-07-19 14:20,2026-07-23,parramatta-eels,penrith-panthers,PointsBet (AU),penrith-panthers,1.22
+2026-07-19 14:20,2026-07-23,parramatta-eels,penrith-panthers,Neds,parramatta-eels,4.25
+2026-07-19 14:20,2026-07-23,parramatta-eels,penrith-panthers,Neds,penrith-panthers,1.22
+2026-07-19 14:20,2026-07-23,parramatta-eels,penrith-panthers,Ladbrokes,parramatta-eels,4.25
+2026-07-19 14:20,2026-07-23,parramatta-eels,penrith-panthers,Ladbrokes,penrith-panthers,1.22
+2026-07-19 14:20,2026-07-23,parramatta-eels,penrith-panthers,PlayUp,parramatta-eels,4.5
+2026-07-19 14:20,2026-07-23,parramatta-eels,penrith-panthers,PlayUp,penrith-panthers,1.19
+2026-07-19 14:20,2026-07-23,parramatta-eels,penrith-panthers,Betfair,parramatta-eels,1.01
+2026-07-19 14:20,2026-07-23,parramatta-eels,penrith-panthers,Betfair,penrith-panthers,1.01
+2026-07-19 14:20,2026-07-24,newcastle-knights,sydney-roosters,SportsBet,newcastle-knights,2.12
+2026-07-19 14:20,2026-07-24,newcastle-knights,sydney-roosters,SportsBet,sydney-roosters,1.73
+2026-07-19 14:20,2026-07-24,newcastle-knights,sydney-roosters,TAB,newcastle-knights,2.2
+2026-07-19 14:20,2026-07-24,newcastle-knights,sydney-roosters,TAB,sydney-roosters,1.65
+2026-07-19 14:20,2026-07-24,newcastle-knights,sydney-roosters,PointsBet (AU),newcastle-knights,2.25
+2026-07-19 14:20,2026-07-24,newcastle-knights,sydney-roosters,PointsBet (AU),sydney-roosters,1.62
+2026-07-19 14:20,2026-07-24,newcastle-knights,sydney-roosters,Neds,newcastle-knights,2.3
+2026-07-19 14:20,2026-07-24,newcastle-knights,sydney-roosters,Neds,sydney-roosters,1.64
+2026-07-19 14:20,2026-07-24,newcastle-knights,sydney-roosters,Ladbrokes,newcastle-knights,2.3
+2026-07-19 14:20,2026-07-24,newcastle-knights,sydney-roosters,Ladbrokes,sydney-roosters,1.64
+2026-07-19 14:20,2026-07-24,newcastle-knights,sydney-roosters,PlayUp,newcastle-knights,2.2
+2026-07-19 14:20,2026-07-24,newcastle-knights,sydney-roosters,PlayUp,sydney-roosters,1.65
+2026-07-19 14:20,2026-07-24,newcastle-knights,sydney-roosters,Betfair,newcastle-knights,1.01
+2026-07-19 14:20,2026-07-24,newcastle-knights,sydney-roosters,Betfair,sydney-roosters,1.01
+2026-07-19 14:20,2026-07-24,south-sydney-rabbitohs,melbourne-storm,SportsBet,melbourne-storm,2.39
+2026-07-19 14:20,2026-07-24,south-sydney-rabbitohs,melbourne-storm,SportsBet,south-sydney-rabbitohs,1.58
+2026-07-19 14:20,2026-07-24,south-sydney-rabbitohs,melbourne-storm,TAB,melbourne-storm,2.7
+2026-07-19 14:20,2026-07-24,south-sydney-rabbitohs,melbourne-storm,TAB,south-sydney-rabbitohs,1.45
+2026-07-19 14:20,2026-07-24,south-sydney-rabbitohs,melbourne-storm,PointsBet (AU),melbourne-storm,2.7
+2026-07-19 14:20,2026-07-24,south-sydney-rabbitohs,melbourne-storm,PointsBet (AU),south-sydney-rabbitohs,1.45
+2026-07-19 14:20,2026-07-24,south-sydney-rabbitohs,melbourne-storm,Neds,melbourne-storm,2.55
+2026-07-19 14:20,2026-07-24,south-sydney-rabbitohs,melbourne-storm,Neds,south-sydney-rabbitohs,1.52
+2026-07-19 14:20,2026-07-24,south-sydney-rabbitohs,melbourne-storm,Ladbrokes,melbourne-storm,2.55
+2026-07-19 14:20,2026-07-24,south-sydney-rabbitohs,melbourne-storm,Ladbrokes,south-sydney-rabbitohs,1.52
+2026-07-19 14:20,2026-07-24,south-sydney-rabbitohs,melbourne-storm,PlayUp,melbourne-storm,2.75
+2026-07-19 14:20,2026-07-24,south-sydney-rabbitohs,melbourne-storm,PlayUp,south-sydney-rabbitohs,1.44
+2026-07-19 14:20,2026-07-24,south-sydney-rabbitohs,melbourne-storm,Betfair,melbourne-storm,1.01
+2026-07-19 14:20,2026-07-24,south-sydney-rabbitohs,melbourne-storm,Betfair,south-sydney-rabbitohs,1.01
+2026-07-19 14:20,2026-07-25,canberra-raiders,wests-tigers,SportsBet,canberra-raiders,1.25
+2026-07-19 14:20,2026-07-25,canberra-raiders,wests-tigers,SportsBet,wests-tigers,4.0
+2026-07-19 14:20,2026-07-25,canberra-raiders,wests-tigers,TAB,canberra-raiders,1.24
+2026-07-19 14:20,2026-07-25,canberra-raiders,wests-tigers,TAB,wests-tigers,4.0
+2026-07-19 14:20,2026-07-25,canberra-raiders,wests-tigers,PointsBet (AU),canberra-raiders,1.23
+2026-07-19 14:20,2026-07-25,canberra-raiders,wests-tigers,PointsBet (AU),wests-tigers,4.0
+2026-07-19 14:20,2026-07-25,canberra-raiders,wests-tigers,Ladbrokes,canberra-raiders,1.26
+2026-07-19 14:20,2026-07-25,canberra-raiders,wests-tigers,Ladbrokes,wests-tigers,3.9
+2026-07-19 14:20,2026-07-25,canberra-raiders,wests-tigers,Neds,canberra-raiders,1.26
+2026-07-19 14:20,2026-07-25,canberra-raiders,wests-tigers,Neds,wests-tigers,3.9
+2026-07-19 14:20,2026-07-25,canberra-raiders,wests-tigers,PlayUp,canberra-raiders,1.25
+2026-07-19 14:20,2026-07-25,canberra-raiders,wests-tigers,PlayUp,wests-tigers,3.85
+2026-07-19 14:20,2026-07-25,canberra-raiders,wests-tigers,Betfair,canberra-raiders,1.01
+2026-07-19 14:20,2026-07-25,canberra-raiders,wests-tigers,Betfair,wests-tigers,1.01
+2026-07-19 14:20,2026-07-25,canterbury-bankstown-bulldogs,warriors,SportsBet,canterbury-bankstown-bulldogs,2.42
+2026-07-19 14:20,2026-07-25,canterbury-bankstown-bulldogs,warriors,SportsBet,warriors,1.57
+2026-07-19 14:20,2026-07-25,canterbury-bankstown-bulldogs,warriors,TAB,canterbury-bankstown-bulldogs,2.45
+2026-07-19 14:20,2026-07-25,canterbury-bankstown-bulldogs,warriors,TAB,warriors,1.53
+2026-07-19 14:20,2026-07-25,canterbury-bankstown-bulldogs,warriors,PointsBet (AU),canterbury-bankstown-bulldogs,2.55
+2026-07-19 14:20,2026-07-25,canterbury-bankstown-bulldogs,warriors,PointsBet (AU),warriors,1.5
+2026-07-19 14:20,2026-07-25,canterbury-bankstown-bulldogs,warriors,Ladbrokes,canterbury-bankstown-bulldogs,2.6
+2026-07-19 14:20,2026-07-25,canterbury-bankstown-bulldogs,warriors,Ladbrokes,warriors,1.5
+2026-07-19 14:20,2026-07-25,canterbury-bankstown-bulldogs,warriors,Neds,canterbury-bankstown-bulldogs,2.6
+2026-07-19 14:20,2026-07-25,canterbury-bankstown-bulldogs,warriors,Neds,warriors,1.5
+2026-07-19 14:20,2026-07-25,canterbury-bankstown-bulldogs,warriors,PlayUp,canterbury-bankstown-bulldogs,2.55
+2026-07-19 14:20,2026-07-25,canterbury-bankstown-bulldogs,warriors,PlayUp,warriors,1.5
+2026-07-19 14:20,2026-07-25,canterbury-bankstown-bulldogs,warriors,Betfair,canterbury-bankstown-bulldogs,1.01
+2026-07-19 14:20,2026-07-25,canterbury-bankstown-bulldogs,warriors,Betfair,warriors,1.01
+2026-07-19 14:20,2026-07-25,north-queensland-cowboys,brisbane-broncos,SportsBet,brisbane-broncos,1.93
+2026-07-19 14:20,2026-07-25,north-queensland-cowboys,brisbane-broncos,SportsBet,north-queensland-cowboys,1.91
+2026-07-19 14:20,2026-07-25,north-queensland-cowboys,brisbane-broncos,TAB,brisbane-broncos,1.8
+2026-07-19 14:20,2026-07-25,north-queensland-cowboys,brisbane-broncos,TAB,north-queensland-cowboys,2.0
+2026-07-19 14:20,2026-07-25,north-queensland-cowboys,brisbane-broncos,PointsBet (AU),brisbane-broncos,1.8
+2026-07-19 14:20,2026-07-25,north-queensland-cowboys,brisbane-broncos,PointsBet (AU),north-queensland-cowboys,2.0
+2026-07-19 14:20,2026-07-25,north-queensland-cowboys,brisbane-broncos,Neds,brisbane-broncos,1.94
+2026-07-19 14:20,2026-07-25,north-queensland-cowboys,brisbane-broncos,Neds,north-queensland-cowboys,1.87
+2026-07-19 14:20,2026-07-25,north-queensland-cowboys,brisbane-broncos,Ladbrokes,brisbane-broncos,1.94
+2026-07-19 14:20,2026-07-25,north-queensland-cowboys,brisbane-broncos,Ladbrokes,north-queensland-cowboys,1.87
+2026-07-19 14:20,2026-07-25,north-queensland-cowboys,brisbane-broncos,Betfair,brisbane-broncos,1.01
+2026-07-19 14:20,2026-07-25,north-queensland-cowboys,brisbane-broncos,Betfair,north-queensland-cowboys,1.01
+2026-07-19 14:20,2026-07-26,st-george-illawarra-dragons,gold-coast-titans,SportsBet,gold-coast-titans,2.0
+2026-07-19 14:20,2026-07-26,st-george-illawarra-dragons,gold-coast-titans,SportsBet,st-george-illawarra-dragons,1.85
+2026-07-19 14:20,2026-07-26,st-george-illawarra-dragons,gold-coast-titans,PointsBet (AU),gold-coast-titans,2.0
+2026-07-19 14:20,2026-07-26,st-george-illawarra-dragons,gold-coast-titans,PointsBet (AU),st-george-illawarra-dragons,1.8
+2026-07-19 14:20,2026-07-26,st-george-illawarra-dragons,gold-coast-titans,Betfair,gold-coast-titans,1.01
+2026-07-19 14:20,2026-07-26,st-george-illawarra-dragons,gold-coast-titans,Betfair,st-george-illawarra-dragons,1.01
+2026-07-19 14:20,2026-07-26,manly-warringah-sea-eagles,cronulla-sutherland-sharks,SportsBet,cronulla-sutherland-sharks,2.0
+2026-07-19 14:20,2026-07-26,manly-warringah-sea-eagles,cronulla-sutherland-sharks,SportsBet,manly-warringah-sea-eagles,1.84
+2026-07-19 14:20,2026-07-26,manly-warringah-sea-eagles,cronulla-sutherland-sharks,PointsBet (AU),cronulla-sutherland-sharks,1.95
+2026-07-19 14:20,2026-07-26,manly-warringah-sea-eagles,cronulla-sutherland-sharks,PointsBet (AU),manly-warringah-sea-eagles,1.85
+2026-07-19 14:20,2026-07-26,manly-warringah-sea-eagles,cronulla-sutherland-sharks,Betfair,cronulla-sutherland-sharks,1.01
+2026-07-19 14:20,2026-07-26,manly-warringah-sea-eagles,cronulla-sutherland-sharks,Betfair,manly-warringah-sea-eagles,1.01
+2026-07-21 17:12,2026-07-23,parramatta-eels,penrith-panthers,SportsBet,parramatta-eels,5.1
+2026-07-21 17:12,2026-07-23,parramatta-eels,penrith-panthers,SportsBet,penrith-panthers,1.16
+2026-07-21 17:12,2026-07-23,parramatta-eels,penrith-panthers,TAB,parramatta-eels,4.8
+2026-07-21 17:12,2026-07-23,parramatta-eels,penrith-panthers,TAB,penrith-panthers,1.18
+2026-07-21 17:12,2026-07-23,parramatta-eels,penrith-panthers,PointsBet (AU),parramatta-eels,5.5
+2026-07-21 17:12,2026-07-23,parramatta-eels,penrith-panthers,PointsBet (AU),penrith-panthers,1.14
+2026-07-21 17:12,2026-07-23,parramatta-eels,penrith-panthers,Neds,parramatta-eels,5.4
+2026-07-21 17:12,2026-07-23,parramatta-eels,penrith-panthers,Neds,penrith-panthers,1.16
+2026-07-21 17:12,2026-07-23,parramatta-eels,penrith-panthers,Ladbrokes,parramatta-eels,5.4
+2026-07-21 17:12,2026-07-23,parramatta-eels,penrith-panthers,Ladbrokes,penrith-panthers,1.16
+2026-07-21 17:12,2026-07-23,parramatta-eels,penrith-panthers,PlayUp,parramatta-eels,5.0
+2026-07-21 17:12,2026-07-23,parramatta-eels,penrith-panthers,PlayUp,penrith-panthers,1.17
+2026-07-21 17:12,2026-07-23,parramatta-eels,penrith-panthers,Betfair,parramatta-eels,5.1
+2026-07-21 17:12,2026-07-23,parramatta-eels,penrith-panthers,Betfair,penrith-panthers,1.17
+2026-07-21 17:12,2026-07-23,parramatta-eels,penrith-panthers,Betr,parramatta-eels,5.5
+2026-07-21 17:12,2026-07-23,parramatta-eels,penrith-panthers,Betr,penrith-panthers,1.15
+2026-07-21 17:12,2026-07-23,parramatta-eels,penrith-panthers,Unibet,parramatta-eels,5.1
+2026-07-21 17:12,2026-07-23,parramatta-eels,penrith-panthers,Unibet,penrith-panthers,1.16
+2026-07-21 17:12,2026-07-23,parramatta-eels,penrith-panthers,TABtouch,parramatta-eels,5.1
+2026-07-21 17:12,2026-07-23,parramatta-eels,penrith-panthers,TABtouch,penrith-panthers,1.17
+2026-07-21 17:12,2026-07-23,parramatta-eels,penrith-panthers,Bet Right,parramatta-eels,5.5
+2026-07-21 17:12,2026-07-23,parramatta-eels,penrith-panthers,Bet Right,penrith-panthers,1.15
+2026-07-21 17:12,2026-07-24,newcastle-knights,sydney-roosters,SportsBet,newcastle-knights,2.15
+2026-07-21 17:12,2026-07-24,newcastle-knights,sydney-roosters,SportsBet,sydney-roosters,1.71
+2026-07-21 17:12,2026-07-24,newcastle-knights,sydney-roosters,TAB,newcastle-knights,2.15
+2026-07-21 17:12,2026-07-24,newcastle-knights,sydney-roosters,TAB,sydney-roosters,1.7
+2026-07-21 17:12,2026-07-24,newcastle-knights,sydney-roosters,PointsBet (AU),newcastle-knights,2.1
+2026-07-21 17:12,2026-07-24,newcastle-knights,sydney-roosters,PointsBet (AU),sydney-roosters,1.73
+2026-07-21 17:12,2026-07-24,newcastle-knights,sydney-roosters,Neds,newcastle-knights,2.1
+2026-07-21 17:12,2026-07-24,newcastle-knights,sydney-roosters,Neds,sydney-roosters,1.75
+2026-07-21 17:12,2026-07-24,newcastle-knights,sydney-roosters,Ladbrokes,newcastle-knights,2.1
+2026-07-21 17:12,2026-07-24,newcastle-knights,sydney-roosters,Ladbrokes,sydney-roosters,1.75
+2026-07-21 17:12,2026-07-24,newcastle-knights,sydney-roosters,PlayUp,newcastle-knights,2.1
+2026-07-21 17:12,2026-07-24,newcastle-knights,sydney-roosters,PlayUp,sydney-roosters,1.74
+2026-07-21 17:12,2026-07-24,newcastle-knights,sydney-roosters,Betfair,newcastle-knights,2.22
+2026-07-21 17:12,2026-07-24,newcastle-knights,sydney-roosters,Betfair,sydney-roosters,1.75
+2026-07-21 17:12,2026-07-24,newcastle-knights,sydney-roosters,Betr,newcastle-knights,2.15
+2026-07-21 17:12,2026-07-24,newcastle-knights,sydney-roosters,Betr,sydney-roosters,1.7
+2026-07-21 17:12,2026-07-24,newcastle-knights,sydney-roosters,Unibet,newcastle-knights,2.08
+2026-07-21 17:12,2026-07-24,newcastle-knights,sydney-roosters,Unibet,sydney-roosters,1.73
+2026-07-21 17:12,2026-07-24,newcastle-knights,sydney-roosters,TABtouch,newcastle-knights,2.1
+2026-07-21 17:12,2026-07-24,newcastle-knights,sydney-roosters,TABtouch,sydney-roosters,1.74
+2026-07-21 17:12,2026-07-24,newcastle-knights,sydney-roosters,Bet Right,newcastle-knights,2.11
+2026-07-21 17:12,2026-07-24,newcastle-knights,sydney-roosters,Bet Right,sydney-roosters,1.73
+2026-07-21 17:12,2026-07-24,south-sydney-rabbitohs,melbourne-storm,SportsBet,melbourne-storm,1.88
+2026-07-21 17:12,2026-07-24,south-sydney-rabbitohs,melbourne-storm,SportsBet,south-sydney-rabbitohs,1.96
+2026-07-21 17:12,2026-07-24,south-sydney-rabbitohs,melbourne-storm,TAB,melbourne-storm,1.85
+2026-07-21 17:12,2026-07-24,south-sydney-rabbitohs,melbourne-storm,TAB,south-sydney-rabbitohs,1.95
+2026-07-21 17:12,2026-07-24,south-sydney-rabbitohs,melbourne-storm,PointsBet (AU),melbourne-storm,1.95
+2026-07-21 17:12,2026-07-24,south-sydney-rabbitohs,melbourne-storm,PointsBet (AU),south-sydney-rabbitohs,1.85
+2026-07-21 17:12,2026-07-24,south-sydney-rabbitohs,melbourne-storm,Neds,melbourne-storm,1.87
+2026-07-21 17:12,2026-07-24,south-sydney-rabbitohs,melbourne-storm,Neds,south-sydney-rabbitohs,1.95
+2026-07-21 17:12,2026-07-24,south-sydney-rabbitohs,melbourne-storm,Ladbrokes,melbourne-storm,1.87
+2026-07-21 17:12,2026-07-24,south-sydney-rabbitohs,melbourne-storm,Ladbrokes,south-sydney-rabbitohs,1.95
+2026-07-21 17:12,2026-07-24,south-sydney-rabbitohs,melbourne-storm,PlayUp,melbourne-storm,1.85
+2026-07-21 17:12,2026-07-24,south-sydney-rabbitohs,melbourne-storm,PlayUp,south-sydney-rabbitohs,1.95
+2026-07-21 17:12,2026-07-24,south-sydney-rabbitohs,melbourne-storm,Betfair,melbourne-storm,1.03
+2026-07-21 17:12,2026-07-24,south-sydney-rabbitohs,melbourne-storm,Betfair,south-sydney-rabbitohs,1.61
+2026-07-21 17:12,2026-07-24,south-sydney-rabbitohs,melbourne-storm,Betr,melbourne-storm,1.85
+2026-07-21 17:12,2026-07-24,south-sydney-rabbitohs,melbourne-storm,Betr,south-sydney-rabbitohs,1.95
+2026-07-21 17:12,2026-07-24,south-sydney-rabbitohs,melbourne-storm,Unibet,melbourne-storm,1.89
+2026-07-21 17:12,2026-07-24,south-sydney-rabbitohs,melbourne-storm,Unibet,south-sydney-rabbitohs,1.89
+2026-07-21 17:12,2026-07-24,south-sydney-rabbitohs,melbourne-storm,TABtouch,melbourne-storm,1.89
+2026-07-21 17:12,2026-07-24,south-sydney-rabbitohs,melbourne-storm,TABtouch,south-sydney-rabbitohs,1.89
+2026-07-21 17:12,2026-07-24,south-sydney-rabbitohs,melbourne-storm,Bet Right,melbourne-storm,1.83
+2026-07-21 17:12,2026-07-24,south-sydney-rabbitohs,melbourne-storm,Bet Right,south-sydney-rabbitohs,1.97
+2026-07-21 17:12,2026-07-25,canberra-raiders,wests-tigers,SportsBet,canberra-raiders,1.22
+2026-07-21 17:12,2026-07-25,canberra-raiders,wests-tigers,SportsBet,wests-tigers,4.35
+2026-07-21 17:12,2026-07-25,canberra-raiders,wests-tigers,Betr,canberra-raiders,1.24
+2026-07-21 17:12,2026-07-25,canberra-raiders,wests-tigers,Betr,wests-tigers,4.05
+2026-07-21 17:12,2026-07-25,canberra-raiders,wests-tigers,TAB,canberra-raiders,1.24
+2026-07-21 17:12,2026-07-25,canberra-raiders,wests-tigers,TAB,wests-tigers,4.1
+2026-07-21 17:12,2026-07-25,canberra-raiders,wests-tigers,PointsBet (AU),canberra-raiders,1.23
+2026-07-21 17:12,2026-07-25,canberra-raiders,wests-tigers,PointsBet (AU),wests-tigers,4.0
+2026-07-21 17:12,2026-07-25,canberra-raiders,wests-tigers,Ladbrokes,canberra-raiders,1.24
+2026-07-21 17:12,2026-07-25,canberra-raiders,wests-tigers,Ladbrokes,wests-tigers,4.2
+2026-07-21 17:12,2026-07-25,canberra-raiders,wests-tigers,Neds,canberra-raiders,1.24
+2026-07-21 17:12,2026-07-25,canberra-raiders,wests-tigers,Neds,wests-tigers,4.2
+2026-07-21 17:12,2026-07-25,canberra-raiders,wests-tigers,PlayUp,canberra-raiders,1.24
+2026-07-21 17:12,2026-07-25,canberra-raiders,wests-tigers,PlayUp,wests-tigers,4.1
+2026-07-21 17:12,2026-07-25,canberra-raiders,wests-tigers,Betfair,canberra-raiders,1.05
+2026-07-21 17:12,2026-07-25,canberra-raiders,wests-tigers,Betfair,wests-tigers,4.8
+2026-07-21 17:12,2026-07-25,canberra-raiders,wests-tigers,TABtouch,canberra-raiders,1.23
+2026-07-21 17:12,2026-07-25,canberra-raiders,wests-tigers,TABtouch,wests-tigers,4.2
+2026-07-21 17:12,2026-07-25,canberra-raiders,wests-tigers,Unibet,canberra-raiders,1.22
+2026-07-21 17:12,2026-07-25,canberra-raiders,wests-tigers,Unibet,wests-tigers,4.2
+2026-07-21 17:12,2026-07-25,canberra-raiders,wests-tigers,Bet Right,canberra-raiders,1.22
+2026-07-21 17:12,2026-07-25,canberra-raiders,wests-tigers,Bet Right,wests-tigers,4.3
+2026-07-21 17:12,2026-07-25,canterbury-bankstown-bulldogs,warriors,SportsBet,canterbury-bankstown-bulldogs,2.58
+2026-07-21 17:12,2026-07-25,canterbury-bankstown-bulldogs,warriors,SportsBet,warriors,1.51
+2026-07-21 17:12,2026-07-25,canterbury-bankstown-bulldogs,warriors,Betr,canterbury-bankstown-bulldogs,2.65
+2026-07-21 17:12,2026-07-25,canterbury-bankstown-bulldogs,warriors,Betr,warriors,1.48
+2026-07-21 17:12,2026-07-25,canterbury-bankstown-bulldogs,warriors,TAB,canterbury-bankstown-bulldogs,2.55
+2026-07-21 17:12,2026-07-25,canterbury-bankstown-bulldogs,warriors,TAB,warriors,1.52
+2026-07-21 17:12,2026-07-25,canterbury-bankstown-bulldogs,warriors,PointsBet (AU),canterbury-bankstown-bulldogs,2.45
+2026-07-21 17:12,2026-07-25,canterbury-bankstown-bulldogs,warriors,PointsBet (AU),warriors,1.53
+2026-07-21 17:12,2026-07-25,canterbury-bankstown-bulldogs,warriors,Ladbrokes,canterbury-bankstown-bulldogs,2.6
+2026-07-21 17:12,2026-07-25,canterbury-bankstown-bulldogs,warriors,Ladbrokes,warriors,1.5
+2026-07-21 17:12,2026-07-25,canterbury-bankstown-bulldogs,warriors,Neds,canterbury-bankstown-bulldogs,2.6
+2026-07-21 17:12,2026-07-25,canterbury-bankstown-bulldogs,warriors,Neds,warriors,1.5
+2026-07-21 17:12,2026-07-25,canterbury-bankstown-bulldogs,warriors,PlayUp,canterbury-bankstown-bulldogs,2.65
+2026-07-21 17:12,2026-07-25,canterbury-bankstown-bulldogs,warriors,PlayUp,warriors,1.48
+2026-07-21 17:12,2026-07-25,canterbury-bankstown-bulldogs,warriors,Betfair,canterbury-bankstown-bulldogs,2.64
+2026-07-21 17:12,2026-07-25,canterbury-bankstown-bulldogs,warriors,Betfair,warriors,1.59
+2026-07-21 17:12,2026-07-25,canterbury-bankstown-bulldogs,warriors,TABtouch,canterbury-bankstown-bulldogs,2.5
+2026-07-21 17:12,2026-07-25,canterbury-bankstown-bulldogs,warriors,TABtouch,warriors,1.53
+2026-07-21 17:12,2026-07-25,canterbury-bankstown-bulldogs,warriors,Unibet,canterbury-bankstown-bulldogs,2.48
+2026-07-21 17:12,2026-07-25,canterbury-bankstown-bulldogs,warriors,Unibet,warriors,1.53
+2026-07-21 17:12,2026-07-25,canterbury-bankstown-bulldogs,warriors,Bet Right,canterbury-bankstown-bulldogs,2.55
+2026-07-21 17:12,2026-07-25,canterbury-bankstown-bulldogs,warriors,Bet Right,warriors,1.52
+2026-07-21 17:12,2026-07-25,north-queensland-cowboys,brisbane-broncos,SportsBet,brisbane-broncos,1.72
+2026-07-21 17:12,2026-07-25,north-queensland-cowboys,brisbane-broncos,SportsBet,north-queensland-cowboys,2.13
+2026-07-21 17:12,2026-07-25,north-queensland-cowboys,brisbane-broncos,Betr,brisbane-broncos,1.62
+2026-07-21 17:12,2026-07-25,north-queensland-cowboys,brisbane-broncos,Betr,north-queensland-cowboys,2.3
+2026-07-21 17:12,2026-07-25,north-queensland-cowboys,brisbane-broncos,TAB,brisbane-broncos,1.65
+2026-07-21 17:12,2026-07-25,north-queensland-cowboys,brisbane-broncos,TAB,north-queensland-cowboys,2.25
+2026-07-21 17:12,2026-07-25,north-queensland-cowboys,brisbane-broncos,PointsBet (AU),brisbane-broncos,1.62
+2026-07-21 17:12,2026-07-25,north-queensland-cowboys,brisbane-broncos,PointsBet (AU),north-queensland-cowboys,2.25
+2026-07-21 17:12,2026-07-25,north-queensland-cowboys,brisbane-broncos,Neds,brisbane-broncos,1.7
+2026-07-21 17:12,2026-07-25,north-queensland-cowboys,brisbane-broncos,Neds,north-queensland-cowboys,2.15
+2026-07-21 17:12,2026-07-25,north-queensland-cowboys,brisbane-broncos,Ladbrokes,brisbane-broncos,1.7
+2026-07-21 17:12,2026-07-25,north-queensland-cowboys,brisbane-broncos,Ladbrokes,north-queensland-cowboys,2.15
+2026-07-21 17:12,2026-07-25,north-queensland-cowboys,brisbane-broncos,PlayUp,brisbane-broncos,1.62
+2026-07-21 17:12,2026-07-25,north-queensland-cowboys,brisbane-broncos,PlayUp,north-queensland-cowboys,2.3
+2026-07-21 17:12,2026-07-25,north-queensland-cowboys,brisbane-broncos,Betfair,brisbane-broncos,1.7
+2026-07-21 17:12,2026-07-25,north-queensland-cowboys,brisbane-broncos,Betfair,north-queensland-cowboys,2.2
+2026-07-21 17:12,2026-07-25,north-queensland-cowboys,brisbane-broncos,TABtouch,brisbane-broncos,1.62
+2026-07-21 17:12,2026-07-25,north-queensland-cowboys,brisbane-broncos,TABtouch,north-queensland-cowboys,2.3
+2026-07-21 17:12,2026-07-25,north-queensland-cowboys,brisbane-broncos,Unibet,brisbane-broncos,1.61
+2026-07-21 17:12,2026-07-25,north-queensland-cowboys,brisbane-broncos,Unibet,north-queensland-cowboys,2.28
+2026-07-21 17:12,2026-07-25,north-queensland-cowboys,brisbane-broncos,Bet Right,brisbane-broncos,1.7
+2026-07-21 17:12,2026-07-25,north-queensland-cowboys,brisbane-broncos,Bet Right,north-queensland-cowboys,2.15
+2026-07-21 17:12,2026-07-26,st-george-illawarra-dragons,gold-coast-titans,SportsBet,gold-coast-titans,1.92
+2026-07-21 17:12,2026-07-26,st-george-illawarra-dragons,gold-coast-titans,SportsBet,st-george-illawarra-dragons,1.91
+2026-07-21 17:12,2026-07-26,st-george-illawarra-dragons,gold-coast-titans,Betr,gold-coast-titans,1.9
+2026-07-21 17:12,2026-07-26,st-george-illawarra-dragons,gold-coast-titans,Betr,st-george-illawarra-dragons,1.9
+2026-07-21 17:12,2026-07-26,st-george-illawarra-dragons,gold-coast-titans,TAB,gold-coast-titans,1.9
+2026-07-21 17:12,2026-07-26,st-george-illawarra-dragons,gold-coast-titans,TAB,st-george-illawarra-dragons,1.9
+2026-07-21 17:12,2026-07-26,st-george-illawarra-dragons,gold-coast-titans,PointsBet (AU),gold-coast-titans,1.95
+2026-07-21 17:12,2026-07-26,st-george-illawarra-dragons,gold-coast-titans,PointsBet (AU),st-george-illawarra-dragons,1.85
+2026-07-21 17:12,2026-07-26,st-george-illawarra-dragons,gold-coast-titans,Neds,gold-coast-titans,1.9
+2026-07-21 17:12,2026-07-26,st-george-illawarra-dragons,gold-coast-titans,Neds,st-george-illawarra-dragons,1.9
+2026-07-21 17:12,2026-07-26,st-george-illawarra-dragons,gold-coast-titans,Ladbrokes,gold-coast-titans,1.9
+2026-07-21 17:12,2026-07-26,st-george-illawarra-dragons,gold-coast-titans,Ladbrokes,st-george-illawarra-dragons,1.9
+2026-07-21 17:12,2026-07-26,st-george-illawarra-dragons,gold-coast-titans,Betfair,gold-coast-titans,1.97
+2026-07-21 17:12,2026-07-26,st-george-illawarra-dragons,gold-coast-titans,Betfair,st-george-illawarra-dragons,1.93
+2026-07-21 17:12,2026-07-26,st-george-illawarra-dragons,gold-coast-titans,PlayUp,gold-coast-titans,1.9
+2026-07-21 17:12,2026-07-26,st-george-illawarra-dragons,gold-coast-titans,PlayUp,st-george-illawarra-dragons,1.9
+2026-07-21 17:12,2026-07-26,st-george-illawarra-dragons,gold-coast-titans,TABtouch,gold-coast-titans,1.89
+2026-07-21 17:12,2026-07-26,st-george-illawarra-dragons,gold-coast-titans,TABtouch,st-george-illawarra-dragons,1.89
+2026-07-21 17:12,2026-07-26,st-george-illawarra-dragons,gold-coast-titans,Unibet,gold-coast-titans,1.89
+2026-07-21 17:12,2026-07-26,st-george-illawarra-dragons,gold-coast-titans,Unibet,st-george-illawarra-dragons,1.89
+2026-07-21 17:12,2026-07-26,st-george-illawarra-dragons,gold-coast-titans,Bet Right,gold-coast-titans,1.9
+2026-07-21 17:12,2026-07-26,st-george-illawarra-dragons,gold-coast-titans,Bet Right,st-george-illawarra-dragons,1.9
+2026-07-21 17:12,2026-07-26,manly-warringah-sea-eagles,cronulla-sutherland-sharks,SportsBet,cronulla-sutherland-sharks,1.63
+2026-07-21 17:12,2026-07-26,manly-warringah-sea-eagles,cronulla-sutherland-sharks,SportsBet,manly-warringah-sea-eagles,2.28
+2026-07-21 17:12,2026-07-26,manly-warringah-sea-eagles,cronulla-sutherland-sharks,TAB,cronulla-sutherland-sharks,1.62
+2026-07-21 17:12,2026-07-26,manly-warringah-sea-eagles,cronulla-sutherland-sharks,TAB,manly-warringah-sea-eagles,2.3
+2026-07-21 17:12,2026-07-26,manly-warringah-sea-eagles,cronulla-sutherland-sharks,Betr,cronulla-sutherland-sharks,1.62
+2026-07-21 17:12,2026-07-26,manly-warringah-sea-eagles,cronulla-sutherland-sharks,Betr,manly-warringah-sea-eagles,2.3
+2026-07-21 17:12,2026-07-26,manly-warringah-sea-eagles,cronulla-sutherland-sharks,PointsBet (AU),cronulla-sutherland-sharks,1.6
+2026-07-21 17:12,2026-07-26,manly-warringah-sea-eagles,cronulla-sutherland-sharks,PointsBet (AU),manly-warringah-sea-eagles,2.3
+2026-07-21 17:12,2026-07-26,manly-warringah-sea-eagles,cronulla-sutherland-sharks,Neds,cronulla-sutherland-sharks,1.65
+2026-07-21 17:12,2026-07-26,manly-warringah-sea-eagles,cronulla-sutherland-sharks,Neds,manly-warringah-sea-eagles,2.25
+2026-07-21 17:12,2026-07-26,manly-warringah-sea-eagles,cronulla-sutherland-sharks,Ladbrokes,cronulla-sutherland-sharks,1.65
+2026-07-21 17:12,2026-07-26,manly-warringah-sea-eagles,cronulla-sutherland-sharks,Ladbrokes,manly-warringah-sea-eagles,2.25
+2026-07-21 17:12,2026-07-26,manly-warringah-sea-eagles,cronulla-sutherland-sharks,Betfair,cronulla-sutherland-sharks,1.03
+2026-07-21 17:12,2026-07-26,manly-warringah-sea-eagles,cronulla-sutherland-sharks,Betfair,manly-warringah-sea-eagles,2.32
+2026-07-21 17:12,2026-07-26,manly-warringah-sea-eagles,cronulla-sutherland-sharks,PlayUp,cronulla-sutherland-sharks,1.65
+2026-07-21 17:12,2026-07-26,manly-warringah-sea-eagles,cronulla-sutherland-sharks,PlayUp,manly-warringah-sea-eagles,2.25
+2026-07-21 17:12,2026-07-26,manly-warringah-sea-eagles,cronulla-sutherland-sharks,Unibet,cronulla-sutherland-sharks,1.65
+2026-07-21 17:12,2026-07-26,manly-warringah-sea-eagles,cronulla-sutherland-sharks,Unibet,manly-warringah-sea-eagles,2.23
+2026-07-21 17:12,2026-07-26,manly-warringah-sea-eagles,cronulla-sutherland-sharks,TABtouch,cronulla-sutherland-sharks,1.65
+2026-07-21 17:12,2026-07-26,manly-warringah-sea-eagles,cronulla-sutherland-sharks,TABtouch,manly-warringah-sea-eagles,2.23
+2026-07-21 17:12,2026-07-26,manly-warringah-sea-eagles,cronulla-sutherland-sharks,Bet Right,cronulla-sutherland-sharks,1.63
+2026-07-21 17:12,2026-07-26,manly-warringah-sea-eagles,cronulla-sutherland-sharks,Bet Right,manly-warringah-sea-eagles,2.28
+2026-07-21 20:04,2026-07-23,parramatta-eels,penrith-panthers,SportsBet,parramatta-eels,5.1
+2026-07-21 20:04,2026-07-23,parramatta-eels,penrith-panthers,SportsBet,penrith-panthers,1.16
+2026-07-21 20:04,2026-07-23,parramatta-eels,penrith-panthers,TAB,parramatta-eels,4.8
+2026-07-21 20:04,2026-07-23,parramatta-eels,penrith-panthers,TAB,penrith-panthers,1.18
+2026-07-21 20:04,2026-07-23,parramatta-eels,penrith-panthers,PointsBet (AU),parramatta-eels,5.5
+2026-07-21 20:04,2026-07-23,parramatta-eels,penrith-panthers,PointsBet (AU),penrith-panthers,1.14
+2026-07-21 20:04,2026-07-23,parramatta-eels,penrith-panthers,Neds,parramatta-eels,5.4
+2026-07-21 20:04,2026-07-23,parramatta-eels,penrith-panthers,Neds,penrith-panthers,1.16
+2026-07-21 20:04,2026-07-23,parramatta-eels,penrith-panthers,Ladbrokes,parramatta-eels,5.4
+2026-07-21 20:04,2026-07-23,parramatta-eels,penrith-panthers,Ladbrokes,penrith-panthers,1.16
+2026-07-21 20:04,2026-07-23,parramatta-eels,penrith-panthers,PlayUp,parramatta-eels,4.8
+2026-07-21 20:04,2026-07-23,parramatta-eels,penrith-panthers,PlayUp,penrith-panthers,1.18
+2026-07-21 20:04,2026-07-23,parramatta-eels,penrith-panthers,Betfair,parramatta-eels,5.1
+2026-07-21 20:04,2026-07-23,parramatta-eels,penrith-panthers,Betfair,penrith-panthers,1.18
+2026-07-21 20:04,2026-07-23,parramatta-eels,penrith-panthers,Betr,parramatta-eels,5.5
+2026-07-21 20:04,2026-07-23,parramatta-eels,penrith-panthers,Betr,penrith-panthers,1.15
+2026-07-21 20:04,2026-07-23,parramatta-eels,penrith-panthers,Unibet,parramatta-eels,4.9
+2026-07-21 20:04,2026-07-23,parramatta-eels,penrith-panthers,Unibet,penrith-panthers,1.17
+2026-07-21 20:04,2026-07-23,parramatta-eels,penrith-panthers,TABtouch,parramatta-eels,4.9
+2026-07-21 20:04,2026-07-23,parramatta-eels,penrith-panthers,TABtouch,penrith-panthers,1.18
+2026-07-21 20:04,2026-07-23,parramatta-eels,penrith-panthers,Bet Right,parramatta-eels,5.25
+2026-07-21 20:04,2026-07-23,parramatta-eels,penrith-panthers,Bet Right,penrith-panthers,1.16
+2026-07-21 20:04,2026-07-24,newcastle-knights,sydney-roosters,SportsBet,newcastle-knights,2.15
+2026-07-21 20:04,2026-07-24,newcastle-knights,sydney-roosters,SportsBet,sydney-roosters,1.71
+2026-07-21 20:04,2026-07-24,newcastle-knights,sydney-roosters,TAB,newcastle-knights,2.2
+2026-07-21 20:04,2026-07-24,newcastle-knights,sydney-roosters,TAB,sydney-roosters,1.67
+2026-07-21 20:04,2026-07-24,newcastle-knights,sydney-roosters,PointsBet (AU),newcastle-knights,2.15
+2026-07-21 20:04,2026-07-24,newcastle-knights,sydney-roosters,PointsBet (AU),sydney-roosters,1.68
+2026-07-21 20:04,2026-07-24,newcastle-knights,sydney-roosters,Neds,newcastle-knights,2.1
+2026-07-21 20:04,2026-07-24,newcastle-knights,sydney-roosters,Neds,sydney-roosters,1.75
+2026-07-21 20:04,2026-07-24,newcastle-knights,sydney-roosters,Ladbrokes,newcastle-knights,2.1
+2026-07-21 20:04,2026-07-24,newcastle-knights,sydney-roosters,Ladbrokes,sydney-roosters,1.75
+2026-07-21 20:04,2026-07-24,newcastle-knights,sydney-roosters,PlayUp,newcastle-knights,2.2
+2026-07-21 20:04,2026-07-24,newcastle-knights,sydney-roosters,PlayUp,sydney-roosters,1.67
+2026-07-21 20:04,2026-07-24,newcastle-knights,sydney-roosters,Betfair,newcastle-knights,2.22
+2026-07-21 20:04,2026-07-24,newcastle-knights,sydney-roosters,Betfair,sydney-roosters,1.75
+2026-07-21 20:04,2026-07-24,newcastle-knights,sydney-roosters,Betr,newcastle-knights,2.15
+2026-07-21 20:04,2026-07-24,newcastle-knights,sydney-roosters,Betr,sydney-roosters,1.7
+2026-07-21 20:04,2026-07-24,newcastle-knights,sydney-roosters,Unibet,newcastle-knights,2.14
+2026-07-21 20:04,2026-07-24,newcastle-knights,sydney-roosters,Unibet,sydney-roosters,1.68
+2026-07-21 20:04,2026-07-24,newcastle-knights,sydney-roosters,TABtouch,newcastle-knights,2.16
+2026-07-21 20:04,2026-07-24,newcastle-knights,sydney-roosters,TABtouch,sydney-roosters,1.7
+2026-07-21 20:04,2026-07-24,newcastle-knights,sydney-roosters,Bet Right,newcastle-knights,2.15
+2026-07-21 20:04,2026-07-24,newcastle-knights,sydney-roosters,Bet Right,sydney-roosters,1.7
+2026-07-21 20:04,2026-07-24,south-sydney-rabbitohs,melbourne-storm,SportsBet,melbourne-storm,1.83
+2026-07-21 20:04,2026-07-24,south-sydney-rabbitohs,melbourne-storm,SportsBet,south-sydney-rabbitohs,2.01
+2026-07-21 20:04,2026-07-24,south-sydney-rabbitohs,melbourne-storm,TAB,melbourne-storm,1.85
+2026-07-21 20:04,2026-07-24,south-sydney-rabbitohs,melbourne-storm,TAB,south-sydney-rabbitohs,1.95
+2026-07-21 20:04,2026-07-24,south-sydney-rabbitohs,melbourne-storm,PointsBet (AU),melbourne-storm,1.85
+2026-07-21 20:04,2026-07-24,south-sydney-rabbitohs,melbourne-storm,PointsBet (AU),south-sydney-rabbitohs,1.95
+2026-07-21 20:04,2026-07-24,south-sydney-rabbitohs,melbourne-storm,Neds,melbourne-storm,1.87
+2026-07-21 20:04,2026-07-24,south-sydney-rabbitohs,melbourne-storm,Neds,south-sydney-rabbitohs,1.95
+2026-07-21 20:04,2026-07-24,south-sydney-rabbitohs,melbourne-storm,Ladbrokes,melbourne-storm,1.87
+2026-07-21 20:04,2026-07-24,south-sydney-rabbitohs,melbourne-storm,Ladbrokes,south-sydney-rabbitohs,1.95
+2026-07-21 20:04,2026-07-24,south-sydney-rabbitohs,melbourne-storm,PlayUp,melbourne-storm,1.85
+2026-07-21 20:04,2026-07-24,south-sydney-rabbitohs,melbourne-storm,PlayUp,south-sydney-rabbitohs,1.95
+2026-07-21 20:04,2026-07-24,south-sydney-rabbitohs,melbourne-storm,Betfair,melbourne-storm,1.66
+2026-07-21 20:04,2026-07-24,south-sydney-rabbitohs,melbourne-storm,Betfair,south-sydney-rabbitohs,1.64
+2026-07-21 20:04,2026-07-24,south-sydney-rabbitohs,melbourne-storm,Betr,melbourne-storm,1.85
+2026-07-21 20:04,2026-07-24,south-sydney-rabbitohs,melbourne-storm,Betr,south-sydney-rabbitohs,1.95
+2026-07-21 20:04,2026-07-24,south-sydney-rabbitohs,melbourne-storm,Unibet,melbourne-storm,1.86
+2026-07-21 20:04,2026-07-24,south-sydney-rabbitohs,melbourne-storm,Unibet,south-sydney-rabbitohs,1.93
+2026-07-21 20:04,2026-07-24,south-sydney-rabbitohs,melbourne-storm,TABtouch,melbourne-storm,1.87
+2026-07-21 20:04,2026-07-24,south-sydney-rabbitohs,melbourne-storm,TABtouch,south-sydney-rabbitohs,1.93
+2026-07-21 20:04,2026-07-24,south-sydney-rabbitohs,melbourne-storm,Bet Right,melbourne-storm,1.82
+2026-07-21 20:04,2026-07-24,south-sydney-rabbitohs,melbourne-storm,Bet Right,south-sydney-rabbitohs,2.0
+2026-07-21 20:04,2026-07-25,canberra-raiders,wests-tigers,SportsBet,canberra-raiders,1.22
+2026-07-21 20:04,2026-07-25,canberra-raiders,wests-tigers,SportsBet,wests-tigers,4.25
+2026-07-21 20:04,2026-07-25,canberra-raiders,wests-tigers,Betr,canberra-raiders,1.24
+2026-07-21 20:04,2026-07-25,canberra-raiders,wests-tigers,Betr,wests-tigers,4.05
+2026-07-21 20:04,2026-07-25,canberra-raiders,wests-tigers,TAB,canberra-raiders,1.24
+2026-07-21 20:04,2026-07-25,canberra-raiders,wests-tigers,TAB,wests-tigers,4.1
+2026-07-21 20:04,2026-07-25,canberra-raiders,wests-tigers,PointsBet (AU),canberra-raiders,1.23
+2026-07-21 20:04,2026-07-25,canberra-raiders,wests-tigers,PointsBet (AU),wests-tigers,4.0
+2026-07-21 20:04,2026-07-25,canberra-raiders,wests-tigers,Ladbrokes,canberra-raiders,1.24
+2026-07-21 20:04,2026-07-25,canberra-raiders,wests-tigers,Ladbrokes,wests-tigers,4.2
+2026-07-21 20:04,2026-07-25,canberra-raiders,wests-tigers,Neds,canberra-raiders,1.24
+2026-07-21 20:04,2026-07-25,canberra-raiders,wests-tigers,Neds,wests-tigers,4.2
+2026-07-21 20:04,2026-07-25,canberra-raiders,wests-tigers,PlayUp,canberra-raiders,1.24
+2026-07-21 20:04,2026-07-25,canberra-raiders,wests-tigers,PlayUp,wests-tigers,4.1
+2026-07-21 20:04,2026-07-25,canberra-raiders,wests-tigers,Betfair,canberra-raiders,1.06
+2026-07-21 20:04,2026-07-25,canberra-raiders,wests-tigers,Betfair,wests-tigers,4.8
+2026-07-21 20:04,2026-07-25,canberra-raiders,wests-tigers,TABtouch,canberra-raiders,1.23
+2026-07-21 20:04,2026-07-25,canberra-raiders,wests-tigers,TABtouch,wests-tigers,4.2
+2026-07-21 20:04,2026-07-25,canberra-raiders,wests-tigers,Unibet,canberra-raiders,1.22
+2026-07-21 20:04,2026-07-25,canberra-raiders,wests-tigers,Unibet,wests-tigers,4.2
+2026-07-21 20:04,2026-07-25,canberra-raiders,wests-tigers,Bet Right,canberra-raiders,1.23
+2026-07-21 20:04,2026-07-25,canberra-raiders,wests-tigers,Bet Right,wests-tigers,4.25
+2026-07-21 20:04,2026-07-25,canterbury-bankstown-bulldogs,warriors,SportsBet,canterbury-bankstown-bulldogs,2.52
+2026-07-21 20:04,2026-07-25,canterbury-bankstown-bulldogs,warriors,SportsBet,warriors,1.53
+2026-07-21 20:04,2026-07-25,canterbury-bankstown-bulldogs,warriors,Betr,canterbury-bankstown-bulldogs,2.5
+2026-07-21 20:04,2026-07-25,canterbury-bankstown-bulldogs,warriors,Betr,warriors,1.53
+2026-07-21 20:04,2026-07-25,canterbury-bankstown-bulldogs,warriors,TAB,canterbury-bankstown-bulldogs,2.5
+2026-07-21 20:04,2026-07-25,canterbury-bankstown-bulldogs,warriors,TAB,warriors,1.53
+2026-07-21 20:04,2026-07-25,canterbury-bankstown-bulldogs,warriors,PointsBet (AU),canterbury-bankstown-bulldogs,2.45
+2026-07-21 20:04,2026-07-25,canterbury-bankstown-bulldogs,warriors,PointsBet (AU),warriors,1.53
+2026-07-21 20:04,2026-07-25,canterbury-bankstown-bulldogs,warriors,Ladbrokes,canterbury-bankstown-bulldogs,2.6
+2026-07-21 20:04,2026-07-25,canterbury-bankstown-bulldogs,warriors,Ladbrokes,warriors,1.5
+2026-07-21 20:04,2026-07-25,canterbury-bankstown-bulldogs,warriors,Neds,canterbury-bankstown-bulldogs,2.6
+2026-07-21 20:04,2026-07-25,canterbury-bankstown-bulldogs,warriors,Neds,warriors,1.5
+2026-07-21 20:04,2026-07-25,canterbury-bankstown-bulldogs,warriors,PlayUp,canterbury-bankstown-bulldogs,2.5
+2026-07-21 20:04,2026-07-25,canterbury-bankstown-bulldogs,warriors,PlayUp,warriors,1.53
+2026-07-21 20:04,2026-07-25,canterbury-bankstown-bulldogs,warriors,Betfair,canterbury-bankstown-bulldogs,2.64
+2026-07-21 20:04,2026-07-25,canterbury-bankstown-bulldogs,warriors,Betfair,warriors,1.59
+2026-07-21 20:04,2026-07-25,canterbury-bankstown-bulldogs,warriors,TABtouch,canterbury-bankstown-bulldogs,2.5
+2026-07-21 20:04,2026-07-25,canterbury-bankstown-bulldogs,warriors,TABtouch,warriors,1.53
+2026-07-21 20:04,2026-07-25,canterbury-bankstown-bulldogs,warriors,Unibet,canterbury-bankstown-bulldogs,2.48
+2026-07-21 20:04,2026-07-25,canterbury-bankstown-bulldogs,warriors,Unibet,warriors,1.53
+2026-07-21 20:04,2026-07-25,canterbury-bankstown-bulldogs,warriors,Bet Right,canterbury-bankstown-bulldogs,2.5
+2026-07-21 20:04,2026-07-25,canterbury-bankstown-bulldogs,warriors,Bet Right,warriors,1.53
+2026-07-21 20:04,2026-07-25,north-queensland-cowboys,brisbane-broncos,SportsBet,brisbane-broncos,1.72
+2026-07-21 20:04,2026-07-25,north-queensland-cowboys,brisbane-broncos,SportsBet,north-queensland-cowboys,2.13
+2026-07-21 20:04,2026-07-25,north-queensland-cowboys,brisbane-broncos,Betr,brisbane-broncos,1.62
+2026-07-21 20:04,2026-07-25,north-queensland-cowboys,brisbane-broncos,Betr,north-queensland-cowboys,2.3
+2026-07-21 20:04,2026-07-25,north-queensland-cowboys,brisbane-broncos,TAB,brisbane-broncos,1.65
+2026-07-21 20:04,2026-07-25,north-queensland-cowboys,brisbane-broncos,TAB,north-queensland-cowboys,2.25
+2026-07-21 20:04,2026-07-25,north-queensland-cowboys,brisbane-broncos,PointsBet (AU),brisbane-broncos,1.62
+2026-07-21 20:04,2026-07-25,north-queensland-cowboys,brisbane-broncos,PointsBet (AU),north-queensland-cowboys,2.25
+2026-07-21 20:04,2026-07-25,north-queensland-cowboys,brisbane-broncos,Neds,brisbane-broncos,1.7
+2026-07-21 20:04,2026-07-25,north-queensland-cowboys,brisbane-broncos,Neds,north-queensland-cowboys,2.15
+2026-07-21 20:04,2026-07-25,north-queensland-cowboys,brisbane-broncos,Ladbrokes,brisbane-broncos,1.7
+2026-07-21 20:04,2026-07-25,north-queensland-cowboys,brisbane-broncos,Ladbrokes,north-queensland-cowboys,2.15
+2026-07-21 20:04,2026-07-25,north-queensland-cowboys,brisbane-broncos,PlayUp,brisbane-broncos,1.62
+2026-07-21 20:04,2026-07-25,north-queensland-cowboys,brisbane-broncos,PlayUp,north-queensland-cowboys,2.3
+2026-07-21 20:04,2026-07-25,north-queensland-cowboys,brisbane-broncos,Betfair,brisbane-broncos,1.7
+2026-07-21 20:04,2026-07-25,north-queensland-cowboys,brisbane-broncos,Betfair,north-queensland-cowboys,2.2
+2026-07-21 20:04,2026-07-25,north-queensland-cowboys,brisbane-broncos,TABtouch,brisbane-broncos,1.62
+2026-07-21 20:04,2026-07-25,north-queensland-cowboys,brisbane-broncos,TABtouch,north-queensland-cowboys,2.3
+2026-07-21 20:04,2026-07-25,north-queensland-cowboys,brisbane-broncos,Unibet,brisbane-broncos,1.61
+2026-07-21 20:04,2026-07-25,north-queensland-cowboys,brisbane-broncos,Unibet,north-queensland-cowboys,2.28
+2026-07-21 20:04,2026-07-25,north-queensland-cowboys,brisbane-broncos,Bet Right,brisbane-broncos,1.7
+2026-07-21 20:04,2026-07-25,north-queensland-cowboys,brisbane-broncos,Bet Right,north-queensland-cowboys,2.15
+2026-07-21 20:04,2026-07-26,st-george-illawarra-dragons,gold-coast-titans,SportsBet,gold-coast-titans,1.92
+2026-07-21 20:04,2026-07-26,st-george-illawarra-dragons,gold-coast-titans,SportsBet,st-george-illawarra-dragons,1.91
+2026-07-21 20:04,2026-07-26,st-george-illawarra-dragons,gold-coast-titans,Betr,gold-coast-titans,1.9
+2026-07-21 20:04,2026-07-26,st-george-illawarra-dragons,gold-coast-titans,Betr,st-george-illawarra-dragons,1.9
+2026-07-21 20:04,2026-07-26,st-george-illawarra-dragons,gold-coast-titans,TAB,gold-coast-titans,1.9
+2026-07-21 20:04,2026-07-26,st-george-illawarra-dragons,gold-coast-titans,TAB,st-george-illawarra-dragons,1.9
+2026-07-21 20:04,2026-07-26,st-george-illawarra-dragons,gold-coast-titans,PointsBet (AU),gold-coast-titans,1.95
+2026-07-21 20:04,2026-07-26,st-george-illawarra-dragons,gold-coast-titans,PointsBet (AU),st-george-illawarra-dragons,1.85
+2026-07-21 20:04,2026-07-26,st-george-illawarra-dragons,gold-coast-titans,Neds,gold-coast-titans,1.9
+2026-07-21 20:04,2026-07-26,st-george-illawarra-dragons,gold-coast-titans,Neds,st-george-illawarra-dragons,1.9
+2026-07-21 20:04,2026-07-26,st-george-illawarra-dragons,gold-coast-titans,Ladbrokes,gold-coast-titans,1.9
+2026-07-21 20:04,2026-07-26,st-george-illawarra-dragons,gold-coast-titans,Ladbrokes,st-george-illawarra-dragons,1.9
+2026-07-21 20:04,2026-07-26,st-george-illawarra-dragons,gold-coast-titans,Betfair,gold-coast-titans,1.97
+2026-07-21 20:04,2026-07-26,st-george-illawarra-dragons,gold-coast-titans,Betfair,st-george-illawarra-dragons,1.93
+2026-07-21 20:04,2026-07-26,st-george-illawarra-dragons,gold-coast-titans,PlayUp,gold-coast-titans,1.9
+2026-07-21 20:04,2026-07-26,st-george-illawarra-dragons,gold-coast-titans,PlayUp,st-george-illawarra-dragons,1.9
+2026-07-21 20:04,2026-07-26,st-george-illawarra-dragons,gold-coast-titans,TABtouch,gold-coast-titans,1.89
+2026-07-21 20:04,2026-07-26,st-george-illawarra-dragons,gold-coast-titans,TABtouch,st-george-illawarra-dragons,1.89
+2026-07-21 20:04,2026-07-26,st-george-illawarra-dragons,gold-coast-titans,Unibet,gold-coast-titans,1.89
+2026-07-21 20:04,2026-07-26,st-george-illawarra-dragons,gold-coast-titans,Unibet,st-george-illawarra-dragons,1.89
+2026-07-21 20:04,2026-07-26,st-george-illawarra-dragons,gold-coast-titans,Bet Right,gold-coast-titans,1.9
+2026-07-21 20:04,2026-07-26,st-george-illawarra-dragons,gold-coast-titans,Bet Right,st-george-illawarra-dragons,1.9
+2026-07-21 20:04,2026-07-26,manly-warringah-sea-eagles,cronulla-sutherland-sharks,SportsBet,cronulla-sutherland-sharks,1.63
+2026-07-21 20:04,2026-07-26,manly-warringah-sea-eagles,cronulla-sutherland-sharks,SportsBet,manly-warringah-sea-eagles,2.28
+2026-07-21 20:04,2026-07-26,manly-warringah-sea-eagles,cronulla-sutherland-sharks,TAB,cronulla-sutherland-sharks,1.62
+2026-07-21 20:04,2026-07-26,manly-warringah-sea-eagles,cronulla-sutherland-sharks,TAB,manly-warringah-sea-eagles,2.3
+2026-07-21 20:04,2026-07-26,manly-warringah-sea-eagles,cronulla-sutherland-sharks,Betr,cronulla-sutherland-sharks,1.62
+2026-07-21 20:04,2026-07-26,manly-warringah-sea-eagles,cronulla-sutherland-sharks,Betr,manly-warringah-sea-eagles,2.3
+2026-07-21 20:04,2026-07-26,manly-warringah-sea-eagles,cronulla-sutherland-sharks,PointsBet (AU),cronulla-sutherland-sharks,1.6
+2026-07-21 20:04,2026-07-26,manly-warringah-sea-eagles,cronulla-sutherland-sharks,PointsBet (AU),manly-warringah-sea-eagles,2.3
+2026-07-21 20:04,2026-07-26,manly-warringah-sea-eagles,cronulla-sutherland-sharks,Neds,cronulla-sutherland-sharks,1.65
+2026-07-21 20:04,2026-07-26,manly-warringah-sea-eagles,cronulla-sutherland-sharks,Neds,manly-warringah-sea-eagles,2.25
+2026-07-21 20:04,2026-07-26,manly-warringah-sea-eagles,cronulla-sutherland-sharks,Ladbrokes,cronulla-sutherland-sharks,1.65
+2026-07-21 20:04,2026-07-26,manly-warringah-sea-eagles,cronulla-sutherland-sharks,Ladbrokes,manly-warringah-sea-eagles,2.25
+2026-07-21 20:04,2026-07-26,manly-warringah-sea-eagles,cronulla-sutherland-sharks,Betfair,cronulla-sutherland-sharks,1.04
+2026-07-21 20:04,2026-07-26,manly-warringah-sea-eagles,cronulla-sutherland-sharks,Betfair,manly-warringah-sea-eagles,2.32
+2026-07-21 20:04,2026-07-26,manly-warringah-sea-eagles,cronulla-sutherland-sharks,PlayUp,cronulla-sutherland-sharks,1.62
+2026-07-21 20:04,2026-07-26,manly-warringah-sea-eagles,cronulla-sutherland-sharks,PlayUp,manly-warringah-sea-eagles,2.3
+2026-07-21 20:04,2026-07-26,manly-warringah-sea-eagles,cronulla-sutherland-sharks,Unibet,cronulla-sutherland-sharks,1.65
+2026-07-21 20:04,2026-07-26,manly-warringah-sea-eagles,cronulla-sutherland-sharks,Unibet,manly-warringah-sea-eagles,2.23
+2026-07-21 20:04,2026-07-26,manly-warringah-sea-eagles,cronulla-sutherland-sharks,TABtouch,cronulla-sutherland-sharks,1.65
+2026-07-21 20:04,2026-07-26,manly-warringah-sea-eagles,cronulla-sutherland-sharks,TABtouch,manly-warringah-sea-eagles,2.23
+2026-07-21 20:04,2026-07-26,manly-warringah-sea-eagles,cronulla-sutherland-sharks,Bet Right,cronulla-sutherland-sharks,1.63
+2026-07-21 20:04,2026-07-26,manly-warringah-sea-eagles,cronulla-sutherland-sharks,Bet Right,manly-warringah-sea-eagles,2.28
+2026-07-23 17:43,2026-07-23,parramatta-eels,penrith-panthers,SportsBet,parramatta-eels,4.75
+2026-07-23 17:43,2026-07-23,parramatta-eels,penrith-panthers,SportsBet,penrith-panthers,1.19
+2026-07-23 17:43,2026-07-23,parramatta-eels,penrith-panthers,TAB,parramatta-eels,4.8
+2026-07-23 17:43,2026-07-23,parramatta-eels,penrith-panthers,TAB,penrith-panthers,1.18
+2026-07-23 17:43,2026-07-23,parramatta-eels,penrith-panthers,PointsBet (AU),parramatta-eels,4.8
+2026-07-23 17:43,2026-07-23,parramatta-eels,penrith-panthers,PointsBet (AU),penrith-panthers,1.17
+2026-07-23 17:43,2026-07-23,parramatta-eels,penrith-panthers,Neds,parramatta-eels,5.0
+2026-07-23 17:43,2026-07-23,parramatta-eels,penrith-panthers,Neds,penrith-panthers,1.18
+2026-07-23 17:43,2026-07-23,parramatta-eels,penrith-panthers,Ladbrokes,parramatta-eels,5.0
+2026-07-23 17:43,2026-07-23,parramatta-eels,penrith-panthers,Ladbrokes,penrith-panthers,1.18
+2026-07-23 17:43,2026-07-23,parramatta-eels,penrith-panthers,PlayUp,parramatta-eels,4.8
+2026-07-23 17:43,2026-07-23,parramatta-eels,penrith-panthers,PlayUp,penrith-panthers,1.18
+2026-07-23 17:43,2026-07-23,parramatta-eels,penrith-panthers,Betfair,parramatta-eels,6.0
+2026-07-23 17:43,2026-07-23,parramatta-eels,penrith-panthers,Betfair,penrith-panthers,1.19
+2026-07-23 17:43,2026-07-23,parramatta-eels,penrith-panthers,Betr,parramatta-eels,4.9
+2026-07-23 17:43,2026-07-23,parramatta-eels,penrith-panthers,Betr,penrith-panthers,1.18
+2026-07-23 17:43,2026-07-23,parramatta-eels,penrith-panthers,Unibet,parramatta-eels,4.7
+2026-07-23 17:43,2026-07-23,parramatta-eels,penrith-panthers,Unibet,penrith-panthers,1.18
+2026-07-23 17:43,2026-07-23,parramatta-eels,penrith-panthers,TABtouch,parramatta-eels,4.75
+2026-07-23 17:43,2026-07-23,parramatta-eels,penrith-panthers,TABtouch,penrith-panthers,1.19
+2026-07-23 17:43,2026-07-23,parramatta-eels,penrith-panthers,Bet Right,parramatta-eels,5.1
+2026-07-23 17:43,2026-07-23,parramatta-eels,penrith-panthers,Bet Right,penrith-panthers,1.17
+2026-07-23 17:43,2026-07-24,newcastle-knights,sydney-roosters,SportsBet,newcastle-knights,2.28
+2026-07-23 17:43,2026-07-24,newcastle-knights,sydney-roosters,SportsBet,sydney-roosters,1.63
+2026-07-23 17:43,2026-07-24,newcastle-knights,sydney-roosters,TAB,newcastle-knights,2.35
+2026-07-23 17:43,2026-07-24,newcastle-knights,sydney-roosters,TAB,sydney-roosters,1.6
+2026-07-23 17:43,2026-07-24,newcastle-knights,sydney-roosters,PointsBet (AU),newcastle-knights,2.3
+2026-07-23 17:43,2026-07-24,newcastle-knights,sydney-roosters,PointsBet (AU),sydney-roosters,1.6
+2026-07-23 17:43,2026-07-24,newcastle-knights,sydney-roosters,Neds,newcastle-knights,2.3
+2026-07-23 17:43,2026-07-24,newcastle-knights,sydney-roosters,Neds,sydney-roosters,1.64
+2026-07-23 17:43,2026-07-24,newcastle-knights,sydney-roosters,Ladbrokes,newcastle-knights,2.3
+2026-07-23 17:43,2026-07-24,newcastle-knights,sydney-roosters,Ladbrokes,sydney-roosters,1.64
+2026-07-23 17:43,2026-07-24,newcastle-knights,sydney-roosters,PlayUp,newcastle-knights,2.35
+2026-07-23 17:43,2026-07-24,newcastle-knights,sydney-roosters,PlayUp,sydney-roosters,1.6
+2026-07-23 17:43,2026-07-24,newcastle-knights,sydney-roosters,Betfair,newcastle-knights,2.34
+2026-07-23 17:43,2026-07-24,newcastle-knights,sydney-roosters,Betfair,sydney-roosters,1.62
+2026-07-23 17:43,2026-07-24,newcastle-knights,sydney-roosters,Betr,newcastle-knights,2.3
+2026-07-23 17:43,2026-07-24,newcastle-knights,sydney-roosters,Betr,sydney-roosters,1.62
+2026-07-23 17:43,2026-07-24,newcastle-knights,sydney-roosters,Unibet,newcastle-knights,2.25
+2026-07-23 17:43,2026-07-24,newcastle-knights,sydney-roosters,Unibet,sydney-roosters,1.62
+2026-07-23 17:43,2026-07-24,newcastle-knights,sydney-roosters,TABtouch,newcastle-knights,2.28
+2026-07-23 17:43,2026-07-24,newcastle-knights,sydney-roosters,TABtouch,sydney-roosters,1.63
+2026-07-23 17:43,2026-07-24,newcastle-knights,sydney-roosters,Bet Right,newcastle-knights,2.28
+2026-07-23 17:43,2026-07-24,newcastle-knights,sydney-roosters,Bet Right,sydney-roosters,1.63
+2026-07-23 17:43,2026-07-24,south-sydney-rabbitohs,melbourne-storm,SportsBet,melbourne-storm,1.81
+2026-07-23 17:43,2026-07-24,south-sydney-rabbitohs,melbourne-storm,SportsBet,south-sydney-rabbitohs,2.04
+2026-07-23 17:43,2026-07-24,south-sydney-rabbitohs,melbourne-storm,TAB,melbourne-storm,1.8
+2026-07-23 17:43,2026-07-24,south-sydney-rabbitohs,melbourne-storm,TAB,south-sydney-rabbitohs,2.0
+2026-07-23 17:43,2026-07-24,south-sydney-rabbitohs,melbourne-storm,PointsBet (AU),melbourne-storm,1.8
+2026-07-23 17:43,2026-07-24,south-sydney-rabbitohs,melbourne-storm,PointsBet (AU),south-sydney-rabbitohs,2.0
+2026-07-23 17:43,2026-07-24,south-sydney-rabbitohs,melbourne-storm,Neds,melbourne-storm,1.8
+2026-07-23 17:43,2026-07-24,south-sydney-rabbitohs,melbourne-storm,Neds,south-sydney-rabbitohs,2.02
+2026-07-23 17:43,2026-07-24,south-sydney-rabbitohs,melbourne-storm,Ladbrokes,melbourne-storm,1.8
+2026-07-23 17:43,2026-07-24,south-sydney-rabbitohs,melbourne-storm,Ladbrokes,south-sydney-rabbitohs,2.02
+2026-07-23 17:43,2026-07-24,south-sydney-rabbitohs,melbourne-storm,PlayUp,melbourne-storm,1.81
+2026-07-23 17:43,2026-07-24,south-sydney-rabbitohs,melbourne-storm,PlayUp,south-sydney-rabbitohs,2.0
+2026-07-23 17:43,2026-07-24,south-sydney-rabbitohs,melbourne-storm,Betfair,melbourne-storm,1.88
+2026-07-23 17:43,2026-07-24,south-sydney-rabbitohs,melbourne-storm,Betfair,south-sydney-rabbitohs,1.92
+2026-07-23 17:43,2026-07-24,south-sydney-rabbitohs,melbourne-storm,Betr,melbourne-storm,1.8
+2026-07-23 17:43,2026-07-24,south-sydney-rabbitohs,melbourne-storm,Betr,south-sydney-rabbitohs,2.0
+2026-07-23 17:43,2026-07-24,south-sydney-rabbitohs,melbourne-storm,Unibet,melbourne-storm,1.8
+2026-07-23 17:43,2026-07-24,south-sydney-rabbitohs,melbourne-storm,Unibet,south-sydney-rabbitohs,2.0
+2026-07-23 17:43,2026-07-24,south-sydney-rabbitohs,melbourne-storm,TABtouch,melbourne-storm,1.81
+2026-07-23 17:43,2026-07-24,south-sydney-rabbitohs,melbourne-storm,TABtouch,south-sydney-rabbitohs,2.0
+2026-07-23 17:43,2026-07-24,south-sydney-rabbitohs,melbourne-storm,Bet Right,melbourne-storm,1.82
+2026-07-23 17:43,2026-07-24,south-sydney-rabbitohs,melbourne-storm,Bet Right,south-sydney-rabbitohs,2.0
+2026-07-23 17:43,2026-07-25,canberra-raiders,wests-tigers,SportsBet,canberra-raiders,1.2
+2026-07-23 17:43,2026-07-25,canberra-raiders,wests-tigers,SportsBet,wests-tigers,4.6
+2026-07-23 17:43,2026-07-25,canberra-raiders,wests-tigers,Betr,canberra-raiders,1.2
+2026-07-23 17:43,2026-07-25,canberra-raiders,wests-tigers,Betr,wests-tigers,4.55
+2026-07-23 17:43,2026-07-25,canberra-raiders,wests-tigers,TAB,canberra-raiders,1.24
+2026-07-23 17:43,2026-07-25,canberra-raiders,wests-tigers,TAB,wests-tigers,4.1
+2026-07-23 17:43,2026-07-25,canberra-raiders,wests-tigers,PointsBet (AU),canberra-raiders,1.2
+2026-07-23 17:43,2026-07-25,canberra-raiders,wests-tigers,PointsBet (AU),wests-tigers,4.4
+2026-07-23 17:43,2026-07-25,canberra-raiders,wests-tigers,Ladbrokes,canberra-raiders,1.24
+2026-07-23 17:43,2026-07-25,canberra-raiders,wests-tigers,Ladbrokes,wests-tigers,4.2
+2026-07-23 17:43,2026-07-25,canberra-raiders,wests-tigers,Neds,canberra-raiders,1.24
+2026-07-23 17:43,2026-07-25,canberra-raiders,wests-tigers,Neds,wests-tigers,4.2
+2026-07-23 17:43,2026-07-25,canberra-raiders,wests-tigers,PlayUp,canberra-raiders,1.23
+2026-07-23 17:43,2026-07-25,canberra-raiders,wests-tigers,PlayUp,wests-tigers,4.2
+2026-07-23 17:43,2026-07-25,canberra-raiders,wests-tigers,Betfair,canberra-raiders,1.23
+2026-07-23 17:43,2026-07-25,canberra-raiders,wests-tigers,Betfair,wests-tigers,5.2
+2026-07-23 17:43,2026-07-25,canberra-raiders,wests-tigers,TABtouch,canberra-raiders,1.21
+2026-07-23 17:43,2026-07-25,canberra-raiders,wests-tigers,TABtouch,wests-tigers,4.4
+2026-07-23 17:43,2026-07-25,canberra-raiders,wests-tigers,Unibet,canberra-raiders,1.21
+2026-07-23 17:43,2026-07-25,canberra-raiders,wests-tigers,Unibet,wests-tigers,4.35
+2026-07-23 17:43,2026-07-25,canberra-raiders,wests-tigers,Bet Right,canberra-raiders,1.22
+2026-07-23 17:43,2026-07-25,canberra-raiders,wests-tigers,Bet Right,wests-tigers,4.25
+2026-07-23 17:43,2026-07-25,canterbury-bankstown-bulldogs,warriors,SportsBet,canterbury-bankstown-bulldogs,2.45
+2026-07-23 17:43,2026-07-25,canterbury-bankstown-bulldogs,warriors,SportsBet,warriors,1.56
+2026-07-23 17:43,2026-07-25,canterbury-bankstown-bulldogs,warriors,Betr,canterbury-bankstown-bulldogs,2.5
+2026-07-23 17:43,2026-07-25,canterbury-bankstown-bulldogs,warriors,Betr,warriors,1.53
+2026-07-23 17:43,2026-07-25,canterbury-bankstown-bulldogs,warriors,TAB,canterbury-bankstown-bulldogs,2.45
+2026-07-23 17:43,2026-07-25,canterbury-bankstown-bulldogs,warriors,TAB,warriors,1.55
+2026-07-23 17:43,2026-07-25,canterbury-bankstown-bulldogs,warriors,PointsBet (AU),canterbury-bankstown-bulldogs,2.45
+2026-07-23 17:43,2026-07-25,canterbury-bankstown-bulldogs,warriors,PointsBet (AU),warriors,1.53
+2026-07-23 17:43,2026-07-25,canterbury-bankstown-bulldogs,warriors,Ladbrokes,canterbury-bankstown-bulldogs,2.55
+2026-07-23 17:43,2026-07-25,canterbury-bankstown-bulldogs,warriors,Ladbrokes,warriors,1.52
+2026-07-23 17:43,2026-07-25,canterbury-bankstown-bulldogs,warriors,Neds,canterbury-bankstown-bulldogs,2.55
+2026-07-23 17:43,2026-07-25,canterbury-bankstown-bulldogs,warriors,Neds,warriors,1.52
+2026-07-23 17:43,2026-07-25,canterbury-bankstown-bulldogs,warriors,PlayUp,canterbury-bankstown-bulldogs,2.45
+2026-07-23 17:43,2026-07-25,canterbury-bankstown-bulldogs,warriors,PlayUp,warriors,1.55
+2026-07-23 17:43,2026-07-25,canterbury-bankstown-bulldogs,warriors,Betfair,canterbury-bankstown-bulldogs,2.34
+2026-07-23 17:43,2026-07-25,canterbury-bankstown-bulldogs,warriors,Betfair,warriors,1.58
+2026-07-23 17:43,2026-07-25,canterbury-bankstown-bulldogs,warriors,TABtouch,canterbury-bankstown-bulldogs,2.45
+2026-07-23 17:43,2026-07-25,canterbury-bankstown-bulldogs,warriors,TABtouch,warriors,1.56
+2026-07-23 17:43,2026-07-25,canterbury-bankstown-bulldogs,warriors,Unibet,canterbury-bankstown-bulldogs,2.43
+2026-07-23 17:43,2026-07-25,canterbury-bankstown-bulldogs,warriors,Unibet,warriors,1.55
+2026-07-23 17:43,2026-07-25,canterbury-bankstown-bulldogs,warriors,Bet Right,canterbury-bankstown-bulldogs,2.5
+2026-07-23 17:43,2026-07-25,canterbury-bankstown-bulldogs,warriors,Bet Right,warriors,1.53
+2026-07-23 17:43,2026-07-25,north-queensland-cowboys,brisbane-broncos,SportsBet,brisbane-broncos,1.72
+2026-07-23 17:43,2026-07-25,north-queensland-cowboys,brisbane-broncos,SportsBet,north-queensland-cowboys,2.13
+2026-07-23 17:43,2026-07-25,north-queensland-cowboys,brisbane-broncos,Betr,brisbane-broncos,1.67
+2026-07-23 17:43,2026-07-25,north-queensland-cowboys,brisbane-broncos,Betr,north-queensland-cowboys,2.2
+2026-07-23 17:43,2026-07-25,north-queensland-cowboys,brisbane-broncos,TAB,brisbane-broncos,1.67
+2026-07-23 17:43,2026-07-25,north-queensland-cowboys,brisbane-broncos,TAB,north-queensland-cowboys,2.2
+2026-07-23 17:43,2026-07-25,north-queensland-cowboys,brisbane-broncos,PointsBet (AU),brisbane-broncos,1.62
+2026-07-23 17:43,2026-07-25,north-queensland-cowboys,brisbane-broncos,PointsBet (AU),north-queensland-cowboys,2.25
+2026-07-23 17:43,2026-07-25,north-queensland-cowboys,brisbane-broncos,Neds,brisbane-broncos,1.7
+2026-07-23 17:43,2026-07-25,north-queensland-cowboys,brisbane-broncos,Neds,north-queensland-cowboys,2.15
+2026-07-23 17:43,2026-07-25,north-queensland-cowboys,brisbane-broncos,Ladbrokes,brisbane-broncos,1.7
+2026-07-23 17:43,2026-07-25,north-queensland-cowboys,brisbane-broncos,Ladbrokes,north-queensland-cowboys,2.15
+2026-07-23 17:43,2026-07-25,north-queensland-cowboys,brisbane-broncos,PlayUp,brisbane-broncos,1.67
+2026-07-23 17:43,2026-07-25,north-queensland-cowboys,brisbane-broncos,PlayUp,north-queensland-cowboys,2.2
+2026-07-23 17:43,2026-07-25,north-queensland-cowboys,brisbane-broncos,Betfair,brisbane-broncos,1.7
+2026-07-23 17:43,2026-07-25,north-queensland-cowboys,brisbane-broncos,Betfair,north-queensland-cowboys,2.26
+2026-07-23 17:43,2026-07-25,north-queensland-cowboys,brisbane-broncos,TABtouch,brisbane-broncos,1.62
+2026-07-23 17:43,2026-07-25,north-queensland-cowboys,brisbane-broncos,TABtouch,north-queensland-cowboys,2.3
+2026-07-23 17:43,2026-07-25,north-queensland-cowboys,brisbane-broncos,Unibet,brisbane-broncos,1.62
+2026-07-23 17:43,2026-07-25,north-queensland-cowboys,brisbane-broncos,Unibet,north-queensland-cowboys,2.28
+2026-07-23 17:43,2026-07-25,north-queensland-cowboys,brisbane-broncos,Bet Right,brisbane-broncos,1.7
+2026-07-23 17:43,2026-07-25,north-queensland-cowboys,brisbane-broncos,Bet Right,north-queensland-cowboys,2.15
+2026-07-23 17:43,2026-07-26,st-george-illawarra-dragons,gold-coast-titans,SportsBet,gold-coast-titans,1.97
+2026-07-23 17:43,2026-07-26,st-george-illawarra-dragons,gold-coast-titans,SportsBet,st-george-illawarra-dragons,1.87
+2026-07-23 17:43,2026-07-26,st-george-illawarra-dragons,gold-coast-titans,Betr,gold-coast-titans,2.0
+2026-07-23 17:43,2026-07-26,st-george-illawarra-dragons,gold-coast-titans,Betr,st-george-illawarra-dragons,1.8
+2026-07-23 17:43,2026-07-26,st-george-illawarra-dragons,gold-coast-titans,TAB,gold-coast-titans,2.0
+2026-07-23 17:43,2026-07-26,st-george-illawarra-dragons,gold-coast-titans,TAB,st-george-illawarra-dragons,1.8
+2026-07-23 17:43,2026-07-26,st-george-illawarra-dragons,gold-coast-titans,PointsBet (AU),gold-coast-titans,1.95
+2026-07-23 17:43,2026-07-26,st-george-illawarra-dragons,gold-coast-titans,PointsBet (AU),st-george-illawarra-dragons,1.85
+2026-07-23 17:43,2026-07-26,st-george-illawarra-dragons,gold-coast-titans,Neds,gold-coast-titans,1.98
+2026-07-23 17:43,2026-07-26,st-george-illawarra-dragons,gold-coast-titans,Neds,st-george-illawarra-dragons,1.83
+2026-07-23 17:43,2026-07-26,st-george-illawarra-dragons,gold-coast-titans,Ladbrokes,gold-coast-titans,1.98
+2026-07-23 17:43,2026-07-26,st-george-illawarra-dragons,gold-coast-titans,Ladbrokes,st-george-illawarra-dragons,1.83
+2026-07-23 17:43,2026-07-26,st-george-illawarra-dragons,gold-coast-titans,Betfair,gold-coast-titans,2.0
+2026-07-23 17:43,2026-07-26,st-george-illawarra-dragons,gold-coast-titans,Betfair,st-george-illawarra-dragons,1.93
+2026-07-23 17:43,2026-07-26,st-george-illawarra-dragons,gold-coast-titans,PlayUp,gold-coast-titans,2.0
+2026-07-23 17:43,2026-07-26,st-george-illawarra-dragons,gold-coast-titans,PlayUp,st-george-illawarra-dragons,1.81
+2026-07-23 17:43,2026-07-26,st-george-illawarra-dragons,gold-coast-titans,TABtouch,gold-coast-titans,1.93
+2026-07-23 17:43,2026-07-26,st-george-illawarra-dragons,gold-coast-titans,TABtouch,st-george-illawarra-dragons,1.85
+2026-07-23 17:43,2026-07-26,st-george-illawarra-dragons,gold-coast-titans,Unibet,gold-coast-titans,1.93
+2026-07-23 17:43,2026-07-26,st-george-illawarra-dragons,gold-coast-titans,Unibet,st-george-illawarra-dragons,1.85
+2026-07-23 17:43,2026-07-26,st-george-illawarra-dragons,gold-coast-titans,Bet Right,gold-coast-titans,1.95
+2026-07-23 17:43,2026-07-26,st-george-illawarra-dragons,gold-coast-titans,Bet Right,st-george-illawarra-dragons,1.85
+2026-07-23 17:43,2026-07-26,manly-warringah-sea-eagles,cronulla-sutherland-sharks,SportsBet,cronulla-sutherland-sharks,1.63
+2026-07-23 17:43,2026-07-26,manly-warringah-sea-eagles,cronulla-sutherland-sharks,SportsBet,manly-warringah-sea-eagles,2.28
+2026-07-23 17:43,2026-07-26,manly-warringah-sea-eagles,cronulla-sutherland-sharks,TAB,cronulla-sutherland-sharks,1.62
+2026-07-23 17:43,2026-07-26,manly-warringah-sea-eagles,cronulla-sutherland-sharks,TAB,manly-warringah-sea-eagles,2.3
+2026-07-23 17:43,2026-07-26,manly-warringah-sea-eagles,cronulla-sutherland-sharks,Betr,cronulla-sutherland-sharks,1.62
+2026-07-23 17:43,2026-07-26,manly-warringah-sea-eagles,cronulla-sutherland-sharks,Betr,manly-warringah-sea-eagles,2.3
+2026-07-23 17:43,2026-07-26,manly-warringah-sea-eagles,cronulla-sutherland-sharks,PointsBet (AU),cronulla-sutherland-sharks,1.6
+2026-07-23 17:43,2026-07-26,manly-warringah-sea-eagles,cronulla-sutherland-sharks,PointsBet (AU),manly-warringah-sea-eagles,2.3
+2026-07-23 17:43,2026-07-26,manly-warringah-sea-eagles,cronulla-sutherland-sharks,Neds,cronulla-sutherland-sharks,1.64
+2026-07-23 17:43,2026-07-26,manly-warringah-sea-eagles,cronulla-sutherland-sharks,Neds,manly-warringah-sea-eagles,2.3
+2026-07-23 17:43,2026-07-26,manly-warringah-sea-eagles,cronulla-sutherland-sharks,Ladbrokes,cronulla-sutherland-sharks,1.64
+2026-07-23 17:43,2026-07-26,manly-warringah-sea-eagles,cronulla-sutherland-sharks,Ladbrokes,manly-warringah-sea-eagles,2.3
+2026-07-23 17:43,2026-07-26,manly-warringah-sea-eagles,cronulla-sutherland-sharks,Betfair,cronulla-sutherland-sharks,1.61
+2026-07-23 17:43,2026-07-26,manly-warringah-sea-eagles,cronulla-sutherland-sharks,Betfair,manly-warringah-sea-eagles,2.4
+2026-07-23 17:43,2026-07-26,manly-warringah-sea-eagles,cronulla-sutherland-sharks,PlayUp,cronulla-sutherland-sharks,1.62
+2026-07-23 17:43,2026-07-26,manly-warringah-sea-eagles,cronulla-sutherland-sharks,PlayUp,manly-warringah-sea-eagles,2.3
+2026-07-23 17:43,2026-07-26,manly-warringah-sea-eagles,cronulla-sutherland-sharks,Unibet,cronulla-sutherland-sharks,1.61
+2026-07-23 17:43,2026-07-26,manly-warringah-sea-eagles,cronulla-sutherland-sharks,Unibet,manly-warringah-sea-eagles,2.28
+2026-07-23 17:43,2026-07-26,manly-warringah-sea-eagles,cronulla-sutherland-sharks,TABtouch,cronulla-sutherland-sharks,1.62
+2026-07-23 17:43,2026-07-26,manly-warringah-sea-eagles,cronulla-sutherland-sharks,TABtouch,manly-warringah-sea-eagles,2.3
+2026-07-23 17:43,2026-07-26,manly-warringah-sea-eagles,cronulla-sutherland-sharks,Bet Right,cronulla-sutherland-sharks,1.63
+2026-07-23 17:43,2026-07-26,manly-warringah-sea-eagles,cronulla-sutherland-sharks,Bet Right,manly-warringah-sea-eagles,2.28
+2026-07-23 17:43,2026-07-30,north-queensland-cowboys,sydney-roosters,SportsBet,north-queensland-cowboys,2.4
+2026-07-23 17:43,2026-07-30,north-queensland-cowboys,sydney-roosters,SportsBet,sydney-roosters,1.58
+2026-07-23 17:43,2026-07-31,st-george-illawarra-dragons,dolphins,SportsBet,dolphins,1.35
+2026-07-23 17:43,2026-07-31,st-george-illawarra-dragons,dolphins,SportsBet,st-george-illawarra-dragons,3.2
+2026-07-23 17:43,2026-07-31,melbourne-storm,canterbury-bankstown-bulldogs,SportsBet,canterbury-bankstown-bulldogs,2.31
+2026-07-23 17:43,2026-07-31,melbourne-storm,canterbury-bankstown-bulldogs,SportsBet,melbourne-storm,1.62
+2026-07-23 17:43,2026-08-01,gold-coast-titans,warriors,SportsBet,gold-coast-titans,2.51
+2026-07-23 17:43,2026-08-01,gold-coast-titans,warriors,SportsBet,warriors,1.53
+2026-07-23 17:43,2026-08-01,penrith-panthers,canberra-raiders,SportsBet,canberra-raiders,3.85
+2026-07-23 17:43,2026-08-01,penrith-panthers,canberra-raiders,SportsBet,penrith-panthers,1.26
+2026-07-23 17:43,2026-08-01,brisbane-broncos,newcastle-knights,SportsBet,brisbane-broncos,1.62
+2026-07-23 17:43,2026-08-01,brisbane-broncos,newcastle-knights,SportsBet,newcastle-knights,2.31
+2026-07-23 17:43,2026-08-02,cronulla-sutherland-sharks,south-sydney-rabbitohs,SportsBet,cronulla-sutherland-sharks,1.42
+2026-07-23 17:43,2026-08-02,cronulla-sutherland-sharks,south-sydney-rabbitohs,SportsBet,south-sydney-rabbitohs,2.88
+2026-07-23 17:43,2026-08-02,wests-tigers,parramatta-eels,SportsBet,parramatta-eels,1.72
+2026-07-23 17:43,2026-08-02,wests-tigers,parramatta-eels,SportsBet,wests-tigers,2.13
+2026-07-23 17:43,2026-08-02,wests-tigers,parramatta-eels,Betr,parramatta-eels,1.81
+2026-07-23 17:43,2026-08-02,wests-tigers,parramatta-eels,Betr,wests-tigers,1.97
+2026-07-24 10:09,2026-07-24,newcastle-knights,sydney-roosters,SportsBet,newcastle-knights,2.9
+2026-07-24 10:09,2026-07-24,newcastle-knights,sydney-roosters,SportsBet,sydney-roosters,1.42
+2026-07-24 10:09,2026-07-24,newcastle-knights,sydney-roosters,TAB,newcastle-knights,3.15
+2026-07-24 10:09,2026-07-24,newcastle-knights,sydney-roosters,TAB,sydney-roosters,1.37
+2026-07-24 10:09,2026-07-24,newcastle-knights,sydney-roosters,PointsBet (AU),newcastle-knights,2.7
+2026-07-24 10:09,2026-07-24,newcastle-knights,sydney-roosters,PointsBet (AU),sydney-roosters,1.45
+2026-07-24 10:09,2026-07-24,newcastle-knights,sydney-roosters,Neds,newcastle-knights,2.75
+2026-07-24 10:09,2026-07-24,newcastle-knights,sydney-roosters,Neds,sydney-roosters,1.46
+2026-07-24 10:09,2026-07-24,newcastle-knights,sydney-roosters,Ladbrokes,newcastle-knights,2.75
+2026-07-24 10:09,2026-07-24,newcastle-knights,sydney-roosters,Ladbrokes,sydney-roosters,1.46
+2026-07-24 10:09,2026-07-24,newcastle-knights,sydney-roosters,PlayUp,newcastle-knights,2.75
+2026-07-24 10:09,2026-07-24,newcastle-knights,sydney-roosters,PlayUp,sydney-roosters,1.45
+2026-07-24 10:09,2026-07-24,newcastle-knights,sydney-roosters,Betfair,newcastle-knights,3.1
+2026-07-24 10:09,2026-07-24,newcastle-knights,sydney-roosters,Betfair,sydney-roosters,1.46
+2026-07-24 10:09,2026-07-24,newcastle-knights,sydney-roosters,Betr,newcastle-knights,2.75
+2026-07-24 10:09,2026-07-24,newcastle-knights,sydney-roosters,Betr,sydney-roosters,1.45
+2026-07-24 10:09,2026-07-24,newcastle-knights,sydney-roosters,Unibet,newcastle-knights,2.75
+2026-07-24 10:09,2026-07-24,newcastle-knights,sydney-roosters,Unibet,sydney-roosters,1.43
+2026-07-24 10:09,2026-07-24,newcastle-knights,sydney-roosters,TABtouch,newcastle-knights,2.8
+2026-07-24 10:09,2026-07-24,newcastle-knights,sydney-roosters,TABtouch,sydney-roosters,1.43
+2026-07-24 10:09,2026-07-24,newcastle-knights,sydney-roosters,Bet Right,newcastle-knights,2.75
+2026-07-24 10:09,2026-07-24,newcastle-knights,sydney-roosters,Bet Right,sydney-roosters,1.45
+2026-07-24 10:09,2026-07-24,south-sydney-rabbitohs,melbourne-storm,SportsBet,melbourne-storm,1.84
+2026-07-24 10:09,2026-07-24,south-sydney-rabbitohs,melbourne-storm,SportsBet,south-sydney-rabbitohs,2.0
+2026-07-24 10:09,2026-07-24,south-sydney-rabbitohs,melbourne-storm,TAB,melbourne-storm,1.9
+2026-07-24 10:09,2026-07-24,south-sydney-rabbitohs,melbourne-storm,TAB,south-sydney-rabbitohs,1.9
+2026-07-24 10:09,2026-07-24,south-sydney-rabbitohs,melbourne-storm,PointsBet (AU),melbourne-storm,1.8
+2026-07-24 10:09,2026-07-24,south-sydney-rabbitohs,melbourne-storm,PointsBet (AU),south-sydney-rabbitohs,2.0
+2026-07-24 10:09,2026-07-24,south-sydney-rabbitohs,melbourne-storm,Neds,melbourne-storm,1.8
+2026-07-24 10:09,2026-07-24,south-sydney-rabbitohs,melbourne-storm,Neds,south-sydney-rabbitohs,2.02
+2026-07-24 10:09,2026-07-24,south-sydney-rabbitohs,melbourne-storm,Ladbrokes,melbourne-storm,1.8
+2026-07-24 10:09,2026-07-24,south-sydney-rabbitohs,melbourne-storm,Ladbrokes,south-sydney-rabbitohs,2.02
+2026-07-24 10:09,2026-07-24,south-sydney-rabbitohs,melbourne-storm,PlayUp,melbourne-storm,1.85
+2026-07-24 10:09,2026-07-24,south-sydney-rabbitohs,melbourne-storm,PlayUp,south-sydney-rabbitohs,1.95
+2026-07-24 10:09,2026-07-24,south-sydney-rabbitohs,melbourne-storm,Betfair,melbourne-storm,1.95
+2026-07-24 10:09,2026-07-24,south-sydney-rabbitohs,melbourne-storm,Betfair,south-sydney-rabbitohs,1.94
+2026-07-24 10:09,2026-07-24,south-sydney-rabbitohs,melbourne-storm,Betr,melbourne-storm,1.8
+2026-07-24 10:09,2026-07-24,south-sydney-rabbitohs,melbourne-storm,Betr,south-sydney-rabbitohs,2.0
+2026-07-24 10:09,2026-07-24,south-sydney-rabbitohs,melbourne-storm,Unibet,melbourne-storm,1.84
+2026-07-24 10:09,2026-07-24,south-sydney-rabbitohs,melbourne-storm,Unibet,south-sydney-rabbitohs,1.94
+2026-07-24 10:09,2026-07-24,south-sydney-rabbitohs,melbourne-storm,TABtouch,melbourne-storm,1.85
+2026-07-24 10:09,2026-07-24,south-sydney-rabbitohs,melbourne-storm,TABtouch,south-sydney-rabbitohs,1.94
+2026-07-24 10:09,2026-07-24,south-sydney-rabbitohs,melbourne-storm,Bet Right,melbourne-storm,1.84
+2026-07-24 10:09,2026-07-24,south-sydney-rabbitohs,melbourne-storm,Bet Right,south-sydney-rabbitohs,1.96
+2026-07-24 10:09,2026-07-25,canberra-raiders,wests-tigers,SportsBet,canberra-raiders,1.2
+2026-07-24 10:09,2026-07-25,canberra-raiders,wests-tigers,SportsBet,wests-tigers,4.6
+2026-07-24 10:09,2026-07-25,canberra-raiders,wests-tigers,Betr,canberra-raiders,1.2
+2026-07-24 10:09,2026-07-25,canberra-raiders,wests-tigers,Betr,wests-tigers,4.55
+2026-07-24 10:09,2026-07-25,canberra-raiders,wests-tigers,TAB,canberra-raiders,1.22
+2026-07-24 10:09,2026-07-25,canberra-raiders,wests-tigers,TAB,wests-tigers,4.3
+2026-07-24 10:09,2026-07-25,canberra-raiders,wests-tigers,PointsBet (AU),canberra-raiders,1.2
+2026-07-24 10:09,2026-07-25,canberra-raiders,wests-tigers,PointsBet (AU),wests-tigers,4.4
+2026-07-24 10:09,2026-07-25,canberra-raiders,wests-tigers,Ladbrokes,canberra-raiders,1.18
+2026-07-24 10:09,2026-07-25,canberra-raiders,wests-tigers,Ladbrokes,wests-tigers,5.0
+2026-07-24 10:09,2026-07-25,canberra-raiders,wests-tigers,Neds,canberra-raiders,1.18
+2026-07-24 10:09,2026-07-25,canberra-raiders,wests-tigers,Neds,wests-tigers,5.0
+2026-07-24 10:09,2026-07-25,canberra-raiders,wests-tigers,PlayUp,canberra-raiders,1.21
+2026-07-24 10:09,2026-07-25,canberra-raiders,wests-tigers,PlayUp,wests-tigers,4.4
+2026-07-24 10:09,2026-07-25,canberra-raiders,wests-tigers,Betfair,canberra-raiders,1.17
+2026-07-24 10:09,2026-07-25,canberra-raiders,wests-tigers,Betfair,wests-tigers,5.2
+2026-07-24 10:09,2026-07-25,canberra-raiders,wests-tigers,TABtouch,canberra-raiders,1.21
+2026-07-24 10:09,2026-07-25,canberra-raiders,wests-tigers,TABtouch,wests-tigers,4.4
+2026-07-24 10:09,2026-07-25,canberra-raiders,wests-tigers,Unibet,canberra-raiders,1.21
+2026-07-24 10:09,2026-07-25,canberra-raiders,wests-tigers,Unibet,wests-tigers,4.35
+2026-07-24 10:09,2026-07-25,canberra-raiders,wests-tigers,Bet Right,canberra-raiders,1.19
+2026-07-24 10:09,2026-07-25,canberra-raiders,wests-tigers,Bet Right,wests-tigers,4.7
+2026-07-24 10:09,2026-07-25,canterbury-bankstown-bulldogs,warriors,SportsBet,canterbury-bankstown-bulldogs,2.45
+2026-07-24 10:09,2026-07-25,canterbury-bankstown-bulldogs,warriors,SportsBet,warriors,1.56
+2026-07-24 10:09,2026-07-25,canterbury-bankstown-bulldogs,warriors,Betr,canterbury-bankstown-bulldogs,2.5
+2026-07-24 10:09,2026-07-25,canterbury-bankstown-bulldogs,warriors,Betr,warriors,1.53
+2026-07-24 10:09,2026-07-25,canterbury-bankstown-bulldogs,warriors,TAB,canterbury-bankstown-bulldogs,2.45
+2026-07-24 10:09,2026-07-25,canterbury-bankstown-bulldogs,warriors,TAB,warriors,1.55
+2026-07-24 10:09,2026-07-25,canterbury-bankstown-bulldogs,warriors,PointsBet (AU),canterbury-bankstown-bulldogs,2.45
+2026-07-24 10:09,2026-07-25,canterbury-bankstown-bulldogs,warriors,PointsBet (AU),warriors,1.53
+2026-07-24 10:09,2026-07-25,canterbury-bankstown-bulldogs,warriors,Ladbrokes,canterbury-bankstown-bulldogs,2.55
+2026-07-24 10:09,2026-07-25,canterbury-bankstown-bulldogs,warriors,Ladbrokes,warriors,1.52
+2026-07-24 10:09,2026-07-25,canterbury-bankstown-bulldogs,warriors,Neds,canterbury-bankstown-bulldogs,2.55
+2026-07-24 10:09,2026-07-25,canterbury-bankstown-bulldogs,warriors,Neds,warriors,1.52
+2026-07-24 10:09,2026-07-25,canterbury-bankstown-bulldogs,warriors,PlayUp,canterbury-bankstown-bulldogs,2.45
+2026-07-24 10:09,2026-07-25,canterbury-bankstown-bulldogs,warriors,PlayUp,warriors,1.55
+2026-07-24 10:09,2026-07-25,canterbury-bankstown-bulldogs,warriors,Betfair,canterbury-bankstown-bulldogs,2.34
+2026-07-24 10:09,2026-07-25,canterbury-bankstown-bulldogs,warriors,Betfair,warriors,1.61
+2026-07-24 10:09,2026-07-25,canterbury-bankstown-bulldogs,warriors,TABtouch,canterbury-bankstown-bulldogs,2.45
+2026-07-24 10:09,2026-07-25,canterbury-bankstown-bulldogs,warriors,TABtouch,warriors,1.56
+2026-07-24 10:09,2026-07-25,canterbury-bankstown-bulldogs,warriors,Unibet,canterbury-bankstown-bulldogs,2.43
+2026-07-24 10:09,2026-07-25,canterbury-bankstown-bulldogs,warriors,Unibet,warriors,1.55
+2026-07-24 10:09,2026-07-25,canterbury-bankstown-bulldogs,warriors,Bet Right,canterbury-bankstown-bulldogs,2.5
+2026-07-24 10:09,2026-07-25,canterbury-bankstown-bulldogs,warriors,Bet Right,warriors,1.53
+2026-07-24 10:09,2026-07-25,north-queensland-cowboys,brisbane-broncos,SportsBet,brisbane-broncos,1.72
+2026-07-24 10:09,2026-07-25,north-queensland-cowboys,brisbane-broncos,SportsBet,north-queensland-cowboys,2.13
+2026-07-24 10:09,2026-07-25,north-queensland-cowboys,brisbane-broncos,Betr,brisbane-broncos,1.67
+2026-07-24 10:09,2026-07-25,north-queensland-cowboys,brisbane-broncos,Betr,north-queensland-cowboys,2.2
+2026-07-24 10:09,2026-07-25,north-queensland-cowboys,brisbane-broncos,TAB,brisbane-broncos,1.7
+2026-07-24 10:09,2026-07-25,north-queensland-cowboys,brisbane-broncos,TAB,north-queensland-cowboys,2.15
+2026-07-24 10:09,2026-07-25,north-queensland-cowboys,brisbane-broncos,PointsBet (AU),brisbane-broncos,1.65
+2026-07-24 10:09,2026-07-25,north-queensland-cowboys,brisbane-broncos,PointsBet (AU),north-queensland-cowboys,2.2
+2026-07-24 10:09,2026-07-25,north-queensland-cowboys,brisbane-broncos,Neds,brisbane-broncos,1.7
+2026-07-24 10:09,2026-07-25,north-queensland-cowboys,brisbane-broncos,Neds,north-queensland-cowboys,2.15
+2026-07-24 10:09,2026-07-25,north-queensland-cowboys,brisbane-broncos,Ladbrokes,brisbane-broncos,1.7
+2026-07-24 10:09,2026-07-25,north-queensland-cowboys,brisbane-broncos,Ladbrokes,north-queensland-cowboys,2.15
+2026-07-24 10:09,2026-07-25,north-queensland-cowboys,brisbane-broncos,PlayUp,brisbane-broncos,1.67
+2026-07-24 10:09,2026-07-25,north-queensland-cowboys,brisbane-broncos,PlayUp,north-queensland-cowboys,2.2
+2026-07-24 10:09,2026-07-25,north-queensland-cowboys,brisbane-broncos,Betfair,brisbane-broncos,1.71
+2026-07-24 10:09,2026-07-25,north-queensland-cowboys,brisbane-broncos,Betfair,north-queensland-cowboys,2.26
+2026-07-24 10:09,2026-07-25,north-queensland-cowboys,brisbane-broncos,TABtouch,brisbane-broncos,1.62
+2026-07-24 10:09,2026-07-25,north-queensland-cowboys,brisbane-broncos,TABtouch,north-queensland-cowboys,2.3
+2026-07-24 10:09,2026-07-25,north-queensland-cowboys,brisbane-broncos,Unibet,brisbane-broncos,1.62
+2026-07-24 10:09,2026-07-25,north-queensland-cowboys,brisbane-broncos,Unibet,north-queensland-cowboys,2.28
+2026-07-24 10:09,2026-07-25,north-queensland-cowboys,brisbane-broncos,Bet Right,brisbane-broncos,1.7
+2026-07-24 10:09,2026-07-25,north-queensland-cowboys,brisbane-broncos,Bet Right,north-queensland-cowboys,2.15
+2026-07-24 10:09,2026-07-26,st-george-illawarra-dragons,gold-coast-titans,SportsBet,gold-coast-titans,1.97
+2026-07-24 10:09,2026-07-26,st-george-illawarra-dragons,gold-coast-titans,SportsBet,st-george-illawarra-dragons,1.87
+2026-07-24 10:09,2026-07-26,st-george-illawarra-dragons,gold-coast-titans,Betr,gold-coast-titans,2.0
+2026-07-24 10:09,2026-07-26,st-george-illawarra-dragons,gold-coast-titans,Betr,st-george-illawarra-dragons,1.8
+2026-07-24 10:09,2026-07-26,st-george-illawarra-dragons,gold-coast-titans,TAB,gold-coast-titans,2.0
+2026-07-24 10:09,2026-07-26,st-george-illawarra-dragons,gold-coast-titans,TAB,st-george-illawarra-dragons,1.8
+2026-07-24 10:09,2026-07-26,st-george-illawarra-dragons,gold-coast-titans,PointsBet (AU),gold-coast-titans,1.95
+2026-07-24 10:09,2026-07-26,st-george-illawarra-dragons,gold-coast-titans,PointsBet (AU),st-george-illawarra-dragons,1.85
+2026-07-24 10:09,2026-07-26,st-george-illawarra-dragons,gold-coast-titans,Neds,gold-coast-titans,1.98
+2026-07-24 10:09,2026-07-26,st-george-illawarra-dragons,gold-coast-titans,Neds,st-george-illawarra-dragons,1.83
+2026-07-24 10:09,2026-07-26,st-george-illawarra-dragons,gold-coast-titans,Ladbrokes,gold-coast-titans,1.98
+2026-07-24 10:09,2026-07-26,st-george-illawarra-dragons,gold-coast-titans,Ladbrokes,st-george-illawarra-dragons,1.83
+2026-07-24 10:09,2026-07-26,st-george-illawarra-dragons,gold-coast-titans,Betfair,gold-coast-titans,1.98
+2026-07-24 10:09,2026-07-26,st-george-illawarra-dragons,gold-coast-titans,Betfair,st-george-illawarra-dragons,1.85
+2026-07-24 10:09,2026-07-26,st-george-illawarra-dragons,gold-coast-titans,PlayUp,gold-coast-titans,2.0
+2026-07-24 10:09,2026-07-26,st-george-illawarra-dragons,gold-coast-titans,PlayUp,st-george-illawarra-dragons,1.81
+2026-07-24 10:09,2026-07-26,st-george-illawarra-dragons,gold-coast-titans,TABtouch,gold-coast-titans,1.93
+2026-07-24 10:09,2026-07-26,st-george-illawarra-dragons,gold-coast-titans,TABtouch,st-george-illawarra-dragons,1.85
+2026-07-24 10:09,2026-07-26,st-george-illawarra-dragons,gold-coast-titans,Unibet,gold-coast-titans,1.93
+2026-07-24 10:09,2026-07-26,st-george-illawarra-dragons,gold-coast-titans,Unibet,st-george-illawarra-dragons,1.85
+2026-07-24 10:09,2026-07-26,st-george-illawarra-dragons,gold-coast-titans,Bet Right,gold-coast-titans,1.95
+2026-07-24 10:09,2026-07-26,st-george-illawarra-dragons,gold-coast-titans,Bet Right,st-george-illawarra-dragons,1.85
+2026-07-24 10:09,2026-07-26,manly-warringah-sea-eagles,cronulla-sutherland-sharks,SportsBet,cronulla-sutherland-sharks,1.63
+2026-07-24 10:09,2026-07-26,manly-warringah-sea-eagles,cronulla-sutherland-sharks,SportsBet,manly-warringah-sea-eagles,2.28
+2026-07-24 10:09,2026-07-26,manly-warringah-sea-eagles,cronulla-sutherland-sharks,TAB,cronulla-sutherland-sharks,1.62
+2026-07-24 10:09,2026-07-26,manly-warringah-sea-eagles,cronulla-sutherland-sharks,TAB,manly-warringah-sea-eagles,2.3
+2026-07-24 10:09,2026-07-26,manly-warringah-sea-eagles,cronulla-sutherland-sharks,Betr,cronulla-sutherland-sharks,1.62
+2026-07-24 10:09,2026-07-26,manly-warringah-sea-eagles,cronulla-sutherland-sharks,Betr,manly-warringah-sea-eagles,2.3
+2026-07-24 10:09,2026-07-26,manly-warringah-sea-eagles,cronulla-sutherland-sharks,PointsBet (AU),cronulla-sutherland-sharks,1.6
+2026-07-24 10:09,2026-07-26,manly-warringah-sea-eagles,cronulla-sutherland-sharks,PointsBet (AU),manly-warringah-sea-eagles,2.3
+2026-07-24 10:09,2026-07-26,manly-warringah-sea-eagles,cronulla-sutherland-sharks,Neds,cronulla-sutherland-sharks,1.64
+2026-07-24 10:09,2026-07-26,manly-warringah-sea-eagles,cronulla-sutherland-sharks,Neds,manly-warringah-sea-eagles,2.3
+2026-07-24 10:09,2026-07-26,manly-warringah-sea-eagles,cronulla-sutherland-sharks,Ladbrokes,cronulla-sutherland-sharks,1.64
+2026-07-24 10:09,2026-07-26,manly-warringah-sea-eagles,cronulla-sutherland-sharks,Ladbrokes,manly-warringah-sea-eagles,2.3
+2026-07-24 10:09,2026-07-26,manly-warringah-sea-eagles,cronulla-sutherland-sharks,Betfair,cronulla-sutherland-sharks,1.61
+2026-07-24 10:09,2026-07-26,manly-warringah-sea-eagles,cronulla-sutherland-sharks,Betfair,manly-warringah-sea-eagles,2.34
+2026-07-24 10:09,2026-07-26,manly-warringah-sea-eagles,cronulla-sutherland-sharks,PlayUp,cronulla-sutherland-sharks,1.62
+2026-07-24 10:09,2026-07-26,manly-warringah-sea-eagles,cronulla-sutherland-sharks,PlayUp,manly-warringah-sea-eagles,2.3
+2026-07-24 10:09,2026-07-26,manly-warringah-sea-eagles,cronulla-sutherland-sharks,Unibet,cronulla-sutherland-sharks,1.61
+2026-07-24 10:09,2026-07-26,manly-warringah-sea-eagles,cronulla-sutherland-sharks,Unibet,manly-warringah-sea-eagles,2.28
+2026-07-24 10:09,2026-07-26,manly-warringah-sea-eagles,cronulla-sutherland-sharks,TABtouch,cronulla-sutherland-sharks,1.62
+2026-07-24 10:09,2026-07-26,manly-warringah-sea-eagles,cronulla-sutherland-sharks,TABtouch,manly-warringah-sea-eagles,2.3
+2026-07-24 10:09,2026-07-26,manly-warringah-sea-eagles,cronulla-sutherland-sharks,Bet Right,cronulla-sutherland-sharks,1.63
+2026-07-24 10:09,2026-07-26,manly-warringah-sea-eagles,cronulla-sutherland-sharks,Bet Right,manly-warringah-sea-eagles,2.28
+2026-07-24 10:09,2026-07-30,north-queensland-cowboys,sydney-roosters,SportsBet,north-queensland-cowboys,2.4
+2026-07-24 10:09,2026-07-30,north-queensland-cowboys,sydney-roosters,SportsBet,sydney-roosters,1.58
+2026-07-24 10:09,2026-07-31,st-george-illawarra-dragons,dolphins,SportsBet,dolphins,1.35
+2026-07-24 10:09,2026-07-31,st-george-illawarra-dragons,dolphins,SportsBet,st-george-illawarra-dragons,3.2
+2026-07-24 10:09,2026-07-31,melbourne-storm,canterbury-bankstown-bulldogs,SportsBet,canterbury-bankstown-bulldogs,2.31
+2026-07-24 10:09,2026-07-31,melbourne-storm,canterbury-bankstown-bulldogs,SportsBet,melbourne-storm,1.62
+2026-07-24 10:09,2026-08-01,gold-coast-titans,warriors,SportsBet,gold-coast-titans,2.51
+2026-07-24 10:09,2026-08-01,gold-coast-titans,warriors,SportsBet,warriors,1.53
+2026-07-24 10:09,2026-08-01,penrith-panthers,canberra-raiders,SportsBet,canberra-raiders,3.8
+2026-07-24 10:09,2026-08-01,penrith-panthers,canberra-raiders,SportsBet,penrith-panthers,1.27
+2026-07-24 10:09,2026-08-01,brisbane-broncos,newcastle-knights,SportsBet,brisbane-broncos,1.62
+2026-07-24 10:09,2026-08-01,brisbane-broncos,newcastle-knights,SportsBet,newcastle-knights,2.31
+2026-07-24 10:09,2026-08-02,cronulla-sutherland-sharks,south-sydney-rabbitohs,SportsBet,cronulla-sutherland-sharks,1.42
+2026-07-24 10:09,2026-08-02,cronulla-sutherland-sharks,south-sydney-rabbitohs,SportsBet,south-sydney-rabbitohs,2.88
+2026-07-24 10:09,2026-08-02,wests-tigers,parramatta-eels,SportsBet,parramatta-eels,1.72
+2026-07-24 10:09,2026-08-02,wests-tigers,parramatta-eels,SportsBet,wests-tigers,2.13

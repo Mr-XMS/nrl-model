@@ -11,6 +11,7 @@ echo "===== $(date '+%Y-%m-%d %H:%M') (day $DAY) =====" >> "$LOG"
 case $DAY in
   1)  # Monday: results + grading
       python3 update_nrl.py >> "$LOG" 2>&1
+      python3 scrape_stats.py >> "$LOG" 2>&1
       python3 paper_bets.py >> "$LOG" 2>&1
       python3 notify.py grades >> "$LOG" 2>&1
       ;;
