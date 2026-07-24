@@ -2235,3 +2235,38 @@ gap_days
 
 Interpretation guide: CI below zero = backing up genuinely hurts performance (candidate ORIGIN flag for 2027); CI straddling zero = the rest-rate number above is the real effect (absence, not fatigue).
 ===== done =====
+forced day: 99
+
+===== 2026-07-25 09:14 (day 99) =====
+Origin backup study
+Scraping Origin team lists...
+  2021: 3 Origin matches
+  2022: 3 Origin matches
+  2023: 3 Origin matches
+  2024: 3 Origin matches
+  2025: 3 Origin matches
+  2026: 3 Origin matches
+Total Origin matches: 18
+(using id column 'playerId', date column 'date')
+Origin players matched to stats identities: 108 of 108
+
+Back-up appearances: 427 | rested/absent next club game: 227 (35% rest rate)
+Mean next-club-game value delta: -0.053 (90% CI [-4.841, +4.773]) across 427 games
+  (player per-game value SD for scale: 60.98)
+
+By days between Origin and club game:
+            n  mean_delta
+gap_days                 
+2          30       9.439
+3         159      -2.630
+4         180       2.163
+5          31      -6.920
+6          27      -2.316
+
+By Origin result:
+  after a WIN : n=218, mean delta -2.347
+  after a LOSS: n=209, mean delta +2.340
+  win-minus-loss difference: -4.688 (90% CI [-14.484, +4.948])
+
+Interpretation guide: CI below zero = backing up genuinely hurts performance (candidate ORIGIN flag for 2027); CI straddling zero = the rest-rate number above is the real effect (absence, not fatigue).
+===== done =====
