@@ -32,7 +32,7 @@ def fetch(url):
         return r.read().decode("utf-8", errors="ignore")
 
 def scrape_origin(years=range(2021, 2027)):
-    """-> list of (date, set_of_nrl_playerIds) via nrl.com (competition 116)"""
+    """-> list of (date, winner_pids, loser_pids) via nrl.com (competition 116)"""
     games = []
     for y in years:
         try:
@@ -43,6 +43,9 @@ def scrape_origin(years=range(2021, 2027)):
         for f in d.get("fixtures", []):
             if f.get("type") != "Match" or f.get("matchState") not in ("FullTime", "PostGame"):
                 continue
+            hs, as_ = f["homeTeam"].get("score"), f["awayTeam"].get("score")
+            if hs is None or as_ is None or hs == as_:
+                continue
             url = "https://www.nrl.com" + f["matchCentreUrl"].rstrip("/") + "/data"
             try:
                 mc = json.loads(fetch(url))
@@ -52,13 +55,14 @@ def scrape_origin(years=range(2021, 2027)):
             if not ko:
                 continue
             date = pd.to_datetime(ko).tz_localize(None).normalize()
-            pids = set()
+            sides = {}
             for side in ("homeTeam", "awayTeam"):
-                for p in (mc.get(side, {}).get("players") or []):
-                    if p.get("playerId"):
-                        pids.add(p["playerId"])
-            if len(pids) >= 30:
-                games.append((date, pids))
+                sides[side] = {p["playerId"] for p in (mc.get(side, {}).get("players") or [])
+                               if p.get("playerId")}
+            win_side = "homeTeam" if hs > as_ else "awayTeam"
+            lose_side = "awayTeam" if hs > as_ else "homeTeam"
+            if len(sides[win_side]) + len(sides[lose_side]) >= 30:
+                games.append((date, sides[win_side], sides[lose_side]))
                 n += 1
             time.sleep(0.4)
         print(f"  {y}: {n} Origin matches")
@@ -95,22 +99,23 @@ def main():
         pass
     PG["gdate"] = dt.dt.normalize()
 
-    all_origin_ids = set().union(*[p for _, p in origin])
+    all_origin_ids = set().union(*[w | l for _, w, l in origin])
     known = set(PG[id_col].unique())
     matched = all_origin_ids & known
     print(f"Origin players matched to stats identities: {len(matched)} "
           f"of {len(all_origin_ids)}")
 
-    deltas, gaps, backed, rested = [], [], 0, 0
-    for odate, players in origin:
-        for pid in players & known:
+    deltas, gaps, wons, backed, rested = [], [], [], 0, 0
+    for odate, win_p, lose_p in origin:
+        for pid in (win_p | lose_p) & known:
+            won_origin = pid in win_p
             mine = PG[PG[id_col] == pid]
             season = mine[mine.gdate.dt.year == odate.year]
             if len(season) < 6:
                 continue
             post = season[(season.gdate > odate) & (season.gdate <= odate + pd.Timedelta(days=6))]
             # baseline: same season, outside +/-7d of ANY origin date that year
-            odates = [d for d, _ in origin if d.year == odate.year]
+            odates = [d for d, _, _ in origin if d.year == odate.year]
             base_mask = np.ones(len(season), dtype=bool)
             for od in odates:
                 base_mask &= ~((season.gdate > od - pd.Timedelta(days=7)) &
@@ -122,6 +127,7 @@ def main():
                 backed += 1
                 deltas.append(post.value.iloc[0] - base.value.mean())
                 gaps.append(int((post.gdate.iloc[0] - odate).days))
+                wons.append(won_origin)
             else:
                 rested += 1
 
@@ -141,6 +147,16 @@ def main():
     print("\nBy days between Origin and club game:")
     print(G.groupby("gap_days").agg(n=("delta","size"), mean_delta=("delta","mean"))
            .round(3).to_string())
+    W = np.array(wons)
+    dw, dl = d[W], d[~W]
+    print(f"\nBy Origin result:")
+    print(f"  after a WIN : n={len(dw)}, mean delta {dw.mean():+.3f}")
+    print(f"  after a LOSS: n={len(dl)}, mean delta {dl.mean():+.3f}")
+    diff_boots = [dw[rng.integers(0, len(dw), len(dw))].mean() -
+                  dl[rng.integers(0, len(dl), len(dl))].mean() for _ in range(3000)]
+    lo2, hi2 = np.percentile(diff_boots, [5, 95])
+    print(f"  win-minus-loss difference: {dw.mean()-dl.mean():+.3f} "
+          f"(90% CI [{lo2:+.3f}, {hi2:+.3f}])")
     print("\nInterpretation guide: CI below zero = backing up genuinely hurts "
           "performance (candidate ORIGIN flag for 2027); CI straddling zero = "
           "the rest-rate number above is the real effect (absence, not fatigue).")
