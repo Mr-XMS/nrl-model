@@ -79,42 +79,49 @@ def main():
     sc, w = _stage1_weights(PG, stat_cols)
     PG = PG.copy()
     PG["value"] = sc.transform(PG[stat_cols].fillna(0)) @ w
-    # map playerId -> normalized name from our raw stats file, join PG on name
-    id2name = {}
-    for line in open(os.path.join(HERE, "player_stats.jsonl")):
-        r = json.loads(line)
-        for p in r.get("players", []):
-            id2name[p.get("playerId")] = norm(p.get("name", ""))
-    PG["nname"] = PG["name"].apply(norm)
-    PG["date"] = pd.to_datetime(PG["date"]).dt.tz_localize(None).dt.normalize()
-    origin = [(d, {id2name[i] for i in pids if i in id2name}) for d, pids in origin]
-    all_origin_names = set().union(*[p for _, p in origin])
-    known = set(PG.nname.unique())
-    matched = all_origin_names & known
+
+    # discover schema rather than assume it
+    id_col = next((c for c in ("playerId", "player_id", "pid", "id") if c in PG.columns), None)
+    date_col = next((c for c in ("date", "kickoff", "game_date", "match_date") if c in PG.columns), None)
+    if id_col is None or date_col is None:
+        print("SCHEMA MISMATCH - PG columns are:", list(PG.columns))
+        print("Edit origin_study.py candidates to match, rerun.")
+        return
+    print(f"(using id column '{id_col}', date column '{date_col}')")
+    dt = pd.to_datetime(PG[date_col])
+    try:
+        dt = dt.dt.tz_localize(None)
+    except TypeError:
+        pass
+    PG["gdate"] = dt.dt.normalize()
+
+    all_origin_ids = set().union(*[p for _, p in origin])
+    known = set(PG[id_col].unique())
+    matched = all_origin_ids & known
     print(f"Origin players matched to stats identities: {len(matched)} "
-          f"of {len(all_origin_names)}")
+          f"of {len(all_origin_ids)}")
 
     deltas, gaps, backed, rested = [], [], 0, 0
     for odate, players in origin:
-        for pn in players & known:
-            mine = PG[PG.nname == pn]
-            season = mine[mine.date.dt.year == odate.year]
+        for pid in players & known:
+            mine = PG[PG[id_col] == pid]
+            season = mine[mine.gdate.dt.year == odate.year]
             if len(season) < 6:
                 continue
-            post = season[(season.date > odate) & (season.date <= odate + pd.Timedelta(days=6))]
+            post = season[(season.gdate > odate) & (season.gdate <= odate + pd.Timedelta(days=6))]
             # baseline: same season, outside +/-7d of ANY origin date that year
             odates = [d for d, _ in origin if d.year == odate.year]
             base_mask = np.ones(len(season), dtype=bool)
             for od in odates:
-                base_mask &= ~((season.date > od - pd.Timedelta(days=7)) &
-                               (season.date <= od + pd.Timedelta(days=7)))
+                base_mask &= ~((season.gdate > od - pd.Timedelta(days=7)) &
+                               (season.gdate <= od + pd.Timedelta(days=7)))
             base = season[base_mask]
             if not len(base):
                 continue
             if len(post):
                 backed += 1
                 deltas.append(post.value.iloc[0] - base.value.mean())
-                gaps.append((post.date.iloc[0] - odate).days)
+                gaps.append(int((post.gdate.iloc[0] - odate).days))
             else:
                 rested += 1
 
