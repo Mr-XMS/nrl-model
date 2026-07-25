@@ -2270,3 +2270,110 @@ By Origin result:
 
 Interpretation guide: CI below zero = backing up genuinely hurts performance (candidate ORIGIN flag for 2027); CI straddling zero = the rest-rate number above is the real effect (absence, not fatigue).
 ===== done =====
+
+===== 2026-07-25 10:14 (day 6) =====
+11 upcoming NRL games, scanning...
+
+canberra-raiders v wests-tigers
+  best: canberra-raiders @ 1.20 (Betr)  |  wests-tigers @ 5.60 (Betfair)
+  combined implied: 101.2%
+  live blend 77% home -> best-price EV: wests-tigers +30.5% @ 5.60 (Betfair)  >>> VALUE
+
+canterbury-bankstown-bulldogs v warriors
+  best: canterbury-bankstown-bulldogs @ 2.51 (SportsBet)  |  warriors @ 1.66 (Betfair)
+  combined implied: 100.1%
+  live blend 35% home -> best-price EV: warriors +7.7% @ 1.66 (Betfair)  >>> VALUE
+
+north-queensland-cowboys v brisbane-broncos
+  best: north-queensland-cowboys @ 2.46 (Betfair)  |  brisbane-broncos @ 1.67 (Betfair)
+  combined implied: 100.5%
+  live blend 47% home -> best-price EV: north-queensland-cowboys +16.7% @ 2.46 (Betfair)  >>> VALUE
+
+st-george-illawarra-dragons v gold-coast-titans
+  best: st-george-illawarra-dragons @ 1.90 (Betfair)  |  gold-coast-titans @ 2.00 (Betr)
+  combined implied: 102.6%
+  live blend 58% home -> best-price EV: st-george-illawarra-dragons +10.4% @ 1.90 (Betfair)  >>> VALUE
+
+manly-warringah-sea-eagles v cronulla-sutherland-sharks
+  best: manly-warringah-sea-eagles @ 2.32 (Betfair)  |  cronulla-sutherland-sharks @ 1.64 (SportsBet)
+  combined implied: 104.1%
+  live blend 44% home -> best-price EV: manly-warringah-sea-eagles +2.4% @ 2.32 (Betfair)
+
+north-queensland-cowboys v sydney-roosters
+  best: north-queensland-cowboys @ 3.00 (TAB)  |  sydney-roosters @ 1.42 (SportsBet)
+  combined implied: 103.8%
+
+st-george-illawarra-dragons v dolphins
+  best: st-george-illawarra-dragons @ 3.50 (TAB)  |  dolphins @ 1.35 (SportsBet)
+  combined implied: 102.6%
+
+gold-coast-titans v warriors
+  best: gold-coast-titans @ 2.51 (SportsBet)  |  warriors @ 1.53 (SportsBet)
+  combined implied: 105.2%
+
+penrith-panthers v canberra-raiders
+  best: penrith-panthers @ 1.28 (TAB)  |  canberra-raiders @ 3.80 (SportsBet)
+  combined implied: 104.4%
+
+cronulla-sutherland-sharks v south-sydney-rabbitohs
+  best: cronulla-sutherland-sharks @ 1.38 (SportsBet)  |  south-sydney-rabbitohs @ 3.05 (SportsBet)
+  combined implied: 105.3%
+
+wests-tigers v parramatta-eels
+  best: wests-tigers @ 2.13 (SportsBet)  |  parramatta-eels @ 1.73 (TAB)
+  combined implied: 104.8%
+
+Price snapshot logged: 134 quotes -> odds_history.csv
+Fetching announced team lists: 2026 Round 21...
+Casualty ward: 76 players listed
+done: 2 scraped
+Running model comparison record:
+  A: baseline            n=15  acc=0.600  logloss=0.7463  brier=0.2707
+  B: return-adjusted     n=15  acc=0.600  logloss=0.7463  brier=0.2707
+  C: weather-adjusted    n=15  acc=0.600  logloss=0.7385  brier=0.2704
+  Market (bookmaker)     n=15  acc=0.750  logloss=0.6767  brier=0.2369
+  Blend (model+market)   n=15  acc=0.750  logloss=0.6788  brier=0.2371
+  Matches where the two models actually differ: 12 of 15
+
+parramatta-eels v penrith-panthers: penrith-panthers (75%)  [return-adjusted variant: home 25%]   [PLAYED: 18-24]
+    player strength diff -0.87 | retention 76% v 65% | spine run 1 v 1
+    note: parramatta-eels: Luca Moretti (Head knock, listed return TBC) - IN DOUBT, rating x0.6
+
+newcastle-knights v sydney-roosters: sydney-roosters (59%)   [PLAYED: 22-23]
+    player strength diff -0.74 | retention 76% v 71% | spine run 1 v 1
+    note: newcastle-knights: Dylan Brown (Knee, listed return TBC) - IN DOUBT, rating x0.6
+    note: newcastle-knights: Dylan Lucas (Ankle, listed return TBC) - IN DOUBT, rating x0.6
+    note: sydney-roosters: Daniel Tupou (Shoulder, listed return TBC) - IN DOUBT, rating x0.6
+
+south-sydney-rabbitohs v melbourne-storm: south-sydney-rabbitohs (56%)   [PLAYED: 28-26]
+    player strength diff +0.07 | retention 71% v 76% | spine run 1 v 2
+    note: south-sydney-rabbitohs: Brandon Smith (Calf, listed return TBC) - IN DOUBT, rating x0.6
+    note: melbourne-storm: Harry Grant (Hamstring, listed return TBC) - IN DOUBT, rating x0.6
+
+canberra-raiders v wests-tigers: canberra-raiders (70%)
+    market 81% home | blend 76% home  >>> EDGE: model likes wests-tigers (11 pts vs market)
+    player strength diff -0.10 | retention 82% v 65% | spine run 1 v 1
+    note: wests-tigers: 1 debutant/unmatched (rated league-average): Javon Andrews
+
+canterbury-bankstown-bulldogs v warriors: warriors (69%)  [return-adjusted variant: home 31%]
+    market 38% home | blend 34% home  >>> EDGE: model likes warriors (7 pts vs market)
+    player strength diff -1.72 | retention 76% v 76% | spine run 1 v 7
+    note: canterbury-bankstown-bulldogs: 1 debutant/unmatched (rated league-average): Jethro Rinakama
+    note: warriors: 1 debutant/unmatched (rated league-average): Leka Halasima
+
+north-queensland-cowboys v brisbane-broncos: north-queensland-cowboys (57%)  [return-adjusted variant: home 58%]
+    market 41% home | blend 49% home  >>> EDGE: model likes north-queensland-cowboys (16 pts vs market)
+    player strength diff +0.92 | retention 88% v 65% | spine run 4 v 1
+
+st-george-illawarra-dragons v gold-coast-titans: st-george-illawarra-dragons (65%)
+    market 51% home | blend 58% home  >>> EDGE: model likes st-george-illawarra-dragons (13 pts vs market)
+    player strength diff +0.13 | retention 94% v 82% | spine run 8 v 8
+    note: gold-coast-titans: 1 debutant/unmatched (rated league-average): Jojo Fifita
+
+manly-warringah-sea-eagles v cronulla-sutherland-sharks: cronulla-sutherland-sharks (53%)
+    market 42% home | blend 44% home
+    player strength diff -1.17 | retention 88% v 88% | spine run 1 v 2
+    note: cronulla-sutherland-sharks: Siosifa Talakai (Elbow, listed return Round 22) - IN DOUBT, rating x0.6
+
+All fixtures already logged this week (first predictions kept).
+===== done =====

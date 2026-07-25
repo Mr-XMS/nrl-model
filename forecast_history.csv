@@ -68,3 +68,8 @@ run_time,date,home_team,away_team,kickoff,venue_city,p_base,p_market,wet,notes
 2026-07-24 10:10,2026-07-25,north-queensland-cowboys,brisbane-broncos,2026-07-25T09:35:00Z,Townsville,0.5469,0.4468,0,0
 2026-07-24 10:10,2026-07-26,st-george-illawarra-dragons,gold-coast-titans,2026-07-26T04:00:00Z,Kogarah,0.6467,0.513,0,1
 2026-07-24 10:10,2026-07-26,manly-warringah-sea-eagles,cronulla-sutherland-sharks,2026-07-26T06:05:00Z,Sydney,0.4663,0.4169,0,1
+2026-07-25 10:14,2026-07-25,canberra-raiders,wests-tigers,2026-07-25T05:00:00Z,Canberra,0.7,0.8075,0,1
+2026-07-25 10:14,2026-07-25,canterbury-bankstown-bulldogs,warriors,2026-07-25T07:30:00Z,Sydney,0.307,0.3787,0,2
+2026-07-25 10:14,2026-07-25,north-queensland-cowboys,brisbane-broncos,2026-07-25T09:35:00Z,Townsville,0.5745,0.4107,0,0
+2026-07-25 10:14,2026-07-26,st-george-illawarra-dragons,gold-coast-titans,2026-07-26T04:00:00Z,Kogarah,0.6468,0.513,0,1
+2026-07-25 10:14,2026-07-26,manly-warringah-sea-eagles,cronulla-sutherland-sharks,2026-07-26T06:05:00Z,Sydney,0.4663,0.4205,0,1
