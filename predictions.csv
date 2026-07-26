@@ -19,11 +19,19 @@ run_date,season,round,date,home_team,away_team,venue,p_home_win,predicted_winner
 2026-07-13,2026,Round 20 - Women in League Round,2026-07-18,canterbury-bankstown-bulldogs,wests-tigers,Accor,0.672,canterbury-bankstown-bulldogs,1.0
 2026-07-13,2026,Round 20 - Women in League Round,2026-07-19,gold-coast-titans,manly-warringah-sea-eagles,Cbus Super,0.309,manly-warringah-sea-eagles,1.0
 2026-07-13,2026,Round 20 - Women in League Round,2026-07-19,dolphins,north-queensland-cowboys,Suncorp,0.646,dolphins,1.0
-2026-07-20,2026,Round 21,2026-07-23,parramatta-eels,penrith-panthers,CommBank,0.318,penrith-panthers,
-2026-07-20,2026,Round 21,2026-07-24,newcastle-knights,sydney-roosters,McD. Jones,0.439,sydney-roosters,
-2026-07-20,2026,Round 21,2026-07-24,south-sydney-rabbitohs,melbourne-storm,Accor,0.56,south-sydney-rabbitohs,
-2026-07-20,2026,Round 21,2026-07-25,canberra-raiders,wests-tigers,GIO,0.323,wests-tigers,
-2026-07-20,2026,Round 21,2026-07-25,canterbury-bankstown-bulldogs,warriors,Accor,0.728,canterbury-bankstown-bulldogs,
-2026-07-20,2026,Round 21,2026-07-25,north-queensland-cowboys,brisbane-broncos,QLD C. Bank,0.609,north-queensland-cowboys,
-2026-07-20,2026,Round 21,2026-07-26,st-george-illawarra-dragons,gold-coast-titans,SGV Jubilee,0.641,st-george-illawarra-dragons,
-2026-07-20,2026,Round 21,2026-07-26,manly-warringah-sea-eagles,cronulla-sutherland-sharks,4 Pines,0.403,cronulla-sutherland-sharks,
+2026-07-20,2026,Round 21,2026-07-23,parramatta-eels,penrith-panthers,CommBank,0.318,penrith-panthers,0.0
+2026-07-20,2026,Round 21,2026-07-24,newcastle-knights,sydney-roosters,McD. Jones,0.439,sydney-roosters,0.0
+2026-07-20,2026,Round 21,2026-07-24,south-sydney-rabbitohs,melbourne-storm,Accor,0.56,south-sydney-rabbitohs,1.0
+2026-07-20,2026,Round 21,2026-07-25,canberra-raiders,wests-tigers,GIO,0.323,wests-tigers,1.0
+2026-07-20,2026,Round 21,2026-07-25,canterbury-bankstown-bulldogs,warriors,Accor,0.728,canterbury-bankstown-bulldogs,1.0
+2026-07-20,2026,Round 21,2026-07-25,north-queensland-cowboys,brisbane-broncos,QLD C. Bank,0.609,north-queensland-cowboys,1.0
+2026-07-20,2026,Round 21,2026-07-26,st-george-illawarra-dragons,gold-coast-titans,SGV Jubilee,0.641,st-george-illawarra-dragons,0.0
+2026-07-20,2026,Round 21,2026-07-26,manly-warringah-sea-eagles,cronulla-sutherland-sharks,4 Pines,0.403,cronulla-sutherland-sharks,0.0
+2026-07-26,2026,Round 22,2026-07-30,north-queensland-cowboys,sydney-roosters,QLD C. Bank,0.43,sydney-roosters,
+2026-07-26,2026,Round 22,2026-07-31,st-george-illawarra-dragons,dolphins,WIN,0.24,dolphins,
+2026-07-26,2026,Round 22,2026-07-31,melbourne-storm,canterbury-bankstown-bulldogs,AAMI,0.643,melbourne-storm,
+2026-07-26,2026,Round 22,2026-08-01,gold-coast-titans,warriors,Cbus Super,0.353,warriors,
+2026-07-26,2026,Round 22,2026-08-01,penrith-panthers,canberra-raiders,Glen Willow,0.816,penrith-panthers,
+2026-07-26,2026,Round 22,2026-08-01,brisbane-broncos,newcastle-knights,Suncorp,0.472,newcastle-knights,
+2026-07-26,2026,Round 22,2026-08-02,cronulla-sutherland-sharks,south-sydney-rabbitohs,Ocean Protect,0.806,cronulla-sutherland-sharks,
+2026-07-26,2026,Round 22,2026-08-02,wests-tigers,parramatta-eels,CommBank,0.421,parramatta-eels,
