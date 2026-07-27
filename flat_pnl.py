@@ -143,12 +143,16 @@ def main():
         won = (r.home_score > r.away_score) == pick_home
         comm = 1.0 if src_live else 0.95      # books pay face value; Betfair nets 5%
         pl = 100 * comm * (price - 1) if won else -100.0
+        dog_price = odds[1] if pick_home else odds[0]
+        dog_pl = -100.0 if won else 100 * comm * (dog_price - 1)
         rows.append(dict(date=r.date, home=r.home_team, away=r.away_team,
                          pick=pick, prob=round(float(max(p26[i], 1-p26[i])), 3),
                          odds=price, won=int(won), pl=round(pl, 2),
+                         dog_odds=dog_price, dog_pl=round(dog_pl, 2),
                          segment="live" if r.date >= LIVE_FROM else "backtest"))
     F = pd.DataFrame(rows).sort_values("date").reset_index(drop=True)
     F["cum_pl"] = F.pl.cumsum().round(2)
+    F["cum_dog_pl"] = F.dog_pl.cumsum().round(2)
     F.to_csv(os.path.join(HERE, "flat_bets.csv"), index=False)
 
     for seg in ("backtest", "live", None):
@@ -158,6 +162,10 @@ def main():
         print(f"Flat P&L [{label}]: {len(s)} bets, {s.won.mean():.0%} won, "
               f"staked ${len(s)*100:,}, P&L ${s.pl.sum():+,.0f} "
               f"({s.pl.sum()/(len(s)*100):+.1%} ROI)")
+    print(f"Mirror (back every predicted LOSER): P&L ${F.dog_pl.sum():+,.0f} "
+          f"({F.dog_pl.sum()/(len(F)*100):+.1%} ROI), hit rate {(1-F.won).mean():.0%}")
+    print(f"Both-sides friction check: picks + mirror = "
+          f"${F.pl.sum()+F.dog_pl.sum():+,.0f} (spread + commission paid twice per game)")
     print(f"Season equity range: best ${F.cum_pl.max():+,.0f}, "
           f"worst ${F.cum_pl.min():+,.0f} -> flat_bets.csv")
 
