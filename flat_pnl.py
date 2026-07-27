@@ -145,14 +145,23 @@ def main():
         pl = 100 * comm * (price - 1) if won else -100.0
         dog_price = odds[1] if pick_home else odds[0]
         dog_pl = -100.0 if won else 100 * comm * (dog_price - 1)
+        # market underdog = the side with the LONGER price, regardless of the model
+        mdog_home = odds[0] > odds[1]
+        mdog_price = odds[0] if mdog_home else odds[1]
+        mdog_won = (r.home_score > r.away_score) == mdog_home
+        mdog_pl = 100 * comm * (mdog_price - 1) if mdog_won else -100.0
+        model_on_mdog = int(pick_home == mdog_home)   # model also picked the outsider
         rows.append(dict(date=r.date, home=r.home_team, away=r.away_team,
                          pick=pick, prob=round(float(max(p26[i], 1-p26[i])), 3),
                          odds=price, won=int(won), pl=round(pl, 2),
                          dog_odds=dog_price, dog_pl=round(dog_pl, 2),
+                         mdog_odds=mdog_price, mdog_pl=round(mdog_pl, 2),
+                         model_on_mdog=model_on_mdog,
                          segment="live" if r.date >= LIVE_FROM else "backtest"))
     F = pd.DataFrame(rows).sort_values("date").reset_index(drop=True)
     F["cum_pl"] = F.pl.cumsum().round(2)
     F["cum_dog_pl"] = F.dog_pl.cumsum().round(2)
+    F["cum_mdog_pl"] = F.mdog_pl.cumsum().round(2)
     F.to_csv(os.path.join(HERE, "flat_bets.csv"), index=False)
 
     for seg in ("backtest", "live", None):
@@ -166,6 +175,16 @@ def main():
           f"({F.dog_pl.sum()/(len(F)*100):+.1%} ROI), hit rate {(1-F.won).mean():.0%}")
     print(f"Both-sides friction check: picks + mirror = "
           f"${F.pl.sum()+F.dog_pl.sum():+,.0f} (spread + commission paid twice per game)")
+    print(f"Market underdogs (longer price every game): P&L ${F.mdog_pl.sum():+,.0f} "
+          f"({F.mdog_pl.sum()/(len(F)*100):+.1%} ROI)")
+    agree = F[F.model_on_mdog == 1]
+    disagree = F[F.model_on_mdog == 0]
+    if len(agree):
+        print(f"  ...where the MODEL also picked the outsider (n={len(agree)}): "
+              f"${agree.mdog_pl.sum():+,.0f} ({agree.mdog_pl.sum()/(len(agree)*100):+.1%})")
+    if len(disagree):
+        print(f"  ...where the model sided with the favourite (n={len(disagree)}): "
+              f"${disagree.mdog_pl.sum():+,.0f} ({disagree.mdog_pl.sum()/(len(disagree)*100):+.1%})")
     print(f"Season equity range: best ${F.cum_pl.max():+,.0f}, "
           f"worst ${F.cum_pl.min():+,.0f} -> flat_bets.csv")
 
