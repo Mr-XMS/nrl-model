@@ -38,7 +38,24 @@ def main():
         except Exception as e:
             print(f"Flat P&L: download failed ({e}) - aborting")
             return
-    from backtest_harness import BF_TEAM
+    BF_TEAM = {
+        "Brisbane Broncos": "brisbane-broncos", "Canberra Raiders": "canberra-raiders",
+        "Canterbury": "canterbury-bankstown-bulldogs",
+        "Canterbury Bulldogs": "canterbury-bankstown-bulldogs",
+        "Cronulla Sharks": "cronulla-sutherland-sharks", "Dolphins": "dolphins",
+        "Gold Coast": "gold-coast-titans", "Gold Coast Titans": "gold-coast-titans",
+        "Manly Sea Eagles": "manly-warringah-sea-eagles",
+        "Melbourne Storm": "melbourne-storm", "New Zealand Warriors": "warriors",
+        "Newcastle Knights": "newcastle-knights",
+        "North Qld Cowboys": "north-queensland-cowboys",
+        "North Queensland Cowboys": "north-queensland-cowboys",
+        "Parramatta Eels": "parramatta-eels", "Penrith Panthers": "penrith-panthers",
+        "South Sydney Rabbitohs": "south-sydney-rabbitohs",
+        "St George Illawarra Dra": "st-george-illawarra-dragons",
+        "St George/Illa Dragons": "st-george-illawarra-dragons",
+        "Sydney": "sydney-roosters", "Sydney Roosters": "sydney-roosters",
+        "Wests Tigers": "wests-tigers",
+    }
     from nrl_model import build_features
     from nrl_player_model import load_lineups, attach_lineups, build_player_features
     from stats_ratings import build_stats_feature
