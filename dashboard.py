@@ -77,6 +77,7 @@ comp = load("model_comparison.csv", ["date"])
 preds = load("predictions.csv", ["date"])
 ledger = load("sgm_ledger.csv")
 bets = load("bets_ledger.csv", ["date"])
+flat = load("flat_bets.csv", ["date"])
 hist = load("odds_history.csv")
 fhist = load("forecast_history.csv")
 scen = load("scenarios.csv")
@@ -494,3 +495,22 @@ with tab_bet:
         st.caption("Fixed $100/round paper bankroll, 6% EV threshold, quarter-Kelly, "
                    "best scanned price. Placed by Tuesday automation, graded as results land. "
                    "No real money.")
+with tab_bet:
+    st.divider()
+    st.subheader("Flat $100 on every pick (full 2026 season)")
+    if flat is None or not len(flat):
+        st.info("Run flat_pnl.py (force_day 98) to generate this view.")
+    else:
+        c1, c2, c3, c4 = st.columns(4)
+        c1.metric("Bets", len(flat))
+        c2.metric("Hit rate", f"{flat.won.mean():.0%}")
+        c3.metric("Season P&L", f"${flat.pl.sum():+,.0f}",
+                  delta=f"{flat.pl.sum()/(len(flat)*100):+.1%} ROI")
+        live = flat[flat.segment == "live"]
+        if len(live):
+            c4.metric("Live segment only", f"${live.pl.sum():+,.0f}")
+        st.line_chart(flat.set_index("date")["cum_pl"])
+        st.caption("Walk-forward picks at Betfair prices, 5% commission. Games "
+                   "before ~Round 18 are retrospective backtest, not live calls. "
+                   "This curve is the 'picks are not profits' exhibit — compare "
+                   "it with the selective value strategy above.")
