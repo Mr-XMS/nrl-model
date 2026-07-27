@@ -2519,3 +2519,8 @@ Logged to predictions.csv
 done: 0 scraped
 Paper bets: graded 0 new | season: 7 bets, staked $16, P&L $-5 (-31.0% ROI)
 ===== done =====
+forced day: 98
+
+===== 2026-07-28 08:43 (day 98) =====
+python3: can't open file '/home/runner/work/nrl-model/nrl-model/flat_pnl.py': [Errno 2] No such file or directory
+===== done =====
