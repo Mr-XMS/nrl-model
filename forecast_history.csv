@@ -1,4 +1,4 @@
-run_time,date,home_team,away_team,kickoff,venue_city,p_base,p_market,wet,notes
+run_time,date,home_team,away_team,kickoff,venue_city,p_base,p_market,wet,returning_home,returning_away,indoubt_home,indoubt_away,notes
 2026-07-15 18:20,2026-07-16,penrith-panthers,brisbane-broncos,2026-07-16T09:50:00Z,Sydney,0.8204,0.7931,0,5
 2026-07-15 18:20,2026-07-17,cronulla-sutherland-sharks,newcastle-knights,2026-07-17T08:00:00Z,Sydney,0.7544,0.6751,1,2
 2026-07-15 18:20,2026-07-17,sydney-roosters,melbourne-storm,2026-07-17T10:00:00Z,Sydney,0.6952,0.743,1,2
