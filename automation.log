@@ -2529,3 +2529,15 @@ forced day: 98
 ===== 2026-07-28 08:49 (day 98) =====
 python3: can't open file '/home/runner/work/nrl-model/nrl-model/flat_pnl.py': [Errno 2] No such file or directory
 ===== done =====
+forced day: 98
+
+===== 2026-07-28 08:54 (day 98) =====
+Flat P&L: downloading Betfair 2026 odds from source...
+  saved -> odds/nrl_2026.csv
+Traceback (most recent call last):
+  File "/home/runner/work/nrl-model/nrl-model/flat_pnl.py", line 148, in <module>
+    main()
+  File "/home/runner/work/nrl-model/nrl-model/flat_pnl.py", line 41, in main
+    from backtest_harness import BF_TEAM
+ModuleNotFoundError: No module named 'backtest_harness'
+===== done =====
