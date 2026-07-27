@@ -2572,3 +2572,17 @@ Mirror (back every predicted LOSER): P&L $-1,468 (-12.3% ROI), hit rate 36%
 Both-sides friction check: picks + mirror = $+383 (spread + commission paid twice per game)
 Season equity range: best $+2,180, worst $-310 -> flat_bets.csv
 ===== done =====
+forced day: 98
+
+===== 2026-07-28 09:39 (day 98) =====
+Flat P&L: 16 live games priced from scanner history (best-of-books, pre-kickoff)
+Flat P&L [backtest]: 113 bets, 65% won, staked $11,300, P&L $+1,980 (+17.5% ROI)
+Flat P&L [live]: 6 bets, 50% won, staked $600, P&L $-130 (-21.7% ROI)
+Flat P&L [FULL SEASON]: 119 bets, 64% won, staked $11,900, P&L $+1,850 (+15.5% ROI)
+Mirror (back every predicted LOSER): P&L $-1,468 (-12.3% ROI), hit rate 36%
+Both-sides friction check: picks + mirror = $+383 (spread + commission paid twice per game)
+Market underdogs (longer price every game): P&L $+1,714 (+14.4% ROI)
+  ...where the MODEL also picked the outsider (n=34): $+2,116 (+62.2%)
+  ...where the model sided with the favourite (n=85): $-402 (-4.7%)
+Season equity range: best $+2,180, worst $-310 -> flat_bets.csv
+===== done =====
