@@ -509,7 +509,8 @@ with tab_bet:
         live = flat[flat.segment == "live"]
         if len(live):
             c4.metric("Live segment only", f"${live.pl.sum():+,.0f}")
-        st.line_chart(flat.set_index("date")["cum_pl"])
+        st.line_chart(flat.set_index("date")[["cum_pl", "cum_dog_pl"]]
+                      .rename(columns={"cum_pl": "picks", "cum_dog_pl": "anti-picks"}))
         st.caption("Walk-forward picks at Betfair prices, 5% commission. Games "
                    "before ~Round 18 are retrospective backtest, not live calls. "
                    "This curve is the 'picks are not profits' exhibit — compare "
