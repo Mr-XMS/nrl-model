@@ -2541,3 +2541,12 @@ Traceback (most recent call last):
     from backtest_harness import BF_TEAM
 ModuleNotFoundError: No module named 'backtest_harness'
 ===== done =====
+forced day: 98
+
+===== 2026-07-28 09:14 (day 98) =====
+Flat P&L: 16 live games priced from scanner history (best-of-books, pre-kickoff)
+Flat P&L [backtest]: 113 bets, 65% won, staked $11,300, P&L $+1,980 (+17.5% ROI)
+Flat P&L [live]: 6 bets, 50% won, staked $600, P&L $-130 (-21.7% ROI)
+Flat P&L [FULL SEASON]: 119 bets, 64% won, staked $11,900, P&L $+1,850 (+15.5% ROI)
+Season equity range: best $+2,180, worst $-310 -> flat_bets.csv
+===== done =====
