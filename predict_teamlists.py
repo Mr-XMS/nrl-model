@@ -348,11 +348,16 @@ def main(round_arg=None):
             fh = os.path.join(HERE, "forecast_history.csv")
             if "RUN_STAMP" not in globals():
                 globals()["RUN_STAMP"] = pd.Timestamp.now().strftime("%Y-%m-%d %H:%M")
+            ret_h = sum(1 for nn in notes if nn.startswith(h) and "first game back" in nn)
+            ret_a = sum(1 for nn in notes if nn.startswith(a) and "first game back" in nn)
+            dbt_h = sum(1 for nn in notes if nn.startswith(h) and "IN DOUBT" in nn)
+            dbt_a = sum(1 for nn in notes if nn.startswith(a) and "IN DOUBT" in nn)  
             pd.DataFrame([dict(run_time=RUN_STAMP,
                 date=fixture_date.normalize(), home_team=h, away_team=a,
                 kickoff=fx.get("kickoff"), venue_city=fx.get("venue_city"),
                 p_base=round(p, 4), p_market=round(p_mkt, 4) if p_mkt is not None else np.nan,
-                wet=wet_flag, notes=len(notes))]).to_csv(
+                wet=wet_flag, returning_home=ret_h, returning_away=ret_a,
+                indoubt_home=dbt_h, indoubt_away=dbt_a, notes=len(notes))]).to_csv(
                 fh, mode="a", header=not os.path.exists(fh), index=False)
         if p_mkt is not None and fx["state"] in ("Upcoming", "Pre"):
             edge = p - p_mkt
