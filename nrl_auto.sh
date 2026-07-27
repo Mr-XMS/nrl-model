@@ -33,6 +33,9 @@ case $DAY in
       python3 arb_scanner.py >> "$LOG" 2>&1
       python3 predict_teamlists.py >> "$LOG" 2>&1
       ;;
+ 98) # research: flat-stake picks P&L
+      python3 flat_pnl.py >> "$LOG" 2>&1
+      ;;
  99) # research: one-off studies
       python3 origin_study.py >> "$LOG" 2>&1
       ;;
