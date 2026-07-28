@@ -1,19 +1,15 @@
 home,away,player,team,status,p_fit,p_named,p_withdrawn,swing_pts
-parramatta-eels,penrith-panthers,Ronald Volkman,parramatta-eels,returning,0.2275,0.2275,0.2275,0.0
-parramatta-eels,penrith-panthers,Mitchell Moses,parramatta-eels,returning,0.2344,0.2275,0.2016,3.3
-parramatta-eels,penrith-panthers,Luca Moretti,parramatta-eels,returning,0.2281,0.2275,0.2263,0.2
-newcastle-knights,sydney-roosters,Cody Hopwood,newcastle-knights,returning,0.4776,0.4771,0.4721,0.5
-newcastle-knights,sydney-roosters,James Tedesco,sydney-roosters,returning,0.477,0.4771,0.4722,0.5
-newcastle-knights,sydney-roosters,Robert Toia,sydney-roosters,returning,0.4769,0.4771,0.4782,0.1
-south-sydney-rabbitohs,melbourne-storm,Jayden Sullivan,south-sydney-rabbitohs,returning,0.5296,0.5282,0.5194,1.0
-south-sydney-rabbitohs,melbourne-storm,Moses Leo,melbourne-storm,returning,0.5274,0.5282,0.5313,0.4
-south-sydney-rabbitohs,melbourne-storm,Jahrome Hughes,melbourne-storm,returning,0.5259,0.5282,0.526,0.0
-canberra-raiders,wests-tigers,Patrick Herbert,wests-tigers,returning,0.6902,0.6902,0.6804,1.0
-canberra-raiders,wests-tigers,Bunty Afoa,wests-tigers,returning,0.6894,0.6902,0.6942,0.5
-canterbury-bankstown-bulldogs,warriors,Stephen Crichton,canterbury-bankstown-bulldogs,returning,0.2861,0.2826,0.2664,2.0
-north-queensland-cowboys,brisbane-broncos,Thomas Mikaele,north-queensland-cowboys,returning,0.5899,0.5886,0.5828,0.7
-st-george-illawarra-dragons,gold-coast-titans,Kurtis Morrin,gold-coast-titans,returning,0.6421,0.6421,0.6437,0.2
-manly-warringah-sea-eagles,cronulla-sutherland-sharks,Ben Trbojevic,manly-warringah-sea-eagles,returning,0.478,0.478,0.4782,0.0
-manly-warringah-sea-eagles,cronulla-sutherland-sharks,Jesse Ramien,cronulla-sutherland-sharks,returning,0.4764,0.478,0.4817,0.5
-manly-warringah-sea-eagles,cronulla-sutherland-sharks,Jesse Colquhoun,cronulla-sutherland-sharks,returning,0.4774,0.478,0.4791,0.2
-manly-warringah-sea-eagles,cronulla-sutherland-sharks,Siosifa Talakai,cronulla-sutherland-sharks,IN DOUBT,0.4771,0.478,0.4759,0.1
+north-queensland-cowboys,sydney-roosters,John Bateman,north-queensland-cowboys,returning,0.4652,0.4646,0.4595,0.6
+st-george-illawarra-dragons,dolphins,Jack Bostock,dolphins,returning,0.2783,0.2788,0.2806,0.2
+melbourne-storm,canterbury-bankstown-bulldogs,Kurt Mann,canterbury-bankstown-bulldogs,returning,0.6204,0.6207,0.6245,0.4
+gold-coast-titans,warriors,AJ Brimson,gold-coast-titans,returning,0.3354,0.3352,0.3376,0.2
+gold-coast-titans,warriors,Kurtis Morrin,gold-coast-titans,returning,0.3352,0.3352,0.3324,0.3
+penrith-panthers,canberra-raiders,Jack Cogger,penrith-panthers,returning,0.8114,0.8114,0.818,0.7
+penrith-panthers,canberra-raiders,Owen Pattie,canberra-raiders,returning,0.8113,0.8114,0.8138,0.3
+brisbane-broncos,newcastle-knights,Kalyn Ponga,newcastle-knights,returning,0.4652,0.4696,0.4916,2.6
+brisbane-broncos,newcastle-knights,Dane Gagai,newcastle-knights,returning,0.4692,0.4696,0.4742,0.5
+brisbane-broncos,newcastle-knights,Jermaine McEwen,newcastle-knights,returning,0.4696,0.4696,0.4689,0.1
+cronulla-sutherland-sharks,south-sydney-rabbitohs,Thomas Hazelton,cronulla-sutherland-sharks,returning,0.8236,0.8234,0.8201,0.3
+cronulla-sutherland-sharks,south-sydney-rabbitohs,Brandon Smith,south-sydney-rabbitohs,returning,0.8229,0.8234,0.8274,0.4
+cronulla-sutherland-sharks,south-sydney-rabbitohs,Sean Keppie,south-sydney-rabbitohs,returning,0.8234,0.8234,0.8212,0.2
+wests-tigers,parramatta-eels,Junior Paulo,parramatta-eels,returning,0.4424,0.4424,0.4412,0.1
