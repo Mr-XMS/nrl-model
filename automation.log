@@ -2951,3 +2951,81 @@ wests-tigers v parramatta-eels  (home win, production baseline: 44.2%)
 14 scenarios -> scenarios.csv
 1026 players -> player_ratings.csv
 ===== done =====
+
+===== 2026-07-30 17:41 (day 4) =====
+16 upcoming NRL games, scanning...
+
+north-queensland-cowboys v sydney-roosters
+  best: north-queensland-cowboys @ 2.60 (Betfair)  |  sydney-roosters @ 1.61 (Betfair)
+  combined implied: 100.6%
+  live blend 41% home -> best-price EV: north-queensland-cowboys +6.2% @ 2.60 (Betfair)  >>> VALUE
+
+st-george-illawarra-dragons v dolphins
+  best: st-george-illawarra-dragons @ 4.40 (Betfair)  |  dolphins @ 1.28 (Betfair)
+  combined implied: 100.9%
+  live blend 26% home -> best-price EV: st-george-illawarra-dragons +14.5% @ 4.40 (Betfair)  >>> VALUE
+
+melbourne-storm v canterbury-bankstown-bulldogs
+  best: melbourne-storm @ 2.70 (Bet Right)  |  canterbury-bankstown-bulldogs @ 1.54 (Betfair)
+  combined implied: 102.0%
+  live blend 50% home -> best-price EV: melbourne-storm +33.8% @ 2.70 (Bet Right)  >>> VALUE
+
+gold-coast-titans v warriors
+  best: gold-coast-titans @ 2.55 (Neds)  |  warriors @ 1.64 (Betfair)
+  combined implied: 100.2%
+  live blend 37% home -> best-price EV: warriors +4.0% @ 1.64 (Betfair)
+
+penrith-panthers v canberra-raiders
+  best: penrith-panthers @ 1.40 (Betfair)  |  canberra-raiders @ 3.30 (Betfair)
+  combined implied: 101.7%
+  live blend 76% home -> best-price EV: penrith-panthers +6.6% @ 1.40 (Betfair)  >>> VALUE
+
+brisbane-broncos v newcastle-knights
+  best: brisbane-broncos @ 1.53 (Betr)  |  newcastle-knights @ 2.70 (Bet Right)
+  combined implied: 102.4%
+  live blend 56% home -> best-price EV: newcastle-knights +18.0% @ 2.70 (Bet Right)  >>> VALUE
+
+cronulla-sutherland-sharks v south-sydney-rabbitohs
+  best: cronulla-sutherland-sharks @ 1.30 (PlayUp)  |  south-sydney-rabbitohs @ 3.80 (SportsBet)
+  combined implied: 103.2%
+  live blend 78% home -> best-price EV: cronulla-sutherland-sharks +1.2% @ 1.30 (PlayUp)
+
+wests-tigers v parramatta-eels
+  best: wests-tigers @ 3.05 (Betr)  |  parramatta-eels @ 1.43 (Betfair)
+  combined implied: 102.7%
+  live blend 37% home -> best-price EV: wests-tigers +13.9% @ 3.05 (Betr)  >>> VALUE
+
+gold-coast-titans v north-queensland-cowboys
+  best: gold-coast-titans @ 2.27 (SportsBet)  |  north-queensland-cowboys @ 1.64 (SportsBet)
+  combined implied: 105.0%
+
+warriors v penrith-panthers
+  best: warriors @ 2.58 (SportsBet)  |  penrith-panthers @ 1.51 (SportsBet)
+  combined implied: 105.0%
+
+sydney-roosters v canterbury-bankstown-bulldogs
+  best: sydney-roosters @ 1.47 (SportsBet)  |  canterbury-bankstown-bulldogs @ 2.70 (SportsBet)
+  combined implied: 105.1%
+
+melbourne-storm v manly-warringah-sea-eagles
+  best: melbourne-storm @ 1.63 (SportsBet)  |  manly-warringah-sea-eagles @ 2.28 (SportsBet)
+  combined implied: 105.2%
+
+dolphins v brisbane-broncos
+  best: dolphins @ 1.58 (SportsBet)  |  brisbane-broncos @ 2.39 (SportsBet)
+  combined implied: 105.1%
+
+south-sydney-rabbitohs v parramatta-eels
+  best: south-sydney-rabbitohs @ 1.51 (SportsBet)  |  parramatta-eels @ 2.58 (SportsBet)
+  combined implied: 105.0%
+
+canberra-raiders v newcastle-knights
+  best: canberra-raiders @ 1.53 (SportsBet)  |  newcastle-knights @ 2.51 (SportsBet)
+  combined implied: 105.2%
+
+st-george-illawarra-dragons v cronulla-sutherland-sharks
+  best: st-george-illawarra-dragons @ 4.60 (SportsBet)  |  cronulla-sutherland-sharks @ 1.20 (SportsBet)
+  combined implied: 105.1%
+
+Price snapshot logged: 192 quotes -> odds_history.csv
+===== done =====
