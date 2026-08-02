@@ -78,6 +78,7 @@ preds = load("predictions.csv", ["date"])
 ledger = load("sgm_ledger.csv")
 bets = load("bets_ledger.csv", ["date"])
 flat = load("flat_bets.csv", ["date"])
+pscores = load("predicted_scores.csv")
 hist = load("odds_history.csv")
 fhist = load("forecast_history.csv")
 scen = load("scenarios.csv")
@@ -114,7 +115,7 @@ with tab_week:
             html = ['<table style="width:100%;border-collapse:collapse;font-size:15px">',
                     '<tr style="text-align:left;color:#888;border-bottom:2px solid #ddd">'
                     '<th style="padding:8px 6px">Kickoff</th><th>Match</th><th>Pick</th>'
-                    '<th>Confidence</th><th>Market</th><th>Edge</th></tr>']
+                    '<th>Confidence</th><th>Sim score</th><th>Market</th><th>Edge</th></tr>']
             for r in upcoming.sort_values("date").itertuples():
                 p = r.p_base
                 pick_team = r.home_team if p > 0.5 else r.away_team

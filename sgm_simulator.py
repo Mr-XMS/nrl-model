@@ -315,6 +315,20 @@ def write_ledger(round_no):
         # one correlated combo per game
         joint = float(((marg > 0) & (tot > 41.5)).mean())
         add("sgm_combo", f"{h} win + over 41.5", joint)
+        # predicted scoreline snapshot (frozen first-write, like the trial)
+        import numpy as _np
+        srow = dict(run_time=stamp, kickoff=str(kd.date()), home=h, away=a,
+                    med_home=int(_np.median(sim["hs"])), med_away=int(_np.median(sim["as_"])),
+                    med_total=int(_np.median(tot)), med_margin=int(_np.median(marg)),
+                    p_blowout=round(float((_np.abs(marg) >= 13).mean()), 3))
+        sp = os.path.join(HERE, "predicted_scores.csv")
+        S = pd.DataFrame([srow])
+        if os.path.exists(sp):
+            oldS = pd.read_csv(sp)
+            key = ["kickoff", "home", "away"]
+            S = S[~S.set_index(key).index.isin(oldS.set_index(key).index)]
+            S = pd.concat([oldS, S], ignore_index=True)
+        S.to_csv(sp, index=False)
     new = pd.DataFrame(rows)
     if os.path.exists(LEDGER):
         old = pd.read_csv(LEDGER)
