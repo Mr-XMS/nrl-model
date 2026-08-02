@@ -103,3 +103,5 @@ run_time,date,home_team,away_team,kickoff,venue_city,p_base,p_market,wet,returni
 2026-08-01 10:11,2026-08-01,brisbane-broncos,newcastle-knights,2026-08-01T09:35:00Z,Brisbane,0.4852,0.6281,0,0,0,0,0,0
 2026-08-01 10:11,2026-08-02,cronulla-sutherland-sharks,south-sydney-rabbitohs,2026-08-02T04:00:00Z,Sydney,0.8082,0.7678,0,0,0,0,0,0
 2026-08-01 10:11,2026-08-02,wests-tigers,parramatta-eels,2026-08-02T06:05:00Z,Sydney,0.4308,0.3341,0,0,0,0,0,0
+2026-08-02 10:10,2026-08-02,cronulla-sutherland-sharks,south-sydney-rabbitohs,2026-08-02T04:00:00Z,Sydney,0.8083,0.7678,0,0,0,0,0,0
+2026-08-02 10:10,2026-08-02,wests-tigers,parramatta-eels,2026-08-02T06:05:00Z,Sydney,0.4307,0.3341,0,0,0,0,0,0
