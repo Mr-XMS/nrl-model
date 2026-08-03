@@ -3350,3 +3350,24 @@ wests-tigers v parramatta-eels: parramatta-eels (57%)
 
 All fixtures already logged this week (first predictions kept).
 ===== done =====
+
+===== 2026-08-03 13:52 (day 1) =====
+Fetching NRL 2026 from Rugby League Project...
+Season 2026: 164 completed matches on site, 8 new added to dataset (3585 total). 40 future fixtures listed.
+Graded 8 new predictions. Running record: 35 graded, accuracy 68.6%, Brier 0.2214
+Lineups refreshed.
+
+Predictions — Round 23 - Indigenous Round:
+  2026-08-06  gold-coast-titans                v north-queensland-cowboys         -> gold-coast-titans (54%)
+  2026-08-07  warriors                         v penrith-panthers                 -> warriors (53%)
+  2026-08-07  sydney-roosters                  v canterbury-bankstown-bulldogs    -> sydney-roosters (73%)
+  2026-08-08  melbourne-storm                  v manly-warringah-sea-eagles       -> melbourne-storm (70%)
+  2026-08-08  dolphins                         v brisbane-broncos                 -> brisbane-broncos (51%)
+  2026-08-08  south-sydney-rabbitohs           v parramatta-eels                  -> south-sydney-rabbitohs (65%)
+  2026-08-09  canberra-raiders                 v newcastle-knights                -> newcastle-knights (52%)
+  2026-08-09  st-george-illawarra-dragons      v cronulla-sutherland-sharks       -> cronulla-sutherland-sharks (80%)
+
+Logged to predictions.csv
+done: 0 scraped
+Paper bets: graded 4 new | season: 11 bets, staked $27, P&L $-7 (-27.4% ROI)
+===== done =====

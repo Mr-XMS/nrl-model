@@ -6,7 +6,7 @@ placed,date,home,away,side,prob,odds,book,ev,stake,result,profit
 2026-07-21 17:12,2026-07-25,canberra-raiders,wests-tigers,wests-tigers,0.2501,4.8,Betfair,0.2003,1.0,loss,-1.0
 2026-07-21 17:12,2026-07-25,north-queensland-cowboys,brisbane-broncos,north-queensland-cowboys,0.4864,2.3,Betr,0.1187,2.0,win,2.6
 2026-07-21 17:12,2026-07-26,st-george-illawarra-dragons,gold-coast-titans,st-george-illawarra-dragons,0.5774,1.93,Betfair,0.1144,3.0,loss,-3.0
-2026-07-28 16:35,2026-07-31,st-george-illawarra-dragons,dolphins,st-george-illawarra-dragons,0.2624,4.2,SportsBet,0.1022,1.0,,
-2026-07-28 16:35,2026-07-31,melbourne-storm,canterbury-bankstown-bulldogs,melbourne-storm,0.4969,2.65,TAB,0.3168,5.0,,
-2026-07-28 16:35,2026-08-01,brisbane-broncos,newcastle-knights,newcastle-knights,0.4303,2.85,PlayUp,0.2262,3.0,,
-2026-07-28 16:35,2026-08-02,wests-tigers,parramatta-eels,wests-tigers,0.3717,3.07,SportsBet,0.1412,2.0,,
+2026-07-28 16:35,2026-07-31,st-george-illawarra-dragons,dolphins,st-george-illawarra-dragons,0.2624,4.2,SportsBet,0.1022,1.0,loss,-1.0
+2026-07-28 16:35,2026-07-31,melbourne-storm,canterbury-bankstown-bulldogs,melbourne-storm,0.4969,2.65,TAB,0.3168,5.0,loss,-5.0
+2026-07-28 16:35,2026-08-01,brisbane-broncos,newcastle-knights,newcastle-knights,0.4303,2.85,PlayUp,0.2262,3.0,win,5.55
+2026-07-28 16:35,2026-08-02,wests-tigers,parramatta-eels,wests-tigers,0.3717,3.07,SportsBet,0.1412,2.0,loss,-2.0
