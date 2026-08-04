@@ -105,3 +105,11 @@ run_time,date,home_team,away_team,kickoff,venue_city,p_base,p_market,wet,returni
 2026-08-01 10:11,2026-08-02,wests-tigers,parramatta-eels,2026-08-02T06:05:00Z,Sydney,0.4308,0.3341,0,0,0,0,0,0
 2026-08-02 10:10,2026-08-02,cronulla-sutherland-sharks,south-sydney-rabbitohs,2026-08-02T04:00:00Z,Sydney,0.8083,0.7678,0,0,0,0,0,0
 2026-08-02 10:10,2026-08-02,wests-tigers,parramatta-eels,2026-08-02T06:05:00Z,Sydney,0.4307,0.3341,0,0,0,0,0,0
+2026-08-04 17:15,2026-08-06,gold-coast-titans,north-queensland-cowboys,2026-08-06T09:50:00Z,Gold Coast,0.4783,0.3935,0,0,1,0,0,2
+2026-08-04 17:15,2026-08-07,warriors,penrith-panthers,2026-08-07T08:00:00Z,Auckland,0.4335,0.3778,0,0,0,0,0,2
+2026-08-04 17:15,2026-08-07,sydney-roosters,canterbury-bankstown-bulldogs,2026-08-07T10:00:00Z,Sydney,0.722,0.7097,0,2,1,0,0,4
+2026-08-04 17:15,2026-08-08,melbourne-storm,manly-warringah-sea-eagles,2026-08-08T05:00:00Z,Perth,0.4439,0.4468,1,2,2,0,0,5
+2026-08-04 17:15,2026-08-08,dolphins,brisbane-broncos,2026-08-08T07:30:00Z,Brisbane,0.7207,0.669,0,0,1,0,0,1
+2026-08-04 17:15,2026-08-08,south-sydney-rabbitohs,parramatta-eels,2026-08-08T09:35:00Z,Sydney,0.6394,0.6949,0,3,1,0,0,4
+2026-08-04 17:15,2026-08-09,canberra-raiders,newcastle-knights,2026-08-09T04:00:00Z,Canberra,0.4315,0.5195,1,1,1,0,0,3
+2026-08-04 17:15,2026-08-09,st-george-illawarra-dragons,cronulla-sutherland-sharks,2026-08-09T06:05:00Z,Kogarah,0.2205,0.2069,0,0,1,0,0,2
