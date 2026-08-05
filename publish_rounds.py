@@ -40,6 +40,10 @@ SEASON = 2026
 SITE_NAME = "NRL Forecast"
 TAGLINE = "An open research project"
 
+# Set SITE_URL in the Cloudflare Pages build environment once the custom
+# domain is live, e.g. https://nrlforecast.com (no trailing slash).
+SITE_URL = os.environ.get("SITE_URL", "").rstrip("/")
+
 PRICE_WEEK = "$2 / round"
 PRICE_SEASON = "$27 / season"
 
@@ -258,6 +262,55 @@ nav a:hover{border-color:var(--seal)}
 .rounds .lbl{font-weight:600}
 .rounds .right{font-size:13px;color:var(--muted);text-align:right}
 
+
+/* weekly clock - the embargo, drawn */
+.clock{display:grid;grid-template-columns:repeat(auto-fit,minmax(150px,1fr));
+  gap:1px;background:var(--rule);border:1px solid var(--rule);margin:0 0 8px}
+.clock div{background:var(--card);padding:13px 15px}
+.clock .d{font-size:11px;letter-spacing:.13em;text-transform:uppercase;
+  color:var(--seal);font-weight:600;margin-bottom:4px}
+.clock .w{font-size:14px;line-height:1.4}
+.clock div.open{background:var(--seal);color:#fff}
+.clock div.open .d{color:#B9CCE6}
+
+/* sequential layers - each one adjusts the number above it */
+.layer{display:grid;grid-template-columns:34px 1fr;gap:16px;
+  border-left:2px solid var(--rule);padding:0 0 26px 20px;margin-left:8px;
+  position:relative}
+.layer:last-of-type{border-left-color:transparent;padding-bottom:6px}
+.layer .n{font-family:"IBM Plex Mono",monospace;font-size:13px;font-weight:600;
+  color:#fff;background:var(--seal);width:26px;height:26px;border-radius:50%;
+  display:flex;align-items:center;justify-content:center;
+  position:absolute;left:-14px;top:0}
+.layer .body{grid-column:1/-1}
+.layer h3{font-size:19px;margin:0 0 6px}
+.layer p{margin:0 0 8px;color:var(--muted);max-width:60ch}
+.layer .params{font-family:"IBM Plex Mono",monospace;font-size:12.5px;
+  color:var(--ink);background:#E4E9EE;border-radius:2px;padding:8px 11px;
+  display:inline-block;line-height:1.7}
+
+/* concurrent scenarios - fan out sideways, deliberately unlike the stack */
+.fan{display:grid;grid-template-columns:repeat(auto-fit,minmax(168px,1fr));
+  gap:12px;margin:16px 0 8px}
+.fan .arm{border:1px solid var(--rule);background:var(--card);
+  border-top:3px solid var(--seal);padding:13px 14px;border-radius:2px}
+.fan .arm .nm{font-weight:600;font-size:15px;margin-bottom:4px}
+.fan .arm .ds{font-size:13px;color:var(--muted);line-height:1.45}
+.fan .arm.live{border-top-color:var(--hit)}
+.tbl{width:100%;border-collapse:collapse;font-size:14px;margin:8px 0 6px}
+.tbl th{text-align:left;font-size:11px;letter-spacing:.11em;
+  text-transform:uppercase;color:var(--muted);font-weight:600;
+  border-bottom:1px solid var(--ink);padding:7px 9px 7px 0}
+.tbl td{padding:8px 9px 8px 0;border-bottom:1px solid var(--rule)}
+.tbl td.num,.tbl th.num{text-align:right;padding-right:0;
+  font-family:"IBM Plex Mono",monospace;font-variant-numeric:tabular-nums}
+.tbl tr.best td{font-weight:600}
+.caption{font-size:13px;color:var(--muted);margin:4px 0 30px;max-width:62ch}
+.limits li{color:var(--muted);margin-bottom:9px;max-width:62ch}
+.limits strong{color:var(--ink)}
+h2.sec{font-size:24px;margin:46px 0 6px}
+.sub{color:var(--muted);max-width:62ch;margin:0 0 22px}
+
 footer{margin-top:52px;padding-top:20px;border-top:1px solid var(--rule);
   font-size:13px;color:var(--muted)}
 footer code{font-size:12px}
@@ -276,13 +329,15 @@ FONTS = ('<link rel="preconnect" href="https://fonts.googleapis.com">'
          'family=IBM+Plex+Sans:wght@400;600&display=swap" rel="stylesheet">')
 
 
-def shell(title, body, desc, home="index.html"):
+def shell(title, body, desc, home="index.html", canonical=""):
     return f"""<!DOCTYPE html>
 <html lang="en-AU"><head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width,initial-scale=1">
 <title>{esc(title)}</title>
 <meta name="description" content="{esc(desc)}">
+{f'<link rel="canonical" href="{SITE_URL}/{canonical}">' if SITE_URL and canonical else ''}
+<meta property="og:type" content="website">
 <meta property="og:title" content="{esc(title)}">
 <meta property="og:description" content="{esc(desc)}">
 {FONTS}
@@ -291,7 +346,7 @@ def shell(title, body, desc, home="index.html"):
 <header><div class="masthead">
   <div><h1><a href="{home}" style="color:inherit;text-decoration:none">{SITE_NAME}</a></h1>
        <div class="tag">{TAGLINE}</div></div>
-  <nav><a href="{home}">Archive</a><a href="{home}#method">Method</a></nav>
+  <nav><a href="{home}">Archive</a><a href="method.html">Method</a></nav>
 </div></header>
 {body}
 <footer>
@@ -399,7 +454,8 @@ def render_round(rnd, g, unlock):
 """
     desc = (f"{label} {SEASON} NRL forecast — model probabilities recorded "
             f"before kickoff, graded against results.")
-    return shell(f"{label} — {SITE_NAME} {SEASON}", body, desc)
+    return shell(f"{label} — {SITE_NAME} {SEASON}", body, desc,
+                 canonical=f"round-{rnd}.html")
 
 
 def render_index(df, published, sealed):
@@ -475,18 +531,281 @@ every call, every probability, every miss.
 <div class="rounds">{''.join(rows)}</div>
 
 <h2 id="method" style="font-size:22px;margin:44px 0 12px">How it works</h2>
-<p class="lede">An Elo team rating is combined with player-level ratings built
-from career match statistics, adjusted for the named 17, injury returns and
-the venue rain forecast, then blended with the market price. Over twelve
-walk-forward seasons the team model calls about 65% of matches. Week to week
-that number swings hard, and this archive is the honest record of it.</p>
+<p class="lede">Six layers, applied in order: a team Elo rating, the named 17,
+player ratings built from career match statistics, injury and availability,
+the venue rain forecast, and finally the market price. Five competing versions
+of the model forecast every fixture at once, and all five are graded.</p>
+<p class="lede"><a href="method.html">Read the full method &rarr;</a></p>
 <p class="lede">Nothing here is a tip and nothing is sold as a system for
 beating a bookmaker. It is a research project that happens to publish its
 predictions in advance, which is the only way a forecast can be tested.</p>
 """
     desc = (f"Free archive of {SEASON} NRL match forecasts — probabilities "
             "recorded before kickoff and graded against results.")
-    return shell(f"{SITE_NAME} — {SEASON} archive", body, desc)
+    return shell(f"{SITE_NAME} — {SEASON} archive", body, desc,
+                 canonical="index.html")
+
+
+
+# ------------------------------------------------------------- method page
+# Parameters are stated here exactly as they appear in the model source.
+# If you change nrl_model.py, injury_adjust.py, stats_ratings.py or
+# weather_features.py, change these too - a method page that drifts from
+# the code is worse than no method page.
+PARAMS = dict(elo_k=32, hfa=55, regress=30, shrink_games=8,
+              returning=0.80, in_doubt=0.60, wet_mm=5.0, blend_w=50,
+              spine="Fullback, Five-eighth, Halfback, Hooker")
+
+ARMS = [
+    ("A &mdash; baseline", "p_base",
+     "The full model with no experimental adjustment. This is the number "
+     "published as the forecast."),
+    ("B &mdash; fitness ramp", "p_retadj",
+     "Identical to A, except returning players are discounted on a graded "
+     "ramp rather than a flat multiplier."),
+    ("C &mdash; weather", "p_wet",
+     "Identical to A, plus a leveller that shrinks short-priced favourites "
+     "when heavy rain is forecast at the venue."),
+    ("Market", "p_market",
+     "The bookmaker price with the margin removed. Not a model &mdash; the "
+     "opponent every model is measured against."),
+    ("Blend", "p_blend",
+     "A 50/50 logit average of A and the market. If the model carries "
+     "information the market lacks, this should beat both."),
+]
+
+
+def trial_table(df):
+    """Live standings of the concurrent model arms, graded games only."""
+    comp = pd.read_csv(os.path.join(HERE, "model_comparison.csv"))
+    comp = norm(comp).drop_duplicates(["date", "home_team", "away_team"],
+                                      keep="first")
+    d = comp.dropna(subset=["actual_home_win"])
+    rows = []
+    for label, col, _ in ARMS:
+        if col not in d.columns:
+            continue
+        p = pd.to_numeric(d[col], errors="coerce").dropna()
+        if not len(p):
+            continue
+        y = d.loc[p.index, "actual_home_win"].astype(float)
+        pc = p.clip(1e-6, 1 - 1e-6)
+        ll = float(-(y * np.log(pc) + (1 - y) * np.log(1 - pc)).mean())
+        rows.append((label, len(p), float(((pc > .5).astype(int) == y).mean()), ll))
+    if not rows:
+        return "", 0
+    best = min(r[3] for r in rows)
+    body = "".join(
+        f'<tr class="{"best" if abs(ll - best) < 1e-9 else ""}"><td>{lab}</td>'
+        f'<td class="num">{n}</td><td class="num">{acc*100:.0f}%</td>'
+        f'<td class="num">{ll:.4f}</td></tr>'
+        for lab, n, acc, ll in rows)
+    return (f'<table class="tbl"><thead><tr><th>Version</th>'
+            f'<th class="num">Graded</th><th class="num">Correct</th>'
+            f'<th class="num">Log loss</th></tr></thead>'
+            f'<tbody>{body}</tbody></table>'), max(r[1] for r in rows)
+
+
+def scenario_example():
+    """Pull the largest live lineup scenario as a worked example."""
+    p = os.path.join(HERE, "scenarios.csv")
+    if not os.path.exists(p):
+        return ""
+    sc = pd.read_csv(p)
+    if not len(sc):
+        return ""
+    r = sc.reindex(sc.swing_pts.abs().sort_values(ascending=False).index).iloc[0]
+    return f"""<div class="fan">
+  <div class="arm"><div class="nm">Declared fit</div>
+    <div class="ds">{esc(pretty(r.home))} win
+      <strong class="num">{r.p_fit*100:.1f}%</strong></div></div>
+  <div class="arm live"><div class="nm">As named</div>
+    <div class="ds">{esc(pretty(r.home))} win
+      <strong class="num">{r.p_named*100:.1f}%</strong></div></div>
+  <div class="arm"><div class="nm">Withdrawn</div>
+    <div class="ds">{esc(pretty(r.home))} win
+      <strong class="num">{r.p_withdrawn*100:.1f}%</strong></div></div>
+</div>
+<p class="caption">Worked example from the current round:
+<strong>{esc(r.player)}</strong> ({esc(pretty(r.team))}, returning from injury).
+The three worlds are computed together and the spread between them &mdash;
+here {r.swing_pts:.1f} points &mdash; is the honest measure of how much this
+one selection actually matters. Most players move the number by less than a
+point. Publishing the spread stops a late withdrawal being retrofitted into
+an excuse.</p>"""
+
+
+def render_method(df):
+    q = PARAMS
+    matches = len(pd.read_csv(os.path.join(HERE, "nrl_results.csv")))
+    table, trial_n = trial_table(df)
+
+    layers = [
+        ("Team rating",
+         "Every club carries an Elo rating updated after each result. Beating "
+         "a stronger team moves the rating more than beating a weaker one, and "
+         "ratings regress toward the mean between seasons so a premiership "
+         "does not follow a squad forever.",
+         f"start 1500 &middot; K = {q['elo_k']} &middot; home advantage = "
+         f"{q['hfa']} pts<br>between-season regression = {q['regress']}% "
+         f"&middot; trained on {matches:,} matches since 2009"),
+        ("Who is actually playing",
+         "Team lists are published on Tuesday. The model reads the named 17, "
+         "measures how much of last week&rsquo;s side has been retained, and "
+         "tracks how long the spine has played together &mdash; the positions "
+         "that carry a side&rsquo;s structure.",
+         f"spine = {q['spine']}<br>retention and spine continuity computed "
+         "per side, per round"),
+        ("Player quality from statistics",
+         "Each player carries a rating built from their per-game career "
+         "statistics rather than reputation. Players with few games are shrunk "
+         "toward the league average, so a debutant is treated as average "
+         "rather than as whatever their first two games happened to look like.",
+         f"shrinkage prior = {q['shrink_games']} games<br>ratings refresh "
+         "weekly as new match statistics land"),
+        ("Availability",
+         "The NRL casualty ward is scraped each week. Players returning from "
+         "injury are discounted for rust; players carrying a doubt are "
+         "discounted harder, because the named side is not always the side "
+         "that runs out.",
+         f"returning from injury &times; {q['returning']:.2f}<br>"
+         f"listed in doubt &times; {q['in_doubt']:.2f}"),
+        ("Conditions",
+         "The rain forecast for each venue city is pulled at prediction time. "
+         "Wet games historically level the contest: favourites win less often "
+         "than their rating says, and totals run lower. The size of that "
+         "effect was learned from the historical record, not asserted.",
+         f"wet threshold = {q['wet_mm']:.0f}mm forecast rainfall<br>"
+         "effect fitted across all historical matches with match-day rainfall"),
+        ("The market",
+         "The bookmaker price is de-vigged and averaged with the model on the "
+         "log-odds scale. This is deliberate: the market aggregates "
+         "information the model cannot see, and the model sees lineup detail "
+         "the market sometimes prices slowly. Neither is trusted alone.",
+         f"blend = {q['blend_w']}/{100-q['blend_w']} logit average of "
+         "model and de-vigged price"),
+    ]
+    stack = "".join(
+        f'<div class="layer"><div class="n">{i}</div><div class="body">'
+        f'<h3>{h}</h3><p>{p}</p><div class="params">{par}</div></div></div>'
+        for i, (h, p, par) in enumerate(layers, 1))
+
+    arms = "".join(
+        f'<div class="arm{" live" if col == "p_base" else ""}">'
+        f'<div class="nm">{lab}</div><div class="ds">{d}</div></div>'
+        for lab, col, d in ARMS)
+
+    body = f"""
+<h2 style="font-size:32px;margin-bottom:8px">Method</h2>
+<p class="lede">This page describes what the model does and what it does not
+do. It is written to be checked. Every parameter below is the value actually
+used in the code that produced the forecasts in the archive.</p>
+
+<h2 class="sec">The weekly clock</h2>
+<p class="sub">The forecast is produced on Tuesday because that is when team
+lists are published &mdash; the single largest piece of information in the
+week. It is frozen at that moment and committed. Nothing is revised
+afterwards.</p>
+<div class="clock">
+  <div><div class="d">Monday</div><div class="w">Results scraped, last
+    round graded, player statistics refreshed.</div></div>
+  <div><div class="d">Tuesday</div><div class="w">Team lists out. The forecast
+    is computed, frozen and committed. Subscribers see it now.</div></div>
+  <div><div class="d">Thu &ndash; Sun</div><div class="w">Prices and late
+    lineup changes are logged, but the recorded forecast does not
+    change.</div></div>
+  <div class="open"><div class="d">Sunday midnight</div><div class="w">The
+    round opens free to everyone, here, in full.</div></div>
+</div>
+<p class="caption">The unlock is a clock event. It does not wait on results
+being scraped or games being marked complete, so an outage can delay the
+scoreline column but never the forecast itself.</p>
+
+<h2 class="sec">Six layers</h2>
+<p class="sub">Each layer adjusts the probability produced by the one above it.
+The order matters: team quality first, then who is playing, then how well they
+play, then whether they are fit, then the conditions, then the market.</p>
+{stack}
+
+<h2 class="sec">Concurrent scenarios</h2>
+<p class="sub">Two different things run in parallel on every fixture, for two
+different reasons.</p>
+
+<h3 style="font-size:19px;margin:26px 0 6px">Competing versions of the model</h3>
+<p class="sub">Five versions forecast every match at the same moment. Only
+version A is published as the forecast; all five are frozen and graded. The
+point is that arguments about whether an adjustment helps get settled by the
+record instead of by opinion &mdash; and an idea that fails gets removed.</p>
+<div class="fan">{arms}</div>
+{table}
+<p class="caption">Live {SEASON} standings across {trial_n} graded matches.
+Lower log loss is better; it rewards being confident and right and punishes
+being confident and wrong, which raw accuracy does not.
+<strong>This sample is far too small to conclude anything.</strong> Separating
+these versions reliably needs hundreds of matches, not dozens, and the
+differences between A, B and C are currently smaller than the noise. The table
+is published because watching a verdict fail to form is part of the record.</p>
+
+<h3 style="font-size:19px;margin:32px 0 6px">Lineup scenarios</h3>
+<p class="sub">When a player is flagged as returning or in doubt, the fixture
+is forecast three times over &mdash; once assuming they are fully fit, once as
+the team sheet names them, once assuming they are withdrawn.</p>
+{scenario_example()}
+
+<h2 class="sec">What the record says so far</h2>
+<p class="sub">Across twelve walk-forward seasons &mdash; each one predicted
+using only the seasons before it &mdash; the team model calls about 65% of
+matches, with season-to-season swings between roughly 58% and 74%. Tested
+against exchange closing prices on 609 matches, the full model is close to
+level with the market on log loss, and a blend of the two scored better than
+either alone.</p>
+<p class="sub">That last result is the reason this project exists, and it is
+also the one most likely to be wrong. It was measured once, on historical
+data, with a blend weight chosen while looking at that same data. The
+{SEASON} season is the first live test of it, and so far the market is ahead.
+Whether that gap closes or widens is the actual research question, and the
+archive is how it gets answered in public.</p>
+
+<h2 class="sec">Known weaknesses</h2>
+<p class="sub">Stated plainly, because a forecast you cannot criticise is not
+worth reading.</p>
+<ul class="limits">
+  <li><strong>Several parameters are set by hand, not fitted.</strong> The Elo
+  K factor, the home advantage, the injury multipliers and the shrinkage prior
+  are reasonable values rather than optimised ones. Home advantage in
+  particular is treated as identical at every venue, which is certainly
+  wrong.</li>
+  <li><strong>The wet-weather flag is a hard threshold.</strong>
+  {q['wet_mm']:.0f}mm forecast counts as wet and 4.9mm does not, which is a
+  crude way to model rain and has already produced at least one game that fell
+  the wrong side of the line.</li>
+  <li><strong>Team-level surges are missed.</strong> Individual returning
+  players are discounted, but nothing captures a spine reassembling all at
+  once. The market prices this and the model has been caught by it.</li>
+  <li><strong>The largest disagreements with the market have been the worst
+  calls.</strong> Historically big divergences carried more signal; this
+  season they have not. If that holds, the model should shrink toward the
+  market harder as disagreement grows.</li>
+  <li><strong>Margins are discarded.</strong> The model predicts who wins, not
+  by how much, which throws away most of the information in a result.</li>
+  <li><strong>Features were selected against one test window.</strong> Their
+  measured gains are optimistic, and some will shrink under proper
+  testing.</li>
+</ul>
+
+<h2 class="sec">What this is not</h2>
+<p class="sub">It is not betting advice and there is no system here for beating
+a bookmaker. Roughly a third of the calls in the archive are wrong, and there
+is no arrangement of any kind with any wagering operator. It is a forecasting
+project published in advance, because a prediction made after the fact is not
+a prediction.</p>
+<p style="margin-top:26px"><a href="index.html">&larr; Back to the archive</a></p>
+"""
+    desc = ("How the NRL forecast model works: Elo team ratings, player "
+            "ratings from match statistics, injury and weather adjustment, "
+            "and a market blend - with its known weaknesses stated.")
+    return shell(f"Method &mdash; {SITE_NAME}", body, desc,
+                 canonical="method.html")
 
 
 # ------------------------------------------------------------------- main
@@ -535,12 +854,32 @@ def main():
 
     with open(os.path.join(DOCS, "index.html"), "w") as f:
         f.write(render_index(df, published, sealed))
+    with open(os.path.join(DOCS, "method.html"), "w") as f:
+        f.write(render_method(df))
 
     if new:
         log = pd.concat([log, pd.DataFrame(new)], ignore_index=True)
         log.sort_values("round").to_csv(logp, index=False)
         print(f"publish_rounds: opened round(s) "
               f"{', '.join(str(r['round']) for r in new)}")
+
+    # Discoverability: the free archive only works as marketing if it is
+    # indexed. Sealed rounds are absent from the sitemap because their
+    # pages do not exist yet.
+    if SITE_URL:
+        urls = [f"{SITE_URL}/index.html", f"{SITE_URL}/method.html"] + [
+            f"{SITE_URL}/round-{r}.html" for r in sorted(published)]
+        today = now.strftime("%Y-%m-%d")
+        sm = ('<?xml version="1.0" encoding="UTF-8"?>\n'
+              '<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n'
+              + "".join(f"  <url><loc>{u}</loc><lastmod>{today}</lastmod></url>\n"
+                        for u in urls) + "</urlset>\n")
+        with open(os.path.join(DOCS, "sitemap.xml"), "w") as f:
+            f.write(sm)
+        with open(os.path.join(DOCS, "robots.txt"), "w") as f:
+            f.write(f"User-agent: *\nAllow: /\nSitemap: {SITE_URL}/sitemap.xml\n")
+    else:
+        print("publish_rounds: SITE_URL unset - skipping sitemap/robots")
 
     nxt = (f"; next unlock round {sealed[0]} at "
            f"{unlock_moment(max(df[df.rnd == sealed[0]].date)):%Y-%m-%d %H:%M}"
