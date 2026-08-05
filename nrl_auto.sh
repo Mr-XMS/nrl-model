@@ -33,6 +33,11 @@ case $DAY in
       python3 arb_scanner.py >> "$LOG" 2>&1
       python3 predict_teamlists.py >> "$LOG" 2>&1
       ;;
+  9)  # Sunday midnight (Sydney): open the completed round to the public
+      # archive. The publisher below runs on every invocation, so this
+      # block deliberately does nothing else.
+      echo "publish-only run" >> "$LOG"
+      ;;
  98) # research: flat-stake picks P&L
       python3 flat_pnl.py >> "$LOG" 2>&1
       ;;
@@ -43,4 +48,9 @@ case $DAY in
       echo "no scheduled tasks today" >> "$LOG"
       ;;
 esac
+
+# Publishes any round whose midnight-Sunday unlock has passed. Idempotent
+# and self-gating: safe to call on every run, never publishes early.
+python3 publish_rounds.py >> "$LOG" 2>&1
+
 echo "===== done =====" >> "$LOG"
