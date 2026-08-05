@@ -8,10 +8,15 @@ on:
     - cron: '13 23 * * 4'   # Fri ~09:13 AEST (cron day is Thursday in UTC - see note)
     - cron: '13 23 * * 5'   # Sat ~09:13 AEST
     - cron: '13 23 * * 6'   # Sun ~09:13 AEST - hours clear of 2pm Sunday footy
+    - cron: '0 14 * * 0'    # Mon 00:00 AEST / 01:00 AEDT - PUBLIC UNLOCK.
+                            # Never early: cron is UTC and ignores DST, so in
+                            # AEDT this fires at 01:00. publish_rounds.py
+                            # recomputes the real unlock in Australia/Sydney
+                            # and is the authority; cron is just the alarm.
   workflow_dispatch:
     inputs:
       force_day:
-        description: 'Run tasks as if this weekday: 1=Mon grading, 2=Tue full forecast, 4=Thu scan, 5=game-day scan. Blank = today.'
+        description: 'Run tasks as if this weekday: 1=Mon grading, 2=Tue full forecast, 4=Thu scan, 5=game-day scan, 9=publish archive only. Blank = today.'
         required: false
         default: ''
 
@@ -45,7 +50,7 @@ jobs:
       - name: Run scheduled tasks
         env:
           TZ: Australia/Sydney
-          FORCE_DAY: ${{ github.event.inputs.force_day }}
+          FORCE_DAY: ${{ github.event.inputs.force_day || (github.event.schedule == '0 14 * * 0' && '9') || '' }}
         run: bash nrl_auto.sh
 
       - name: Commit updated ledgers
