@@ -4,6 +4,8 @@
 <meta name="viewport" content="width=device-width,initial-scale=1">
 <title>Round 20 - Women in League Round — NRL Forecast 2026</title>
 <meta name="description" content="Round 20 - Women in League Round 2026 NRL forecast — model probabilities recorded before kickoff, graded against results.">
+
+<meta property="og:type" content="website">
 <meta property="og:title" content="Round 20 - Women in League Round — NRL Forecast 2026">
 <meta property="og:description" content="Round 20 - Women in League Round 2026 NRL forecast — model probabilities recorded before kickoff, graded against results.">
 <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@600;700&family=IBM+Plex+Mono:wght@400;600&family=IBM+Plex+Sans:wght@400;600&display=swap" rel="stylesheet">
@@ -96,6 +98,55 @@ nav a:hover{border-color:var(--seal)}
 .rounds .lbl{font-weight:600}
 .rounds .right{font-size:13px;color:var(--muted);text-align:right}
 
+
+/* weekly clock - the embargo, drawn */
+.clock{display:grid;grid-template-columns:repeat(auto-fit,minmax(150px,1fr));
+  gap:1px;background:var(--rule);border:1px solid var(--rule);margin:0 0 8px}
+.clock div{background:var(--card);padding:13px 15px}
+.clock .d{font-size:11px;letter-spacing:.13em;text-transform:uppercase;
+  color:var(--seal);font-weight:600;margin-bottom:4px}
+.clock .w{font-size:14px;line-height:1.4}
+.clock div.open{background:var(--seal);color:#fff}
+.clock div.open .d{color:#B9CCE6}
+
+/* sequential layers - each one adjusts the number above it */
+.layer{display:grid;grid-template-columns:34px 1fr;gap:16px;
+  border-left:2px solid var(--rule);padding:0 0 26px 20px;margin-left:8px;
+  position:relative}
+.layer:last-of-type{border-left-color:transparent;padding-bottom:6px}
+.layer .n{font-family:"IBM Plex Mono",monospace;font-size:13px;font-weight:600;
+  color:#fff;background:var(--seal);width:26px;height:26px;border-radius:50%;
+  display:flex;align-items:center;justify-content:center;
+  position:absolute;left:-14px;top:0}
+.layer .body{grid-column:1/-1}
+.layer h3{font-size:19px;margin:0 0 6px}
+.layer p{margin:0 0 8px;color:var(--muted);max-width:60ch}
+.layer .params{font-family:"IBM Plex Mono",monospace;font-size:12.5px;
+  color:var(--ink);background:#E4E9EE;border-radius:2px;padding:8px 11px;
+  display:inline-block;line-height:1.7}
+
+/* concurrent scenarios - fan out sideways, deliberately unlike the stack */
+.fan{display:grid;grid-template-columns:repeat(auto-fit,minmax(168px,1fr));
+  gap:12px;margin:16px 0 8px}
+.fan .arm{border:1px solid var(--rule);background:var(--card);
+  border-top:3px solid var(--seal);padding:13px 14px;border-radius:2px}
+.fan .arm .nm{font-weight:600;font-size:15px;margin-bottom:4px}
+.fan .arm .ds{font-size:13px;color:var(--muted);line-height:1.45}
+.fan .arm.live{border-top-color:var(--hit)}
+.tbl{width:100%;border-collapse:collapse;font-size:14px;margin:8px 0 6px}
+.tbl th{text-align:left;font-size:11px;letter-spacing:.11em;
+  text-transform:uppercase;color:var(--muted);font-weight:600;
+  border-bottom:1px solid var(--ink);padding:7px 9px 7px 0}
+.tbl td{padding:8px 9px 8px 0;border-bottom:1px solid var(--rule)}
+.tbl td.num,.tbl th.num{text-align:right;padding-right:0;
+  font-family:"IBM Plex Mono",monospace;font-variant-numeric:tabular-nums}
+.tbl tr.best td{font-weight:600}
+.caption{font-size:13px;color:var(--muted);margin:4px 0 30px;max-width:62ch}
+.limits li{color:var(--muted);margin-bottom:9px;max-width:62ch}
+.limits strong{color:var(--ink)}
+h2.sec{font-size:24px;margin:46px 0 6px}
+.sub{color:var(--muted);max-width:62ch;margin:0 0 22px}
+
 footer{margin-top:52px;padding-top:20px;border-top:1px solid var(--rule);
   font-size:13px;color:var(--muted)}
 footer code{font-size:12px}
@@ -109,7 +160,7 @@ footer code{font-size:12px}
 <header><div class="masthead">
   <div><h1><a href="index.html" style="color:inherit;text-decoration:none">NRL Forecast</a></h1>
        <div class="tag">An open research project</div></div>
-  <nav><a href="index.html">Archive</a><a href="index.html#method">Method</a></nav>
+  <nav><a href="index.html">Archive</a><a href="method.html">Method</a></nav>
 </div></header>
 
 <h2 style="font-size:30px">Round 20 - Women in League Round</h2>
@@ -227,7 +278,7 @@ footer code{font-size:12px}
   <p>Forecasts are the output of a statistical model and are published for
   research and interest. They are not betting advice. Gamble responsibly &mdash;
   Gambling Help 1800 858 858.</p>
-  <p class="num">Built 2026-08-05 14:09 AEST &middot;
-     <code>88abeff</code></p>
+  <p class="num">Built 2026-08-05 14:29 AEST &middot;
+     <code>f775fd6</code></p>
 </footer>
 </div></body></html>
