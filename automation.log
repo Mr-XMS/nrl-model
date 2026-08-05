@@ -3748,3 +3748,10 @@ st-george-illawarra-dragons v cronulla-sutherland-sharks  (home win, production 
 16 scenarios -> scenarios.csv
 1026 players -> player_ratings.csv
 ===== done =====
+forced day: 9
+
+===== 2026-08-05 14:09 (day 9) =====
+publish-only run
+publish_rounds: opened round(s) 18, 19, 20, 21, 22
+publish_rounds: 5 round page(s) written, 1 sealed; next unlock round 23 at 2026-08-10 00:00
+===== done =====

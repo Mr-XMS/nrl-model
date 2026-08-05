@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html lang="en-AU"><head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Round 20 - Women in League Round — NRL Forecast 2026</title>
+<meta name="description" content="Round 20 - Women in League Round 2026 NRL forecast — model probabilities recorded before kickoff, graded against results.">
+<meta property="og:title" content="Round 20 - Women in League Round — NRL Forecast 2026">
+<meta property="og:description" content="Round 20 - Women in League Round 2026 NRL forecast — model probabilities recorded before kickoff, graded against results.">
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@600;700&family=IBM+Plex+Mono:wght@400;600&family=IBM+Plex+Sans:wght@400;600&display=swap" rel="stylesheet">
+<style>
+:root{
+  --paper:#EEF1F4; --card:#FFFFFF; --ink:#10161D; --muted:#5C6874;
+  --rule:#C9D2DA; --seal:#2D4B7A; --hit:#1B6B49; --miss:#A8402C;
+  --bar-model:#2D4B7A; --bar-market:#9AA9B8;
+}
+*{box-sizing:border-box}
+html{-webkit-text-size-adjust:100%}
+body{margin:0;background:var(--paper);color:var(--ink);
+  font-family:"IBM Plex Sans",system-ui,-apple-system,sans-serif;
+  font-size:16px;line-height:1.55}
+.wrap{max-width:900px;margin:0 auto;padding:0 20px 72px}
+a{color:var(--seal)}
+h1,h2,h3,.disp{font-family:"Barlow Condensed","IBM Plex Sans",sans-serif;
+  font-weight:700;letter-spacing:.01em;text-transform:uppercase;margin:0}
+.num{font-family:"IBM Plex Mono",ui-monospace,monospace;
+  font-variant-numeric:tabular-nums}
+
+header{border-bottom:2px solid var(--ink);margin-bottom:34px}
+.masthead{display:flex;justify-content:space-between;align-items:flex-end;
+  gap:16px;flex-wrap:wrap;padding:30px 0 14px}
+.masthead h1{font-size:clamp(30px,6vw,46px);line-height:.95}
+.masthead .tag{color:var(--muted);font-size:13px;letter-spacing:.14em;
+  text-transform:uppercase}
+nav a{margin-left:18px;font-size:14px;text-decoration:none;
+  border-bottom:1px solid var(--rule)}
+nav a:hover{border-color:var(--seal)}
+
+.lede{max-width:62ch;color:var(--muted);margin:0 0 34px}
+.lede strong{color:var(--ink)}
+
+/* the seal - signature device */
+.seal{border:1px solid var(--rule);background:var(--card);border-radius:2px;
+  padding:20px 22px;margin:0 0 34px;display:flex;gap:22px;flex-wrap:wrap;
+  align-items:center;justify-content:space-between}
+.seal.locked{border-color:var(--seal);border-left:5px solid var(--seal)}
+.seal .stamp{font-size:12px;letter-spacing:.16em;text-transform:uppercase;
+  color:var(--seal);font-weight:600}
+.seal .when{font-size:13px;color:var(--muted)}
+.buy{display:flex;gap:10px;flex-wrap:wrap}
+.buy a{display:inline-block;text-decoration:none;padding:9px 15px;
+  border:1px solid var(--seal);border-radius:2px;font-size:14px;
+  font-weight:600;white-space:nowrap}
+.buy a.primary{background:var(--seal);color:#fff}
+
+/* record strip */
+.record{display:grid;grid-template-columns:repeat(auto-fit,minmax(118px,1fr));
+  gap:1px;background:var(--rule);border:1px solid var(--rule);margin:0 0 34px}
+.record div{background:var(--card);padding:14px 16px}
+.record .k{font-size:11px;letter-spacing:.13em;text-transform:uppercase;
+  color:var(--muted)}
+.record .v{font-size:26px;font-weight:600;line-height:1.2}
+
+/* fixtures */
+.game{border-top:1px solid var(--rule);padding:18px 0}
+.game:last-child{border-bottom:1px solid var(--rule)}
+.gmeta{font-size:12px;color:var(--muted);letter-spacing:.06em;
+  text-transform:uppercase;margin-bottom:7px;
+  display:flex;gap:12px;flex-wrap:wrap}
+.teams{display:flex;justify-content:space-between;align-items:baseline;
+  gap:14px;flex-wrap:wrap}
+.teams .t{font-size:19px;font-weight:600}
+.teams .t .away{color:var(--muted);font-weight:400}
+.score{font-size:19px;font-weight:600}
+.verdict{font-size:12px;letter-spacing:.1em;text-transform:uppercase;
+  font-weight:700}
+.hit{color:var(--hit)} .miss{color:var(--miss)} .nores{color:var(--muted)}
+
+/* probability bar */
+.bars{margin-top:11px;display:grid;gap:5px;max-width:560px}
+.bar{display:grid;grid-template-columns:56px 1fr 46px;gap:9px;
+  align-items:center;font-size:12px;color:var(--muted)}
+.track{height:7px;background:#DDE3E9;border-radius:1px;overflow:hidden}
+.fill{height:100%}
+.fill.model{background:var(--bar-model)}
+.fill.market{background:var(--bar-market)}
+.bar .val{text-align:right;color:var(--ink)}
+
+/* round index */
+.rounds{display:grid;gap:1px;background:var(--rule);
+  border:1px solid var(--rule)}
+.rounds a,.rounds .row{display:flex;justify-content:space-between;
+  align-items:center;gap:14px;background:var(--card);padding:15px 17px;
+  text-decoration:none;color:var(--ink)}
+.rounds a:hover{background:#F6F8FA}
+.rounds .row.sealed{background:#E7ECF1;color:var(--muted)}
+.rounds .lbl{font-weight:600}
+.rounds .right{font-size:13px;color:var(--muted);text-align:right}
+
+footer{margin-top:52px;padding-top:20px;border-top:1px solid var(--rule);
+  font-size:13px;color:var(--muted)}
+footer code{font-size:12px}
+@media (max-width:520px){
+  .bar{grid-template-columns:50px 1fr 40px}
+  .record .v{font-size:22px}
+}
+@media (prefers-reduced-motion:reduce){*{transition:none!important}}
+</style>
+</head><body><div class="wrap">
+<header><div class="masthead">
+  <div><h1><a href="index.html" style="color:inherit;text-decoration:none">NRL Forecast</a></h1>
+       <div class="tag">An open research project</div></div>
+  <nav><a href="index.html">Archive</a><a href="index.html#method">Method</a></nav>
+</div></header>
+
+<h2 style="font-size:30px">Round 20 - Women in League Round</h2>
+<div class="seal">
+  <div>
+    <div class="stamp">Sealed 13 Jul 2026 &mdash; opened
+      20 Jul, midnight</div>
+    <div class="when">Recorded before the first kickoff and unchanged since.</div>
+  </div>
+</div>
+<div class="record"><div><div class="k">Round</div><div class="v num">20</div></div><div><div class="k">Fixtures</div><div class="v num">8</div></div><div><div class="k">Correct</div><div class="v num">6/8</div></div><div><div class="k">Accuracy</div><div class="v num">75%</div></div></div>
+<div class="game">
+  <div class="gmeta">Thu 16 Jul &middot; CommBank &middot; 12mm forecast</div>
+  <div class="teams">
+    <span class="t">Penrith-Panthers
+      <span class="away">v Brisbane-Broncos</span></span>
+    <span><span class="score num">12&ndash;14</span> <span class="verdict miss">Missed</span></span>
+  </div>
+  <div class="gmeta" style="margin:9px 0 0">
+    Called <strong style="color:var(--ink)">Penrith-Panthers</strong>
+    at <span class="num">82%</span>
+  </div>
+  <div class="bars"><div class="bar"><span>Model</span><div class="track"><div class="fill model" style="width:82%"></div></div><span class="val num">82%</span></div><div class="bar"><span>Market</span><div class="track"><div class="fill market" style="width:81%"></div></div><span class="val num">81%</span></div></div>
+</div><div class="game">
+  <div class="gmeta">Fri 17 Jul &middot; Ocean Protect</div>
+  <div class="teams">
+    <span class="t">Cronulla-Sutherland-Sharks
+      <span class="away">v Newcastle-Knights</span></span>
+    <span><span class="score num">20&ndash;18</span> <span class="verdict hit">Correct</span></span>
+  </div>
+  <div class="gmeta" style="margin:9px 0 0">
+    Called <strong style="color:var(--ink)">Cronulla-Sutherland-Sharks</strong>
+    at <span class="num">75%</span>
+  </div>
+  <div class="bars"><div class="bar"><span>Model</span><div class="track"><div class="fill model" style="width:75%"></div></div><span class="val num">75%</span></div><div class="bar"><span>Market</span><div class="track"><div class="fill market" style="width:60%"></div></div><span class="val num">60%</span></div></div>
+</div><div class="game">
+  <div class="gmeta">Fri 17 Jul &middot; Allianz</div>
+  <div class="teams">
+    <span class="t">Sydney-Roosters
+      <span class="away">v Melbourne-Storm</span></span>
+    <span><span class="score num">14&ndash;6</span> <span class="verdict hit">Correct</span></span>
+  </div>
+  <div class="gmeta" style="margin:9px 0 0">
+    Called <strong style="color:var(--ink)">Sydney-Roosters</strong>
+    at <span class="num">68%</span>
+  </div>
+  <div class="bars"><div class="bar"><span>Model</span><div class="track"><div class="fill model" style="width:68%"></div></div><span class="val num">68%</span></div><div class="bar"><span>Market</span><div class="track"><div class="fill market" style="width:63%"></div></div><span class="val num">63%</span></div></div>
+</div><div class="game">
+  <div class="gmeta">Sat 18 Jul &middot; GIO</div>
+  <div class="teams">
+    <span class="t">Canberra-Raiders
+      <span class="away">v South-Sydney-Rabbitohs</span></span>
+    <span><span class="score num">34&ndash;24</span> <span class="verdict hit">Correct</span></span>
+  </div>
+  <div class="gmeta" style="margin:9px 0 0">
+    Called <strong style="color:var(--ink)">Canberra-Raiders</strong>
+    at <span class="num">58%</span>
+  </div>
+  <div class="bars"><div class="bar"><span>Model</span><div class="track"><div class="fill model" style="width:58%"></div></div><span class="val num">58%</span></div><div class="bar"><span>Market</span><div class="track"><div class="fill market" style="width:53%"></div></div><span class="val num">53%</span></div></div>
+</div><div class="game">
+  <div class="gmeta">Sat 18 Jul &middot; Go Media</div>
+  <div class="teams">
+    <span class="t">Warriors
+      <span class="away">v St-George-Illawarra-Dragons</span></span>
+    <span><span class="score num">20&ndash;12</span> <span class="verdict hit">Correct</span></span>
+  </div>
+  <div class="gmeta" style="margin:9px 0 0">
+    Called <strong style="color:var(--ink)">Warriors</strong>
+    at <span class="num">87%</span>
+  </div>
+  <div class="bars"><div class="bar"><span>Model</span><div class="track"><div class="fill model" style="width:87%"></div></div><span class="val num">87%</span></div><div class="bar"><span>Market</span><div class="track"><div class="fill market" style="width:82%"></div></div><span class="val num">82%</span></div></div>
+</div><div class="game">
+  <div class="gmeta">Sat 18 Jul &middot; Accor &middot; 6mm forecast</div>
+  <div class="teams">
+    <span class="t">Canterbury-Bankstown-Bulldogs
+      <span class="away">v Wests-Tigers</span></span>
+    <span><span class="score num">32&ndash;0</span> <span class="verdict hit">Correct</span></span>
+  </div>
+  <div class="gmeta" style="margin:9px 0 0">
+    Called <strong style="color:var(--ink)">Canterbury-Bankstown-Bulldogs</strong>
+    at <span class="num">60%</span>
+  </div>
+  <div class="bars"><div class="bar"><span>Model</span><div class="track"><div class="fill model" style="width:60%"></div></div><span class="val num">60%</span></div><div class="bar"><span>Market</span><div class="track"><div class="fill market" style="width:66%"></div></div><span class="val num">66%</span></div></div>
+</div><div class="game">
+  <div class="gmeta">Sun 19 Jul &middot; Cbus Super</div>
+  <div class="teams">
+    <span class="t">Gold-Coast-Titans
+      <span class="away">v Manly-Warringah-Sea-Eagles</span></span>
+    <span><span class="score num">38&ndash;32</span> <span class="verdict miss">Missed</span></span>
+  </div>
+  <div class="gmeta" style="margin:9px 0 0">
+    Called <strong style="color:var(--ink)">Manly-Warringah-Sea-Eagles</strong>
+    at <span class="num">75%</span>
+  </div>
+  <div class="bars"><div class="bar"><span>Model</span><div class="track"><div class="fill model" style="width:25%"></div></div><span class="val num">25%</span></div><div class="bar"><span>Market</span><div class="track"><div class="fill market" style="width:37%"></div></div><span class="val num">37%</span></div></div>
+</div><div class="game">
+  <div class="gmeta">Sun 19 Jul &middot; Suncorp</div>
+  <div class="teams">
+    <span class="t">Dolphins
+      <span class="away">v North-Queensland-Cowboys</span></span>
+    <span><span class="score num">36&ndash;16</span> <span class="verdict hit">Correct</span></span>
+  </div>
+  <div class="gmeta" style="margin:9px 0 0">
+    Called <strong style="color:var(--ink)">Dolphins</strong>
+    at <span class="num">60%</span>
+  </div>
+  <div class="bars"><div class="bar"><span>Model</span><div class="track"><div class="fill model" style="width:60%"></div></div><span class="val num">60%</span></div><div class="bar"><span>Market</span><div class="track"><div class="fill market" style="width:59%"></div></div><span class="val num">59%</span></div></div>
+</div>
+<p style="margin-top:26px"><a href="index.html">&larr; All rounds</a></p>
+
+<footer>
+  <p>Every forecast on this site was recorded and committed to a public
+  git history before the round began. Nothing is edited after the fact;
+  losses stay on the page.</p>
+  <p>Forecasts are the output of a statistical model and are published for
+  research and interest. They are not betting advice. Gamble responsibly &mdash;
+  Gambling Help 1800 858 858.</p>
+  <p class="num">Built 2026-08-05 14:09 AEST &middot;
+     <code>88abeff</code></p>
+</footer>
+</div></body></html>
