@@ -1,0 +1,22 @@
+{
+  // Deploys ONLY the generated public archive.
+  //
+  // This file exists because of a near-miss: without it, wrangler defaulted
+  // the assets directory to the repository root and attempted to publish all
+  // 266 files - including predictions.csv and model_comparison.csv, which
+  // hold the current round's forecast under embargo - to a public CDN. The
+  // deploy failed by luck, on the 52MB player_stats.jsonl size limit.
+  //
+  // The rule this file enforces: the only thing that ever reaches the edge
+  // is docs/, which publish_rounds.py generates and which by construction
+  // contains no sealed round. Do not widen this directory.
+  "$schema": "node_modules/wrangler/config-schema.json",
+  "name": "nrl-model",
+  "compatibility_date": "2026-08-05",
+  "compatibility_flags": ["nodejs_compat"],
+  "observability": { "enabled": true },
+  "assets": {
+    "directory": "./docs",
+    "not_found_handling": "404-page"
+  }
+}

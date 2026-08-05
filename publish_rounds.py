@@ -857,6 +857,16 @@ def main():
     with open(os.path.join(DOCS, "method.html"), "w") as f:
         f.write(render_method(df))
 
+    # A round that has not reached its unlock has no page, so a guessed URL
+    # like /round-24.html must 404 rather than reveal anything.
+    nf = ('<h2 style="font-size:30px">Not here</h2>'
+          '<p class="lede">That page does not exist. If you are looking for a '
+          'round that has not finished yet, it has not been published &mdash; '
+          'every round opens free at midnight on the Sunday it ends.</p>'
+          '<p class="lede"><a href="index.html">Go to the archive &rarr;</a></p>')
+    with open(os.path.join(DOCS, "404.html"), "w") as f:
+        f.write(shell(f"Not found — {SITE_NAME}", nf, "Page not found."))
+
     if new:
         log = pd.concat([log, pd.DataFrame(new)], ignore_index=True)
         log.sort_values("round").to_csv(logp, index=False)
