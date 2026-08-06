@@ -60,6 +60,36 @@ nav a:hover{border-color:var(--seal)}
   color:var(--seal);border:1px solid var(--seal);border-radius:2px;
   padding:3px 8px}
 @media (max-width:560px){.buy .soon{text-align:left}}
+.seal.locked{display:block}
+.lock-head{display:flex;justify-content:space-between;gap:20px;
+  flex-wrap:wrap;align-items:flex-start}
+.timing{display:grid;grid-template-columns:1fr auto 1fr;gap:0;
+  align-items:stretch;margin:20px 0 0;border:1px solid var(--rule);
+  background:var(--paper)}
+.timing>div{padding:14px 16px}
+.t-now{background:var(--seal);color:#fff}
+.t-now .t-who{color:#B9CCE6}
+.t-now .t-note{color:#D7E2EF}
+.t-who{font-size:11px;letter-spacing:.15em;text-transform:uppercase;
+  font-weight:600;color:var(--muted);margin-bottom:3px}
+.t-when{font-family:"Barlow Condensed",sans-serif;font-weight:700;
+  font-size:21px;text-transform:uppercase;line-height:1.15;margin-bottom:6px}
+.t-note{font-size:13px;line-height:1.45;color:var(--muted);max-width:34ch}
+.t-gap{display:flex;align-items:center;justify-content:center;
+  background:var(--card);border-left:1px solid var(--rule);
+  border-right:1px solid var(--rule);padding:0 14px!important}
+.t-gap span{font-family:"IBM Plex Mono",monospace;font-size:11px;
+  letter-spacing:.13em;text-transform:uppercase;color:var(--seal);
+  white-space:nowrap;writing-mode:vertical-rl;transform:rotate(180deg)}
+.lock-foot{margin:16px 0 0;font-size:14px;color:var(--muted);max-width:70ch}
+.lock-foot strong{color:var(--ink)}
+@media (max-width:640px){
+  .timing{grid-template-columns:1fr}
+  .t-gap{border-left:none;border-right:none;border-top:1px solid var(--rule);
+    border-bottom:1px solid var(--rule);padding:7px 14px!important}
+  .t-gap span{writing-mode:horizontal-tb;transform:none}
+  .t-note{max-width:none}
+}
 
 /* record strip */
 .record{display:grid;grid-template-columns:repeat(auto-fit,minmax(118px,1fr));
@@ -216,20 +246,36 @@ every call, every probability, every miss.
   <p>Twenty-odd matches decides nothing either way. The season does.</p>
 </div>
 <div class="seal locked" id="subscribe">
-  <div>
-    <div class="stamp">Round 23 is sealed</div>
-    <div class="when">It opens free to everyone at midnight
-      Monday 10 August &mdash; as every
-      round does, permanently.<br>
-      <strong style="color:var(--ink)">Subscribing does not buy
-      information.</strong> It funds the work, and you see each round on the
-      Tuesday before it is published.</div>
+  <div class="lock-head">
+    <div>
+      <div class="stamp">Round 23 is sealed</div>
+      <div class="when">The board was computed the moment the team lists
+        landed. It stays sealed until the round is over.</div>
+    </div>
+    <div class="buy">
+      <span class="soon">$27 / season &middot; about $1 a round<br>
+        <span class="soon-b">$2 single round</span><br>
+        <span class="soon-c">Subscriptions open Round 1, 2027</span></span>
+    </div>
   </div>
-  <div class="buy">
-    <span class="soon">$27 / season &middot; about $1 a round<br>
-      <span class="soon-b">$2 / round single round</span><br>
-      <span class="soon-c">Subscriptions open Round 1, 2027</span></span>
+  <div class="timing">
+    <div class="t-now">
+      <div class="t-who">Subscribers</div>
+      <div class="t-when">Tuesday 4 August, 4pm</div>
+      <div class="t-note">Team lists out. The forecast is frozen, committed
+        and visible to you the same afternoon.</div>
+    </div>
+    <div class="t-gap"><span>five days later</span></div>
+    <div class="t-later">
+      <div class="t-who">Everyone</div>
+      <div class="t-when">Monday 10 August, midnight</div>
+      <div class="t-note">The round is over. The same board is published here
+        free, in full, and stays free permanently.</div>
+    </div>
   </div>
+  <p class="lock-foot"><strong>Subscribing does not buy information</strong>
+    &mdash; every forecast reaches everyone eventually. It buys the
+    five days in between, and it funds the work.</p>
 </div>
 <h2 style="font-size:22px;margin:34px 0 14px">2026 season</h2>
 <div class="rounds"><div class="row sealed">
@@ -267,7 +313,7 @@ subscription is how.</p>
   <p>Forecasts are the output of a statistical model and are published for
   research and interest. They are not betting advice. Gamble responsibly &mdash;
   Gambling Help 1800 858 858.</p>
-  <p class="num">Built 2026-08-06 22:37 AEST &middot;
+  <p class="num">Built 2026-08-06 22:50 AEST &middot;
      <code>dcd40c4</code></p>
 </footer>
 </div></body></html>
