@@ -446,11 +446,11 @@ def shell(title, body, desc, home="index.html", canonical=""):
 </div></header>
 {body}
 <footer>
-  <p>Every forecast on this site was recorded and committed to a public
-  git history before the round began. Nothing is edited after the fact;
-  losses stay on the page.</p>
+  <p>Every forecast published here was recorded to a version history before
+  the relevant round began. Records are not amended after the result.
+  Incorrect selections remain on the page.</p>
   <p>Forecasts are the output of a statistical model and are published for
-  research and interest. They are not betting advice. Gamble responsibly &mdash;
+  research purposes. They are not betting advice. Gamble responsibly.
   Gambling Help 1800 858 858.</p>
   <p class="num">Built {esc(now_syd().strftime('%Y-%m-%d %H:%M'))} AEST &middot;
      <code>{esc(head_sha())}</code></p>
@@ -539,18 +539,19 @@ def render_round(rnd, g, unlock):
 <h2 style="font-size:30px">{esc(label)}</h2>
 <div class="seal">
   <div>
-    <div class="stamp">Sealed {esc(frozen_txt)} &mdash; opened
+    <div class="stamp">Sealed {esc(frozen_txt)} &middot; Opened
       {esc(unlock.strftime('%d %b, midnight'))}</div>
-    <div class="when">Recorded before the first kickoff and unchanged since.</div>
+    <div class="when">Recorded before the first kickoff and unchanged
+      since.</div>
   </div>
 </div>
 {hdr}
 {''.join(rows)}
-<p style="margin-top:26px"><a href="index.html">&larr; All rounds</a></p>
+<p style="margin-top:26px"><a href="index.html">All rounds</a></p>
 """
-    desc = (f"{label} {SEASON} NRL forecast — model probabilities recorded "
-            f"before kickoff, graded against results.")
-    return shell(f"{label} — {SITE_NAME} {SEASON}", body, desc,
+    desc = (f"{label} {SEASON} NRL forecast. Model probabilities recorded "
+            f"before kickoff and graded against results.")
+    return shell(f"{label} | {SITE_NAME} {SEASON}", body, desc,
                  canonical=f"round-{rnd}.html")
 
 
@@ -580,37 +581,35 @@ def market_block():
     n = len(d)
 
     if mh > kh:
-        lead = (f"the model has picked more winners than the bookmakers "
-                f"&mdash; <span class=\"num\">{mh} of {n}</span> against "
-                f"their <span class=\"num\">{kh}</span>")
+        lead = (f"the model selected <span class=\"num\">{mh}</span> "
+                f"winners against the market's <span class=\"num\">{kh}"
+                f"</span>")
     elif mh < kh:
-        lead = (f"the bookmakers have picked more winners than the model "
-                f"&mdash; <span class=\"num\">{kh} of {n}</span> against "
-                f"our <span class=\"num\">{mh}</span>")
+        lead = (f"the market selected <span class=\"num\">{kh}</span> "
+                f"winners against the model's <span class=\"num\">{mh}"
+                f"</span>")
     else:
-        lead = (f"the model and the bookmakers have picked the same number "
-                f"of winners &mdash; <span class=\"num\">{mh} of {n}</span> "
-                f"each")
+        lead = (f"the model and the market each selected "
+                f"<span class=\"num\">{mh}</span> winners")
 
     if lk < lm:
-        cal = ("But the market&rsquo;s probabilities have been better "
-               "calibrated than ours: when we are wrong, we have tended to be "
-               "wrong confidently, and that costs more than it looks like it "
-               "should.")
+        cal = ("The market&rsquo;s probabilities remain better calibrated, "
+               "indicating that model errors have occurred at high "
+               "confidence.")
     else:
-        cal = ("Our probabilities have also been better calibrated than the "
-               "market&rsquo;s over this sample, which is the harder of the "
-               "two tests and the one that matters.")
+        cal = ("Model probabilities are also better calibrated than the "
+               "market&rsquo;s over this sample, which is the more demanding "
+               "of the two tests.")
 
     return f"""<div class="versus">
-  <h3>How this compares to the market</h3>
-  <p>Across the <span class="num">{n}</span> matches where a closing price
-     was recorded, {lead}.</p>
-  <p>{cal} On log loss the market sits at
-     <span class="num">{lk:.3f}</span> against our
-     <span class="num">{lm:.3f}</span>. Closing that gap is the current work,
-     and it is the reason this archive exists.</p>
-  <p>Twenty-odd matches decides nothing either way. The season does.</p>
+  <h3>Performance against the market</h3>
+  <p>Across the <span class="num">{n}</span> matches with a recorded closing
+     price, {lead}.</p>
+  <p>{cal} Log loss is <span class="num">{lk:.3f}</span> for the market
+     against <span class="num">{lm:.3f}</span> for the model. Reducing this
+     gap is the current priority.</p>
+  <p>A sample of this size is not conclusive. The full season provides the
+     test.</p>
 </div>"""
 
 
@@ -646,7 +645,7 @@ def render_index(df, published, sealed):
         g = df[df.rnd == rnd]
         unlock = unlock_moment(max(g.date))
         rows.append(f"""<div class="row sealed">
-  <span class="lbl">Round {rnd} &mdash; sealed</span>
+  <span class="lbl">Round {rnd}: sealed</span>
   <span class="right">Opens {esc(unlock.strftime('%a %d %b'))}, midnight<br>
     {len(g)} fixtures</span></div>""")
     for rnd in sorted(published, reverse=True):
@@ -656,7 +655,7 @@ def render_index(df, published, sealed):
         right = (f"{sum(ok2)}/{len(ok2)} correct" if ok2 else "results pending")
         part = ("" if len(g) >= 6 else
                 ' <span style="font-weight:400;color:var(--muted)">'
-                '&mdash; partial round, model started mid-round</span>')
+                '(partial round: model commenced mid-round)</span>')
         rows.append(f"""<a href="round-{rnd}.html">
   <span class="lbl">{esc(tidy_round(g['round'].iloc[0]))}{part}</span>
   <span class="right">{right}<br>{esc(min(g.date).strftime('%d %b'))}</span></a>""")
@@ -672,8 +671,8 @@ def render_index(df, published, sealed):
   <div class="lock-head">
     <div>
       <div class="stamp">Round {nxt} is sealed</div>
-      <div class="when">The board was computed the moment the team lists
-        landed. It stays sealed until the round is over.</div>
+      <div class="when">The board is computed when team lists are released
+        and remains sealed until the round concludes.</div>
     </div>
     <div class="buy">
       <span class="soon">{PRICE_SEASON} &middot; about $1 a round<br>
@@ -685,51 +684,52 @@ def render_index(df, published, sealed):
     <div class="t-now">
       <div class="t-who">Subscribers</div>
       <div class="t-when">{esc(tl.strftime('%A %-d %B, 4pm'))}</div>
-      <div class="t-note">Team lists out. The forecast is frozen, committed
-        and visible to you the same afternoon.</div>
+      <div class="t-note">Team lists released. The forecast is computed,
+        recorded and available to subscribers the same afternoon.</div>
     </div>
     <div class="t-gap"><span>{WORDS.get(gap, gap)} days later</span></div>
     <div class="t-later">
       <div class="t-who">Everyone</div>
       <div class="t-when">{esc(u.strftime('%A %-d %B, midnight'))}</div>
-      <div class="t-note">The round is over. The same board is published here
-        free, in full, and stays free permanently.</div>
+      <div class="t-note">The round has concluded. The same board is
+        published here in full, at no cost, permanently.</div>
     </div>
   </div>
-  <p class="lock-foot"><strong>Subscribing does not buy information</strong>
-    &mdash; every forecast reaches everyone eventually. It buys the
-    {WORDS.get(gap, gap)} days in between, and it funds the work.</p>
+  <p class="lock-foot"><strong>A subscription does not purchase exclusive
+    information.</strong> Every forecast is published to everyone. It purchases
+    {WORDS.get(gap, gap)} days of earlier access, and funds the research.</p>
 </div>"""
 
     body = f"""
-<p class="lede">A statistical model forecasts every NRL fixture, and the
-forecast is <strong>frozen and committed to a public record before the round
-starts</strong>. Once the round is over it is published here in full &mdash;
-every call, every probability, every miss.
-<strong>The archive is free, permanently.</strong> Subscribing only changes
-<em>when</em> you see it.</p>
+<p class="lede">A statistical model forecasts every NRL fixture. Each
+forecast is <strong>recorded to a public version history before the round
+begins</strong> and cannot be altered afterwards. When the round finishes, the
+full board is published here: every selection, its probability, and the result.
+<strong>The archive is free and remains free.</strong> A subscription changes
+only the timing of access.</p>
 {rec}
 {market_block()}
 {cta}
 <h2 style="font-size:22px;margin:34px 0 14px">{SEASON} season</h2>
 <div class="rounds">{''.join(rows)}</div>
 
-<h2 id="method" style="font-size:22px;margin:44px 0 12px">How it works</h2>
-<p class="lede">Six layers, applied in order: a team Elo rating, the named 17,
-player ratings built from career match statistics, injury and availability,
-the venue rain forecast, and finally the market price. Five competing versions
-of the model forecast every fixture at once, and all five are graded.</p>
-<p class="lede"><a href="method.html">Read the full method &rarr;</a></p>
-<p class="lede">Nothing here is a tip and nothing is sold as a system for
-beating a bookmaker. It is a research project that happens to publish its
-predictions in advance, which is the only way a forecast can be tested.</p>
-<p class="lede">It runs on scrapers, a weather API and market data, and it
-takes a few hours every week. If you would like it to keep running, a
-subscription is how.</p>
+<h2 id="method" style="font-size:22px;margin:44px 0 12px">Method</h2>
+<p class="lede">Six layers, applied in sequence: a team Elo rating, the named
+17, player ratings derived from career match statistics, injury and
+availability, the venue rainfall forecast, and the market price. Five competing
+versions of the model forecast every fixture simultaneously and all five are
+graded.</p>
+<p class="lede"><a href="method.html">Read the full method</a></p>
+<p class="lede">This is not a tipping service, and no system for profiting
+from bookmakers is offered. It is a research project that publishes its
+predictions in advance so that they can be tested against results.</p>
+<p class="lede">The project depends on data collection, a weather API and
+market pricing, and requires several hours of work each week. Subscriptions
+fund its continuation.</p>
 """
-    desc = (f"Free archive of {SEASON} NRL match forecasts — probabilities "
+    desc = (f"Free archive of {SEASON} NRL match forecasts. Probabilities "
             "recorded before kickoff and graded against results.")
-    return shell(f"{SITE_NAME} — {SEASON} archive", body, desc,
+    return shell(f"{SITE_NAME} | {SEASON} archive", body, desc,
                  canonical="index.html")
 
 
@@ -744,21 +744,21 @@ PARAMS = dict(elo_k=32, hfa=55, regress=30, shrink_games=8,
               spine="Fullback, Five-eighth, Halfback, Hooker")
 
 ARMS = [
-    ("A &mdash; baseline", "p_base",
+    ("Version A: baseline", "p_base",
      "The full model with no experimental adjustment. This is the number "
      "published as the forecast."),
-    ("B &mdash; fitness ramp", "p_retadj",
-     "Identical to A, except returning players are discounted on a graded "
-     "ramp rather than a flat multiplier."),
-    ("C &mdash; weather", "p_wet",
-     "Identical to A, plus a leveller that shrinks short-priced favourites "
-     "when heavy rain is forecast at the venue."),
+    ("Version B: fitness ramp", "p_retadj",
+     "Identical to A, except that returning players are discounted on a "
+     "graded ramp rather than a flat multiplier."),
+    ("Version C: weather", "p_wet",
+     "Identical to A, with an adjustment that shrinks short-priced "
+     "favourites when heavy rain is forecast at the venue."),
     ("Market", "p_market",
-     "The bookmaker price with the margin removed. Not a model &mdash; the "
-     "opponent every model is measured against."),
+     "The bookmaker price with the margin removed. Not a model, but the "
+     "benchmark against which each model is measured."),
     ("Blend", "p_blend",
-     "A 50/50 logit average of A and the market. If the model carries "
-     "information the market lacks, this should beat both."),
+     "A 50/50 logit average of Version A and the market. If the model holds "
+     "information the market lacks, this should outperform both."),
 ]
 
 
@@ -813,13 +813,13 @@ def scenario_example():
     <div class="ds">{esc(pretty(r.home))} win
       <strong class="num">{r.p_withdrawn*100:.1f}%</strong></div></div>
 </div>
-<p class="caption">Worked example from the current round:
+<p class="caption">Example from the current round:
 <strong>{esc(r.player)}</strong> ({esc(pretty(r.team))}, returning from injury).
-The three worlds are computed together and the spread between them &mdash;
-here {r.swing_pts:.1f} points &mdash; is the honest measure of how much this
-one selection actually matters. Most players move the number by less than a
-point. Publishing the spread stops a late withdrawal being retrofitted into
-an excuse.</p>"""
+The three cases are computed together. The spread between them, here
+{r.swing_pts:.1f} points, quantifies the effect of the selection. Most players
+move the probability by less than one point. Publishing the spread in advance
+prevents a late withdrawal being used retrospectively to explain a
+result.</p>"""
 
 
 def render_method(df):
@@ -829,46 +829,48 @@ def render_method(df):
 
     layers = [
         ("Team rating",
-         "Every club carries an Elo rating updated after each result. Beating "
-         "a stronger team moves the rating more than beating a weaker one, and "
-         "ratings regress toward the mean between seasons so a premiership "
-         "does not follow a squad forever.",
+         "Each club holds an Elo rating updated after every result. Defeating "
+         "a higher rated opponent produces a larger adjustment than defeating "
+         "a lower rated one. Ratings regress toward the mean between seasons "
+         "to limit the persistence of historical form.",
          f"start 1500 &middot; K = {q['elo_k']} &middot; home advantage = "
          f"{q['hfa']} pts<br>between-season regression = {q['regress']}% "
          f"&middot; trained on {matches:,} matches since 2009"),
         ("Who is actually playing",
          "Team lists are published on Tuesday. The model reads the named 17, "
-         "measures how much of last week&rsquo;s side has been retained, and "
-         "tracks how long the spine has played together &mdash; the positions "
-         "that carry a side&rsquo;s structure.",
+         "calculates retention against the previous week&rsquo;s side, and "
+         "measures continuity across the spine positions, which carry a "
+         "side&rsquo;s structure.",
          f"spine = {q['spine']}<br>retention and spine continuity computed "
          "per side, per round"),
         ("Player quality from statistics",
-         "Each player carries a rating built from their per-game career "
-         "statistics rather than reputation. Players with few games are shrunk "
-         "toward the league average, so a debutant is treated as average "
-         "rather than as whatever their first two games happened to look like.",
+         "Each player holds a rating derived from per-game career statistics "
+         "rather than reputation. Players with limited appearances are shrunk "
+         "toward the league average, so that small samples do not produce "
+         "extreme ratings.",
          f"shrinkage prior = {q['shrink_games']} games<br>ratings refresh "
          "weekly as new match statistics land"),
         ("Availability",
-         "The NRL casualty ward is scraped each week. Players returning from "
-         "injury are discounted for rust; players carrying a doubt are "
-         "discounted harder, because the named side is not always the side "
-         "that runs out.",
+         "The NRL casualty ward is collected each week. Players returning from "
+         "injury are discounted for match fitness. Players listed as in doubt "
+         "are discounted further, as the named side is not always the side "
+         "that takes the field.",
          f"returning from injury &times; {q['returning']:.2f}<br>"
          f"listed in doubt &times; {q['in_doubt']:.2f}"),
         ("Conditions",
-         "The rain forecast for each venue city is pulled at prediction time. "
-         "Wet games historically level the contest: favourites win less often "
-         "than their rating says, and totals run lower. The size of that "
-         "effect was learned from the historical record, not asserted.",
+         "The rainfall forecast for each venue is retrieved at prediction "
+         "time. Wet conditions historically compress the margin between "
+         "sides: favourites win less frequently than their rating implies "
+         "and scoring falls. The magnitude of the adjustment is estimated "
+         "from the historical record.",
          f"wet threshold = {q['wet_mm']:.0f}mm forecast rainfall<br>"
          "effect fitted across all historical matches with match-day rainfall"),
         ("The market",
-         "The bookmaker price is de-vigged and averaged with the model on the "
-         "log-odds scale. This is deliberate: the market aggregates "
-         "information the model cannot see, and the model sees lineup detail "
-         "the market sometimes prices slowly. Neither is trusted alone.",
+         "The bookmaker price is adjusted to remove the margin and averaged "
+         "with the model on the log-odds scale. The market aggregates "
+         "information not available to the model, and the model incorporates "
+         "lineup detail the market may price slowly. Neither input is used in "
+         "isolation.",
          f"blend = {q['blend_w']}/{100-q['blend_w']} logit average of "
          "model and de-vigged price"),
     ]
@@ -884,114 +886,113 @@ def render_method(df):
 
     body = f"""
 <h2 style="font-size:32px;margin-bottom:8px">Method</h2>
-<p class="lede">This page describes what the model does and what it does not
-do. It is written to be checked. Every parameter below is the value actually
-used in the code that produced the forecasts in the archive.</p>
+<p class="lede">This page sets out the model&rsquo;s construction, its
+inputs and its limitations. Every parameter listed is the value used in the
+code that generated the forecasts in the archive.</p>
 
 <h2 class="sec">The weekly clock</h2>
-<p class="sub">The forecast is produced on Tuesday because that is when team
-lists are published &mdash; the single largest piece of information in the
-week. It is frozen at that moment and committed. Nothing is revised
-afterwards.</p>
+<p class="sub">The forecast is produced on Tuesday, when team lists are
+released. This is the largest single information event in the weekly cycle.
+The forecast is recorded at that point and is not revised.</p>
 <div class="clock">
   <div><div class="d">Monday</div><div class="w">Results scraped, last
     round graded, player statistics refreshed.</div></div>
-  <div><div class="d">Tuesday</div><div class="w">Team lists out. The forecast
-    is computed, frozen and committed. Subscribers see it now.</div></div>
+  <div><div class="d">Tuesday</div><div class="w">Team lists released. The
+    forecast is computed and recorded. Available to subscribers.</div></div>
   <div><div class="d">Thu &ndash; Sun</div><div class="w">Prices and late
     lineup changes are logged, but the recorded forecast does not
     change.</div></div>
   <div class="open"><div class="d">Sunday midnight</div><div class="w">The
-    round opens free to everyone, here, in full.</div></div>
+    round is published here in full, at no cost.</div></div>
 </div>
-<p class="caption">The unlock is a clock event. It does not wait on results
-being scraped or games being marked complete, so an outage can delay the
-scoreline column but never the forecast itself.</p>
+<p class="caption">Publication is triggered by time, not by data
+availability. A collection failure may delay the results column. It cannot
+delay the forecast.</p>
 
 <h2 class="sec">Six layers</h2>
-<p class="sub">Each layer adjusts the probability produced by the one above it.
-The order matters: team quality first, then who is playing, then how well they
-play, then whether they are fit, then the conditions, then the market.</p>
+<p class="sub">Each layer adjusts the probability produced by the preceding
+one. The sequence is deliberate: team strength, squad selection, player
+quality, availability, conditions, then market price.</p>
 {stack}
 
 <h2 class="sec">Concurrent scenarios</h2>
-<p class="sub">Two different things run in parallel on every fixture, for two
-different reasons.</p>
+<p class="sub">Two parallel processes run on every fixture.</p>
 
 <h3 style="font-size:19px;margin:26px 0 6px">Competing versions of the model</h3>
-<p class="sub">Five versions forecast every match at the same moment. Only
-version A is published as the forecast; all five are frozen and graded. The
-point is that arguments about whether an adjustment helps get settled by the
-record instead of by opinion &mdash; and an idea that fails gets removed.</p>
+<p class="sub">Five versions forecast every match simultaneously. Version A
+is published as the forecast. All five are recorded and graded. This allows the
+value of any adjustment to be settled by the record rather than by judgement.
+Versions that do not demonstrate an improvement are removed.</p>
 <div class="fan">{arms}</div>
 {table}
-<p class="caption">Live {SEASON} standings across {trial_n} graded matches.
-Lower log loss is better; it rewards being confident and right and punishes
-being confident and wrong, which raw accuracy does not.
-<strong>This sample is far too small to conclude anything.</strong> Separating
-these versions reliably needs hundreds of matches, not dozens, and the
-differences between A, B and C are currently smaller than the noise. The table
-is published because watching a verdict fail to form is part of the record.</p>
+<p class="caption">{SEASON} standings across {trial_n} graded matches. Lower
+log loss is better: it rewards confident correct forecasts and penalises
+confident errors, which accuracy does not.
+<strong>This sample is not sufficient to support a conclusion.</strong>
+Separating these versions reliably requires several hundred matches. The
+differences between A, B and C currently sit below the level of noise. The
+table is published to record the process, not to claim a result.</p>
 
 <h3 style="font-size:19px;margin:32px 0 6px">Lineup scenarios</h3>
-<p class="sub">When a player is flagged as returning or in doubt, the fixture
-is forecast three times over &mdash; once assuming they are fully fit, once as
-the team sheet names them, once assuming they are withdrawn.</p>
+<p class="sub">When a player is listed as returning or in doubt, the fixture
+is forecast three times: assuming full fitness, as named on the team sheet, and
+assuming withdrawal.</p>
 {scenario_example()}
 
-<h2 class="sec">What the record says so far</h2>
-<p class="sub">Across twelve walk-forward seasons &mdash; each one predicted
-using only the seasons before it &mdash; the team model calls about 65% of
-matches, with season-to-season swings between roughly 58% and 74%. Tested
-against exchange closing prices on 609 matches, the full model is close to
-level with the market on log loss, and a blend of the two scored better than
-either alone.</p>
-<p class="sub">That last result is the reason this project exists, and it is
-also the one most likely to be wrong. It was measured once, on historical
-data, with a blend weight chosen while looking at that same data. The
-{SEASON} season is the first live test of it, and so far the market is ahead.
-Whether that gap closes or widens is the actual research question, and the
-archive is how it gets answered in public.</p>
+<h2 class="sec">Recorded performance</h2>
+<p class="sub">Across twelve walk-forward seasons, each predicted using only
+prior seasons, the team model selects approximately 65% of matches correctly.
+Season-to-season results range between 58% and 74%. Tested against exchange
+closing prices on 609 matches, the full model is approximately level with the
+market on log loss, and a blend of the two outperformed either input alone.</p>
+<p class="sub">That final result is the basis of the project and also its
+weakest claim. It was measured once, on historical data, using a blend weight
+selected against that same data. The {SEASON} season is the first out-of-sample
+test. The market is currently ahead. Whether the gap closes is the research
+question, and the archive is the record against which it will be
+answered.</p>
 
 <h2 class="sec">Known weaknesses</h2>
-<p class="sub">Stated plainly, because a forecast you cannot criticise is not
-worth reading.</p>
+<p class="sub">Documented in full, at the same level of detail as the
+results.</p>
 <ul class="limits">
-  <li><strong>Several parameters are set by hand, not fitted.</strong> The Elo
-  K factor, the home advantage, the injury multipliers and the shrinkage prior
-  are reasonable values rather than optimised ones. Home advantage in
-  particular is treated as identical at every venue, which is certainly
-  wrong.</li>
+  <li><strong>Several parameters are set by hand rather than fitted.</strong>
+  The Elo K factor, the home advantage, the injury multipliers and the
+  shrinkage prior are reasonable values rather than optimised ones. Home
+  advantage is treated as identical at every venue, which is demonstrably
+  incorrect.</li>
   <li><strong>The wet-weather flag is a hard threshold.</strong>
-  {q['wet_mm']:.0f}mm forecast counts as wet and 4.9mm does not, which is a
-  crude way to model rain and has already produced at least one game that fell
-  the wrong side of the line.</li>
-  <li><strong>Team-level surges are missed.</strong> Individual returning
-  players are discounted, but nothing captures a spine reassembling all at
-  once. The market prices this and the model has been caught by it.</li>
-  <li><strong>The largest disagreements with the market have been the worst
-  calls.</strong> Historically big divergences carried more signal; this
-  season they have not. If that holds, the model should shrink toward the
-  market harder as disagreement grows.</li>
-  <li><strong>Margins are discarded.</strong> The model predicts who wins, not
-  by how much, which throws away most of the information in a result.</li>
-  <li><strong>Features were selected against one test window.</strong> Their
-  measured gains are optimistic, and some will shrink under proper
-  testing.</li>
+  {q['wet_mm']:.0f}mm of forecast rainfall is classified as wet and 4.9mm is
+  not. This is a coarse treatment and has already produced at least one fixture
+  on the wrong side of the boundary.</li>
+  <li><strong>Squad-level recovery is not modelled.</strong> Individual
+  returning players are discounted, but no feature captures a spine
+  reassembling simultaneously. The market prices this effect and the model has
+  been exposed by it.</li>
+  <li><strong>The largest disagreements with the market have produced the
+  weakest results.</strong> Historically, large divergences carried more
+  signal. This season they have not. If this persists, the model should shrink
+  further toward the market as divergence increases.</li>
+  <li><strong>Margins are not modelled.</strong> The model predicts the
+  winner but not the margin, discarding most of the information contained in a
+  result.</li>
+  <li><strong>Features were selected against a single test window.</strong>
+  Measured gains are therefore optimistic and some will diminish under proper
+  validation.</li>
 </ul>
 
-<h2 class="sec">What this is not</h2>
-<p class="sub">It is not betting advice and there is no system here for beating
-a bookmaker. Roughly a third of the calls in the archive are wrong, and there
-is no arrangement of any kind with any wagering operator. It is a forecasting
-project published in advance, because a prediction made after the fact is not
-a prediction.</p>
-<p style="margin-top:26px"><a href="index.html">&larr; Back to the archive</a></p>
+<h2 class="sec">Scope</h2>
+<p class="sub">This is not betting advice, and no system for profiting from
+bookmakers is offered. Approximately one third of the selections in the archive
+are incorrect. No commercial arrangement exists with any wagering operator.
+Forecasts are published in advance so that they can be tested against
+results.</p>
+<p style="margin-top:26px"><a href="index.html">Back to the archive</a></p>
 """
     desc = ("How the NRL forecast model works: Elo team ratings, player "
             "ratings from match statistics, injury and weather adjustment, "
-            "and a market blend - with its known weaknesses stated.")
-    return shell(f"Method — {SITE_NAME}", body, desc,
+            "and a market blend. Known weaknesses documented.")
+    return shell(f"Method | {SITE_NAME}", body, desc,
                  canonical="method.html")
 
 
@@ -1046,13 +1047,13 @@ def main():
 
     # A round that has not reached its unlock has no page, so a guessed URL
     # like /round-24.html must 404 rather than reveal anything.
-    nf = ('<h2 style="font-size:30px">Not here</h2>'
-          '<p class="lede">That page does not exist. If you are looking for a '
-          'round that has not finished yet, it has not been published &mdash; '
-          'every round opens free at midnight on the Sunday it ends.</p>'
-          '<p class="lede"><a href="index.html">Go to the archive &rarr;</a></p>')
+    nf = ('<h2 style="font-size:30px">Page not found</h2>'
+          '<p class="lede">This page does not exist. Rounds that have not '
+          'concluded are not published. Each round is released at midnight on '
+          'the Sunday it ends.</p>'
+          '<p class="lede"><a href="index.html">Go to the archive</a></p>')
     with open(os.path.join(DOCS, "404.html"), "w") as f:
-        f.write(shell(f"Not found — {SITE_NAME}", nf, "Page not found."))
+        f.write(shell(f"Not found | {SITE_NAME}", nf, "Page not found."))
 
     if new:
         log = pd.concat([log, pd.DataFrame(new)], ignore_index=True)
