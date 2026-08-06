@@ -4,7 +4,7 @@
 <meta name="viewport" content="width=device-width,initial-scale=1">
 <title>NRL Forecast — 2026 archive</title>
 <meta name="description" content="Free archive of 2026 NRL match forecasts — probabilities recorded before kickoff and graded against results.">
-<link rel="canonical" href="https://nrl-forecast.pages.dev/index.html">
+<link rel="canonical" href="https://nrl-model.xaviermsmith.workers.dev/index.html">
 <meta property="og:type" content="website">
 <meta property="og:title" content="NRL Forecast — 2026 archive">
 <meta property="og:description" content="Free archive of 2026 NRL match forecasts — probabilities recorded before kickoff and graded against results.">
@@ -53,6 +53,13 @@ nav a:hover{border-color:var(--seal)}
   border:1px solid var(--seal);border-radius:2px;font-size:14px;
   font-weight:600;white-space:nowrap}
 .buy a.primary{background:var(--seal);color:#fff}
+.buy .soon{font-size:15px;font-weight:600;line-height:1.55;text-align:right}
+.buy .soon-b{font-weight:400;color:var(--muted);font-size:14px}
+.buy .soon-c{display:inline-block;margin-top:6px;font-weight:400;
+  font-size:11px;letter-spacing:.13em;text-transform:uppercase;
+  color:var(--seal);border:1px solid var(--seal);border-radius:2px;
+  padding:3px 8px}
+@media (max-width:560px){.buy .soon{text-align:left}}
 
 /* record strip */
 .record{display:grid;grid-template-columns:repeat(auto-fit,minmax(118px,1fr));
@@ -147,6 +154,34 @@ nav a:hover{border-color:var(--seal)}
 h2.sec{font-size:24px;margin:46px 0 6px}
 .sub{color:var(--muted);max-width:62ch;margin:0 0 22px}
 
+
+/* Brier explainer - <details> so it works with no JS at all */
+.record .k{display:flex;align-items:center;gap:5px}
+details.tip{position:relative;display:inline}
+details.tip summary{list-style:none;cursor:pointer;width:14px;height:14px;
+  border:1px solid var(--muted);color:var(--muted);border-radius:50%;
+  font-size:10px;line-height:12px;text-align:center;display:inline-block;
+  font-family:"IBM Plex Sans",sans-serif}
+details.tip summary::-webkit-details-marker{display:none}
+details.tip summary:hover{border-color:var(--seal);color:var(--seal)}
+details.tip[open] summary{background:var(--seal);color:#fff;
+  border-color:var(--seal)}
+details.tip .pop{position:absolute;z-index:20;top:22px;left:-10px;width:270px;
+  background:var(--card);border:1px solid var(--seal);border-radius:2px;
+  padding:12px 14px;font-size:13px;line-height:1.5;color:var(--muted);
+  text-transform:none;letter-spacing:0;font-weight:400;
+  box-shadow:0 6px 20px rgba(16,22,29,.13)}
+details.tip .pop strong{color:var(--ink)}
+@media (max-width:560px){details.tip .pop{left:auto;right:-10px;width:240px}}
+
+/* how the model is tracking against the market */
+.versus{border:1px solid var(--rule);border-left:5px solid var(--muted);
+  background:var(--card);padding:18px 20px;margin:0 0 34px}
+.versus h3{font-size:17px;margin:0 0 8px}
+.versus p{margin:0 0 9px;color:var(--muted);font-size:14.5px;max-width:64ch}
+.versus p:last-child{margin-bottom:0}
+.versus .num{color:var(--ink);font-weight:600}
+
 footer{margin-top:52px;padding-top:20px;border-top:1px solid var(--rule);
   font-size:13px;color:var(--muted)}
 footer code{font-size:12px}
@@ -169,19 +204,33 @@ starts</strong>. Once the round is over it is published here in full &mdash;
 every call, every probability, every miss.
 <strong>The archive is free, permanently.</strong> Subscribing only changes
 <em>when</em> you see it.</p>
-<div class="seal locked">
+<div class="record"><div><div class="k">Rounds published</div><div class="v num">5</div></div><div><div class="k">Graded picks</div><div class="v num">36</div></div><div><div class="k">Correct</div><div class="v num">24</div></div><div><div class="k">Accuracy</div><div class="v num">67%</div></div><div><div class="k">Brier <details class="tip"><summary>i</summary><div class="pop"><strong>Brier score</strong> grades the probabilities, not just the pick. Call a game at 90% and get it right, you score well; call it at 90% and get it wrong, you are punished hard. <strong>Lower is better.</strong> 0 is perfect, 0.25 is what you would score by saying &ldquo;50/50&rdquo; to every game, and anything above that is worse than guessing.</div></details></div><div class="v num">0.238</div></div></div>
+<div class="versus">
+  <h3>How this compares to the market</h3>
+  <p>Across the <span class="num">24</span> matches where a closing price
+     was recorded, the model has picked more winners than the bookmakers &mdash; <span class="num">19 of 24</span> against their <span class="num">17</span>.</p>
+  <p>But the market&rsquo;s probabilities have been better calibrated than ours: when we are wrong, we have tended to be wrong confidently, and that costs more than it looks like it should. On log loss the market sits at
+     <span class="num">0.585</span> against our
+     <span class="num">0.613</span>. Closing that gap is the current work,
+     and it is the reason this archive exists.</p>
+  <p>Twenty-odd matches decides nothing either way. The season does.</p>
+</div>
+<div class="seal locked" id="subscribe">
   <div>
     <div class="stamp">Round 23 is sealed</div>
     <div class="when">It opens free to everyone at midnight
-      Monday 10 August.
-      Subscribers see it the Tuesday before.</div>
+      Monday 10 August &mdash; as every
+      round does, permanently.<br>
+      <strong style="color:var(--ink)">Subscribing does not buy
+      information.</strong> It funds the work, and you see each round on the
+      Tuesday before it is published.</div>
   </div>
   <div class="buy">
-    <a class="primary" href="#subscribe">$27 / season</a>
-    <a href="#subscribe">$2 / round</a>
+    <span class="soon">$27 / season &middot; about $1 a round<br>
+      <span class="soon-b">$2 / round single round</span><br>
+      <span class="soon-c">Subscriptions open Round 1, 2027</span></span>
   </div>
 </div>
-<div class="record"><div><div class="k">Rounds published</div><div class="v num">5</div></div><div><div class="k">Graded picks</div><div class="v num">36</div></div><div><div class="k">Correct</div><div class="v num">24</div></div><div><div class="k">Accuracy</div><div class="v num">67%</div></div><div><div class="k">Brier</div><div class="v num">0.238</div></div></div>
 <h2 style="font-size:22px;margin:34px 0 14px">2026 season</h2>
 <div class="rounds"><div class="row sealed">
   <span class="lbl">Round 23 &mdash; sealed</span>
@@ -191,11 +240,11 @@ every call, every probability, every miss.
   <span class="right">7/8 correct<br>30 Jul</span></a><a href="round-21.html">
   <span class="lbl">Round 21</span>
   <span class="right">6/8 correct<br>23 Jul</span></a><a href="round-20.html">
-  <span class="lbl">Round 20 - Women in League Round</span>
+  <span class="lbl">Round 20 – Women in League Round</span>
   <span class="right">6/8 correct<br>16 Jul</span></a><a href="round-19.html">
   <span class="lbl">Round 19</span>
   <span class="right">4/8 correct<br>10 Jul</span></a><a href="round-18.html">
-  <span class="lbl">Round 18</span>
+  <span class="lbl">Round 18 <span style="font-weight:400;color:var(--muted)">&mdash; partial round, model started mid-round</span></span>
   <span class="right">1/4 correct<br>04 Jul</span></a></div>
 
 <h2 id="method" style="font-size:22px;margin:44px 0 12px">How it works</h2>
@@ -207,6 +256,9 @@ of the model forecast every fixture at once, and all five are graded.</p>
 <p class="lede">Nothing here is a tip and nothing is sold as a system for
 beating a bookmaker. It is a research project that happens to publish its
 predictions in advance, which is the only way a forecast can be tested.</p>
+<p class="lede">It runs on scrapers, a weather API and market data, and it
+takes a few hours every week. If you would like it to keep running, a
+subscription is how.</p>
 
 <footer>
   <p>Every forecast on this site was recorded and committed to a public
@@ -215,7 +267,7 @@ predictions in advance, which is the only way a forecast can be tested.</p>
   <p>Forecasts are the output of a statistical model and are published for
   research and interest. They are not betting advice. Gamble responsibly &mdash;
   Gambling Help 1800 858 858.</p>
-  <p class="num">Built 2026-08-05 14:23 AEST &middot;
+  <p class="num">Built 2026-08-06 22:37 AEST &middot;
      <code>dcd40c4</code></p>
 </footer>
 </div></body></html>

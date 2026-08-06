@@ -44,6 +44,15 @@ TAGLINE = "An open research project"
 # domain is live, e.g. https://nrlforecast.com (no trailing slash).
 SITE_URL = os.environ.get("SITE_URL", "").rstrip("/")
 
+BRIER_POP = ('<details class="tip"><summary>i</summary><div class="pop">'
+             '<strong>Brier score</strong> grades the probabilities, not just '
+             'the pick. Call a game at 90% and get it right, you score well; '
+             'call it at 90% and get it wrong, you are punished hard. '
+             '<strong>Lower is better.</strong> 0 is perfect, 0.25 is what '
+             'you would score by saying &ldquo;50/50&rdquo; to every game, '
+             'and anything above that is worse than guessing.'
+             '</div></details>')
+
 PRICE_WEEK = "$2 / round"
 PRICE_SEASON = "$27 / season"
 
@@ -64,6 +73,11 @@ def unlock_moment(last_fixture_date):
     while d.weekday() != 0:            # 0 = Monday
         d += timedelta(days=1)
     return datetime.combine(d, time(0, 0), tzinfo=TZ)
+
+
+def tidy_round(label):
+    """'Round 20 - Women in League Round' -> en-dash, matching house style."""
+    return re.sub(r"\s+-\s+", " – ", str(label))
 
 
 def round_number(label):
@@ -217,6 +231,13 @@ nav a:hover{border-color:var(--seal)}
   border:1px solid var(--seal);border-radius:2px;font-size:14px;
   font-weight:600;white-space:nowrap}
 .buy a.primary{background:var(--seal);color:#fff}
+.buy .soon{font-size:15px;font-weight:600;line-height:1.55;text-align:right}
+.buy .soon-b{font-weight:400;color:var(--muted);font-size:14px}
+.buy .soon-c{display:inline-block;margin-top:6px;font-weight:400;
+  font-size:11px;letter-spacing:.13em;text-transform:uppercase;
+  color:var(--seal);border:1px solid var(--seal);border-radius:2px;
+  padding:3px 8px}
+@media (max-width:560px){.buy .soon{text-align:left}}
 
 /* record strip */
 .record{display:grid;grid-template-columns:repeat(auto-fit,minmax(118px,1fr));
@@ -311,6 +332,34 @@ nav a:hover{border-color:var(--seal)}
 h2.sec{font-size:24px;margin:46px 0 6px}
 .sub{color:var(--muted);max-width:62ch;margin:0 0 22px}
 
+
+/* Brier explainer - <details> so it works with no JS at all */
+.record .k{display:flex;align-items:center;gap:5px}
+details.tip{position:relative;display:inline}
+details.tip summary{list-style:none;cursor:pointer;width:14px;height:14px;
+  border:1px solid var(--muted);color:var(--muted);border-radius:50%;
+  font-size:10px;line-height:12px;text-align:center;display:inline-block;
+  font-family:"IBM Plex Sans",sans-serif}
+details.tip summary::-webkit-details-marker{display:none}
+details.tip summary:hover{border-color:var(--seal);color:var(--seal)}
+details.tip[open] summary{background:var(--seal);color:#fff;
+  border-color:var(--seal)}
+details.tip .pop{position:absolute;z-index:20;top:22px;left:-10px;width:270px;
+  background:var(--card);border:1px solid var(--seal);border-radius:2px;
+  padding:12px 14px;font-size:13px;line-height:1.5;color:var(--muted);
+  text-transform:none;letter-spacing:0;font-weight:400;
+  box-shadow:0 6px 20px rgba(16,22,29,.13)}
+details.tip .pop strong{color:var(--ink)}
+@media (max-width:560px){details.tip .pop{left:auto;right:-10px;width:240px}}
+
+/* how the model is tracking against the market */
+.versus{border:1px solid var(--rule);border-left:5px solid var(--muted);
+  background:var(--card);padding:18px 20px;margin:0 0 34px}
+.versus h3{font-size:17px;margin:0 0 8px}
+.versus p{margin:0 0 9px;color:var(--muted);font-size:14.5px;max-width:64ch}
+.versus p:last-child{margin-bottom:0}
+.versus .num{color:var(--ink);font-weight:600}
+
 footer{margin-top:52px;padding-top:20px;border-top:1px solid var(--rule);
   font-size:13px;color:var(--muted)}
 footer code{font-size:12px}
@@ -373,7 +422,7 @@ def bar_row(label, p, cls):
 
 
 def render_round(rnd, g, unlock):
-    label = str(g["round"].iloc[0])
+    label = tidy_round(g["round"].iloc[0])
     frozen = pd.to_datetime(g["frozen"].dropna()).min()
     frozen_txt = frozen.strftime("%d %b %Y") if pd.notna(frozen) else "—"
 
@@ -458,6 +507,66 @@ def render_round(rnd, g, unlock):
                  canonical=f"round-{rnd}.html")
 
 
+def market_block():
+    """Model vs market on the matched sample, computed fresh each build.
+
+    Accuracy and log loss disagree here and the copy says so: the model
+    picks more winners while the market is better calibrated. Publishing
+    only the flattering one of those two is the thing this whole site is
+    supposed to not do.
+    """
+    comp = pd.read_csv(os.path.join(HERE, "model_comparison.csv"))
+    comp = norm(comp).drop_duplicates(["date", "home_team", "away_team"],
+                                      keep="first")
+    d = comp.dropna(subset=["actual_home_win", "p_market", "p_base"])
+    if len(d) < 4:
+        return ""
+    y = d.actual_home_win.astype(float)
+
+    def ll(p):
+        p = np.clip(pd.to_numeric(p, errors="coerce"), 1e-6, 1 - 1e-6)
+        return float(-(y * np.log(p) + (1 - y) * np.log(1 - p)).mean())
+
+    mh = int(((d.p_base > .5).astype(int) == y).sum())
+    kh = int(((d.p_market > .5).astype(int) == y).sum())
+    lm, lk = ll(d.p_base), ll(d.p_market)
+    n = len(d)
+
+    if mh > kh:
+        lead = (f"the model has picked more winners than the bookmakers "
+                f"&mdash; <span class=\"num\">{mh} of {n}</span> against "
+                f"their <span class=\"num\">{kh}</span>")
+    elif mh < kh:
+        lead = (f"the bookmakers have picked more winners than the model "
+                f"&mdash; <span class=\"num\">{kh} of {n}</span> against "
+                f"our <span class=\"num\">{mh}</span>")
+    else:
+        lead = (f"the model and the bookmakers have picked the same number "
+                f"of winners &mdash; <span class=\"num\">{mh} of {n}</span> "
+                f"each")
+
+    if lk < lm:
+        cal = ("But the market&rsquo;s probabilities have been better "
+               "calibrated than ours: when we are wrong, we have tended to be "
+               "wrong confidently, and that costs more than it looks like it "
+               "should.")
+    else:
+        cal = ("Our probabilities have also been better calibrated than the "
+               "market&rsquo;s over this sample, which is the harder of the "
+               "two tests and the one that matters.")
+
+    return f"""<div class="versus">
+  <h3>How this compares to the market</h3>
+  <p>Across the <span class="num">{n}</span> matches where a closing price
+     was recorded, {lead}.</p>
+  <p>{cal} On log loss the market sits at
+     <span class="num">{lk:.3f}</span> against our
+     <span class="num">{lm:.3f}</span>. Closing that gap is the current work,
+     and it is the reason this archive exists.</p>
+  <p>Twenty-odd matches decides nothing either way. The season does.</p>
+</div>"""
+
+
 def render_index(df, published, sealed):
     done = df[df.rnd.isin(published)].copy()
     graded = [grade(r) for r in done.itertuples()]
@@ -480,8 +589,9 @@ def render_index(df, published, sealed):
            f'<div><div class="k">Correct</div><div class="v num">{hits}</div></div>'
            f'<div><div class="k">Accuracy</div>'
            f'<div class="v num">{(hits/n*100):.0f}%</div></div>'
-           + (f'<div><div class="k">Brier</div>'
-              f'<div class="v num">{brier:.3f}</div></div>' if brier is not None else "")
+           + (f'<div><div class="k">Brier {BRIER_POP}</div>'
+              f'<div class="v num">{brier:.3f}</div></div>'
+              if brier is not None else "")
            + '</div>') if n else ""
 
     rows = []
@@ -497,24 +607,31 @@ def render_index(df, published, sealed):
         gr = [grade(r) for r in g.itertuples()]
         ok2 = [c for _, c in gr if c is not None]
         right = (f"{sum(ok2)}/{len(ok2)} correct" if ok2 else "results pending")
+        part = ("" if len(g) >= 6 else
+                ' <span style="font-weight:400;color:var(--muted)">'
+                '&mdash; partial round, model started mid-round</span>')
         rows.append(f"""<a href="round-{rnd}.html">
-  <span class="lbl">{esc(str(g['round'].iloc[0]))}</span>
+  <span class="lbl">{esc(tidy_round(g['round'].iloc[0]))}{part}</span>
   <span class="right">{right}<br>{esc(min(g.date).strftime('%d %b'))}</span></a>""")
 
     cta = ""
     if sealed:
         nxt = min(sealed)
         g = df[df.rnd == nxt]
-        cta = f"""<div class="seal locked">
+        cta = f"""<div class="seal locked" id="subscribe">
   <div>
     <div class="stamp">Round {nxt} is sealed</div>
     <div class="when">It opens free to everyone at midnight
-      {esc(unlock_moment(max(g.date)).strftime('%A %d %B'))}.
-      Subscribers see it the Tuesday before.</div>
+      {esc(unlock_moment(max(g.date)).strftime('%A %d %B'))} &mdash; as every
+      round does, permanently.<br>
+      <strong style="color:var(--ink)">Subscribing does not buy
+      information.</strong> It funds the work, and you see each round on the
+      Tuesday before it is published.</div>
   </div>
   <div class="buy">
-    <a class="primary" href="#subscribe">{PRICE_SEASON}</a>
-    <a href="#subscribe">{PRICE_WEEK}</a>
+    <span class="soon">{PRICE_SEASON} &middot; about $1 a round<br>
+      <span class="soon-b">{PRICE_WEEK} single round</span><br>
+      <span class="soon-c">Subscriptions open Round 1, 2027</span></span>
   </div>
 </div>"""
 
@@ -525,8 +642,9 @@ starts</strong>. Once the round is over it is published here in full &mdash;
 every call, every probability, every miss.
 <strong>The archive is free, permanently.</strong> Subscribing only changes
 <em>when</em> you see it.</p>
-{cta}
 {rec}
+{market_block()}
+{cta}
 <h2 style="font-size:22px;margin:34px 0 14px">{SEASON} season</h2>
 <div class="rounds">{''.join(rows)}</div>
 
@@ -539,6 +657,9 @@ of the model forecast every fixture at once, and all five are graded.</p>
 <p class="lede">Nothing here is a tip and nothing is sold as a system for
 beating a bookmaker. It is a research project that happens to publish its
 predictions in advance, which is the only way a forecast can be tested.</p>
+<p class="lede">It runs on scrapers, a weather API and market data, and it
+takes a few hours every week. If you would like it to keep running, a
+subscription is how.</p>
 """
     desc = (f"Free archive of {SEASON} NRL match forecasts — probabilities "
             "recorded before kickoff and graded against results.")
@@ -804,7 +925,7 @@ a prediction.</p>
     desc = ("How the NRL forecast model works: Elo team ratings, player "
             "ratings from match statistics, injury and weather adjustment, "
             "and a market blend - with its known weaknesses stated.")
-    return shell(f"Method &mdash; {SITE_NAME}", body, desc,
+    return shell(f"Method — {SITE_NAME}", body, desc,
                  canonical="method.html")
 
 
