@@ -3762,3 +3762,96 @@ publish-only run
 publish_rounds: SITE_URL unset - skipping sitemap/robots
 publish_rounds: 5 round page(s) written, 1 sealed; next unlock round 23 at 2026-08-10 00:00
 ===== done =====
+forced day: 9
+
+===== 2026-08-06 11:52 (day 9) =====
+publish-only run
+publish_rounds: SITE_URL unset - skipping sitemap/robots
+publish_rounds: 5 round page(s) written, 1 sealed; next unlock round 23 at 2026-08-10 00:00
+===== done =====
+
+===== 2026-08-06 17:48 (day 4) =====
+16 upcoming NRL games, scanning...
+
+gold-coast-titans v north-queensland-cowboys
+  best: gold-coast-titans @ 2.55 (Neds)  |  north-queensland-cowboys @ 1.65 (TABtouch)
+  combined implied: 99.8%   *** ARBITRAGE 0.18% *** (stake split 39% / 61%)
+  live blend 44% home -> best-price EV: gold-coast-titans +10.9% @ 2.55 (Neds)  >>> VALUE
+
+warriors v penrith-panthers
+  best: warriors @ 2.56 (Betfair)  |  penrith-panthers @ 1.63 (TABtouch)
+  combined implied: 100.4%
+  live blend 41% home -> best-price EV: warriors +5.2% @ 2.56 (Betfair)  >>> VALUE
+
+sydney-roosters v canterbury-bankstown-bulldogs
+  best: sydney-roosters @ 1.40 (Betfair)  |  canterbury-bankstown-bulldogs @ 3.40 (Betfair)
+  combined implied: 100.8%
+  live blend 72% home -> best-price EV: sydney-roosters +0.1% @ 1.40 (Betfair)
+
+melbourne-storm v manly-warringah-sea-eagles
+  best: melbourne-storm @ 2.18 (SportsBet)  |  manly-warringah-sea-eagles @ 1.86 (Betfair)
+  combined implied: 99.6%   *** ARBITRAGE 0.36% *** (stake split 46% / 54%)
+  live blend 45% home -> best-price EV: manly-warringah-sea-eagles +1.9% @ 1.86 (Betfair)
+
+dolphins v brisbane-broncos
+  best: dolphins @ 1.44 (Neds)  |  brisbane-broncos @ 2.95 (TABtouch)
+  combined implied: 103.3%
+  live blend 70% home -> best-price EV: dolphins +0.4% @ 1.44 (Neds)
+
+south-sydney-rabbitohs v parramatta-eels
+  best: south-sydney-rabbitohs @ 1.38 (Betfair)  |  parramatta-eels @ 3.60 (PlayUp)
+  combined implied: 100.2%
+  live blend 68% home -> best-price EV: parramatta-eels +14.3% @ 3.60 (PlayUp)  >>> VALUE
+
+canberra-raiders v newcastle-knights
+  best: canberra-raiders @ 1.91 (SportsBet)  |  newcastle-knights @ 2.02 (Betfair)
+  combined implied: 101.9%
+  live blend 47% home -> best-price EV: newcastle-knights +6.5% @ 2.02 (Betfair)  >>> VALUE
+
+st-george-illawarra-dragons v cronulla-sutherland-sharks
+  best: st-george-illawarra-dragons @ 5.20 (Betfair)  |  cronulla-sutherland-sharks @ 1.20 (Neds)
+  combined implied: 102.6%
+  live blend 20% home -> best-price EV: st-george-illawarra-dragons +5.8% @ 5.20 (Betfair)  >>> VALUE
+
+penrith-panthers v sydney-roosters
+  best: penrith-panthers @ 1.49 (SportsBet)  |  sydney-roosters @ 2.64 (SportsBet)
+  combined implied: 105.0%
+
+manly-warringah-sea-eagles v dolphins
+  best: manly-warringah-sea-eagles @ 2.27 (SportsBet)  |  dolphins @ 1.64 (SportsBet)
+  combined implied: 105.0%
+
+canterbury-bankstown-bulldogs v south-sydney-rabbitohs
+  best: canterbury-bankstown-bulldogs @ 1.81 (SportsBet)  |  south-sydney-rabbitohs @ 2.04 (SportsBet)
+  combined implied: 104.3%
+
+cronulla-sutherland-sharks v canberra-raiders
+  best: cronulla-sutherland-sharks @ 1.34 (SportsBet)  |  canberra-raiders @ 3.27 (SportsBet)
+  combined implied: 105.2%
+
+parramatta-eels v north-queensland-cowboys
+  best: parramatta-eels @ 1.97 (SportsBet)  |  north-queensland-cowboys @ 1.87 (SportsBet)
+  combined implied: 104.2%
+
+brisbane-broncos v warriors
+  best: brisbane-broncos @ 2.39 (SportsBet)  |  warriors @ 1.58 (SportsBet)
+  combined implied: 105.1%
+
+newcastle-knights v gold-coast-titans
+  best: newcastle-knights @ 1.45 (SportsBet)  |  gold-coast-titans @ 2.78 (SportsBet)
+  combined implied: 104.9%
+
+wests-tigers v st-george-illawarra-dragons
+  best: wests-tigers @ 1.64 (SportsBet)  |  st-george-illawarra-dragons @ 2.27 (SportsBet)
+  combined implied: 105.0%
+
+Price snapshot logged: 192 quotes -> odds_history.csv
+publish_rounds: SITE_URL unset - skipping sitemap/robots
+publish_rounds: 5 round page(s) written, 1 sealed; next unlock round 23 at 2026-08-10 00:00
+===== done =====
+forced day: 9
+
+===== 2026-08-06 22:10 (day 9) =====
+publish-only run
+publish_rounds: 5 round page(s) written, 1 sealed; next unlock round 23 at 2026-08-10 00:00
+===== done =====

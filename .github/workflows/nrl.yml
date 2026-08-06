@@ -50,6 +50,7 @@ jobs:
       - name: Run scheduled tasks
         env:
           TZ: Australia/Sydney
+          SITE_URL: ${{ vars.SITE_URL }}
           FORCE_DAY: ${{ github.event.inputs.force_day || (github.event.schedule == '0 14 * * 0' && '9') || '' }}
         run: bash nrl_auto.sh
 

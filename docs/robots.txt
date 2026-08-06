@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://nrl-model.xaviermsmith.workers.dev/sitemap.xml
