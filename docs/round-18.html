@@ -60,6 +60,36 @@ nav a:hover{border-color:var(--seal)}
   color:var(--seal);border:1px solid var(--seal);border-radius:2px;
   padding:3px 8px}
 @media (max-width:560px){.buy .soon{text-align:left}}
+.seal.locked{display:block}
+.lock-head{display:flex;justify-content:space-between;gap:20px;
+  flex-wrap:wrap;align-items:flex-start}
+.timing{display:grid;grid-template-columns:1fr auto 1fr;gap:0;
+  align-items:stretch;margin:20px 0 0;border:1px solid var(--rule);
+  background:var(--paper)}
+.timing>div{padding:14px 16px}
+.t-now{background:var(--seal);color:#fff}
+.t-now .t-who{color:#B9CCE6}
+.t-now .t-note{color:#D7E2EF}
+.t-who{font-size:11px;letter-spacing:.15em;text-transform:uppercase;
+  font-weight:600;color:var(--muted);margin-bottom:3px}
+.t-when{font-family:"Barlow Condensed",sans-serif;font-weight:700;
+  font-size:21px;text-transform:uppercase;line-height:1.15;margin-bottom:6px}
+.t-note{font-size:13px;line-height:1.45;color:var(--muted);max-width:34ch}
+.t-gap{display:flex;align-items:center;justify-content:center;
+  background:var(--card);border-left:1px solid var(--rule);
+  border-right:1px solid var(--rule);padding:0 14px!important}
+.t-gap span{font-family:"IBM Plex Mono",monospace;font-size:11px;
+  letter-spacing:.13em;text-transform:uppercase;color:var(--seal);
+  white-space:nowrap;writing-mode:vertical-rl;transform:rotate(180deg)}
+.lock-foot{margin:16px 0 0;font-size:14px;color:var(--muted);max-width:70ch}
+.lock-foot strong{color:var(--ink)}
+@media (max-width:640px){
+  .timing{grid-template-columns:1fr}
+  .t-gap{border-left:none;border-right:none;border-top:1px solid var(--rule);
+    border-bottom:1px solid var(--rule);padding:7px 14px!important}
+  .t-gap span{writing-mode:horizontal-tb;transform:none}
+  .t-note{max-width:none}
+}
 
 /* record strip */
 .record{display:grid;grid-template-columns:repeat(auto-fit,minmax(118px,1fr));
@@ -265,7 +295,7 @@ footer code{font-size:12px}
   <p>Forecasts are the output of a statistical model and are published for
   research and interest. They are not betting advice. Gamble responsibly &mdash;
   Gambling Help 1800 858 858.</p>
-  <p class="num">Built 2026-08-06 22:41 AEST &middot;
-     <code>d1c83ee</code></p>
+  <p class="num">Built 2026-08-06 22:53 AEST &middot;
+     <code>8015c6d</code></p>
 </footer>
 </div></body></html>
