@@ -53,6 +53,13 @@ nav a:hover{border-color:var(--seal)}
   border:1px solid var(--seal);border-radius:2px;font-size:14px;
   font-weight:600;white-space:nowrap}
 .buy a.primary{background:var(--seal);color:#fff}
+.buy .soon{font-size:15px;font-weight:600;line-height:1.55;text-align:right}
+.buy .soon-b{font-weight:400;color:var(--muted);font-size:14px}
+.buy .soon-c{display:inline-block;margin-top:6px;font-weight:400;
+  font-size:11px;letter-spacing:.13em;text-transform:uppercase;
+  color:var(--seal);border:1px solid var(--seal);border-radius:2px;
+  padding:3px 8px}
+@media (max-width:560px){.buy .soon{text-align:left}}
 
 /* record strip */
 .record{display:grid;grid-template-columns:repeat(auto-fit,minmax(118px,1fr));
@@ -147,6 +154,34 @@ nav a:hover{border-color:var(--seal)}
 h2.sec{font-size:24px;margin:46px 0 6px}
 .sub{color:var(--muted);max-width:62ch;margin:0 0 22px}
 
+
+/* Brier explainer - <details> so it works with no JS at all */
+.record .k{display:flex;align-items:center;gap:5px}
+details.tip{position:relative;display:inline}
+details.tip summary{list-style:none;cursor:pointer;width:14px;height:14px;
+  border:1px solid var(--muted);color:var(--muted);border-radius:50%;
+  font-size:10px;line-height:12px;text-align:center;display:inline-block;
+  font-family:"IBM Plex Sans",sans-serif}
+details.tip summary::-webkit-details-marker{display:none}
+details.tip summary:hover{border-color:var(--seal);color:var(--seal)}
+details.tip[open] summary{background:var(--seal);color:#fff;
+  border-color:var(--seal)}
+details.tip .pop{position:absolute;z-index:20;top:22px;left:-10px;width:270px;
+  background:var(--card);border:1px solid var(--seal);border-radius:2px;
+  padding:12px 14px;font-size:13px;line-height:1.5;color:var(--muted);
+  text-transform:none;letter-spacing:0;font-weight:400;
+  box-shadow:0 6px 20px rgba(16,22,29,.13)}
+details.tip .pop strong{color:var(--ink)}
+@media (max-width:560px){details.tip .pop{left:auto;right:-10px;width:240px}}
+
+/* how the model is tracking against the market */
+.versus{border:1px solid var(--rule);border-left:5px solid var(--muted);
+  background:var(--card);padding:18px 20px;margin:0 0 34px}
+.versus h3{font-size:17px;margin:0 0 8px}
+.versus p{margin:0 0 9px;color:var(--muted);font-size:14.5px;max-width:64ch}
+.versus p:last-child{margin-bottom:0}
+.versus .num{color:var(--ink);font-weight:600}
+
 footer{margin-top:52px;padding-top:20px;border-top:1px solid var(--rule);
   font-size:13px;color:var(--muted)}
 footer code{font-size:12px}
@@ -170,7 +205,7 @@ footer code{font-size:12px}
   <p>Forecasts are the output of a statistical model and are published for
   research and interest. They are not betting advice. Gamble responsibly &mdash;
   Gambling Help 1800 858 858.</p>
-  <p class="num">Built 2026-08-06 22:10 AEST &middot;
-     <code>bebecfd</code></p>
+  <p class="num">Built 2026-08-06 22:41 AEST &middot;
+     <code>d1c83ee</code></p>
 </footer>
 </div></body></html>
