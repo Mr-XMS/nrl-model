@@ -3849,3 +3849,9 @@ Price snapshot logged: 192 quotes -> odds_history.csv
 publish_rounds: SITE_URL unset - skipping sitemap/robots
 publish_rounds: 5 round page(s) written, 1 sealed; next unlock round 23 at 2026-08-10 00:00
 ===== done =====
+forced day: 9
+
+===== 2026-08-06 22:10 (day 9) =====
+publish-only run
+publish_rounds: 5 round page(s) written, 1 sealed; next unlock round 23 at 2026-08-10 00:00
+===== done =====
