@@ -4111,3 +4111,100 @@ st-george-illawarra-dragons v cronulla-sutherland-sharks: cronulla-sutherland-sh
 All fixtures already logged this week (first predictions kept).
 publish_rounds: 5 round page(s) written, 1 sealed; next unlock round 23 at 2026-08-10 00:00
 ===== done =====
+
+===== 2026-08-09 09:40 (day 7) =====
+10 upcoming NRL games, scanning...
+
+canberra-raiders v newcastle-knights
+  best: canberra-raiders @ 1.71 (Bet Right)  |  newcastle-knights @ 2.36 (Betfair)
+  combined implied: 100.9%
+  live blend 51% home -> best-price EV: newcastle-knights +16.6% @ 2.36 (Betfair)  >>> VALUE
+
+st-george-illawarra-dragons v cronulla-sutherland-sharks
+  best: st-george-illawarra-dragons @ 6.60 (Betfair)  |  cronulla-sutherland-sharks @ 1.16 (PointsBet (AU))
+  combined implied: 101.4%
+  live blend 18% home -> best-price EV: st-george-illawarra-dragons +20.3% @ 6.60 (Betfair)  >>> VALUE
+
+penrith-panthers v sydney-roosters
+  best: penrith-panthers @ 1.73 (Neds)  |  sydney-roosters @ 2.24 (SportsBet)
+  combined implied: 102.4%
+
+manly-warringah-sea-eagles v dolphins
+  best: manly-warringah-sea-eagles @ 2.45 (TAB)  |  dolphins @ 1.58 (SportsBet)
+  combined implied: 104.1%
+
+canterbury-bankstown-bulldogs v south-sydney-rabbitohs
+  best: canterbury-bankstown-bulldogs @ 1.72 (SportsBet)  |  south-sydney-rabbitohs @ 2.20 (Neds)
+  combined implied: 103.6%
+
+cronulla-sutherland-sharks v canberra-raiders
+  best: cronulla-sutherland-sharks @ 1.35 (SportsBet)  |  canberra-raiders @ 3.50 (TAB)
+  combined implied: 102.6%
+
+parramatta-eels v north-queensland-cowboys
+  best: parramatta-eels @ 2.42 (SportsBet)  |  north-queensland-cowboys @ 1.65 (Neds)
+  combined implied: 101.9%
+
+brisbane-broncos v warriors
+  best: brisbane-broncos @ 2.58 (SportsBet)  |  warriors @ 1.52 (TAB)
+  combined implied: 104.5%
+
+newcastle-knights v gold-coast-titans
+  best: newcastle-knights @ 1.30 (TAB)  |  gold-coast-titans @ 3.80 (SportsBet)
+  combined implied: 103.2%
+
+wests-tigers v st-george-illawarra-dragons
+  best: wests-tigers @ 1.65 (TAB)  |  st-george-illawarra-dragons @ 2.30 (Neds)
+  combined implied: 104.1%
+
+Price snapshot logged: 142 quotes -> odds_history.csv
+Fetching announced team lists: 2026 Round 23...
+Casualty ward: 67 players listed
+done: 3 scraped
+Running model comparison record:
+  A: baseline            n=31  acc=0.710  logloss=0.6586  brier=0.2322
+  B: return-adjusted     n=31  acc=0.710  logloss=0.6583  brier=0.2320
+  C: weather-adjusted    n=31  acc=0.710  logloss=0.6518  brier=0.2308
+  Market (bookmaker)     n=31  acc=0.708  logloss=0.5854  brier=0.1983
+  Blend (model+market)   n=31  acc=0.708  logloss=0.5943  brier=0.2021
+  Matches where the two models actually differ: 25 of 31
+
+gold-coast-titans v north-queensland-cowboys: north-queensland-cowboys (52%)   [PLAYED: 8-30]
+    player strength diff -1.03 | retention 82% v 82% | spine run 1 v 1
+    note: gold-coast-titans: 1 debutant/unmatched (rated league-average): Jojo Fifita
+
+warriors v penrith-panthers: penrith-panthers (56%)  [return-adjusted variant: home 44%]   [PLAYED: 28-12]
+    player strength diff +0.60 | retention 65% v 65% | spine run 1 v 1
+    note: warriors: 1 debutant/unmatched (rated league-average): Leka Halasima
+    note: penrith-panthers: Isaah Yeo (Pectoral, listed return TBC) - IN DOUBT, rating x0.6
+    note: penrith-panthers: 1 debutant/unmatched (rated league-average): Jaxen Edgar
+
+sydney-roosters v canterbury-bankstown-bulldogs: sydney-roosters (72%)   [PLAYED: 20-18]
+    player strength diff +1.24 | retention 65% v 76% | spine run 1 v 1
+    note: canterbury-bankstown-bulldogs: Sitili Tupouniua (Hamstring, listed return TBC) - IN DOUBT, rating x0.6
+    note: canterbury-bankstown-bulldogs: 1 debutant/unmatched (rated league-average): Jethro Rinakama
+
+melbourne-storm v manly-warringah-sea-eagles: manly-warringah-sea-eagles (56%)  [return-adjusted variant: home 44%]  [WET forecast 16mm - weather variant: home 42%]   [PLAYED: 42-20]
+    player strength diff -0.31 | retention 53% v 76% | spine run 1 v 1
+    note: melbourne-storm: 1 debutant/unmatched (rated league-average): Hayden Watson
+    note: manly-warringah-sea-eagles: Taniela Paseka (Knee, listed return TBC) - IN DOUBT, rating x0.6
+
+dolphins v brisbane-broncos: dolphins (72%)  [return-adjusted variant: home 72%]   [PLAYED: 40-32]
+    player strength diff +1.16 | retention 76% v 59% | spine run 1 v 1
+
+south-sydney-rabbitohs v parramatta-eels: south-sydney-rabbitohs (63%)  [return-adjusted variant: home 63%]   [PLAYED: 28-24]
+    player strength diff +0.42 | retention 65% v 65% | spine run 1 v 1
+
+canberra-raiders v newcastle-knights: newcastle-knights (57%)  [WET forecast 13mm - weather variant: home 43%]
+    market 58% home | blend 51% home  >>> EDGE: model likes newcastle-knights (15 pts vs market)
+    player strength diff +0.29 | retention 88% v 76% | spine run 1 v 1
+    note: newcastle-knights: 1 debutant/unmatched (rated league-average): Lachlan Crouch
+
+st-george-illawarra-dragons v cronulla-sutherland-sharks: cronulla-sutherland-sharks (78%)
+    market 17% home | blend 20% home
+    player strength diff -0.94 | retention 71% v 82% | spine run 1 v 2
+    note: st-george-illawarra-dragons: 1 debutant/unmatched (rated league-average): Jacob Webster
+
+All fixtures already logged this week (first predictions kept).
+publish_rounds: 5 round page(s) written, 1 sealed; next unlock round 23 at 2026-08-10 00:00
+===== done =====
