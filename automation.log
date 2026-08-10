@@ -4215,3 +4215,25 @@ publish-only run
 publish_rounds: opened round(s) 23
 publish_rounds: 6 round page(s) written, 0 sealed
 ===== done =====
+
+===== 2026-08-10 12:31 (day 1) =====
+Fetching NRL 2026 from Rugby League Project...
+Season 2026: 172 completed matches on site, 8 new added to dataset (3593 total). 32 future fixtures listed.
+Graded 8 new predictions. Running record: 43 graded, accuracy 67.4%, Brier 0.2251
+Lineups refreshed.
+
+Predictions — Round 24 - Indigenous Round:
+  2026-08-13  penrith-panthers                 v sydney-roosters                  -> penrith-panthers (62%)
+  2026-08-14  manly-warringah-sea-eagles       v dolphins                         -> dolphins (61%)
+  2026-08-14  canterbury-bankstown-bulldogs    v south-sydney-rabbitohs           -> canterbury-bankstown-bulldogs (70%)
+  2026-08-15  cronulla-sutherland-sharks       v canberra-raiders                 -> cronulla-sutherland-sharks (63%)
+  2026-08-15  parramatta-eels                  v north-queensland-cowboys         -> parramatta-eels (80%)
+  2026-08-15  brisbane-broncos                 v warriors                         -> warriors (76%)
+  2026-08-16  newcastle-knights                v gold-coast-titans                -> newcastle-knights (82%)
+  2026-08-16  wests-tigers                     v st-george-illawarra-dragons      -> wests-tigers (56%)
+
+Logged to predictions.csv
+done: 0 scraped
+Paper bets: graded 3 new | season: 14 bets, staked $33, P&L $-7 (-20.6% ROI)
+publish_rounds: 6 round page(s) written, 1 sealed; next unlock round 24 at 2026-08-17 00:00
+===== done =====

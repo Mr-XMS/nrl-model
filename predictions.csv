@@ -35,11 +35,19 @@ run_date,season,round,date,home_team,away_team,venue,p_home_win,predicted_winner
 2026-07-26,2026,Round 22,2026-08-01,brisbane-broncos,newcastle-knights,Suncorp,0.472,newcastle-knights,0.0
 2026-07-26,2026,Round 22,2026-08-02,cronulla-sutherland-sharks,south-sydney-rabbitohs,Ocean Protect,0.806,cronulla-sutherland-sharks,1.0
 2026-07-26,2026,Round 22,2026-08-02,wests-tigers,parramatta-eels,CommBank,0.421,parramatta-eels,0.0
-2026-08-03,2026,Round 23 - Indigenous Round,2026-08-06,gold-coast-titans,north-queensland-cowboys,Cbus Super,0.539,gold-coast-titans,
-2026-08-03,2026,Round 23 - Indigenous Round,2026-08-07,warriors,penrith-panthers,Go Media,0.526,warriors,
-2026-08-03,2026,Round 23 - Indigenous Round,2026-08-07,sydney-roosters,canterbury-bankstown-bulldogs,Allianz,0.728,sydney-roosters,
-2026-08-03,2026,Round 23 - Indigenous Round,2026-08-08,melbourne-storm,manly-warringah-sea-eagles,HBF,0.702,melbourne-storm,
-2026-08-03,2026,Round 23 - Indigenous Round,2026-08-08,dolphins,brisbane-broncos,Suncorp,0.494,brisbane-broncos,
-2026-08-03,2026,Round 23 - Indigenous Round,2026-08-08,south-sydney-rabbitohs,parramatta-eels,Allianz,0.647,south-sydney-rabbitohs,
-2026-08-03,2026,Round 23 - Indigenous Round,2026-08-09,canberra-raiders,newcastle-knights,GIO,0.477,newcastle-knights,
-2026-08-03,2026,Round 23 - Indigenous Round,2026-08-09,st-george-illawarra-dragons,cronulla-sutherland-sharks,SGV Jubilee,0.197,cronulla-sutherland-sharks,
+2026-08-03,2026,Round 23 - Indigenous Round,2026-08-06,gold-coast-titans,north-queensland-cowboys,Cbus Super,0.539,gold-coast-titans,0.0
+2026-08-03,2026,Round 23 - Indigenous Round,2026-08-07,warriors,penrith-panthers,Go Media,0.526,warriors,1.0
+2026-08-03,2026,Round 23 - Indigenous Round,2026-08-07,sydney-roosters,canterbury-bankstown-bulldogs,Allianz,0.728,sydney-roosters,1.0
+2026-08-03,2026,Round 23 - Indigenous Round,2026-08-08,melbourne-storm,manly-warringah-sea-eagles,HBF,0.702,melbourne-storm,1.0
+2026-08-03,2026,Round 23 - Indigenous Round,2026-08-08,dolphins,brisbane-broncos,Suncorp,0.494,brisbane-broncos,1.0
+2026-08-03,2026,Round 23 - Indigenous Round,2026-08-08,south-sydney-rabbitohs,parramatta-eels,Allianz,0.647,south-sydney-rabbitohs,1.0
+2026-08-03,2026,Round 23 - Indigenous Round,2026-08-09,canberra-raiders,newcastle-knights,GIO,0.477,newcastle-knights,0.0
+2026-08-03,2026,Round 23 - Indigenous Round,2026-08-09,st-george-illawarra-dragons,cronulla-sutherland-sharks,SGV Jubilee,0.197,cronulla-sutherland-sharks,1.0
+2026-08-10,2026,Round 24 - Indigenous Round,2026-08-13,penrith-panthers,sydney-roosters,CommBank,0.618,penrith-panthers,
+2026-08-10,2026,Round 24 - Indigenous Round,2026-08-14,manly-warringah-sea-eagles,dolphins,4 Pines,0.386,dolphins,
+2026-08-10,2026,Round 24 - Indigenous Round,2026-08-14,canterbury-bankstown-bulldogs,south-sydney-rabbitohs,Accor,0.701,canterbury-bankstown-bulldogs,
+2026-08-10,2026,Round 24 - Indigenous Round,2026-08-15,cronulla-sutherland-sharks,canberra-raiders,Ocean Protect,0.629,cronulla-sutherland-sharks,
+2026-08-10,2026,Round 24 - Indigenous Round,2026-08-15,parramatta-eels,north-queensland-cowboys,CommBank,0.803,parramatta-eels,
+2026-08-10,2026,Round 24 - Indigenous Round,2026-08-15,brisbane-broncos,warriors,Suncorp,0.242,warriors,
+2026-08-10,2026,Round 24 - Indigenous Round,2026-08-16,newcastle-knights,gold-coast-titans,McD. Jones,0.817,newcastle-knights,
+2026-08-10,2026,Round 24 - Indigenous Round,2026-08-16,wests-tigers,st-george-illawarra-dragons,CommBank,0.556,wests-tigers,
