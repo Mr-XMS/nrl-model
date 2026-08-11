@@ -1,17 +1,11 @@
 home,away,player,team,status,p_fit,p_named,p_withdrawn,swing_pts
-gold-coast-titans,north-queensland-cowboys,Griffin Neame,north-queensland-cowboys,returning,0.4635,0.4645,0.4748,1.1
-sydney-roosters,canterbury-bankstown-bulldogs,Billy Smith,sydney-roosters,returning,0.7002,0.6999,0.6951,0.5
-sydney-roosters,canterbury-bankstown-bulldogs,Lindsay Collins,sydney-roosters,returning,0.7,0.6999,0.6998,0.0
-sydney-roosters,canterbury-bankstown-bulldogs,Sitili Tupouniua,canterbury-bankstown-bulldogs,returning,0.6998,0.6999,0.6999,0.0
-melbourne-storm,manly-warringah-sea-eagles,Jack Howarth,melbourne-storm,returning,0.4511,0.4502,0.4434,0.8
-melbourne-storm,manly-warringah-sea-eagles,Cameron Munster,melbourne-storm,returning,0.4511,0.4502,0.4467,0.4
-melbourne-storm,manly-warringah-sea-eagles,Brandon Wakeham,manly-warringah-sea-eagles,returning,0.4494,0.4502,0.4534,0.4
-melbourne-storm,manly-warringah-sea-eagles,Corey Waddell,manly-warringah-sea-eagles,returning,0.4502,0.4502,0.4547,0.4
-dolphins,brisbane-broncos,Xavier Willison,brisbane-broncos,returning,0.7302,0.7302,0.7353,0.5
-south-sydney-rabbitohs,parramatta-eels,Tallis Duncan,south-sydney-rabbitohs,returning,0.6255,0.6254,0.6209,0.5
-south-sydney-rabbitohs,parramatta-eels,David Fifita,south-sydney-rabbitohs,returning,0.6269,0.6254,0.6119,1.5
-south-sydney-rabbitohs,parramatta-eels,Cameron Murray,south-sydney-rabbitohs,returning,0.6258,0.6254,0.6166,0.9
-south-sydney-rabbitohs,parramatta-eels,Luca Moretti,parramatta-eels,returning,0.6249,0.6254,0.6264,0.1
-canberra-raiders,newcastle-knights,Simi Sasagi,canberra-raiders,returning,0.4194,0.4194,0.4138,0.6
-canberra-raiders,newcastle-knights,Harrison Graham,newcastle-knights,returning,0.4193,0.4194,0.4265,0.7
-st-george-illawarra-dragons,cronulla-sutherland-sharks,Hohepa Puru,cronulla-sutherland-sharks,returning,0.2115,0.2115,0.2157,0.4
+penrith-panthers,sydney-roosters,James Tedesco,sydney-roosters,returning,0.6198,0.6198,0.6156,0.4
+manly-warringah-sea-eagles,dolphins,Clayton Faulalo,manly-warringah-sea-eagles,returning,0.5225,0.5225,0.5224,0.0
+manly-warringah-sea-eagles,dolphins,Ray Stone,dolphins,returning,0.5226,0.5225,0.5206,0.2
+canterbury-bankstown-bulldogs,south-sydney-rabbitohs,Campbell Graham,south-sydney-rabbitohs,returning,0.6874,0.6872,0.6885,0.1
+cronulla-sutherland-sharks,canberra-raiders,KL Iro,cronulla-sutherland-sharks,returning,0.7993,0.7995,0.7981,0.1
+cronulla-sutherland-sharks,canberra-raiders,Siosifa Talakai,cronulla-sutherland-sharks,returning,0.7994,0.7995,0.7995,0.0
+parramatta-eels,north-queensland-cowboys,Reed Mahoney,north-queensland-cowboys,returning,0.5481,0.5477,0.5638,1.6
+brisbane-broncos,warriors,Demitric Vaimauga,warriors,returning,0.2576,0.2575,0.2606,0.3
+newcastle-knights,gold-coast-titans,Bradman Best,newcastle-knights,returning,0.8311,0.8312,0.8339,0.3
+wests-tigers,st-george-illawarra-dragons,Toby Couchman,st-george-illawarra-dragons,returning,0.5224,0.5224,0.5274,0.5
