@@ -150,3 +150,8 @@ run_time,date,home_team,away_team,kickoff,venue_city,p_base,p_market,wet,returni
 2026-08-14 09:56,2026-08-15,brisbane-broncos,warriors,2026-08-15T09:35:00Z,Brisbane,0.2835,0.331,0,0,0,0,0,1
 2026-08-14 09:56,2026-08-16,newcastle-knights,gold-coast-titans,2026-08-16T04:00:00Z,Newcastle,0.8191,0.7678,1,0,0,0,0,2
 2026-08-14 09:56,2026-08-16,wests-tigers,st-george-illawarra-dragons,2026-08-16T06:05:00Z,Sydney,0.5101,0.4974,0,0,0,0,0,2
+2026-08-15 09:35,2026-08-15,cronulla-sutherland-sharks,canberra-raiders,2026-08-15T05:00:00Z,Sydney,0.7946,0.7277,0,0,0,0,0,0
+2026-08-15 09:35,2026-08-15,parramatta-eels,north-queensland-cowboys,2026-08-15T07:30:00Z,Sydney,0.5639,0.3787,0,0,0,0,0,1
+2026-08-15 09:35,2026-08-15,brisbane-broncos,warriors,2026-08-15T09:35:00Z,Brisbane,0.2839,0.331,0,0,0,0,0,1
+2026-08-15 09:35,2026-08-16,newcastle-knights,gold-coast-titans,2026-08-16T04:00:00Z,Newcastle,0.8191,0.7678,0,0,0,0,0,2
+2026-08-15 09:35,2026-08-16,wests-tigers,st-george-illawarra-dragons,2026-08-16T06:05:00Z,Sydney,0.5099,0.4974,0,0,0,0,0,2
