@@ -4833,3 +4833,22 @@ wests-tigers v st-george-illawarra-dragons: wests-tigers (52%)
 All fixtures already logged this week (first predictions kept).
 publish_rounds: 6 round page(s) written, 1 sealed; next unlock round 24 at 2026-08-17 00:00
 ===== done =====
+forced day: 1
+
+===== 2026-08-16 21:39 (day 1) =====
+Fetching NRL 2026 from Rugby League Project...
+Season 2026: 176 completed matches on site, 4 new added to dataset (3597 total). 28 future fixtures listed.
+Graded 4 new predictions. Running record: 47 graded, accuracy 63.8%, Brier 0.2361
+Lineups refreshed.
+
+Predictions — Round 24 - Indigenous Round:
+  2026-08-15  parramatta-eels                  v north-queensland-cowboys         -> parramatta-eels (76%)
+  2026-08-15  brisbane-broncos                 v warriors                         -> warriors (76%)
+  2026-08-16  newcastle-knights                v gold-coast-titans                -> newcastle-knights (82%)
+  2026-08-16  wests-tigers                     v st-george-illawarra-dragons      -> wests-tigers (55%)
+
+Logged to predictions.csv
+done: 0 scraped
+Paper bets: graded 3 new | season: 17 bets, staked $41, P&L $-15 (-36.1% ROI)
+publish_rounds: 6 round page(s) written, 1 sealed; next unlock round 24 at 2026-08-17 00:00
+===== done =====
