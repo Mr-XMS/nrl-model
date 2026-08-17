@@ -47,7 +47,15 @@ run_date,season,round,date,home_team,away_team,venue,p_home_win,predicted_winner
 2026-08-10,2026,Round 24 - Indigenous Round,2026-08-14,manly-warringah-sea-eagles,dolphins,4 Pines,0.386,dolphins,0.0
 2026-08-10,2026,Round 24 - Indigenous Round,2026-08-14,canterbury-bankstown-bulldogs,south-sydney-rabbitohs,Accor,0.701,canterbury-bankstown-bulldogs,0.0
 2026-08-10,2026,Round 24 - Indigenous Round,2026-08-15,cronulla-sutherland-sharks,canberra-raiders,Ocean Protect,0.629,cronulla-sutherland-sharks,0.0
-2026-08-10,2026,Round 24 - Indigenous Round,2026-08-15,parramatta-eels,north-queensland-cowboys,CommBank,0.803,parramatta-eels,
-2026-08-10,2026,Round 24 - Indigenous Round,2026-08-15,brisbane-broncos,warriors,Suncorp,0.242,warriors,
-2026-08-10,2026,Round 24 - Indigenous Round,2026-08-16,newcastle-knights,gold-coast-titans,McD. Jones,0.817,newcastle-knights,
-2026-08-10,2026,Round 24 - Indigenous Round,2026-08-16,wests-tigers,st-george-illawarra-dragons,CommBank,0.556,wests-tigers,
+2026-08-10,2026,Round 24 - Indigenous Round,2026-08-15,parramatta-eels,north-queensland-cowboys,CommBank,0.803,parramatta-eels,1.0
+2026-08-10,2026,Round 24 - Indigenous Round,2026-08-15,brisbane-broncos,warriors,Suncorp,0.242,warriors,0.0
+2026-08-10,2026,Round 24 - Indigenous Round,2026-08-16,newcastle-knights,gold-coast-titans,McD. Jones,0.817,newcastle-knights,1.0
+2026-08-10,2026,Round 24 - Indigenous Round,2026-08-16,wests-tigers,st-george-illawarra-dragons,CommBank,0.556,wests-tigers,0.0
+2026-08-17,2026,Round 25 - Telstra Together Round,2026-08-20,melbourne-storm,penrith-panthers,AAMI,0.497,penrith-panthers,
+2026-08-17,2026,Round 25 - Telstra Together Round,2026-08-21,canberra-raiders,brisbane-broncos,GIO,0.727,canberra-raiders,
+2026-08-17,2026,Round 25 - Telstra Together Round,2026-08-21,dolphins,parramatta-eels,Suncorp,0.746,dolphins,
+2026-08-17,2026,Round 25 - Telstra Together Round,2026-08-22,newcastle-knights,manly-warringah-sea-eagles,McD. Jones,0.411,manly-warringah-sea-eagles,
+2026-08-17,2026,Round 25 - Telstra Together Round,2026-08-22,south-sydney-rabbitohs,warriors,Accor,0.747,south-sydney-rabbitohs,
+2026-08-17,2026,Round 25 - Telstra Together Round,2026-08-22,st-george-illawarra-dragons,canterbury-bankstown-bulldogs,Allianz,0.329,canterbury-bankstown-bulldogs,
+2026-08-17,2026,Round 25 - Telstra Together Round,2026-08-23,gold-coast-titans,cronulla-sutherland-sharks,Cbus Super,0.283,cronulla-sutherland-sharks,
+2026-08-17,2026,Round 25 - Telstra Together Round,2026-08-23,sydney-roosters,wests-tigers,Allianz,0.867,sydney-roosters,
