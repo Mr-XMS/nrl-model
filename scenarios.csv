@@ -1,11 +1,12 @@
 home,away,player,team,status,p_fit,p_named,p_withdrawn,swing_pts
-penrith-panthers,sydney-roosters,James Tedesco,sydney-roosters,returning,0.6198,0.6198,0.6156,0.4
-manly-warringah-sea-eagles,dolphins,Clayton Faulalo,manly-warringah-sea-eagles,returning,0.5225,0.5225,0.5224,0.0
-manly-warringah-sea-eagles,dolphins,Ray Stone,dolphins,returning,0.5226,0.5225,0.5206,0.2
-canterbury-bankstown-bulldogs,south-sydney-rabbitohs,Campbell Graham,south-sydney-rabbitohs,returning,0.6874,0.6872,0.6885,0.1
-cronulla-sutherland-sharks,canberra-raiders,KL Iro,cronulla-sutherland-sharks,returning,0.7993,0.7995,0.7981,0.1
-cronulla-sutherland-sharks,canberra-raiders,Siosifa Talakai,cronulla-sutherland-sharks,returning,0.7994,0.7995,0.7995,0.0
-parramatta-eels,north-queensland-cowboys,Reed Mahoney,north-queensland-cowboys,returning,0.5481,0.5477,0.5638,1.6
-brisbane-broncos,warriors,Demitric Vaimauga,warriors,returning,0.2576,0.2575,0.2606,0.3
-newcastle-knights,gold-coast-titans,Bradman Best,newcastle-knights,returning,0.8311,0.8312,0.8339,0.3
-wests-tigers,st-george-illawarra-dragons,Toby Couchman,st-george-illawarra-dragons,returning,0.5224,0.5224,0.5274,0.5
+melbourne-storm,penrith-panthers,Jack Howarth,melbourne-storm,returning,0.4513,0.4506,0.4409,1.0
+melbourne-storm,penrith-panthers,Harry Grant,melbourne-storm,returning,0.4515,0.4506,0.4355,1.6
+melbourne-storm,penrith-panthers,Casey McLean,penrith-panthers,returning,0.4505,0.4506,0.4489,0.2
+canberra-raiders,brisbane-broncos,Simi Sasagi,canberra-raiders,returning,0.7535,0.7535,0.7458,0.8
+newcastle-knights,manly-warringah-sea-eagles,Bradman Best,newcastle-knights,returning,0.6446,0.6437,0.6431,0.2
+newcastle-knights,manly-warringah-sea-eagles,Jacob Saifiti,newcastle-knights,returning,0.6437,0.6437,0.6452,0.1
+newcastle-knights,manly-warringah-sea-eagles,Tom Trbojevic,manly-warringah-sea-eagles,returning,0.6421,0.6437,0.6584,1.6
+newcastle-knights,manly-warringah-sea-eagles,Ben Trbojevic,manly-warringah-sea-eagles,returning,0.6437,0.6437,0.6525,0.9
+gold-coast-titans,cronulla-sutherland-sharks,Addin Fonua-Blake,cronulla-sutherland-sharks,returning,0.2095,0.2098,0.2189,0.9
+sydney-roosters,wests-tigers,James Tedesco,sydney-roosters,returning,0.8794,0.8793,0.8809,0.1
+sydney-roosters,wests-tigers,Alex Twal,wests-tigers,returning,0.8793,0.8793,0.8836,0.4

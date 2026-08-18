@@ -267,8 +267,8 @@ is published as the forecast. All five are recorded and graded. This allows the
 value of any adjustment to be settled by the record rather than by judgement.
 Versions that do not demonstrate an improvement are removed.</p>
 <div class="fan"><div class="arm live"><div class="nm">Version A: baseline</div><div class="ds">The full model with no experimental adjustment. This is the number published as the forecast.</div></div><div class="arm"><div class="nm">Version B: fitness ramp</div><div class="ds">Identical to A, except that returning players are discounted on a graded ramp rather than a flat multiplier.</div></div><div class="arm"><div class="nm">Version C: weather</div><div class="ds">Identical to A, with an adjustment that shrinks short-priced favourites when heavy rain is forecast at the venue.</div></div><div class="arm"><div class="nm">Market</div><div class="ds">The bookmaker price with the margin removed. Not a model, but the benchmark against which each model is measured.</div></div><div class="arm"><div class="nm">Blend</div><div class="ds">A 50/50 logit average of Version A and the market. If the model holds information the market lacks, this should outperform both.</div></div></div>
-<table class="tbl"><thead><tr><th>Version</th><th class="num">Graded</th><th class="num">Correct</th><th class="num">Log loss</th></tr></thead><tbody><tr class=""><td>Version A: baseline</td><td class="num">39</td><td class="num">69%</td><td class="num">0.6639</td></tr><tr class=""><td>Version B: fitness ramp</td><td class="num">39</td><td class="num">69%</td><td class="num">0.6638</td></tr><tr class=""><td>Version C: weather</td><td class="num">39</td><td class="num">69%</td><td class="num">0.6606</td></tr><tr class="best"><td>Market</td><td class="num">32</td><td class="num">66%</td><td class="num">0.6170</td></tr><tr class=""><td>Blend</td><td class="num">32</td><td class="num">69%</td><td class="num">0.6199</td></tr></tbody></table>
-<p class="caption">2026 standings across 39 graded matches. Lower
+<table class="tbl"><thead><tr><th>Version</th><th class="num">Graded</th><th class="num">Correct</th><th class="num">Log loss</th></tr></thead><tbody><tr class=""><td>Version A: baseline</td><td class="num">47</td><td class="num">64%</td><td class="num">0.6848</td></tr><tr class=""><td>Version B: fitness ramp</td><td class="num">47</td><td class="num">64%</td><td class="num">0.6846</td></tr><tr class=""><td>Version C: weather</td><td class="num">47</td><td class="num">66%</td><td class="num">0.6818</td></tr><tr class="best"><td>Market</td><td class="num">40</td><td class="num">62%</td><td class="num">0.6349</td></tr><tr class=""><td>Blend</td><td class="num">40</td><td class="num">62%</td><td class="num">0.6437</td></tr></tbody></table>
+<p class="caption">2026 standings across 47 graded matches. Lower
 log loss is better: it rewards confident correct forecasts and penalises
 confident errors, which accuracy does not.
 <strong>This sample is not sufficient to support a conclusion.</strong>
@@ -282,17 +282,17 @@ is forecast three times: assuming full fitness, as named on the team sheet, and
 assuming withdrawal.</p>
 <div class="fan">
   <div class="arm"><div class="nm">Declared fit</div>
-    <div class="ds">Parramatta-Eels win
-      <strong class="num">54.8%</strong></div></div>
+    <div class="ds">Melbourne-Storm win
+      <strong class="num">45.1%</strong></div></div>
   <div class="arm live"><div class="nm">As named</div>
-    <div class="ds">Parramatta-Eels win
-      <strong class="num">54.8%</strong></div></div>
+    <div class="ds">Melbourne-Storm win
+      <strong class="num">45.1%</strong></div></div>
   <div class="arm"><div class="nm">Withdrawn</div>
-    <div class="ds">Parramatta-Eels win
-      <strong class="num">56.4%</strong></div></div>
+    <div class="ds">Melbourne-Storm win
+      <strong class="num">43.5%</strong></div></div>
 </div>
 <p class="caption">Example from the current round:
-<strong>Reed Mahoney</strong> (North-Queensland-Cowboys, returning from injury).
+<strong>Harry Grant</strong> (Melbourne-Storm, returning from injury).
 The three cases are computed together. The spread between them, here
 1.6 points, quantifies the effect of the selection. Most players
 move the probability by less than one point. Publishing the spread in advance
@@ -356,7 +356,7 @@ results.</p>
   <p>Forecasts are the output of a statistical model and are published for
   research purposes. They are not betting advice. Gamble responsibly.
   Gambling Help 1800 858 858.</p>
-  <p class="num">Built 2026-08-17 11:53 AEST &middot;
-     <code>cbbfdc0</code></p>
+  <p class="num">Built 2026-08-18 18:09 AEST &middot;
+     <code>feaa3a6</code></p>
 </footer>
 </div></body></html>

@@ -4881,3 +4881,172 @@ done: 0 scraped
 Paper bets: graded 1 new | season: 18 bets, staked $44, P&L $-10 (-22.6% ROI)
 publish_rounds: 7 round page(s) written, 1 sealed; next unlock round 25 at 2026-08-24 00:00
 ===== done =====
+
+===== 2026-08-18 18:03 (day 2) =====
+Fetching NRL 2026 from Rugby League Project...
+Season 2026: 180 completed matches on site, 0 new added to dataset (3601 total). 24 future fixtures listed.
+Graded 0 new predictions. Running record: 51 graded, accuracy 64.7%, Brier 0.2262
+Lineups refreshed.
+
+Predictions — Round 25 - Telstra Together Round:
+  2026-08-20  melbourne-storm                  v penrith-panthers                 -> penrith-panthers (50%)
+  2026-08-21  canberra-raiders                 v brisbane-broncos                 -> canberra-raiders (73%)
+  2026-08-21  dolphins                         v parramatta-eels                  -> dolphins (75%)
+  2026-08-22  newcastle-knights                v manly-warringah-sea-eagles       -> manly-warringah-sea-eagles (59%)
+  2026-08-22  south-sydney-rabbitohs           v warriors                         -> south-sydney-rabbitohs (75%)
+  2026-08-22  st-george-illawarra-dragons      v canterbury-bankstown-bulldogs    -> canterbury-bankstown-bulldogs (67%)
+  2026-08-23  gold-coast-titans                v cronulla-sutherland-sharks       -> cronulla-sutherland-sharks (72%)
+  2026-08-23  sydney-roosters                  v wests-tigers                     -> sydney-roosters (87%)
+
+Logged to predictions.csv
+Fetching announced team lists: 2026 Round 25...
+Casualty ward: 85 players listed
+done: 2 scraped
+Running model comparison record:
+  A: baseline            n=47  acc=0.638  logloss=0.6848  brier=0.2441
+  B: return-adjusted     n=47  acc=0.638  logloss=0.6846  brier=0.2440
+  C: weather-adjusted    n=47  acc=0.660  logloss=0.6818  brier=0.2433
+  Market (bookmaker)     n=47  acc=0.625  logloss=0.6349  brier=0.2213
+  Blend (model+market)   n=47  acc=0.625  logloss=0.6437  brier=0.2250
+  Matches where the two models actually differ: 41 of 47
+
+melbourne-storm v penrith-panthers: penrith-panthers (58%)  [return-adjusted variant: home 43%]
+    market 32% home | blend 37% home  >>> EDGE: model likes melbourne-storm (10 pts vs market)
+    player strength diff -0.83 | retention 71% v 71% | spine run 1 v 1
+    note: melbourne-storm: Jack Howarth (Shoulder, listed return Round 25) - first game back, rating x0.8
+    note: melbourne-storm: Harry Grant (Hamstring, listed return Round 25) - first game back, rating x0.8
+    note: penrith-panthers: Casey McLean (Hand, listed return Round 25) - first game back, rating x0.8
+
+canberra-raiders v brisbane-broncos: canberra-raiders (76%)  [return-adjusted variant: home 76%]
+    market 73% home | blend 74% home
+    player strength diff +0.98 | retention 88% v 53% | spine run 1 v 1
+    note: canberra-raiders: Simi Sasagi (Shoulder, listed return Round 25) - first game back, rating x0.8
+
+dolphins v parramatta-eels: dolphins (74%)
+    market 77% home | blend 75% home
+    player strength diff +1.01 | retention 65% v 53% | spine run 1 v 1
+    note: parramatta-eels: 2 debutant/unmatched (rated league-average): Apa Twidle, Jezaiah Funa
+
+newcastle-knights v manly-warringah-sea-eagles: newcastle-knights (63%)
+    market 65% home | blend 64% home
+    player strength diff -0.60 | retention 76% v 76% | spine run 1 v 1
+    note: newcastle-knights: Bradman Best (Calf, listed return Round 25) - first game back, rating x0.8
+    note: newcastle-knights: Jacob Saifiti (Hamstring, listed return Round 25) - first game back, rating x0.8
+    note: newcastle-knights: 1 debutant/unmatched (rated league-average): Lachlan Crouch
+    note: manly-warringah-sea-eagles: Tom Trbojevic (Hamstring, listed return Round 25) - first game back, rating x0.8
+    note: manly-warringah-sea-eagles: Ben Trbojevic (Concussion, listed return Round 25) - first game back, rating x0.8
+
+south-sydney-rabbitohs v warriors: warriors (58%)  [return-adjusted variant: home 43%]
+    market 43% home | blend 43% home
+    player strength diff -0.96 | retention 76% v 71% | spine run 1 v 1
+    note: warriors: 1 debutant/unmatched (rated league-average): Leka Halasima
+
+st-george-illawarra-dragons v canterbury-bankstown-bulldogs: canterbury-bankstown-bulldogs (69%)  [return-adjusted variant: home 31%]  [WET forecast 10mm - weather variant: home 38%]
+    market 36% home | blend 33% home
+    player strength diff -0.70 | retention 71% v 82% | spine run 1 v 1
+    note: st-george-illawarra-dragons: 1 debutant/unmatched (rated league-average): Jacob Webster
+
+gold-coast-titans v cronulla-sutherland-sharks: cronulla-sutherland-sharks (80%)  [return-adjusted variant: home 21%]
+    market 35% home | blend 27% home  >>> EDGE: model likes cronulla-sutherland-sharks (14 pts vs market)
+    player strength diff -1.88 | retention 71% v 76% | spine run 1 v 1
+    note: gold-coast-titans: 2 debutant/unmatched (rated league-average): Jojo Fifita, Bodhi Sharpley
+    note: cronulla-sutherland-sharks: Addin Fonua-Blake (Suspension, listed return Round 25) - first game back, rating x0.8
+
+sydney-roosters v wests-tigers: sydney-roosters (88%)
+    market 90% home | blend 89% home
+    player strength diff +1.54 | retention 65% v 59% | spine run 1 v 1
+    note: sydney-roosters: James Tedesco (Ankle, listed return Round 25) - first game back, rating x0.8
+    note: wests-tigers: Alex Twal (Illness, listed return Round 25) - first game back, rating x0.8
+    note: wests-tigers: 1 debutant/unmatched (rated league-average): Solomone Saukuru
+
+Logged 8 new fixtures to model comparison trial.
+Graded 104 new. Ledger record: 520 legs, hit rate 44.0%, avg sim prob 45.8%, brier 0.2279
+Ledger: 624 total rows -> sgm_ledger.csv (fill book_odds column from your betting app before kickoff)
+88 blank legs across 8 games
+
+Filled 49 legs -> sgm_ledger.csv
+API credits remaining this month: 391
+39 legs still blank (combos + anything the books don't list) - fill manually or leave.
+8 upcoming NRL games, scanning...
+
+melbourne-storm v penrith-panthers
+  best: melbourne-storm @ 3.30 (Betr)  |  penrith-panthers @ 1.40 (SportsBet)
+  combined implied: 101.7%
+  live blend 36% home -> best-price EV: melbourne-storm +18.4% @ 3.30 (Betr)  >>> VALUE
+
+canberra-raiders v brisbane-broncos
+  best: canberra-raiders @ 1.36 (Betr)  |  brisbane-broncos @ 3.65 (PointsBet (AU))
+  combined implied: 100.9%
+  live blend 74% home -> best-price EV: canberra-raiders +1.2% @ 1.36 (Betr)
+
+dolphins v parramatta-eels
+  best: dolphins @ 1.26 (Betr)  |  parramatta-eels @ 4.40 (Betfair)
+  combined implied: 102.1%
+  live blend 76% home -> best-price EV: parramatta-eels +6.6% @ 4.40 (Betfair)  >>> VALUE
+
+newcastle-knights v manly-warringah-sea-eagles
+  best: newcastle-knights @ 1.47 (SportsBet)  |  manly-warringah-sea-eagles @ 3.00 (Betr)
+  combined implied: 101.4%
+  live blend 65% home -> best-price EV: manly-warringah-sea-eagles +4.9% @ 3.00 (Betr)  >>> VALUE
+
+south-sydney-rabbitohs v warriors
+  best: south-sydney-rabbitohs @ 2.50 (Ladbrokes)  |  warriors @ 1.67 (SportsBet)
+  combined implied: 99.9%   *** ARBITRAGE 0.12% *** (stake split 40% / 60%)
+  live blend 41% home -> best-price EV: south-sydney-rabbitohs +3.1% @ 2.50 (Ladbrokes)
+
+st-george-illawarra-dragons v canterbury-bankstown-bulldogs
+  best: st-george-illawarra-dragons @ 2.75 (TABtouch)  |  canterbury-bankstown-bulldogs @ 1.50 (Ladbrokes)
+  combined implied: 103.0%
+  live blend 33% home -> best-price EV: canterbury-bankstown-bulldogs +0.3% @ 1.50 (Ladbrokes)
+
+gold-coast-titans v cronulla-sutherland-sharks
+  best: gold-coast-titans @ 2.80 (TABtouch)  |  cronulla-sutherland-sharks @ 1.50 (TAB)
+  combined implied: 102.4%
+  live blend 27% home -> best-price EV: cronulla-sutherland-sharks +9.5% @ 1.50 (TAB)  >>> VALUE
+
+sydney-roosters v wests-tigers
+  best: sydney-roosters @ 1.07 (Ladbrokes)  |  wests-tigers @ 10.50 (PointsBet (AU))
+  combined implied: 103.0%
+  live blend 90% home -> best-price EV: wests-tigers +9.1% @ 10.50 (PointsBet (AU))  >>> VALUE
+
+Price snapshot logged: 176 quotes -> odds_history.csv
+Paper bets: graded 0 new | season: 18 bets, staked $44, P&L $-10 (-22.6% ROI)
+Paper bets: 2 new bets recorded -> bets_ledger.csv
+Scenario analysis: 2026 Round 25
+
+melbourne-storm v penrith-panthers  (home win, production baseline: 45.1%)
+  Jack Howarth               (melbourne-storm, returning)
+      plays fully fit 45.1% | as named 45.1% | WITHDRAWN 44.1%   swing fit-to-out: 1.0 pts
+  Harry Grant                (melbourne-storm, returning)
+      plays fully fit 45.1% | as named 45.1% | WITHDRAWN 43.5%   swing fit-to-out: 1.6 pts
+  Casey McLean               (penrith-panthers, returning)
+      plays fully fit 45.1% | as named 45.1% | WITHDRAWN 44.9%   swing fit-to-out: 0.2 pts
+
+canberra-raiders v brisbane-broncos  (home win, production baseline: 75.4%)
+  Simi Sasagi                (canberra-raiders, returning)
+      plays fully fit 75.4% | as named 75.4% | WITHDRAWN 74.6%   swing fit-to-out: 0.8 pts
+
+newcastle-knights v manly-warringah-sea-eagles  (home win, production baseline: 64.4%)
+  Bradman Best               (newcastle-knights, returning)
+      plays fully fit 64.5% | as named 64.4% | WITHDRAWN 64.3%   swing fit-to-out: 0.2 pts
+  Jacob Saifiti              (newcastle-knights, returning)
+      plays fully fit 64.4% | as named 64.4% | WITHDRAWN 64.5%   swing fit-to-out: 0.1 pts
+  Tom Trbojevic              (manly-warringah-sea-eagles, returning)
+      plays fully fit 64.2% | as named 64.4% | WITHDRAWN 65.8%   swing fit-to-out: 1.6 pts
+  Ben Trbojevic              (manly-warringah-sea-eagles, returning)
+      plays fully fit 64.4% | as named 64.4% | WITHDRAWN 65.3%   swing fit-to-out: 0.9 pts
+
+gold-coast-titans v cronulla-sutherland-sharks  (home win, production baseline: 21.0%)
+  Addin Fonua-Blake          (cronulla-sutherland-sharks, returning)
+      plays fully fit 20.9% | as named 21.0% | WITHDRAWN 21.9%   swing fit-to-out: 0.9 pts
+
+sydney-roosters v wests-tigers  (home win, production baseline: 87.9%)
+  James Tedesco              (sydney-roosters, returning)
+      plays fully fit 87.9% | as named 87.9% | WITHDRAWN 88.1%   swing fit-to-out: 0.1 pts
+  Alex Twal                  (wests-tigers, returning)
+      plays fully fit 87.9% | as named 87.9% | WITHDRAWN 88.4%   swing fit-to-out: 0.4 pts
+
+11 scenarios -> scenarios.csv
+1026 players -> player_ratings.csv
+publish_rounds: 7 round page(s) written, 1 sealed; next unlock round 25 at 2026-08-24 00:00
+===== done =====

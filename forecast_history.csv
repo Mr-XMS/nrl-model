@@ -157,3 +157,11 @@ run_time,date,home_team,away_team,kickoff,venue_city,p_base,p_market,wet,returni
 2026-08-15 09:35,2026-08-16,wests-tigers,st-george-illawarra-dragons,2026-08-16T06:05:00Z,Sydney,0.5099,0.4974,0,0,0,0,0,2
 2026-08-16 09:33,2026-08-16,newcastle-knights,gold-coast-titans,2026-08-16T04:00:00Z,Newcastle,0.8236,0.781,0,0,0,0,0,2
 2026-08-16 09:33,2026-08-16,wests-tigers,st-george-illawarra-dragons,2026-08-16T06:05:00Z,Sydney,0.5185,0.5052,0,0,0,0,0,2
+2026-08-18 18:06,2026-08-20,melbourne-storm,penrith-panthers,2026-08-20T09:50:00Z,Melbourne,0.4247,0.3204,0,2,1,0,0,3
+2026-08-18 18:06,2026-08-21,canberra-raiders,brisbane-broncos,2026-08-21T08:00:00Z,Canberra,0.7593,0.7265,0,1,0,0,0,1
+2026-08-18 18:06,2026-08-21,dolphins,parramatta-eels,2026-08-21T10:00:00Z,Brisbane,0.7369,0.7678,0,0,0,0,0,1
+2026-08-18 18:06,2026-08-22,newcastle-knights,manly-warringah-sea-eagles,2026-08-22T05:00:00Z,Newcastle,0.6292,0.6483,0,2,2,0,0,5
+2026-08-18 18:06,2026-08-22,south-sydney-rabbitohs,warriors,2026-08-22T07:30:00Z,Sydney,0.4241,0.4293,0,0,0,0,0,1
+2026-08-18 18:06,2026-08-22,st-george-illawarra-dragons,canterbury-bankstown-bulldogs,2026-08-22T09:35:00Z,Sydney,0.31,0.3566,1,0,0,0,0,1
+2026-08-18 18:06,2026-08-23,gold-coast-titans,cronulla-sutherland-sharks,2026-08-23T04:00:00Z,Gold Coast,0.2038,0.3476,0,0,1,0,0,2
+2026-08-18 18:06,2026-08-23,sydney-roosters,wests-tigers,2026-08-23T06:05:00Z,Sydney,0.8834,0.8996,0,1,1,0,0,3
