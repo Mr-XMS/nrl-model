@@ -1,504 +1,504 @@
 player,team,games,last_seen,presence_rating,presence_pct,position,stats_rating,stats_vs_position,tries_per_game
-Tom Trbojevic,manly-warringah-sea-eagles,123,2026-07-12,0.583,99,Fullback,-0.04,-0.48,0.824
-Dylan Edwards,penrith-panthers,167,2026-07-03,0.517,99,Fullback,-0.048,-0.488,0.388
-Peta Hiku,north-queensland-cowboys,118,2023-09-02,0.494,99,Centre,-1.761,-1.234,0.138
-Dunamis Lui,warriors,84,2022-08-26,0.457,99,Prop,-1.715,0.192,0.0
-Mitchell Barnett,warriors,146,2026-06-27,0.444,99,Prop,-1.442,0.466,0.111
+Tom Trbojevic,manly-warringah-sea-eagles,123,2026-07-12,0.583,99,Fullback,-0.011,-0.275,0.814
+Dylan Edwards,penrith-panthers,167,2026-07-03,0.517,99,Fullback,-0.012,-0.276,0.385
+Peta Hiku,north-queensland-cowboys,118,2023-09-02,0.494,99,Centre,-1.71,-1.323,0.138
+Dunamis Lui,warriors,84,2022-08-26,0.457,99,Prop,-1.662,0.185,0.0
+Mitchell Barnett,warriors,146,2026-06-27,0.444,99,Prop,-1.369,0.478,0.12
 Christopher Smith,penrith-panthers,35,2022-09-03,0.432,99,,,,
-Isaah Yeo,penrith-panthers,194,2026-06-27,0.43,99,Lock,-2.016,0.034,0.108
-Latrell Mitchell,south-sydney-rabbitohs,141,2026-05-15,0.424,99,Fullback,8.683,8.243,0.617
-Kurt Capewell,warriors,161,2026-06-27,0.418,99,2nd Row,-1.842,-0.137,0.21
-Kurt Donoghoe,dolphins,50,2026-07-11,0.418,99,Interchange,-2.034,-0.269,0.107
-Jahrome Hughes,melbourne-storm,177,2026-07-12,0.412,98,Halfback,-0.623,-2.493,0.405
-James Segeyaro,manly-warringah-sea-eagles,40,2022-07-28,0.39,98,Interchange,-0.296,1.469,0.0
-Reed Mahoney,north-queensland-cowboys,186,2026-07-12,0.381,98,Hooker,-2.398,-0.246,0.186
-Cody Walker,south-sydney-rabbitohs,190,2026-07-03,0.376,98,Five-Eighth,-0.969,-0.478,0.445
-James Fisher-Harris,warriors,193,2026-07-10,0.372,98,Prop,-1.913,-0.006,0.097
+Isaah Yeo,penrith-panthers,194,2026-06-27,0.43,99,Lock,-1.963,0.032,0.108
+Latrell Mitchell,south-sydney-rabbitohs,141,2026-05-15,0.424,99,Fullback,8.744,8.481,0.617
+Kurt Capewell,warriors,161,2026-06-27,0.418,99,2nd Row,-1.791,-0.141,0.208
+Kurt Donoghoe,dolphins,50,2026-07-11,0.418,99,Interchange,-1.975,-0.272,0.107
+Jahrome Hughes,melbourne-storm,177,2026-07-12,0.412,98,Halfback,-0.581,-2.498,0.405
+James Segeyaro,manly-warringah-sea-eagles,40,2022-07-28,0.39,98,Interchange,-0.286,1.417,0.0
+Reed Mahoney,north-queensland-cowboys,186,2026-07-12,0.381,98,Hooker,-2.351,-0.248,0.186
+Cody Walker,south-sydney-rabbitohs,190,2026-07-03,0.376,98,Five-Eighth,-0.909,-0.463,0.45
+James Fisher-Harris,warriors,193,2026-07-10,0.372,98,Prop,-1.836,0.011,0.104
 Zane Tetevano,penrith-panthers,67,2020-10-17,0.368,98,,,,
-Lachlan Fitzgibbon,newcastle-knights,97,2023-09-10,0.367,98,2nd Row,-1.656,0.049,0.195
+Lachlan Fitzgibbon,newcastle-knights,97,2023-09-10,0.367,98,2nd Row,-1.605,0.045,0.195
 Cameron Smith,melbourne-storm,71,2020-10-25,0.364,98,,,,
-David Fifita,south-sydney-rabbitohs,136,2026-07-12,0.353,98,2nd Row,-1.201,0.504,0.398
+David Fifita,south-sydney-rabbitohs,136,2026-07-12,0.353,98,2nd Row,-1.157,0.493,0.394
 Ligi Sao,warriors,13,2019-09-07,0.346,98,,,,
-Bradman Best,newcastle-knights,111,2026-06-28,0.345,97,Centre,-1.284,-0.757,0.369
-Mitchell Moses,parramatta-eels,162,2026-06-25,0.345,97,Halfback,8.857,6.987,0.274
-Haumole Olakau'Atu,manly-warringah-sea-eagles,120,2026-07-12,0.342,97,2nd Row,-1.243,0.462,0.4
-Tyson Smoothy,brisbane-broncos,46,2025-10-05,0.339,97,Interchange,-2.135,-0.371,0.032
-Jordan Mclean,north-queensland-cowboys,151,2025-08-30,0.332,97,Prop,-2.132,-0.225,0.028
-Albert Hopoate,canberra-raiders,42,2025-03-15,0.323,97,Winger,-1.508,-0.709,0.26
+Bradman Best,newcastle-knights,111,2026-06-28,0.345,97,Centre,-1.238,-0.851,0.365
+Mitchell Moses,parramatta-eels,162,2026-06-25,0.345,97,Halfback,8.896,6.979,0.271
+Haumole Olakau'Atu,manly-warringah-sea-eagles,120,2026-07-12,0.342,97,2nd Row,-1.195,0.455,0.397
+Tyson Smoothy,brisbane-broncos,46,2025-10-05,0.339,97,Interchange,-2.072,-0.369,0.032
+Jordan Mclean,north-queensland-cowboys,151,2025-08-30,0.332,97,Prop,-2.068,-0.22,0.028
+Albert Hopoate,canberra-raiders,42,2025-03-15,0.323,97,Winger,-1.453,-0.706,0.26
 Suliasi Vunivalu,melbourne-storm,63,2020-10-25,0.318,97,,,,
-Makahesi Makatoa,sydney-roosters,58,2025-07-06,0.317,97,Interchange,-2.179,-0.414,0.013
-Sam Verrills,gold-coast-titans,112,2026-06-20,0.317,97,Hooker,-2.591,-0.44,0.088
-Michael Oldfield,parramatta-eels,25,2021-09-03,0.314,97,Winger,-0.538,0.262,0.0
-Taane Milne,south-sydney-rabbitohs,68,2024-09-06,0.311,96,Winger,-1.396,-0.597,0.32
-Daniel Suluka-Fifita,canterbury-bankstown-bulldogs,45,2025-08-28,0.305,96,Interchange,-2.026,-0.261,0.021
-Tom Opacic,parramatta-eels,72,2022-09-16,0.302,96,Centre,-1.484,-0.957,0.317
-Kodi Nikorima,dolphins,177,2026-07-11,0.299,96,Five-Eighth,-0.468,0.024,0.195
-Mitch Kenny,penrith-panthers,131,2026-04-17,0.294,96,Hooker,-2.859,-0.707,0.033
-Apisai Koroisau,wests-tigers,172,2026-07-04,0.294,96,Hooker,-0.301,1.85,0.188
-Mark Nicholls,dolphins,163,2025-09-07,0.293,96,Interchange,-1.919,-0.155,0.106
-Felise Kaufusi,dolphins,171,2026-07-11,0.288,96,2nd Row,-2.102,-0.397,0.08
-Ali Leiataua,warriors,28,2026-07-10,0.288,96,Centre,-1.334,-0.807,0.324
-Ativalu Lisati,melbourne-storm,23,2026-06-27,0.288,96,Interchange,-1.585,0.18,0.179
-Jack De Belin,parramatta-eels,132,2026-07-11,0.288,95,Lock,-2.09,-0.04,0.086
-Corey Harawira-Naera,canberra-raiders,98,2023-05-27,0.288,96,2nd Row,-1.564,0.141,0.188
+Makahesi Makatoa,sydney-roosters,58,2025-07-06,0.317,97,Interchange,-2.11,-0.407,0.013
+Sam Verrills,gold-coast-titans,112,2026-06-20,0.317,97,Hooker,-2.539,-0.436,0.088
+Michael Oldfield,parramatta-eels,25,2021-09-03,0.314,97,Winger,-0.526,0.222,0.0
+Taane Milne,south-sydney-rabbitohs,68,2024-09-06,0.311,96,Winger,-1.34,-0.593,0.32
+Daniel Suluka-Fifita,canterbury-bankstown-bulldogs,45,2025-08-28,0.305,96,Interchange,-1.959,-0.256,0.021
+Tom Opacic,parramatta-eels,72,2022-09-16,0.302,96,Centre,-1.434,-1.047,0.317
+Kodi Nikorima,dolphins,177,2026-07-11,0.299,96,Five-Eighth,-0.43,0.016,0.194
+Mitch Kenny,penrith-panthers,131,2026-04-17,0.294,96,Hooker,-2.806,-0.703,0.033
+Apisai Koroisau,wests-tigers,172,2026-07-04,0.294,96,Hooker,-0.208,1.896,0.194
+Mark Nicholls,dolphins,163,2025-09-07,0.293,96,Interchange,-1.853,-0.15,0.106
+Felise Kaufusi,dolphins,171,2026-07-11,0.288,96,2nd Row,-2.046,-0.396,0.08
+Ali Leiataua,warriors,28,2026-07-10,0.288,96,Centre,-1.314,-0.927,0.314
+Ativalu Lisati,melbourne-storm,23,2026-06-27,0.288,96,Interchange,-1.532,0.171,0.179
+Jack De Belin,parramatta-eels,132,2026-07-11,0.288,95,Lock,-2.033,-0.038,0.085
+Corey Harawira-Naera,canberra-raiders,98,2023-05-27,0.288,96,2nd Row,-1.508,0.142,0.188
 Gideon Gela-Mosby,north-queensland-cowboys,7,2019-08-08,0.285,95,,,,
-Jeremiah Nanai,north-queensland-cowboys,87,2026-07-12,0.281,95,2nd Row,-1.093,0.612,0.543
-Adam Reynolds,brisbane-broncos,182,2026-06-11,0.28,95,Halfback,10.81,8.94,0.202
-Joseph Manu,sydney-roosters,160,2024-09-27,0.28,95,Centre,-1.142,-0.615,0.433
-Edrick Lee,dolphins,59,2023-04-07,0.279,95,Winger,-0.277,0.522,0.824
-Griffin Neame,north-queensland-cowboys,101,2026-07-12,0.276,95,Interchange,-2.04,-0.276,0.072
-Adam Pompey,warriors,129,2026-07-10,0.274,95,Centre,0.041,0.568,0.244
-Jesse Ramien,cronulla-sutherland-sharks,175,2026-07-11,0.274,95,Centre,-1.481,-0.954,0.323
-John Bateman,north-queensland-cowboys,88,2026-07-12,0.274,95,2nd Row,-2.059,-0.354,0.054
-Tyrone May,penrith-panthers,47,2021-10-03,0.273,94,Interchange,-1.683,0.081,0.13
-Nicho Hynes,cronulla-sutherland-sharks,137,2026-07-11,0.269,94,Halfback,10.685,8.815,0.256
-Reimis Smith,melbourne-storm,114,2024-06-09,0.269,94,Centre,-1.549,-1.022,0.319
-Iszac Fa'Asuamaleaui,gold-coast-titans,28,2025-09-06,0.266,94,Interchange,-1.969,-0.204,0.03
-Herbie Farnworth,dolphins,129,2026-07-11,0.265,94,Centre,-0.684,-0.157,0.487
-Joseph Tapine,canberra-raiders,183,2026-07-11,0.264,94,Prop,-1.915,-0.007,0.08
-Keegan Hipgrave,parramatta-eels,48,2021-09-03,0.262,94,Interchange,-1.405,0.36,0.0
-Jamie Humphreys,south-sydney-rabbitohs,30,2026-07-12,0.262,94,Halfback,0.327,-1.543,0.111
-Jared Waerea-Hargreaves,sydney-roosters,139,2024-09-27,0.262,94,Prop,-2.002,-0.094,0.038
-Murray Taulagi,north-queensland-cowboys,116,2026-07-12,0.261,94,Winger,-0.726,0.073,0.609
-Jack Howarth,melbourne-storm,47,2026-07-12,0.26,93,Centre,-1.603,-1.076,0.208
-Benji Marshall,south-sydney-rabbitohs,75,2021-10-03,0.257,93,Interchange,-1.649,0.115,0.12
-Fletcher Sharpe,newcastle-knights,41,2026-07-12,0.25,93,Five-Eighth,-0.556,-0.064,0.739
+Jeremiah Nanai,north-queensland-cowboys,87,2026-07-12,0.281,95,2nd Row,-1.038,0.612,0.543
+Adam Reynolds,brisbane-broncos,182,2026-06-11,0.28,95,Halfback,10.868,8.951,0.202
+Joseph Manu,sydney-roosters,160,2024-09-27,0.28,95,Centre,-1.09,-0.703,0.433
+Edrick Lee,dolphins,59,2023-04-07,0.279,95,Winger,-0.238,0.51,0.824
+Griffin Neame,north-queensland-cowboys,101,2026-07-12,0.276,95,Interchange,-1.974,-0.271,0.072
+Adam Pompey,warriors,129,2026-07-10,0.274,95,Centre,0.083,0.47,0.242
+Jesse Ramien,cronulla-sutherland-sharks,175,2026-07-11,0.274,95,Centre,-1.425,-1.038,0.323
+John Bateman,north-queensland-cowboys,88,2026-07-12,0.274,95,2nd Row,-2.008,-0.358,0.054
+Tyrone May,penrith-panthers,47,2021-10-03,0.273,94,Interchange,-1.632,0.071,0.13
+Nicho Hynes,cronulla-sutherland-sharks,137,2026-07-11,0.269,94,Halfback,10.763,8.846,0.254
+Reimis Smith,melbourne-storm,114,2024-06-09,0.269,94,Centre,-1.495,-1.108,0.319
+Iszac Fa'Asuamaleaui,gold-coast-titans,28,2025-09-06,0.266,94,Interchange,-1.906,-0.203,0.03
+Herbie Farnworth,dolphins,129,2026-07-11,0.265,94,Centre,-0.602,-0.215,0.5
+Joseph Tapine,canberra-raiders,183,2026-07-11,0.264,94,Prop,-1.855,-0.008,0.08
+Keegan Hipgrave,parramatta-eels,48,2021-09-03,0.262,94,Interchange,-1.361,0.343,0.0
+Jamie Humphreys,south-sydney-rabbitohs,30,2026-07-12,0.262,94,Halfback,0.371,-1.547,0.111
+Jared Waerea-Hargreaves,sydney-roosters,139,2024-09-27,0.262,94,Prop,-1.938,-0.091,0.038
+Murray Taulagi,north-queensland-cowboys,116,2026-07-12,0.261,94,Winger,-0.672,0.076,0.609
+Jack Howarth,melbourne-storm,47,2026-07-12,0.26,93,Centre,-1.52,-1.133,0.222
+Benji Marshall,south-sydney-rabbitohs,75,2021-10-03,0.257,93,Interchange,-1.6,0.104,0.12
+Fletcher Sharpe,newcastle-knights,41,2026-07-12,0.25,93,Five-Eighth,-0.539,-0.092,0.723
 Jordan Kahu,brisbane-broncos,34,2020-08-21,0.248,93,,,,
 Jeremy Latimore,st-george-illawarra-dragons,40,2019-09-07,0.247,93,,,,
 Sam Tagataese,brisbane-broncos,4,2018-06-16,0.246,93,,,,
-Campbell Graham,south-sydney-rabbitohs,145,2026-07-12,0.245,93,Centre,-1.154,-0.627,0.456
-Jarrod Croker,canberra-raiders,93,2023-08-26,0.245,93,Centre,7.352,7.879,0.143
-Dylan Brown,newcastle-knights,152,2026-07-12,0.244,93,Five-Eighth,-1.494,-1.002,0.238
-Luke Keary,sydney-roosters,141,2024-09-27,0.243,93,Five-Eighth,-1.17,-0.678,0.143
-Thomas Mikaele,north-queensland-cowboys,101,2026-07-12,0.242,92,Interchange,-2.177,-0.413,0.0
-Dale Copley,sydney-roosters,43,2021-08-22,0.242,92,Reserve,-0.812,0.364,0.375
-Moses Suli,st-george-illawarra-dragons,144,2026-06-07,0.241,92,Centre,-1.861,-1.334,0.15
-Aidan Sezer,wests-tigers,53,2024-08-22,0.241,92,Halfback,1.482,-0.388,0.0
-Spencer Leniu,sydney-roosters,126,2026-07-11,0.239,92,Interchange,-2.059,-0.295,0.081
-Maika Sivo,parramatta-eels,110,2024-09-06,0.239,92,Winger,-0.093,0.707,0.915
-Kl Iro,cronulla-sutherland-sharks,53,2026-07-11,0.238,92,Centre,-1.063,-0.536,0.469
-Lachlan Lewis,canterbury-bankstown-bulldogs,41,2021-07-25,0.238,92,Five-Eighth,-0.549,-0.058,0.286
-Patrick Mago,south-sydney-rabbitohs,35,2021-09-04,0.238,92,Interchange,-1.713,0.052,0.0
-Brandon Smith,south-sydney-rabbitohs,155,2026-07-12,0.237,92,Hooker,-1.955,0.197,0.202
-Jarome Luai,wests-tigers,161,2026-07-10,0.236,92,Five-Eighth,-1.787,-1.295,0.158
-Jamal Fogarty,manly-warringah-sea-eagles,130,2026-07-12,0.235,91,Halfback,8.405,6.535,0.137
-Tom Eisenhuth,st-george-illawarra-dragons,81,2024-09-07,0.234,91,Interchange,-2.06,-0.296,0.087
-Hugo Savala,sydney-roosters,32,2026-07-11,0.234,91,Centre,-0.155,0.372,0.3
-Ryan Papenhuyzen,melbourne-storm,112,2025-10-05,0.234,91,Fullback,6.526,6.085,0.803
-Josh Morris,sydney-roosters,79,2021-09-17,0.234,91,Centre,-0.962,-0.436,0.45
-Cameron Munster,melbourne-storm,184,2026-06-27,0.232,91,Five-Eighth,-0.437,0.054,0.306
-Christian Welch,melbourne-storm,127,2024-10-06,0.229,91,Prop,-1.96,-0.053,0.06
-Corey Thompson,gold-coast-titans,83,2022-09-03,0.229,91,Winger,-1.37,-0.57,0.265
-Aiden Tolman,cronulla-sutherland-sharks,94,2022-09-17,0.229,91,Interchange,-1.934,-0.169,0.048
-Dylan Lucas,newcastle-knights,55,2026-07-12,0.225,90,2nd Row,-1.357,0.348,0.358
-Jack Hetherington,melbourne-storm,99,2026-06-27,0.225,91,Interchange,-2.192,-0.427,0.033
-Royce Hunt,wests-tigers,102,2026-06-07,0.224,90,Interchange,-1.958,-0.194,0.121
-Josh Addo-Carr,parramatta-eels,172,2026-07-11,0.222,90,Winger,-0.498,0.301,0.716
-Xavier Savage,canberra-raiders,78,2026-07-11,0.219,90,Winger,-1.091,-0.292,0.505
-Clinton Gutherson,st-george-illawarra-dragons,196,2026-07-04,0.218,90,Fullback,0.912,0.472,0.479
-Jayden Sullivan,south-sydney-rabbitohs,57,2026-07-12,0.218,90,Interchange,-1.482,0.282,0.121
-Keenan Palasia,gold-coast-titans,63,2024-09-07,0.218,90,Interchange,-2.049,-0.285,0.058
-Jonah Pezet,parramatta-eels,24,2026-07-11,0.216,90,Five-Eighth,-0.324,0.168,0.2
-Alofiana Khan-Pereira,warriors,63,2026-07-10,0.212,90,Winger,-0.184,0.615,0.905
-Lehi Hopoate,manly-warringah-sea-eagles,52,2026-07-12,0.212,90,Winger,-0.757,0.043,0.554
-Brett Morris,sydney-roosters,61,2021-05-01,0.212,89,Winger,0.705,1.504,1.571
-Taine Tuaupiki,warriors,38,2026-07-10,0.207,89,Fullback,-1.376,-1.816,0.095
-Jacob Laban,warriors,34,2026-07-10,0.206,89,2nd Row,-1.804,-0.099,0.156
-Josh Papalii,canberra-raiders,183,2026-07-11,0.205,89,Prop,-1.872,0.035,0.124
-Daly Cherry-Evans,sydney-roosters,192,2026-07-11,0.203,89,Halfback,1.028,-0.842,0.307
-Greg Marzhew,newcastle-knights,102,2026-07-12,0.201,89,Winger,-0.584,0.215,0.657
-Isaiya Katoa,dolphins,82,2026-06-27,0.201,89,Halfback,-1.199,-3.069,0.093
-Iosia Soliola,canberra-raiders,79,2021-09-02,0.199,89,Interchange,-1.631,0.134,0.053
-Bronson Xerri,canterbury-bankstown-bulldogs,75,2026-07-11,0.198,89,Centre,-1.37,-0.843,0.35
-Daniel Tupou,sydney-roosters,180,2026-07-11,0.197,89,Winger,-0.442,0.357,0.732
-Jack Bostock,dolphins,48,2026-06-27,0.196,88,Winger,-0.724,0.076,0.588
-Tevita Pangai Junior,dolphins,108,2024-09-08,0.194,88,Prop,-1.809,0.098,0.134
-Chris Lewis,melbourne-storm,42,2024-08-08,0.193,88,Interchange,-2.048,-0.283,0.059
-Lipoi Hopoi,canterbury-bankstown-bulldogs,13,2026-06-08,0.193,88,Interchange,-1.882,-0.118,0.034
-Haze Dunster,parramatta-eels,18,2023-05-13,0.193,88,Winger,-1.644,-0.845,0.08
+Campbell Graham,south-sydney-rabbitohs,145,2026-07-12,0.245,93,Centre,-1.111,-0.724,0.451
+Jarrod Croker,canberra-raiders,93,2023-08-26,0.245,93,Centre,7.412,7.799,0.143
+Dylan Brown,newcastle-knights,152,2026-07-12,0.244,93,Five-Eighth,-1.446,-1.0,0.238
+Luke Keary,sydney-roosters,141,2024-09-27,0.243,93,Five-Eighth,-1.127,-0.681,0.143
+Thomas Mikaele,north-queensland-cowboys,101,2026-07-12,0.242,92,Interchange,-2.111,-0.407,0.0
+Dale Copley,sydney-roosters,43,2021-08-22,0.242,92,Reserve,-0.777,0.377,0.375
+Moses Suli,st-george-illawarra-dragons,144,2026-06-07,0.241,92,Centre,-1.806,-1.419,0.149
+Aidan Sezer,wests-tigers,53,2024-08-22,0.241,92,Halfback,1.521,-0.396,0.0
+Spencer Leniu,sydney-roosters,126,2026-07-11,0.239,92,Interchange,-1.992,-0.289,0.08
+Maika Sivo,parramatta-eels,110,2024-09-06,0.239,92,Winger,-0.039,0.709,0.915
+Kl Iro,cronulla-sutherland-sharks,53,2026-07-11,0.238,92,Centre,-1.023,-0.636,0.462
+Lachlan Lewis,canterbury-bankstown-bulldogs,41,2021-07-25,0.238,92,Five-Eighth,-0.524,-0.077,0.286
+Patrick Mago,south-sydney-rabbitohs,35,2021-09-04,0.238,92,Interchange,-1.659,0.044,0.0
+Brandon Smith,south-sydney-rabbitohs,155,2026-07-12,0.237,92,Hooker,-1.909,0.194,0.2
+Jarome Luai,wests-tigers,161,2026-07-10,0.236,92,Five-Eighth,-1.744,-1.298,0.157
+Jamal Fogarty,manly-warringah-sea-eagles,130,2026-07-12,0.235,91,Halfback,8.561,6.644,0.136
+Tom Eisenhuth,st-george-illawarra-dragons,81,2024-09-07,0.234,91,Interchange,-1.998,-0.295,0.087
+Hugo Savala,sydney-roosters,32,2026-07-11,0.234,91,Centre,-0.16,0.227,0.293
+Ryan Papenhuyzen,melbourne-storm,112,2025-10-05,0.234,91,Fullback,6.588,6.324,0.803
+Josh Morris,sydney-roosters,79,2021-09-17,0.234,91,Centre,-0.921,-0.534,0.45
+Cameron Munster,melbourne-storm,184,2026-06-27,0.232,91,Five-Eighth,-0.403,0.043,0.303
+Christian Welch,melbourne-storm,127,2024-10-06,0.229,91,Prop,-1.9,-0.053,0.06
+Corey Thompson,gold-coast-titans,83,2022-09-03,0.229,91,Winger,-1.321,-0.574,0.265
+Aiden Tolman,cronulla-sutherland-sharks,94,2022-09-17,0.229,91,Interchange,-1.879,-0.175,0.048
+Dylan Lucas,newcastle-knights,55,2026-07-12,0.225,90,2nd Row,-1.302,0.348,0.358
+Jack Hetherington,melbourne-storm,99,2026-06-27,0.225,91,Interchange,-2.127,-0.424,0.032
+Royce Hunt,wests-tigers,102,2026-06-07,0.224,90,Interchange,-1.888,-0.185,0.121
+Josh Addo-Carr,parramatta-eels,172,2026-07-11,0.222,90,Winger,-0.459,0.288,0.709
+Xavier Savage,canberra-raiders,78,2026-07-11,0.219,90,Winger,-1.052,-0.305,0.5
+Clinton Gutherson,st-george-illawarra-dragons,196,2026-07-04,0.218,90,Fullback,0.966,0.702,0.479
+Jayden Sullivan,south-sydney-rabbitohs,57,2026-07-12,0.218,90,Interchange,-1.268,0.435,0.119
+Keenan Palasia,gold-coast-titans,63,2024-09-07,0.218,90,Interchange,-1.986,-0.283,0.058
+Jonah Pezet,parramatta-eels,24,2026-07-11,0.216,90,Five-Eighth,-0.284,0.162,0.2
+Alofiana Khan-Pereira,warriors,63,2026-07-10,0.212,90,Winger,-0.129,0.618,0.907
+Lehi Hopoate,manly-warringah-sea-eagles,52,2026-07-12,0.212,90,Winger,-0.69,0.057,0.561
+Brett Morris,sydney-roosters,61,2021-05-01,0.212,89,Winger,0.731,1.479,1.571
+Taine Tuaupiki,warriors,38,2026-07-10,0.207,89,Fullback,-0.969,-1.233,0.094
+Jacob Laban,warriors,34,2026-07-10,0.206,89,2nd Row,-1.717,-0.067,0.174
+Josh Papalii,canberra-raiders,183,2026-07-11,0.205,89,Prop,-1.812,0.035,0.123
+Daly Cherry-Evans,sydney-roosters,192,2026-07-11,0.203,89,Halfback,1.046,-0.871,0.304
+Greg Marzhew,newcastle-knights,102,2026-07-12,0.201,89,Winger,-0.528,0.22,0.661
+Isaiya Katoa,dolphins,82,2026-06-27,0.201,89,Halfback,-1.162,-3.079,0.092
+Iosia Soliola,canberra-raiders,79,2021-09-02,0.199,89,Interchange,-1.578,0.125,0.053
+Bronson Xerri,canterbury-bankstown-bulldogs,75,2026-07-11,0.198,89,Centre,-1.292,-0.905,0.361
+Daniel Tupou,sydney-roosters,180,2026-07-11,0.197,89,Winger,-0.388,0.359,0.732
+Jack Bostock,dolphins,48,2026-06-27,0.196,88,Winger,-0.689,0.058,0.577
+Tevita Pangai Junior,dolphins,108,2024-09-08,0.194,88,Prop,-1.749,0.098,0.134
+Chris Lewis,melbourne-storm,42,2024-08-08,0.193,88,Interchange,-1.984,-0.28,0.059
+Lipoi Hopoi,canterbury-bankstown-bulldogs,13,2026-06-08,0.193,88,Interchange,-1.822,-0.119,0.034
+Haze Dunster,parramatta-eels,18,2023-05-13,0.193,88,Winger,-1.595,-0.848,0.08
 Matt Lodge,north-queensland-cowboys,130,2026-05-31,0.192,88,,,,
-Harry Hayes,canterbury-bankstown-bulldogs,44,2026-07-11,0.189,88,Interchange,-1.991,-0.226,0.038
-Luron Patea,penrith-panthers,16,2026-06-20,0.188,88,Interchange,-1.703,0.061,0.045
+Harry Hayes,canterbury-bankstown-bulldogs,44,2026-07-11,0.189,88,Interchange,-1.939,-0.236,0.038
+Luron Patea,penrith-panthers,16,2026-06-20,0.188,88,Interchange,-1.674,0.03,0.043
 Leivaha Pulu,warriors,13,2019-06-30,0.188,88,,,,
-Ronaldo Mulitalo,cronulla-sutherland-sharks,141,2026-07-11,0.187,88,Winger,-0.412,0.387,0.75
-Dane Gagai,newcastle-knights,195,2026-07-12,0.187,88,Centre,-0.791,-0.264,0.254
-Blake Ferguson,parramatta-eels,81,2021-09-18,0.186,87,Winger,-0.538,0.261,0.556
-Tuku Hau Tapuha,cronulla-sutherland-sharks,21,2026-07-11,0.184,87,Interchange,-1.769,-0.004,0.074
+Ronaldo Mulitalo,cronulla-sutherland-sharks,141,2026-07-11,0.187,88,Winger,-0.337,0.411,0.76
+Dane Gagai,newcastle-knights,195,2026-07-12,0.187,88,Centre,-0.737,-0.35,0.254
+Blake Ferguson,parramatta-eels,81,2021-09-18,0.186,87,Winger,-0.499,0.249,0.556
+Tuku Hau Tapuha,cronulla-sutherland-sharks,21,2026-07-11,0.184,87,Interchange,-1.709,-0.005,0.074
 Kurt Baptiste,north-queensland-cowboys,17,2019-06-14,0.184,87,,,,
-Jordan Riki,brisbane-broncos,124,2026-07-04,0.181,87,2nd Row,-1.925,-0.219,0.178
-Trent Merrin,st-george-illawarra-dragons,42,2021-04-18,0.181,87,Interchange,-0.864,0.9,0.167
-Rhys Kennedy,brisbane-broncos,47,2022-09-03,0.181,87,Interchange,-1.761,0.003,0.071
-Brendan Piakura,brisbane-broncos,65,2026-07-04,0.18,87,2nd Row,-1.907,-0.202,0.134
+Jordan Riki,brisbane-broncos,124,2026-07-04,0.181,87,2nd Row,-1.874,-0.224,0.177
+Trent Merrin,st-george-illawarra-dragons,42,2021-04-18,0.181,87,Interchange,-0.833,0.87,0.167
+Rhys Kennedy,brisbane-broncos,47,2022-09-03,0.181,87,Interchange,-1.703,0.0,0.071
+Brendan Piakura,brisbane-broncos,65,2026-07-04,0.18,87,2nd Row,-1.848,-0.198,0.134
 Yee-Huang Tonumaipe'A,melbourne-storm,29,2024-08-29,0.179,87,,,,
-Morgan Knowles,dolphins,16,2026-07-11,0.179,87,Lock,-1.733,0.316,0.05
-Jai Arrow,south-sydney-rabbitohs,150,2025-09-05,0.179,87,2nd Row,-2.003,-0.298,0.069
-Valentine Holmes,st-george-illawarra-dragons,151,2026-07-04,0.177,86,Centre,10.467,10.994,0.438
-David Armstrong,newcastle-knights,5,2024-05-31,0.177,86,Fullback,0.053,-0.388,1.0
-Nelson Asofa-Solomona,melbourne-storm,159,2025-09-04,0.176,86,Prop,-1.755,0.153,0.174
-Reece Walsh,brisbane-broncos,104,2026-06-26,0.175,86,Fullback,3.36,2.919,0.486
-Brenko Lee,dolphins,55,2023-06-09,0.175,86,Centre,-1.797,-1.27,0.038
-Josiah Pahulu,melbourne-storm,21,2026-07-12,0.175,86,Interchange,-1.9,-0.136,0.032
-Tom Starling,canberra-raiders,148,2026-07-11,0.174,86,Interchange,-2.446,-0.681,0.095
-Mark Nawaqanitawase,sydney-roosters,34,2026-07-11,0.174,86,Winger,-0.022,0.777,0.952
-Billy Phillips,penrith-panthers,14,2026-07-03,0.174,86,Interchange,-1.635,0.129,0.095
-Tui Kamikamica,melbourne-storm,139,2026-03-28,0.174,86,Prop,-2.055,-0.147,0.073
-Bunty Afoa,wests-tigers,125,2026-07-10,0.173,85,Interchange,-2.142,-0.377,0.043
+Morgan Knowles,dolphins,16,2026-07-11,0.179,87,Lock,-1.716,0.279,0.048
+Jai Arrow,south-sydney-rabbitohs,150,2025-09-05,0.179,87,2nd Row,-1.945,-0.295,0.069
+Valentine Holmes,st-george-illawarra-dragons,151,2026-07-04,0.177,86,Centre,10.503,10.89,0.443
+David Armstrong,newcastle-knights,5,2024-05-31,0.177,86,Fullback,0.074,-0.19,1.0
+Nelson Asofa-Solomona,melbourne-storm,159,2025-09-04,0.176,86,Prop,-1.69,0.157,0.174
+Reece Walsh,brisbane-broncos,104,2026-06-26,0.175,86,Fullback,3.413,3.149,0.486
+Brenko Lee,dolphins,55,2023-06-09,0.175,86,Centre,-1.747,-1.36,0.038
+Josiah Pahulu,melbourne-storm,21,2026-07-12,0.175,86,Interchange,-1.841,-0.137,0.032
+Tom Starling,canberra-raiders,148,2026-07-11,0.174,86,Interchange,-2.39,-0.686,0.094
+Mark Nawaqanitawase,sydney-roosters,34,2026-07-11,0.174,86,Winger,-0.003,0.744,0.93
+Billy Phillips,penrith-panthers,14,2026-07-03,0.174,86,Interchange,-1.615,0.089,0.091
+Tui Kamikamica,melbourne-storm,139,2026-03-28,0.174,86,Prop,-1.988,-0.141,0.073
+Bunty Afoa,wests-tigers,125,2026-07-10,0.173,85,Interchange,-2.077,-0.373,0.043
 Sam Burgess,south-sydney-rabbitohs,41,2019-09-27,0.173,85,,,,
-Andrew Mccullough,st-george-illawarra-dragons,91,2022-09-03,0.172,85,Hooker,-2.392,-0.241,0.049
-Luke Metcalf,warriors,42,2026-04-05,0.171,85,Five-Eighth,2.133,2.625,0.386
-Brian To'O,penrith-panthers,145,2026-07-03,0.171,85,Winger,-0.435,0.365,0.688
-Mitchell Pearce,newcastle-knights,66,2021-09-12,0.17,85,Halfback,-0.732,-2.602,0.25
-Joseph Vuna,gold-coast-titans,15,2023-09-03,0.169,85,Interchange,-1.391,0.373,0.083
-Charnze Nicoll-Klokstad,warriors,137,2026-07-10,0.169,85,Fullback,-1.347,-1.788,0.309
-Jacob Kiraz,canterbury-bankstown-bulldogs,88,2026-07-11,0.168,85,Winger,-1.068,-0.269,0.463
-Kevin Naiqama,sydney-roosters,26,2022-09-11,0.168,85,Winger,-0.995,-0.196,0.222
-Cory Paix,brisbane-broncos,79,2026-07-04,0.166,84,Interchange,-2.428,-0.664,0.107
-Hudson Young,canberra-raiders,151,2026-07-11,0.166,84,2nd Row,-1.24,0.465,0.424
-James Tamou,north-queensland-cowboys,108,2023-03-25,0.165,84,Prop,-1.772,0.136,0.122
-Thomas Hazelton,cronulla-sutherland-sharks,70,2026-07-11,0.162,84,Interchange,-1.789,-0.024,0.167
-Zac Woolford,canberra-raiders,39,2024-06-23,0.161,84,Hooker,-2.406,-0.254,0.0
-Harry Grant,melbourne-storm,135,2026-07-12,0.161,84,Hooker,-1.63,0.521,0.364
-Sam Walker,sydney-roosters,97,2026-06-26,0.159,84,Halfback,9.414,7.544,0.318
-Jayden Berrell,cronulla-sutherland-sharks,7,2026-07-04,0.159,84,Interchange,-1.776,-0.012,0.0
-Jake Trbojevic,manly-warringah-sea-eagles,183,2026-07-12,0.157,84,Lock,-2.289,-0.239,0.065
-Samuel Stonestreet,cronulla-sutherland-sharks,28,2026-06-07,0.156,84,Winger,-0.732,0.067,0.606
-Sandon Smith,newcastle-knights,60,2026-07-12,0.152,84,Five-Eighth,2.822,3.313,0.096
-Mason Teague,dolphins,7,2023-06-03,0.152,83,Interchange,-1.486,0.278,0.0
-Will Pryce,newcastle-knights,5,2024-09-01,0.152,83,Five-Eighth,-0.13,0.361,0.2
-Kurt Mann,canterbury-bankstown-bulldogs,163,2026-07-11,0.152,83,Interchange,-2.071,-0.307,0.111
-Sean Russell,parramatta-eels,74,2026-07-05,0.151,83,Centre,-0.619,-0.092,0.354
-Jason Taumalolo,north-queensland-cowboys,158,2026-07-12,0.15,83,Prop,-2.016,-0.108,0.027
+Andrew Mccullough,st-george-illawarra-dragons,91,2022-09-03,0.172,85,Hooker,-2.348,-0.245,0.049
+Luke Metcalf,warriors,42,2026-04-05,0.171,85,Five-Eighth,2.19,2.637,0.386
+Brian To'O,penrith-panthers,145,2026-07-03,0.171,85,Winger,-0.339,0.408,0.706
+Mitchell Pearce,newcastle-knights,66,2021-09-12,0.17,85,Halfback,-0.706,-2.623,0.25
+Joseph Vuna,gold-coast-titans,15,2023-09-03,0.169,85,Interchange,-1.345,0.359,0.083
+Charnze Nicoll-Klokstad,warriors,137,2026-07-10,0.169,85,Fullback,-1.293,-1.557,0.309
+Jacob Kiraz,canterbury-bankstown-bulldogs,88,2026-07-11,0.168,85,Winger,-1.027,-0.28,0.458
+Kevin Naiqama,sydney-roosters,26,2022-09-11,0.168,85,Winger,-0.961,-0.214,0.222
+Cory Paix,brisbane-broncos,79,2026-07-04,0.166,84,Interchange,-2.369,-0.666,0.107
+Hudson Young,canberra-raiders,151,2026-07-11,0.166,84,2nd Row,-1.187,0.463,0.424
+James Tamou,north-queensland-cowboys,108,2023-03-25,0.165,84,Prop,-1.714,0.134,0.122
+Thomas Hazelton,cronulla-sutherland-sharks,70,2026-07-11,0.162,84,Interchange,-1.729,-0.026,0.165
+Zac Woolford,canberra-raiders,39,2024-06-23,0.161,84,Hooker,-2.353,-0.25,0.0
+Harry Grant,melbourne-storm,135,2026-07-12,0.161,84,Hooker,-1.6,0.503,0.361
+Sam Walker,sydney-roosters,97,2026-06-26,0.159,84,Halfback,9.514,7.596,0.324
+Jayden Berrell,cronulla-sutherland-sharks,7,2026-07-04,0.159,84,Interchange,-1.725,-0.022,0.0
+Jake Trbojevic,manly-warringah-sea-eagles,183,2026-07-12,0.157,84,Lock,-2.236,-0.241,0.065
+Samuel Stonestreet,cronulla-sutherland-sharks,28,2026-06-07,0.156,84,Winger,-0.725,0.022,0.588
+Sandon Smith,newcastle-knights,60,2026-07-12,0.152,84,Five-Eighth,2.982,3.429,0.095
+Mason Teague,dolphins,7,2023-06-03,0.152,83,Interchange,-1.442,0.261,0.0
+Will Pryce,newcastle-knights,5,2024-09-01,0.152,83,Five-Eighth,-0.108,0.339,0.2
+Kurt Mann,canterbury-bankstown-bulldogs,163,2026-07-11,0.152,83,Interchange,-2.014,-0.31,0.11
+Sean Russell,parramatta-eels,74,2026-07-05,0.151,83,Centre,-0.585,-0.198,0.35
+Jason Taumalolo,north-queensland-cowboys,158,2026-07-12,0.15,83,Prop,-1.954,-0.107,0.027
 Tui Lolohea,wests-tigers,6,2018-06-10,0.15,83,,,,
 Manase Fainu,manly-warringah-sea-eagles,34,2019-09-20,0.148,83,,,,
-George Williams,canberra-raiders,32,2021-05-22,0.148,83,Halfback,1.739,-0.131,0.3
-Treymain Spry,gold-coast-titans,5,2020-09-25,0.147,83,Replacement,-0.284,1.092,0.0
-Caleb Navale,manly-warringah-sea-eagles,9,2025-09-05,0.144,83,Interchange,-1.37,0.394,0.083
-Scott Sorensen,penrith-panthers,145,2026-07-03,0.142,82,Interchange,-1.977,-0.212,0.12
-Jesse Marschke,st-george-illawarra-dragons,6,2024-07-13,0.142,82,Interchange,-1.066,0.699,0.0
+George Williams,canberra-raiders,32,2021-05-22,0.148,83,Halfback,1.771,-0.146,0.3
+Treymain Spry,gold-coast-titans,5,2020-09-25,0.147,83,Replacement,-0.275,1.057,0.0
+Caleb Navale,manly-warringah-sea-eagles,9,2025-09-05,0.144,83,Interchange,-1.257,0.447,0.154
+Scott Sorensen,penrith-panthers,145,2026-07-03,0.142,82,Interchange,-1.918,-0.214,0.119
+Jesse Marschke,st-george-illawarra-dragons,6,2024-07-13,0.142,82,Interchange,-1.036,0.667,0.0
 Korbin Sims,st-george-illawarra-dragons,43,2020-08-21,0.142,82,,,,
-Kit Laulilii,wests-tigers,3,2025-07-06,0.142,82,Interchange,-1.266,0.498,0.0
-Salesi Foketi,sydney-roosters,31,2026-07-11,0.141,81,Interchange,-1.914,-0.149,0.075
+Kit Laulilii,wests-tigers,3,2025-07-06,0.142,82,Interchange,-1.228,0.475,0.0
+Salesi Foketi,sydney-roosters,31,2026-07-11,0.141,81,Interchange,-1.863,-0.16,0.073
 Adam Blair,warriors,65,2020-09-27,0.141,82,,,,
-Connor Watson,sydney-roosters,138,2026-07-11,0.141,82,Interchange,-2.181,-0.417,0.118
-Joe Chan,melbourne-storm,45,2026-07-12,0.141,82,Interchange,-1.973,-0.208,0.077
-Samuela Fainu,wests-tigers,58,2026-07-10,0.141,82,2nd Row,-1.746,-0.041,0.2
-Kotoni Staggs,brisbane-broncos,154,2026-07-04,0.141,82,Centre,-0.0,0.527,0.422
-Alex Johnston,south-sydney-rabbitohs,171,2026-06-25,0.141,82,Winger,0.317,1.116,1.109
+Connor Watson,sydney-roosters,138,2026-07-11,0.141,82,Interchange,-2.128,-0.425,0.117
+Joe Chan,melbourne-storm,45,2026-07-12,0.141,82,Interchange,-1.922,-0.218,0.075
+Samuela Fainu,wests-tigers,58,2026-07-10,0.141,82,2nd Row,-1.702,-0.052,0.197
+Kotoni Staggs,brisbane-broncos,154,2026-07-04,0.141,82,Centre,0.035,0.422,0.419
+Alex Johnston,south-sydney-rabbitohs,171,2026-06-25,0.141,82,Winger,0.393,1.14,1.117
 Sam Thaiday,brisbane-broncos,25,2018-09-09,0.14,81,,,,
-Stephen Crichton,canterbury-bankstown-bulldogs,151,2026-07-11,0.14,81,Centre,2.831,3.358,0.46
-Niwhai Puru,cronulla-sutherland-sharks,3,2026-06-13,0.139,81,Halfback,-0.749,-2.619,0.2
-Jaiyden Hunt,brisbane-broncos,33,2026-05-17,0.139,81,Interchange,-2.165,-0.4,0.019
-Toby Sexton,canterbury-bankstown-bulldogs,62,2025-09-21,0.138,81,Halfback,0.902,-0.968,0.145
-Wiremu Greig,north-queensland-cowboys,30,2026-05-31,0.138,81,Interchange,-1.947,-0.183,0.027
+Stephen Crichton,canterbury-bankstown-bulldogs,151,2026-07-11,0.14,81,Centre,3.033,3.42,0.457
+Niwhai Puru,cronulla-sutherland-sharks,3,2026-06-13,0.139,81,Halfback,-0.821,-2.739,0.167
+Jaiyden Hunt,brisbane-broncos,33,2026-05-17,0.139,81,Interchange,-2.108,-0.405,0.019
+Toby Sexton,canterbury-bankstown-bulldogs,62,2025-09-21,0.138,81,Halfback,0.951,-0.966,0.145
+Wiremu Greig,north-queensland-cowboys,30,2026-05-31,0.138,81,Interchange,-1.884,-0.181,0.027
 Ben Matulino,wests-tigers,35,2019-06-14,0.138,81,,,,
-Tohu Harris,warriors,116,2024-06-29,0.136,81,Lock,-1.898,0.152,0.104
-Viliame Kikau,canterbury-bankstown-bulldogs,171,2026-04-24,0.136,81,2nd Row,-1.682,0.023,0.254
-Siua Wong,sydney-roosters,53,2026-07-11,0.133,80,2nd Row,-1.813,-0.108,0.164
-Justin O'Neill,north-queensland-cowboys,51,2021-06-11,0.133,80,Centre,-0.926,-0.399,0.167
-Luca Moretti,parramatta-eels,44,2026-06-25,0.133,80,Interchange,-1.974,-0.209,0.058
-Lindsay Smith,penrith-panthers,94,2026-07-03,0.133,80,Interchange,-1.979,-0.214,0.106
-Paul Alamoti,penrith-panthers,69,2026-07-03,0.132,80,Centre,0.714,1.241,0.388
-Matt Moylan,cronulla-sutherland-sharks,99,2023-08-27,0.131,80,Five-Eighth,-1.855,-1.364,0.148
-Faaletino Tavana,wests-tigers,5,2026-06-07,0.131,80,Winger,-1.0,-0.2,0.364
-Dylan Egan,st-george-illawarra-dragons,16,2026-07-04,0.13,80,2nd Row,-1.498,0.207,0.182
-Curtis Sironen,manly-warringah-sea-eagles,49,2021-09-10,0.129,80,Interchange,-0.912,0.852,0.167
-Matt Dufty,south-sydney-rabbitohs,87,2026-07-12,0.128,80,Fullback,-1.129,-1.569,0.302
-Sunia Turuva,wests-tigers,92,2026-07-10,0.128,80,Winger,-1.193,-0.394,0.434
-Mat Croker,newcastle-knights,98,2026-07-12,0.127,79,Interchange,-2.146,-0.382,0.074
+Tohu Harris,warriors,116,2024-06-29,0.136,81,Lock,-1.846,0.149,0.104
+Viliame Kikau,canterbury-bankstown-bulldogs,171,2026-04-24,0.136,81,2nd Row,-1.632,0.018,0.252
+Luca Moretti,parramatta-eels,44,2026-06-25,0.133,80,Interchange,-1.915,-0.212,0.057
+Justin O'Neill,north-queensland-cowboys,51,2021-06-11,0.133,80,Centre,-0.9,-0.513,0.167
+Lindsay Smith,penrith-panthers,94,2026-07-03,0.133,80,Interchange,-1.921,-0.218,0.105
+Siua Wong,sydney-roosters,53,2026-07-11,0.133,80,2nd Row,-1.767,-0.117,0.161
+Paul Alamoti,penrith-panthers,69,2026-07-03,0.132,80,Centre,0.771,1.158,0.388
+Matt Moylan,cronulla-sutherland-sharks,99,2023-08-27,0.131,80,Five-Eighth,-1.806,-1.359,0.148
+Faaletino Tavana,wests-tigers,5,2026-06-07,0.131,80,Winger,-1.036,-0.289,0.333
+Dylan Egan,st-george-illawarra-dragons,16,2026-07-04,0.13,80,2nd Row,-1.485,0.165,0.174
+Curtis Sironen,manly-warringah-sea-eagles,49,2021-09-10,0.129,80,Interchange,-0.879,0.824,0.167
+Matt Dufty,south-sydney-rabbitohs,87,2026-07-12,0.128,80,Fullback,-1.109,-1.373,0.295
+Sunia Turuva,wests-tigers,92,2026-07-10,0.128,80,Winger,-1.137,-0.39,0.434
+Mat Croker,newcastle-knights,98,2026-07-12,0.127,79,Interchange,-2.085,-0.382,0.073
 Luke Yates,newcastle-knights,6,2018-08-26,0.127,79,,,,
-Marata Niukore,warriors,160,2026-07-10,0.127,79,2nd Row,-1.987,-0.282,0.133
-Phoenix Crossland,newcastle-knights,124,2026-07-12,0.127,79,Hooker,-2.36,-0.209,0.097
-Cameron Mcinnes,cronulla-sutherland-sharks,169,2026-07-11,0.126,79,Lock,-2.087,-0.037,0.091
-Mikaele Ravalawa,south-sydney-rabbitohs,94,2025-04-04,0.126,79,Winger,-0.679,0.12,0.636
-Bailey Hayward,canterbury-bankstown-bulldogs,61,2026-07-11,0.126,79,Interchange,-2.492,-0.728,0.03
-Andrew Fifita,cronulla-sutherland-sharks,82,2022-09-17,0.126,79,Interchange,-1.818,-0.053,0.034
-Corey Horsburgh,canberra-raiders,124,2026-07-11,0.124,79,Interchange,-1.978,-0.213,0.095
-Samuel Healey,warriors,21,2026-07-10,0.123,79,Interchange,-1.85,-0.086,0.129
-Nathan Cleary,penrith-panthers,163,2026-06-27,0.121,78,Halfback,13.118,11.247,0.319
+Marata Niukore,warriors,160,2026-07-10,0.127,79,2nd Row,-1.925,-0.275,0.133
+Phoenix Crossland,newcastle-knights,124,2026-07-12,0.127,79,Hooker,-2.312,-0.208,0.096
+Cameron Mcinnes,cronulla-sutherland-sharks,169,2026-07-11,0.126,79,Lock,-2.01,-0.015,0.099
+Mikaele Ravalawa,south-sydney-rabbitohs,94,2025-04-04,0.126,79,Winger,-0.628,0.12,0.636
+Andrew Fifita,cronulla-sutherland-sharks,82,2022-09-17,0.126,79,Interchange,-1.758,-0.054,0.034
+Bailey Hayward,canterbury-bankstown-bulldogs,61,2026-07-11,0.126,79,Interchange,-2.443,-0.74,0.029
+Corey Horsburgh,canberra-raiders,124,2026-07-11,0.124,79,Interchange,-1.921,-0.217,0.094
+Samuel Healey,warriors,21,2026-07-10,0.123,79,Interchange,-1.815,-0.112,0.125
+Nathan Cleary,penrith-panthers,163,2026-06-27,0.121,78,Halfback,13.153,11.236,0.316
 Gareth Widdop,st-george-illawarra-dragons,31,2019-09-07,0.12,78,,,,
-Bayley Sironen,warriors,73,2023-09-23,0.119,78,Interchange,-2.109,-0.344,0.07
-Ray Stone,dolphins,104,2026-06-27,0.118,78,Interchange,-2.07,-0.305,0.109
-Adam Keighran,sydney-roosters,25,2022-07-22,0.116,78,Centre,2.1,2.627,0.16
-Teig Wilton,cronulla-sutherland-sharks,118,2026-07-11,0.116,78,2nd Row,-1.713,-0.008,0.256
+Bayley Sironen,warriors,73,2023-09-23,0.119,78,Interchange,-2.049,-0.345,0.07
+Ray Stone,dolphins,104,2026-06-27,0.118,78,Interchange,-2.01,-0.306,0.108
+Adam Keighran,sydney-roosters,25,2022-07-22,0.116,78,Centre,2.158,2.545,0.16
+Teig Wilton,cronulla-sutherland-sharks,118,2026-07-11,0.116,78,2nd Row,-1.661,-0.011,0.254
 Matthew Scott,north-queensland-cowboys,34,2019-08-17,0.115,78,,,,
-Dylan Walker,parramatta-eels,161,2026-07-11,0.113,78,Interchange,-2.066,-0.301,0.101
-Kane Evans,warriors,52,2021-09-05,0.113,78,Interchange,-1.603,0.162,0.0
-Noah Martin,canberra-raiders,15,2026-07-11,0.113,78,2nd Row,-1.376,0.329,0.273
-Aaron Woods,manly-warringah-sea-eagles,118,2024-04-20,0.111,77,Interchange,-2.085,-0.321,0.045
+Noah Martin,canberra-raiders,15,2026-07-11,0.113,78,2nd Row,-1.325,0.325,0.273
+Kane Evans,warriors,52,2021-09-05,0.113,78,Interchange,-1.553,0.15,0.0
+Dylan Walker,parramatta-eels,161,2026-07-11,0.113,78,Interchange,-2.005,-0.301,0.101
+George Burgess,st-george-illawarra-dragons,43,2022-05-01,0.111,77,Interchange,-0.944,0.759,0.0
 Albert Vete,melbourne-storm,10,2020-09-04,0.111,77,,,,
-George Burgess,st-george-illawarra-dragons,43,2022-05-01,0.111,77,Interchange,-0.975,0.789,0.0
-Tom Amone,wests-tigers,17,2021-09-05,0.109,77,Interchange,-1.211,0.554,0.0
-Reuben Garrick,manly-warringah-sea-eagles,170,2026-07-12,0.109,77,Centre,9.568,10.095,0.567
-Heilum Luki,north-queensland-cowboys,69,2026-07-12,0.107,77,2nd Row,-1.517,0.188,0.316
-Ben Thomas,sydney-roosters,7,2023-03-11,0.107,77,Interchange,-1.257,0.508,0.0
-Jordan Samrani,parramatta-eels,22,2026-07-11,0.106,77,Centre,-1.392,-0.865,0.303
+Aaron Woods,manly-warringah-sea-eagles,118,2024-04-20,0.111,77,Interchange,-2.022,-0.318,0.045
+Reuben Garrick,manly-warringah-sea-eagles,170,2026-07-12,0.109,77,Centre,9.57,9.957,0.57
+Tom Amone,wests-tigers,17,2021-09-05,0.109,77,Interchange,-1.172,0.531,0.0
+Heilum Luki,north-queensland-cowboys,69,2026-07-12,0.107,77,2nd Row,-1.458,0.192,0.316
+Ben Thomas,sydney-roosters,7,2023-03-11,0.107,77,Interchange,-1.217,0.486,0.0
+Jordan Samrani,parramatta-eels,22,2026-07-11,0.106,77,Centre,-1.366,-0.979,0.294
 Robbie Farah,wests-tigers,31,2019-09-08,0.105,77,,,,
-Xavier Coates,melbourne-storm,107,2025-10-05,0.105,77,Winger,-0.432,0.367,0.785
-Morgan Harper,parramatta-eels,61,2024-05-25,0.104,76,Centre,-1.609,-1.082,0.267
+Xavier Coates,melbourne-storm,107,2025-10-05,0.105,77,Winger,-0.379,0.369,0.785
+Morgan Harper,parramatta-eels,61,2024-05-25,0.104,76,Centre,-1.556,-1.169,0.267
 Sam Cook,warriors,2,2018-03-17,0.102,76,,,,
-Blake Wilson,manly-warringah-sea-eagles,28,2026-05-23,0.101,76,Winger,-1.288,-0.489,0.333
-Nat Butcher,sydney-roosters,161,2026-06-26,0.101,76,2nd Row,-1.821,-0.116,0.2
-Jesse Colquhoun,cronulla-sutherland-sharks,42,2026-07-04,0.1,76,Interchange,-1.952,-0.188,0.077
-Jordan Rapana,canberra-raiders,142,2024-09-01,0.1,76,Winger,0.301,1.1,0.427
-Brandon Wakeham,manly-warringah-sea-eagles,50,2026-06-20,0.1,76,Five-Eighth,-0.026,0.466,0.116
-Aj Brimson,gold-coast-titans,147,2026-07-12,0.099,76,Fullback,-1.282,-1.722,0.367
+Blake Wilson,manly-warringah-sea-eagles,28,2026-05-23,0.101,76,Winger,-1.234,-0.487,0.333
+Nat Butcher,sydney-roosters,161,2026-06-26,0.101,76,2nd Row,-1.766,-0.116,0.198
+Brandon Wakeham,manly-warringah-sea-eagles,50,2026-06-20,0.1,76,Five-Eighth,-0.029,0.417,0.114
+Jordan Rapana,canberra-raiders,142,2024-09-01,0.1,76,Winger,0.356,1.103,0.427
+Jesse Colquhoun,cronulla-sutherland-sharks,42,2026-07-04,0.1,76,Interchange,-1.896,-0.192,0.075
 Johnathan Thurston,north-queensland-cowboys,24,2018-09-01,0.099,76,,,,
+Aj Brimson,gold-coast-titans,147,2026-07-12,0.099,76,Fullback,-1.222,-1.486,0.373
 John Sutton,south-sydney-rabbitohs,53,2019-09-27,0.098,75,,,,
-Toni Mataele,parramatta-eels,7,2026-07-05,0.098,76,Interchange,-1.631,0.134,0.0
-Sam Lisone,gold-coast-titans,65,2022-06-18,0.098,75,Interchange,-1.928,-0.163,0.032
-Nick Meaney,melbourne-storm,168,2026-07-12,0.098,76,Fullback,7.54,7.099,0.391
-Thomas Fletcher,south-sydney-rabbitohs,6,2026-05-24,0.097,75,Interchange,-1.477,0.288,0.071
+Nick Meaney,melbourne-storm,168,2026-07-12,0.098,76,Centre,7.579,7.966,0.388
+Toni Mataele,parramatta-eels,7,2026-07-05,0.098,76,Interchange,-1.58,0.123,0.0
+Sam Lisone,gold-coast-titans,65,2022-06-18,0.098,75,Interchange,-1.868,-0.165,0.032
+Thomas Fletcher,south-sydney-rabbitohs,6,2026-05-24,0.097,75,Interchange,-1.428,0.275,0.071
+Tyran Wishart,melbourne-storm,92,2026-07-12,0.097,75,Interchange,-1.088,0.615,0.234
+Taylan May,wests-tigers,45,2026-06-28,0.097,75,Centre,-0.77,-0.383,0.574
 Kaysa Pritchard,parramatta-eels,8,2018-07-28,0.097,75,,,,
-Taylan May,wests-tigers,45,2026-06-28,0.097,75,Centre,-0.821,-0.295,0.574
-Tyran Wishart,melbourne-storm,92,2026-07-12,0.097,75,Interchange,-1.164,0.6,0.226
 Anthony Gelling,warriors,7,2018-07-15,0.097,75,,,,
-Kobe Hetherington,manly-warringah-sea-eagles,117,2026-07-12,0.097,75,Interchange,-2.163,-0.398,0.057
-Kane Linnett,north-queensland-cowboys,12,2018-09-01,0.096,74,,,,
-Jason Nightingale,st-george-illawarra-dragons,21,2018-08-26,0.096,75,,,,
+Kobe Hetherington,manly-warringah-sea-eagles,117,2026-07-12,0.097,75,Interchange,-2.097,-0.394,0.057
 Agnatius Paasi,warriors,52,2020-07-19,0.096,75,,,,
-Jaxon Purdue,north-queensland-cowboys,49,2026-07-12,0.096,74,Centre,-1.202,-0.675,0.421
-Braden Hamlin-Uele,cronulla-sutherland-sharks,128,2026-03-29,0.095,74,Interchange,-2.017,-0.252,0.084
-Trent Loiero,melbourne-storm,112,2026-07-12,0.094,74,Lock,-2.087,-0.037,0.092
+Kane Linnett,north-queensland-cowboys,12,2018-09-01,0.096,74,,,,
+Jaxon Purdue,north-queensland-cowboys,49,2026-07-12,0.096,74,Centre,-1.151,-0.764,0.421
+Jason Nightingale,st-george-illawarra-dragons,21,2018-08-26,0.096,75,,,,
+Braden Hamlin-Uele,cronulla-sutherland-sharks,128,2026-03-29,0.095,74,Interchange,-1.95,-0.246,0.084
 Boyd Cordner,sydney-roosters,54,2020-10-09,0.094,74,,,,
-Will Penisini,parramatta-eels,104,2026-05-02,0.094,74,Centre,-1.474,-0.947,0.342
-Morgan Smithies,canberra-raiders,64,2026-06-28,0.094,74,Lock,-2.192,-0.142,0.014
-Isaiah Iongi,parramatta-eels,31,2026-07-11,0.093,74,Fullback,-1.036,-1.477,0.361
-Owen Pattie,canberra-raiders,34,2026-07-11,0.093,74,Interchange,-1.957,-0.192,0.125
-Luke Garner,penrith-panthers,138,2026-06-27,0.092,73,2nd Row,-1.783,-0.078,0.23
-Paul Momirovski,sydney-roosters,59,2023-09-15,0.092,74,Centre,-1.375,-0.848,0.255
-Zac Hosking,canberra-raiders,66,2026-07-11,0.092,73,2nd Row,-1.772,-0.067,0.2
-Ezra Mam,brisbane-broncos,82,2026-06-11,0.091,73,Five-Eighth,-1.105,-0.614,0.511
-Viliami Vailea,north-queensland-cowboys,49,2025-08-24,0.091,73,Centre,-1.649,-1.122,0.226
-Jaeman Salmon,canterbury-bankstown-bulldogs,111,2026-07-11,0.091,73,Interchange,-2.088,-0.323,0.122
-Moses Leo,melbourne-storm,13,2026-06-27,0.088,73,Winger,-0.479,0.32,0.688
+Morgan Smithies,canberra-raiders,64,2026-06-28,0.094,74,Lock,-2.132,-0.137,0.014
+Will Penisini,parramatta-eels,104,2026-05-02,0.094,74,Centre,-1.425,-1.038,0.339
+Trent Loiero,melbourne-storm,112,2026-07-12,0.094,74,Lock,-2.03,-0.035,0.091
+Isaiah Iongi,parramatta-eels,31,2026-07-11,0.093,74,Fullback,-0.991,-1.255,0.361
+Owen Pattie,canberra-raiders,34,2026-07-11,0.093,74,Interchange,-1.865,-0.161,0.146
+Luke Garner,penrith-panthers,138,2026-06-27,0.092,73,2nd Row,-1.728,-0.078,0.228
+Paul Momirovski,sydney-roosters,59,2023-09-15,0.092,74,Centre,-1.324,-0.937,0.255
+Zac Hosking,canberra-raiders,66,2026-07-11,0.092,73,2nd Row,-1.697,-0.047,0.211
+Viliami Vailea,north-queensland-cowboys,49,2025-08-24,0.091,73,Centre,-1.596,-1.209,0.226
+Ezra Mam,brisbane-broncos,82,2026-06-11,0.091,73,Five-Eighth,-1.043,-0.597,0.517
+Jaeman Salmon,canterbury-bankstown-bulldogs,111,2026-07-11,0.091,73,Interchange,-2.024,-0.321,0.121
+Moses Leo,melbourne-storm,13,2026-06-27,0.088,73,Winger,-0.522,0.225,0.647
 Tevita Satae,warriors,12,2019-06-08,0.087,73,,,,
 Nathan Ross,newcastle-knights,15,2018-07-27,0.086,73,,,,
-Isaiah Papali'I,penrith-panthers,185,2026-06-27,0.086,73,2nd Row,-1.61,0.095,0.248
-Joel Thompson,manly-warringah-sea-eagles,59,2020-08-30,0.085,72,,,,
-Ben Talty,brisbane-broncos,25,2026-07-04,0.085,72,Interchange,-1.601,0.163,0.167
+Isaiah Papali'I,penrith-panthers,185,2026-06-27,0.086,73,2nd Row,-1.56,0.09,0.246
+Ben Talty,brisbane-broncos,25,2026-07-04,0.085,72,Interchange,-1.542,0.161,0.167
+Addin Fonua-Blake,cronulla-sutherland-sharks,184,2026-07-11,0.085,73,Prop,-1.551,0.296,0.206
 Malakai Watene-Zelezniak,penrith-panthers,17,2020-07-26,0.085,73,,,,
-Addin Fonua-Blake,cronulla-sutherland-sharks,184,2026-07-11,0.085,73,Prop,-1.622,0.286,0.2
+Joel Thompson,manly-warringah-sea-eagles,59,2020-08-30,0.085,72,,,,
 Michael Lichaa,canterbury-bankstown-bulldogs,32,2019-08-10,0.084,72,,,,
-Mitch Rein,parramatta-eels,72,2022-04-18,0.084,72,Hooker,-1.922,0.23,0.091
-Adam Christensen,gold-coast-titans,1,2026-04-12,0.084,72,Reserve,-0.983,0.194,0.0
-Sean Mullany,gold-coast-titans,3,2025-07-26,0.083,72,Interchange,-0.849,0.916,0.0
+Adam Christensen,gold-coast-titans,1,2026-04-12,0.084,72,Reserve,-0.953,0.202,0.0
+Mitch Rein,parramatta-eels,72,2022-04-18,0.084,72,Hooker,-1.88,0.223,0.091
+Lachlan Lam,sydney-roosters,31,2021-09-17,0.083,72,Replacement,-1.737,-0.405,0.1
+Tukimihia Simpkins,gold-coast-titans,9,2026-03-22,0.083,72,Interchange,-1.52,0.184,0.0
+Sean Mullany,gold-coast-titans,3,2025-07-26,0.083,72,Interchange,-0.83,0.873,0.0
 Cheyse Blair,melbourne-storm,8,2018-09-07,0.083,72,,,,
-Lachlan Lam,sydney-roosters,31,2021-09-17,0.083,72,Replacement,-1.788,-0.412,0.1
-Tukimihia Simpkins,gold-coast-titans,9,2026-03-22,0.083,72,Interchange,-1.567,0.198,0.0
-Ethan Strange,canberra-raiders,59,2026-07-11,0.082,72,Five-Eighth,-1.225,-0.734,0.333
-Siosifa Talakai,cronulla-sutherland-sharks,134,2026-07-11,0.082,71,Centre,-1.633,-1.106,0.208
-Ashton Ward,south-sydney-rabbitohs,15,2026-07-12,0.081,71,Halfback,1.362,-0.508,0.105
-Cameron Bukowski,brisbane-broncos,1,2026-04-18,0.08,71,Interchange,-0.327,1.438,0.0
-Solomone Kata,warriors,29,2019-04-20,0.08,71,,,,
+Ethan Strange,canberra-raiders,59,2026-07-11,0.082,72,Five-Eighth,-1.194,-0.748,0.328
+Siosifa Talakai,cronulla-sutherland-sharks,134,2026-07-11,0.082,71,Centre,-1.577,-1.19,0.206
+Ashton Ward,south-sydney-rabbitohs,15,2026-07-12,0.081,71,Halfback,1.396,-0.521,0.105
+Cameron Bukowski,brisbane-broncos,1,2026-04-18,0.08,71,Interchange,-0.319,1.384,0.0
 Kyle Turner,south-sydney-rabbitohs,16,2019-08-30,0.08,71,,,,
-Reagan Campbell-Gillard,gold-coast-titans,174,2025-09-06,0.079,71,Prop,-1.872,0.036,0.107
-Billy Smith,sydney-roosters,52,2026-07-11,0.079,71,Centre,-1.198,-0.671,0.414
-Kalani Going,penrith-panthers,5,2026-07-03,0.078,71,Interchange,-1.263,0.502,0.0
-Eliesa Katoa,melbourne-storm,116,2025-10-05,0.077,71,2nd Row,-1.472,0.233,0.327
-Terrell May,wests-tigers,93,2026-07-10,0.077,71,Prop,-1.927,-0.02,0.092
-Kyle Flanagan,st-george-illawarra-dragons,128,2026-07-04,0.076,70,Halfback,0.192,-1.678,0.172
-Shaun Johnson,warriors,123,2024-08-31,0.076,70,Halfback,4.986,3.115,0.236
-Clayton Faulalo,manly-warringah-sea-eagles,20,2026-07-05,0.076,70,Replacement,-1.289,0.087,0.343
+Solomone Kata,warriors,29,2019-04-20,0.08,71,,,,
+Reagan Campbell-Gillard,gold-coast-titans,174,2025-09-06,0.079,71,Prop,-1.81,0.038,0.107
+Billy Smith,sydney-roosters,52,2026-07-11,0.079,71,Centre,-1.089,-0.702,0.441
+Kalani Going,penrith-panthers,5,2026-07-03,0.078,71,Interchange,-1.225,0.478,0.0
+Terrell May,wests-tigers,93,2026-07-10,0.077,71,Prop,-1.87,-0.023,0.091
+Eliesa Katoa,melbourne-storm,116,2025-10-05,0.077,71,2nd Row,-1.414,0.236,0.327
+Kyle Flanagan,st-george-illawarra-dragons,128,2026-07-04,0.076,70,Halfback,0.224,-1.693,0.171
+Shaun Johnson,warriors,123,2024-08-31,0.076,70,Halfback,5.031,3.114,0.236
+Clayton Faulalo,manly-warringah-sea-eagles,20,2026-07-05,0.076,70,Replacement,-1.202,0.131,0.361
 Francis Tualau,canterbury-bankstown-bulldogs,2,2018-03-30,0.074,70,,,,
+Chris Vea'Ila,cronulla-sutherland-sharks,2,2025-07-26,0.073,70,Replacement,-1.186,0.147,0.111
 Tony Williams,parramatta-eels,5,2018-04-29,0.073,70,,,,
-Chris Vea'Ila,cronulla-sutherland-sharks,2,2025-07-26,0.073,70,Replacement,-1.225,0.151,0.111
-Jack Todd,canterbury-bankstown-bulldogs,4,2025-07-04,0.073,70,Interchange,-0.607,1.157,0.25
+Jack Todd,canterbury-bankstown-bulldogs,4,2025-07-04,0.073,70,Interchange,-0.581,1.122,0.25
 Greg Inglis,south-sydney-rabbitohs,21,2019-03-21,0.072,70,,,,
-Daniel Alvaro,st-george-illawarra-dragons,60,2021-09-04,0.071,70,Interchange,-1.697,0.068,0.0
-Brock Gray,gold-coast-titans,6,2025-04-26,0.071,70,Interchange,-1.089,0.675,0.0
-Carter Gordon,gold-coast-titans,1,2025-09-06,0.07,69,Centre,-0.3,0.227,0.0
-Eddie Blacker,penrith-panthers,2,2022-09-03,0.07,69,Interchange,-0.263,1.502,0.0
+Daniel Alvaro,st-george-illawarra-dragons,60,2021-09-04,0.071,70,Interchange,-1.645,0.058,0.0
+Brock Gray,gold-coast-titans,6,2025-04-26,0.071,70,Interchange,-1.054,0.649,0.0
+Carter Gordon,gold-coast-titans,1,2025-09-06,0.07,69,Centre,-0.294,0.093,0.0
 Joseph Paulo,cronulla-sutherland-sharks,19,2018-09-21,0.07,69,,,,
-Demitric Vaimauga,warriors,46,2026-07-10,0.07,69,Interchange,-2.011,-0.247,0.057
-Jed Stuart,canberra-raiders,21,2026-07-11,0.068,69,Winger,-1.44,-0.641,0.306
-Josh Schuster,manly-warringah-sea-eagles,49,2023-08-18,0.068,69,2nd Row,-1.924,-0.219,0.1
-Cameron Murray,south-sydney-rabbitohs,162,2026-07-12,0.068,69,Lock,-1.827,0.223,0.186
-Blake Green,newcastle-knights,64,2021-05-20,0.068,69,Halfback,-0.871,-2.741,0.0
-Tommy Talau,sydney-roosters,84,2026-06-21,0.068,69,Centre,-1.314,-0.787,0.405
+Demitric Vaimauga,warriors,46,2026-07-10,0.07,69,Interchange,-1.954,-0.251,0.056
+Eddie Blacker,penrith-panthers,2,2022-09-03,0.07,69,Interchange,-0.255,1.448,0.0
+Jed Stuart,canberra-raiders,21,2026-07-11,0.068,69,Winger,-1.415,-0.668,0.297
+Josh Schuster,manly-warringah-sea-eagles,49,2023-08-18,0.068,69,2nd Row,-1.873,-0.223,0.1
+Cameron Murray,south-sydney-rabbitohs,162,2026-07-12,0.068,69,Lock,-1.777,0.218,0.184
+Blake Green,newcastle-knights,64,2021-05-20,0.068,69,Halfback,-0.853,-2.77,0.0
+Tommy Talau,sydney-roosters,84,2026-06-21,0.068,69,Centre,-1.27,-0.883,0.4
 Paul Gallen,cronulla-sutherland-sharks,43,2019-09-14,0.067,69,,,,
-Oryn Keeley,dolphins,29,2026-06-20,0.065,68,2nd Row,-1.852,-0.147,0.137
+Oryn Keeley,dolphins,29,2026-06-20,0.065,68,2nd Row,-1.799,-0.149,0.135
 Oliver Clark,wests-tigers,16,2020-07-31,0.065,68,,,,
-Liam Martin,penrith-panthers,151,2026-06-27,0.065,68,2nd Row,-1.78,-0.075,0.22
+Liam Martin,penrith-panthers,151,2026-06-27,0.065,68,2nd Row,-1.729,-0.079,0.219
 Nene Macdonald,cronulla-sutherland-sharks,29,2020-09-26,0.065,69,,,,
-Josiah Karapani,brisbane-broncos,36,2026-06-26,0.064,68,Winger,-1.24,-0.441,0.362
-Tino Fa'Asuamaleaui,gold-coast-titans,121,2026-07-12,0.064,68,Prop,-1.671,0.236,0.176
-Gehamat Shibasaki,brisbane-broncos,67,2026-07-04,0.061,68,Centre,-1.192,-0.666,0.423
+Josiah Karapani,brisbane-broncos,36,2026-06-26,0.064,68,Winger,-1.206,-0.459,0.354
+Tino Fa'Asuamaleaui,gold-coast-titans,121,2026-07-12,0.064,68,Prop,-1.617,0.23,0.175
+Gehamat Shibasaki,brisbane-broncos,67,2026-07-04,0.061,68,Centre,-1.161,-0.774,0.415
 Blake Ayshford,warriors,7,2019-09-07,0.061,68,,,,
 Darby Medlyn,canberra-raiders,1,2020-09-26,0.061,68,,,,
-Cody Ramsey,sydney-roosters,38,2026-07-11,0.061,68,Winger,-1.463,-0.664,0.264
+Cody Ramsey,sydney-roosters,38,2026-07-11,0.061,68,Fullback,-1.412,-1.676,0.259
 Jarrett Subloo,canberra-raiders,1,2020-09-26,0.061,68,,,,
 Matt Prior,cronulla-sutherland-sharks,50,2019-09-14,0.06,67,,,,
-Jamal Shibasaki,north-queensland-cowboys,2,2025-08-03,0.06,67,Interchange,-0.491,1.273,0.0
+Jamal Shibasaki,north-queensland-cowboys,2,2025-08-03,0.06,67,Interchange,-0.475,1.228,0.0
 Michael Chee-Kam,manly-warringah-sea-eagles,95,2025-08-08,0.059,67,,,,
-Xavier Va'A,sydney-roosters,1,2025-05-24,0.059,67,Interchange,-0.016,1.749,1.0
-Jacob Gagai,south-sydney-rabbitohs,17,2024-09-06,0.057,67,Winger,-0.882,-0.083,0.5
-Russell Packer,wests-tigers,32,2021-03-14,0.057,67,Interchange,-0.272,1.492,0.0
-Brayden Musgrove,newcastle-knights,7,2021-06-06,0.057,67,Winger,-1.114,-0.315,0.125
-Corey Oates,brisbane-broncos,116,2024-09-05,0.057,67,Winger,-1.129,-0.33,0.415
-Zac Lomax,parramatta-eels,127,2025-09-07,0.057,67,Centre,8.461,8.988,0.417
-Waqa Blake,parramatta-eels,99,2023-07-28,0.057,67,Centre,-1.339,-0.812,0.367
-Ryley Smith,parramatta-eels,30,2026-05-02,0.056,66,Hooker,-2.157,-0.006,0.094
-Taniela Paseka,manly-warringah-sea-eagles,136,2026-07-12,0.055,66,Prop,-2.012,-0.104,0.05
-Dayne Jennings,south-sydney-rabbitohs,3,2026-07-12,0.055,66,Winger,-0.629,0.17,0.25
-Jack Underhill,canterbury-bankstown-bulldogs,6,2026-07-11,0.055,66,Interchange,-1.321,0.443,0.0
-Ash Taylor,gold-coast-titans,68,2021-08-19,0.054,66,,,,
+Xavier Va'A,sydney-roosters,1,2025-05-24,0.059,67,Interchange,-0.007,1.697,1.0
+Jacob Gagai,south-sydney-rabbitohs,17,2024-09-06,0.057,67,Winger,-0.841,-0.093,0.5
+Russell Packer,wests-tigers,32,2021-03-14,0.057,67,Interchange,-0.263,1.44,0.0
+Brayden Musgrove,newcastle-knights,7,2021-06-06,0.057,67,Winger,-1.084,-0.337,0.125
+Corey Oates,brisbane-broncos,116,2024-09-05,0.057,67,Winger,-1.077,-0.329,0.415
+Zac Lomax,parramatta-eels,127,2025-09-07,0.057,67,Centre,8.528,8.915,0.417
+Waqa Blake,parramatta-eels,99,2023-07-28,0.057,67,Centre,-1.289,-0.902,0.367
+Ryley Smith,parramatta-eels,30,2026-05-02,0.056,66,Hooker,-2.11,-0.007,0.094
+Taniela Paseka,manly-warringah-sea-eagles,136,2026-07-12,0.055,66,Prop,-1.949,-0.102,0.05
+Dayne Jennings,south-sydney-rabbitohs,3,2026-07-12,0.055,66,Winger,-0.605,0.143,0.25
+Jack Underhill,canterbury-bankstown-bulldogs,6,2026-07-11,0.055,66,Interchange,-1.282,0.421,0.0
 James Gavet,newcastle-knights,36,2019-08-03,0.054,66,,,,
+Ash Taylor,gold-coast-titans,68,2021-08-19,0.054,66,,,,
 Greg Eastwood,canterbury-bankstown-bulldogs,13,2018-09-02,0.054,66,,,,
-Franklin Pele,canterbury-bankstown-bulldogs,7,2023-06-18,0.053,65,Interchange,-1.371,0.393,0.0
-Kulikefu Finefeuiaki,dolphins,72,2026-07-11,0.053,66,2nd Row,-1.903,-0.198,0.117
-Paul Vaughan,canterbury-bankstown-bulldogs,90,2022-09-02,0.053,66,Prop,-1.774,0.134,0.05
-Cody Hopwood,newcastle-knights,9,2026-07-12,0.053,65,Interchange,-1.741,0.024,0.0
-Jensen Taumoepeau,gold-coast-titans,6,2026-06-20,0.053,66,Winger,-1.109,-0.31,0.0
-Josh Dugan,cronulla-sutherland-sharks,59,2021-05-21,0.051,65,Centre,-1.062,-0.535,0.2
-Ethan Quai-Ward,canterbury-bankstown-bulldogs,1,2023-07-08,0.051,65,Centre,0.021,0.548,1.0
-Brian Pouniu,dolphins,1,2026-05-21,0.051,65,Reserve,-1.366,-0.189,0.0
+Kulikefu Finefeuiaki,dolphins,72,2026-07-11,0.053,66,2nd Row,-1.852,-0.202,0.115
+Paul Vaughan,canterbury-bankstown-bulldogs,90,2022-09-02,0.053,66,Prop,-1.718,0.129,0.05
+Cody Hopwood,newcastle-knights,9,2026-07-12,0.053,65,Interchange,-1.711,-0.008,0.0
+Jensen Taumoepeau,gold-coast-titans,6,2026-06-20,0.053,66,Winger,-1.081,-0.334,0.0
+Franklin Pele,canterbury-bankstown-bulldogs,7,2023-06-18,0.053,65,Interchange,-1.328,0.375,0.0
+Josh Dugan,cronulla-sutherland-sharks,59,2021-05-21,0.051,65,Centre,-1.025,-0.638,0.2
+Ethan Quai-Ward,canterbury-bankstown-bulldogs,1,2023-07-08,0.051,65,Centre,0.028,0.415,1.0
+Brian Pouniu,dolphins,1,2026-05-21,0.051,65,Reserve,-1.363,-0.208,0.0
+Lachlan Croker,manly-warringah-sea-eagles,122,2025-06-13,0.049,65,Hooker,-2.338,-0.235,0.174
+Bayleigh Bentley-Hape,south-sydney-rabbitohs,10,2026-05-15,0.049,65,Winger,-0.026,0.721,0.364
 Lachlan Maranta,st-george-illawarra-dragons,2,2019-06-28,0.049,65,,,,
-Lachlan Croker,manly-warringah-sea-eagles,122,2025-06-13,0.049,65,Hooker,-2.385,-0.234,0.174
-Bayleigh Bentley-Hape,south-sydney-rabbitohs,10,2026-05-15,0.049,65,Winger,-0.064,0.735,0.364
 Sam Mckendry,penrith-panthers,2,2018-03-17,0.049,65,,,,
+Luke Hanson,warriors,1,2026-03-21,0.048,64,Reserve,-0.845,0.31,0.167
+Morgan Gannon,warriors,1,2026-03-21,0.048,64,Reserve,-0.825,0.329,0.0
+Robert Toia,sydney-roosters,34,2026-07-11,0.048,65,Centre,-1.046,-0.659,0.439
+Nathan Lawson,st-george-illawarra-dragons,4,2025-06-28,0.048,64,Winger,-0.819,-0.072,0.286
 Max Bailey,sydney-roosters,1,2020-08-06,0.048,64,,,,
-Morgan Gannon,warriors,1,2026-03-21,0.048,64,Reserve,-0.852,0.325,0.0
-Luke Hanson,warriors,1,2026-03-21,0.048,64,Reserve,-0.802,0.375,0.2
-Robert Toia,sydney-roosters,34,2026-07-11,0.048,65,Centre,-1.114,-0.587,0.425
-Nathan Lawson,st-george-illawarra-dragons,4,2025-06-28,0.048,64,Winger,-0.85,-0.051,0.286
-Jacob Host,south-sydney-rabbitohs,95,2025-09-05,0.047,64,2nd Row,-2.042,-0.337,0.086
-Esan Marsters,gold-coast-titans,71,2022-06-11,0.046,64,Centre,-1.625,-1.098,0.1
-Tevita Tatola,south-sydney-rabbitohs,169,2026-07-12,0.046,64,Prop,-1.995,-0.087,0.073
-Oregon Kaufusi,cronulla-sutherland-sharks,147,2026-07-11,0.045,64,Interchange,-2.17,-0.405,0.043
+Jacob Host,south-sydney-rabbitohs,95,2025-09-05,0.047,64,2nd Row,-1.984,-0.334,0.086
+Tevita Tatola,south-sydney-rabbitohs,169,2026-07-12,0.046,64,Prop,-1.935,-0.087,0.072
+Esan Marsters,gold-coast-titans,71,2022-06-11,0.046,64,Centre,-1.577,-1.19,0.1
+Oregon Kaufusi,cronulla-sutherland-sharks,147,2026-07-11,0.045,64,Interchange,-2.105,-0.402,0.043
+Oliver Pascoe,gold-coast-titans,12,2026-07-12,0.044,64,Hooker,-1.663,0.441,0.211
+Ben Condon,manly-warringah-sea-eagles,15,2024-06-22,0.044,64,2nd Row,-1.383,0.267,0.238
+Ryan Matterson,parramatta-eels,140,2025-06-01,0.044,64,Interchange,-1.869,-0.166,0.087
+Jed Cartwright,newcastle-knights,34,2024-05-05,0.044,63,Interchange,-1.871,-0.167,0.032
 Kerrod Holland,canterbury-bankstown-bulldogs,44,2020-09-26,0.044,63,,,,
-Ben Condon,manly-warringah-sea-eagles,15,2024-06-22,0.044,64,2nd Row,-1.435,0.27,0.238
-Ryan Matterson,parramatta-eels,140,2025-06-01,0.044,64,Interchange,-1.925,-0.161,0.087
-Jed Cartwright,newcastle-knights,34,2024-05-05,0.044,63,Interchange,-1.93,-0.165,0.032
-Oliver Pascoe,gold-coast-titans,12,2026-07-12,0.044,64,Hooker,-1.645,0.506,0.222
-Reuben Cotter,north-queensland-cowboys,112,2026-07-12,0.043,63,Lock,-1.987,0.063,0.125
-Enari Tuala,canterbury-bankstown-bulldogs,118,2026-06-20,0.043,63,Centre,-1.303,-0.776,0.389
+Enari Tuala,canterbury-bankstown-bulldogs,118,2026-06-20,0.043,63,Centre,-1.25,-0.863,0.389
+Reuben Cotter,north-queensland-cowboys,112,2026-07-12,0.043,63,Lock,-1.929,0.066,0.125
 Frank-Paul Nu'Uausala,sydney-roosters,2,2018-06-03,0.042,63,,,,
-Anthony Don,gold-coast-titans,66,2021-05-30,0.041,63,Winger,-1.308,-0.509,0.0
-Riley Jones,newcastle-knights,1,2023-09-02,0.041,63,Reserve,-1.108,0.069,0.0
-Xavier Kerrisk,north-queensland-cowboys,1,2026-05-24,0.041,63,Reserve,-0.702,0.475,0.0
-Kalyn Ponga,newcastle-knights,142,2026-07-12,0.041,63,Fullback,5.214,4.773,0.33
-Beau Fermor,gold-coast-titans,104,2026-07-12,0.041,63,2nd Row,-1.449,0.256,0.315
-Jazz Tevaga,manly-warringah-sea-eagles,145,2025-09-05,0.04,62,Interchange,-2.222,-0.458,0.042
-Tony Francis,gold-coast-titans,10,2025-08-31,0.04,62,Replacement,-1.614,-0.237,0.056
-Luke Laulilii,wests-tigers,17,2026-05-16,0.039,62,Winger,-0.856,-0.057,0.476
-Keano Kini,gold-coast-titans,43,2026-07-12,0.039,62,Fullback,-1.147,-1.587,0.173
-Izack Tago,penrith-panthers,106,2026-07-03,0.038,62,Centre,-1.477,-0.95,0.338
-Sione Fainu,wests-tigers,52,2026-07-10,0.038,62,Interchange,-1.916,-0.152,0.107
+Riley Jones,newcastle-knights,1,2023-09-02,0.041,63,Reserve,-1.074,0.081,0.0
+Xavier Kerrisk,north-queensland-cowboys,1,2026-05-24,0.041,63,Reserve,-0.68,0.474,0.0
+Beau Fermor,gold-coast-titans,104,2026-07-12,0.041,63,2nd Row,-1.402,0.248,0.312
+Anthony Don,gold-coast-titans,66,2021-05-30,0.041,63,Winger,-1.278,-0.531,0.0
+Kalyn Ponga,newcastle-knights,142,2026-07-12,0.041,63,Fullback,5.195,4.931,0.326
+Tony Francis,gold-coast-titans,10,2025-08-31,0.04,62,Replacement,-1.565,-0.233,0.056
+Jazz Tevaga,manly-warringah-sea-eagles,145,2025-09-05,0.04,62,Interchange,-2.159,-0.456,0.042
+Keano Kini,gold-coast-titans,43,2026-07-12,0.039,62,Fullback,-1.11,-1.373,0.17
+Luke Laulilii,wests-tigers,17,2026-05-16,0.039,62,Winger,-0.81,-0.063,0.476
+Sione Fainu,wests-tigers,52,2026-07-10,0.038,62,Interchange,-1.863,-0.16,0.105
+Izack Tago,penrith-panthers,106,2026-07-03,0.038,62,Centre,-1.425,-1.038,0.336
+Wade Graham,cronulla-sutherland-sharks,96,2023-09-09,0.036,62,2nd Row,-1.965,-0.315,0.061
+Jett Liu,gold-coast-titans,2,2026-06-20,0.036,62,Reserve,-0.952,0.203,0.0
 Jamil Hopoate,brisbane-broncos,10,2020-09-24,0.036,62,,,,
-Wade Graham,cronulla-sutherland-sharks,96,2023-09-09,0.036,62,2nd Row,-2.021,-0.316,0.061
-Jett Liu,gold-coast-titans,2,2026-06-20,0.036,62,Reserve,-0.982,0.195,0.0
-Benaiah Ioelu,sydney-roosters,14,2026-07-11,0.035,62,Hooker,-1.858,0.293,0.0
-John Asiata,brisbane-broncos,58,2021-06-17,0.034,61,Interchange,-1.344,0.421,0.091
-Teancum Brown,parramatta-eels,5,2026-07-11,0.034,61,Interchange,-1.479,0.285,0.0
-Nick Cotric,canberra-raiders,124,2024-06-23,0.033,61,Winger,-1.536,-0.737,0.283
-Moses Mbye,st-george-illawarra-dragons,110,2023-07-20,0.033,61,Interchange,-2.195,-0.431,0.049
-Billy Walters,brisbane-broncos,107,2025-09-14,0.033,61,Hooker,-2.118,0.033,0.184
-Kurt Dillon,south-sydney-rabbitohs,5,2020-08-22,0.033,61,,,,
-Cooper Bai,gold-coast-titans,16,2026-07-12,0.033,61,Interchange,-1.623,0.142,0.091
+Benaiah Ioelu,sydney-roosters,14,2026-07-11,0.035,62,Hooker,-1.814,0.289,0.0
+Teancum Brown,parramatta-eels,5,2026-07-11,0.034,61,Interchange,-1.478,0.225,0.0
+John Asiata,brisbane-broncos,58,2021-06-17,0.034,61,Interchange,-1.3,0.403,0.091
+Moses Mbye,st-george-illawarra-dragons,110,2023-07-20,0.033,61,Interchange,-2.14,-0.437,0.049
+Ben Hunt,brisbane-broncos,174,2026-07-04,0.033,61,Halfback,-0.994,-2.912,0.207
 Cory Denniss,newcastle-knights,11,2018-09-01,0.033,61,,,,
-Ben Hunt,brisbane-broncos,174,2026-07-04,0.033,61,Halfback,-1.032,-2.902,0.208
-Stanley Huen,melbourne-storm,3,2026-06-27,0.032,61,Interchange,-1.107,0.658,0.0
-Kade Dykes,cronulla-sutherland-sharks,2,2022-08-13,0.032,61,Replacement,-0.792,0.585,0.2
+Nick Cotric,canberra-raiders,124,2024-06-23,0.033,61,Winger,-1.483,-0.736,0.283
+Kurt Dillon,south-sydney-rabbitohs,5,2020-08-22,0.033,61,,,,
+Cooper Bai,gold-coast-titans,16,2026-07-12,0.033,61,Interchange,-1.597,0.106,0.087
+Billy Walters,brisbane-broncos,107,2025-09-14,0.033,61,Hooker,-2.044,0.06,0.192
 Tyrone Phillips,penrith-panthers,9,2018-07-13,0.032,60,,,,
-David Mead,brisbane-broncos,11,2021-09-04,0.031,60,Winger,-1.092,-0.292,0.333
-Lindsay Collins,sydney-roosters,134,2026-06-26,0.031,60,Prop,-2.004,-0.096,0.089
-Josh Hodgson,parramatta-eels,75,2023-05-26,0.031,60,Hooker,-2.188,-0.036,0.061
-Peter Hola,newcastle-knights,17,2026-04-19,0.031,60,Interchange,-1.517,0.247,0.0
-Triston Reilly,wests-tigers,3,2023-09-01,0.031,60,Centre,-0.476,0.051,0.333
-Brad Parker,manly-warringah-sea-eagles,106,2023-09-01,0.03,60,Centre,-1.677,-1.15,0.259
-Selumiela Halasima,warriors,41,2026-07-10,0.03,60,,,,
-Izaia Perese,brisbane-broncos,2,2019-09-07,0.03,60,,,,
+Stanley Huen,melbourne-storm,3,2026-06-27,0.032,61,Interchange,-1.074,0.63,0.0
+Kade Dykes,cronulla-sutherland-sharks,2,2022-08-13,0.032,61,Replacement,-0.765,0.568,0.2
+Josh Hodgson,parramatta-eels,75,2023-05-26,0.031,60,Hooker,-2.143,-0.04,0.061
+Triston Reilly,wests-tigers,3,2023-09-01,0.031,60,Centre,-0.459,-0.072,0.333
+Peter Hola,newcastle-knights,17,2026-04-19,0.031,60,Interchange,-1.47,0.233,0.0
+Lindsay Collins,sydney-roosters,134,2026-06-26,0.031,60,Prop,-1.945,-0.097,0.088
+David Mead,brisbane-broncos,11,2021-09-04,0.031,60,Winger,-1.051,-0.303,0.333
 Jackson Ferris,cronulla-sutherland-sharks,1,2020-07-31,0.03,60,,,,
-James Tedesco,sydney-roosters,196,2026-06-26,0.029,59,Fullback,-0.449,-0.889,0.537
-Billy Scott,penrith-panthers,3,2026-07-03,0.029,59,Reserve,-1.683,-0.506,0.0
-Matthew Timoko,canberra-raiders,120,2026-07-11,0.028,59,Centre,-1.539,-1.012,0.299
-Jake Clifford,north-queensland-cowboys,102,2026-07-12,0.028,59,Five-Eighth,3.531,4.023,0.235
-Tanah Boyd,warriors,86,2026-05-17,0.027,59,Halfback,4.965,3.095,0.125
+Izaia Perese,brisbane-broncos,2,2019-09-07,0.03,60,,,,
+Selumiela Halasima,warriors,41,2026-07-10,0.03,60,,,,
+Brad Parker,manly-warringah-sea-eagles,106,2023-09-01,0.03,60,Centre,-1.625,-1.238,0.259
+Billy Scott,penrith-panthers,3,2026-07-03,0.029,59,Reserve,-1.681,-0.527,0.0
+James Tedesco,sydney-roosters,196,2026-06-26,0.029,59,Fullback,-0.398,-0.662,0.537
+Jake Clifford,north-queensland-cowboys,102,2026-07-12,0.028,59,Five-Eighth,3.582,4.028,0.235
+Matthew Timoko,canberra-raiders,120,2026-07-11,0.028,59,Centre,-1.488,-1.101,0.296
 Matt Mcilwrick,wests-tigers,4,2018-06-17,0.027,59,,,,
+Tanah Boyd,warriors,86,2026-05-17,0.027,59,Halfback,5.024,3.107,0.125
 Joshua Patston,gold-coast-titans,14,2026-07-12,0.027,59,,,,
-Albert Kelly,brisbane-broncos,11,2022-04-02,0.026,59,Halfback,-0.96,-2.83,0.25
-Frank Winterstein,penrith-panthers,26,2019-08-03,0.025,59,,,,
+Albert Kelly,brisbane-broncos,11,2022-04-02,0.026,59,Halfback,-0.927,-2.844,0.25
 Jacob Lillyman,newcastle-knights,14,2018-07-27,0.025,58,,,,
-Valynce Te Whare,dolphins,12,2023-09-02,0.025,59,Centre,-0.791,-0.264,0.462
-Alekolasimi Jones,canterbury-bankstown-bulldogs,3,2026-06-20,0.024,58,Reserve,-1.339,-0.162,0.0
+Frank Winterstein,penrith-panthers,26,2019-08-03,0.025,59,,,,
+Valynce Te Whare,dolphins,12,2023-09-02,0.025,59,Centre,-0.752,-0.365,0.462
+Alekolasimi Jones,canterbury-bankstown-bulldogs,3,2026-06-20,0.024,58,Interchange,-1.356,0.347,0.0
+Makaia Tafua,warriors,2,2026-06-21,0.024,58,Interchange,-0.532,1.172,0.0
 Scott Bolton,north-queensland-cowboys,38,2019-09-06,0.024,58,,,,
-Makaia Tafua,warriors,2,2026-06-21,0.024,58,Interchange,-0.547,1.218,0.0
-John Radel,south-sydney-rabbitohs,1,2026-06-11,0.023,58,Reserve,-0.84,0.337,0.286
-Casey Mclean,penrith-panthers,42,2026-06-07,0.023,58,Centre,-0.964,-0.437,0.51
-Zane Harrison,gold-coast-titans,7,2026-07-12,0.023,58,Halfback,-1.325,-3.195,0.0
-Matt Frawley,canberra-raiders,35,2023-09-10,0.023,58,Five-Eighth,-1.627,-1.135,0.125
-Deine Mariner,brisbane-broncos,56,2026-07-04,0.023,58,Winger,-1.032,-0.232,0.514
-Harrison Graham,newcastle-knights,23,2026-07-12,0.022,58,Interchange,-1.943,-0.178,0.129
-Angus Crichton,sydney-roosters,178,2026-06-12,0.021,57,2nd Row,-1.535,0.17,0.296
-Dean Matterson,manly-warringah-sea-eagles,7,2023-09-01,0.021,57,Interchange,-1.292,0.472,0.1
-Morgan Boyle,manly-warringah-sea-eagles,32,2022-07-28,0.021,57,Interchange,-0.963,0.801,0.0
-Kieran Foran,gold-coast-titans,143,2025-09-06,0.021,57,Five-Eighth,-1.87,-1.378,0.143
-Corey Allan,st-george-illawarra-dragons,72,2025-09-06,0.021,57,Winger,-1.796,-0.997,0.175
-Sebastian Kris,canberra-raiders,122,2026-06-28,0.02,57,Centre,-1.445,-0.918,0.365
+John Radel,south-sydney-rabbitohs,1,2026-06-11,0.023,58,Reserve,-0.805,0.35,0.286
+Matt Frawley,canberra-raiders,35,2023-09-10,0.023,58,Five-Eighth,-1.576,-1.13,0.125
+Casey Mclean,penrith-panthers,42,2026-06-07,0.023,58,Centre,-0.938,-0.551,0.5
+Zane Harrison,gold-coast-titans,7,2026-07-12,0.023,58,Halfback,-1.292,-3.209,0.0
+Deine Mariner,brisbane-broncos,56,2026-07-04,0.023,58,Winger,-0.992,-0.245,0.507
+Harrison Graham,newcastle-knights,23,2026-07-12,0.022,58,Interchange,-1.906,-0.203,0.125
+Morgan Boyle,manly-warringah-sea-eagles,32,2022-07-28,0.021,57,Interchange,-0.934,0.769,0.0
+Dean Matterson,manly-warringah-sea-eagles,7,2023-09-01,0.021,57,Interchange,-1.249,0.454,0.1
+Kieran Foran,gold-coast-titans,143,2025-09-06,0.021,57,Five-Eighth,-1.821,-1.375,0.143
+Angus Crichton,sydney-roosters,178,2026-06-12,0.021,57,2nd Row,-1.481,0.169,0.296
+Corey Allan,st-george-illawarra-dragons,72,2025-09-06,0.021,57,Winger,-1.741,-0.994,0.175
 Brad Takairangi,parramatta-eels,48,2020-10-10,0.02,57,,,,
-Paul Roache,warriors,4,2024-05-26,0.02,57,Interchange,-1.068,0.696,0.0
+Sebastian Kris,canberra-raiders,122,2026-06-28,0.02,57,Centre,-1.39,-1.003,0.365
+Paul Roache,warriors,4,2024-05-26,0.02,57,Interchange,-1.041,0.663,0.0
 Jarryd Hayne,parramatta-eels,15,2018-09-01,0.019,57,,,,
+Angus Hinchey,melbourne-storm,1,2026-03-14,0.019,57,Interchange,-0.474,1.23,0.2
 Mitchell Aubusson,sydney-roosters,67,2020-10-09,0.019,57,,,,
-Angus Hinchey,melbourne-storm,1,2026-03-14,0.019,57,Interchange,-0.355,1.409,0.25
-Kai Pearce-Paul,wests-tigers,56,2026-06-14,0.018,56,2nd Row,-1.844,-0.139,0.125
-Lazarus Vaalepu,melbourne-storm,12,2025-08-29,0.017,56,Interchange,-1.582,0.182,0.062
-Harley Smith-Shields,gold-coast-titans,19,2024-05-12,0.017,56,Centre,-1.44,-0.913,0.19
-Jackson Hastings,newcastle-knights,63,2025-07-27,0.017,56,Halfback,1.178,-0.692,0.115
-Declan Casey,wests-tigers,7,2024-05-24,0.017,56,Centre,-1.068,-0.541,0.222
-Josh Rogers,brisbane-broncos,11,2026-06-11,0.016,56,Five-Eighth,-0.829,-0.338,0.188
-Joseph-Aukuso Sua'Ali'I,sydney-roosters,64,2024-09-27,0.016,56,Centre,2.284,2.811,0.42
-Solomona Faataape,wests-tigers,19,2025-03-30,0.016,56,Centre,-1.221,-0.694,0.35
-Max Feagai,gold-coast-titans,34,2026-03-22,0.016,56,Centre,-1.796,-1.269,0.111
+Kai Pearce-Paul,wests-tigers,56,2026-06-14,0.018,56,2nd Row,-1.795,-0.145,0.125
+Lazarus Vaalepu,melbourne-storm,12,2025-08-29,0.017,56,Interchange,-1.53,0.173,0.062
+Harley Smith-Shields,gold-coast-titans,19,2024-05-12,0.017,56,Centre,-1.396,-1.009,0.19
+Declan Casey,wests-tigers,7,2024-05-24,0.017,56,Centre,-1.035,-0.648,0.222
+Jackson Hastings,newcastle-knights,63,2025-07-27,0.017,56,Halfback,1.224,-0.693,0.115
+Solomona Faataape,wests-tigers,19,2025-03-30,0.016,56,Centre,-1.178,-0.791,0.35
+Joseph-Aukuso Sua'Ali'I,sydney-roosters,64,2024-09-27,0.016,56,Centre,2.342,2.729,0.42
+Josh Rogers,brisbane-broncos,11,2026-06-11,0.016,56,Five-Eighth,-0.785,-0.339,0.188
+Max Feagai,gold-coast-titans,34,2026-03-22,0.016,56,Centre,-1.746,-1.359,0.111
+Francis Molo,dolphins,158,2026-07-11,0.015,55,Prop,-2.027,-0.179,0.052
 Sonny Bill Williams,sydney-roosters,5,2020-10-09,0.015,56,,,,
-Francis Molo,dolphins,158,2026-07-11,0.015,55,Prop,-2.091,-0.183,0.053
-Liam Sutton,north-queensland-cowboys,4,2026-06-06,0.014,55,Five-Eighth,-0.739,-0.247,0.333
-Jackson Shereb,manly-warringah-sea-eagles,3,2026-05-29,0.014,55,Reserve,-1.412,-0.235,0.0
+Jackson Shereb,manly-warringah-sea-eagles,3,2026-05-29,0.014,55,Reserve,-1.37,-0.215,0.0
+Liam Sutton,north-queensland-cowboys,4,2026-06-06,0.014,55,Five-Eighth,-0.712,-0.266,0.333
 Elijah Salesa Leaumoana,newcastle-knights,8,2026-04-26,0.013,55,,,,
 Sualauvi Fa'Alogo,melbourne-storm,39,2026-07-12,0.013,55,,,,
-Kurt Falls,penrith-panthers,3,2022-09-03,0.012,55,Five-Eighth,1.768,2.259,0.0
 George Fai,brisbane-broncos,1,2018-05-24,0.012,55,,,,
-Jackson Ford,warriors,106,2026-06-21,0.012,55,2nd Row,-1.824,-0.119,0.152
+Jackson Ford,warriors,106,2026-06-21,0.012,55,2nd Row,-1.764,-0.114,0.152
+Kurt Falls,penrith-panthers,3,2022-09-03,0.012,55,Five-Eighth,1.786,2.232,0.0
 Jason Clark,south-sydney-rabbitohs,21,2018-09-15,0.012,55,,,,
-Jacob Alick-Wiencke,gold-coast-titans,19,2025-08-16,0.011,54,Interchange,-1.968,-0.203,0.0
-Arthur Miller-Stephen,parramatta-eels,1,2023-08-06,0.011,55,Winger,-0.02,0.78,1.0
-Joe Stimson,gold-coast-titans,94,2024-07-05,0.01,54,Interchange,-2.124,-0.359,0.063
-Bryson Goodwin,cronulla-sutherland-sharks,7,2020-09-26,0.009,54,,,,
+Jacob Alick-Wiencke,gold-coast-titans,19,2025-08-16,0.011,54,Interchange,-1.912,-0.209,0.0
+Arthur Miller-Stephen,parramatta-eels,1,2023-08-06,0.011,55,Winger,-0.013,0.735,1.0
+Joe Stimson,gold-coast-titans,94,2024-07-05,0.01,54,Interchange,-2.061,-0.358,0.063
+Josh Aloiai,manly-warringah-sea-eagles,122,2025-05-31,0.009,54,Prop,-1.892,-0.044,0.068
 Joey Leilua,wests-tigers,57,2021-05-21,0.009,54,,,,
-Tariq Sims,melbourne-storm,101,2023-09-22,0.009,54,2nd Row,-1.902,-0.197,0.107
-Josh Aloiai,manly-warringah-sea-eagles,122,2025-05-31,0.009,54,Prop,-1.955,-0.047,0.068
-Thomas Burgess,south-sydney-rabbitohs,152,2024-09-06,0.008,54,Interchange,-1.758,0.006,0.124
-Sione Katoa,cronulla-sutherland-sharks,133,2026-07-11,0.008,54,Winger,-0.695,0.105,0.657
+Bryson Goodwin,cronulla-sutherland-sharks,7,2020-09-26,0.009,54,,,,
+Tariq Sims,melbourne-storm,101,2023-09-22,0.009,54,2nd Row,-1.845,-0.195,0.107
+Sione Katoa,cronulla-sutherland-sharks,133,2026-07-11,0.008,54,Winger,-0.614,0.134,0.67
 Will Matthews,gold-coast-titans,17,2019-07-12,0.008,54,,,,
-Eddie Ieremia-Toeava,warriors,11,2026-07-10,0.007,54,Interchange,-1.745,0.02,0.077
-Luke Brooks,manly-warringah-sea-eagles,185,2026-06-27,0.006,53,Five-Eighth,-0.996,-0.505,0.139
-Tuipulotu Katoa,canterbury-bankstown-bulldogs,9,2021-07-03,0.006,53,Winger,-1.015,-0.216,0.222
-Gordon Chan Kum Tong,manly-warringah-sea-eagles,13,2025-07-27,0.004,53,Interchange,-1.714,0.05,0.053
-Scott Drinkwater,north-queensland-cowboys,157,2026-07-12,0.004,53,Fullback,1.907,1.466,0.401
-Ryan James,brisbane-broncos,52,2022-08-19,0.004,53,Interchange,-1.654,0.111,0.12
-Zac Saddler,manly-warringah-sea-eagles,3,2021-05-30,0.002,53,Interchange,-0.977,0.787,0.0
-Bronson Garlick,south-sydney-rabbitohs,47,2026-06-04,0.002,53,Hooker,-2.331,-0.18,0.043
-Benjamin Marschke,sydney-roosters,13,2021-09-17,0.001,53,,,,
+Thomas Burgess,south-sydney-rabbitohs,152,2024-09-06,0.008,54,Interchange,-1.695,0.009,0.124
+Eddie Ieremia-Toeava,warriors,11,2026-07-10,0.007,54,Interchange,-1.678,0.025,0.074
+Luke Brooks,manly-warringah-sea-eagles,185,2026-06-27,0.006,53,Five-Eighth,-0.951,-0.505,0.139
+Tuipulotu Katoa,canterbury-bankstown-bulldogs,9,2021-07-03,0.006,53,Winger,-0.984,-0.237,0.222
+Scott Drinkwater,north-queensland-cowboys,157,2026-07-12,0.004,53,Fullback,1.957,1.694,0.401
+Ryan James,brisbane-broncos,52,2022-08-19,0.004,53,Interchange,-1.598,0.106,0.12
+Gordon Chan Kum Tong,manly-warringah-sea-eagles,13,2025-07-27,0.004,53,Interchange,-1.662,0.041,0.053
+Bronson Garlick,south-sydney-rabbitohs,47,2026-06-04,0.002,53,Hooker,-2.267,-0.164,0.043
+Zac Saddler,manly-warringah-sea-eagles,3,2021-05-30,0.002,53,Interchange,-0.947,0.757,0.0
 Ratu Rinakama,canterbury-bankstown-bulldogs,10,2026-07-11,0.001,53,,,,
+Benjamin Marschke,sydney-roosters,13,2021-09-17,0.001,53,,,,
 King Vuniyayawa,warriors,5,2020-06-12,0.001,53,,,,
-Ofahiki Ogden,parramatta-eels,57,2024-09-06,-0.0,52,Interchange,-1.748,0.017,0.037
-Charlie Murray,wests-tigers,6,2026-06-07,-0.0,52,Interchange,-1.598,0.166,0.0
-Dale Finucane,cronulla-sutherland-sharks,106,2024-03-23,0.0,53,Lock,-1.973,0.077,0.04
+Charlie Murray,wests-tigers,6,2026-06-07,-0.0,52,Interchange,-1.55,0.154,0.0
+Dale Finucane,cronulla-sutherland-sharks,106,2024-03-23,0.0,53,Lock,-1.916,0.079,0.04
+Ofahiki Ogden,parramatta-eels,57,2024-09-06,-0.0,52,Interchange,-1.691,0.012,0.037
 Junior Pauga,sydney-roosters,23,2026-03-20,-0.001,52,,,,
-Kane Elgey,manly-warringah-sea-eagles,21,2019-05-30,-0.002,52,,,,
 Ben Lovett,south-sydney-rabbitohs,3,2023-08-12,-0.002,52,,,,
-Fa'Amanu Brown,st-george-illawarra-dragons,37,2024-07-07,-0.002,52,Interchange,-1.674,0.09,0.241
-Blake Lawrie,st-george-illawarra-dragons,154,2026-06-19,-0.003,52,Prop,-2.15,-0.242,0.025
-Slade Griffin,newcastle-knights,16,2018-06-30,-0.003,51,,,,
+Kane Elgey,manly-warringah-sea-eagles,21,2019-05-30,-0.002,52,,,,
+Fa'Amanu Brown,st-george-illawarra-dragons,37,2024-07-07,-0.002,52,Interchange,-1.621,0.083,0.241
+Blake Lawrie,st-george-illawarra-dragons,154,2026-06-19,-0.003,52,Prop,-2.087,-0.24,0.025
+Blayke Brailey,cronulla-sutherland-sharks,171,2026-07-11,-0.003,52,Hooker,-2.729,-0.625,0.095
 Kenny Edwards,parramatta-eels,8,2018-05-11,-0.003,52,,,,
-Blayke Brailey,cronulla-sutherland-sharks,171,2026-07-11,-0.003,52,Hooker,-2.77,-0.618,0.096
-Braidon Burns,north-queensland-cowboys,81,2026-07-12,-0.003,52,Winger,-1.062,-0.263,0.472
-Jed Reardon,canterbury-bankstown-bulldogs,2,2026-05-30,-0.004,51,Interchange,-0.85,0.915,0.0
-Hamish Stewart,st-george-illawarra-dragons,34,2026-07-04,-0.004,51,Interchange,-1.733,0.032,0.146
-Simon Mannering,warriors,21,2018-09-08,-0.004,51,,,,
-Jordan Miller,wests-tigers,2,2024-07-20,-0.004,51,Interchange,-0.504,1.26,0.0
+Slade Griffin,newcastle-knights,16,2018-06-30,-0.003,51,,,,
+Braidon Burns,north-queensland-cowboys,81,2026-07-12,-0.003,52,Winger,-1.007,-0.26,0.472
+Jed Reardon,canterbury-bankstown-bulldogs,2,2026-05-30,-0.004,51,Interchange,-0.823,0.881,0.0
 Robbie Rochow,wests-tigers,12,2018-06-17,-0.004,51,,,,
-Dean Ieremia,gold-coast-titans,23,2026-07-12,-0.004,51,Winger,-1.347,-0.548,0.344
-Dan Keir,parramatta-eels,7,2025-03-30,-0.005,51,Interchange,-1.463,0.302,0.0
+Simon Mannering,warriors,21,2018-09-08,-0.004,51,,,,
+Jordan Miller,wests-tigers,2,2024-07-20,-0.004,51,Interchange,-0.488,1.215,0.0
+Hamish Stewart,st-george-illawarra-dragons,34,2026-07-04,-0.004,51,Interchange,-1.695,0.008,0.143
+Dean Ieremia,gold-coast-titans,23,2026-07-12,-0.004,51,Winger,-1.298,-0.55,0.344
+Dan Keir,parramatta-eels,7,2025-03-30,-0.005,51,Interchange,-1.419,0.284,0.0
 "Liam Le Blanc 
   17 
   B 
@@ -507,23 +507,26 @@ Dan Keir,parramatta-eels,7,2025-03-30,-0.005,51,Interchange,-1.463,0.302,0.0
  
  
    Jye Gray",south-sydney-rabbitohs,25,2026-07-12,-0.005,51,,,,
-Jayden Tanner,canterbury-bankstown-bulldogs,2,2023-03-19,-0.005,50,Replacement,-1.093,0.283,0.0
-Jai Whitbread,gold-coast-titans,29,2021-06-20,-0.005,51,Interchange,-0.69,1.075,0.0
-Wilson De Courcey,newcastle-knights,2,2026-04-12,-0.006,50,Reserve,-0.703,0.474,0.0
-Corey Jensen,brisbane-broncos,133,2026-04-18,-0.006,50,Prop,-2.113,-0.205,0.019
-Tyrell Sloan,st-george-illawarra-dragons,87,2026-07-04,-0.007,50,Fullback,-0.895,-1.335,0.588
+Jayden Tanner,canterbury-bankstown-bulldogs,2,2023-03-19,-0.005,50,Replacement,-1.059,0.273,0.0
+Jai Whitbread,gold-coast-titans,29,2021-06-20,-0.005,51,Interchange,-0.669,1.035,0.0
+Wilson De Courcey,newcastle-knights,2,2026-04-12,-0.006,50,Reserve,-0.683,0.472,0.0
+Corey Jensen,brisbane-broncos,133,2026-04-18,-0.006,50,Prop,-2.048,-0.201,0.019
+Tyrell Sloan,st-george-illawarra-dragons,87,2026-07-04,-0.007,50,Fullback,-0.851,-1.115,0.582
 Tom Wright,manly-warringah-sea-eagles,4,2018-07-22,-0.008,50,,,,
-Grant Anderson,brisbane-broncos,56,2026-07-04,-0.008,50,Winger,-1.484,-0.684,0.329
-Ava Seumanufagai,canterbury-bankstown-bulldogs,33,2022-06-03,-0.008,50,Interchange,-1.784,-0.019,0.0
-Hugo Peel,melbourne-storm,2,2026-05-10,-0.008,50,Reserve,-0.857,0.319,0.0
-Brad Abbey,sydney-roosters,10,2021-08-27,-0.009,50,Reserve,-0.983,0.193,0.0
-Chris Patolo,canterbury-bankstown-bulldogs,25,2024-07-21,-0.009,50,Interchange,-1.965,-0.2,0.0
-Joshua Stuckey,canterbury-bankstown-bulldogs,1,2022-08-27,-0.009,50,Interchange,-0.283,1.481,0.0
-Kurt De Luis,manly-warringah-sea-eagles,12,2022-09-02,-0.009,49,Interchange,-1.606,0.159,0.0
-Samuel Loizou,parramatta-eels,1,2021-09-03,-0.01,49,Interchange,-0.285,1.48,0.0
+Grant Anderson,brisbane-broncos,56,2026-07-04,-0.008,50,Winger,-1.383,-0.635,0.351
+Ava Seumanufagai,canterbury-bankstown-bulldogs,33,2022-06-03,-0.008,50,Interchange,-1.729,-0.026,0.0
+Hugo Peel,melbourne-storm,2,2026-05-10,-0.008,50,Reserve,-0.835,0.319,0.0
+Brad Abbey,sydney-roosters,10,2021-08-27,-0.009,50,Reserve,-0.955,0.2,0.0
+Chris Patolo,canterbury-bankstown-bulldogs,25,2024-07-21,-0.009,50,Interchange,-1.904,-0.2,0.0
+Joshua Stuckey,canterbury-bankstown-bulldogs,1,2022-08-27,-0.009,50,Interchange,-0.274,1.429,0.0
+Kurt De Luis,manly-warringah-sea-eagles,12,2022-09-02,-0.009,49,Interchange,-1.555,0.148,0.0
+Samuel Loizou,parramatta-eels,1,2021-09-03,-0.01,49,Interchange,-0.276,1.427,0.0
 Chris Heighington,newcastle-knights,21,2018-09-01,-0.01,49,,,,
 Darius Boyd,brisbane-broncos,68,2020-09-24,-0.01,49,,,,
-Renouf Atoni,canterbury-bankstown-bulldogs,43,2021-08-02,-0.011,49,Interchange,-1.309,0.456,0.143
+James Graham,st-george-illawarra-dragons,48,2020-06-20,-0.011,49,,,,
+Kurtis Morrin,gold-coast-titans,61,2026-07-12,-0.011,49,Interchange,-1.849,-0.146,0.145
+Jarrod Wallace,dolphins,115,2024-04-12,-0.011,49,Prop,-1.663,0.184,0.2
+Renouf Atoni,canterbury-bankstown-bulldogs,43,2021-08-02,-0.011,49,Interchange,-1.263,0.441,0.143
 "Taylor Losalu 
   15 
   B 
@@ -532,510 +535,507 @@ Renouf Atoni,canterbury-bankstown-bulldogs,43,2021-08-02,-0.011,49,Interchange,-
  
  
    Egan Butcher",sydney-roosters,7,2026-07-11,-0.011,49,,,,
-Kurtis Morrin,gold-coast-titans,61,2026-07-12,-0.011,49,Interchange,-1.911,-0.146,0.147
-Jarrod Wallace,dolphins,115,2024-04-12,-0.011,49,Prop,-1.725,0.183,0.2
-James Graham,st-george-illawarra-dragons,48,2020-06-20,-0.011,49,,,,
-Zac Lipowicz,penrith-panthers,1,2025-08-28,-0.012,48,2nd Row,-0.28,1.425,0.0
-Alex Glenn,brisbane-broncos,65,2021-09-04,-0.012,48,2nd Row,-1.593,0.112,0.111
+Billy Burns,cronulla-sutherland-sharks,76,2026-07-11,-0.012,48,2nd Row,-1.816,-0.166,0.169
+Jason Saab,manly-warringah-sea-eagles,120,2026-07-12,-0.012,49,Winger,-0.607,0.141,0.683
+Sione Fonua,penrith-panthers,1,2025-08-28,-0.012,48,Reserve,-0.832,0.323,0.0
+Alex Glenn,brisbane-broncos,65,2021-09-04,-0.012,48,2nd Row,-1.554,0.096,0.111
 Ethan Parry,parramatta-eels,2,2019-07-27,-0.012,48,,,,
-Jason Saab,manly-warringah-sea-eagles,120,2026-07-12,-0.012,49,Winger,-0.664,0.135,0.681
-Billy Burns,cronulla-sutherland-sharks,76,2026-07-11,-0.012,48,2nd Row,-1.869,-0.164,0.171
-Sione Fonua,penrith-panthers,1,2025-08-28,-0.012,48,Reserve,-0.857,0.32,0.0
-Kruise Leeming,gold-coast-titans,10,2023-09-03,-0.013,48,Interchange,-1.397,0.367,0.167
-Thomas Jenkins,penrith-panthers,47,2026-07-03,-0.013,48,Winger,-0.203,0.596,0.836
+Zac Lipowicz,penrith-panthers,1,2025-08-28,-0.012,48,2nd Row,-0.273,1.377,0.0
+Hymel Hunt,newcastle-knights,79,2023-03-26,-0.013,48,Winger,-1.349,-0.602,0.217
+Kruise Leeming,gold-coast-titans,10,2023-09-03,-0.013,48,Interchange,-1.355,0.348,0.167
 Lachlan Coote,north-queensland-cowboys,9,2018-07-14,-0.013,48,,,,
-Hymel Hunt,newcastle-knights,79,2023-03-26,-0.013,48,Winger,-1.394,-0.595,0.217
-Hohepa Puru,cronulla-sutherland-sharks,12,2026-07-11,-0.014,48,Interchange,-2.034,-0.269,0.031
-Blake Taaffe,canterbury-bankstown-bulldogs,41,2025-06-15,-0.014,47,Fullback,1.076,0.635,0.119
-Jaydn Su'A,st-george-illawarra-dragons,149,2026-06-07,-0.015,47,2nd Row,-1.645,0.06,0.267
-Connor Votano,newcastle-knights,1,2025-08-17,-0.015,47,Fullback,-0.384,-0.824,0.0
-Ky Rodwell,parramatta-eels,5,2022-07-15,-0.016,47,Interchange,-1.072,0.693,0.0
-Reece Hoffman,wests-tigers,1,2020-07-10,-0.016,47,Replacement,-0.697,0.679,0.0
-Adam Clune,newcastle-knights,45,2023-09-16,-0.016,47,Halfback,-1.746,-3.616,0.088
-Tanner Stowers-Smith,warriors,23,2026-07-10,-0.017,46,Interchange,-1.892,-0.128,0.0
-Viliami Fifita,st-george-illawarra-dragons,3,2025-07-05,-0.017,47,Interchange,-0.968,0.796,0.0
-Ken Sio,newcastle-knights,20,2018-09-01,-0.017,47,,,,
-Austin Dias,penrith-panthers,9,2025-08-28,-0.017,47,Interchange,-1.464,0.301,0.0
-Jeral Skelton,wests-tigers,31,2026-07-10,-0.017,46,Winger,-1.194,-0.395,0.4
+Thomas Jenkins,penrith-panthers,47,2026-07-03,-0.013,48,Winger,-0.182,0.566,0.821
+Hohepa Puru,cronulla-sutherland-sharks,12,2026-07-11,-0.014,48,Interchange,-1.987,-0.283,0.03
+Blake Taaffe,canterbury-bankstown-bulldogs,41,2025-06-15,-0.014,47,Fullback,1.141,0.878,0.119
+Jaydn Su'A,st-george-illawarra-dragons,149,2026-06-07,-0.015,47,2nd Row,-1.59,0.06,0.267
+Connor Votano,newcastle-knights,1,2025-08-17,-0.015,47,Fullback,-0.37,-0.634,0.0
+Reece Hoffman,wests-tigers,1,2020-07-10,-0.016,47,Replacement,-0.675,0.657,0.0
+Adam Clune,newcastle-knights,45,2023-09-16,-0.016,47,Halfback,-1.699,-3.617,0.088
+Ky Rodwell,parramatta-eels,5,2022-07-15,-0.016,47,Interchange,-1.039,0.664,0.0
+Tanner Stowers-Smith,warriors,23,2026-07-10,-0.017,46,Interchange,-1.844,-0.141,0.0
+Jeral Skelton,wests-tigers,31,2026-07-10,-0.017,46,Winger,-1.072,-0.325,0.435
+Viliami Fifita,st-george-illawarra-dragons,3,2025-07-05,-0.017,47,Interchange,-0.938,0.766,0.0
 Tc Robati,brisbane-broncos,16,2022-06-11,-0.017,47,,,,
-Jamayne Isaako,dolphins,173,2026-07-11,-0.018,46,Winger,10.683,11.482,0.6
-Brad Schneider,dolphins,54,2026-07-11,-0.019,46,Interchange,-0.91,0.855,0.118
-Chevy Stewart,canberra-raiders,5,2026-05-02,-0.02,46,Reserve,-1.419,-0.242,0.0
-Joshua Coric,brisbane-broncos,1,2026-07-04,-0.021,46,Interchange,-0.274,1.49,0.0
-Luke Gale,brisbane-broncos,1,2026-07-04,-0.021,46,Interchange,-0.515,1.25,0.0
-Josh Reynolds,canterbury-bankstown-bulldogs,29,2023-05-12,-0.022,46,Interchange,-1.425,0.339,0.0
-Oliver Gildart,sydney-roosters,10,2022-09-02,-0.023,46,Centre,-1.206,-0.679,0.1
+Ken Sio,newcastle-knights,20,2018-09-01,-0.017,47,,,,
+Austin Dias,penrith-panthers,9,2025-08-28,-0.017,47,Interchange,-1.418,0.285,0.0
+Jamayne Isaako,dolphins,173,2026-07-11,-0.018,46,Winger,10.828,11.575,0.611
+Brad Schneider,dolphins,54,2026-07-11,-0.019,46,Interchange,-0.871,0.832,0.117
+Chevy Stewart,canberra-raiders,5,2026-05-02,-0.02,46,Reserve,-1.372,-0.217,0.0
+Luke Gale,brisbane-broncos,1,2026-07-04,-0.021,46,Interchange,-0.5,1.203,0.0
+Joshua Coric,brisbane-broncos,1,2026-07-04,-0.021,46,Interchange,-0.266,1.437,0.0
+Josh Reynolds,canterbury-bankstown-bulldogs,29,2023-05-12,-0.022,46,Interchange,-1.383,0.32,0.0
+Oliver Gildart,sydney-roosters,10,2022-09-02,-0.023,46,Centre,-1.173,-0.786,0.1
+Laitia Moceidreke,north-queensland-cowboys,1,2021-08-21,-0.023,45,Winger,-0.036,0.711,1.0
 Utuloa Asomua,canberra-raiders,1,2025-09-07,-0.023,46,,,,
-Max Plath,dolphins,43,2026-07-11,-0.023,45,Hooker,-1.901,0.251,0.196
-Laitia Moceidreke,north-queensland-cowboys,1,2021-08-21,-0.023,45,Winger,-0.043,0.757,1.0
-Kain Anderson,canberra-raiders,1,2025-09-07,-0.023,46,Interchange,-0.281,1.483,0.0
-Keaon Koloamatangi,south-sydney-rabbitohs,137,2026-07-12,-0.024,45,2nd Row,-1.73,-0.025,0.185
-Lewis Symonds,dolphins,1,2026-04-25,-0.024,45,Reserve,-0.697,0.48,0.0
+Kain Anderson,canberra-raiders,1,2025-09-07,-0.023,46,Interchange,-0.273,1.43,0.0
+Max Plath,dolphins,43,2026-07-11,-0.023,45,Hooker,-1.814,0.289,0.212
+Keaon Koloamatangi,south-sydney-rabbitohs,137,2026-07-12,-0.024,45,2nd Row,-1.682,-0.032,0.184
+Lewis Symonds,dolphins,1,2026-04-25,-0.024,45,Reserve,-0.676,0.479,0.0
 Mitchell Allgood,st-george-illawarra-dragons,1,2019-07-04,-0.025,45,,,,
-Latrell Siegwalt,south-sydney-rabbitohs,6,2026-07-03,-0.025,45,Centre,3.632,4.159,0.154
-Tim Johannssen,wests-tigers,1,2024-08-01,-0.026,45,Interchange,-0.511,1.254,0.0
-Rex Bassingthwaighte,sydney-roosters,2,2026-07-11,-0.026,45,Reserve,-1.028,0.149,0.143
-Antonio Verhoeven,brisbane-broncos,3,2026-06-11,-0.026,45,Interchange,-0.645,1.12,0.25
-Adam Doueihi,wests-tigers,124,2026-07-10,-0.026,45,Centre,6.634,7.161,0.367
-Aaron Gray,cronulla-sutherland-sharks,7,2019-09-14,-0.027,44,,,,
-Poasa Fa'Amausili,canterbury-bankstown-bulldogs,45,2024-05-17,-0.027,44,,,,
+Latrell Siegwalt,south-sydney-rabbitohs,6,2026-07-03,-0.025,45,Centre,3.68,4.067,0.154
+Rex Bassingthwaighte,sydney-roosters,2,2026-07-11,-0.026,45,Reserve,-1.085,0.07,0.125
+Adam Doueihi,wests-tigers,124,2026-07-10,-0.026,45,Centre,6.691,7.078,0.367
+Tim Johannssen,wests-tigers,1,2024-08-01,-0.026,45,Interchange,-0.495,1.208,0.0
+Antonio Verhoeven,brisbane-broncos,3,2026-06-11,-0.026,45,Interchange,-0.623,1.081,0.25
 Cooper Cronk,sydney-roosters,49,2019-10-06,-0.027,44,,,,
-George Jennings,melbourne-storm,51,2023-08-04,-0.027,44,Winger,-0.721,0.079,0.524
-Tevita Naufahu,dolphins,13,2026-07-11,-0.028,44,Winger,-0.886,-0.087,0.429
-Luke Smith,canterbury-bankstown-bulldogs,2,2025-05-22,-0.028,44,Interchange,-0.712,1.053,0.0
-Phillip Coates,brisbane-broncos,1,2026-05-17,-0.028,44,Reserve,-0.648,0.528,0.0
-Kyle Feldt,north-queensland-cowboys,141,2024-09-20,-0.029,44,Winger,-0.649,0.15,0.667
-Joey Walsh,manly-warringah-sea-eagles,6,2026-07-12,-0.029,44,Reserve,-1.475,-0.298,0.167
-Harry Rushton,canberra-raiders,3,2022-05-22,-0.029,43,Interchange,-1.081,0.683,0.0
+Poasa Fa'Amausili,canterbury-bankstown-bulldogs,45,2024-05-17,-0.027,44,,,,
+Aaron Gray,cronulla-sutherland-sharks,7,2019-09-14,-0.027,44,,,,
+George Jennings,melbourne-storm,51,2023-08-04,-0.027,44,Winger,-0.676,0.071,0.524
+Luke Smith,canterbury-bankstown-bulldogs,2,2025-05-22,-0.028,44,Interchange,-0.691,1.012,0.0
+Tevita Naufahu,dolphins,13,2026-07-11,-0.028,44,Winger,-0.839,-0.092,0.429
+Phillip Coates,brisbane-broncos,1,2026-05-17,-0.028,44,Reserve,-0.629,0.526,0.0
+Kyle Feldt,north-queensland-cowboys,141,2024-09-20,-0.029,44,Winger,-0.595,0.153,0.667
+Harry Rushton,canberra-raiders,3,2022-05-22,-0.029,43,Interchange,-1.048,0.655,0.0
 Nicholas Tsougranis,st-george-illawarra-dragons,1,2025-06-12,-0.029,44,,,,
-Tyrone Roberts,brisbane-broncos,20,2022-06-17,-0.03,43,Interchange,-0.448,1.317,0.0
-Lorenzo Mulitalo,parramatta-eels,1,2024-07-13,-0.032,43,Winger,-0.264,0.536,0.0
-Brandon Tumeth,wests-tigers,1,2023-03-12,-0.032,43,Interchange,-0.294,1.47,0.0
-Connelly Lemuelu,dolphins,99,2026-07-11,-0.033,43,2nd Row,-1.698,0.007,0.248
-Connor Tracey,canterbury-bankstown-bulldogs,122,2026-07-11,-0.034,43,Fullback,-1.416,-1.856,0.303
+Joey Walsh,manly-warringah-sea-eagles,6,2026-07-12,-0.029,44,Reserve,-1.43,-0.275,0.167
+Tyrone Roberts,brisbane-broncos,20,2022-06-17,-0.03,43,Interchange,-0.434,1.269,0.0
+Brandon Tumeth,wests-tigers,1,2023-03-12,-0.032,43,Interchange,-0.286,1.417,0.0
+Lorenzo Mulitalo,parramatta-eels,1,2024-07-13,-0.032,43,Winger,-0.257,0.491,0.0
+Connelly Lemuelu,dolphins,99,2026-07-11,-0.033,43,2nd Row,-1.64,0.01,0.248
+Connor Tracey,canterbury-bankstown-bulldogs,122,2026-07-11,-0.034,43,Fullback,-1.348,-1.612,0.309
 Siosaia Vave,parramatta-eels,12,2018-09-01,-0.034,43,,,,
-Kade Reed,st-george-illawarra-dragons,2,2026-05-09,-0.035,43,Reserve,-0.778,0.399,0.0
-Tyrell Fuimaono,st-george-illawarra-dragons,47,2022-08-28,-0.035,43,Interchange,-1.849,-0.085,0.038
-Jared Haywood,wests-tigers,1,2026-07-10,-0.036,42,Reserve,-0.791,0.386,0.0
-Zac Fulton,manly-warringah-sea-eagles,1,2022-07-28,-0.036,42,Interchange,-0.503,1.262,0.0
-Jonathon Reuben,st-george-illawarra-dragons,1,2022-06-10,-0.036,42,Winger,-0.224,0.575,0.0
-Pio Seci,manly-warringah-sea-eagles,1,2022-07-28,-0.036,42,Winger,-0.298,0.502,0.0
-Jacob Liddle,st-george-illawarra-dragons,132,2026-07-04,-0.036,43,Hooker,-2.212,-0.061,0.221
-Brodie Croft,brisbane-broncos,58,2021-08-05,-0.037,42,Halfback,-1.313,-3.184,0.077
-Matt Ikuvalu,cronulla-sutherland-sharks,40,2022-09-04,-0.038,42,Winger,-0.273,0.527,0.783
-Sitili Tupouniua,canterbury-bankstown-bulldogs,129,2026-06-20,-0.038,42,2nd Row,-1.512,0.193,0.351
-Jayden Nikorima,melbourne-storm,2,2023-08-31,-0.038,42,Replacement,-1.072,0.304,0.0
-Jackson Frei,warriors,3,2022-08-06,-0.038,42,Replacement,-1.177,0.199,0.0
-Fletcher Myers,south-sydney-rabbitohs,8,2025-05-09,-0.039,41,Winger,0.648,1.447,0.182
+Kade Reed,st-george-illawarra-dragons,2,2026-05-09,-0.035,43,Reserve,-0.757,0.397,0.0
+Tyrell Fuimaono,st-george-illawarra-dragons,47,2022-08-28,-0.035,43,Interchange,-1.795,-0.091,0.038
+Pio Seci,manly-warringah-sea-eagles,1,2022-07-28,-0.036,42,Winger,-0.291,0.456,0.0
+Jonathon Reuben,st-george-illawarra-dragons,1,2022-06-10,-0.036,42,Winger,-0.218,0.529,0.0
+Jacob Liddle,st-george-illawarra-dragons,132,2026-07-04,-0.036,43,Hooker,-2.165,-0.062,0.219
+Zac Fulton,manly-warringah-sea-eagles,1,2022-07-28,-0.036,42,Interchange,-0.487,1.216,0.0
+Jared Haywood,wests-tigers,1,2026-07-10,-0.036,42,Reserve,-0.772,0.382,0.0
+Brodie Croft,brisbane-broncos,58,2021-08-05,-0.037,42,Halfback,-1.279,-3.196,0.077
+Jackson Frei,warriors,3,2022-08-06,-0.038,42,Replacement,-1.141,0.191,0.0
+Sitili Tupouniua,canterbury-bankstown-bulldogs,129,2026-06-20,-0.038,42,2nd Row,-1.452,0.198,0.351
+Jayden Nikorima,melbourne-storm,2,2023-08-31,-0.038,42,Replacement,-1.041,0.291,0.0
+Matt Ikuvalu,cronulla-sutherland-sharks,40,2022-09-04,-0.038,42,Winger,-0.227,0.521,0.783
 Jai Field,parramatta-eels,13,2020-09-18,-0.039,42,,,,
-Lachlan Galvin,canterbury-bankstown-bulldogs,59,2026-07-11,-0.039,42,Five-Eighth,-1.41,-0.918,0.242
-Jye Gray,south-sydney-rabbitohs,42,2026-07-03,-0.04,41,Fullback,-1.282,-1.722,0.314
-Matt French,south-sydney-rabbitohs,1,2024-05-11,-0.04,41,Interchange,-0.518,1.246,0.0
+Fletcher Myers,south-sydney-rabbitohs,8,2025-05-09,-0.039,41,Winger,0.69,1.437,0.182
+Lachlan Galvin,canterbury-bankstown-bulldogs,59,2026-07-11,-0.039,42,Five-Eighth,-1.325,-0.879,0.254
+Jye Gray,south-sydney-rabbitohs,42,2026-07-03,-0.04,41,Fullback,-1.251,-1.514,0.308
+Matt French,south-sydney-rabbitohs,1,2024-05-11,-0.04,41,Interchange,-0.502,1.201,0.0
 Jonathan Wright,manly-warringah-sea-eagles,1,2018-04-08,-0.04,41,,,,
-Temple Kalepo,north-queensland-cowboys,1,2025-07-05,-0.041,41,Interchange,-0.287,1.477,0.0
-Edward Kosi,south-sydney-rabbitohs,42,2026-07-03,-0.041,40,Winger,-1.299,-0.5,0.407
-Peter Mamouzelos,south-sydney-rabbitohs,47,2026-05-24,-0.041,41,Interchange,-2.305,-0.541,0.086
-Ken Maumalo,wests-tigers,93,2022-09-04,-0.041,41,Winger,-0.703,0.097,0.6
-Justin Matamua,wests-tigers,14,2024-07-06,-0.041,41,Replacement,-1.961,-0.584,0.0
-Talanoa Penitani,south-sydney-rabbitohs,1,2026-05-24,-0.041,41,Winger,0.304,1.104,2.0
-Lachlan Miller,newcastle-knights,19,2023-09-02,-0.041,41,Fullback,1.855,1.414,0.217
+Edward Kosi,south-sydney-rabbitohs,42,2026-07-03,-0.041,40,Winger,-1.264,-0.517,0.4
+Temple Kalepo,north-queensland-cowboys,1,2025-07-05,-0.041,41,Interchange,-0.28,1.423,0.0
+Talanoa Penitani,south-sydney-rabbitohs,1,2026-05-24,-0.041,41,Winger,0.311,1.058,2.0
+Justin Matamua,wests-tigers,14,2024-07-06,-0.041,41,Replacement,-1.902,-0.57,0.0
+Ken Maumalo,wests-tigers,93,2022-09-04,-0.041,41,Winger,-0.652,0.096,0.6
+Peter Mamouzelos,south-sydney-rabbitohs,47,2026-05-24,-0.041,41,Interchange,-2.257,-0.554,0.085
+Lachlan Miller,newcastle-knights,19,2023-09-02,-0.041,41,Fullback,1.903,1.64,0.217
 Ryan Hall,sydney-roosters,11,2020-08-06,-0.042,40,,,,
-Jordan Martin,canberra-raiders,1,2024-06-29,-0.042,40,Interchange,-0.286,1.478,0.0
-Tristan Powell,melbourne-storm,1,2024-08-29,-0.043,40,Interchange,-0.257,1.507,0.0
-Brock Greacen,newcastle-knights,1,2025-06-14,-0.043,40,Interchange,-0.272,1.492,0.0
+Jordan Martin,canberra-raiders,1,2024-06-29,-0.042,40,Interchange,-0.277,1.426,0.0
+Tristan Powell,melbourne-storm,1,2024-08-29,-0.043,40,Interchange,-0.25,1.454,0.0
+Brock Greacen,newcastle-knights,1,2025-06-14,-0.043,40,Interchange,-0.264,1.44,0.0
 Josh Hoffman,parramatta-eels,17,2019-07-21,-0.043,40,,,,
-Antonio Winterstein,north-queensland-cowboys,16,2018-07-14,-0.044,40,,,,
 Pita Godinet,wests-tigers,9,2018-06-10,-0.044,39,,,,
+Victor Radley,sydney-roosters,166,2026-07-11,-0.044,40,Lock,-1.956,0.038,0.148
+Antonio Winterstein,north-queensland-cowboys,16,2018-07-14,-0.044,40,,,,
+Reece Robson,sydney-roosters,149,2026-06-26,-0.044,40,Hooker,-2.356,-0.253,0.17
 Samuel Hoare,north-queensland-cowboys,3,2018-06-15,-0.044,40,,,,
-Victor Radley,sydney-roosters,166,2026-07-11,-0.044,40,Lock,-2.009,0.041,0.149
-Reece Robson,sydney-roosters,149,2026-06-26,-0.044,40,Hooker,-2.396,-0.245,0.172
-Nicholas Lenaz,north-queensland-cowboys,1,2025-08-10,-0.045,39,Reserve,-1.116,0.06,0.0
-Reece Foley,sydney-roosters,1,2026-06-12,-0.046,39,Reserve,-0.987,0.19,0.0
+Nicholas Lenaz,north-queensland-cowboys,1,2025-08-10,-0.045,39,Interchange,-1.174,0.529,0.0
 Suaia Matagi,parramatta-eels,9,2018-06-02,-0.046,39,,,,
-Toby Rodwell,sydney-roosters,1,2026-06-12,-0.046,39,Reserve,-0.264,0.913,0.25
-Tyson Frizell,newcastle-knights,178,2026-07-12,-0.047,39,2nd Row,-1.963,-0.258,0.137
-Thomas Flegler,dolphins,108,2026-07-11,-0.047,39,Prop,-1.969,-0.061,0.087
+Reece Foley,sydney-roosters,1,2026-06-12,-0.046,39,Reserve,-0.957,0.198,0.0
+Toby Rodwell,sydney-roosters,1,2026-06-12,-0.046,39,Reserve,-0.237,0.917,0.25
 Emry Pere,north-queensland-cowboys,2,2020-09-18,-0.047,39,,,,
-Francis Manuleleua,newcastle-knights,5,2026-06-19,-0.048,39,2nd Row,-1.507,0.198,0.059
+Tyson Frizell,newcastle-knights,178,2026-07-12,-0.047,39,2nd Row,-1.909,-0.259,0.136
+Thomas Flegler,dolphins,108,2026-07-11,-0.047,39,Prop,-1.911,-0.064,0.086
+Francis Manuleleua,newcastle-knights,5,2026-06-19,-0.048,39,2nd Row,-1.46,0.19,0.059
 Sam Kasiano,melbourne-storm,12,2018-06-17,-0.049,39,,,,
-Adrian Trevilyan,canberra-raiders,3,2023-08-13,-0.049,38,Interchange,-0.766,0.999,0.0
-Mason Lino,newcastle-knights,25,2020-09-25,-0.05,38,,,,
-Luke Lewis,cronulla-sutherland-sharks,17,2018-09-21,-0.05,38,,,,
-Reuben Porter,wests-tigers,8,2024-08-11,-0.05,38,2nd Row,-1.311,0.394,0.0
-Shawn Blore,melbourne-storm,87,2026-06-05,-0.05,38,2nd Row,-2.143,-0.438,0.057
+Adrian Trevilyan,canberra-raiders,3,2023-08-13,-0.049,38,Interchange,-0.747,0.956,0.0
+Reuben Porter,wests-tigers,8,2024-08-11,-0.05,38,2nd Row,-1.276,0.374,0.0
 Joseph Roddy,canberra-raiders,4,2026-05-02,-0.05,38,,,,
-Jordan Uta,canberra-raiders,1,2026-05-21,-0.051,38,Reserve,-0.844,0.333,0.0
-Dion Teaupa,south-sydney-rabbitohs,4,2024-08-03,-0.051,38,Replacement,-1.241,0.136,0.1
-Robert Derby,north-queensland-cowboys,19,2026-05-24,-0.052,38,Winger,-1.153,-0.354,0.346
-Daniel Atkinson,st-george-illawarra-dragons,50,2026-07-04,-0.052,37,Five-Eighth,-0.997,-0.506,0.123
-Alex Twal,wests-tigers,165,2026-07-10,-0.052,38,Lock,-2.174,-0.125,0.018
-Hame Sele,st-george-illawarra-dragons,76,2026-04-10,-0.052,37,Interchange,-2.045,-0.28,0.03
-Kaeo Weekes,canberra-raiders,70,2026-07-11,-0.052,38,Fullback,-0.973,-1.414,0.352
-Peter Wallace,penrith-panthers,9,2018-05-11,-0.053,37,,,,
+Mason Lino,newcastle-knights,25,2020-09-25,-0.05,38,,,,
+Shawn Blore,melbourne-storm,87,2026-06-05,-0.05,38,2nd Row,-2.091,-0.441,0.056
+Luke Lewis,cronulla-sutherland-sharks,17,2018-09-21,-0.05,38,,,,
+Jordan Uta,canberra-raiders,1,2026-05-21,-0.051,38,Reserve,-0.817,0.337,0.0
+Dion Teaupa,south-sydney-rabbitohs,4,2024-08-03,-0.051,38,Replacement,-1.201,0.131,0.1
+Kaeo Weekes,canberra-raiders,70,2026-07-11,-0.052,38,Fullback,-0.883,-1.147,0.371
+Robert Derby,north-queensland-cowboys,19,2026-05-24,-0.052,38,Winger,-1.106,-0.359,0.346
+Daniel Atkinson,st-george-illawarra-dragons,50,2026-07-04,-0.052,37,Five-Eighth,-0.956,-0.51,0.122
+Alex Twal,wests-tigers,165,2026-07-10,-0.052,38,Lock,-2.117,-0.122,0.017
+Hame Sele,st-george-illawarra-dragons,76,2026-04-10,-0.052,37,Interchange,-1.98,-0.277,0.03
 Tim Lafai,canterbury-bankstown-bulldogs,51,2020-09-17,-0.053,37,,,,
-Saxon Pryke,parramatta-eels,5,2026-05-16,-0.053,37,Interchange,-1.148,0.616,0.0
-Falakiko Manu,canterbury-bankstown-bulldogs,3,2021-08-15,-0.054,37,Reserve,-1.278,-0.102,0.0
-Sebastian Su'A,dolphins,1,2026-07-05,-0.055,37,Reserve,-1.179,-0.003,0.0
-Aaron Pene,melbourne-storm,30,2023-08-31,-0.055,37,Interchange,-1.946,-0.181,0.0
-Jermaine Mcewen,newcastle-knights,31,2026-07-05,-0.055,37,2nd Row,-1.759,-0.054,0.114
-Brent Woolf,dolphins,1,2026-03-08,-0.056,37,Interchange,-0.292,1.473,0.0
-James Roumanos,manly-warringah-sea-eagles,1,2022-09-02,-0.057,36,Replacement,-0.707,0.669,0.0
+Saxon Pryke,parramatta-eels,5,2026-05-16,-0.053,37,Interchange,-1.202,0.502,0.0
+Peter Wallace,penrith-panthers,9,2018-05-11,-0.053,37,,,,
+Falakiko Manu,canterbury-bankstown-bulldogs,3,2021-08-15,-0.054,37,Reserve,-1.244,-0.089,0.0
+Jermaine Mcewen,newcastle-knights,31,2026-07-05,-0.055,37,2nd Row,-1.717,-0.067,0.111
+Sebastian Su'A,dolphins,1,2026-07-05,-0.055,37,Reserve,-1.143,0.012,0.0
+Aaron Pene,melbourne-storm,30,2023-08-31,-0.055,37,Interchange,-1.886,-0.182,0.0
+Brent Woolf,dolphins,1,2026-03-08,-0.056,37,Interchange,-0.283,1.42,0.0
+Ethan Roberts,wests-tigers,1,2026-05-16,-0.057,36,Replacement,-0.737,0.595,0.2
 Asipeli Fine,canterbury-bankstown-bulldogs,6,2018-05-20,-0.057,36,,,,
-Heamasi Makasini,wests-tigers,12,2026-07-10,-0.057,36,Centre,-1.361,-0.835,0.133
-Marcelo Montoya,canterbury-bankstown-bulldogs,141,2026-05-22,-0.057,36,Winger,-1.404,-0.605,0.355
-Trey Mooney,newcastle-knights,40,2026-07-12,-0.057,36,Interchange,-1.813,-0.048,0.135
-Ethan Roberts,wests-tigers,1,2026-05-16,-0.057,36,Replacement,-0.765,0.612,0.2
-Tyrone Peachey,penrith-panthers,112,2024-06-01,-0.057,36,Interchange,-1.662,0.102,0.267
-Tim Glasby,newcastle-knights,51,2020-06-27,-0.058,36,,,,
-Will Chambers,cronulla-sutherland-sharks,51,2021-08-07,-0.058,36,Centre,-1.207,-0.68,0.111
+Marcelo Montoya,canterbury-bankstown-bulldogs,141,2026-05-22,-0.057,36,Winger,-1.349,-0.602,0.355
+Heamasi Makasini,wests-tigers,12,2026-07-10,-0.057,36,Centre,-1.322,-0.935,0.133
+Tyrone Peachey,penrith-panthers,112,2024-06-01,-0.057,36,Interchange,-1.603,0.1,0.267
+Trey Mooney,newcastle-knights,40,2026-07-12,-0.057,36,Interchange,-1.759,-0.055,0.132
+James Roumanos,manly-warringah-sea-eagles,1,2022-09-02,-0.057,36,Replacement,-0.685,0.647,0.0
+Will Chambers,cronulla-sutherland-sharks,51,2021-08-07,-0.058,36,Centre,-1.175,-0.788,0.111
 Ryan Simpkins,gold-coast-titans,2,2018-05-05,-0.058,36,,,,
-Eli Clark,canterbury-bankstown-bulldogs,1,2024-09-07,-0.058,35,Replacement,-0.697,0.679,0.0
-Wayde Egan,warriors,164,2026-07-10,-0.059,35,Hooker,-2.499,-0.348,0.145
-Gabriel Satrick,melbourne-storm,1,2026-05-22,-0.059,35,Interchange,-0.531,1.233,0.0
-Araz Nanva,parramatta-eels,3,2026-07-11,-0.059,35,Centre,-0.471,0.056,0.333
-Jahream Bula,wests-tigers,71,2026-07-10,-0.059,35,Fullback,-1.201,-1.641,0.387
-Josh Feledy,manly-warringah-sea-eagles,8,2026-07-05,-0.059,35,Centre,-1.728,-1.201,0.05
-Sialetili Faeamani,gold-coast-titans,8,2026-05-02,-0.06,35,Winger,-0.8,-0.001,0.4
-Joash Papalii,parramatta-eels,25,2026-07-11,-0.06,35,Fullback,-1.615,-2.056,0.15
-Leeson Ah Mau,warriors,68,2021-07-24,-0.061,35,Interchange,-1.581,0.183,0.056
+Eli Clark,canterbury-bankstown-bulldogs,1,2024-09-07,-0.058,35,Replacement,-0.677,0.655,0.0
+Tim Glasby,newcastle-knights,51,2020-06-27,-0.058,36,,,,
+Araz Nanva,parramatta-eels,3,2026-07-11,-0.059,35,Centre,-0.455,-0.068,0.333
+Jahream Bula,wests-tigers,71,2026-07-10,-0.059,35,Fullback,-1.159,-1.423,0.382
+Josh Feledy,manly-warringah-sea-eagles,8,2026-07-05,-0.059,35,Centre,-1.456,-1.069,0.19
+Wayde Egan,warriors,164,2026-07-10,-0.059,35,Hooker,-2.451,-0.348,0.144
+Gabriel Satrick,melbourne-storm,1,2026-05-22,-0.059,35,Interchange,-0.517,1.187,0.0
+Sialetili Faeamani,gold-coast-titans,8,2026-05-02,-0.06,35,Winger,-0.856,-0.108,0.364
+Joash Papalii,parramatta-eels,25,2026-07-11,-0.06,35,Fullback,-1.561,-1.824,0.15
+Leeson Ah Mau,warriors,68,2021-07-24,-0.061,35,Interchange,-1.532,0.171,0.056
 Daniel Vasquez,cronulla-sutherland-sharks,1,2020-09-26,-0.061,35,,,,
-Daniel Saifiti,dolphins,144,2025-04-27,-0.062,34,Prop,-1.807,0.1,0.13
 Alexander Lobb,wests-tigers,2,2024-07-12,-0.062,34,,,,
-Liam Ison,cronulla-sutherland-sharks,1,2024-07-27,-0.063,34,Fullback,-0.233,-0.674,0.0
-Tyson Gamble,newcastle-knights,67,2026-03-21,-0.063,34,Five-Eighth,-1.508,-1.016,0.12
-Brayden Mcgrady,dolphins,1,2023-06-24,-0.064,34,Winger,-0.007,0.792,1.0
-Moala Graham-Taufa,south-sydney-rabbitohs,6,2026-05-03,-0.065,34,Reserve,-1.486,-0.309,0.071
-Jesse Bromwich,dolphins,154,2024-09-08,-0.065,34,Prop,-2.105,-0.197,0.044
-Hayze Perham,brisbane-broncos,37,2026-07-04,-0.065,34,Fullback,-1.64,-2.08,0.19
+Daniel Saifiti,dolphins,144,2025-04-27,-0.062,34,Prop,-1.747,0.101,0.13
+Liam Ison,cronulla-sutherland-sharks,1,2024-07-27,-0.063,34,Fullback,-0.227,-0.491,0.0
+Tyson Gamble,newcastle-knights,67,2026-03-21,-0.063,34,Five-Eighth,-1.458,-1.012,0.12
+Brayden Mcgrady,dolphins,1,2023-06-24,-0.064,34,Winger,-0.001,0.747,1.0
+Moala Graham-Taufa,south-sydney-rabbitohs,6,2026-05-03,-0.065,34,Reserve,-1.441,-0.286,0.071
+Jesse Bromwich,dolphins,154,2024-09-08,-0.065,34,Prop,-2.041,-0.194,0.044
+Hayze Perham,brisbane-broncos,37,2026-07-04,-0.065,34,Fullback,-1.187,-1.451,0.209
+Ryan Couchman,st-george-illawarra-dragons,23,2026-07-04,-0.066,34,Interchange,-1.858,-0.154,0.028
+Jake Granville,north-queensland-cowboys,122,2024-08-01,-0.066,34,Interchange,-2.225,-0.522,0.047
 Darren Nicholls,st-george-illawarra-dragons,3,2019-07-19,-0.066,34,,,,
-Jake Granville,north-queensland-cowboys,122,2024-08-01,-0.066,34,Interchange,-2.29,-0.525,0.047
-Ryan Couchman,st-george-illawarra-dragons,23,2026-07-04,-0.066,34,Interchange,-1.898,-0.133,0.029
-David Fale,st-george-illawarra-dragons,3,2026-04-18,-0.067,33,Winger,-0.612,0.188,0.0
-Siulagi Tuimalatu-Brown,melbourne-storm,5,2026-07-12,-0.067,33,Winger,-1.499,-0.7,0.125
-Alfred Smalley,manly-warringah-sea-eagles,2,2022-08-20,-0.067,33,Winger,-0.265,0.534,0.5
-Jacob Saifiti,newcastle-knights,146,2026-07-05,-0.068,33,Prop,-2.047,-0.139,0.061
-Sione Finau,st-george-illawarra-dragons,6,2025-07-19,-0.068,33,Winger,-0.576,0.223,0.5
-Dean Hawkins,parramatta-eels,25,2025-08-10,-0.069,33,Halfback,-0.547,-2.417,0.097
-Junior Paulo,parramatta-eels,180,2026-05-16,-0.069,33,Prop,-1.994,-0.087,0.08
-James Roberts,wests-tigers,62,2022-08-13,-0.069,33,Centre,-1.5,-0.973,0.167
-Harrison Hassett,penrith-panthers,1,2025-05-24,-0.069,33,Interchange,-0.478,1.287,0.333
-Karl Oloapu,canterbury-bankstown-bulldogs,7,2023-06-18,-0.07,32,Five-Eighth,-1.149,-0.657,0.0
-Erin Clark,warriors,131,2026-07-10,-0.07,32,Lock,-2.185,-0.135,0.076
-Freddy Lussick,penrith-panthers,64,2026-07-03,-0.07,33,Hooker,-2.436,-0.284,0.078
-Sione Mata'Utia,newcastle-knights,56,2020-10-04,-0.071,32,,,,
+Siulagi Tuimalatu-Brown,melbourne-storm,5,2026-07-12,-0.067,33,Winger,-1.4,-0.652,0.176
+David Fale,st-george-illawarra-dragons,3,2026-04-18,-0.067,33,Winger,-0.595,0.152,0.0
+Alfred Smalley,manly-warringah-sea-eagles,2,2022-08-20,-0.067,33,Winger,-0.253,0.494,0.5
+Sione Finau,st-george-illawarra-dragons,6,2025-07-19,-0.068,33,Winger,-0.543,0.204,0.5
+Jacob Saifiti,newcastle-knights,146,2026-07-05,-0.068,33,Prop,-1.986,-0.139,0.06
+Harrison Hassett,penrith-panthers,1,2025-05-24,-0.069,33,Interchange,-0.456,1.247,0.333
+James Roberts,wests-tigers,62,2022-08-13,-0.069,33,Centre,-1.459,-1.072,0.167
+Dean Hawkins,parramatta-eels,25,2025-08-10,-0.069,33,Halfback,-0.503,-2.42,0.097
+Junior Paulo,parramatta-eels,180,2026-05-16,-0.069,33,Prop,-1.937,-0.089,0.079
+Freddy Lussick,penrith-panthers,64,2026-07-03,-0.07,33,Hooker,-2.383,-0.28,0.077
+Erin Clark,warriors,131,2026-07-10,-0.07,32,Lock,-2.127,-0.132,0.075
+Karl Oloapu,canterbury-bankstown-bulldogs,7,2023-06-18,-0.07,32,Five-Eighth,-1.122,-0.676,0.0
+Herman Ese'Ese,dolphins,95,2023-09-02,-0.071,32,Interchange,-1.789,-0.086,0.056
 Shaun Fensom,brisbane-broncos,16,2019-03-28,-0.071,32,,,,
-Herman Ese'Ese,dolphins,95,2023-09-02,-0.071,32,Interchange,-1.85,-0.085,0.056
+Sione Mata'Utia,newcastle-knights,56,2020-10-04,-0.071,32,,,,
+Jock Madden,wests-tigers,44,2026-07-04,-0.072,32,Halfback,0.942,-0.976,0.115
+Tepai Moeroa,melbourne-storm,56,2024-08-29,-0.072,32,Interchange,-1.745,-0.042,0.038
 Emarly Bitungane,north-queensland-cowboys,2,2025-08-10,-0.072,32,,,,
-Tepai Moeroa,melbourne-storm,56,2024-08-29,-0.072,32,Interchange,-1.804,-0.039,0.038
-Jock Madden,wests-tigers,44,2026-07-04,-0.072,32,Halfback,0.852,-1.018,0.118
-Siliva Havili,south-sydney-rabbitohs,147,2025-09-05,-0.073,31,Interchange,-2.202,-0.438,0.049
+Vena Patuki-Case,canberra-raiders,1,2026-06-13,-0.073,32,Reserve,-1.149,0.005,0.0
 Tyronne Roberts-Davis,gold-coast-titans,1,2018-04-21,-0.073,31,,,,
-Ryan Rivett,newcastle-knights,1,2023-03-17,-0.073,32,Interchange,-0.289,1.475,0.0
-Vena Patuki-Case,canberra-raiders,1,2026-06-13,-0.073,32,Reserve,-1.088,0.089,0.0
-Xavier Willison,brisbane-broncos,66,2026-07-04,-0.074,31,Interchange,-1.617,0.147,0.233
-Isaac Liu,gold-coast-titans,161,2024-09-07,-0.074,31,Lock,-2.206,-0.157,0.021
-Jayden Okunbor,canterbury-bankstown-bulldogs,40,2023-09-03,-0.074,31,Winger,-1.529,-0.73,0.265
-Arama Hau,gold-coast-titans,23,2026-07-12,-0.075,31,2nd Row,-1.619,0.086,0.229
+Siliva Havili,south-sydney-rabbitohs,147,2025-09-05,-0.073,31,Interchange,-2.138,-0.435,0.049
+Ryan Rivett,newcastle-knights,1,2023-03-17,-0.073,32,Interchange,-0.281,1.423,0.0
+Jayden Okunbor,canterbury-bankstown-bulldogs,40,2023-09-03,-0.074,31,Winger,-1.476,-0.729,0.265
+Xavier Willison,brisbane-broncos,66,2026-07-04,-0.074,31,Interchange,-1.563,0.141,0.23
+Isaac Liu,gold-coast-titans,161,2024-09-07,-0.074,31,Lock,-2.144,-0.149,0.021
+Patrick Carrigan,brisbane-broncos,138,2026-05-31,-0.075,31,Lock,-1.965,0.03,0.046
+Arama Hau,gold-coast-titans,23,2026-07-12,-0.075,31,2nd Row,-1.583,0.067,0.222
 Troy Dargan,south-sydney-rabbitohs,2,2020-06-05,-0.075,31,,,,
-Patrick Carrigan,brisbane-broncos,138,2026-05-31,-0.075,31,Lock,-2.017,0.033,0.047
-Cooper Clarke,melbourne-storm,16,2026-07-12,-0.076,30,2nd Row,-1.583,0.122,0.095
+Mathew Feagai,st-george-illawarra-dragons,77,2026-07-04,-0.076,31,Winger,-1.359,-0.611,0.36
 Rhyse Martin,canterbury-bankstown-bulldogs,24,2019-06-16,-0.076,31,,,,
-Mathew Feagai,st-george-illawarra-dragons,77,2026-07-04,-0.076,31,Winger,-1.458,-0.658,0.341
-Alex Seyfarth,wests-tigers,107,2026-07-10,-0.076,30,Interchange,-2.121,-0.357,0.104
-Darryn Schonig,melbourne-storm,7,2021-03-25,-0.077,30,Interchange,-0.277,1.487,0.0
+Cooper Clarke,melbourne-storm,16,2026-07-12,-0.076,30,2nd Row,-1.557,0.093,0.091
+Alex Seyfarth,wests-tigers,107,2026-07-10,-0.076,30,Interchange,-2.059,-0.355,0.103
 Peni Terepo,parramatta-eels,39,2020-06-20,-0.077,30,,,,
-Trent Toelau,melbourne-storm,20,2026-07-12,-0.077,30,Interchange,-1.875,-0.111,0.071
-De La Salle Va'A,sydney-roosters,2,2025-07-06,-0.078,30,Interchange,-0.668,1.096,0.0
-Egan Butcher,sydney-roosters,75,2026-06-26,-0.078,30,Interchange,-2.076,-0.312,0.086
-Zac Cini,wests-tigers,3,2021-09-05,-0.078,30,Reserve,-1.099,0.078,0.125
-Braydon Trindall,cronulla-sutherland-sharks,110,2026-07-11,-0.078,30,Five-Eighth,1.523,2.015,0.301
-Jesse Arthars,brisbane-broncos,105,2026-06-26,-0.078,30,Winger,-1.353,-0.554,0.385
-Aaron Booth,gold-coast-titans,10,2022-08-05,-0.078,30,Interchange,-1.678,0.087,0.0
-Mavrik Geyer,wests-tigers,17,2026-06-28,-0.079,29,Interchange,-1.984,-0.22,0.0
-David Nofoaluma,wests-tigers,110,2023-08-26,-0.079,29,Winger,-1.047,-0.247,0.508
-Emre Guler,st-george-illawarra-dragons,117,2026-06-28,-0.079,29,Interchange,-2.102,-0.337,0.074
-Karl Lawton,north-queensland-cowboys,101,2025-08-30,-0.08,29,Interchange,-2.243,-0.479,0.08
-Adam Elliott,south-sydney-rabbitohs,140,2026-05-24,-0.08,29,Lock,-2.082,-0.032,0.082
-Allan Fitzgibbon,gold-coast-titans,6,2025-06-29,-0.081,29,Winger,-0.733,0.066,0.333
-Andrew Davey,parramatta-eels,43,2023-08-11,-0.081,29,2nd Row,-1.752,-0.047,0.147
-Jayden Campbell,gold-coast-titans,88,2026-07-12,-0.081,29,Fullback,4.712,4.272,0.371
+Darryn Schonig,melbourne-storm,7,2021-03-25,-0.077,30,Interchange,-0.269,1.434,0.0
+Trent Toelau,melbourne-storm,20,2026-07-12,-0.077,30,Interchange,-1.838,-0.135,0.069
+Braydon Trindall,cronulla-sutherland-sharks,110,2026-07-11,-0.078,30,Five-Eighth,1.576,2.023,0.301
+Aaron Booth,gold-coast-titans,10,2022-08-05,-0.078,30,Interchange,-1.634,0.07,0.0
+Egan Butcher,sydney-roosters,75,2026-06-26,-0.078,30,Interchange,-2.017,-0.313,0.085
+De La Salle Va'A,sydney-roosters,2,2025-07-06,-0.078,30,Interchange,-0.647,1.056,0.0
+Zac Cini,wests-tigers,3,2021-09-05,-0.078,30,Reserve,-1.064,0.09,0.125
+Jesse Arthars,brisbane-broncos,105,2026-06-26,-0.078,30,Winger,-1.296,-0.548,0.385
+Mavrik Geyer,wests-tigers,17,2026-06-28,-0.079,29,Interchange,-1.927,-0.224,0.0
+David Nofoaluma,wests-tigers,110,2023-08-26,-0.079,29,Winger,-0.997,-0.249,0.508
+Emre Guler,st-george-illawarra-dragons,117,2026-06-28,-0.079,29,Interchange,-2.036,-0.333,0.074
+Adam Elliott,south-sydney-rabbitohs,140,2026-05-24,-0.08,29,Lock,-2.023,-0.028,0.082
+Karl Lawton,north-queensland-cowboys,101,2025-08-30,-0.08,29,Interchange,-2.18,-0.477,0.08
+Jayden Campbell,gold-coast-titans,88,2026-07-12,-0.081,29,Fullback,4.814,4.551,0.367
 Jack Stockwell,gold-coast-titans,28,2019-09-07,-0.081,29,,,,
-Simi Sasagi,canberra-raiders,58,2026-07-11,-0.081,29,Interchange,-1.778,-0.014,0.193
-Max King,canterbury-bankstown-bulldogs,128,2026-07-11,-0.081,28,Prop,-2.104,-0.197,0.028
-Kaiden Lahrs,north-queensland-cowboys,8,2026-03-22,-0.082,28,Interchange,-1.389,0.375,0.0
-Cade Cust,manly-warringah-sea-eagles,27,2021-07-16,-0.083,28,Interchange,-1.249,0.515,0.182
-Loko Jnr Pasifiki Tonga,st-george-illawarra-dragons,20,2026-07-04,-0.083,28,Interchange,-1.782,-0.017,0.036
-Payne Haas,brisbane-broncos,149,2026-06-26,-0.083,28,Prop,-1.858,0.049,0.078
-Matty Nicholson,canberra-raiders,11,2025-09-20,-0.084,28,2nd Row,-1.126,0.579,0.375
+Max King,canterbury-bankstown-bulldogs,128,2026-07-11,-0.081,28,Prop,-2.025,-0.178,0.037
+Allan Fitzgibbon,gold-coast-titans,6,2025-06-29,-0.081,29,Winger,-0.708,0.04,0.333
+Andrew Davey,parramatta-eels,43,2023-08-11,-0.081,29,2nd Row,-1.698,-0.048,0.147
+Simi Sasagi,canberra-raiders,58,2026-07-11,-0.081,29,Interchange,-1.713,-0.01,0.19
+Kaiden Lahrs,north-queensland-cowboys,8,2026-03-22,-0.082,28,Interchange,-1.345,0.358,0.0
+Cade Cust,manly-warringah-sea-eagles,27,2021-07-16,-0.083,28,Interchange,-1.207,0.497,0.182
+Loko Jnr Pasifiki Tonga,st-george-illawarra-dragons,20,2026-07-04,-0.083,28,Interchange,-1.739,-0.036,0.034
+Payne Haas,brisbane-broncos,149,2026-06-26,-0.083,28,Prop,-1.785,0.063,0.086
+Karmichael Hunt,brisbane-broncos,2,2021-06-17,-0.084,28,Five-Eighth,-0.529,-0.083,0.0
+Aaron Schoupp,manly-warringah-sea-eagles,52,2026-06-27,-0.084,28,Centre,-1.364,-0.977,0.176
 Mitch Cornish,sydney-roosters,1,2018-03-10,-0.084,28,,,,
-Aaron Schoupp,manly-warringah-sea-eagles,52,2026-06-27,-0.084,28,Centre,-1.421,-0.894,0.176
-Karmichael Hunt,brisbane-broncos,2,2021-06-17,-0.084,28,Five-Eighth,-0.539,-0.047,0.0
-Jeremy Marshall-King,dolphins,154,2026-07-11,-0.085,28,Hooker,-2.392,-0.24,0.165
-Toafofoa Sipley,manly-warringah-sea-eagles,91,2025-08-30,-0.086,27,Interchange,-1.948,-0.183,0.091
+Matty Nicholson,canberra-raiders,11,2025-09-20,-0.084,28,2nd Row,-1.137,0.513,0.353
+Jeremy Marshall-King,dolphins,154,2026-07-11,-0.085,28,Hooker,-2.353,-0.249,0.163
+Bryce Cartwright,parramatta-eels,115,2024-09-06,-0.086,27,2nd Row,-1.805,-0.155,0.163
 Abbas Miski,manly-warringah-sea-eagles,6,2020-09-27,-0.086,27,,,,
-Bryce Cartwright,parramatta-eels,115,2024-09-06,-0.086,27,2nd Row,-1.865,-0.16,0.163
-Bradley Deitz,canterbury-bankstown-bulldogs,7,2021-05-29,-0.086,27,Interchange,-1.273,0.491,0.0
-Josh Jackson,canterbury-bankstown-bulldogs,103,2022-09-02,-0.088,27,Lock,-2.092,-0.042,0.0
-Jacob Halangahu,st-george-illawarra-dragons,9,2026-05-09,-0.088,27,Interchange,-1.735,0.029,0.0
-Paul Bryan,manly-warringah-sea-eagles,3,2026-03-26,-0.089,27,Interchange,-1.199,0.566,0.0
-Sam Stone,gold-coast-titans,23,2021-06-20,-0.089,27,2nd Row,-1.106,0.599,0.0
-Selwyn Cobbo,dolphins,92,2026-06-27,-0.09,26,Winger,-0.614,0.185,0.63
-Jake Tago,parramatta-eels,9,2025-03-09,-0.09,26,Winger,-0.755,0.044,0.5
-Siosiua Taukeiaho,manly-warringah-sea-eagles,128,2026-05-09,-0.09,27,Prop,-0.798,1.11,0.046
-Josese Lanyon,wests-tigers,4,2026-07-10,-0.09,27,Hooker,-1.069,1.082,0.0
-Lachlan Burr,north-queensland-cowboys,51,2021-07-09,-0.09,26,Interchange,-1.512,0.252,0.062
-Zyon Maiu'U,warriors,1,2024-04-25,-0.091,26,Replacement,-0.834,0.543,0.0
-Solomon Alaimalo,wests-tigers,8,2024-08-22,-0.091,26,Winger,-0.99,-0.191,0.222
-Zac Laybutt,north-queensland-cowboys,34,2026-07-12,-0.091,26,Centre,-1.308,-0.781,0.234
+Toafofoa Sipley,manly-warringah-sea-eagles,91,2025-08-30,-0.086,27,Interchange,-1.88,-0.176,0.091
+Bradley Deitz,canterbury-bankstown-bulldogs,7,2021-05-29,-0.086,27,Interchange,-1.241,0.463,0.0
+Jacob Halangahu,st-george-illawarra-dragons,9,2026-05-09,-0.088,27,Interchange,-1.714,-0.011,0.0
+Josh Jackson,canterbury-bankstown-bulldogs,103,2022-09-02,-0.088,27,Lock,-2.043,-0.048,0.0
+Sam Stone,gold-coast-titans,23,2021-06-20,-0.089,27,2nd Row,-1.076,0.574,0.0
+Paul Bryan,manly-warringah-sea-eagles,3,2026-03-26,-0.089,27,Interchange,-1.162,0.542,0.0
+Selwyn Cobbo,dolphins,92,2026-06-27,-0.09,26,Winger,-0.552,0.196,0.634
+Jake Tago,parramatta-eels,9,2025-03-09,-0.09,26,Winger,-0.719,0.029,0.5
+Lachlan Burr,north-queensland-cowboys,51,2021-07-09,-0.09,26,Interchange,-1.465,0.239,0.062
+Siosiua Taukeiaho,manly-warringah-sea-eagles,128,2026-05-09,-0.09,27,Prop,-0.737,1.111,0.046
+Josese Lanyon,wests-tigers,4,2026-07-10,-0.09,27,Hooker,-1.042,1.061,0.0
+Solomon Alaimalo,wests-tigers,8,2024-08-22,-0.091,26,Winger,-0.958,-0.211,0.222
+Zac Laybutt,north-queensland-cowboys,34,2026-07-12,-0.091,26,Centre,-1.255,-0.868,0.234
 Jacob Gagan,south-sydney-rabbitohs,1,2019-04-06,-0.091,26,,,,
-Zach Dockar-Clay,manly-warringah-sea-eagles,35,2026-05-16,-0.092,26,Interchange,-2.21,-0.446,0.043
-Lachlan Hubner,south-sydney-rabbitohs,37,2026-07-12,-0.092,26,Interchange,-1.958,-0.193,0.045
+Zyon Maiu'U,warriors,1,2024-04-25,-0.091,26,Replacement,-0.807,0.525,0.0
 Ata Hingano,canberra-raiders,9,2018-06-08,-0.092,26,,,,
-Justin Olam,wests-tigers,115,2024-08-01,-0.093,25,Centre,-1.284,-0.757,0.405
+Zach Dockar-Clay,manly-warringah-sea-eagles,35,2026-05-16,-0.092,26,Interchange,-2.148,-0.445,0.043
+Lachlan Hubner,south-sydney-rabbitohs,37,2026-07-12,-0.092,26,Interchange,-1.909,-0.205,0.044
+Justin Olam,wests-tigers,115,2024-08-01,-0.093,25,Centre,-1.229,-0.842,0.405
 Blake Austin,canberra-raiders,22,2018-08-31,-0.093,26,,,,
-Tautau Moga,st-george-illawarra-dragons,28,2023-06-29,-0.093,25,Winger,-0.601,0.198,0.65
-Tom Freebairn,wests-tigers,5,2022-09-04,-0.093,25,Interchange,-0.601,1.163,0.4
-Davvy Moale,melbourne-storm,77,2026-05-22,-0.094,25,Interchange,-2.101,-0.336,0.056
-Setu Tu,st-george-illawarra-dragons,13,2026-07-04,-0.095,25,Winger,-0.724,0.075,0.526
-Toby Rudolf,cronulla-sutherland-sharks,129,2026-06-13,-0.095,25,Prop,-2.088,-0.18,0.045
+Tautau Moga,st-george-illawarra-dragons,28,2023-06-29,-0.093,25,Winger,-0.554,0.193,0.65
+Tom Freebairn,wests-tigers,5,2022-09-04,-0.093,25,Interchange,-0.577,1.126,0.4
+Davvy Moale,melbourne-storm,77,2026-05-22,-0.094,25,Interchange,-2.032,-0.329,0.056
 Matt Gillett,brisbane-broncos,21,2019-09-15,-0.095,25,,,,
-Corey Norman,st-george-illawarra-dragons,77,2021-09-04,-0.097,25,Five-Eighth,2.142,2.634,0.091
+Toby Rudolf,cronulla-sutherland-sharks,129,2026-06-13,-0.095,25,Prop,-2.024,-0.177,0.045
+Setu Tu,st-george-illawarra-dragons,13,2026-07-04,-0.095,25,Winger,-0.746,0.001,0.5
+Corey Norman,st-george-illawarra-dragons,77,2021-09-04,-0.097,25,Five-Eighth,2.18,2.626,0.091
 Elijah Taylor,wests-tigers,43,2020-09-26,-0.097,25,,,,
-Drew Hutchison,canterbury-bankstown-bulldogs,82,2024-09-07,-0.098,24,Interchange,-1.882,-0.117,0.108
-Gavin Cooper,north-queensland-cowboys,61,2020-09-24,-0.098,24,,,,
-Harrison Edwards,parramatta-eels,58,2026-07-05,-0.098,25,Interchange,-2.252,-0.487,0.014
 Jayson Bukuya,cronulla-sutherland-sharks,33,2019-09-01,-0.098,24,,,,
-Tallyn Da Silva,parramatta-eels,46,2026-07-11,-0.099,24,Interchange,-1.618,0.147,0.268
-Corey Waddell,manly-warringah-sea-eagles,136,2026-07-12,-0.099,24,2nd Row,-1.995,-0.29,0.118
-Ben Trbojevic,manly-warringah-sea-eagles,83,2026-07-12,-0.099,24,2nd Row,-1.796,-0.091,0.211
-Paul Turner,st-george-illawarra-dragons,11,2023-07-07,-0.1,24,Interchange,-1.338,0.426,0.167
+Gavin Cooper,north-queensland-cowboys,61,2020-09-24,-0.098,24,,,,
+Harrison Edwards,parramatta-eels,58,2026-07-05,-0.098,25,Interchange,-2.192,-0.489,0.014
+Drew Hutchison,canterbury-bankstown-bulldogs,82,2024-09-07,-0.098,24,Interchange,-1.827,-0.124,0.108
+Ben Trbojevic,manly-warringah-sea-eagles,83,2026-07-12,-0.099,24,2nd Row,-1.739,-0.089,0.208
+Tallyn Da Silva,parramatta-eels,46,2026-07-11,-0.099,24,Interchange,-1.585,0.118,0.263
+Corey Waddell,manly-warringah-sea-eagles,136,2026-07-12,-0.099,24,2nd Row,-1.939,-0.289,0.117
+Jackson Topine,canterbury-bankstown-bulldogs,15,2023-07-15,-0.1,24,Interchange,-1.814,-0.11,0.043
 Matt Eisenhuth,penrith-panthers,130,2025-08-28,-0.1,24,,,,
-Jackson Topine,canterbury-bankstown-bulldogs,15,2023-07-15,-0.1,24,Interchange,-1.865,-0.1,0.043
-Jaxson Paulo,north-queensland-cowboys,64,2025-07-17,-0.1,24,Winger,-1.303,-0.504,0.391
-Isaiah Tass,south-sydney-rabbitohs,70,2025-09-05,-0.101,23,Centre,-1.465,-0.938,0.247
-Josh Curran,canterbury-bankstown-bulldogs,112,2026-07-11,-0.102,23,Interchange,-1.82,-0.055,0.208
-Keagan Russell-Smith,melbourne-storm,2,2026-05-22,-0.102,23,Interchange,-0.556,1.208,0.0
-Kaide Ellis,st-george-illawarra-dragons,22,2021-08-22,-0.103,23,Interchange,-1.632,0.132,0.0
+Paul Turner,st-george-illawarra-dragons,11,2023-07-07,-0.1,24,Interchange,-1.298,0.405,0.167
+Jaxson Paulo,north-queensland-cowboys,64,2025-07-17,-0.1,24,Winger,-1.249,-0.501,0.391
+Isaiah Tass,south-sydney-rabbitohs,70,2025-09-05,-0.101,23,Centre,-1.411,-1.024,0.247
+Keagan Russell-Smith,melbourne-storm,2,2026-05-22,-0.102,23,Interchange,-0.545,1.159,0.0
+Josh Curran,canterbury-bankstown-bulldogs,112,2026-07-11,-0.102,23,Interchange,-1.763,-0.06,0.207
 Reece Robinson,sydney-roosters,4,2018-04-12,-0.103,23,,,,
-Ronald Volkman,parramatta-eels,19,2026-07-11,-0.103,23,Five-Eighth,-0.64,-0.148,0.304
+Jake Simpkin,manly-warringah-sea-eagles,87,2026-07-12,-0.103,23,Interchange,-2.481,-0.778,0.062
+Kaide Ellis,st-george-illawarra-dragons,22,2021-08-22,-0.103,23,Interchange,-1.583,0.121,0.0
 Lewis Brown,manly-warringah-sea-eagles,2,2018-05-25,-0.103,23,,,,
-Jake Simpkin,manly-warringah-sea-eagles,87,2026-07-12,-0.103,23,Interchange,-2.535,-0.771,0.063
-Jack Cogger,penrith-panthers,95,2026-07-03,-0.104,23,Halfback,-1.225,-3.095,0.057
-Curtis Scott,canberra-raiders,55,2021-05-29,-0.105,23,Centre,-1.197,-0.67,0.1
-Samuel Hughes,canterbury-bankstown-bulldogs,48,2026-05-07,-0.105,23,Prop,-1.865,0.043,0.104
-Nathaniel Roache,parramatta-eels,7,2021-06-20,-0.106,22,Interchange,-0.307,1.457,0.0
+Ronald Volkman,parramatta-eels,19,2026-07-11,-0.103,23,Five-Eighth,-0.595,-0.149,0.333
+Jack Cogger,penrith-panthers,95,2026-07-03,-0.104,23,Halfback,-1.195,-3.112,0.056
+Samuel Hughes,canterbury-bankstown-bulldogs,48,2026-05-07,-0.105,23,Prop,-1.801,0.047,0.104
+Curtis Scott,canberra-raiders,55,2021-05-29,-0.105,23,Centre,-1.165,-0.778,0.1
+Nathaniel Roache,parramatta-eels,7,2021-06-20,-0.106,22,Interchange,-0.299,1.405,0.0
+Tom Rodwell,sydney-roosters,1,2025-07-06,-0.107,22,Replacement,-0.878,0.454,0.0
 Shaq Mitchell,south-sydney-rabbitohs,20,2024-08-24,-0.107,22,,,,
-Max Mccathie,sydney-roosters,1,2025-07-06,-0.107,22,Interchange,-0.277,1.488,0.0
-Tom Rodwell,sydney-roosters,1,2025-07-06,-0.107,22,Replacement,-0.906,0.47,0.0
-Hayden Buchanan,st-george-illawarra-dragons,8,2026-05-23,-0.108,22,Centre,-1.187,-0.66,0.111
-Josh King,melbourne-storm,167,2026-07-12,-0.108,22,Prop,-2.052,-0.144,0.103
-Junior Tupou,sydney-roosters,38,2026-06-12,-0.108,22,Winger,-1.57,-0.771,0.222
-Marion Seve,melbourne-storm,51,2025-08-29,-0.11,22,Centre,-1.467,-0.94,0.265
+Max Mccathie,sydney-roosters,1,2025-07-06,-0.107,22,Interchange,-0.269,1.434,0.0
+Junior Tupou,sydney-roosters,38,2026-06-12,-0.108,22,Winger,-1.525,-0.778,0.217
+Josh King,melbourne-storm,167,2026-07-12,-0.108,22,Prop,-1.992,-0.145,0.103
+Hayden Buchanan,st-george-illawarra-dragons,8,2026-05-23,-0.108,22,Centre,-1.153,-0.766,0.111
+Marion Seve,melbourne-storm,51,2025-08-29,-0.11,22,Centre,-1.418,-1.031,0.265
 Sosaia Feki,cronulla-sutherland-sharks,36,2019-09-14,-0.111,22,,,,
-Moeaki Fotuaika,gold-coast-titans,175,2026-07-12,-0.111,22,Prop,-2.082,-0.174,0.039
-Jamayne Taunoa-Brown,north-queensland-cowboys,63,2023-08-05,-0.111,21,Interchange,-2.166,-0.401,0.0
-Kai O'Donnell,north-queensland-cowboys,25,2026-04-16,-0.111,21,2nd Row,-2.077,-0.372,0.0
-Fonua Pole,wests-tigers,92,2026-07-10,-0.113,21,Interchange,-1.952,-0.187,0.102
-Brent Naden,wests-tigers,78,2025-08-24,-0.113,21,Centre,-1.683,-1.156,0.233
-Tom Gilbert,dolphins,82,2026-07-11,-0.114,21,2nd Row,-1.985,-0.28,0.079
-Danny Fualalo,canterbury-bankstown-bulldogs,35,2019-08-10,-0.114,21,,,,
-Rocco Berry,warriors,51,2025-09-05,-0.114,21,Centre,-1.744,-1.217,0.236
+Jamayne Taunoa-Brown,north-queensland-cowboys,63,2023-08-05,-0.111,21,Interchange,-2.101,-0.398,0.0
+Moeaki Fotuaika,gold-coast-titans,175,2026-07-12,-0.111,22,Prop,-2.022,-0.175,0.038
+Kai O'Donnell,north-queensland-cowboys,25,2026-04-16,-0.111,21,2nd Row,-2.017,-0.367,0.0
+Brent Naden,wests-tigers,78,2025-08-24,-0.113,21,Centre,-1.627,-1.24,0.233
+Fonua Pole,wests-tigers,92,2026-07-10,-0.113,21,Prop,-1.891,-0.043,0.101
+Tom Gilbert,dolphins,82,2026-07-11,-0.114,21,2nd Row,-1.929,-0.279,0.078
 David Gower,parramatta-eels,33,2020-07-18,-0.114,21,,,,
-J'Maine Hopgood,parramatta-eels,69,2026-03-05,-0.115,21,Lock,-1.992,0.058,0.093
+Rocco Berry,warriors,51,2025-09-05,-0.114,21,Centre,-1.689,-1.302,0.236
+Danny Fualalo,canterbury-bankstown-bulldogs,35,2019-08-10,-0.114,21,,,,
+J'Maine Hopgood,parramatta-eels,69,2026-03-05,-0.115,21,Lock,-1.934,0.061,0.093
 Thomas Weaver,gold-coast-titans,11,2025-06-29,-0.116,21,,,,
-Matt Burton,canterbury-bankstown-bulldogs,131,2026-07-11,-0.117,20,Five-Eighth,5.045,5.536,0.353
-Jordan Grant,melbourne-storm,7,2023-03-11,-0.117,20,Interchange,-1.618,0.147,0.0
-Riley Price,penrith-panthers,3,2025-08-28,-0.118,20,Replacement,-1.267,0.11,0.0
-Billy Magoulias,cronulla-sutherland-sharks,14,2021-08-21,-0.118,20,Interchange,-1.786,-0.022,0.0
-James Schiller,newcastle-knights,30,2026-04-26,-0.12,20,Winger,-1.275,-0.476,0.378
-Shane Wright,north-queensland-cowboys,39,2021-07-30,-0.12,20,2nd Row,-1.563,0.142,0.062
-Adam Cook,canberra-raiders,8,2025-09-07,-0.122,20,Five-Eighth,0.034,0.526,0.0
-Raymond Faitala-Mariner,st-george-illawarra-dragons,95,2025-08-21,-0.123,20,Interchange,-2.072,-0.307,0.036
-Savelio Tamale,canberra-raiders,32,2026-06-28,-0.123,20,Winger,-1.117,-0.318,0.378
+Jordan Grant,melbourne-storm,7,2023-03-11,-0.117,20,Interchange,-1.568,0.135,0.0
+Matt Burton,canterbury-bankstown-bulldogs,131,2026-07-11,-0.117,20,Five-Eighth,5.079,5.525,0.364
+Riley Price,penrith-panthers,3,2025-08-28,-0.118,20,Replacement,-1.229,0.104,0.0
+Billy Magoulias,cronulla-sutherland-sharks,14,2021-08-21,-0.118,20,Interchange,-1.732,-0.028,0.0
+Shane Wright,north-queensland-cowboys,39,2021-07-30,-0.12,20,2nd Row,-1.523,0.127,0.062
+James Schiller,newcastle-knights,30,2026-04-26,-0.12,20,Winger,-1.219,-0.472,0.378
+Adam Cook,canberra-raiders,8,2025-09-07,-0.122,20,Five-Eighth,0.062,0.509,0.0
+Raymond Faitala-Mariner,st-george-illawarra-dragons,95,2025-08-21,-0.123,20,Interchange,-2.013,-0.31,0.036
 Kirisome Auva'A,parramatta-eels,6,2018-04-14,-0.123,20,,,,
+Savelio Tamale,canberra-raiders,32,2026-06-28,-0.123,20,Winger,-1.099,-0.351,0.368
 Brock Lamb,sydney-roosters,9,2019-05-24,-0.124,19,,,,
 John Olive,canterbury-bankstown-bulldogs,3,2018-06-16,-0.125,19,,,,
-Dylan Napa,sydney-roosters,75,2023-08-18,-0.125,19,Interchange,-1.537,0.227,0.1
+Dylan Napa,sydney-roosters,75,2023-08-18,-0.125,19,Interchange,-1.485,0.218,0.1
+Tyrone Thompson,newcastle-knights,3,2025-04-25,-0.126,19,Interchange,-0.667,1.037,0.0
 Ricky Leutele,melbourne-storm,26,2020-09-27,-0.126,19,,,,
-Tyrone Thompson,newcastle-knights,3,2025-04-25,-0.126,19,Interchange,-0.688,1.077,0.0
-Taniela Otukolo,warriors,8,2022-08-26,-0.127,19,Interchange,-1.521,0.243,0.0
-Tristan Sailor,brisbane-broncos,21,2024-09-05,-0.127,19,Fullback,-1.569,-2.01,0.05
-Moses Leota,penrith-panthers,198,2026-07-03,-0.127,19,Prop,-2.038,-0.13,0.076
-Jirah Momoisea,parramatta-eels,8,2023-03-16,-0.128,19,Interchange,-1.458,0.306,0.0
-Kelma Tuilagi,parramatta-eels,83,2026-07-11,-0.128,19,2nd Row,-1.961,-0.256,0.132
+Moses Leota,penrith-panthers,198,2026-07-03,-0.127,19,Prop,-1.974,-0.127,0.075
+Taniela Otukolo,warriors,8,2022-08-26,-0.127,19,Interchange,-1.48,0.223,0.0
+Tristan Sailor,brisbane-broncos,21,2024-09-05,-0.127,19,Fullback,-1.524,-1.788,0.05
 Sosefo Fifita,gold-coast-titans,71,2026-07-12,-0.128,19,,,,
-Raymond Tuaimalo Vaega,manly-warringah-sea-eagles,11,2024-05-24,-0.129,18,Winger,-1.209,-0.41,0.214
-Blaize Talagi,penrith-panthers,58,2026-07-03,-0.129,18,Five-Eighth,-1.436,-0.944,0.338
-Ryan Gray,south-sydney-rabbitohs,5,2025-08-01,-0.129,18,Interchange,-1.151,0.613,0.0
-Brayden Wiliame,warriors,17,2023-03-11,-0.129,18,Centre,-1.168,-0.641,0.312
-Brendan Elliot,north-queensland-cowboys,32,2023-04-07,-0.13,18,Replacement,-1.772,-0.396,0.0
-Starford To'A,wests-tigers,90,2026-07-10,-0.13,18,Centre,-1.562,-1.035,0.307
-Kyle Mccarthy,newcastle-knights,6,2025-07-27,-0.131,18,Centre,-1.428,-0.901,0.077
-Isaac Lumelume,parramatta-eels,8,2023-07-08,-0.131,18,Winger,-0.828,-0.028,0.286
+Jirah Momoisea,parramatta-eels,8,2023-03-16,-0.128,19,Interchange,-1.413,0.291,0.0
+Kelma Tuilagi,parramatta-eels,83,2026-07-11,-0.128,19,2nd Row,-1.884,-0.234,0.141
+Ryan Gray,south-sydney-rabbitohs,5,2025-08-01,-0.129,18,Interchange,-1.125,0.578,0.0
+Blaize Talagi,penrith-panthers,58,2026-07-03,-0.129,18,Five-Eighth,-1.386,-0.939,0.338
+Raymond Tuaimalo Vaega,manly-warringah-sea-eagles,11,2024-05-24,-0.129,18,Winger,-1.17,-0.423,0.214
+Brayden Wiliame,warriors,17,2023-03-11,-0.129,18,Centre,-1.122,-0.735,0.312
+Starford To'A,wests-tigers,90,2026-07-10,-0.13,18,Centre,-1.507,-1.12,0.307
+Brendan Elliot,north-queensland-cowboys,32,2023-04-07,-0.13,18,Replacement,-1.72,-0.388,0.0
+Kyle Mccarthy,newcastle-knights,6,2025-07-27,-0.131,18,Centre,-1.385,-0.998,0.077
 Michael Gordon,gold-coast-titans,36,2019-09-07,-0.131,18,,,,
-Liam Knight,canterbury-bankstown-bulldogs,79,2024-03-29,-0.132,17,Interchange,-1.824,-0.059,0.032
-Jake Friend,sydney-roosters,52,2021-03-13,-0.132,17,Hooker,-0.336,1.815,0.0
+Isaac Lumelume,parramatta-eels,8,2023-07-08,-0.131,18,Winger,-0.797,-0.049,0.286
+Khaled Rajab,canterbury-bankstown-bulldogs,4,2023-07-02,-0.132,17,Interchange,-0.826,0.877,0.0
+Jake Friend,sydney-roosters,52,2021-03-13,-0.132,17,Hooker,-0.33,1.773,0.0
+Hamiso Tabuai-Fidow,dolphins,116,2026-06-27,-0.132,18,Fullback,-0.551,-0.814,0.709
+Liam Knight,canterbury-bankstown-bulldogs,79,2024-03-29,-0.132,17,Interchange,-1.766,-0.062,0.032
 Kallum Watkins,gold-coast-titans,8,2020-03-22,-0.132,17,,,,
-Khaled Rajab,canterbury-bankstown-bulldogs,4,2023-07-02,-0.132,17,Interchange,-0.85,0.914,0.0
-Hamiso Tabuai-Fidow,dolphins,116,2026-06-27,-0.132,18,Fullback,-0.591,-1.032,0.716
-Javid Bowen,north-queensland-cowboys,21,2021-07-17,-0.133,17,Centre,-1.008,-0.481,0.3
-Fletcher Hunt,newcastle-knights,25,2026-07-12,-0.133,17,Centre,-1.202,-0.675,0.412
-Tex Hoy,newcastle-knights,29,2022-09-04,-0.133,17,Fullback,0.171,-0.27,0.148
-Luciano Leilua,st-george-illawarra-dragons,166,2026-07-04,-0.134,17,2nd Row,-1.954,-0.249,0.136
-Steven Marsters,south-sydney-rabbitohs,6,2021-05-06,-0.134,17,Reserve,-0.709,0.467,0.0
+Fletcher Hunt,newcastle-knights,25,2026-07-12,-0.133,17,Centre,-1.068,-0.681,0.457
+Javid Bowen,north-queensland-cowboys,21,2021-07-17,-0.133,17,Centre,-0.975,-0.588,0.3
+Tex Hoy,newcastle-knights,29,2022-09-04,-0.133,17,Fullback,0.22,-0.043,0.148
+Luciano Leilua,st-george-illawarra-dragons,166,2026-07-04,-0.134,17,2nd Row,-1.898,-0.248,0.136
+Steven Marsters,south-sydney-rabbitohs,6,2021-05-06,-0.134,17,Reserve,-0.688,0.467,0.0
+Sam Tuivaiti,parramatta-eels,20,2026-07-11,-0.134,17,Interchange,-1.714,-0.011,0.038
 James Maloney,penrith-panthers,43,2019-09-08,-0.134,16,,,,
-Ryley Jacks,melbourne-storm,36,2021-05-16,-0.134,16,Reserve,-0.474,0.702,0.0
-Sam Tuivaiti,parramatta-eels,20,2026-07-11,-0.134,17,Interchange,-1.77,-0.005,0.038
-Brendan Hands,parramatta-eels,40,2025-03-16,-0.135,16,Hooker,-2.444,-0.292,0.044
-Josh Mansour,south-sydney-rabbitohs,69,2022-04-29,-0.135,16,Winger,-0.631,0.168,0.632
+Ryley Jacks,melbourne-storm,36,2021-05-16,-0.134,16,Reserve,-0.462,0.693,0.0
+Josh Mansour,south-sydney-rabbitohs,69,2022-04-29,-0.135,16,Winger,-0.588,0.16,0.632
 Izaac Thompson,wests-tigers,14,2025-07-26,-0.135,16,,,,
-Krystian Mapapalangi,newcastle-knights,6,2024-08-11,-0.136,16,Replacement,-1.341,0.035,0.091
+Brendan Hands,parramatta-eels,40,2025-03-16,-0.135,16,Hooker,-2.391,-0.288,0.044
 Billy Slater,melbourne-storm,20,2018-09-30,-0.136,16,,,,
+Krystian Mapapalangi,newcastle-knights,6,2024-08-11,-0.136,16,Replacement,-1.302,0.03,0.091
 Daniel Russell,st-george-illawarra-dragons,8,2023-09-02,-0.136,16,,,,
-Cooper Johns,manly-warringah-sea-eagles,19,2023-05-28,-0.139,16,Five-Eighth,-1.746,-1.254,0.056
-Zane Musgrove,st-george-illawarra-dragons,45,2023-08-25,-0.139,16,Prop,-1.868,0.04,0.071
-Joey Lussick,parramatta-eels,38,2025-06-28,-0.14,15,Hooker,-2.06,0.092,0.205
-Trai Fuller,dolphins,23,2026-07-11,-0.143,15,Fullback,-1.224,-1.665,0.281
-Jaylan De Groot,gold-coast-titans,21,2026-06-14,-0.144,15,Winger,-1.68,-0.881,0.211
-Aublix Tawha,brisbane-broncos,15,2026-06-26,-0.144,15,Interchange,-1.854,-0.089,0.0
-Sione Katoa,canterbury-bankstown-bulldogs,59,2021-09-05,-0.144,15,Winger,-0.695,0.105,0.657
-Ata Mariota,canberra-raiders,77,2026-07-11,-0.146,15,Interchange,-2.142,-0.378,0.033
-Ben Hampton,north-queensland-cowboys,54,2023-05-26,-0.146,15,Halfback,-1.287,-3.157,0.133
-Trent Peoples,south-sydney-rabbitohs,2,2022-05-22,-0.146,15,Replacement,-0.677,0.699,0.0
+Zane Musgrove,st-george-illawarra-dragons,45,2023-08-25,-0.139,16,Prop,-1.807,0.041,0.071
+Cooper Johns,manly-warringah-sea-eagles,19,2023-05-28,-0.139,16,Five-Eighth,-1.705,-1.259,0.056
+Joey Lussick,parramatta-eels,38,2025-06-28,-0.14,15,Hooker,-2.01,0.093,0.205
+Trai Fuller,dolphins,23,2026-07-11,-0.143,15,Fullback,-1.175,-1.439,0.281
+Aublix Tawha,brisbane-broncos,15,2026-06-26,-0.144,15,Interchange,-1.819,-0.116,0.0
+Sione Katoa,canterbury-bankstown-bulldogs,59,2021-09-05,-0.144,15,Winger,-0.614,0.134,0.67
+Jaylan De Groot,gold-coast-titans,21,2026-06-14,-0.144,15,Winger,-1.645,-0.897,0.205
+Trent Peoples,south-sydney-rabbitohs,2,2022-05-22,-0.146,15,Replacement,-0.659,0.673,0.0
+Ben Hampton,north-queensland-cowboys,54,2023-05-26,-0.146,15,Halfback,-1.249,-3.166,0.133
+Ata Mariota,canberra-raiders,77,2026-07-11,-0.146,15,Interchange,-2.054,-0.351,0.044
 Kelepi Tanginoa,manly-warringah-sea-eagles,14,2019-05-10,-0.147,15,,,,
-Lyhkan King-Togia,st-george-illawarra-dragons,24,2026-05-09,-0.148,15,Five-Eighth,-1.823,-1.331,0.103
+Lyhkan King-Togia,st-george-illawarra-dragons,24,2026-05-09,-0.148,15,Five-Eighth,-1.79,-1.344,0.1
 Charlie Gubb,canberra-raiders,5,2018-06-08,-0.149,15,,,,
-Charlie Guymer,parramatta-eels,25,2026-05-16,-0.15,14,Interchange,-1.883,-0.118,0.086
+William Kennedy,cronulla-sutherland-sharks,147,2026-07-11,-0.15,14,Fullback,-1.161,-1.425,0.401
+Tom Chester,north-queensland-cowboys,28,2026-07-12,-0.15,14,Centre,-1.178,-0.791,0.351
+Charlie Guymer,parramatta-eels,25,2026-05-16,-0.15,14,Interchange,-1.827,-0.123,0.086
 William Hopoate,canterbury-bankstown-bulldogs,81,2021-09-05,-0.15,14,,,,
-William Kennedy,cronulla-sutherland-sharks,147,2026-07-11,-0.15,14,Fullback,-1.209,-1.65,0.404
-Tom Chester,north-queensland-cowboys,28,2026-07-12,-0.15,14,Centre,-1.229,-0.703,0.351
 Shaun Kenny-Dowall,newcastle-knights,46,2019-08-31,-0.151,14,,,,
-Damien Cook,st-george-illawarra-dragons,204,2026-07-04,-0.151,14,Hooker,-2.224,-0.073,0.143
-Bailey Biondi-Odo,canterbury-bankstown-bulldogs,12,2022-05-13,-0.152,14,Interchange,-1.634,0.13,0.118
+Damien Cook,st-george-illawarra-dragons,204,2026-07-04,-0.151,14,Hooker,-2.183,-0.08,0.142
 Leilani Latu,gold-coast-titans,9,2019-08-10,-0.152,14,,,,
-Latu Fainu,wests-tigers,34,2026-07-10,-0.153,14,Interchange,-1.828,-0.064,0.128
-Nathan Brown,manly-warringah-sea-eagles,137,2026-07-12,-0.154,14,Interchange,-2.174,-0.41,0.03
-Briton Nikora,cronulla-sutherland-sharks,165,2026-06-21,-0.156,13,2nd Row,-1.645,0.06,0.304
-Aitasi James,manly-warringah-sea-eagles,6,2024-06-22,-0.156,13,Interchange,-1.243,0.522,0.0
-Delouise Hoeter,brisbane-broncos,9,2025-07-04,-0.157,13,Centre,-1.065,-0.538,0.333
-Euan Aitken,south-sydney-rabbitohs,155,2026-07-12,-0.158,13,2nd Row,-1.757,-0.052,0.218
-Jack Johns,newcastle-knights,14,2023-05-28,-0.158,13,Interchange,-1.719,0.046,0.091
-Va'A Semu,brisbane-broncos,6,2026-07-04,-0.162,13,Interchange,-1.666,0.099,0.0
-Manaia Waitere,melbourne-storm,8,2026-06-05,-0.162,13,Centre,-1.441,-0.914,0.133
-Toby Couchman,st-george-illawarra-dragons,53,2026-07-04,-0.163,13,Interchange,-1.991,-0.227,0.062
-Jack Williams,parramatta-eels,157,2026-07-11,-0.163,13,Interchange,-2.005,-0.24,0.083
+Bailey Biondi-Odo,canterbury-bankstown-bulldogs,12,2022-05-13,-0.152,14,Interchange,-1.586,0.118,0.118
+Latu Fainu,wests-tigers,34,2026-07-10,-0.153,14,Interchange,-1.77,-0.067,0.128
+Nathan Brown,manly-warringah-sea-eagles,137,2026-07-12,-0.154,14,Interchange,-2.115,-0.411,0.029
+Briton Nikora,cronulla-sutherland-sharks,165,2026-06-21,-0.156,13,2nd Row,-1.597,0.053,0.301
+Aitasi James,manly-warringah-sea-eagles,6,2024-06-22,-0.156,13,Interchange,-1.204,0.499,0.0
+Delouise Hoeter,brisbane-broncos,9,2025-07-04,-0.157,13,Centre,-1.022,-0.635,0.333
+Euan Aitken,south-sydney-rabbitohs,155,2026-07-12,-0.158,13,2nd Row,-1.709,-0.059,0.216
+Jack Johns,newcastle-knights,14,2023-05-28,-0.158,13,Interchange,-1.663,0.04,0.091
+Manaia Waitere,melbourne-storm,8,2026-06-05,-0.162,13,Centre,-1.396,-1.009,0.133
+Va'A Semu,brisbane-broncos,6,2026-07-04,-0.162,13,Interchange,-1.641,0.062,0.0
+Jack Williams,parramatta-eels,157,2026-07-11,-0.163,13,Interchange,-1.944,-0.241,0.082
+Toby Couchman,st-george-illawarra-dragons,53,2026-07-04,-0.163,13,Interchange,-1.935,-0.232,0.062
 Bevan French,parramatta-eels,18,2018-09-01,-0.165,13,,,,
-Lewis Dodd,south-sydney-rabbitohs,6,2025-08-01,-0.165,12,Interchange,-1.127,0.637,0.0
-Benjamin Te Kura,brisbane-broncos,5,2025-06-07,-0.166,12,Replacement,-1.326,0.051,0.091
-David Fusitu'A,warriors,51,2021-04-09,-0.166,12,Winger,-0.904,-0.104,0.0
-Lachlan Ilias,gold-coast-titans,66,2026-05-02,-0.167,12,Halfback,-1.316,-3.186,0.147
-Naufahu Whyte,sydney-roosters,71,2026-07-11,-0.167,12,Prop,-1.986,-0.078,0.049
-Alec Macdonald,melbourne-storm,77,2026-07-12,-0.168,12,Interchange,-2.15,-0.386,0.047
-Jorge Taufua,manly-warringah-sea-eagles,50,2022-05-26,-0.169,12,Winger,0.016,0.815,1.0
-Gerard Beale,st-george-illawarra-dragons,41,2021-09-04,-0.169,12,Centre,-0.852,-0.325,0.4
-Jake Turpin,canterbury-bankstown-bulldogs,83,2026-05-01,-0.17,12,Hooker,-2.603,-0.452,0.0
-Kitione Kautoga,parramatta-eels,29,2026-07-11,-0.171,12,2nd Row,-1.731,-0.026,0.118
-Konrad Hurrell,gold-coast-titans,19,2018-09-01,-0.172,11,,,,
+Lewis Dodd,south-sydney-rabbitohs,6,2025-08-01,-0.165,12,Interchange,-1.096,0.607,0.0
+David Fusitu'A,warriors,51,2021-04-09,-0.166,12,Winger,-0.882,-0.134,0.0
+Benjamin Te Kura,brisbane-broncos,5,2025-06-07,-0.166,12,Replacement,-1.28,0.052,0.091
+Naufahu Whyte,sydney-roosters,71,2026-07-11,-0.167,12,Prop,-1.924,-0.077,0.048
+Lachlan Ilias,gold-coast-titans,66,2026-05-02,-0.167,12,Halfback,-1.277,-3.194,0.145
+Alec Macdonald,melbourne-storm,77,2026-07-12,-0.168,12,Interchange,-2.086,-0.383,0.046
+Gerard Beale,st-george-illawarra-dragons,41,2021-09-04,-0.169,12,Centre,-0.82,-0.433,0.4
+Jorge Taufua,manly-warringah-sea-eagles,50,2022-05-26,-0.169,12,Winger,0.022,0.77,1.0
+Jake Turpin,canterbury-bankstown-bulldogs,83,2026-05-01,-0.17,12,Hooker,-2.549,-0.446,0.0
+Kitione Kautoga,parramatta-eels,29,2026-07-11,-0.171,12,2nd Row,-1.702,-0.052,0.114
 Ethan Lowe,south-sydney-rabbitohs,47,2020-07-18,-0.172,11,,,,
+Konrad Hurrell,gold-coast-titans,19,2018-09-01,-0.172,11,,,,
 Beau Scott,parramatta-eels,7,2018-05-18,-0.175,11,,,,
 Toluta'U Koula,manly-warringah-sea-eagles,94,2026-07-12,-0.178,11,,,,
-Fletcher Baker,brisbane-broncos,56,2025-05-18,-0.179,11,Interchange,-2.116,-0.352,0.042
-Phillip Sami,gold-coast-titans,151,2026-07-12,-0.18,11,Winger,-0.973,-0.174,0.518
-Brodie Jones,newcastle-knights,81,2025-08-17,-0.181,11,Interchange,-2.14,-0.375,0.073
-Jordan Pereira,brisbane-broncos,42,2023-08-31,-0.181,11,Winger,-1.133,-0.334,0.312
-Bailey Simonsson,parramatta-eels,104,2026-04-06,-0.182,11,Winger,-1.451,-0.652,0.317
+Fletcher Baker,brisbane-broncos,56,2025-05-18,-0.179,11,Interchange,-2.055,-0.351,0.042
+Phillip Sami,gold-coast-titans,151,2026-07-12,-0.18,11,Winger,-0.906,-0.158,0.523
+Jordan Pereira,brisbane-broncos,42,2023-08-31,-0.181,11,Winger,-1.089,-0.342,0.312
+Brodie Jones,newcastle-knights,81,2025-08-17,-0.181,11,Interchange,-2.074,-0.371,0.073
+Bailey Simonsson,parramatta-eels,104,2026-04-06,-0.182,11,Winger,-1.396,-0.649,0.317
 Patrick Kaufusi,st-george-illawarra-dragons,9,2019-09-01,-0.183,11,,,,
 Aidan Guerra,newcastle-knights,56,2020-10-04,-0.186,11,,,,
-Simione Laiafi,manly-warringah-sea-eagles,8,2026-07-12,-0.186,10,Prop,-1.653,0.254,0.0
-Jj Collins,dolphins,6,2023-08-25,-0.187,10,Replacement,-1.172,0.204,0.0
-Joe Ofahengaue,parramatta-eels,152,2025-04-12,-0.188,10,Lock,-2.062,-0.012,0.061
-Ryan Sutton,canterbury-bankstown-bulldogs,86,2023-09-03,-0.188,10,Interchange,-1.952,-0.187,0.058
-Patrick Herbert,wests-tigers,63,2026-06-20,-0.189,10,Centre,-1.628,-1.101,0.163
+Simione Laiafi,manly-warringah-sea-eagles,8,2026-07-12,-0.186,10,Prop,-1.636,0.211,0.0
+Jj Collins,dolphins,6,2023-08-25,-0.187,10,Replacement,-1.137,0.196,0.0
+Joe Ofahengaue,parramatta-eels,152,2025-04-12,-0.188,10,Lock,-2.0,-0.005,0.061
+Ryan Sutton,canterbury-bankstown-bulldogs,86,2023-09-03,-0.188,10,Interchange,-1.893,-0.19,0.058
+Patrick Herbert,wests-tigers,63,2026-06-20,-0.189,10,Centre,-1.576,-1.189,0.16
 Jamie Buhrer,newcastle-knights,28,2019-07-26,-0.19,10,,,,
-Sam Mcintyre,north-queensland-cowboys,89,2026-06-06,-0.19,10,Interchange,-2.183,-0.419,0.061
-Tallis Duncan,south-sydney-rabbitohs,65,2026-07-12,-0.192,10,Interchange,-1.527,0.238,0.288
-Michael Jennings,sydney-roosters,69,2024-09-01,-0.192,10,Centre,-1.287,-0.76,0.214
-Jonus Pearson,gold-coast-titans,14,2021-04-17,-0.193,10,Winger,-0.277,0.523,0.0
-Stefano Utoikamanu,melbourne-storm,119,2026-07-12,-0.194,9,Prop,-1.915,-0.008,0.124
-Matt Doorey,parramatta-eels,52,2026-03-28,-0.195,9,Interchange,-2.033,-0.268,0.073
+Sam Mcintyre,north-queensland-cowboys,89,2026-06-06,-0.19,10,Interchange,-2.119,-0.415,0.061
+Tallis Duncan,south-sydney-rabbitohs,65,2026-07-12,-0.192,10,Interchange,-1.445,0.258,0.297
+Michael Jennings,sydney-roosters,69,2024-09-01,-0.192,10,Centre,-1.244,-0.857,0.214
+Jonus Pearson,gold-coast-titans,14,2021-04-17,-0.193,10,Winger,-0.27,0.477,0.0
+Stefano Utoikamanu,melbourne-storm,119,2026-07-12,-0.194,9,Prop,-1.855,-0.007,0.123
+Matt Doorey,parramatta-eels,52,2026-03-28,-0.195,9,Interchange,-1.969,-0.266,0.073
 Chris Lawrence,wests-tigers,45,2020-09-26,-0.196,9,,,,
+Daine Laurie,canberra-raiders,84,2026-07-11,-0.197,9,Fullback,-1.723,-1.987,0.179
+Ethan Sanders,canberra-raiders,20,2026-07-11,-0.197,9,Halfback,7.08,5.163,0.103
 Manu Ma'U,parramatta-eels,33,2019-09-21,-0.197,9,,,,
-Ethan Sanders,canberra-raiders,20,2026-07-11,-0.197,9,Halfback,6.803,4.933,0.107
-Daine Laurie,canberra-raiders,84,2026-07-11,-0.197,9,Fullback,-1.775,-2.215,0.181
-Tristan Hope,wests-tigers,10,2026-06-07,-0.197,9,Reserve,-1.981,-0.804,0.0
+Tristan Hope,wests-tigers,10,2026-06-07,-0.197,9,Reserve,-1.944,-0.79,0.0
+Jack Bird,wests-tigers,102,2025-07-26,-0.199,9,Centre,-1.504,-1.117,0.187
+Chad Townsend,sydney-roosters,151,2025-07-18,-0.199,9,Halfback,0.025,-1.893,0.075
 Chris Mcqueen,wests-tigers,10,2020-07-17,-0.199,9,,,,
-Chad Townsend,sydney-roosters,151,2025-07-18,-0.199,9,Halfback,-0.018,-1.888,0.075
-Jack Bird,wests-tigers,102,2025-07-26,-0.199,9,Centre,-1.56,-1.033,0.187
 Kenny Bromwich,dolphins,159,2025-04-27,-0.201,8,,,,
+Sean Keppie,south-sydney-rabbitohs,127,2026-06-04,-0.202,8,Prop,-2.111,-0.264,0.043
 Sandor Earl,melbourne-storm,8,2020-09-27,-0.202,8,,,,
-Sean Keppie,south-sydney-rabbitohs,127,2026-06-04,-0.202,8,Prop,-2.174,-0.267,0.043
-Heath Mason,wests-tigers,17,2026-06-20,-0.203,8,Replacement,-1.568,-0.192,0.067
-Dominic Young,newcastle-knights,108,2026-07-12,-0.204,8,Winger,-0.34,0.459,0.807
-Tom Ale,warriors,41,2024-08-31,-0.204,8,Interchange,-1.976,-0.212,0.023
-Klese Haas,gold-coast-titans,72,2026-06-20,-0.204,8,Interchange,-2.118,-0.353,0.071
-Luke Sommerton,gold-coast-titans,15,2026-05-23,-0.208,8,Interchange,-1.83,-0.065,0.1
-Tevita Funa,manly-warringah-sea-eagles,15,2021-05-30,-0.208,8,Reserve,-1.379,-0.202,0.0
+Heath Mason,wests-tigers,17,2026-06-20,-0.203,8,Replacement,-1.537,-0.204,0.065
+Dominic Young,newcastle-knights,108,2026-07-12,-0.204,8,Winger,-0.28,0.467,0.809
+Klese Haas,gold-coast-titans,72,2026-06-20,-0.204,8,Interchange,-2.058,-0.355,0.071
+Tom Ale,warriors,41,2024-08-31,-0.204,8,Interchange,-1.912,-0.209,0.023
+Tevita Funa,manly-warringah-sea-eagles,15,2021-05-30,-0.208,8,Reserve,-1.338,-0.183,0.0
+Luke Sommerton,gold-coast-titans,15,2026-05-23,-0.208,8,Interchange,-1.799,-0.096,0.095
 Ryan Hoffman,melbourne-storm,20,2018-08-31,-0.21,8,,,,
 Lloyd Perrett,manly-warringah-sea-eagles,16,2019-09-20,-0.213,7,,,,
-Dean Britt,canterbury-bankstown-bulldogs,26,2021-04-02,-0.214,7,Interchange,-0.267,1.497,0.0
-Daejarn Asi,parramatta-eels,41,2024-09-06,-0.214,7,Five-Eighth,-0.535,-0.043,0.096
+Dean Britt,canterbury-bankstown-bulldogs,26,2021-04-02,-0.214,7,Interchange,-0.259,1.444,0.0
+Daejarn Asi,parramatta-eels,41,2024-09-06,-0.214,7,Five-Eighth,-0.481,-0.035,0.096
 Nathan Peats,gold-coast-titans,41,2020-08-22,-0.215,7,,,,
-Elliott Whitehead,canberra-raiders,153,2024-09-01,-0.217,7,2nd Row,-1.911,-0.206,0.181
-Charlie Staines,wests-tigers,77,2025-07-20,-0.218,7,Winger,-1.299,-0.5,0.427
-Matthew Arthur,newcastle-knights,5,2025-08-17,-0.221,7,Interchange,-1.268,0.496,0.0
-Kevin Proctor,gold-coast-titans,86,2022-05-07,-0.222,7,2nd Row,-1.704,0.001,0.194
-Kane Bradley,melbourne-storm,12,2025-08-29,-0.223,7,Replacement,-1.506,-0.129,0.208
-Blake Steep,sydney-roosters,26,2026-03-20,-0.223,7,Interchange,-1.8,-0.036,0.069
-Te Maire Martin,warriors,89,2026-07-10,-0.225,7,Halfback,-1.77,-3.64,0.174
-Tyrone Munro,south-sydney-rabbitohs,18,2025-09-05,-0.226,6,Winger,-0.67,0.13,0.619
+Elliott Whitehead,canberra-raiders,153,2024-09-01,-0.217,7,2nd Row,-1.857,-0.207,0.181
+Charlie Staines,wests-tigers,77,2025-07-20,-0.218,7,Winger,-1.245,-0.498,0.427
+Matthew Arthur,newcastle-knights,5,2025-08-17,-0.221,7,Interchange,-1.233,0.47,0.0
+Kevin Proctor,gold-coast-titans,86,2022-05-07,-0.222,7,2nd Row,-1.651,-0.001,0.194
+Blake Steep,sydney-roosters,26,2026-03-20,-0.223,7,Interchange,-1.743,-0.04,0.069
+Kane Bradley,melbourne-storm,12,2025-08-29,-0.223,7,Replacement,-1.453,-0.12,0.208
+Te Maire Martin,warriors,89,2026-07-10,-0.225,7,Halfback,-1.719,-3.636,0.174
+Tyrone Munro,south-sydney-rabbitohs,18,2025-09-05,-0.226,6,Winger,-0.625,0.123,0.619
 Akuila Uate,manly-warringah-sea-eagles,15,2018-06-16,-0.228,6,,,,
 Matthew Wright,manly-warringah-sea-eagles,17,2018-09-02,-0.229,6,,,,
-Tom Dearden,north-queensland-cowboys,132,2026-05-08,-0.231,6,Five-Eighth,-1.385,-0.893,0.358
-Jonathan Sua,canterbury-bankstown-bulldogs,6,2026-05-15,-0.232,6,Winger,-1.202,-0.403,0.1
-Jacob Preston,canterbury-bankstown-bulldogs,72,2026-07-11,-0.233,6,2nd Row,-1.397,0.308,0.372
+Tom Dearden,north-queensland-cowboys,132,2026-05-08,-0.231,6,Five-Eighth,-1.337,-0.891,0.358
+Jonathan Sua,canterbury-bankstown-bulldogs,6,2026-05-15,-0.232,6,Winger,-1.23,-0.483,0.091
+Jacob Preston,canterbury-bankstown-bulldogs,72,2026-07-11,-0.233,6,2nd Row,-1.325,0.325,0.38
 Mahe Fonua,wests-tigers,20,2019-06-07,-0.234,6,,,,
-Liam Henry,penrith-panthers,55,2026-07-03,-0.235,6,Interchange,-1.847,-0.083,0.123
-Cameron King,parramatta-eels,11,2018-08-24,-0.237,6,,,,
+Liam Henry,penrith-panthers,55,2026-07-03,-0.235,6,Interchange,-1.757,-0.054,0.136
 Billy Brittain,st-george-illawarra-dragons,5,2020-09-12,-0.237,6,,,,
-Blake Mozer,brisbane-broncos,12,2026-07-04,-0.238,5,Interchange,-1.692,0.073,0.067
-Tony Sukkar,wests-tigers,20,2026-07-04,-0.239,5,Interchange,-1.925,-0.161,0.033
-Anthony Milford,dolphins,100,2024-06-01,-0.24,5,Five-Eighth,-0.491,0.001,0.128
-Sam Williams,canberra-raiders,36,2021-08-20,-0.24,5,Halfback,1.837,-0.033,0.333
-Ben Murdoch-Masila,st-george-illawarra-dragons,62,2025-08-21,-0.241,5,Interchange,-2.036,-0.271,0.077
+Cameron King,parramatta-eels,11,2018-08-24,-0.237,6,,,,
+Blake Mozer,brisbane-broncos,12,2026-07-04,-0.238,5,Interchange,-1.689,0.015,0.062
+Tony Sukkar,wests-tigers,20,2026-07-04,-0.239,5,Interchange,-1.828,-0.125,0.065
+Anthony Milford,dolphins,100,2024-06-01,-0.24,5,Five-Eighth,-0.448,-0.002,0.128
+Sam Williams,canberra-raiders,36,2021-08-20,-0.24,5,Halfback,1.87,-0.047,0.333
+Ben Murdoch-Masila,st-george-illawarra-dragons,62,2025-08-21,-0.241,5,Interchange,-1.971,-0.268,0.077
 Trent Hodkinson,manly-warringah-sea-eagles,17,2018-09-02,-0.242,5,,,,
 Luke Bateman,canberra-raiders,21,2018-08-31,-0.246,5,,,,
 Tim Mannah,parramatta-eels,26,2019-05-23,-0.246,5,,,,
-Asu Kepaoa,wests-tigers,43,2024-05-19,-0.247,5,Centre,-1.725,-1.198,0.196
-Pasami Saulo,newcastle-knights,69,2026-06-05,-0.248,5,Interchange,-2.191,-0.426,0.0
-Ethan Bullemor,manly-warringah-sea-eagles,114,2026-07-12,-0.25,4,Interchange,-1.978,-0.214,0.12
-Coen Hess,north-queensland-cowboys,162,2026-07-12,-0.25,4,Prop,-2.144,-0.236,0.054
-Jayden Brailey,canberra-raiders,144,2026-06-28,-0.251,4,Hooker,-2.659,-0.508,0.051
-Talatau Amone,st-george-illawarra-dragons,50,2023-09-02,-0.251,4,Five-Eighth,-1.8,-1.308,0.182
-Martin Taupau,brisbane-broncos,144,2024-09-05,-0.252,4,Interchange,-2.0,-0.236,0.059
-Christian Tuipulotu,st-george-illawarra-dragons,60,2026-05-23,-0.252,4,Winger,-1.045,-0.245,0.492
+Asu Kepaoa,wests-tigers,43,2024-05-19,-0.247,5,Centre,-1.67,-1.283,0.196
+Pasami Saulo,newcastle-knights,69,2026-06-05,-0.248,5,Interchange,-2.124,-0.421,0.0
+Ethan Bullemor,manly-warringah-sea-eagles,114,2026-07-12,-0.25,4,Interchange,-1.911,-0.208,0.12
+Coen Hess,north-queensland-cowboys,162,2026-07-12,-0.25,4,Prop,-2.079,-0.232,0.054
+Talatau Amone,st-george-illawarra-dragons,50,2023-09-02,-0.251,4,Five-Eighth,-1.749,-1.303,0.182
+Jayden Brailey,canberra-raiders,144,2026-06-28,-0.251,4,Hooker,-2.607,-0.504,0.051
+Martin Taupau,brisbane-broncos,144,2024-09-05,-0.252,4,Interchange,-1.936,-0.232,0.059
+Christian Tuipulotu,st-george-illawarra-dragons,60,2026-05-23,-0.252,4,Winger,-0.99,-0.242,0.492
 Issac Luke,brisbane-broncos,54,2020-09-24,-0.256,4,,,,
-Semi Valemei,north-queensland-cowboys,43,2025-08-30,-0.26,4,Winger,-0.916,-0.117,0.528
-Mawene Hiroti,cronulla-sutherland-sharks,38,2026-06-07,-0.261,4,Winger,-1.59,-0.791,0.241
-Ethan King,north-queensland-cowboys,5,2026-06-06,-0.261,4,Replacement,-2.031,-0.655,0.0
-Chanel Harris-Tavita,warriors,107,2026-07-10,-0.262,3,Five-Eighth,-0.203,0.289,0.244
-Soni Luke,north-queensland-cowboys,35,2026-07-12,-0.262,3,Interchange,-2.253,-0.488,0.061
-Jesse Mclean,penrith-panthers,4,2025-08-28,-0.263,3,Winger,-0.762,0.037,0.2
-Connor Muhleisen,st-george-illawarra-dragons,11,2024-09-07,-0.268,3,Interchange,-1.506,0.259,0.091
+Semi Valemei,north-queensland-cowboys,43,2025-08-30,-0.26,4,Winger,-0.869,-0.121,0.528
+Ethan King,north-queensland-cowboys,5,2026-06-06,-0.261,4,Replacement,-1.97,-0.637,0.0
+Mawene Hiroti,cronulla-sutherland-sharks,38,2026-06-07,-0.261,4,Winger,-1.545,-0.797,0.237
+Chanel Harris-Tavita,warriors,107,2026-07-10,-0.262,3,Five-Eighth,-0.135,0.312,0.253
+Soni Luke,north-queensland-cowboys,35,2026-07-12,-0.262,3,Interchange,-2.193,-0.49,0.061
+Jesse Mclean,penrith-panthers,4,2025-08-28,-0.263,3,Winger,-0.738,0.01,0.2
+Connor Muhleisen,st-george-illawarra-dragons,11,2024-09-07,-0.268,3,Interchange,-1.464,0.239,0.091
 Shannon Boyd,gold-coast-titans,35,2020-05-29,-0.27,3,,,,
-Chris Randall,gold-coast-titans,105,2026-07-12,-0.273,3,Hooker,-2.281,-0.13,0.118
-Tesi Niu,dolphins,56,2024-08-02,-0.278,3,Fullback,-1.214,-1.654,0.392
+Chris Randall,gold-coast-titans,105,2026-07-12,-0.273,3,Hooker,-2.227,-0.124,0.117
+Tesi Niu,dolphins,56,2024-08-02,-0.278,3,Fullback,-1.164,-1.428,0.392
 Tim Grant,penrith-panthers,11,2019-05-30,-0.282,3,,,,
-Sauaso Sue,newcastle-knights,65,2022-08-28,-0.282,3,Interchange,-1.83,-0.065,0.065
-Leo Thompson,canterbury-bankstown-bulldogs,88,2026-07-11,-0.288,3,Prop,-2.164,-0.256,0.031
-Jack Gosiewski,brisbane-broncos,90,2026-06-26,-0.291,3,2nd Row,-1.981,-0.276,0.119
-Josh Mcguire,st-george-illawarra-dragons,82,2022-09-03,-0.293,2,Interchange,-1.806,-0.042,0.065
-Caleb Aekins,canberra-raiders,18,2021-05-29,-0.298,2,Fullback,-0.983,-1.423,0.0
+Sauaso Sue,newcastle-knights,65,2022-08-28,-0.282,3,Interchange,-1.77,-0.067,0.065
+Leo Thompson,canterbury-bankstown-bulldogs,88,2026-07-11,-0.288,3,Prop,-2.103,-0.256,0.03
+Jack Gosiewski,brisbane-broncos,90,2026-06-26,-0.291,3,Interchange,-1.929,-0.225,0.117
+Josh Mcguire,st-george-illawarra-dragons,82,2022-09-03,-0.293,2,Interchange,-1.755,-0.052,0.065
+Caleb Aekins,canberra-raiders,18,2021-05-29,-0.298,2,Fullback,-0.958,-1.221,0.0
 Clay Priest,canterbury-bankstown-bulldogs,7,2018-07-19,-0.299,2,,,,
-Luke Thompson,canterbury-bankstown-bulldogs,37,2023-09-03,-0.303,2,Prop,-1.663,0.244,0.094
-Sean O'Sullivan,canterbury-bankstown-bulldogs,62,2026-07-11,-0.306,2,Halfback,-1.713,-3.583,0.077
-Will Warbrick,melbourne-storm,73,2026-07-12,-0.306,2,Winger,-0.542,0.257,0.716
-Robert Jennings,dolphins,55,2023-08-19,-0.312,2,Winger,-1.506,-0.706,0.15
-Jack Cole,penrith-panthers,18,2026-07-03,-0.314,2,Five-Eighth,-1.779,-1.287,0.097
-Michael Morgan,north-queensland-cowboys,38,2021-03-20,-0.315,2,Five-Eighth,-0.464,0.027,0.0
-Thomas Cant,newcastle-knights,30,2026-07-12,-0.322,2,Interchange,-2.182,-0.418,0.0
-Brian Kelly,parramatta-eels,179,2026-07-11,-0.324,1,Centre,-1.156,-0.629,0.328
-Josh Kerr,st-george-illawarra-dragons,124,2026-07-04,-0.324,1,Interchange,-2.128,-0.364,0.045
-Shaun Lane,parramatta-eels,157,2025-04-12,-0.331,1,2nd Row,-1.849,-0.144,0.14
-David Klemmer,st-george-illawarra-dragons,165,2025-09-06,-0.333,1,Prop,-2.095,-0.188,0.019
-Will Smith,wests-tigers,48,2023-08-26,-0.34,1,Interchange,-1.935,-0.171,0.03
-Jaimin Jolliffe,gold-coast-titans,96,2025-08-16,-0.349,1,Interchange,-2.007,-0.242,0.069
+Luke Thompson,canterbury-bankstown-bulldogs,37,2023-09-03,-0.303,2,Prop,-1.612,0.236,0.094
+Will Warbrick,melbourne-storm,73,2026-07-12,-0.306,2,Winger,-0.49,0.258,0.716
+Sean O'Sullivan,canterbury-bankstown-bulldogs,62,2026-07-11,-0.306,2,Halfback,-1.669,-3.586,0.076
+Robert Jennings,dolphins,55,2023-08-19,-0.312,2,Winger,-1.457,-0.709,0.15
+Jack Cole,penrith-panthers,18,2026-07-03,-0.314,2,Five-Eighth,-1.744,-1.298,0.094
+Michael Morgan,north-queensland-cowboys,38,2021-03-20,-0.315,2,Five-Eighth,-0.453,-0.007,0.0
+Thomas Cant,newcastle-knights,30,2026-07-12,-0.322,2,Interchange,-2.125,-0.422,0.0
+Brian Kelly,parramatta-eels,179,2026-07-11,-0.324,1,Centre,-1.091,-0.704,0.333
+Josh Kerr,st-george-illawarra-dragons,124,2026-07-04,-0.324,1,Interchange,-2.064,-0.361,0.044
+Shaun Lane,parramatta-eels,157,2025-04-12,-0.331,1,2nd Row,-1.793,-0.143,0.14
+David Klemmer,st-george-illawarra-dragons,165,2025-09-06,-0.333,1,Prop,-2.034,-0.187,0.019
+Will Smith,wests-tigers,48,2023-08-26,-0.34,1,Interchange,-1.88,-0.177,0.03
+Jaimin Jolliffe,gold-coast-titans,96,2025-08-16,-0.349,1,Interchange,-1.943,-0.24,0.069
 Dean Whare,penrith-panthers,46,2020-07-19,-0.365,1,,,,
 Jakob Arthur,newcastle-knights,31,2025-09-07,-0.366,1,,,,
-Dallin Watene-Zelezniak,warriors,166,2026-06-27,-0.372,1,Winger,-0.558,0.241,0.728
-Christian Crichton,penrith-panthers,34,2022-09-03,-0.376,1,Winger,-0.275,0.525,0.0
-Michael Molo,st-george-illawarra-dragons,35,2025-08-02,-0.386,0,Interchange,-2.059,-0.295,0.04
-Ben Te'O,brisbane-broncos,20,2021-04-08,-0.39,0,Interchange,-0.954,0.811,0.0
-Roger Tuivasa-Sheck,warriors,127,2026-05-23,-0.391,0,Winger,-1.117,-0.317,0.354
-Jack Murchie,parramatta-eels,45,2023-04-10,-0.393,0,Interchange,-1.849,-0.084,0.108
-Mitchell Dunn,north-queensland-cowboys,53,2023-05-20,-0.402,0,2nd Row,-1.853,-0.148,0.067
-Thomas Duffy,brisbane-broncos,13,2026-07-04,-0.412,0,Halfback,0.237,-1.633,0.043
-Preston Riki,brisbane-broncos,11,2026-07-04,-0.417,0,Prop,-1.581,0.327,0.0
-Richard Kennar,south-sydney-rabbitohs,40,2024-09-06,-0.422,0,Centre,-1.11,-0.583,0.417
-Jack Wighton,south-sydney-rabbitohs,168,2026-07-12,-0.447,0,Five-Eighth,-1.392,-0.901,0.27
-Jake Averillo,dolphins,130,2026-07-11,-0.464,0,Centre,-0.443,0.084,0.455
-Danny Levi,canberra-raiders,89,2025-09-07,-0.489,0,Hooker,-2.06,0.092,0.15
+Dallin Watene-Zelezniak,warriors,166,2026-06-27,-0.372,1,Winger,-0.499,0.249,0.73
+Christian Crichton,penrith-panthers,34,2022-09-03,-0.376,1,Winger,-0.269,0.479,0.0
+Michael Molo,st-george-illawarra-dragons,35,2025-08-02,-0.386,0,Interchange,-1.996,-0.292,0.04
+Ben Te'O,brisbane-broncos,20,2021-04-08,-0.39,0,Interchange,-0.926,0.778,0.0
+Roger Tuivasa-Sheck,warriors,127,2026-05-23,-0.391,0,Winger,-1.065,-0.318,0.354
+Jack Murchie,parramatta-eels,45,2023-04-10,-0.393,0,Interchange,-1.791,-0.088,0.108
+Mitchell Dunn,north-queensland-cowboys,53,2023-05-20,-0.402,0,2nd Row,-1.801,-0.151,0.067
+Thomas Duffy,brisbane-broncos,13,2026-07-04,-0.412,0,Halfback,0.2,-1.717,0.042
+Preston Riki,brisbane-broncos,11,2026-07-04,-0.417,0,Prop,-1.533,0.314,0.0
+Richard Kennar,south-sydney-rabbitohs,40,2024-09-06,-0.422,0,Centre,-1.062,-0.675,0.417
+Jack Wighton,south-sydney-rabbitohs,168,2026-07-12,-0.447,0,Five-Eighth,-1.336,-0.89,0.276
+Jake Averillo,dolphins,130,2026-07-11,-0.464,0,Centre,-0.406,-0.019,0.452
+Danny Levi,canberra-raiders,89,2025-09-07,-0.489,0,Hooker,-2.004,0.099,0.15

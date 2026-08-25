@@ -9,9 +9,9 @@ season,round,date,home_team,away_team,home_score,away_score,venue
 2009,Round 1,2009-03-16,wests-tigers,canberra-raiders,34,26,Campbelltown
 2009,Round 2,2009-03-20,south-sydney-rabbitohs,parramatta-eels,8,14,ANZ
 2009,Round 2,2009-03-20,brisbane-broncos,melbourne-storm,16,14,Suncorp
-2009,Round 2,2009-03-21,st-george-illawarra-dragons,gold-coast-titans,16,10,WIN
 2009,Round 2,2009-03-21,penrith-panthers,canterbury-bankstown-bulldogs,26,28,CUA Stadium
 2009,Round 2,2009-03-21,north-queensland-cowboys,wests-tigers,42,14,Dairy Farmers
+2009,Round 2,2009-03-21,st-george-illawarra-dragons,gold-coast-titans,16,10,WIN
 2009,Round 2,2009-03-22,manly-warringah-sea-eagles,warriors,24,26,Brookvale
 2009,Round 2,2009-03-22,canberra-raiders,sydney-roosters,4,28,Canberra Stadium
 2009,Round 2,2009-03-23,cronulla-sutherland-sharks,newcastle-knights,12,24,Toyota
@@ -25,8 +25,8 @@ season,round,date,home_team,away_team,home_score,away_score,venue
 2009,Round 3,2009-03-30,manly-warringah-sea-eagles,penrith-panthers,10,12,Brookvale
 2009,Round 4,2009-04-03,brisbane-broncos,st-george-illawarra-dragons,12,25,Suncorp
 2009,Round 4,2009-04-03,sydney-roosters,parramatta-eels,24,6,SFS
-2009,Round 4,2009-04-04,melbourne-storm,gold-coast-titans,6,18,Olympic Park
 2009,Round 4,2009-04-04,penrith-panthers,wests-tigers,42,22,CUA Stadium
+2009,Round 4,2009-04-04,melbourne-storm,gold-coast-titans,6,18,Olympic Park
 2009,Round 4,2009-04-05,warriors,south-sydney-rabbitohs,16,22,Mt Smart
 2009,Round 4,2009-04-05,canterbury-bankstown-bulldogs,cronulla-sutherland-sharks,24,12,ANZ
 2009,Round 4,2009-04-05,newcastle-knights,manly-warringah-sea-eagles,26,12,EnergyAustralia
@@ -39,8 +39,8 @@ season,round,date,home_team,away_team,home_score,away_score,venue
 2009,Round 5,2009-04-12,newcastle-knights,warriors,24,22,EnergyAustralia
 2009,Round 5,2009-04-12,manly-warringah-sea-eagles,wests-tigers,23,10,Brookvale
 2009,Round 5,2009-04-13,canterbury-bankstown-bulldogs,south-sydney-rabbitohs,14,12,ANZ
-2009,Round 6,2009-04-17,penrith-panthers,brisbane-broncos,18,38,CUA Stadium
 2009,Round 6,2009-04-17,gold-coast-titans,canberra-raiders,16,10,Skilled Park
+2009,Round 6,2009-04-17,penrith-panthers,brisbane-broncos,18,38,CUA Stadium
 2009,Round 6,2009-04-18,st-george-illawarra-dragons,newcastle-knights,18,24,WIN Jubilee
 2009,Round 6,2009-04-18,south-sydney-rabbitohs,manly-warringah-sea-eagles,8,24,ANZ
 2009,Round 6,2009-04-19,warriors,sydney-roosters,17,16,Mt Smart
@@ -67,8 +67,8 @@ season,round,date,home_team,away_team,home_score,away_score,venue
 2009,Round 9,2009-05-10,newcastle-knights,gold-coast-titans,23,18,EnergyAustralia
 2009,Round 9,2009-05-10,brisbane-broncos,manly-warringah-sea-eagles,20,22,Suncorp
 2009,Round 9,2009-05-11,sydney-roosters,melbourne-storm,12,28,Bluetongue
-2009,Round 10,2009-05-15,brisbane-broncos,gold-coast-titans,32,18,Suncorp
 2009,Round 10,2009-05-15,st-george-illawarra-dragons,canterbury-bankstown-bulldogs,20,18,WIN Jubilee
+2009,Round 10,2009-05-15,brisbane-broncos,gold-coast-titans,32,18,Suncorp
 2009,Round 10,2009-05-16,sydney-roosters,newcastle-knights,6,38,SFS
 2009,Round 10,2009-05-16,penrith-panthers,cronulla-sutherland-sharks,26,22,CUA Stadium
 2009,Round 10,2009-05-17,warriors,north-queensland-cowboys,12,34,Mt Smart
@@ -95,8 +95,8 @@ season,round,date,home_team,away_team,home_score,away_score,venue
 2009,Round 13,2009-06-07,cronulla-sutherland-sharks,warriors,18,10,Toyota
 2009,Round 13,2009-06-07,newcastle-knights,parramatta-eels,18,20,EnergyAustralia
 2009,Round 13,2009-06-08,gold-coast-titans,st-george-illawarra-dragons,28,24,Skilled Park
-2009,Round 14,2009-06-12,warriors,newcastle-knights,13,0,Mt Smart
 2009,Round 14,2009-06-12,brisbane-broncos,canterbury-bankstown-bulldogs,22,44,Suncorp
+2009,Round 14,2009-06-12,warriors,newcastle-knights,13,0,Mt Smart
 2009,Round 14,2009-06-13,sydney-roosters,gold-coast-titans,20,24,Bluetongue
 2009,Round 14,2009-06-13,penrith-panthers,manly-warringah-sea-eagles,6,20,CUA Stadium
 2009,Round 14,2009-06-13,south-sydney-rabbitohs,melbourne-storm,22,28,ME Bank
@@ -108,10 +108,10 @@ season,round,date,home_team,away_team,home_score,away_score,venue
 2009,Round 15,2009-06-21,melbourne-storm,wests-tigers,14,12,Olympic Park
 2009,Round 15,2009-06-21,manly-warringah-sea-eagles,canberra-raiders,20,14,Brookvale
 2009,Round 15,2009-06-22,cronulla-sutherland-sharks,brisbane-broncos,46,12,Toyota
-2009,Round 16,2009-06-26,wests-tigers,st-george-illawarra-dragons,10,21,SFS
 2009,Round 16,2009-06-26,canterbury-bankstown-bulldogs,north-queensland-cowboys,30,18,ANZ
-2009,Round 16,2009-06-27,gold-coast-titans,warriors,28,12,Skilled Park
+2009,Round 16,2009-06-26,wests-tigers,st-george-illawarra-dragons,10,21,SFS
 2009,Round 16,2009-06-27,sydney-roosters,cronulla-sutherland-sharks,19,12,SFS
+2009,Round 16,2009-06-27,gold-coast-titans,warriors,28,12,Skilled Park
 2009,Round 16,2009-06-28,canberra-raiders,melbourne-storm,26,16,Canberra Stadium
 2009,Round 16,2009-06-28,parramatta-eels,brisbane-broncos,21,14,Parramatta
 2009,Round 16,2009-06-29,newcastle-knights,south-sydney-rabbitohs,25,20,EnergyAustralia
@@ -137,9 +137,9 @@ season,round,date,home_team,away_team,home_score,away_score,venue
 2009,Round 19,2009-07-20,parramatta-eels,melbourne-storm,18,16,Parramatta
 2009,Round 20,2009-07-24,gold-coast-titans,brisbane-broncos,34,18,Skilled Park
 2009,Round 20,2009-07-24,manly-warringah-sea-eagles,newcastle-knights,44,20,Bluetongue
-2009,Round 20,2009-07-25,canterbury-bankstown-bulldogs,parramatta-eels,8,27,ANZ
 2009,Round 20,2009-07-25,north-queensland-cowboys,penrith-panthers,20,28,Dairy Farmers
 2009,Round 20,2009-07-25,melbourne-storm,cronulla-sutherland-sharks,30,10,Olympic Park
+2009,Round 20,2009-07-25,canterbury-bankstown-bulldogs,parramatta-eels,8,27,ANZ
 2009,Round 20,2009-07-26,canberra-raiders,wests-tigers,4,25,Canberra Stadium
 2009,Round 20,2009-07-26,warriors,st-george-illawarra-dragons,4,29,Mt Smart
 2009,Round 20,2009-07-27,south-sydney-rabbitohs,sydney-roosters,40,20,ANZ
@@ -151,10 +151,10 @@ season,round,date,home_team,away_team,home_score,away_score,venue
 2009,Round 21,2009-08-02,cronulla-sutherland-sharks,parramatta-eels,0,30,Toyota
 2009,Round 21,2009-08-02,south-sydney-rabbitohs,canterbury-bankstown-bulldogs,18,26,ANZ
 2009,Round 21,2009-08-03,wests-tigers,manly-warringah-sea-eagles,19,18,SFS
-2009,Round 22,2009-08-07,penrith-panthers,st-george-illawarra-dragons,6,25,CUA Stadium
 2009,Round 22,2009-08-07,melbourne-storm,north-queensland-cowboys,20,8,Olympic Park
-2009,Round 22,2009-08-08,canterbury-bankstown-bulldogs,canberra-raiders,23,20,ANZ
+2009,Round 22,2009-08-07,penrith-panthers,st-george-illawarra-dragons,6,25,CUA Stadium
 2009,Round 22,2009-08-08,manly-warringah-sea-eagles,south-sydney-rabbitohs,22,36,Brookvale
+2009,Round 22,2009-08-08,canterbury-bankstown-bulldogs,canberra-raiders,23,20,ANZ
 2009,Round 22,2009-08-09,warriors,gold-coast-titans,10,30,Mt Smart
 2009,Round 22,2009-08-09,sydney-roosters,wests-tigers,10,17,SFS
 2009,Round 22,2009-08-09,parramatta-eels,newcastle-knights,40,8,Parramatta
@@ -167,8 +167,8 @@ season,round,date,home_team,away_team,home_score,away_score,venue
 2009,Round 23,2009-08-16,brisbane-broncos,penrith-panthers,58,24,Suncorp
 2009,Round 23,2009-08-16,cronulla-sutherland-sharks,wests-tigers,10,56,Toyota
 2009,Round 23,2009-08-17,newcastle-knights,melbourne-storm,26,14,EnergyAustralia
-2009,Round 24,2009-08-21,wests-tigers,parramatta-eels,18,26,SFS
 2009,Round 24,2009-08-21,st-george-illawarra-dragons,brisbane-broncos,2,12,WIN
+2009,Round 24,2009-08-21,wests-tigers,parramatta-eels,18,26,SFS
 2009,Round 24,2009-08-22,newcastle-knights,north-queensland-cowboys,32,26,EnergyAustralia
 2009,Round 24,2009-08-22,penrith-panthers,south-sydney-rabbitohs,40,10,CUA Stadium
 2009,Round 24,2009-08-23,warriors,canberra-raiders,34,20,Mt Smart
@@ -180,8 +180,8 @@ season,round,date,home_team,away_team,home_score,away_score,venue
 2009,Round 25,2009-08-29,gold-coast-titans,wests-tigers,36,24,Skilled Park
 2009,Round 25,2009-08-29,melbourne-storm,sydney-roosters,38,4,Olympic Park
 2009,Round 25,2009-08-29,south-sydney-rabbitohs,st-george-illawarra-dragons,41,6,ANZ
-2009,Round 25,2009-08-30,manly-warringah-sea-eagles,cronulla-sutherland-sharks,18,16,Brookvale
 2009,Round 25,2009-08-30,canterbury-bankstown-bulldogs,warriors,40,20,ANZ
+2009,Round 25,2009-08-30,manly-warringah-sea-eagles,cronulla-sutherland-sharks,18,16,Brookvale
 2009,Round 25,2009-08-31,canberra-raiders,newcastle-knights,30,14,Canberra Stadium
 2009,Round 26,2009-09-04,st-george-illawarra-dragons,parramatta-eels,37,0,WIN Jubilee
 2009,Round 26,2009-09-04,wests-tigers,canterbury-bankstown-bulldogs,34,12,SFS
@@ -192,8 +192,8 @@ season,round,date,home_team,away_team,home_score,away_score,venue
 2009,Round 26,2009-09-06,newcastle-knights,penrith-panthers,35,0,EnergyAustralia
 2009,Round 26,2009-09-06,brisbane-broncos,canberra-raiders,22,10,Suncorp
 2009,Round 26,2009-09-11,melbourne-storm,manly-warringah-sea-eagles,40,12,Etihad
-2009,Round 26,2009-09-12,gold-coast-titans,brisbane-broncos,32,40,Skilled Park
 2009,Round 26,2009-09-12,canterbury-bankstown-bulldogs,newcastle-knights,26,12,ANZ
+2009,Round 26,2009-09-12,gold-coast-titans,brisbane-broncos,32,40,Skilled Park
 2009,Round 26,2009-09-13,st-george-illawarra-dragons,parramatta-eels,12,25,WIN Jubilee
 2009,Round 26,2009-09-18,parramatta-eels,gold-coast-titans,27,2,SFS
 2009,Round 26,2009-09-19,brisbane-broncos,st-george-illawarra-dragons,24,10,Suncorp
@@ -208,8 +208,8 @@ season,round,date,home_team,away_team,home_score,away_score,venue
 2010,Round 1,2010-03-14,south-sydney-rabbitohs,sydney-roosters,10,36,ANZ
 2010,Round 1,2010-03-14,gold-coast-titans,warriors,24,18,Skilled Park
 2010,Round 1,2010-03-15,wests-tigers,manly-warringah-sea-eagles,26,22,SFS
-2010,Round 2,2010-03-19,st-george-illawarra-dragons,canterbury-bankstown-bulldogs,26,6,WIN
 2010,Round 2,2010-03-19,south-sydney-rabbitohs,gold-coast-titans,18,19,ANZ
+2010,Round 2,2010-03-19,st-george-illawarra-dragons,canterbury-bankstown-bulldogs,26,6,WIN
 2010,Round 2,2010-03-20,warriors,cronulla-sutherland-sharks,30,16,Mt Smart
 2010,Round 2,2010-03-20,newcastle-knights,melbourne-storm,14,20,EnergyAustralia
 2010,Round 2,2010-03-20,north-queensland-cowboys,penrith-panthers,28,20,Dairy Farmers
@@ -237,8 +237,8 @@ season,round,date,home_team,away_team,home_score,away_score,venue
 2010,Round 5,2010-04-10,south-sydney-rabbitohs,newcastle-knights,28,10,Bluetongue
 2010,Round 5,2010-04-10,canterbury-bankstown-bulldogs,warriors,24,30,ANZ
 2010,Round 5,2010-04-10,north-queensland-cowboys,wests-tigers,16,23,Dairy Farmers
-2010,Round 5,2010-04-11,penrith-panthers,sydney-roosters,28,6,CUA Stadium
 2010,Round 5,2010-04-11,manly-warringah-sea-eagles,cronulla-sutherland-sharks,40,12,Brookvale
+2010,Round 5,2010-04-11,penrith-panthers,sydney-roosters,28,6,CUA Stadium
 2010,Round 5,2010-04-12,parramatta-eels,canberra-raiders,14,24,Parramatta
 2010,Round 6,2010-04-16,gold-coast-titans,st-george-illawarra-dragons,6,19,Skilled Park
 2010,Round 6,2010-04-16,wests-tigers,canterbury-bankstown-bulldogs,4,24,SFS
@@ -250,8 +250,8 @@ season,round,date,home_team,away_team,home_score,away_score,venue
 2010,Round 6,2010-04-19,melbourne-storm,manly-warringah-sea-eagles,16,18,Etihad
 2010,Round 7,2010-04-23,north-queensland-cowboys,parramatta-eels,18,24,Dairy Farmers
 2010,Round 7,2010-04-23,canterbury-bankstown-bulldogs,brisbane-broncos,36,18,ANZ
-2010,Round 7,2010-04-24,penrith-panthers,wests-tigers,26,18,CUA Stadium
 2010,Round 7,2010-04-24,cronulla-sutherland-sharks,newcastle-knights,26,6,Toyota
+2010,Round 7,2010-04-24,penrith-panthers,wests-tigers,26,18,CUA Stadium
 2010,Round 7,2010-04-25,canberra-raiders,south-sydney-rabbitohs,24,26,Canberra Stadium
 2010,Round 7,2010-04-25,st-george-illawarra-dragons,sydney-roosters,28,6,SFS
 2010,Round 7,2010-04-25,melbourne-storm,warriors,40,6,Etihad
@@ -278,8 +278,8 @@ season,round,date,home_team,away_team,home_score,away_score,venue
 2010,Round 10,2010-05-17,manly-warringah-sea-eagles,parramatta-eels,12,19,Brookvale
 2010,Round 11,2010-05-21,newcastle-knights,wests-tigers,6,23,EnergyAustralia
 2010,Round 11,2010-05-22,parramatta-eels,cronulla-sutherland-sharks,18,22,Parramatta
-2010,Round 11,2010-05-23,warriors,south-sydney-rabbitohs,26,24,Mt Smart
 2010,Round 11,2010-05-23,st-george-illawarra-dragons,canberra-raiders,14,22,WIN
+2010,Round 11,2010-05-23,warriors,south-sydney-rabbitohs,26,24,Mt Smart
 2010,Round 11,2010-05-24,penrith-panthers,canterbury-bankstown-bulldogs,31,16,CUA Stadium
 2010,Round 12,2010-05-28,st-george-illawarra-dragons,parramatta-eels,30,0,WIN Jubilee
 2010,Round 12,2010-05-28,wests-tigers,warriors,50,6,Campbelltown
@@ -292,9 +292,9 @@ season,round,date,home_team,away_team,home_score,away_score,venue
 2010,Round 13,2010-06-04,canterbury-bankstown-bulldogs,wests-tigers,12,19,ANZ
 2010,Round 13,2010-06-05,penrith-panthers,newcastle-knights,28,10,CUA Stadium
 2010,Round 13,2010-06-05,sydney-roosters,cronulla-sutherland-sharks,18,42,SFS
+2010,Round 13,2010-06-06,manly-warringah-sea-eagles,brisbane-broncos,6,22,Brookvale
 2010,Round 13,2010-06-06,warriors,st-george-illawarra-dragons,20,22,Mt Smart
 2010,Round 13,2010-06-06,canberra-raiders,gold-coast-titans,28,24,Canberra Stadium
-2010,Round 13,2010-06-06,manly-warringah-sea-eagles,brisbane-broncos,6,22,Brookvale
 2010,Round 13,2010-06-07,south-sydney-rabbitohs,north-queensland-cowboys,32,4,ANZ
 2010,Round 14,2010-06-11,gold-coast-titans,manly-warringah-sea-eagles,28,14,Skilled Park
 2010,Round 14,2010-06-12,north-queensland-cowboys,canberra-raiders,16,8,Dairy Farmers
@@ -303,10 +303,10 @@ season,round,date,home_team,away_team,home_score,away_score,venue
 2010,Round 14,2010-06-14,melbourne-storm,sydney-roosters,6,38,AAMI
 2010,Round 15,2010-06-18,canterbury-bankstown-bulldogs,gold-coast-titans,24,25,Suncorp
 2010,Round 15,2010-06-18,brisbane-broncos,penrith-panthers,12,22,Suncorp
-2010,Round 15,2010-06-19,melbourne-storm,north-queensland-cowboys,58,12,AAMI
 2010,Round 15,2010-06-19,manly-warringah-sea-eagles,south-sydney-rabbitohs,26,25,Brookvale
-2010,Round 15,2010-06-20,cronulla-sutherland-sharks,st-george-illawarra-dragons,4,22,Toyota
+2010,Round 15,2010-06-19,melbourne-storm,north-queensland-cowboys,58,12,AAMI
 2010,Round 15,2010-06-20,wests-tigers,canberra-raiders,18,8,Leichhardt
+2010,Round 15,2010-06-20,cronulla-sutherland-sharks,st-george-illawarra-dragons,4,22,Toyota
 2010,Round 15,2010-06-21,newcastle-knights,parramatta-eels,6,4,EnergyAustralia
 2010,Round 16,2010-06-25,penrith-panthers,manly-warringah-sea-eagles,40,22,CUA Stadium
 2010,Round 16,2010-06-25,st-george-illawarra-dragons,wests-tigers,34,10,WIN Jubilee
@@ -318,8 +318,8 @@ season,round,date,home_team,away_team,home_score,away_score,venue
 2010,Round 16,2010-06-28,canberra-raiders,canterbury-bankstown-bulldogs,10,18,Canberra Stadium
 2010,Round 17,2010-07-02,brisbane-broncos,wests-tigers,14,16,Suncorp
 2010,Round 17,2010-07-03,cronulla-sutherland-sharks,canterbury-bankstown-bulldogs,12,24,Bluetongue
-2010,Round 17,2010-07-04,warriors,parramatta-eels,35,6,Mt Smart
 2010,Round 17,2010-07-04,canberra-raiders,sydney-roosters,12,22,Canberra Stadium
+2010,Round 17,2010-07-04,warriors,parramatta-eels,35,6,Mt Smart
 2010,Round 17,2010-07-05,st-george-illawarra-dragons,penrith-panthers,8,12,WIN Jubilee
 2010,Round 18,2010-07-09,sydney-roosters,south-sydney-rabbitohs,18,14,SFS
 2010,Round 18,2010-07-09,wests-tigers,gold-coast-titans,15,14,Campbelltown
@@ -330,8 +330,8 @@ season,round,date,home_team,away_team,home_score,away_score,venue
 2010,Round 18,2010-07-12,parramatta-eels,north-queensland-cowboys,36,24,Parramatta
 2010,Round 19,2010-07-16,gold-coast-titans,brisbane-broncos,10,24,Skilled Park
 2010,Round 19,2010-07-16,south-sydney-rabbitohs,st-george-illawarra-dragons,13,16,ANZ
-2010,Round 19,2010-07-17,warriors,melbourne-storm,13,6,Mt Smart
 2010,Round 19,2010-07-17,cronulla-sutherland-sharks,manly-warringah-sea-eagles,18,48,Toyota
+2010,Round 19,2010-07-17,warriors,melbourne-storm,13,6,Mt Smart
 2010,Round 19,2010-07-17,penrith-panthers,parramatta-eels,28,34,CUA Stadium
 2010,Round 19,2010-07-18,sydney-roosters,canterbury-bankstown-bulldogs,36,32,SFS
 2010,Round 19,2010-07-18,canberra-raiders,newcastle-knights,52,18,Canberra Stadium
@@ -348,9 +348,9 @@ season,round,date,home_team,away_team,home_score,away_score,venue
 2010,Round 21,2010-07-30,canterbury-bankstown-bulldogs,south-sydney-rabbitohs,32,12,ANZ
 2010,Round 21,2010-07-31,parramatta-eels,sydney-roosters,12,48,Parramatta
 2010,Round 21,2010-07-31,wests-tigers,cronulla-sutherland-sharks,24,22,Leichhardt
-2010,Round 21,2010-08-01,brisbane-broncos,st-george-illawarra-dragons,10,6,Suncorp
-2010,Round 21,2010-08-01,melbourne-storm,canberra-raiders,36,12,AAMI
 2010,Round 21,2010-08-01,warriors,gold-coast-titans,20,28,Mt Smart
+2010,Round 21,2010-08-01,melbourne-storm,canberra-raiders,36,12,AAMI
+2010,Round 21,2010-08-01,brisbane-broncos,st-george-illawarra-dragons,10,6,Suncorp
 2010,Round 21,2010-08-02,newcastle-knights,manly-warringah-sea-eagles,32,14,EnergyAustralia
 2010,Round 22,2010-08-06,gold-coast-titans,parramatta-eels,34,12,Skilled Park
 2010,Round 22,2010-08-06,north-queensland-cowboys,brisbane-broncos,26,34,Dairy Farmers
@@ -362,8 +362,8 @@ season,round,date,home_team,away_team,home_score,away_score,venue
 2010,Round 22,2010-08-09,canberra-raiders,penrith-panthers,30,26,Canberra Stadium
 2010,Round 23,2010-08-13,cronulla-sutherland-sharks,sydney-roosters,18,12,Toyota
 2010,Round 23,2010-08-13,brisbane-broncos,parramatta-eels,14,30,Suncorp
-2010,Round 23,2010-08-14,gold-coast-titans,north-queensland-cowboys,37,18,Skilled Park
 2010,Round 23,2010-08-14,canterbury-bankstown-bulldogs,canberra-raiders,14,28,ANZ
+2010,Round 23,2010-08-14,gold-coast-titans,north-queensland-cowboys,37,18,Skilled Park
 2010,Round 23,2010-08-15,warriors,newcastle-knights,22,10,Mt Smart
 2010,Round 23,2010-08-15,melbourne-storm,south-sydney-rabbitohs,18,16,AAMI
 2010,Round 23,2010-08-15,wests-tigers,penrith-panthers,43,18,Campbelltown
@@ -376,8 +376,8 @@ season,round,date,home_team,away_team,home_score,away_score,venue
 2010,Round 24,2010-08-22,parramatta-eels,wests-tigers,18,20,Parramatta
 2010,Round 24,2010-08-22,canberra-raiders,st-george-illawarra-dragons,32,16,Canberra Stadium
 2010,Round 24,2010-08-23,sydney-roosters,gold-coast-titans,14,23,SFS
-2010,Round 25,2010-08-27,warriors,brisbane-broncos,36,4,Mt Smart
 2010,Round 25,2010-08-27,south-sydney-rabbitohs,parramatta-eels,24,16,ANZ
+2010,Round 25,2010-08-27,warriors,brisbane-broncos,36,4,Mt Smart
 2010,Round 25,2010-08-28,cronulla-sutherland-sharks,gold-coast-titans,30,16,Toyota
 2010,Round 25,2010-08-28,canberra-raiders,north-queensland-cowboys,48,4,Canberra Stadium
 2010,Round 25,2010-08-28,newcastle-knights,st-george-illawarra-dragons,18,26,EnergyAustralia
@@ -389,9 +389,9 @@ season,round,date,home_team,away_team,home_score,away_score,venue
 2010,Round 26,2010-09-04,penrith-panthers,cronulla-sutherland-sharks,50,12,CUA Stadium
 2010,Round 26,2010-09-04,north-queensland-cowboys,sydney-roosters,8,18,Dairy Farmers
 2010,Round 26,2010-09-04,parramatta-eels,warriors,12,26,Parramatta
-2010,Round 26,2010-09-05,melbourne-storm,newcastle-knights,34,4,AAMI
 2010,Round 26,2010-09-05,manly-warringah-sea-eagles,canterbury-bankstown-bulldogs,24,30,Brookvale
 2010,Round 26,2010-09-05,st-george-illawarra-dragons,south-sydney-rabbitohs,38,24,WIN Jubilee
+2010,Round 26,2010-09-05,melbourne-storm,newcastle-knights,34,4,AAMI
 2010,Round 26,2010-09-10,gold-coast-titans,warriors,28,16,Skilled Park
 2010,Round 26,2010-09-11,wests-tigers,sydney-roosters,15,19,SFS
 2010,Round 26,2010-09-11,penrith-panthers,canberra-raiders,22,24,CUA Stadium
@@ -403,9 +403,9 @@ season,round,date,home_team,away_team,home_score,away_score,venue
 2010,Round 26,2010-10-03,st-george-illawarra-dragons,sydney-roosters,32,8,ANZ
 2011,Round 1,2011-03-11,sydney-roosters,south-sydney-rabbitohs,40,29,SFS
 2011,Round 1,2011-03-11,brisbane-broncos,north-queensland-cowboys,14,16,Suncorp
-2011,Round 1,2011-03-12,melbourne-storm,manly-warringah-sea-eagles,18,6,AAMI
 2011,Round 1,2011-03-12,gold-coast-titans,st-george-illawarra-dragons,16,25,Skilled Park
 2011,Round 1,2011-03-12,warriors,parramatta-eels,18,24,Eden Park
+2011,Round 1,2011-03-12,melbourne-storm,manly-warringah-sea-eagles,18,6,AAMI
 2011,Round 1,2011-03-13,canberra-raiders,cronulla-sutherland-sharks,40,12,Canberra Stadium
 2011,Round 1,2011-03-13,penrith-panthers,newcastle-knights,8,42,Centrebet
 2011,Round 1,2011-03-14,canterbury-bankstown-bulldogs,wests-tigers,24,14,ANZ
@@ -419,8 +419,8 @@ season,round,date,home_team,away_team,home_score,away_score,venue
 2011,Round 2,2011-03-21,cronulla-sutherland-sharks,st-george-illawarra-dragons,16,10,Toyota
 2011,Round 3,2011-03-25,gold-coast-titans,brisbane-broncos,8,14,Skilled Park
 2011,Round 3,2011-03-25,parramatta-eels,south-sydney-rabbitohs,18,32,ANZ
-2011,Round 3,2011-03-26,wests-tigers,canberra-raiders,34,24,Campbelltown
 2011,Round 3,2011-03-26,penrith-panthers,cronulla-sutherland-sharks,12,44,Centrebet
+2011,Round 3,2011-03-26,wests-tigers,canberra-raiders,34,24,Campbelltown
 2011,Round 3,2011-03-27,warriors,st-george-illawarra-dragons,12,25,Mt Smart
 2011,Round 3,2011-03-27,canterbury-bankstown-bulldogs,sydney-roosters,24,20,ANZ
 2011,Round 3,2011-03-27,manly-warringah-sea-eagles,newcastle-knights,26,12,Brookvale
@@ -433,8 +433,8 @@ season,round,date,home_team,away_team,home_score,away_score,venue
 2011,Round 4,2011-04-03,newcastle-knights,st-george-illawarra-dragons,18,20,Ausgrid
 2011,Round 4,2011-04-03,sydney-roosters,wests-tigers,24,6,SFS
 2011,Round 4,2011-04-04,melbourne-storm,canterbury-bankstown-bulldogs,30,16,AAMI
-2011,Round 5,2011-04-08,wests-tigers,south-sydney-rabbitohs,30,6,SFS
 2011,Round 5,2011-04-08,north-queensland-cowboys,gold-coast-titans,22,12,Dairy Farmers
+2011,Round 5,2011-04-08,wests-tigers,south-sydney-rabbitohs,30,6,SFS
 2011,Round 5,2011-04-09,cronulla-sutherland-sharks,manly-warringah-sea-eagles,13,19,Toyota
 2011,Round 5,2011-04-09,warriors,sydney-roosters,24,12,Mt Smart
 2011,Round 5,2011-04-09,penrith-panthers,canberra-raiders,36,10,Centrebet
@@ -462,9 +462,9 @@ season,round,date,home_team,away_team,home_score,away_score,venue
 2011,Round 8,2011-04-30,north-queensland-cowboys,manly-warringah-sea-eagles,22,20,Dairy Farmers
 2011,Round 8,2011-04-30,melbourne-storm,newcastle-knights,42,12,AAMI
 2011,Round 8,2011-04-30,gold-coast-titans,sydney-roosters,24,13,Skilled Park
+2011,Round 8,2011-05-01,st-george-illawarra-dragons,parramatta-eels,30,0,WIN Jubilee
 2011,Round 8,2011-05-01,warriors,penrith-panthers,26,18,Mt Smart
 2011,Round 8,2011-05-01,canberra-raiders,wests-tigers,12,49,Canberra Stadium
-2011,Round 8,2011-05-01,st-george-illawarra-dragons,parramatta-eels,30,0,WIN Jubilee
 2011,Round 9,2011-05-07,brisbane-broncos,melbourne-storm,22,29,Suncorp
 2011,Round 9,2011-05-08,gold-coast-titans,warriors,14,34,Skilled Park
 2011,Round 9,2011-05-08,st-george-illawarra-dragons,north-queensland-cowboys,22,8,WIN Jubilee
@@ -489,8 +489,8 @@ season,round,date,home_team,away_team,home_score,away_score,venue
 2011,Round 12,2011-05-29,melbourne-storm,cronulla-sutherland-sharks,14,8,AAMI
 2011,Round 12,2011-05-29,st-george-illawarra-dragons,wests-tigers,24,18,WIN Jubilee
 2011,Round 12,2011-05-30,penrith-panthers,south-sydney-rabbitohs,22,10,Centrebet
-2011,Round 13,2011-06-03,cronulla-sutherland-sharks,brisbane-broncos,16,34,Toyota
 2011,Round 13,2011-06-03,parramatta-eels,st-george-illawarra-dragons,14,14,Parramatta
+2011,Round 13,2011-06-03,cronulla-sutherland-sharks,brisbane-broncos,16,34,Toyota
 2011,Round 13,2011-06-04,gold-coast-titans,penrith-panthers,10,23,Skilled Park
 2011,Round 13,2011-06-04,canterbury-bankstown-bulldogs,manly-warringah-sea-eagles,4,38,ANZ
 2011,Round 13,2011-06-04,sydney-roosters,warriors,13,6,SFS
@@ -502,10 +502,10 @@ season,round,date,home_team,away_team,home_score,away_score,venue
 2011,Round 14,2011-06-12,warriors,wests-tigers,22,26,Mt Smart
 2011,Round 14,2011-06-12,brisbane-broncos,canberra-raiders,25,24,Suncorp
 2011,Round 14,2011-06-13,melbourne-storm,sydney-roosters,21,4,AAMI
-2011,Round 15,2011-06-17,south-sydney-rabbitohs,gold-coast-titans,31,8,ANZ
 2011,Round 15,2011-06-17,brisbane-broncos,st-george-illawarra-dragons,21,14,Suncorp
-2011,Round 15,2011-06-18,north-queensland-cowboys,warriors,30,10,Dairy Farmers
+2011,Round 15,2011-06-17,south-sydney-rabbitohs,gold-coast-titans,31,8,ANZ
 2011,Round 15,2011-06-18,newcastle-knights,penrith-panthers,16,12,Ausgrid
+2011,Round 15,2011-06-18,north-queensland-cowboys,warriors,30,10,Dairy Farmers
 2011,Round 15,2011-06-19,canterbury-bankstown-bulldogs,cronulla-sutherland-sharks,10,26,ANZ
 2011,Round 15,2011-06-19,wests-tigers,melbourne-storm,4,12,Leichhardt
 2011,Round 15,2011-06-20,manly-warringah-sea-eagles,parramatta-eels,22,18,Brookvale
@@ -531,9 +531,9 @@ season,round,date,home_team,away_team,home_score,away_score,venue
 2011,Round 18,2011-07-11,newcastle-knights,north-queensland-cowboys,12,22,Ausgrid
 2011,Round 19,2011-07-15,warriors,canterbury-bankstown-bulldogs,36,12,Mt Smart
 2011,Round 19,2011-07-15,brisbane-broncos,gold-coast-titans,30,10,Suncorp
-2011,Round 19,2011-07-16,penrith-panthers,parramatta-eels,23,22,Centrebet
-2011,Round 19,2011-07-16,north-queensland-cowboys,wests-tigers,18,38,Dairy Farmers
 2011,Round 19,2011-07-16,south-sydney-rabbitohs,sydney-roosters,21,20,ANZ
+2011,Round 19,2011-07-16,north-queensland-cowboys,wests-tigers,18,38,Dairy Farmers
+2011,Round 19,2011-07-16,penrith-panthers,parramatta-eels,23,22,Centrebet
 2011,Round 19,2011-07-17,canberra-raiders,melbourne-storm,0,26,Canberra Stadium
 2011,Round 19,2011-07-17,newcastle-knights,manly-warringah-sea-eagles,10,32,Ausgrid
 2011,Round 19,2011-07-18,st-george-illawarra-dragons,cronulla-sutherland-sharks,38,8,WIN Jubilee
@@ -545,8 +545,8 @@ season,round,date,home_team,away_team,home_score,away_score,venue
 2011,Round 20,2011-07-24,south-sydney-rabbitohs,warriors,16,48,ANZ
 2011,Round 20,2011-07-24,penrith-panthers,manly-warringah-sea-eagles,8,12,Centrebet
 2011,Round 20,2011-07-25,canberra-raiders,st-george-illawarra-dragons,24,19,Canberra Stadium
-2011,Round 21,2011-07-29,manly-warringah-sea-eagles,wests-tigers,12,14,Bluetongue
 2011,Round 21,2011-07-29,brisbane-broncos,cronulla-sutherland-sharks,46,16,Suncorp
+2011,Round 21,2011-07-29,manly-warringah-sea-eagles,wests-tigers,12,14,Bluetongue
 2011,Round 21,2011-07-30,sydney-roosters,canterbury-bankstown-bulldogs,32,28,SFS
 2011,Round 21,2011-07-30,north-queensland-cowboys,penrith-panthers,30,18,Dairy Farmers
 2011,Round 21,2011-07-31,newcastle-knights,gold-coast-titans,50,20,Ausgrid
@@ -574,8 +574,8 @@ season,round,date,home_team,away_team,home_score,away_score,venue
 2011,Round 24,2011-08-20,gold-coast-titans,canberra-raiders,26,18,Skilled Park
 2011,Round 24,2011-08-20,penrith-panthers,warriors,12,26,Centrebet
 2011,Round 24,2011-08-20,sydney-roosters,cronulla-sutherland-sharks,36,25,SFS
-2011,Round 24,2011-08-21,wests-tigers,parramatta-eels,31,12,SFS
 2011,Round 24,2011-08-21,manly-warringah-sea-eagles,canterbury-bankstown-bulldogs,27,16,Brookvale
+2011,Round 24,2011-08-21,wests-tigers,parramatta-eels,31,12,SFS
 2011,Round 24,2011-08-22,newcastle-knights,brisbane-broncos,6,26,Ausgrid
 2011,Round 25,2011-08-26,manly-warringah-sea-eagles,melbourne-storm,18,4,Brookvale
 2011,Round 25,2011-08-26,parramatta-eels,sydney-roosters,12,13,Parramatta
@@ -587,9 +587,9 @@ season,round,date,home_team,away_team,home_score,away_score,venue
 2011,Round 25,2011-08-29,wests-tigers,gold-coast-titans,39,10,Campbelltown
 2011,Round 26,2011-09-02,newcastle-knights,south-sydney-rabbitohs,40,24,Ausgrid
 2011,Round 26,2011-09-02,st-george-illawarra-dragons,penrith-panthers,32,12,WIN
+2011,Round 26,2011-09-03,gold-coast-titans,parramatta-eels,12,32,Skilled Park
 2011,Round 26,2011-09-03,warriors,north-queensland-cowboys,18,6,Mt Smart
 2011,Round 26,2011-09-03,cronulla-sutherland-sharks,wests-tigers,22,30,Toyota
-2011,Round 26,2011-09-03,gold-coast-titans,parramatta-eels,12,32,Skilled Park
 2011,Round 26,2011-09-04,canterbury-bankstown-bulldogs,canberra-raiders,36,22,ANZ
 2011,Round 26,2011-09-04,brisbane-broncos,manly-warringah-sea-eagles,18,10,Suncorp
 2011,Round 26,2011-09-04,sydney-roosters,melbourne-storm,40,8,SFS
@@ -612,11 +612,11 @@ season,round,date,home_team,away_team,home_score,away_score,venue
 2012,Round 1,2012-03-05,south-sydney-rabbitohs,sydney-roosters,20,24,ANZ
 2012,Round 2,2012-03-09,brisbane-broncos,north-queensland-cowboys,26,28,Suncorp
 2012,Round 2,2012-03-09,manly-warringah-sea-eagles,wests-tigers,22,18,Bluetongue
-2012,Round 2,2012-03-10,canterbury-bankstown-bulldogs,st-george-illawarra-dragons,30,4,ANZ
 2012,Round 2,2012-03-10,gold-coast-titans,canberra-raiders,12,24,Skilled Park
-2012,Round 2,2012-03-11,melbourne-storm,south-sydney-rabbitohs,24,10,AAMI
+2012,Round 2,2012-03-10,canterbury-bankstown-bulldogs,st-george-illawarra-dragons,30,4,ANZ
 2012,Round 2,2012-03-11,sydney-roosters,penrith-panthers,0,18,Allianz
 2012,Round 2,2012-03-11,cronulla-sutherland-sharks,newcastle-knights,6,18,Toyota
+2012,Round 2,2012-03-11,melbourne-storm,south-sydney-rabbitohs,24,10,AAMI
 2012,Round 2,2012-03-12,parramatta-eels,warriors,20,36,Parramatta
 2012,Round 3,2012-03-16,st-george-illawarra-dragons,wests-tigers,36,12,WIN Jubilee
 2012,Round 3,2012-03-16,newcastle-knights,brisbane-broncos,10,24,Hunter
@@ -628,9 +628,9 @@ season,round,date,home_team,away_team,home_score,away_score,venue
 2012,Round 3,2012-03-19,cronulla-sutherland-sharks,manly-warringah-sea-eagles,17,14,Toyota
 2012,Round 4,2012-03-23,parramatta-eels,penrith-panthers,6,39,Parramatta
 2012,Round 4,2012-03-23,south-sydney-rabbitohs,brisbane-broncos,12,20,nib Stadium
-2012,Round 4,2012-03-24,warriors,gold-coast-titans,26,6,Mt Smart
 2012,Round 4,2012-03-24,st-george-illawarra-dragons,manly-warringah-sea-eagles,17,6,WIN Jubilee
 2012,Round 4,2012-03-24,north-queensland-cowboys,cronulla-sutherland-sharks,14,20,Dairy Farmers
+2012,Round 4,2012-03-24,warriors,gold-coast-titans,26,6,Mt Smart
 2012,Round 4,2012-03-25,melbourne-storm,sydney-roosters,44,4,AAMI
 2012,Round 4,2012-03-25,canterbury-bankstown-bulldogs,newcastle-knights,6,20,ANZ
 2012,Round 4,2012-03-26,wests-tigers,canberra-raiders,16,30,Campbelltown
@@ -644,8 +644,8 @@ season,round,date,home_team,away_team,home_score,away_score,venue
 2012,Round 5,2012-04-02,canberra-raiders,north-queensland-cowboys,6,22,Canberra Stadium
 2012,Round 6,2012-04-06,south-sydney-rabbitohs,canterbury-bankstown-bulldogs,20,10,ANZ
 2012,Round 6,2012-04-06,wests-tigers,brisbane-broncos,14,18,Allianz
-2012,Round 6,2012-04-07,cronulla-sutherland-sharks,st-george-illawarra-dragons,12,0,Toyota
 2012,Round 6,2012-04-07,gold-coast-titans,sydney-roosters,12,18,Skilled Park
+2012,Round 6,2012-04-07,cronulla-sutherland-sharks,st-george-illawarra-dragons,12,0,Toyota
 2012,Round 6,2012-04-08,newcastle-knights,parramatta-eels,14,6,Hunter
 2012,Round 6,2012-04-08,canberra-raiders,warriors,32,12,Canberra Stadium
 2012,Round 6,2012-04-08,north-queensland-cowboys,melbourne-storm,18,42,Dairy Farmers
@@ -658,8 +658,8 @@ season,round,date,home_team,away_team,home_score,away_score,venue
 2012,Round 7,2012-04-15,penrith-panthers,wests-tigers,0,30,Centrebet
 2012,Round 7,2012-04-15,warriors,south-sydney-rabbitohs,44,22,Mt Smart
 2012,Round 7,2012-04-15,cronulla-sutherland-sharks,parramatta-eels,24,18,Toyota
-2012,Round 8,2012-04-25,melbourne-storm,warriors,32,14,AAMI
 2012,Round 8,2012-04-25,st-george-illawarra-dragons,sydney-roosters,28,24,Allianz
+2012,Round 8,2012-04-25,melbourne-storm,warriors,32,14,AAMI
 2012,Round 8,2012-04-27,canterbury-bankstown-bulldogs,manly-warringah-sea-eagles,10,12,ANZ
 2012,Round 8,2012-04-27,brisbane-broncos,gold-coast-titans,26,6,Suncorp
 2012,Round 8,2012-04-28,south-sydney-rabbitohs,north-queensland-cowboys,20,16,ANZ
@@ -688,8 +688,8 @@ season,round,date,home_team,away_team,home_score,away_score,venue
 2012,Round 11,2012-05-21,canterbury-bankstown-bulldogs,cronulla-sutherland-sharks,26,6,ANZ
 2012,Round 12,2012-05-25,melbourne-storm,brisbane-broncos,34,10,AAMI
 2012,Round 12,2012-05-25,south-sydney-rabbitohs,canberra-raiders,36,18,ANZ
-2012,Round 12,2012-05-26,st-george-illawarra-dragons,parramatta-eels,14,12,WIN Jubilee
 2012,Round 12,2012-05-26,newcastle-knights,gold-coast-titans,14,24,Hunter
+2012,Round 12,2012-05-26,st-george-illawarra-dragons,parramatta-eels,14,12,WIN Jubilee
 2012,Round 12,2012-05-27,wests-tigers,north-queensland-cowboys,26,18,Campbelltown
 2012,Round 12,2012-05-27,penrith-panthers,manly-warringah-sea-eagles,22,4,Centrebet
 2012,Round 12,2012-05-28,sydney-roosters,canterbury-bankstown-bulldogs,12,30,Allianz
@@ -702,8 +702,8 @@ season,round,date,home_team,away_team,home_score,away_score,venue
 2012,Round 13,2012-06-04,parramatta-eels,cronulla-sutherland-sharks,29,20,Parramatta
 2012,Round 14,2012-06-08,melbourne-storm,wests-tigers,6,10,AAMI
 2012,Round 14,2012-06-09,newcastle-knights,canberra-raiders,16,32,Hunter
-2012,Round 14,2012-06-10,cronulla-sutherland-sharks,gold-coast-titans,22,12,Toyota
 2012,Round 14,2012-06-10,sydney-roosters,brisbane-broncos,22,40,Allianz
+2012,Round 14,2012-06-10,cronulla-sutherland-sharks,gold-coast-titans,22,12,Toyota
 2012,Round 14,2012-06-11,penrith-panthers,warriors,16,30,Centrebet
 2012,Round 15,2012-06-15,north-queensland-cowboys,brisbane-broncos,12,0,Dairy Farmers
 2012,Round 15,2012-06-15,st-george-illawarra-dragons,canterbury-bankstown-bulldogs,20,28,WIN
@@ -716,8 +716,8 @@ season,round,date,home_team,away_team,home_score,away_score,venue
 2012,Round 16,2012-06-22,st-george-illawarra-dragons,gold-coast-titans,8,6,WIN
 2012,Round 16,2012-06-23,north-queensland-cowboys,canberra-raiders,40,18,Dairy Farmers
 2012,Round 16,2012-06-23,penrith-panthers,parramatta-eels,18,19,Centrebet
-2012,Round 16,2012-06-24,sydney-roosters,manly-warringah-sea-eagles,14,52,Allianz
 2012,Round 16,2012-06-24,canterbury-bankstown-bulldogs,melbourne-storm,20,4,Virgin Aust.
+2012,Round 16,2012-06-24,sydney-roosters,manly-warringah-sea-eagles,14,52,Allianz
 2012,Round 16,2012-06-25,newcastle-knights,wests-tigers,38,20,Hunter
 2012,Round 17,2012-06-29,brisbane-broncos,cronulla-sutherland-sharks,12,26,Suncorp
 2012,Round 17,2012-06-30,parramatta-eels,newcastle-knights,12,20,Parramatta
@@ -730,8 +730,8 @@ season,round,date,home_team,away_team,home_score,away_score,venue
 2012,Round 18,2012-07-08,manly-warringah-sea-eagles,parramatta-eels,40,24,Brookvale
 2012,Round 18,2012-07-08,south-sydney-rabbitohs,newcastle-knights,34,14,ANZ
 2012,Round 18,2012-07-09,cronulla-sutherland-sharks,sydney-roosters,14,14,Toyota
-2012,Round 19,2012-07-13,brisbane-broncos,warriors,10,8,Suncorp
 2012,Round 19,2012-07-13,canterbury-bankstown-bulldogs,parramatta-eels,32,12,ANZ
+2012,Round 19,2012-07-13,brisbane-broncos,warriors,10,8,Suncorp
 2012,Round 19,2012-07-14,melbourne-storm,north-queensland-cowboys,16,20,AAMI
 2012,Round 19,2012-07-14,newcastle-knights,manly-warringah-sea-eagles,32,6,Hunter
 2012,Round 19,2012-07-14,wests-tigers,penrith-panthers,26,18,Campbelltown
@@ -758,9 +758,9 @@ season,round,date,home_team,away_team,home_score,away_score,venue
 2012,Round 22,2012-08-04,melbourne-storm,penrith-panthers,46,6,AAMI
 2012,Round 22,2012-08-04,newcastle-knights,canterbury-bankstown-bulldogs,10,26,Hunter
 2012,Round 22,2012-08-04,north-queensland-cowboys,manly-warringah-sea-eagles,6,8,Dairy Farmers
-2012,Round 22,2012-08-05,canberra-raiders,brisbane-broncos,28,12,Canberra Stadium
-2012,Round 22,2012-08-05,warriors,cronulla-sutherland-sharks,4,45,Mt Smart
 2012,Round 22,2012-08-05,gold-coast-titans,south-sydney-rabbitohs,18,22,Skilled Park
+2012,Round 22,2012-08-05,warriors,cronulla-sutherland-sharks,4,45,Mt Smart
+2012,Round 22,2012-08-05,canberra-raiders,brisbane-broncos,28,12,Canberra Stadium
 2012,Round 22,2012-08-06,wests-tigers,parramatta-eels,51,26,Campbelltown
 2012,Round 23,2012-08-10,south-sydney-rabbitohs,manly-warringah-sea-eagles,6,23,Bluetongue
 2012,Round 23,2012-08-10,melbourne-storm,gold-coast-titans,24,16,AAMI
@@ -772,8 +772,8 @@ season,round,date,home_team,away_team,home_score,away_score,venue
 2012,Round 23,2012-08-13,newcastle-knights,cronulla-sutherland-sharks,26,4,Hunter
 2012,Round 24,2012-08-17,brisbane-broncos,melbourne-storm,18,19,Suncorp
 2012,Round 24,2012-08-17,canterbury-bankstown-bulldogs,wests-tigers,23,22,ANZ
-2012,Round 24,2012-08-18,canberra-raiders,sydney-roosters,24,20,Canberra Stadium
 2012,Round 24,2012-08-18,cronulla-sutherland-sharks,south-sydney-rabbitohs,20,7,Toyota
+2012,Round 24,2012-08-18,canberra-raiders,sydney-roosters,24,20,Canberra Stadium
 2012,Round 24,2012-08-19,warriors,penrith-panthers,16,18,Mt Smart
 2012,Round 24,2012-08-19,manly-warringah-sea-eagles,newcastle-knights,42,20,Brookvale
 2012,Round 24,2012-08-19,gold-coast-titans,parramatta-eels,24,16,Skilled Park
@@ -786,8 +786,8 @@ season,round,date,home_team,away_team,home_score,away_score,venue
 2012,Round 25,2012-08-26,south-sydney-rabbitohs,parramatta-eels,38,6,ANZ
 2012,Round 25,2012-08-26,sydney-roosters,wests-tigers,44,20,Allianz
 2012,Round 25,2012-08-27,melbourne-storm,cronulla-sutherland-sharks,20,18,AAMI
-2012,Round 26,2012-08-31,newcastle-knights,south-sydney-rabbitohs,6,18,Hunter
 2012,Round 26,2012-08-31,brisbane-broncos,penrith-panthers,19,12,Suncorp
+2012,Round 26,2012-08-31,newcastle-knights,south-sydney-rabbitohs,6,18,Hunter
 2012,Round 26,2012-09-01,wests-tigers,melbourne-storm,6,26,Leichhardt
 2012,Round 26,2012-09-01,gold-coast-titans,manly-warringah-sea-eagles,16,24,Skilled Park
 2012,Round 26,2012-09-01,canterbury-bankstown-bulldogs,sydney-roosters,42,10,ANZ
@@ -815,9 +815,9 @@ season,round,date,home_team,away_team,home_score,away_score,venue
 2013,Round 2,2013-03-15,st-george-illawarra-dragons,brisbane-broncos,6,22,WIN
 2013,Round 2,2013-03-16,north-queensland-cowboys,melbourne-storm,10,32,1300SMILES
 2013,Round 2,2013-03-16,warriors,sydney-roosters,14,16,Eden Park
+2013,Round 2,2013-03-17,manly-warringah-sea-eagles,newcastle-knights,32,0,Brookvale
 2013,Round 2,2013-03-17,gold-coast-titans,canberra-raiders,36,0,Skilled Park
 2013,Round 2,2013-03-17,wests-tigers,penrith-panthers,28,18,Campbelltown
-2013,Round 2,2013-03-17,manly-warringah-sea-eagles,newcastle-knights,32,0,Brookvale
 2013,Round 2,2013-03-18,south-sydney-rabbitohs,cronulla-sutherland-sharks,14,12,ANZ
 2013,Round 3,2013-03-21,melbourne-storm,canterbury-bankstown-bulldogs,22,18,AAMI
 2013,Round 3,2013-03-22,wests-tigers,parramatta-eels,31,18,Leichhardt
@@ -828,8 +828,8 @@ season,round,date,home_team,away_team,home_score,away_score,venue
 2013,Round 3,2013-03-24,cronulla-sutherland-sharks,warriors,28,4,Shark Stadium
 2013,Round 3,2013-03-25,newcastle-knights,north-queensland-cowboys,34,6,Hunter
 2013,Round 4,2013-03-28,manly-warringah-sea-eagles,wests-tigers,26,0,Bluetongue
-2013,Round 4,2013-03-29,brisbane-broncos,melbourne-storm,26,32,Suncorp
 2013,Round 4,2013-03-29,canterbury-bankstown-bulldogs,south-sydney-rabbitohs,12,17,ANZ
+2013,Round 4,2013-03-29,brisbane-broncos,melbourne-storm,26,32,Suncorp
 2013,Round 4,2013-03-30,cronulla-sutherland-sharks,st-george-illawarra-dragons,12,25,Shark Stadium
 2013,Round 4,2013-03-31,newcastle-knights,canberra-raiders,28,12,Hunter
 2013,Round 4,2013-03-31,penrith-panthers,gold-coast-titans,10,28,Centrebet
@@ -843,8 +843,8 @@ season,round,date,home_team,away_team,home_score,away_score,venue
 2013,Round 5,2013-04-07,st-george-illawarra-dragons,newcastle-knights,19,16,WIN Jubilee
 2013,Round 5,2013-04-07,warriors,south-sydney-rabbitohs,22,24,Mt Smart
 2013,Round 5,2013-04-08,melbourne-storm,wests-tigers,26,12,AAMI
-2013,Round 6,2013-04-12,sydney-roosters,canterbury-bankstown-bulldogs,38,0,Allianz
 2013,Round 6,2013-04-12,brisbane-broncos,north-queensland-cowboys,12,10,Suncorp
+2013,Round 6,2013-04-12,sydney-roosters,canterbury-bankstown-bulldogs,38,0,Allianz
 2013,Round 6,2013-04-13,newcastle-knights,penrith-panthers,8,6,Hunter
 2013,Round 6,2013-04-13,canberra-raiders,warriors,20,16,Canberra Stadium
 2013,Round 6,2013-04-13,south-sydney-rabbitohs,melbourne-storm,10,17,ANZ
@@ -871,9 +871,9 @@ season,round,date,home_team,away_team,home_score,away_score,venue
 2013,Round 9,2013-05-10,south-sydney-rabbitohs,north-queensland-cowboys,28,10,ANZ
 2013,Round 9,2013-05-11,warriors,canterbury-bankstown-bulldogs,16,24,Westpac
 2013,Round 9,2013-05-11,parramatta-eels,brisbane-broncos,19,18,Parramatta
+2013,Round 9,2013-05-12,penrith-panthers,melbourne-storm,12,10,Centrebet
 2013,Round 9,2013-05-12,canberra-raiders,newcastle-knights,44,14,Canberra Stadium
 2013,Round 9,2013-05-12,gold-coast-titans,st-george-illawarra-dragons,15,14,Skilled Park
-2013,Round 9,2013-05-12,penrith-panthers,melbourne-storm,12,10,Centrebet
 2013,Round 9,2013-05-13,manly-warringah-sea-eagles,sydney-roosters,4,16,Brookvale
 2013,Round 10,2013-05-17,south-sydney-rabbitohs,wests-tigers,54,10,ANZ
 2013,Round 10,2013-05-17,brisbane-broncos,gold-coast-titans,32,6,Suncorp
@@ -883,11 +883,11 @@ season,round,date,home_team,away_team,home_score,away_score,venue
 2013,Round 10,2013-05-19,cronulla-sutherland-sharks,canberra-raiders,30,20,Shark Stadium
 2013,Round 10,2013-05-19,newcastle-knights,canterbury-bankstown-bulldogs,44,8,Hunter
 2013,Round 10,2013-05-20,melbourne-storm,manly-warringah-sea-eagles,10,10,AAMI
-2013,Round 11,2013-05-24,canterbury-bankstown-bulldogs,brisbane-broncos,24,14,ANZ
 2013,Round 11,2013-05-24,wests-tigers,north-queensland-cowboys,22,20,Leichhardt
+2013,Round 11,2013-05-24,canterbury-bankstown-bulldogs,brisbane-broncos,24,14,ANZ
+2013,Round 11,2013-05-25,manly-warringah-sea-eagles,canberra-raiders,16,10,Brookvale
 2013,Round 11,2013-05-25,st-george-illawarra-dragons,penrith-panthers,0,19,WIN Jubilee
 2013,Round 11,2013-05-25,sydney-roosters,melbourne-storm,18,26,Allianz
-2013,Round 11,2013-05-25,manly-warringah-sea-eagles,canberra-raiders,16,10,Brookvale
 2013,Round 11,2013-05-26,warriors,newcastle-knights,28,12,Mt Smart
 2013,Round 11,2013-05-26,parramatta-eels,gold-coast-titans,4,42,Glen Willow
 2013,Round 11,2013-05-27,cronulla-sutherland-sharks,south-sydney-rabbitohs,14,12,Shark Stadium
@@ -896,11 +896,11 @@ season,round,date,home_team,away_team,home_score,away_score,venue
 2013,Round 12,2013-06-02,gold-coast-titans,north-queensland-cowboys,31,12,Skilled Park
 2013,Round 12,2013-06-03,brisbane-broncos,warriors,18,56,Suncorp
 2013,Round 13,2013-06-07,parramatta-eels,sydney-roosters,24,38,Parramatta
-2013,Round 13,2013-06-08,newcastle-knights,st-george-illawarra-dragons,8,14,Hunter
 2013,Round 13,2013-06-08,north-queensland-cowboys,canterbury-bankstown-bulldogs,26,36,1300SMILES
-2013,Round 13,2013-06-09,melbourne-storm,cronulla-sutherland-sharks,38,6,AAMI
+2013,Round 13,2013-06-08,newcastle-knights,st-george-illawarra-dragons,8,14,Hunter
 2013,Round 13,2013-06-09,warriors,manly-warringah-sea-eagles,18,16,Mt Smart
 2013,Round 13,2013-06-09,penrith-panthers,wests-tigers,18,20,Centrebet
+2013,Round 13,2013-06-09,melbourne-storm,cronulla-sutherland-sharks,38,6,AAMI
 2013,Round 13,2013-06-10,canberra-raiders,brisbane-broncos,30,18,Canberra Stadium
 2013,Round 14,2013-06-14,manly-warringah-sea-eagles,canterbury-bankstown-bulldogs,30,32,Brookvale
 2013,Round 14,2013-06-14,st-george-illawarra-dragons,north-queensland-cowboys,16,22,WIN
@@ -925,9 +925,9 @@ season,round,date,home_team,away_team,home_score,away_score,venue
 2013,Round 17,2013-07-05,cronulla-sutherland-sharks,wests-tigers,36,22,Remondis Stadium
 2013,Round 17,2013-07-06,gold-coast-titans,penrith-panthers,18,40,TIO
 2013,Round 17,2013-07-06,st-george-illawarra-dragons,sydney-roosters,0,36,WIN Jubilee
-2013,Round 17,2013-07-07,canterbury-bankstown-bulldogs,newcastle-knights,12,18,Virgin Aust.
 2013,Round 17,2013-07-07,south-sydney-rabbitohs,warriors,30,13,nib Stadium
 2013,Round 17,2013-07-07,canberra-raiders,north-queensland-cowboys,26,18,Canberra Stadium
+2013,Round 17,2013-07-07,canterbury-bankstown-bulldogs,newcastle-knights,12,18,Virgin Aust.
 2013,Round 17,2013-07-08,manly-warringah-sea-eagles,parramatta-eels,50,10,Brookvale
 2013,Round 18,2013-07-12,brisbane-broncos,cronulla-sutherland-sharks,18,19,Suncorp
 2013,Round 18,2013-07-13,parramatta-eels,penrith-panthers,10,17,Parramatta
@@ -939,8 +939,8 @@ season,round,date,home_team,away_team,home_score,away_score,venue
 2013,Round 19,2013-07-21,manly-warringah-sea-eagles,gold-coast-titans,38,20,Brookvale
 2013,Round 19,2013-07-21,penrith-panthers,newcastle-knights,14,32,Centrebet
 2013,Round 19,2013-07-22,south-sydney-rabbitohs,st-george-illawarra-dragons,18,22,ANZ
-2013,Round 20,2013-07-26,north-queensland-cowboys,brisbane-broncos,16,18,1300SMILES
 2013,Round 20,2013-07-26,canterbury-bankstown-bulldogs,parramatta-eels,40,12,ANZ
+2013,Round 20,2013-07-26,north-queensland-cowboys,brisbane-broncos,16,18,1300SMILES
 2013,Round 20,2013-07-27,gold-coast-titans,south-sydney-rabbitohs,4,32,Skilled Park
 2013,Round 20,2013-07-27,st-george-illawarra-dragons,canberra-raiders,18,22,WIN
 2013,Round 20,2013-07-28,cronulla-sutherland-sharks,penrith-panthers,38,10,Remondis Stadium
@@ -952,11 +952,11 @@ season,round,date,home_team,away_team,home_score,away_score,venue
 2013,Round 21,2013-08-03,warriors,cronulla-sutherland-sharks,14,18,Mt Smart
 2013,Round 21,2013-08-03,parramatta-eels,manly-warringah-sea-eagles,6,40,Parramatta
 2013,Round 21,2013-08-03,north-queensland-cowboys,south-sydney-rabbitohs,30,12,1300SMILES
-2013,Round 21,2013-08-04,canberra-raiders,melbourne-storm,4,68,Canberra Stadium
 2013,Round 21,2013-08-04,gold-coast-titans,wests-tigers,36,6,Skilled Park
+2013,Round 21,2013-08-04,canberra-raiders,melbourne-storm,4,68,Canberra Stadium
 2013,Round 21,2013-08-05,st-george-illawarra-dragons,canterbury-bankstown-bulldogs,20,39,WIN Jubilee
-2013,Round 22,2013-08-09,melbourne-storm,south-sydney-rabbitohs,26,8,AAMI
 2013,Round 22,2013-08-09,parramatta-eels,wests-tigers,26,22,Parramatta
+2013,Round 22,2013-08-09,melbourne-storm,south-sydney-rabbitohs,26,8,AAMI
 2013,Round 22,2013-08-10,cronulla-sutherland-sharks,newcastle-knights,14,18,Remondis Stadium
 2013,Round 22,2013-08-10,sydney-roosters,canberra-raiders,28,22,Allianz
 2013,Round 22,2013-08-11,brisbane-broncos,st-george-illawarra-dragons,26,24,Suncorp
@@ -984,8 +984,8 @@ season,round,date,home_team,away_team,home_score,away_score,venue
 2013,Round 25,2013-08-31,warriors,canberra-raiders,50,16,Mt Smart
 2013,Round 25,2013-08-31,manly-warringah-sea-eagles,melbourne-storm,28,8,Brookvale
 2013,Round 25,2013-08-31,canterbury-bankstown-bulldogs,penrith-panthers,34,14,ANZ
-2013,Round 25,2013-09-01,sydney-roosters,gold-coast-titans,22,30,Allianz
 2013,Round 25,2013-09-01,cronulla-sutherland-sharks,north-queensland-cowboys,18,31,Remondis Stadium
+2013,Round 25,2013-09-01,sydney-roosters,gold-coast-titans,22,30,Allianz
 2013,Round 25,2013-09-02,parramatta-eels,st-george-illawarra-dragons,26,22,Parramatta
 2013,Round 26,2013-09-05,brisbane-broncos,canterbury-bankstown-bulldogs,16,11,Suncorp
 2013,Round 26,2013-09-06,south-sydney-rabbitohs,sydney-roosters,12,24,ANZ
@@ -1012,8 +1012,8 @@ season,round,date,home_team,away_team,home_score,away_score,venue
 2014,Round 1,2014-03-09,parramatta-eels,warriors,36,16,Pirtek Stadium
 2014,Round 1,2014-03-09,st-george-illawarra-dragons,wests-tigers,44,24,ANZ
 2014,Round 1,2014-03-10,cronulla-sutherland-sharks,gold-coast-titans,12,18,Remondis Stadium
-2014,Round 2,2014-03-14,manly-warringah-sea-eagles,south-sydney-rabbitohs,14,12,Central Coast
 2014,Round 2,2014-03-14,brisbane-broncos,north-queensland-cowboys,16,12,Suncorp
+2014,Round 2,2014-03-14,manly-warringah-sea-eagles,south-sydney-rabbitohs,14,12,Central Coast
 2014,Round 2,2014-03-15,sydney-roosters,parramatta-eels,56,4,Allianz
 2014,Round 2,2014-03-15,warriors,st-george-illawarra-dragons,12,31,Eden Park
 2014,Round 2,2014-03-15,melbourne-storm,penrith-panthers,18,17,AAMI
@@ -1025,8 +1025,8 @@ season,round,date,home_team,away_team,home_score,away_score,venue
 2014,Round 3,2014-03-22,north-queensland-cowboys,warriors,16,20,1300SMILES
 2014,Round 3,2014-03-22,penrith-panthers,canterbury-bankstown-bulldogs,18,16,Sportingbet
 2014,Round 3,2014-03-22,cronulla-sutherland-sharks,st-george-illawarra-dragons,12,14,Remondis Stadium
-2014,Round 3,2014-03-23,manly-warringah-sea-eagles,parramatta-eels,22,18,Brookvale
 2014,Round 3,2014-03-23,canberra-raiders,gold-coast-titans,12,24,GIO
+2014,Round 3,2014-03-23,manly-warringah-sea-eagles,parramatta-eels,22,18,Brookvale
 2014,Round 3,2014-03-24,melbourne-storm,newcastle-knights,28,20,AAMI
 2014,Round 4,2014-03-28,st-george-illawarra-dragons,brisbane-broncos,20,36,WIN
 2014,Round 4,2014-03-28,sydney-roosters,manly-warringah-sea-eagles,0,8,Allianz
@@ -1036,11 +1036,11 @@ season,round,date,home_team,away_team,home_score,away_score,venue
 2014,Round 4,2014-03-30,newcastle-knights,cronulla-sutherland-sharks,30,0,Hunter
 2014,Round 4,2014-03-30,south-sydney-rabbitohs,canberra-raiders,18,30,ANZ
 2014,Round 4,2014-03-31,gold-coast-titans,north-queensland-cowboys,13,12,Cbus Super
-2014,Round 5,2014-04-04,brisbane-broncos,parramatta-eels,18,25,Suncorp
 2014,Round 5,2014-04-04,sydney-roosters,canterbury-bankstown-bulldogs,8,9,Allianz
-2014,Round 5,2014-04-05,penrith-panthers,canberra-raiders,12,6,Sportingbet
+2014,Round 5,2014-04-04,brisbane-broncos,parramatta-eels,18,25,Suncorp
 2014,Round 5,2014-04-05,st-george-illawarra-dragons,south-sydney-rabbitohs,6,26,SCG
 2014,Round 5,2014-04-05,cronulla-sutherland-sharks,warriors,37,6,Remondis Stadium
+2014,Round 5,2014-04-05,penrith-panthers,canberra-raiders,12,6,Sportingbet
 2014,Round 5,2014-04-06,wests-tigers,manly-warringah-sea-eagles,34,18,Leichhardt
 2014,Round 5,2014-04-06,melbourne-storm,gold-coast-titans,26,28,AAMI
 2014,Round 5,2014-04-07,north-queensland-cowboys,newcastle-knights,28,2,1300SMILES
@@ -1052,9 +1052,9 @@ season,round,date,home_team,away_team,home_score,away_score,venue
 2014,Round 6,2014-04-13,manly-warringah-sea-eagles,cronulla-sutherland-sharks,24,4,Brookvale
 2014,Round 6,2014-04-13,warriors,canterbury-bankstown-bulldogs,20,21,Eden Park
 2014,Round 6,2014-04-14,melbourne-storm,st-george-illawarra-dragons,28,24,AAMI
-2014,Round 7,2014-04-18,south-sydney-rabbitohs,canterbury-bankstown-bulldogs,14,15,ANZ
 2014,Round 7,2014-04-18,manly-warringah-sea-eagles,north-queensland-cowboys,26,21,Central Coast
 2014,Round 7,2014-04-18,newcastle-knights,brisbane-broncos,6,32,Hunter
+2014,Round 7,2014-04-18,south-sydney-rabbitohs,canterbury-bankstown-bulldogs,14,15,ANZ
 2014,Round 7,2014-04-19,st-george-illawarra-dragons,warriors,20,10,WIN Jubilee
 2014,Round 7,2014-04-19,cronulla-sutherland-sharks,sydney-roosters,18,24,Remondis Stadium
 2014,Round 7,2014-04-20,canberra-raiders,melbourne-storm,24,22,GIO
@@ -1068,8 +1068,8 @@ season,round,date,home_team,away_team,home_score,away_score,venue
 2014,Round 8,2014-04-26,north-queensland-cowboys,parramatta-eels,42,14,1300SMILES
 2014,Round 8,2014-04-27,manly-warringah-sea-eagles,canberra-raiders,54,18,Brookvale
 2014,Round 8,2014-04-27,wests-tigers,gold-coast-titans,6,22,Leichhardt
-2014,Round 9,2014-05-09,north-queensland-cowboys,brisbane-broncos,27,14,1300SMILES
 2014,Round 9,2014-05-09,sydney-roosters,wests-tigers,30,6,Allianz
+2014,Round 9,2014-05-09,north-queensland-cowboys,brisbane-broncos,27,14,1300SMILES
 2014,Round 9,2014-05-10,gold-coast-titans,south-sydney-rabbitohs,18,40,Cbus Super
 2014,Round 9,2014-05-10,warriors,canberra-raiders,54,12,Eden Park
 2014,Round 9,2014-05-10,melbourne-storm,manly-warringah-sea-eagles,22,19,AAMI
@@ -1081,8 +1081,8 @@ season,round,date,home_team,away_team,home_score,away_score,venue
 2014,Round 10,2014-05-17,cronulla-sutherland-sharks,wests-tigers,20,22,Remondis Stadium
 2014,Round 10,2014-05-17,parramatta-eels,st-george-illawarra-dragons,36,0,Pirtek Stadium
 2014,Round 10,2014-05-17,north-queensland-cowboys,sydney-roosters,42,10,1300SMILES
-2014,Round 10,2014-05-18,canterbury-bankstown-bulldogs,warriors,16,12,FMG
 2014,Round 10,2014-05-18,canberra-raiders,penrith-panthers,20,26,GIO
+2014,Round 10,2014-05-18,canterbury-bankstown-bulldogs,warriors,16,12,FMG
 2014,Round 10,2014-05-19,manly-warringah-sea-eagles,newcastle-knights,15,14,Brookvale
 2014,Round 11,2014-05-23,canterbury-bankstown-bulldogs,sydney-roosters,12,32,ANZ
 2014,Round 11,2014-05-24,gold-coast-titans,warriors,16,24,Cbus Super
@@ -1095,8 +1095,8 @@ season,round,date,home_team,away_team,home_score,away_score,venue
 2014,Round 12,2014-06-01,brisbane-broncos,manly-warringah-sea-eagles,36,10,Suncorp
 2014,Round 12,2014-06-01,warriors,newcastle-knights,38,18,Mt Smart
 2014,Round 12,2014-06-02,south-sydney-rabbitohs,st-george-illawarra-dragons,29,10,ANZ
-2014,Round 13,2014-06-06,parramatta-eels,north-queensland-cowboys,18,16,Pirtek Stadium
 2014,Round 13,2014-06-06,manly-warringah-sea-eagles,canterbury-bankstown-bulldogs,32,10,Brookvale
+2014,Round 13,2014-06-06,parramatta-eels,north-queensland-cowboys,18,16,Pirtek Stadium
 2014,Round 13,2014-06-07,st-george-illawarra-dragons,cronulla-sutherland-sharks,30,0,WIN
 2014,Round 13,2014-06-07,south-sydney-rabbitohs,warriors,34,18,nib Stadium
 2014,Round 13,2014-06-07,gold-coast-titans,penrith-panthers,14,36,Cbus Super
@@ -1109,8 +1109,8 @@ season,round,date,home_team,away_team,home_score,away_score,venue
 2014,Round 14,2014-06-15,canterbury-bankstown-bulldogs,parramatta-eels,12,22,ANZ
 2014,Round 14,2014-06-16,gold-coast-titans,melbourne-storm,20,24,Cbus Super
 2014,Round 15,2014-06-20,canberra-raiders,canterbury-bankstown-bulldogs,14,22,GIO
-2014,Round 15,2014-06-21,cronulla-sutherland-sharks,manly-warringah-sea-eagles,0,26,Remondis Stadium
 2014,Round 15,2014-06-21,warriors,brisbane-broncos,19,10,Mt Smart
+2014,Round 15,2014-06-21,cronulla-sutherland-sharks,manly-warringah-sea-eagles,0,26,Remondis Stadium
 2014,Round 15,2014-06-22,gold-coast-titans,st-george-illawarra-dragons,18,19,Cbus Super
 2014,Round 15,2014-06-22,melbourne-storm,parramatta-eels,46,20,AAMI
 2014,Round 15,2014-06-23,newcastle-knights,north-queensland-cowboys,36,28,Hunter
@@ -1122,8 +1122,8 @@ season,round,date,home_team,away_team,home_score,away_score,venue
 2014,Round 16,2014-06-29,warriors,penrith-panthers,30,20,Mt Smart
 2014,Round 16,2014-06-30,st-george-illawarra-dragons,melbourne-storm,24,12,WIN
 2014,Round 17,2014-07-04,canterbury-bankstown-bulldogs,manly-warringah-sea-eagles,23,16,ANZ
-2014,Round 17,2014-07-05,st-george-illawarra-dragons,north-queensland-cowboys,27,24,WIN Jubilee
 2014,Round 17,2014-07-05,sydney-roosters,cronulla-sutherland-sharks,28,30,Allianz
+2014,Round 17,2014-07-05,st-george-illawarra-dragons,north-queensland-cowboys,27,24,WIN Jubilee
 2014,Round 17,2014-07-06,wests-tigers,penrith-panthers,10,26,Leichhardt
 2014,Round 17,2014-07-07,south-sydney-rabbitohs,gold-coast-titans,10,14,ANZ
 2014,Round 18,2014-07-11,manly-warringah-sea-eagles,wests-tigers,40,8,Brookvale
@@ -1153,8 +1153,8 @@ season,round,date,home_team,away_team,home_score,away_score,venue
 2014,Round 21,2014-08-02,cronulla-sutherland-sharks,parramatta-eels,12,32,Remondis Stadium
 2014,Round 21,2014-08-02,north-queensland-cowboys,gold-coast-titans,28,8,1300SMILES
 2014,Round 21,2014-08-02,sydney-roosters,st-george-illawarra-dragons,30,22,Allianz
-2014,Round 21,2014-08-03,south-sydney-rabbitohs,newcastle-knights,50,10,Barlow
 2014,Round 21,2014-08-03,canberra-raiders,warriors,18,54,GIO
+2014,Round 21,2014-08-03,south-sydney-rabbitohs,newcastle-knights,50,10,Barlow
 2014,Round 21,2014-08-04,wests-tigers,melbourne-storm,6,28,Campbelltown
 2014,Round 22,2014-08-08,south-sydney-rabbitohs,manly-warringah-sea-eagles,23,4,SCG
 2014,Round 22,2014-08-08,brisbane-broncos,canterbury-bankstown-bulldogs,41,10,Suncorp
@@ -1166,9 +1166,9 @@ season,round,date,home_team,away_team,home_score,away_score,venue
 2014,Round 22,2014-08-11,sydney-roosters,gold-coast-titans,26,18,Allianz
 2014,Round 23,2014-08-14,south-sydney-rabbitohs,brisbane-broncos,42,16,ANZ
 2014,Round 23,2014-08-15,parramatta-eels,canterbury-bankstown-bulldogs,16,18,ANZ
-2014,Round 23,2014-08-16,canberra-raiders,st-george-illawarra-dragons,16,34,GIO
-2014,Round 23,2014-08-16,melbourne-storm,cronulla-sutherland-sharks,48,6,AAMI
 2014,Round 23,2014-08-16,wests-tigers,sydney-roosters,4,48,Leichhardt
+2014,Round 23,2014-08-16,melbourne-storm,cronulla-sutherland-sharks,48,6,AAMI
+2014,Round 23,2014-08-16,canberra-raiders,st-george-illawarra-dragons,16,34,GIO
 2014,Round 23,2014-08-17,gold-coast-titans,manly-warringah-sea-eagles,12,15,Cbus Super
 2014,Round 23,2014-08-17,newcastle-knights,warriors,28,22,Hunter
 2014,Round 23,2014-08-18,penrith-panthers,north-queensland-cowboys,23,22,Sportingbet
@@ -1193,9 +1193,9 @@ season,round,date,home_team,away_team,home_score,away_score,venue
 2014,Round 26,2014-09-06,wests-tigers,cronulla-sutherland-sharks,26,10,Leichhardt
 2014,Round 26,2014-09-06,canberra-raiders,parramatta-eels,33,20,GIO
 2014,Round 26,2014-09-06,north-queensland-cowboys,manly-warringah-sea-eagles,30,16,1300SMILES
-2014,Round 26,2014-09-07,newcastle-knights,st-george-illawarra-dragons,40,10,Hunter
-2014,Round 26,2014-09-07,gold-coast-titans,canterbury-bankstown-bulldogs,19,18,Cbus Super
 2014,Round 26,2014-09-07,penrith-panthers,warriors,22,6,Sportingbet
+2014,Round 26,2014-09-07,gold-coast-titans,canterbury-bankstown-bulldogs,19,18,Cbus Super
+2014,Round 26,2014-09-07,newcastle-knights,st-george-illawarra-dragons,40,10,Hunter
 2014,Round 26,2014-09-12,manly-warringah-sea-eagles,south-sydney-rabbitohs,24,40,Allianz
 2014,Round 26,2014-09-13,north-queensland-cowboys,brisbane-broncos,32,20,1300SMILES
 2014,Round 26,2014-09-13,sydney-roosters,penrith-panthers,18,19,Allianz
@@ -1207,9 +1207,9 @@ season,round,date,home_team,away_team,home_score,away_score,venue
 2014,Round 26,2014-10-05,south-sydney-rabbitohs,canterbury-bankstown-bulldogs,30,6,ANZ
 2015,Round 1,2015-03-05,brisbane-broncos,south-sydney-rabbitohs,6,36,Suncorp
 2015,Round 1,2015-03-06,parramatta-eels,manly-warringah-sea-eagles,42,12,Pirtek Stadium
-2015,Round 1,2015-03-07,gold-coast-titans,wests-tigers,18,19,Cbus Super
 2015,Round 1,2015-03-07,north-queensland-cowboys,sydney-roosters,4,28,1300SMILES
 2015,Round 1,2015-03-07,newcastle-knights,warriors,24,14,Hunter
+2015,Round 1,2015-03-07,gold-coast-titans,wests-tigers,18,19,Cbus Super
 2015,Round 1,2015-03-08,penrith-panthers,canterbury-bankstown-bulldogs,24,18,Pepper Stadium
 2015,Round 1,2015-03-08,cronulla-sutherland-sharks,canberra-raiders,20,24,Remondis Stadium
 2015,Round 1,2015-03-09,st-george-illawarra-dragons,melbourne-storm,4,12,WIN Jubilee
@@ -1221,8 +1221,8 @@ season,round,date,home_team,away_team,home_score,away_score,venue
 2015,Round 2,2015-03-15,canberra-raiders,warriors,6,18,GIO
 2015,Round 2,2015-03-15,south-sydney-rabbitohs,sydney-roosters,34,26,ANZ
 2015,Round 2,2015-03-16,wests-tigers,st-george-illawarra-dragons,22,4,Campbelltown
-2015,Round 3,2015-03-20,manly-warringah-sea-eagles,canterbury-bankstown-bulldogs,12,16,Brookvale
 2015,Round 3,2015-03-20,brisbane-broncos,north-queensland-cowboys,44,22,Suncorp
+2015,Round 3,2015-03-20,manly-warringah-sea-eagles,canterbury-bankstown-bulldogs,12,16,Brookvale
 2015,Round 3,2015-03-21,warriors,parramatta-eels,29,16,Mt Smart
 2015,Round 3,2015-03-21,melbourne-storm,cronulla-sutherland-sharks,36,18,AAMI
 2015,Round 3,2015-03-21,canberra-raiders,st-george-illawarra-dragons,20,22,GIO
@@ -1234,11 +1234,11 @@ season,round,date,home_team,away_team,home_score,away_score,venue
 2015,Round 4,2015-03-28,newcastle-knights,penrith-panthers,26,14,Hunter
 2015,Round 4,2015-03-28,cronulla-sutherland-sharks,gold-coast-titans,22,24,Remondis Stadium
 2015,Round 4,2015-03-28,st-george-illawarra-dragons,manly-warringah-sea-eagles,12,4,WIN
-2015,Round 4,2015-03-29,sydney-roosters,canberra-raiders,34,6,Allianz
 2015,Round 4,2015-03-29,warriors,brisbane-broncos,16,24,Mt Smart
+2015,Round 4,2015-03-29,sydney-roosters,canberra-raiders,34,6,Allianz
 2015,Round 4,2015-03-30,north-queensland-cowboys,melbourne-storm,18,17,1300SMILES
-2015,Round 5,2015-04-03,canterbury-bankstown-bulldogs,south-sydney-rabbitohs,17,18,ANZ
 2015,Round 5,2015-04-03,gold-coast-titans,brisbane-broncos,16,26,Cbus Super
+2015,Round 5,2015-04-03,canterbury-bankstown-bulldogs,south-sydney-rabbitohs,17,18,ANZ
 2015,Round 5,2015-04-04,manly-warringah-sea-eagles,canberra-raiders,16,29,Lavington
 2015,Round 5,2015-04-04,newcastle-knights,st-george-illawarra-dragons,0,13,Hunter
 2015,Round 5,2015-04-05,sydney-roosters,cronulla-sutherland-sharks,12,20,Allianz
@@ -1250,8 +1250,8 @@ season,round,date,home_team,away_team,home_score,away_score,venue
 2015,Round 6,2015-04-11,warriors,wests-tigers,32,22,Mt Smart
 2015,Round 6,2015-04-11,penrith-panthers,manly-warringah-sea-eagles,22,12,Pepper Stadium
 2015,Round 6,2015-04-11,parramatta-eels,gold-coast-titans,16,38,Pirtek Stadium
-2015,Round 6,2015-04-12,st-george-illawarra-dragons,canterbury-bankstown-bulldogs,31,6,ANZ
 2015,Round 6,2015-04-12,canberra-raiders,melbourne-storm,10,14,GIO
+2015,Round 6,2015-04-12,st-george-illawarra-dragons,canterbury-bankstown-bulldogs,31,6,ANZ
 2015,Round 6,2015-04-13,south-sydney-rabbitohs,north-queensland-cowboys,12,30,ANZ
 2015,Round 7,2015-04-17,st-george-illawarra-dragons,brisbane-broncos,12,10,WIN Jubilee
 2015,Round 7,2015-04-17,canterbury-bankstown-bulldogs,manly-warringah-sea-eagles,28,16,ANZ
@@ -1262,11 +1262,11 @@ season,round,date,home_team,away_team,home_score,away_score,venue
 2015,Round 7,2015-04-19,newcastle-knights,parramatta-eels,22,28,Hunter
 2015,Round 7,2015-04-20,cronulla-sutherland-sharks,south-sydney-rabbitohs,18,10,Remondis Stadium
 2015,Round 8,2015-04-24,canterbury-bankstown-bulldogs,wests-tigers,14,38,ANZ
-2015,Round 8,2015-04-25,brisbane-broncos,parramatta-eels,28,16,Suncorp
-2015,Round 8,2015-04-25,melbourne-storm,manly-warringah-sea-eagles,10,12,AAMI
+2015,Round 8,2015-04-25,warriors,gold-coast-titans,28,32,Mt Smart
 2015,Round 8,2015-04-25,newcastle-knights,north-queensland-cowboys,24,26,Hunter
 2015,Round 8,2015-04-25,sydney-roosters,st-george-illawarra-dragons,12,14,Allianz
-2015,Round 8,2015-04-25,warriors,gold-coast-titans,28,32,Mt Smart
+2015,Round 8,2015-04-25,brisbane-broncos,parramatta-eels,28,16,Suncorp
+2015,Round 8,2015-04-25,melbourne-storm,manly-warringah-sea-eagles,10,12,AAMI
 2015,Round 8,2015-04-26,penrith-panthers,cronulla-sutherland-sharks,26,18,Pepper Stadium
 2015,Round 8,2015-04-26,south-sydney-rabbitohs,canberra-raiders,22,30,Barlow
 2015,Round 9,2015-05-08,sydney-roosters,wests-tigers,36,4,Allianz
@@ -1279,9 +1279,9 @@ season,round,date,home_team,away_team,home_score,away_score,venue
 2015,Round 9,2015-05-11,south-sydney-rabbitohs,st-george-illawarra-dragons,16,10,ANZ
 2015,Round 10,2015-05-15,north-queensland-cowboys,brisbane-broncos,31,20,1300SMILES
 2015,Round 10,2015-05-15,canterbury-bankstown-bulldogs,sydney-roosters,10,24,ANZ
+2015,Round 10,2015-05-16,melbourne-storm,south-sydney-rabbitohs,16,12,AAMI
 2015,Round 10,2015-05-16,parramatta-eels,warriors,13,17,Pirtek Stadium
 2015,Round 10,2015-05-16,gold-coast-titans,cronulla-sutherland-sharks,22,23,Cbus Super
-2015,Round 10,2015-05-16,melbourne-storm,south-sydney-rabbitohs,16,12,AAMI
 2015,Round 10,2015-05-17,newcastle-knights,wests-tigers,22,12,Hunter
 2015,Round 10,2015-05-17,st-george-illawarra-dragons,canberra-raiders,32,18,WIN
 2015,Round 10,2015-05-18,manly-warringah-sea-eagles,penrith-panthers,10,11,Brookvale
@@ -1290,11 +1290,11 @@ season,round,date,home_team,away_team,home_score,away_score,venue
 2015,Round 11,2015-05-24,canberra-raiders,canterbury-bankstown-bulldogs,34,41,GIO
 2015,Round 11,2015-05-25,newcastle-knights,brisbane-broncos,18,31,Hunter
 2015,Round 12,2015-05-29,penrith-panthers,parramatta-eels,20,26,Pepper Stadium
-2015,Round 12,2015-05-30,canberra-raiders,brisbane-broncos,12,24,GIO
 2015,Round 12,2015-05-30,north-queensland-cowboys,manly-warringah-sea-eagles,18,14,1300SMILES
 2015,Round 12,2015-05-30,gold-coast-titans,south-sydney-rabbitohs,16,22,Cbus Super
-2015,Round 12,2015-05-31,warriors,newcastle-knights,24,20,Mt Smart
+2015,Round 12,2015-05-30,canberra-raiders,brisbane-broncos,12,24,GIO
 2015,Round 12,2015-05-31,st-george-illawarra-dragons,cronulla-sutherland-sharks,42,6,WIN Jubilee
+2015,Round 12,2015-05-31,warriors,newcastle-knights,24,20,Mt Smart
 2015,Round 12,2015-06-01,sydney-roosters,melbourne-storm,24,2,Allianz
 2015,Round 13,2015-06-05,wests-tigers,gold-coast-titans,20,27,Leichhardt
 2015,Round 13,2015-06-05,brisbane-broncos,manly-warringah-sea-eagles,44,10,Suncorp
@@ -1320,8 +1320,8 @@ season,round,date,home_team,away_team,home_score,away_score,venue
 2015,Round 16,2015-06-27,warriors,canberra-raiders,30,8,Mt Smart
 2015,Round 16,2015-06-27,north-queensland-cowboys,cronulla-sutherland-sharks,18,24,1300SMILES
 2015,Round 16,2015-06-27,parramatta-eels,st-george-illawarra-dragons,16,12,Pirtek Stadium
-2015,Round 16,2015-06-28,sydney-roosters,gold-coast-titans,20,10,Central Coast
 2015,Round 16,2015-06-28,wests-tigers,penrith-panthers,12,35,Leichhardt
+2015,Round 16,2015-06-28,sydney-roosters,gold-coast-titans,20,10,Central Coast
 2015,Round 16,2015-06-29,canterbury-bankstown-bulldogs,melbourne-storm,20,4,Belmore
 2015,Round 17,2015-07-03,penrith-panthers,south-sydney-rabbitohs,20,6,Pepper Stadium
 2015,Round 17,2015-07-04,st-george-illawarra-dragons,north-queensland-cowboys,12,18,WIN
@@ -1333,8 +1333,8 @@ season,round,date,home_team,away_team,home_score,away_score,venue
 2015,Round 18,2015-07-12,warriors,melbourne-storm,28,14,Mt Smart
 2015,Round 18,2015-07-12,cronulla-sutherland-sharks,st-george-illawarra-dragons,28,8,Remondis Stadium
 2015,Round 18,2015-07-13,gold-coast-titans,manly-warringah-sea-eagles,6,38,Cbus Super
-2015,Round 19,2015-07-17,parramatta-eels,canterbury-bankstown-bulldogs,4,28,ANZ
 2015,Round 19,2015-07-17,melbourne-storm,penrith-panthers,52,10,AAMI
+2015,Round 19,2015-07-17,parramatta-eels,canterbury-bankstown-bulldogs,4,28,ANZ
 2015,Round 19,2015-07-18,newcastle-knights,gold-coast-titans,30,2,Hunter
 2015,Round 19,2015-07-18,st-george-illawarra-dragons,south-sydney-rabbitohs,8,24,SCG
 2015,Round 19,2015-07-18,canberra-raiders,cronulla-sutherland-sharks,20,21,GIO
@@ -1346,14 +1346,14 @@ season,round,date,home_team,away_team,home_score,away_score,venue
 2015,Round 20,2015-07-25,south-sydney-rabbitohs,newcastle-knights,52,6,ANZ
 2015,Round 20,2015-07-25,warriors,manly-warringah-sea-eagles,12,32,Mt Smart
 2015,Round 20,2015-07-25,melbourne-storm,st-george-illawarra-dragons,22,4,McLean Park
-2015,Round 20,2015-07-26,canterbury-bankstown-bulldogs,cronulla-sutherland-sharks,16,18,Belmore
 2015,Round 20,2015-07-26,penrith-panthers,canberra-raiders,24,34,Pepper Stadium
+2015,Round 20,2015-07-26,canterbury-bankstown-bulldogs,cronulla-sutherland-sharks,16,18,Belmore
 2015,Round 20,2015-07-27,north-queensland-cowboys,parramatta-eels,46,4,1300SMILES
-2015,Round 21,2015-07-31,sydney-roosters,canterbury-bankstown-bulldogs,38,28,Allianz
 2015,Round 21,2015-07-31,wests-tigers,melbourne-storm,34,16,Leichhardt
+2015,Round 21,2015-07-31,sydney-roosters,canterbury-bankstown-bulldogs,38,28,Allianz
+2015,Round 21,2015-08-01,north-queensland-cowboys,canberra-raiders,32,24,1300SMILES
 2015,Round 21,2015-08-01,manly-warringah-sea-eagles,brisbane-broncos,44,14,Central Coast
 2015,Round 21,2015-08-01,warriors,cronulla-sutherland-sharks,14,18,Mt Smart
-2015,Round 21,2015-08-01,north-queensland-cowboys,canberra-raiders,32,24,1300SMILES
 2015,Round 21,2015-08-02,south-sydney-rabbitohs,penrith-panthers,20,16,ANZ
 2015,Round 21,2015-08-02,st-george-illawarra-dragons,newcastle-knights,46,24,WIN Jubilee
 2015,Round 21,2015-08-03,gold-coast-titans,parramatta-eels,24,14,Cbus Super
@@ -1394,9 +1394,9 @@ season,round,date,home_team,away_team,home_score,away_score,venue
 2015,Round 26,2015-09-05,north-queensland-cowboys,gold-coast-titans,42,12,1300SMILES
 2015,Round 26,2015-09-05,st-george-illawarra-dragons,wests-tigers,32,30,ANZ
 2015,Round 26,2015-09-05,penrith-panthers,newcastle-knights,30,12,Pepper Stadium
+2015,Round 26,2015-09-06,canterbury-bankstown-bulldogs,warriors,26,22,ANZ
 2015,Round 26,2015-09-06,cronulla-sutherland-sharks,manly-warringah-sea-eagles,12,14,Remondis Stadium
 2015,Round 26,2015-09-06,parramatta-eels,canberra-raiders,24,28,Pirtek Stadium
-2015,Round 26,2015-09-06,canterbury-bankstown-bulldogs,warriors,26,22,ANZ
 2015,Round 26,2015-09-11,sydney-roosters,melbourne-storm,18,20,Allianz
 2015,Round 26,2015-09-12,canterbury-bankstown-bulldogs,st-george-illawarra-dragons,11,10,ANZ
 2015,Round 26,2015-09-12,brisbane-broncos,north-queensland-cowboys,16,12,Suncorp
@@ -1408,9 +1408,9 @@ season,round,date,home_team,away_team,home_score,away_score,venue
 2015,Round 26,2015-10-04,brisbane-broncos,north-queensland-cowboys,16,17,ANZ
 2016,Round 1,2016-03-03,parramatta-eels,brisbane-broncos,4,17,Pirtek Stadium
 2016,Round 1,2016-03-04,manly-warringah-sea-eagles,canterbury-bankstown-bulldogs,6,28,Brookvale
+2016,Round 1,2016-03-05,north-queensland-cowboys,cronulla-sutherland-sharks,20,14,1300SMILES
 2016,Round 1,2016-03-05,canberra-raiders,penrith-panthers,30,22,GIO
 2016,Round 1,2016-03-05,wests-tigers,warriors,34,26,Campbelltown
-2016,Round 1,2016-03-05,north-queensland-cowboys,cronulla-sutherland-sharks,20,14,1300SMILES
 2016,Round 1,2016-03-06,gold-coast-titans,newcastle-knights,30,12,Cbus Super
 2016,Round 1,2016-03-06,sydney-roosters,south-sydney-rabbitohs,10,42,Allianz
 2016,Round 1,2016-03-07,melbourne-storm,st-george-illawarra-dragons,18,16,AAMI
@@ -1435,9 +1435,9 @@ season,round,date,home_team,away_team,home_score,away_score,venue
 2016,Round 4,2016-03-26,sydney-roosters,manly-warringah-sea-eagles,20,22,Allianz
 2016,Round 4,2016-03-26,canberra-raiders,gold-coast-titans,20,24,GIO
 2016,Round 4,2016-03-27,st-george-illawarra-dragons,penrith-panthers,14,12,WIN
-2016,Round 4,2016-03-28,warriors,newcastle-knights,40,18,Mt Smart
-2016,Round 4,2016-03-28,wests-tigers,parramatta-eels,0,8,ANZ
 2016,Round 4,2016-03-28,cronulla-sutherland-sharks,melbourne-storm,14,6,Southern Cross
+2016,Round 4,2016-03-28,wests-tigers,parramatta-eels,0,8,ANZ
+2016,Round 4,2016-03-28,warriors,newcastle-knights,40,18,Mt Smart
 2016,Round 5,2016-03-31,manly-warringah-sea-eagles,south-sydney-rabbitohs,12,16,Brookvale
 2016,Round 5,2016-04-01,gold-coast-titans,brisbane-broncos,16,24,Cbus Super
 2016,Round 5,2016-04-02,melbourne-storm,newcastle-knights,18,14,AAMI
@@ -1448,9 +1448,9 @@ season,round,date,home_team,away_team,home_score,away_score,venue
 2016,Round 5,2016-04-03,canterbury-bankstown-bulldogs,canberra-raiders,8,22,Belmore
 2016,Round 6,2016-04-07,brisbane-broncos,st-george-illawarra-dragons,26,0,Suncorp
 2016,Round 6,2016-04-08,south-sydney-rabbitohs,sydney-roosters,10,17,ANZ
-2016,Round 6,2016-04-09,penrith-panthers,north-queensland-cowboys,18,23,Pepper Stadium
-2016,Round 6,2016-04-09,parramatta-eels,canberra-raiders,36,6,Pirtek Stadium
 2016,Round 6,2016-04-09,warriors,manly-warringah-sea-eagles,18,34,Mt Smart
+2016,Round 6,2016-04-09,parramatta-eels,canberra-raiders,36,6,Pirtek Stadium
+2016,Round 6,2016-04-09,penrith-panthers,north-queensland-cowboys,18,23,Pepper Stadium
 2016,Round 6,2016-04-10,cronulla-sutherland-sharks,gold-coast-titans,25,20,Southern Cross
 2016,Round 6,2016-04-10,newcastle-knights,wests-tigers,18,16,Hunter
 2016,Round 6,2016-04-11,melbourne-storm,canterbury-bankstown-bulldogs,12,18,AAMI
@@ -1463,9 +1463,9 @@ season,round,date,home_team,away_team,home_score,away_score,venue
 2016,Round 7,2016-04-17,wests-tigers,melbourne-storm,18,19,Leichhardt
 2016,Round 7,2016-04-18,sydney-roosters,penrith-panthers,16,20,Allianz
 2016,Round 8,2016-04-22,brisbane-broncos,south-sydney-rabbitohs,30,8,Suncorp
-2016,Round 8,2016-04-23,canterbury-bankstown-bulldogs,gold-coast-titans,21,20,ANZ
-2016,Round 8,2016-04-23,canberra-raiders,wests-tigers,60,6,GIO
 2016,Round 8,2016-04-23,north-queensland-cowboys,parramatta-eels,32,16,1300SMILES
+2016,Round 8,2016-04-23,canberra-raiders,wests-tigers,60,6,GIO
+2016,Round 8,2016-04-23,canterbury-bankstown-bulldogs,gold-coast-titans,21,20,ANZ
 2016,Round 8,2016-04-24,cronulla-sutherland-sharks,penrith-panthers,20,18,Southern Cross
 2016,Round 8,2016-04-25,melbourne-storm,warriors,42,0,AAMI
 2016,Round 8,2016-04-25,newcastle-knights,manly-warringah-sea-eagles,10,26,Hunter
@@ -1491,8 +1491,8 @@ season,round,date,home_team,away_team,home_score,away_score,venue
 2016,Round 11,2016-05-21,warriors,canberra-raiders,12,38,Yarrow Stadium
 2016,Round 11,2016-05-21,cronulla-sutherland-sharks,manly-warringah-sea-eagles,20,12,Southern Cross
 2016,Round 11,2016-05-21,wests-tigers,newcastle-knights,20,12,Campbelltown
-2016,Round 11,2016-05-22,penrith-panthers,gold-coast-titans,24,28,Pepper Stadium
 2016,Round 11,2016-05-22,canterbury-bankstown-bulldogs,sydney-roosters,32,20,ANZ
+2016,Round 11,2016-05-22,penrith-panthers,gold-coast-titans,24,28,Pepper Stadium
 2016,Round 11,2016-05-23,parramatta-eels,melbourne-storm,6,18,Pirtek Stadium
 2016,Round 12,2016-05-27,brisbane-broncos,wests-tigers,18,19,Suncorp
 2016,Round 12,2016-05-28,st-george-illawarra-dragons,north-queensland-cowboys,14,10,WIN
@@ -1518,9 +1518,9 @@ season,round,date,home_team,away_team,home_score,away_score,venue
 2016,Round 15,2016-06-19,warriors,sydney-roosters,12,10,Mt Smart
 2016,Round 15,2016-06-20,gold-coast-titans,manly-warringah-sea-eagles,30,10,Cbus Super
 2016,Round 16,2016-06-24,penrith-panthers,south-sydney-rabbitohs,28,26,Pepper Stadium
-2016,Round 16,2016-06-25,canterbury-bankstown-bulldogs,brisbane-broncos,40,14,ANZ
 2016,Round 16,2016-06-25,newcastle-knights,st-george-illawarra-dragons,18,30,Hunter
 2016,Round 16,2016-06-25,cronulla-sutherland-sharks,warriors,19,18,Southern Cross
+2016,Round 16,2016-06-25,canterbury-bankstown-bulldogs,brisbane-broncos,40,14,ANZ
 2016,Round 16,2016-06-26,gold-coast-titans,canberra-raiders,22,30,Cbus Super
 2016,Round 16,2016-06-26,melbourne-storm,wests-tigers,29,20,AAMI
 2016,Round 16,2016-06-27,north-queensland-cowboys,manly-warringah-sea-eagles,30,26,1300SMILES
@@ -1547,8 +1547,8 @@ season,round,date,home_team,away_team,home_score,away_score,venue
 2016,Round 20,2016-07-23,canberra-raiders,warriors,26,22,GIO
 2016,Round 20,2016-07-23,gold-coast-titans,parramatta-eels,34,14,Cbus Super
 2016,Round 20,2016-07-23,melbourne-storm,sydney-roosters,26,10,AAMI
-2016,Round 20,2016-07-24,st-george-illawarra-dragons,wests-tigers,12,25,ANZ
 2016,Round 20,2016-07-24,cronulla-sutherland-sharks,newcastle-knights,36,4,Southern Cross
+2016,Round 20,2016-07-24,st-george-illawarra-dragons,wests-tigers,12,25,ANZ
 2016,Round 20,2016-07-25,south-sydney-rabbitohs,manly-warringah-sea-eagles,12,20,Allianz
 2016,Round 21,2016-07-28,sydney-roosters,brisbane-broncos,32,16,Allianz
 2016,Round 21,2016-07-29,canterbury-bankstown-bulldogs,st-george-illawarra-dragons,13,10,ANZ
@@ -1560,25 +1560,25 @@ season,round,date,home_team,away_team,home_score,away_score,venue
 2016,Round 21,2016-08-01,gold-coast-titans,cronulla-sutherland-sharks,18,18,Cbus Super
 2016,Round 22,2016-08-04,st-george-illawarra-dragons,brisbane-broncos,8,12,WIN
 2016,Round 22,2016-08-05,parramatta-eels,manly-warringah-sea-eagles,10,9,Pirtek Stadium
+2016,Round 22,2016-08-06,cronulla-sutherland-sharks,canberra-raiders,14,30,Southern Cross
 2016,Round 22,2016-08-06,melbourne-storm,south-sydney-rabbitohs,15,14,AAMI
 2016,Round 22,2016-08-06,newcastle-knights,canterbury-bankstown-bulldogs,14,28,Hunter
-2016,Round 22,2016-08-06,cronulla-sutherland-sharks,canberra-raiders,14,30,Southern Cross
 2016,Round 22,2016-08-07,wests-tigers,north-queensland-cowboys,26,14,Leichhardt
 2016,Round 22,2016-08-07,gold-coast-titans,warriors,14,24,Cbus Super
 2016,Round 22,2016-08-08,penrith-panthers,sydney-roosters,38,18,Pepper Stadium
 2016,Round 23,2016-08-11,canterbury-bankstown-bulldogs,manly-warringah-sea-eagles,20,16,ANZ
 2016,Round 23,2016-08-12,brisbane-broncos,parramatta-eels,38,16,Suncorp
-2016,Round 23,2016-08-13,warriors,south-sydney-rabbitohs,22,41,Mt Smart
 2016,Round 23,2016-08-13,st-george-illawarra-dragons,cronulla-sutherland-sharks,32,18,WIN Jubilee
+2016,Round 23,2016-08-13,warriors,south-sydney-rabbitohs,22,41,Mt Smart
 2016,Round 23,2016-08-13,wests-tigers,gold-coast-titans,18,19,Campbelltown
-2016,Round 23,2016-08-14,newcastle-knights,penrith-panthers,6,42,Hunter
 2016,Round 23,2016-08-14,sydney-roosters,north-queensland-cowboys,22,10,Allianz
+2016,Round 23,2016-08-14,newcastle-knights,penrith-panthers,6,42,Hunter
 2016,Round 23,2016-08-15,canberra-raiders,melbourne-storm,22,8,GIO
 2016,Round 24,2016-08-18,brisbane-broncos,canterbury-bankstown-bulldogs,20,10,Suncorp
 2016,Round 24,2016-08-19,penrith-panthers,wests-tigers,40,10,Pepper Stadium
+2016,Round 24,2016-08-20,manly-warringah-sea-eagles,melbourne-storm,18,38,Brookvale
 2016,Round 24,2016-08-20,north-queensland-cowboys,warriors,34,6,1300SMILES
 2016,Round 24,2016-08-20,newcastle-knights,gold-coast-titans,6,26,Hunter
-2016,Round 24,2016-08-20,manly-warringah-sea-eagles,melbourne-storm,18,38,Brookvale
 2016,Round 24,2016-08-21,sydney-roosters,st-george-illawarra-dragons,42,6,Allianz
 2016,Round 24,2016-08-21,canberra-raiders,parramatta-eels,28,18,GIO
 2016,Round 24,2016-08-22,south-sydney-rabbitohs,cronulla-sutherland-sharks,12,6,ANZ
@@ -1618,9 +1618,9 @@ season,round,date,home_team,away_team,home_score,away_score,venue
 2017,Round 2,2017-03-09,sydney-roosters,canterbury-bankstown-bulldogs,28,24,Allianz
 2017,Round 2,2017-03-10,brisbane-broncos,north-queensland-cowboys,20,21,Suncorp
 2017,Round 2,2017-03-10,warriors,melbourne-storm,10,26,Mt Smart
-2017,Round 2,2017-03-11,newcastle-knights,gold-coast-titans,34,26,McD. Jones
-2017,Round 2,2017-03-11,manly-warringah-sea-eagles,south-sydney-rabbitohs,18,38,Lottoland
 2017,Round 2,2017-03-11,canberra-raiders,cronulla-sutherland-sharks,16,42,GIO
+2017,Round 2,2017-03-11,manly-warringah-sea-eagles,south-sydney-rabbitohs,18,38,Lottoland
+2017,Round 2,2017-03-11,newcastle-knights,gold-coast-titans,34,26,McD. Jones
 2017,Round 2,2017-03-12,st-george-illawarra-dragons,parramatta-eels,16,34,WIN
 2017,Round 2,2017-03-12,wests-tigers,penrith-panthers,2,36,Campbelltown
 2017,Round 3,2017-03-16,melbourne-storm,brisbane-broncos,14,12,AAMI
@@ -1632,8 +1632,8 @@ season,round,date,home_team,away_team,home_score,away_score,venue
 2017,Round 3,2017-03-19,cronulla-sutherland-sharks,st-george-illawarra-dragons,10,16,Southern Cross
 2017,Round 3,2017-03-19,canberra-raiders,wests-tigers,46,6,GIO
 2017,Round 4,2017-03-23,south-sydney-rabbitohs,sydney-roosters,6,20,ANZ
-2017,Round 4,2017-03-24,brisbane-broncos,canberra-raiders,13,12,Suncorp
 2017,Round 4,2017-03-24,penrith-panthers,newcastle-knights,40,0,Pepper Stadium
+2017,Round 4,2017-03-24,brisbane-broncos,canberra-raiders,13,12,Suncorp
 2017,Round 4,2017-03-25,parramatta-eels,cronulla-sutherland-sharks,6,20,ANZ
 2017,Round 4,2017-03-25,manly-warringah-sea-eagles,canterbury-bankstown-bulldogs,36,0,Lottoland
 2017,Round 4,2017-03-25,gold-coast-titans,north-queensland-cowboys,26,32,Cbus Super
@@ -1645,8 +1645,8 @@ season,round,date,home_team,away_team,home_score,away_score,venue
 2017,Round 5,2017-04-01,melbourne-storm,penrith-panthers,28,6,AAMI
 2017,Round 5,2017-04-01,canberra-raiders,parramatta-eels,30,18,GIO
 2017,Round 5,2017-04-01,cronulla-sutherland-sharks,newcastle-knights,19,18,Southern Cross
-2017,Round 5,2017-04-02,wests-tigers,st-george-illawarra-dragons,6,28,ANZ
 2017,Round 5,2017-04-02,warriors,gold-coast-titans,28,22,Mt Smart
+2017,Round 5,2017-04-02,wests-tigers,st-george-illawarra-dragons,6,28,ANZ
 2017,Round 6,2017-04-06,brisbane-broncos,sydney-roosters,32,8,Suncorp
 2017,Round 6,2017-04-07,newcastle-knights,canterbury-bankstown-bulldogs,12,22,McD. Jones
 2017,Round 6,2017-04-07,penrith-panthers,south-sydney-rabbitohs,20,21,Pepper Stadium
@@ -1655,12 +1655,12 @@ season,round,date,home_team,away_team,home_score,away_score,venue
 2017,Round 6,2017-04-08,manly-warringah-sea-eagles,st-george-illawarra-dragons,10,35,Lottoland
 2017,Round 6,2017-04-09,warriors,parramatta-eels,22,10,Mt Smart
 2017,Round 6,2017-04-09,melbourne-storm,cronulla-sutherland-sharks,2,11,AAMI
+2017,Round 7,2017-04-14,brisbane-broncos,gold-coast-titans,24,22,Suncorp
 2017,Round 7,2017-04-14,canterbury-bankstown-bulldogs,south-sydney-rabbitohs,24,9,ANZ
 2017,Round 7,2017-04-14,newcastle-knights,sydney-roosters,6,24,McD. Jones
-2017,Round 7,2017-04-14,brisbane-broncos,gold-coast-titans,24,22,Suncorp
-2017,Round 7,2017-04-15,st-george-illawarra-dragons,north-queensland-cowboys,28,22,WIN
-2017,Round 7,2017-04-15,canberra-raiders,warriors,20,8,GIO
 2017,Round 7,2017-04-15,manly-warringah-sea-eagles,melbourne-storm,26,30,Lottoland
+2017,Round 7,2017-04-15,canberra-raiders,warriors,20,8,GIO
+2017,Round 7,2017-04-15,st-george-illawarra-dragons,north-queensland-cowboys,28,22,WIN
 2017,Round 7,2017-04-16,penrith-panthers,cronulla-sutherland-sharks,2,28,Pepper Stadium
 2017,Round 7,2017-04-17,parramatta-eels,wests-tigers,26,22,ANZ
 2017,Round 8,2017-04-21,south-sydney-rabbitohs,brisbane-broncos,24,25,ANZ
@@ -1672,8 +1672,8 @@ season,round,date,home_team,away_team,home_score,away_score,venue
 2017,Round 8,2017-04-25,sydney-roosters,st-george-illawarra-dragons,13,12,Allianz
 2017,Round 8,2017-04-25,melbourne-storm,warriors,20,14,AAMI
 2017,Round 9,2017-04-27,brisbane-broncos,penrith-panthers,32,18,Suncorp
-2017,Round 9,2017-04-28,north-queensland-cowboys,parramatta-eels,6,26,1300SMILES
 2017,Round 9,2017-04-28,south-sydney-rabbitohs,manly-warringah-sea-eagles,8,46,Allianz
+2017,Round 9,2017-04-28,north-queensland-cowboys,parramatta-eels,6,26,1300SMILES
 2017,Round 9,2017-04-29,gold-coast-titans,newcastle-knights,38,8,Cbus Super
 2017,Round 9,2017-04-29,canterbury-bankstown-bulldogs,canberra-raiders,16,10,ANZ
 2017,Round 9,2017-04-29,wests-tigers,cronulla-sutherland-sharks,16,22,Leichhardt
@@ -1699,8 +1699,8 @@ season,round,date,home_team,away_team,home_score,away_score,venue
 2017,Round 12,2017-05-27,warriors,brisbane-broncos,28,10,Mt Smart
 2017,Round 12,2017-05-27,cronulla-sutherland-sharks,canterbury-bankstown-bulldogs,9,8,Southern Cross
 2017,Round 12,2017-05-28,canberra-raiders,sydney-roosters,24,16,GIO
-2017,Round 13,2017-06-02,melbourne-storm,newcastle-knights,40,12,AAMI
 2017,Round 13,2017-06-02,parramatta-eels,warriors,32,24,ANZ
+2017,Round 13,2017-06-02,melbourne-storm,newcastle-knights,40,12,AAMI
 2017,Round 13,2017-06-03,sydney-roosters,brisbane-broncos,18,16,Allianz
 2017,Round 13,2017-06-03,st-george-illawarra-dragons,wests-tigers,16,12,ANZ
 2017,Round 13,2017-06-03,north-queensland-cowboys,gold-coast-titans,20,8,1300SMILES
@@ -1709,9 +1709,9 @@ season,round,date,home_team,away_team,home_score,away_score,venue
 2017,Round 14,2017-06-08,cronulla-sutherland-sharks,melbourne-storm,13,18,Southern Cross
 2017,Round 14,2017-06-09,brisbane-broncos,south-sydney-rabbitohs,24,18,Suncorp
 2017,Round 14,2017-06-09,manly-warringah-sea-eagles,newcastle-knights,18,14,Lottoland
+2017,Round 14,2017-06-10,penrith-panthers,canberra-raiders,24,20,Carrington
 2017,Round 14,2017-06-10,parramatta-eels,north-queensland-cowboys,6,32,TIO
 2017,Round 14,2017-06-10,gold-coast-titans,warriors,12,34,Cbus Super
-2017,Round 14,2017-06-10,penrith-panthers,canberra-raiders,24,20,Carrington
 2017,Round 14,2017-06-11,wests-tigers,sydney-roosters,18,40,Campbelltown
 2017,Round 14,2017-06-12,canterbury-bankstown-bulldogs,st-george-illawarra-dragons,16,2,ANZ
 2017,Round 15,2017-06-16,south-sydney-rabbitohs,gold-coast-titans,36,20,ANZ
@@ -1726,8 +1726,8 @@ season,round,date,home_team,away_team,home_score,away_score,venue
 2017,Round 16,2017-06-25,st-george-illawarra-dragons,newcastle-knights,32,28,UOW Jubilee
 2017,Round 16,2017-06-25,cronulla-sutherland-sharks,manly-warringah-sea-eagles,18,35,Southern Cross
 2017,Round 17,2017-06-29,parramatta-eels,canterbury-bankstown-bulldogs,13,12,ANZ
-2017,Round 17,2017-06-30,brisbane-broncos,melbourne-storm,12,42,Suncorp
 2017,Round 17,2017-06-30,gold-coast-titans,st-george-illawarra-dragons,20,10,Cbus Super
+2017,Round 17,2017-06-30,brisbane-broncos,melbourne-storm,12,42,Suncorp
 2017,Round 17,2017-07-01,manly-warringah-sea-eagles,warriors,26,22,nib Stadium
 2017,Round 17,2017-07-01,sydney-roosters,cronulla-sutherland-sharks,12,44,Central Coast
 2017,Round 17,2017-07-01,canberra-raiders,north-queensland-cowboys,18,31,GIO
@@ -1739,8 +1739,8 @@ season,round,date,home_team,away_team,home_score,away_score,venue
 2017,Round 18,2017-07-09,canterbury-bankstown-bulldogs,newcastle-knights,20,18,Belmore
 2017,Round 19,2017-07-14,warriors,penrith-panthers,22,34,Mt Smart
 2017,Round 19,2017-07-14,canberra-raiders,st-george-illawarra-dragons,18,14,GIO
-2017,Round 19,2017-07-15,gold-coast-titans,cronulla-sutherland-sharks,30,10,Cbus Super
 2017,Round 19,2017-07-15,newcastle-knights,brisbane-broncos,22,34,McD. Jones
+2017,Round 19,2017-07-15,gold-coast-titans,cronulla-sutherland-sharks,30,10,Cbus Super
 2017,Round 19,2017-07-16,manly-warringah-sea-eagles,wests-tigers,28,16,Lottoland
 2017,Round 19,2017-07-16,south-sydney-rabbitohs,north-queensland-cowboys,10,23,Barlow
 2017,Round 20,2017-07-20,brisbane-broncos,canterbury-bankstown-bulldogs,42,12,Suncorp
@@ -1752,8 +1752,8 @@ season,round,date,home_team,away_team,home_score,away_score,venue
 2017,Round 20,2017-07-23,wests-tigers,parramatta-eels,16,17,ANZ
 2017,Round 20,2017-07-23,st-george-illawarra-dragons,manly-warringah-sea-eagles,52,22,WIN
 2017,Round 21,2017-07-27,penrith-panthers,canterbury-bankstown-bulldogs,16,8,Pepper Stadium
-2017,Round 21,2017-07-28,warriors,cronulla-sutherland-sharks,12,26,Mt Smart
 2017,Round 21,2017-07-28,parramatta-eels,brisbane-broncos,28,14,ANZ
+2017,Round 21,2017-07-28,warriors,cronulla-sutherland-sharks,12,26,Mt Smart
 2017,Round 21,2017-07-29,newcastle-knights,st-george-illawarra-dragons,21,14,McD. Jones
 2017,Round 21,2017-07-29,south-sydney-rabbitohs,canberra-raiders,18,32,ANZ
 2017,Round 21,2017-07-29,sydney-roosters,north-queensland-cowboys,22,16,Allianz
@@ -1765,8 +1765,8 @@ season,round,date,home_team,away_team,home_score,away_score,venue
 2017,Round 22,2017-08-05,cronulla-sutherland-sharks,canberra-raiders,12,30,Southern Cross
 2017,Round 22,2017-08-05,newcastle-knights,warriors,26,10,McD. Jones
 2017,Round 22,2017-08-05,gold-coast-titans,brisbane-broncos,0,54,Cbus Super
-2017,Round 22,2017-08-06,penrith-panthers,wests-tigers,28,14,Pepper Stadium
 2017,Round 22,2017-08-06,manly-warringah-sea-eagles,sydney-roosters,36,18,Lottoland
+2017,Round 22,2017-08-06,penrith-panthers,wests-tigers,28,14,Pepper Stadium
 2017,Round 23,2017-08-10,south-sydney-rabbitohs,canterbury-bankstown-bulldogs,28,14,ANZ
 2017,Round 23,2017-08-11,brisbane-broncos,cronulla-sutherland-sharks,32,10,Suncorp
 2017,Round 23,2017-08-11,parramatta-eels,newcastle-knights,10,29,ANZ
@@ -1778,9 +1778,9 @@ season,round,date,home_team,away_team,home_score,away_score,venue
 2017,Round 24,2017-08-17,parramatta-eels,gold-coast-titans,30,8,ANZ
 2017,Round 24,2017-08-18,brisbane-broncos,st-george-illawarra-dragons,24,12,Suncorp
 2017,Round 24,2017-08-18,south-sydney-rabbitohs,warriors,36,18,ANZ
-2017,Round 24,2017-08-19,north-queensland-cowboys,cronulla-sutherland-sharks,16,26,1300SMILES
-2017,Round 24,2017-08-19,sydney-roosters,wests-tigers,22,18,Allianz
 2017,Round 24,2017-08-19,newcastle-knights,melbourne-storm,12,44,McD. Jones
+2017,Round 24,2017-08-19,sydney-roosters,wests-tigers,22,18,Allianz
+2017,Round 24,2017-08-19,north-queensland-cowboys,cronulla-sutherland-sharks,16,26,1300SMILES
 2017,Round 24,2017-08-20,canberra-raiders,penrith-panthers,22,26,GIO
 2017,Round 24,2017-08-20,canterbury-bankstown-bulldogs,manly-warringah-sea-eagles,30,16,ANZ
 2017,Round 25,2017-08-24,brisbane-broncos,parramatta-eels,34,52,Suncorp
@@ -1793,15 +1793,15 @@ season,round,date,home_team,away_team,home_score,away_score,venue
 2017,Round 25,2017-08-27,warriors,manly-warringah-sea-eagles,21,22,Mt Smart
 2017,Round 26,2017-08-31,north-queensland-cowboys,brisbane-broncos,10,20,1300SMILES
 2017,Round 26,2017-09-01,parramatta-eels,south-sydney-rabbitohs,22,16,ANZ
-2017,Round 26,2017-09-02,sydney-roosters,gold-coast-titans,20,16,Allianz
 2017,Round 26,2017-09-02,manly-warringah-sea-eagles,penrith-panthers,28,12,Lottoland
 2017,Round 26,2017-09-02,melbourne-storm,canberra-raiders,32,6,AAMI
-2017,Round 26,2017-09-03,wests-tigers,warriors,28,16,Leichhardt
+2017,Round 26,2017-09-02,sydney-roosters,gold-coast-titans,20,16,Allianz
 2017,Round 26,2017-09-03,newcastle-knights,cronulla-sutherland-sharks,18,26,McD. Jones
 2017,Round 26,2017-09-03,st-george-illawarra-dragons,canterbury-bankstown-bulldogs,20,26,ANZ
+2017,Round 26,2017-09-03,wests-tigers,warriors,28,16,Leichhardt
 2017,Round 26,2017-09-08,sydney-roosters,brisbane-broncos,24,22,Allianz
-2017,Round 26,2017-09-09,manly-warringah-sea-eagles,penrith-panthers,10,22,Allianz
 2017,Round 26,2017-09-09,melbourne-storm,parramatta-eels,18,16,AAMI
+2017,Round 26,2017-09-09,manly-warringah-sea-eagles,penrith-panthers,10,22,Allianz
 2017,Round 26,2017-09-10,cronulla-sutherland-sharks,north-queensland-cowboys,14,15,Allianz
 2017,Round 26,2017-09-15,brisbane-broncos,penrith-panthers,13,6,Suncorp
 2017,Round 26,2017-09-16,parramatta-eels,north-queensland-cowboys,16,24,ANZ
@@ -1830,8 +1830,8 @@ season,round,date,home_team,away_team,home_score,away_score,venue
 2018,Round 3,2018-03-24,parramatta-eels,cronulla-sutherland-sharks,4,14,ANZ
 2018,Round 3,2018-03-24,canberra-raiders,warriors,19,20,GIO
 2018,Round 3,2018-03-24,south-sydney-rabbitohs,manly-warringah-sea-eagles,34,6,ANZ
-2018,Round 3,2018-03-25,gold-coast-titans,st-george-illawarra-dragons,8,54,Clive Berghofer
 2018,Round 3,2018-03-25,sydney-roosters,newcastle-knights,38,8,Allianz
+2018,Round 3,2018-03-25,gold-coast-titans,st-george-illawarra-dragons,8,54,Clive Berghofer
 2018,Round 4,2018-03-29,north-queensland-cowboys,penrith-panthers,14,33,1300SMILES
 2018,Round 4,2018-03-30,cronulla-sutherland-sharks,melbourne-storm,14,4,Southern Cross
 2018,Round 4,2018-03-30,south-sydney-rabbitohs,canterbury-bankstown-bulldogs,20,16,ANZ
@@ -1843,9 +1843,9 @@ season,round,date,home_team,away_team,home_score,away_score,venue
 2018,Round 5,2018-04-05,canberra-raiders,canterbury-bankstown-bulldogs,26,10,GIO
 2018,Round 5,2018-04-06,cronulla-sutherland-sharks,sydney-roosters,10,28,Southern Cross
 2018,Round 5,2018-04-06,st-george-illawarra-dragons,south-sydney-rabbitohs,16,12,Jubilee Stadium
+2018,Round 5,2018-04-07,warriors,north-queensland-cowboys,22,12,Mt Smart
 2018,Round 5,2018-04-07,newcastle-knights,brisbane-broncos,15,10,McD. Jones
 2018,Round 5,2018-04-07,wests-tigers,melbourne-storm,11,10,Mt Smart
-2018,Round 5,2018-04-07,warriors,north-queensland-cowboys,22,12,Mt Smart
 2018,Round 5,2018-04-08,parramatta-eels,penrith-panthers,6,12,ANZ
 2018,Round 5,2018-04-08,gold-coast-titans,manly-warringah-sea-eagles,32,20,Marley Brown
 2018,Round 6,2018-04-12,sydney-roosters,south-sydney-rabbitohs,14,26,Allianz
@@ -1854,14 +1854,14 @@ season,round,date,home_team,away_team,home_score,away_score,venue
 2018,Round 6,2018-04-14,warriors,brisbane-broncos,18,27,Mt Smart
 2018,Round 6,2018-04-14,canberra-raiders,parramatta-eels,18,2,GIO
 2018,Round 6,2018-04-14,north-queensland-cowboys,canterbury-bankstown-bulldogs,10,27,1300SMILES
-2018,Round 6,2018-04-15,manly-warringah-sea-eagles,wests-tigers,12,38,Lottoland
 2018,Round 6,2018-04-15,penrith-panthers,gold-coast-titans,35,12,Panthers Stadium
+2018,Round 6,2018-04-15,manly-warringah-sea-eagles,wests-tigers,12,38,Lottoland
 2018,Round 7,2018-04-19,canterbury-bankstown-bulldogs,sydney-roosters,0,6,ANZ
-2018,Round 7,2018-04-20,brisbane-broncos,melbourne-storm,20,34,Suncorp
 2018,Round 7,2018-04-20,warriors,st-george-illawarra-dragons,20,12,Mt Smart
+2018,Round 7,2018-04-20,brisbane-broncos,melbourne-storm,20,34,Suncorp
+2018,Round 7,2018-04-21,north-queensland-cowboys,gold-coast-titans,26,14,1300SMILES
 2018,Round 7,2018-04-21,wests-tigers,newcastle-knights,20,22,Scully
 2018,Round 7,2018-04-21,south-sydney-rabbitohs,canberra-raiders,42,22,Central Coast
-2018,Round 7,2018-04-21,north-queensland-cowboys,gold-coast-titans,26,14,1300SMILES
 2018,Round 7,2018-04-22,parramatta-eels,manly-warringah-sea-eagles,44,10,ANZ
 2018,Round 7,2018-04-22,cronulla-sutherland-sharks,penrith-panthers,26,22,Southern Cross
 2018,Round 8,2018-04-25,st-george-illawarra-dragons,sydney-roosters,24,8,Allianz
@@ -1873,8 +1873,8 @@ season,round,date,home_team,away_team,home_score,away_score,venue
 2018,Round 8,2018-04-28,north-queensland-cowboys,canberra-raiders,8,18,1300SMILES
 2018,Round 8,2018-04-29,parramatta-eels,wests-tigers,24,22,ANZ
 2018,Round 9,2018-05-03,brisbane-broncos,canterbury-bankstown-bulldogs,22,20,Suncorp
-2018,Round 9,2018-05-04,penrith-panthers,north-queensland-cowboys,20,26,Carrington
 2018,Round 9,2018-05-04,newcastle-knights,south-sydney-rabbitohs,18,36,McD. Jones
+2018,Round 9,2018-05-04,penrith-panthers,north-queensland-cowboys,20,26,Carrington
 2018,Round 9,2018-05-05,canberra-raiders,gold-coast-titans,32,18,GIO
 2018,Round 9,2018-05-05,warriors,wests-tigers,26,4,Mt Smart
 2018,Round 9,2018-05-05,cronulla-sutherland-sharks,parramatta-eels,22,20,Southern Cross
@@ -1899,9 +1899,9 @@ season,round,date,home_team,away_team,home_score,away_score,venue
 2018,Round 12,2018-05-24,brisbane-broncos,parramatta-eels,18,10,Suncorp
 2018,Round 12,2018-05-25,north-queensland-cowboys,melbourne-storm,6,7,1300SMILES
 2018,Round 12,2018-05-25,canberra-raiders,manly-warringah-sea-eagles,21,20,GIO
-2018,Round 12,2018-05-26,warriors,south-sydney-rabbitohs,10,30,Mt Smart
-2018,Round 12,2018-05-26,penrith-panthers,st-george-illawarra-dragons,28,2,Panthers Stadium
 2018,Round 12,2018-05-26,sydney-roosters,gold-coast-titans,34,14,Central Coast
+2018,Round 12,2018-05-26,penrith-panthers,st-george-illawarra-dragons,28,2,Panthers Stadium
+2018,Round 12,2018-05-26,warriors,south-sydney-rabbitohs,10,30,Mt Smart
 2018,Round 12,2018-05-27,wests-tigers,canterbury-bankstown-bulldogs,14,10,ANZ
 2018,Round 12,2018-05-27,newcastle-knights,cronulla-sutherland-sharks,10,48,McD. Jones
 2018,Round 13,2018-05-31,manly-warringah-sea-eagles,north-queensland-cowboys,12,26,Lottoland
@@ -1913,8 +1913,8 @@ season,round,date,home_team,away_team,home_score,away_score,venue
 2018,Round 14,2018-06-09,parramatta-eels,north-queensland-cowboys,20,14,TIO
 2018,Round 14,2018-06-09,newcastle-knights,sydney-roosters,16,18,McD. Jones
 2018,Round 14,2018-06-09,manly-warringah-sea-eagles,warriors,14,34,RL Park
-2018,Round 14,2018-06-10,cronulla-sutherland-sharks,wests-tigers,24,16,Southern Cross
 2018,Round 14,2018-06-10,melbourne-storm,brisbane-broncos,32,16,AAMI
+2018,Round 14,2018-06-10,cronulla-sutherland-sharks,wests-tigers,24,16,Southern Cross
 2018,Round 14,2018-06-11,canterbury-bankstown-bulldogs,st-george-illawarra-dragons,16,18,ANZ
 2018,Round 15,2018-06-14,parramatta-eels,south-sydney-rabbitohs,24,42,ANZ
 2018,Round 15,2018-06-15,north-queensland-cowboys,warriors,16,23,1300SMILES
@@ -1930,8 +1930,8 @@ season,round,date,home_team,away_team,home_score,away_score,venue
 2018,Round 16,2018-06-30,brisbane-broncos,canberra-raiders,26,22,Suncorp
 2018,Round 16,2018-06-30,newcastle-knights,canterbury-bankstown-bulldogs,16,36,McD. Jones
 2018,Round 16,2018-06-30,penrith-panthers,manly-warringah-sea-eagles,10,18,Panthers Stadium
-2018,Round 16,2018-07-01,south-sydney-rabbitohs,north-queensland-cowboys,21,20,Barlow
 2018,Round 16,2018-07-01,wests-tigers,gold-coast-titans,12,30,Leichhardt
+2018,Round 16,2018-07-01,south-sydney-rabbitohs,north-queensland-cowboys,21,20,Barlow
 2018,Round 17,2018-07-05,melbourne-storm,st-george-illawarra-dragons,52,30,AAMI
 2018,Round 17,2018-07-06,penrith-panthers,warriors,36,4,Panthers Stadium
 2018,Round 17,2018-07-07,canterbury-bankstown-bulldogs,canberra-raiders,28,32,Belmore
@@ -1958,8 +1958,8 @@ season,round,date,home_team,away_team,home_score,away_score,venue
 2018,Round 20,2018-07-28,south-sydney-rabbitohs,parramatta-eels,26,20,ANZ
 2018,Round 20,2018-07-28,melbourne-storm,canberra-raiders,44,10,AAMI
 2018,Round 20,2018-07-28,manly-warringah-sea-eagles,penrith-panthers,24,28,Lottoland
-2018,Round 20,2018-07-29,sydney-roosters,st-george-illawarra-dragons,36,18,Allianz
 2018,Round 20,2018-07-29,gold-coast-titans,warriors,36,12,Cbus Super
+2018,Round 20,2018-07-29,sydney-roosters,st-george-illawarra-dragons,36,18,Allianz
 2018,Round 21,2018-08-02,canterbury-bankstown-bulldogs,brisbane-broncos,36,22,ANZ
 2018,Round 21,2018-08-03,newcastle-knights,wests-tigers,16,25,McD. Jones
 2018,Round 21,2018-08-03,south-sydney-rabbitohs,melbourne-storm,30,20,ANZ
@@ -1971,9 +1971,9 @@ season,round,date,home_team,away_team,home_score,away_score,venue
 2018,Round 22,2018-08-09,north-queensland-cowboys,brisbane-broncos,34,30,1300SMILES
 2018,Round 22,2018-08-10,south-sydney-rabbitohs,sydney-roosters,14,18,ANZ
 2018,Round 22,2018-08-10,warriors,newcastle-knights,20,4,Mt Smart
-2018,Round 22,2018-08-11,gold-coast-titans,penrith-panthers,16,17,Cbus Super
-2018,Round 22,2018-08-11,manly-warringah-sea-eagles,canterbury-bankstown-bulldogs,18,6,Lottoland
 2018,Round 22,2018-08-11,parramatta-eels,st-george-illawarra-dragons,40,4,ANZ
+2018,Round 22,2018-08-11,manly-warringah-sea-eagles,canterbury-bankstown-bulldogs,18,6,Lottoland
+2018,Round 22,2018-08-11,gold-coast-titans,penrith-panthers,16,17,Cbus Super
 2018,Round 22,2018-08-12,canberra-raiders,wests-tigers,20,22,GIO
 2018,Round 22,2018-08-12,melbourne-storm,cronulla-sutherland-sharks,14,17,AAMI
 2018,Round 23,2018-08-16,brisbane-broncos,south-sydney-rabbitohs,38,18,Suncorp
@@ -1985,8 +1985,8 @@ season,round,date,home_team,away_team,home_score,away_score,venue
 2018,Round 23,2018-08-19,canterbury-bankstown-bulldogs,warriors,27,26,ANZ
 2018,Round 23,2018-08-19,canberra-raiders,sydney-roosters,14,12,GIO
 2018,Round 24,2018-08-23,wests-tigers,manly-warringah-sea-eagles,22,20,Campbelltown
-2018,Round 24,2018-08-24,warriors,penrith-panthers,36,16,Mt Smart
 2018,Round 24,2018-08-24,north-queensland-cowboys,parramatta-eels,44,6,1300SMILES
+2018,Round 24,2018-08-24,warriors,penrith-panthers,36,16,Mt Smart
 2018,Round 24,2018-08-25,gold-coast-titans,melbourne-storm,8,10,Cbus Super
 2018,Round 24,2018-08-25,canberra-raiders,south-sydney-rabbitohs,24,12,GIO
 2018,Round 24,2018-08-25,sydney-roosters,brisbane-broncos,8,22,Allianz
@@ -2012,9 +2012,9 @@ season,round,date,home_team,away_team,home_score,away_score,venue
 2019,Round 1,2019-03-14,melbourne-storm,brisbane-broncos,22,12,AAMI
 2019,Round 1,2019-03-15,sydney-roosters,south-sydney-rabbitohs,16,26,SCG
 2019,Round 1,2019-03-15,newcastle-knights,cronulla-sutherland-sharks,14,8,McD. Jones
-2019,Round 1,2019-03-16,wests-tigers,manly-warringah-sea-eagles,20,6,Leichhardt
 2019,Round 1,2019-03-16,north-queensland-cowboys,st-george-illawarra-dragons,24,12,1300SMILES
 2019,Round 1,2019-03-16,warriors,canterbury-bankstown-bulldogs,40,6,Mt Smart
+2019,Round 1,2019-03-16,wests-tigers,manly-warringah-sea-eagles,20,6,Leichhardt
 2019,Round 1,2019-03-17,penrith-panthers,parramatta-eels,12,20,Panthers Stadium
 2019,Round 1,2019-03-17,gold-coast-titans,canberra-raiders,0,21,Cbus Super
 2019,Round 2,2019-03-21,st-george-illawarra-dragons,south-sydney-rabbitohs,18,34,Netstrata
@@ -2026,11 +2026,11 @@ season,round,date,home_team,away_team,home_score,away_score,venue
 2019,Round 2,2019-03-24,wests-tigers,warriors,34,6,Campbelltown
 2019,Round 2,2019-03-24,canterbury-bankstown-bulldogs,parramatta-eels,16,36,ANZ
 2019,Round 3,2019-03-28,brisbane-broncos,st-george-illawarra-dragons,24,25,Suncorp
-2019,Round 3,2019-03-29,parramatta-eels,sydney-roosters,18,32,ANZ
 2019,Round 3,2019-03-29,canberra-raiders,newcastle-knights,17,10,GIO
+2019,Round 3,2019-03-29,parramatta-eels,sydney-roosters,18,32,ANZ
+2019,Round 3,2019-03-30,north-queensland-cowboys,cronulla-sutherland-sharks,16,42,1300SMILES
 2019,Round 3,2019-03-30,manly-warringah-sea-eagles,warriors,46,12,AMI Stadium
 2019,Round 3,2019-03-30,penrith-panthers,melbourne-storm,2,32,Carrington
-2019,Round 3,2019-03-30,north-queensland-cowboys,cronulla-sutherland-sharks,16,42,1300SMILES
 2019,Round 3,2019-03-31,south-sydney-rabbitohs,gold-coast-titans,28,20,ANZ
 2019,Round 3,2019-03-31,wests-tigers,canterbury-bankstown-bulldogs,8,22,Campbelltown
 2019,Round 4,2019-04-04,sydney-roosters,brisbane-broncos,36,4,SCG
@@ -2042,8 +2042,8 @@ season,round,date,home_team,away_team,home_score,away_score,venue
 2019,Round 4,2019-04-07,melbourne-storm,canterbury-bankstown-bulldogs,18,16,AAMI
 2019,Round 4,2019-04-07,newcastle-knights,st-george-illawarra-dragons,12,13,McD. Jones
 2019,Round 5,2019-04-11,brisbane-broncos,wests-tigers,16,22,Suncorp
-2019,Round 5,2019-04-12,gold-coast-titans,penrith-panthers,30,24,Cbus Super
 2019,Round 5,2019-04-12,north-queensland-cowboys,melbourne-storm,12,18,1300SMILES
+2019,Round 5,2019-04-12,gold-coast-titans,penrith-panthers,30,24,Cbus Super
 2019,Round 5,2019-04-13,south-sydney-rabbitohs,warriors,28,24,Sunshine Coast
 2019,Round 5,2019-04-13,newcastle-knights,manly-warringah-sea-eagles,18,26,McD. Jones
 2019,Round 5,2019-04-13,cronulla-sutherland-sharks,sydney-roosters,16,30,Pointsbet
@@ -2057,8 +2057,8 @@ season,round,date,home_team,away_team,home_score,away_score,venue
 2019,Round 6,2019-04-21,canberra-raiders,brisbane-broncos,26,22,GIO
 2019,Round 6,2019-04-21,gold-coast-titans,newcastle-knights,38,14,Cbus Super
 2019,Round 6,2019-04-22,parramatta-eels,wests-tigers,51,6,Bankwest
-2019,Round 7,2019-04-25,melbourne-storm,warriors,13,12,AAMI
 2019,Round 7,2019-04-25,sydney-roosters,st-george-illawarra-dragons,20,10,SCG
+2019,Round 7,2019-04-25,melbourne-storm,warriors,13,12,AAMI
 2019,Round 7,2019-04-26,penrith-panthers,south-sydney-rabbitohs,18,22,Panthers Stadium
 2019,Round 7,2019-04-26,canterbury-bankstown-bulldogs,north-queensland-cowboys,24,12,ANZ
 2019,Round 7,2019-04-27,wests-tigers,gold-coast-titans,30,14,Scully
@@ -2071,8 +2071,8 @@ season,round,date,home_team,away_team,home_score,away_score,venue
 2019,Round 8,2019-05-04,manly-warringah-sea-eagles,canterbury-bankstown-bulldogs,18,10,Lottoland
 2019,Round 8,2019-05-04,canberra-raiders,penrith-panthers,30,12,McDonalds Park
 2019,Round 8,2019-05-04,sydney-roosters,wests-tigers,42,12,SCG
-2019,Round 8,2019-05-05,warriors,newcastle-knights,18,36,Mt Smart
 2019,Round 8,2019-05-05,parramatta-eels,st-george-illawarra-dragons,32,18,Bankwest
+2019,Round 8,2019-05-05,warriors,newcastle-knights,18,36,Mt Smart
 2019,Round 9,2019-05-09,gold-coast-titans,cronulla-sutherland-sharks,18,26,Suncorp
 2019,Round 9,2019-05-10,wests-tigers,penrith-panthers,30,4,Suncorp
 2019,Round 9,2019-05-10,manly-warringah-sea-eagles,brisbane-broncos,10,26,Suncorp
@@ -2084,9 +2084,9 @@ season,round,date,home_team,away_team,home_score,away_score,venue
 2019,Round 10,2019-05-16,melbourne-storm,wests-tigers,24,22,AAMI
 2019,Round 10,2019-05-17,penrith-panthers,warriors,10,30,Panthers Stadium
 2019,Round 10,2019-05-17,brisbane-broncos,sydney-roosters,15,10,Suncorp
-2019,Round 10,2019-05-18,gold-coast-titans,canterbury-bankstown-bulldogs,16,22,Cbus Super
-2019,Round 10,2019-05-18,canberra-raiders,south-sydney-rabbitohs,12,16,GIO
 2019,Round 10,2019-05-18,north-queensland-cowboys,parramatta-eels,17,10,1300SMILES
+2019,Round 10,2019-05-18,canberra-raiders,south-sydney-rabbitohs,12,16,GIO
+2019,Round 10,2019-05-18,gold-coast-titans,canterbury-bankstown-bulldogs,16,22,Cbus Super
 2019,Round 10,2019-05-19,cronulla-sutherland-sharks,manly-warringah-sea-eagles,14,24,Pointsbet
 2019,Round 10,2019-05-19,st-george-illawarra-dragons,newcastle-knights,12,45,Glen Willow
 2019,Round 11,2019-05-23,parramatta-eels,penrith-panthers,10,16,Bankwest
@@ -2112,9 +2112,9 @@ season,round,date,home_team,away_team,home_score,away_score,venue
 2019,Round 14,2019-06-13,canberra-raiders,cronulla-sutherland-sharks,22,20,GIO
 2019,Round 14,2019-06-14,gold-coast-titans,warriors,20,24,Cbus Super
 2019,Round 14,2019-06-14,north-queensland-cowboys,wests-tigers,26,27,1300SMILES
-2019,Round 14,2019-06-15,parramatta-eels,brisbane-broncos,38,10,Bankwest
-2019,Round 14,2019-06-15,melbourne-storm,newcastle-knights,34,4,AAMI
 2019,Round 14,2019-06-15,south-sydney-rabbitohs,penrith-panthers,18,19,ANZ
+2019,Round 14,2019-06-15,melbourne-storm,newcastle-knights,34,4,AAMI
+2019,Round 14,2019-06-15,parramatta-eels,brisbane-broncos,38,10,Bankwest
 2019,Round 14,2019-06-16,sydney-roosters,canterbury-bankstown-bulldogs,38,12,SCG
 2019,Round 14,2019-06-16,manly-warringah-sea-eagles,st-george-illawarra-dragons,34,14,Lottoland
 2019,Round 15,2019-06-27,wests-tigers,south-sydney-rabbitohs,14,9,Bankwest
@@ -2140,9 +2140,9 @@ season,round,date,home_team,away_team,home_score,away_score,venue
 2019,Round 18,2019-07-18,brisbane-broncos,canterbury-bankstown-bulldogs,28,6,Suncorp
 2019,Round 18,2019-07-19,warriors,cronulla-sutherland-sharks,19,18,Westpac
 2019,Round 18,2019-07-19,penrith-panthers,st-george-illawarra-dragons,40,18,Panthers Stadium
-2019,Round 18,2019-07-20,sydney-roosters,newcastle-knights,48,10,SCG
-2019,Round 18,2019-07-20,canberra-raiders,wests-tigers,20,12,GIO
 2019,Round 18,2019-07-20,north-queensland-cowboys,south-sydney-rabbitohs,18,30,1300SMILES
+2019,Round 18,2019-07-20,canberra-raiders,wests-tigers,20,12,GIO
+2019,Round 18,2019-07-20,sydney-roosters,newcastle-knights,48,10,SCG
 2019,Round 18,2019-07-21,gold-coast-titans,melbourne-storm,18,38,Cbus Super
 2019,Round 18,2019-07-21,manly-warringah-sea-eagles,parramatta-eels,36,24,Lottoland
 2019,Round 19,2019-07-25,cronulla-sutherland-sharks,north-queensland-cowboys,16,14,Pointsbet
@@ -2154,8 +2154,8 @@ season,round,date,home_team,away_team,home_score,away_score,venue
 2019,Round 19,2019-07-28,canterbury-bankstown-bulldogs,sydney-roosters,12,20,ANZ
 2019,Round 19,2019-07-28,penrith-panthers,canberra-raiders,18,30,Panthers Stadium
 2019,Round 20,2019-08-01,wests-tigers,north-queensland-cowboys,28,4,Leichhardt
-2019,Round 20,2019-08-02,brisbane-broncos,melbourne-storm,4,40,Suncorp
 2019,Round 20,2019-08-02,warriors,canberra-raiders,12,46,Mt Smart
+2019,Round 20,2019-08-02,brisbane-broncos,melbourne-storm,4,40,Suncorp
 2019,Round 20,2019-08-03,manly-warringah-sea-eagles,newcastle-knights,30,6,Lottoland
 2019,Round 20,2019-08-03,canterbury-bankstown-bulldogs,penrith-panthers,16,8,Bankwest
 2019,Round 20,2019-08-03,cronulla-sutherland-sharks,south-sydney-rabbitohs,39,24,Pointsbet
@@ -2183,8 +2183,8 @@ season,round,date,home_team,away_team,home_score,away_score,venue
 2019,Round 23,2019-08-24,cronulla-sutherland-sharks,warriors,42,16,Pointsbet
 2019,Round 23,2019-08-24,st-george-illawarra-dragons,sydney-roosters,12,34,Netstrata
 2019,Round 23,2019-08-24,wests-tigers,newcastle-knights,46,4,Campbelltown
-2019,Round 23,2019-08-25,melbourne-storm,gold-coast-titans,24,8,AAMI
 2019,Round 23,2019-08-25,canberra-raiders,manly-warringah-sea-eagles,14,18,GIO
+2019,Round 23,2019-08-25,melbourne-storm,gold-coast-titans,24,8,AAMI
 2019,Round 24,2019-08-29,north-queensland-cowboys,canterbury-bankstown-bulldogs,15,8,1300SMILES
 2019,Round 24,2019-08-30,brisbane-broncos,parramatta-eels,17,16,Suncorp
 2019,Round 24,2019-08-30,warriors,south-sydney-rabbitohs,10,31,Mt Smart
@@ -2196,9 +2196,9 @@ season,round,date,home_team,away_team,home_score,away_score,venue
 2019,Round 25,2019-09-05,south-sydney-rabbitohs,sydney-roosters,16,10,ANZ
 2019,Round 25,2019-09-06,parramatta-eels,manly-warringah-sea-eagles,32,16,Bankwest
 2019,Round 25,2019-09-06,melbourne-storm,north-queensland-cowboys,24,16,AAMI
+2019,Round 25,2019-09-07,canterbury-bankstown-bulldogs,brisbane-broncos,30,14,ANZ
 2019,Round 25,2019-09-07,gold-coast-titans,st-george-illawarra-dragons,16,24,Cbus Super
 2019,Round 25,2019-09-07,canberra-raiders,warriors,20,24,GIO
-2019,Round 25,2019-09-07,canterbury-bankstown-bulldogs,brisbane-broncos,30,14,ANZ
 2019,Round 25,2019-09-08,wests-tigers,cronulla-sutherland-sharks,8,25,Leichhardt
 2019,Round 25,2019-09-08,penrith-panthers,newcastle-knights,54,10,Panthers Stadium
 2019,Round 25,2019-09-13,sydney-roosters,south-sydney-rabbitohs,30,6,SCG
@@ -2211,8 +2211,8 @@ season,round,date,home_team,away_team,home_score,away_score,venue
 2019,Round 25,2019-09-28,sydney-roosters,melbourne-storm,14,6,SCG
 2019,Round 25,2019-10-06,sydney-roosters,canberra-raiders,14,8,ANZ
 2020,Round 1,2020-03-12,parramatta-eels,canterbury-bankstown-bulldogs,8,2,Bankwest
-2020,Round 1,2020-03-13,canberra-raiders,gold-coast-titans,24,6,GIO
 2020,Round 1,2020-03-13,north-queensland-cowboys,brisbane-broncos,21,28,QLD C. Bank
+2020,Round 1,2020-03-13,canberra-raiders,gold-coast-titans,24,6,GIO
 2020,Round 1,2020-03-14,south-sydney-rabbitohs,cronulla-sutherland-sharks,22,18,ANZ
 2020,Round 1,2020-03-14,penrith-panthers,sydney-roosters,20,14,Panthers Stadium
 2020,Round 1,2020-03-14,newcastle-knights,warriors,20,0,McD. Jones
@@ -2224,8 +2224,8 @@ season,round,date,home_team,away_team,home_score,away_score,venue
 2020,Round 2,2020-03-21,warriors,canberra-raiders,6,20,Cbus Super
 2020,Round 2,2020-03-21,cronulla-sutherland-sharks,melbourne-storm,10,12,Netstrata
 2020,Round 2,2020-03-21,sydney-roosters,manly-warringah-sea-eagles,8,9,Leichhardt
-2020,Round 2,2020-03-22,gold-coast-titans,parramatta-eels,6,46,Cbus Super
 2020,Round 2,2020-03-22,wests-tigers,newcastle-knights,24,42,Leichhardt
+2020,Round 2,2020-03-22,gold-coast-titans,parramatta-eels,6,46,Cbus Super
 2020,Round 3,2020-05-28,brisbane-broncos,parramatta-eels,6,34,Suncorp
 2020,Round 3,2020-05-29,sydney-roosters,south-sydney-rabbitohs,28,12,Bankwest
 2020,Round 3,2020-05-29,north-queensland-cowboys,gold-coast-titans,36,6,QLD C. Bank
@@ -2237,8 +2237,8 @@ season,round,date,home_team,away_team,home_score,away_score,venue
 2020,Round 4,2020-06-04,brisbane-broncos,sydney-roosters,0,59,Suncorp
 2020,Round 4,2020-06-05,penrith-panthers,warriors,26,0,Campbelltown
 2020,Round 4,2020-06-05,melbourne-storm,south-sydney-rabbitohs,22,8,AAMI
-2020,Round 4,2020-06-06,parramatta-eels,manly-warringah-sea-eagles,19,16,Bankwest
 2020,Round 4,2020-06-06,north-queensland-cowboys,cronulla-sutherland-sharks,16,26,QLD C. Bank
+2020,Round 4,2020-06-06,parramatta-eels,manly-warringah-sea-eagles,19,16,Bankwest
 2020,Round 4,2020-06-07,canberra-raiders,newcastle-knights,18,34,Campbelltown
 2020,Round 4,2020-06-07,gold-coast-titans,wests-tigers,28,23,Suncorp
 2020,Round 4,2020-06-08,canterbury-bankstown-bulldogs,st-george-illawarra-dragons,22,2,Bankwest
@@ -2251,11 +2251,11 @@ season,round,date,home_team,away_team,home_score,away_score,venue
 2020,Round 5,2020-06-14,st-george-illawarra-dragons,cronulla-sutherland-sharks,30,16,Campbelltown
 2020,Round 5,2020-06-15,canterbury-bankstown-bulldogs,sydney-roosters,6,42,Bankwest
 2020,Round 6,2020-06-18,newcastle-knights,brisbane-broncos,27,6,Central Coast
-2020,Round 6,2020-06-19,south-sydney-rabbitohs,warriors,40,12,Bankwest
 2020,Round 6,2020-06-19,penrith-panthers,melbourne-storm,21,14,Campbelltown
-2020,Round 6,2020-06-20,sydney-roosters,parramatta-eels,24,10,Bankwest
-2020,Round 6,2020-06-20,gold-coast-titans,st-george-illawarra-dragons,8,20,Suncorp
+2020,Round 6,2020-06-19,south-sydney-rabbitohs,warriors,40,12,Bankwest
 2020,Round 6,2020-06-20,wests-tigers,north-queensland-cowboys,36,20,Campbelltown
+2020,Round 6,2020-06-20,gold-coast-titans,st-george-illawarra-dragons,8,20,Suncorp
+2020,Round 6,2020-06-20,sydney-roosters,parramatta-eels,24,10,Bankwest
 2020,Round 6,2020-06-21,canberra-raiders,manly-warringah-sea-eagles,6,14,Campbelltown
 2020,Round 6,2020-06-21,cronulla-sutherland-sharks,canterbury-bankstown-bulldogs,20,18,Bankwest
 2020,Round 7,2020-06-25,penrith-panthers,south-sydney-rabbitohs,20,12,Netstrata
@@ -2267,8 +2267,8 @@ season,round,date,home_team,away_team,home_score,away_score,venue
 2020,Round 7,2020-06-28,manly-warringah-sea-eagles,cronulla-sutherland-sharks,22,40,Central Coast
 2020,Round 7,2020-06-28,canterbury-bankstown-bulldogs,wests-tigers,6,34,Bankwest
 2020,Round 8,2020-07-02,melbourne-storm,sydney-roosters,27,25,Suncorp
-2020,Round 8,2020-07-03,parramatta-eels,north-queensland-cowboys,42,4,Bankwest
 2020,Round 8,2020-07-03,canberra-raiders,st-george-illawarra-dragons,22,16,GIO
+2020,Round 8,2020-07-03,parramatta-eels,north-queensland-cowboys,42,4,Bankwest
 2020,Round 8,2020-07-04,warriors,brisbane-broncos,26,16,Central Coast
 2020,Round 8,2020-07-04,wests-tigers,penrith-panthers,12,19,Bankwest
 2020,Round 8,2020-07-04,gold-coast-titans,cronulla-sutherland-sharks,10,40,Cbus Super
@@ -2296,8 +2296,8 @@ season,round,date,home_team,away_team,home_score,away_score,venue
 2020,Round 11,2020-07-25,warriors,sydney-roosters,10,18,Central Coast
 2020,Round 11,2020-07-25,cronulla-sutherland-sharks,st-george-illawarra-dragons,28,24,Netstrata
 2020,Round 11,2020-07-25,canberra-raiders,south-sydney-rabbitohs,18,12,GIO
-2020,Round 11,2020-07-26,newcastle-knights,canterbury-bankstown-bulldogs,12,18,McD. Jones
 2020,Round 11,2020-07-26,gold-coast-titans,penrith-panthers,14,22,Cbus Super
+2020,Round 11,2020-07-26,newcastle-knights,canterbury-bankstown-bulldogs,12,18,McD. Jones
 2020,Round 12,2020-07-30,st-george-illawarra-dragons,south-sydney-rabbitohs,24,32,Netstrata
 2020,Round 12,2020-07-31,brisbane-broncos,cronulla-sutherland-sharks,26,36,Suncorp
 2020,Round 12,2020-07-31,wests-tigers,warriors,20,26,SCG
@@ -2309,9 +2309,9 @@ season,round,date,home_team,away_team,home_score,away_score,venue
 2020,Round 13,2020-08-06,st-george-illawarra-dragons,sydney-roosters,16,24,WIN
 2020,Round 13,2020-08-07,south-sydney-rabbitohs,brisbane-broncos,28,10,ANZ
 2020,Round 13,2020-08-07,manly-warringah-sea-eagles,warriors,22,26,Lottoland
-2020,Round 13,2020-08-08,melbourne-storm,canterbury-bankstown-bulldogs,41,10,Sunshine Coast
-2020,Round 13,2020-08-08,newcastle-knights,wests-tigers,44,4,McD. Jones
 2020,Round 13,2020-08-08,penrith-panthers,canberra-raiders,28,12,Panthers Stadium
+2020,Round 13,2020-08-08,newcastle-knights,wests-tigers,44,4,McD. Jones
+2020,Round 13,2020-08-08,melbourne-storm,canterbury-bankstown-bulldogs,41,10,Sunshine Coast
 2020,Round 13,2020-08-09,gold-coast-titans,north-queensland-cowboys,30,10,Cbus Super
 2020,Round 13,2020-08-09,cronulla-sutherland-sharks,parramatta-eels,12,14,Netstrata
 2020,Round 14,2020-08-13,sydney-roosters,melbourne-storm,6,24,SCG
@@ -2323,8 +2323,8 @@ season,round,date,home_team,away_team,home_score,away_score,venue
 2020,Round 14,2020-08-16,newcastle-knights,manly-warringah-sea-eagles,26,24,McD. Jones
 2020,Round 14,2020-08-16,wests-tigers,canterbury-bankstown-bulldogs,29,28,Bankwest
 2020,Round 15,2020-08-20,parramatta-eels,melbourne-storm,14,0,Bankwest
-2020,Round 15,2020-08-21,penrith-panthers,cronulla-sutherland-sharks,38,12,Panthers Stadium
 2020,Round 15,2020-08-21,brisbane-broncos,st-george-illawarra-dragons,24,28,Suncorp
+2020,Round 15,2020-08-21,penrith-panthers,cronulla-sutherland-sharks,38,12,Panthers Stadium
 2020,Round 15,2020-08-22,wests-tigers,sydney-roosters,16,38,Leichhardt
 2020,Round 15,2020-08-22,south-sydney-rabbitohs,manly-warringah-sea-eagles,56,16,ANZ
 2020,Round 15,2020-08-22,gold-coast-titans,canberra-raiders,16,36,Cbus Super
@@ -2352,8 +2352,8 @@ season,round,date,home_team,away_team,home_score,away_score,venue
 2020,Round 18,2020-09-12,st-george-illawarra-dragons,canberra-raiders,8,37,WIN
 2020,Round 18,2020-09-12,gold-coast-titans,brisbane-broncos,18,6,Cbus Super
 2020,Round 18,2020-09-12,sydney-roosters,newcastle-knights,42,12,SCG
-2020,Round 18,2020-09-13,melbourne-storm,north-queensland-cowboys,36,20,Sunshine Coast
 2020,Round 18,2020-09-13,cronulla-sutherland-sharks,warriors,22,14,Netstrata
+2020,Round 18,2020-09-13,melbourne-storm,north-queensland-cowboys,36,20,Sunshine Coast
 2020,Round 19,2020-09-17,south-sydney-rabbitohs,canterbury-bankstown-bulldogs,16,26,ANZ
 2020,Round 19,2020-09-18,north-queensland-cowboys,penrith-panthers,12,32,QLD C. Bank
 2020,Round 19,2020-09-18,parramatta-eels,brisbane-broncos,26,12,Bankwest
@@ -2365,9 +2365,9 @@ season,round,date,home_team,away_team,home_score,away_score,venue
 2020,Round 20,2020-09-24,brisbane-broncos,north-queensland-cowboys,16,32,Suncorp
 2020,Round 20,2020-09-25,south-sydney-rabbitohs,sydney-roosters,60,8,ANZ
 2020,Round 20,2020-09-25,gold-coast-titans,newcastle-knights,36,6,Cbus Super
-2020,Round 20,2020-09-26,canterbury-bankstown-bulldogs,penrith-panthers,0,42,ANZ
 2020,Round 20,2020-09-26,cronulla-sutherland-sharks,canberra-raiders,28,38,Netstrata
 2020,Round 20,2020-09-26,wests-tigers,parramatta-eels,24,28,Bankwest
+2020,Round 20,2020-09-26,canterbury-bankstown-bulldogs,penrith-panthers,0,42,ANZ
 2020,Round 20,2020-09-27,warriors,manly-warringah-sea-eagles,40,28,Central Coast
 2020,Round 20,2020-09-27,st-george-illawarra-dragons,melbourne-storm,30,22,Netstrata
 2020,Round 20,2020-10-02,penrith-panthers,sydney-roosters,29,28,Panthers Stadium
@@ -2380,8 +2380,8 @@ season,round,date,home_team,away_team,home_score,away_score,venue
 2020,Round 20,2020-10-17,penrith-panthers,south-sydney-rabbitohs,20,16,ANZ
 2020,Round 20,2020-10-25,penrith-panthers,melbourne-storm,20,26,ANZ
 2021,Round 1,2021-03-11,melbourne-storm,south-sydney-rabbitohs,26,18,AAMI
-2021,Round 1,2021-03-12,brisbane-broncos,parramatta-eels,16,24,Suncorp
 2021,Round 1,2021-03-12,newcastle-knights,canterbury-bankstown-bulldogs,32,16,McD. Jones
+2021,Round 1,2021-03-12,brisbane-broncos,parramatta-eels,16,24,Suncorp
 2021,Round 1,2021-03-13,penrith-panthers,north-queensland-cowboys,24,0,BlueBet
 2021,Round 1,2021-03-13,warriors,gold-coast-titans,19,6,Central Coast
 2021,Round 1,2021-03-13,sydney-roosters,manly-warringah-sea-eagles,46,4,SCG
@@ -2408,8 +2408,8 @@ season,round,date,home_team,away_team,home_score,away_score,venue
 2021,Round 4,2021-04-02,melbourne-storm,brisbane-broncos,40,6,AAMI
 2021,Round 4,2021-04-03,cronulla-sutherland-sharks,north-queensland-cowboys,48,10,Netstrata
 2021,Round 4,2021-04-03,gold-coast-titans,canberra-raiders,4,20,Netstrata
-2021,Round 4,2021-04-04,sydney-roosters,warriors,32,12,SCG
 2021,Round 4,2021-04-04,newcastle-knights,st-george-illawarra-dragons,13,22,McD. Jones
+2021,Round 4,2021-04-04,sydney-roosters,warriors,32,12,SCG
 2021,Round 4,2021-04-05,wests-tigers,parramatta-eels,22,36,ANZ
 2021,Round 5,2021-04-08,south-sydney-rabbitohs,brisbane-broncos,35,6,ANZ
 2021,Round 5,2021-04-09,warriors,manly-warringah-sea-eagles,12,13,Central Coast
@@ -2422,9 +2422,9 @@ season,round,date,home_team,away_team,home_score,away_score,venue
 2021,Round 6,2021-04-15,brisbane-broncos,penrith-panthers,12,20,Suncorp
 2021,Round 6,2021-04-16,newcastle-knights,cronulla-sutherland-sharks,26,22,McD. Jones
 2021,Round 6,2021-04-16,melbourne-storm,sydney-roosters,20,4,AAMI
-2021,Round 6,2021-04-17,manly-warringah-sea-eagles,gold-coast-titans,36,0,Glen Willow
-2021,Round 6,2021-04-17,canberra-raiders,parramatta-eels,10,35,GIO
 2021,Round 6,2021-04-17,south-sydney-rabbitohs,wests-tigers,18,14,ANZ
+2021,Round 6,2021-04-17,canberra-raiders,parramatta-eels,10,35,GIO
+2021,Round 6,2021-04-17,manly-warringah-sea-eagles,gold-coast-titans,36,0,Glen Willow
 2021,Round 6,2021-04-18,north-queensland-cowboys,canterbury-bankstown-bulldogs,30,18,QLD C. Bank
 2021,Round 6,2021-04-18,st-george-illawarra-dragons,warriors,14,20,Netstrata
 2021,Round 7,2021-04-22,penrith-panthers,newcastle-knights,24,6,BlueBet
@@ -2438,9 +2438,9 @@ season,round,date,home_team,away_team,home_score,away_score,venue
 2021,Round 8,2021-04-29,canberra-raiders,south-sydney-rabbitohs,20,34,GIO
 2021,Round 8,2021-04-30,melbourne-storm,cronulla-sutherland-sharks,40,14,AAMI
 2021,Round 8,2021-04-30,brisbane-broncos,gold-coast-titans,36,28,Suncorp
+2021,Round 8,2021-05-01,newcastle-knights,sydney-roosters,4,38,McD. Jones
 2021,Round 8,2021-05-01,canterbury-bankstown-bulldogs,parramatta-eels,10,32,ANZ
 2021,Round 8,2021-05-01,penrith-panthers,manly-warringah-sea-eagles,28,16,Carrington
-2021,Round 8,2021-05-01,newcastle-knights,sydney-roosters,4,38,McD. Jones
 2021,Round 8,2021-05-02,st-george-illawarra-dragons,wests-tigers,8,16,WIN
 2021,Round 8,2021-05-02,warriors,north-queensland-cowboys,24,20,Central Coast
 2021,Round 9,2021-05-06,south-sydney-rabbitohs,melbourne-storm,0,50,ANZ
@@ -2449,10 +2449,10 @@ season,round,date,home_team,away_team,home_score,away_score,venue
 2021,Round 9,2021-05-08,wests-tigers,gold-coast-titans,28,36,Campbelltown
 2021,Round 9,2021-05-08,north-queensland-cowboys,brisbane-broncos,19,18,QLD C. Bank
 2021,Round 9,2021-05-08,canberra-raiders,newcastle-knights,16,24,McDonalds Park
-2021,Round 9,2021-05-09,manly-warringah-sea-eagles,warriors,38,32,Lottoland
 2021,Round 9,2021-05-09,st-george-illawarra-dragons,canterbury-bankstown-bulldogs,32,12,Netstrata
-2021,Round 10,2021-05-14,manly-warringah-sea-eagles,brisbane-broncos,50,6,Suncorp
+2021,Round 9,2021-05-09,manly-warringah-sea-eagles,warriors,38,32,Lottoland
 2021,Round 10,2021-05-14,wests-tigers,newcastle-knights,36,18,Suncorp
+2021,Round 10,2021-05-14,manly-warringah-sea-eagles,brisbane-broncos,50,6,Suncorp
 2021,Round 10,2021-05-15,sydney-roosters,north-queensland-cowboys,30,16,Suncorp
 2021,Round 10,2021-05-15,cronulla-sutherland-sharks,south-sydney-rabbitohs,22,32,Suncorp
 2021,Round 10,2021-05-15,canterbury-bankstown-bulldogs,canberra-raiders,18,20,Suncorp
@@ -2465,8 +2465,8 @@ season,round,date,home_team,away_team,home_score,away_score,venue
 2021,Round 11,2021-05-22,gold-coast-titans,canterbury-bankstown-bulldogs,30,20,Cbus Super
 2021,Round 11,2021-05-22,sydney-roosters,brisbane-broncos,16,34,SCG
 2021,Round 11,2021-05-22,canberra-raiders,melbourne-storm,10,34,GIO
-2021,Round 11,2021-05-23,south-sydney-rabbitohs,penrith-panthers,12,56,Apex Oval
 2021,Round 11,2021-05-23,parramatta-eels,manly-warringah-sea-eagles,6,28,Bankwest
+2021,Round 11,2021-05-23,south-sydney-rabbitohs,penrith-panthers,12,56,Apex Oval
 2021,Round 12,2021-05-27,brisbane-broncos,melbourne-storm,12,40,Suncorp
 2021,Round 12,2021-05-28,north-queensland-cowboys,warriors,29,28,QLD C. Bank
 2021,Round 12,2021-05-28,wests-tigers,st-george-illawarra-dragons,34,18,Bankwest
@@ -2479,8 +2479,8 @@ season,round,date,home_team,away_team,home_score,away_score,venue
 2021,Round 13,2021-06-04,wests-tigers,penrith-panthers,26,6,Leichhardt
 2021,Round 13,2021-06-05,melbourne-storm,gold-coast-titans,20,14,Sunshine Coast
 2021,Round 13,2021-06-06,newcastle-knights,parramatta-eels,4,40,McD. Jones
-2021,Round 14,2021-06-11,cronulla-sutherland-sharks,penrith-panthers,19,18,Netstrata
 2021,Round 14,2021-06-11,manly-warringah-sea-eagles,north-queensland-cowboys,50,18,4 Pines
+2021,Round 14,2021-06-11,cronulla-sutherland-sharks,penrith-panthers,19,18,Netstrata
 2021,Round 14,2021-06-12,gold-coast-titans,sydney-roosters,34,35,Cbus Super
 2021,Round 14,2021-06-12,south-sydney-rabbitohs,newcastle-knights,24,10,ANZ
 2021,Round 14,2021-06-12,canberra-raiders,brisbane-broncos,38,16,GIO
@@ -2493,8 +2493,8 @@ season,round,date,home_team,away_team,home_score,away_score,venue
 2021,Round 15,2021-06-19,st-george-illawarra-dragons,canberra-raiders,22,20,WIN
 2021,Round 15,2021-06-19,newcastle-knights,warriors,10,6,McD. Jones
 2021,Round 15,2021-06-19,melbourne-storm,wests-tigers,66,16,Sunshine Coast
-2021,Round 15,2021-06-20,gold-coast-titans,manly-warringah-sea-eagles,24,56,Cbus Super
 2021,Round 15,2021-06-20,parramatta-eels,canterbury-bankstown-bulldogs,36,10,Bankwest
+2021,Round 15,2021-06-20,gold-coast-titans,manly-warringah-sea-eagles,24,56,Cbus Super
 2021,Round 16,2021-07-01,sydney-roosters,melbourne-storm,0,46,McD. Jones
 2021,Round 16,2021-07-02,warriors,st-george-illawarra-dragons,18,19,Central Coast
 2021,Round 16,2021-07-02,penrith-panthers,parramatta-eels,13,12,BlueBet
@@ -2507,8 +2507,8 @@ season,round,date,home_team,away_team,home_score,away_score,venue
 2021,Round 17,2021-07-09,south-sydney-rabbitohs,north-queensland-cowboys,46,18,McD. Jones
 2021,Round 17,2021-07-10,canterbury-bankstown-bulldogs,sydney-roosters,16,22,Bankwest
 2021,Round 17,2021-07-11,cronulla-sutherland-sharks,warriors,20,12,Netstrata
-2021,Round 18,2021-07-16,manly-warringah-sea-eagles,st-george-illawarra-dragons,32,18,Cbus Super
 2021,Round 18,2021-07-16,gold-coast-titans,parramatta-eels,8,26,Cbus Super
+2021,Round 18,2021-07-16,manly-warringah-sea-eagles,st-george-illawarra-dragons,32,18,Cbus Super
 2021,Round 18,2021-07-17,north-queensland-cowboys,sydney-roosters,18,34,QLD C. Bank
 2021,Round 18,2021-07-17,canberra-raiders,cronulla-sutherland-sharks,34,18,Cbus Super
 2021,Round 18,2021-07-17,melbourne-storm,newcastle-knights,48,4,Cbus Super
@@ -2521,8 +2521,8 @@ season,round,date,home_team,away_team,home_score,away_score,venue
 2021,Round 19,2021-07-24,penrith-panthers,brisbane-broncos,18,12,Suncorp
 2021,Round 19,2021-07-24,manly-warringah-sea-eagles,wests-tigers,44,24,Suncorp
 2021,Round 19,2021-07-24,south-sydney-rabbitohs,warriors,60,22,Sunshine Coast
-2021,Round 19,2021-07-25,canterbury-bankstown-bulldogs,cronulla-sutherland-sharks,24,44,Cbus Super
 2021,Round 19,2021-07-25,st-george-illawarra-dragons,gold-coast-titans,10,32,Cbus Super
+2021,Round 19,2021-07-25,canterbury-bankstown-bulldogs,cronulla-sutherland-sharks,24,44,Cbus Super
 2021,Round 20,2021-07-29,sydney-roosters,parramatta-eels,28,0,BB Print
 2021,Round 20,2021-07-30,brisbane-broncos,north-queensland-cowboys,37,18,Suncorp
 2021,Round 20,2021-07-30,wests-tigers,warriors,16,18,Suncorp
@@ -2534,9 +2534,9 @@ season,round,date,home_team,away_team,home_score,away_score,venue
 2021,Round 21,2021-08-05,newcastle-knights,brisbane-broncos,28,20,Suncorp
 2021,Round 21,2021-08-06,parramatta-eels,south-sydney-rabbitohs,12,40,Cbus Super
 2021,Round 21,2021-08-06,canberra-raiders,st-george-illawarra-dragons,20,12,Cbus Super
-2021,Round 21,2021-08-07,sydney-roosters,penrith-panthers,14,20,Suncorp
 2021,Round 21,2021-08-07,manly-warringah-sea-eagles,melbourne-storm,18,28,Suncorp
 2021,Round 21,2021-08-07,warriors,cronulla-sutherland-sharks,18,16,Cbus Super
+2021,Round 21,2021-08-07,sydney-roosters,penrith-panthers,14,20,Suncorp
 2021,Round 21,2021-08-08,gold-coast-titans,north-queensland-cowboys,36,14,Cbus Super
 2021,Round 21,2021-08-08,canterbury-bankstown-bulldogs,wests-tigers,16,28,Cbus Super
 2021,Round 22,2021-08-12,melbourne-storm,canberra-raiders,26,16,Sunshine Coast
@@ -2548,8 +2548,8 @@ season,round,date,home_team,away_team,home_score,away_score,venue
 2021,Round 22,2021-08-15,cronulla-sutherland-sharks,newcastle-knights,14,16,Moreton Daily
 2021,Round 22,2021-08-15,warriors,canterbury-bankstown-bulldogs,24,10,Moreton Daily
 2021,Round 23,2021-08-19,gold-coast-titans,melbourne-storm,20,34,Cbus Super
-2021,Round 23,2021-08-20,canberra-raiders,manly-warringah-sea-eagles,18,19,Suncorp
 2021,Round 23,2021-08-20,penrith-panthers,south-sydney-rabbitohs,25,12,Suncorp
+2021,Round 23,2021-08-20,canberra-raiders,manly-warringah-sea-eagles,18,19,Suncorp
 2021,Round 23,2021-08-21,wests-tigers,cronulla-sutherland-sharks,20,50,Browne Park
 2021,Round 23,2021-08-21,parramatta-eels,north-queensland-cowboys,32,16,Cbus Super
 2021,Round 23,2021-08-21,canterbury-bankstown-bulldogs,newcastle-knights,16,22,Cbus Super
@@ -2589,11 +2589,11 @@ season,round,date,home_team,away_team,home_score,away_score,venue
 2022,Round 1,2022-03-13,north-queensland-cowboys,canterbury-bankstown-bulldogs,4,6,QLD C. Bank
 2022,Round 1,2022-03-13,parramatta-eels,gold-coast-titans,32,28,CommBank
 2022,Round 2,2022-03-17,melbourne-storm,south-sydney-rabbitohs,15,14,AAMI
-2022,Round 2,2022-03-18,st-george-illawarra-dragons,penrith-panthers,16,20,Netstrata
 2022,Round 2,2022-03-18,sydney-roosters,manly-warringah-sea-eagles,26,12,SCG
-2022,Round 2,2022-03-19,north-queensland-cowboys,canberra-raiders,26,6,QLD C. Bank
-2022,Round 2,2022-03-19,gold-coast-titans,warriors,20,18,Cbus Super
+2022,Round 2,2022-03-18,st-george-illawarra-dragons,penrith-panthers,16,20,Netstrata
 2022,Round 2,2022-03-19,cronulla-sutherland-sharks,parramatta-eels,18,16,Pointsbet
+2022,Round 2,2022-03-19,gold-coast-titans,warriors,20,18,Cbus Super
+2022,Round 2,2022-03-19,north-queensland-cowboys,canberra-raiders,26,6,QLD C. Bank
 2022,Round 2,2022-03-20,newcastle-knights,wests-tigers,26,4,McD. Jones
 2022,Round 2,2022-03-20,canterbury-bankstown-bulldogs,brisbane-broncos,10,16,Accor
 2022,Round 3 - Multicultural Round,2022-03-24,st-george-illawarra-dragons,cronulla-sutherland-sharks,12,36,WIN
@@ -2605,8 +2605,8 @@ season,round,date,home_team,away_team,home_score,away_score,venue
 2022,Round 3 - Multicultural Round,2022-03-27,brisbane-broncos,north-queensland-cowboys,12,38,Suncorp
 2022,Round 3 - Multicultural Round,2022-03-27,manly-warringah-sea-eagles,canterbury-bankstown-bulldogs,13,12,4 Pines
 2022,Round 4,2022-03-31,gold-coast-titans,wests-tigers,8,6,Cbus Super
-2022,Round 4,2022-04-01,cronulla-sutherland-sharks,newcastle-knights,18,0,Pointsbet
 2022,Round 4,2022-04-01,penrith-panthers,south-sydney-rabbitohs,26,12,BlueBet
+2022,Round 4,2022-04-01,cronulla-sutherland-sharks,newcastle-knights,18,0,Pointsbet
 2022,Round 4,2022-04-02,warriors,brisbane-broncos,20,6,Moreton Daily
 2022,Round 4,2022-04-02,manly-warringah-sea-eagles,canberra-raiders,25,6,Glen Willow
 2022,Round 4,2022-04-02,north-queensland-cowboys,sydney-roosters,4,28,QLD C. Bank
@@ -2634,8 +2634,8 @@ season,round,date,home_team,away_team,home_score,away_score,venue
 2022,Round 7 - ANZAC Round,2022-04-23,north-queensland-cowboys,gold-coast-titans,30,4,QLD C. Bank
 2022,Round 7 - ANZAC Round,2022-04-24,penrith-panthers,canberra-raiders,36,6,BlueBet
 2022,Round 7 - ANZAC Round,2022-04-24,newcastle-knights,parramatta-eels,2,39,McD. Jones
-2022,Round 7 - ANZAC Round,2022-04-25,melbourne-storm,warriors,70,10,AAMI
 2022,Round 7 - ANZAC Round,2022-04-25,st-george-illawarra-dragons,sydney-roosters,14,12,SCG
+2022,Round 7 - ANZAC Round,2022-04-25,melbourne-storm,warriors,70,10,AAMI
 2022,Round 8,2022-04-28,brisbane-broncos,cronulla-sutherland-sharks,16,7,Suncorp
 2022,Round 8,2022-04-29,gold-coast-titans,penrith-panthers,4,18,Cbus Super
 2022,Round 8,2022-04-29,south-sydney-rabbitohs,manly-warringah-sea-eagles,40,22,Central Coast
@@ -2647,9 +2647,9 @@ season,round,date,home_team,away_team,home_score,away_score,venue
 2022,Round 9,2022-05-05,south-sydney-rabbitohs,brisbane-broncos,12,32,Accor
 2022,Round 9,2022-05-06,canberra-raiders,canterbury-bankstown-bulldogs,14,4,GIO
 2022,Round 9,2022-05-06,penrith-panthers,parramatta-eels,20,22,BlueBet
-2022,Round 9,2022-05-07,north-queensland-cowboys,newcastle-knights,36,16,QLD C. Bank
-2022,Round 9,2022-05-07,manly-warringah-sea-eagles,wests-tigers,36,22,4 Pines
 2022,Round 9,2022-05-07,sydney-roosters,gold-coast-titans,44,16,BB Print
+2022,Round 9,2022-05-07,manly-warringah-sea-eagles,wests-tigers,36,22,4 Pines
+2022,Round 9,2022-05-07,north-queensland-cowboys,newcastle-knights,36,16,QLD C. Bank
 2022,Round 9,2022-05-08,melbourne-storm,st-george-illawarra-dragons,42,6,AAMI
 2022,Round 9,2022-05-08,cronulla-sutherland-sharks,warriors,29,10,Pointsbet
 2022,Round 10 - Magic Round,2022-05-13,manly-warringah-sea-eagles,brisbane-broncos,0,38,Suncorp
@@ -2661,8 +2661,8 @@ season,round,date,home_team,away_team,home_score,away_score,venue
 2022,Round 10 - Magic Round,2022-05-15,sydney-roosters,parramatta-eels,31,24,Suncorp
 2022,Round 10 - Magic Round,2022-05-15,cronulla-sutherland-sharks,canberra-raiders,10,30,Suncorp
 2022,Round 11,2022-05-19,newcastle-knights,brisbane-broncos,12,36,McD. Jones
-2022,Round 11,2022-05-20,parramatta-eels,manly-warringah-sea-eagles,22,20,CommBank
 2022,Round 11,2022-05-20,wests-tigers,canterbury-bankstown-bulldogs,36,22,Leichhardt
+2022,Round 11,2022-05-20,parramatta-eels,manly-warringah-sea-eagles,22,20,CommBank
 2022,Round 11,2022-05-21,north-queensland-cowboys,melbourne-storm,36,6,QLD C. Bank
 2022,Round 11,2022-05-21,st-george-illawarra-dragons,warriors,24,18,Netstrata
 2022,Round 11,2022-05-21,sydney-roosters,penrith-panthers,12,32,SCG
@@ -2689,8 +2689,8 @@ season,round,date,home_team,away_team,home_score,away_score,venue
 2022,Round 14,2022-06-12,wests-tigers,manly-warringah-sea-eagles,4,30,Campbelltown
 2022,Round 14,2022-06-13,canterbury-bankstown-bulldogs,parramatta-eels,34,4,Accor
 2022,Round 15,2022-06-16,st-george-illawarra-dragons,south-sydney-rabbitohs,32,12,WIN
-2022,Round 15,2022-06-17,manly-warringah-sea-eagles,north-queensland-cowboys,26,28,4 Pines
 2022,Round 15,2022-06-17,melbourne-storm,brisbane-broncos,32,20,AAMI
+2022,Round 15,2022-06-17,manly-warringah-sea-eagles,north-queensland-cowboys,26,28,4 Pines
 2022,Round 15,2022-06-18,warriors,penrith-panthers,6,40,Moreton Daily
 2022,Round 15,2022-06-18,parramatta-eels,sydney-roosters,26,16,CommBank
 2022,Round 15,2022-06-18,cronulla-sutherland-sharks,gold-coast-titans,18,10,C.ex Coffs
@@ -2702,8 +2702,8 @@ season,round,date,home_team,away_team,home_score,away_score,venue
 2022,Round 16 - Beanies for Brain Cancer Round,2022-07-02,north-queensland-cowboys,brisbane-broncos,40,26,QLD C. Bank
 2022,Round 16 - Beanies for Brain Cancer Round,2022-07-02,south-sydney-rabbitohs,parramatta-eels,30,12,Accor
 2022,Round 16 - Beanies for Brain Cancer Round,2022-07-02,canterbury-bankstown-bulldogs,cronulla-sutherland-sharks,6,18,CommBank
-2022,Round 16 - Beanies for Brain Cancer Round,2022-07-03,warriors,wests-tigers,22,2,Mt Smart
 2022,Round 16 - Beanies for Brain Cancer Round,2022-07-03,st-george-illawarra-dragons,canberra-raiders,12,10,WIN
+2022,Round 16 - Beanies for Brain Cancer Round,2022-07-03,warriors,wests-tigers,22,2,Mt Smart
 2022,Round 17,2022-07-07,cronulla-sutherland-sharks,melbourne-storm,28,6,Pointsbet
 2022,Round 17,2022-07-08,newcastle-knights,south-sydney-rabbitohs,28,40,McD. Jones
 2022,Round 17,2022-07-09,wests-tigers,parramatta-eels,20,28,Leichhardt
@@ -2717,8 +2717,8 @@ season,round,date,home_team,away_team,home_score,away_score,venue
 2022,Round 18,2022-07-17,melbourne-storm,canberra-raiders,16,20,AAMI
 2022,Round 18,2022-07-17,wests-tigers,penrith-panthers,16,18,CommBank
 2022,Round 19,2022-07-21,parramatta-eels,brisbane-broncos,14,36,CommBank
-2022,Round 19,2022-07-22,newcastle-knights,sydney-roosters,12,42,McD. Jones
 2022,Round 19,2022-07-22,st-george-illawarra-dragons,manly-warringah-sea-eagles,20,6,Netstrata
+2022,Round 19,2022-07-22,newcastle-knights,sydney-roosters,12,42,McD. Jones
 2022,Round 19,2022-07-23,canberra-raiders,warriors,26,14,GIO
 2022,Round 19,2022-07-23,penrith-panthers,cronulla-sutherland-sharks,20,10,BlueBet
 2022,Round 19,2022-07-23,south-sydney-rabbitohs,melbourne-storm,24,12,Accor
@@ -2746,8 +2746,8 @@ season,round,date,home_team,away_team,home_score,away_score,venue
 2022,Round 22,2022-08-13,sydney-roosters,north-queensland-cowboys,32,18,SCG
 2022,Round 22,2022-08-13,wests-tigers,cronulla-sutherland-sharks,12,36,Scully
 2022,Round 22,2022-08-13,brisbane-broncos,newcastle-knights,28,10,Suncorp
-2022,Round 22,2022-08-14,canberra-raiders,st-george-illawarra-dragons,24,22,GIO
 2022,Round 22,2022-08-14,gold-coast-titans,manly-warringah-sea-eagles,44,24,Cbus Super
+2022,Round 22,2022-08-14,canberra-raiders,st-george-illawarra-dragons,24,22,GIO
 2022,Round 23,2022-08-18,south-sydney-rabbitohs,penrith-panthers,22,26,Accor
 2022,Round 23,2022-08-19,north-queensland-cowboys,warriors,48,4,QLD C. Bank
 2022,Round 23,2022-08-19,brisbane-broncos,melbourne-storm,12,60,Suncorp
@@ -2759,9 +2759,9 @@ season,round,date,home_team,away_team,home_score,away_score,venue
 2022,Round 24,2022-08-25,brisbane-broncos,parramatta-eels,6,53,Suncorp
 2022,Round 24,2022-08-26,melbourne-storm,sydney-roosters,14,18,AAMI
 2022,Round 24,2022-08-26,penrith-panthers,warriors,46,12,BlueBet
-2022,Round 24,2022-08-27,canberra-raiders,manly-warringah-sea-eagles,48,6,GIO
 2022,Round 24,2022-08-27,cronulla-sutherland-sharks,canterbury-bankstown-bulldogs,16,0,Pointsbet
 2022,Round 24,2022-08-27,south-sydney-rabbitohs,north-queensland-cowboys,20,10,Accor
+2022,Round 24,2022-08-27,canberra-raiders,manly-warringah-sea-eagles,48,6,GIO
 2022,Round 24,2022-08-28,wests-tigers,st-george-illawarra-dragons,22,24,CommBank
 2022,Round 24,2022-08-28,gold-coast-titans,newcastle-knights,36,26,Cbus Super
 2022,Round 25,2022-09-01,parramatta-eels,melbourne-storm,22,14,CommBank
@@ -2773,8 +2773,8 @@ season,round,date,home_team,away_team,home_score,away_score,venue
 2022,Round 25,2022-09-04,wests-tigers,canberra-raiders,10,56,Leichhardt
 2022,Round 25,2022-09-04,newcastle-knights,cronulla-sutherland-sharks,16,38,McD. Jones
 2022,Round 25,2022-09-09,penrith-panthers,parramatta-eels,27,8,BlueBet
-2022,Round 25,2022-09-10,cronulla-sutherland-sharks,north-queensland-cowboys,30,32,Pointsbet
 2022,Round 25,2022-09-10,melbourne-storm,canberra-raiders,20,28,AAMI
+2022,Round 25,2022-09-10,cronulla-sutherland-sharks,north-queensland-cowboys,30,32,Pointsbet
 2022,Round 25,2022-09-11,sydney-roosters,south-sydney-rabbitohs,14,30,Allianz
 2022,Round 25,2022-09-16,parramatta-eels,canberra-raiders,40,4,CommBank
 2022,Round 25,2022-09-17,cronulla-sutherland-sharks,south-sydney-rabbitohs,12,38,Allianz
@@ -2784,11 +2784,11 @@ season,round,date,home_team,away_team,home_score,away_score,venue
 2023,Round 1,2023-03-02,parramatta-eels,melbourne-storm,12,16,CommBank
 2023,Round 1,2023-03-03,penrith-panthers,brisbane-broncos,12,13,BlueBet
 2023,Round 1,2023-03-03,warriors,newcastle-knights,20,12,Sky Stadium
+2023,Round 1,2023-03-04,cronulla-sutherland-sharks,south-sydney-rabbitohs,18,27,Pointsbet
 2023,Round 1,2023-03-04,manly-warringah-sea-eagles,canterbury-bankstown-bulldogs,31,6,4 Pines
 2023,Round 1,2023-03-04,north-queensland-cowboys,canberra-raiders,19,18,QLD C. Bank
-2023,Round 1,2023-03-04,cronulla-sutherland-sharks,south-sydney-rabbitohs,18,27,Pointsbet
-2023,Round 1,2023-03-05,dolphins,sydney-roosters,28,18,Suncorp
 2023,Round 1,2023-03-05,wests-tigers,gold-coast-titans,10,22,Leichhardt
+2023,Round 1,2023-03-05,dolphins,sydney-roosters,28,18,Suncorp
 2023,Round 2,2023-03-09,penrith-panthers,south-sydney-rabbitohs,16,10,BlueBet
 2023,Round 2,2023-03-10,brisbane-broncos,north-queensland-cowboys,28,16,Suncorp
 2023,Round 2,2023-03-10,parramatta-eels,cronulla-sutherland-sharks,26,30,CommBank
@@ -2800,9 +2800,9 @@ season,round,date,home_team,away_team,home_score,away_score,venue
 2023,Round 3,2023-03-16,manly-warringah-sea-eagles,parramatta-eels,34,30,4 Pines
 2023,Round 3,2023-03-17,newcastle-knights,dolphins,20,36,McD. Jones
 2023,Round 3,2023-03-17,sydney-roosters,south-sydney-rabbitohs,20,18,Allianz
-2023,Round 3,2023-03-18,brisbane-broncos,st-george-illawarra-dragons,40,18,Suncorp
-2023,Round 3,2023-03-18,north-queensland-cowboys,warriors,12,26,QLD C. Bank
 2023,Round 3,2023-03-18,gold-coast-titans,melbourne-storm,38,34,Cbus Super
+2023,Round 3,2023-03-18,north-queensland-cowboys,warriors,12,26,QLD C. Bank
+2023,Round 3,2023-03-18,brisbane-broncos,st-george-illawarra-dragons,40,18,Suncorp
 2023,Round 3,2023-03-19,canberra-raiders,cronulla-sutherland-sharks,24,20,GIO
 2023,Round 3,2023-03-19,canterbury-bankstown-bulldogs,wests-tigers,26,22,Belmore
 2023,Round 4,2023-03-23,parramatta-eels,penrith-panthers,17,16,CommBank
@@ -2814,11 +2814,11 @@ season,round,date,home_team,away_team,home_score,away_score,venue
 2023,Round 4,2023-03-26,st-george-illawarra-dragons,cronulla-sutherland-sharks,8,40,Netstrata
 2023,Round 4,2023-03-26,warriors,canterbury-bankstown-bulldogs,16,14,Mt Smart
 2023,Round 5,2023-03-30,sydney-roosters,parramatta-eels,28,20,Allianz
-2023,Round 5,2023-03-31,canberra-raiders,penrith-panthers,12,53,GIO
 2023,Round 5,2023-03-31,south-sydney-rabbitohs,melbourne-storm,10,18,Accor
-2023,Round 5,2023-04-01,brisbane-broncos,wests-tigers,46,12,Suncorp
-2023,Round 5,2023-04-01,manly-warringah-sea-eagles,newcastle-knights,32,32,Glen Willow
+2023,Round 5,2023-03-31,canberra-raiders,penrith-panthers,12,53,GIO
 2023,Round 5,2023-04-01,st-george-illawarra-dragons,dolphins,38,12,WIN
+2023,Round 5,2023-04-01,manly-warringah-sea-eagles,newcastle-knights,32,32,Glen Willow
+2023,Round 5,2023-04-01,brisbane-broncos,wests-tigers,46,12,Suncorp
 2023,Round 5,2023-04-02,canterbury-bankstown-bulldogs,north-queensland-cowboys,15,14,Accor
 2023,Round 5,2023-04-02,cronulla-sutherland-sharks,warriors,30,32,Pointsbet
 2023,Round 6,2023-04-06,melbourne-storm,sydney-roosters,28,8,AAMI
@@ -2830,8 +2830,8 @@ season,round,date,home_team,away_team,home_score,away_score,venue
 2023,Round 6,2023-04-09,gold-coast-titans,st-george-illawarra-dragons,20,18,Cbus Super
 2023,Round 6,2023-04-10,wests-tigers,parramatta-eels,22,28,Accor
 2023,Round 7,2023-04-13,dolphins,south-sydney-rabbitohs,14,36,Suncorp
-2023,Round 7,2023-04-14,cronulla-sutherland-sharks,sydney-roosters,22,12,Pointsbet
 2023,Round 7,2023-04-14,manly-warringah-sea-eagles,melbourne-storm,18,8,4 Pines
+2023,Round 7,2023-04-14,cronulla-sutherland-sharks,sydney-roosters,22,12,Pointsbet
 2023,Round 7,2023-04-15,newcastle-knights,penrith-panthers,15,16,McD. Jones
 2023,Round 7,2023-04-15,gold-coast-titans,brisbane-broncos,26,43,Cbus Super
 2023,Round 7,2023-04-15,warriors,north-queensland-cowboys,22,14,Mt Smart
@@ -2858,9 +2858,9 @@ season,round,date,home_team,away_team,home_score,away_score,venue
 2023,Round 10 - Magic Round,2023-05-06,melbourne-storm,south-sydney-rabbitohs,12,28,Suncorp
 2023,Round 10 - Magic Round,2023-05-06,warriors,penrith-panthers,6,18,Suncorp
 2023,Round 10 - Magic Round,2023-05-06,cronulla-sutherland-sharks,dolphins,16,36,Suncorp
-2023,Round 10 - Magic Round,2023-05-07,gold-coast-titans,parramatta-eels,26,24,Suncorp
-2023,Round 10 - Magic Round,2023-05-07,wests-tigers,st-george-illawarra-dragons,18,16,Suncorp
 2023,Round 10 - Magic Round,2023-05-07,sydney-roosters,north-queensland-cowboys,6,20,Suncorp
+2023,Round 10 - Magic Round,2023-05-07,wests-tigers,st-george-illawarra-dragons,18,16,Suncorp
+2023,Round 10 - Magic Round,2023-05-07,gold-coast-titans,parramatta-eels,26,24,Suncorp
 2023,Round 11,2023-05-11,melbourne-storm,brisbane-broncos,24,16,AAMI
 2023,Round 11,2023-05-12,canterbury-bankstown-bulldogs,warriors,12,24,Accor
 2023,Round 11,2023-05-12,penrith-panthers,sydney-roosters,48,4,BlueBet
@@ -2872,9 +2872,9 @@ season,round,date,home_team,away_team,home_score,away_score,venue
 2023,Round 12 - Indigenous Round,2023-05-18,brisbane-broncos,penrith-panthers,4,15,Suncorp
 2023,Round 12 - Indigenous Round,2023-05-19,south-sydney-rabbitohs,parramatta-eels,16,36,Allianz
 2023,Round 12 - Indigenous Round,2023-05-19,st-george-illawarra-dragons,sydney-roosters,24,22,Netstrata
-2023,Round 12 - Indigenous Round,2023-05-20,wests-tigers,north-queensland-cowboys,66,18,Leichhardt
-2023,Round 12 - Indigenous Round,2023-05-20,cronulla-sutherland-sharks,newcastle-knights,26,6,C.ex Coffs
 2023,Round 12 - Indigenous Round,2023-05-20,dolphins,melbourne-storm,16,24,Suncorp
+2023,Round 12 - Indigenous Round,2023-05-20,cronulla-sutherland-sharks,newcastle-knights,26,6,C.ex Coffs
+2023,Round 12 - Indigenous Round,2023-05-20,wests-tigers,north-queensland-cowboys,66,18,Leichhardt
 2023,Round 12 - Indigenous Round,2023-05-21,canberra-raiders,manly-warringah-sea-eagles,14,42,GIO
 2023,Round 12 - Indigenous Round,2023-05-21,canterbury-bankstown-bulldogs,gold-coast-titans,20,18,Accor
 2023,Round 13,2023-05-25,dolphins,st-george-illawarra-dragons,26,12,Kayo
@@ -2886,9 +2886,9 @@ season,round,date,home_team,away_team,home_score,away_score,venue
 2023,Round 14,2023-06-03,cronulla-sutherland-sharks,brisbane-broncos,12,20,Pointsbet
 2023,Round 14,2023-06-03,warriors,dolphins,30,8,Go Media
 2023,Round 14,2023-06-03,gold-coast-titans,south-sydney-rabbitohs,28,46,Cbus Super
-2023,Round 14,2023-06-04,sydney-roosters,canterbury-bankstown-bulldogs,25,24,Industree
-2023,Round 14,2023-06-04,north-queensland-cowboys,melbourne-storm,45,20,QLD C. Bank
 2023,Round 14,2023-06-04,penrith-panthers,st-george-illawarra-dragons,26,18,BlueBet
+2023,Round 14,2023-06-04,north-queensland-cowboys,melbourne-storm,45,20,QLD C. Bank
+2023,Round 14,2023-06-04,sydney-roosters,canterbury-bankstown-bulldogs,25,24,Industree
 2023,Round 15,2023-06-08,gold-coast-titans,wests-tigers,28,12,Cbus Super
 2023,Round 15,2023-06-09,canberra-raiders,warriors,14,36,GIO
 2023,Round 15,2023-06-09,manly-warringah-sea-eagles,dolphins,58,18,4 Pines
@@ -2915,8 +2915,8 @@ season,round,date,home_team,away_team,home_score,away_score,venue
 2023,Round 18 - Beanies for Brain Cancer Round,2023-07-01,canberra-raiders,gold-coast-titans,26,22,GIO
 2023,Round 18 - Beanies for Brain Cancer Round,2023-07-01,north-queensland-cowboys,wests-tigers,74,0,QLD C. Bank
 2023,Round 18 - Beanies for Brain Cancer Round,2023-07-01,brisbane-broncos,dolphins,24,16,The Gabba
-2023,Round 18 - Beanies for Brain Cancer Round,2023-07-02,canterbury-bankstown-bulldogs,newcastle-knights,0,66,Accor
 2023,Round 18 - Beanies for Brain Cancer Round,2023-07-02,manly-warringah-sea-eagles,sydney-roosters,18,16,4 Pines
+2023,Round 18 - Beanies for Brain Cancer Round,2023-07-02,canterbury-bankstown-bulldogs,newcastle-knights,0,66,Accor
 2023,Round 19,2023-07-06,wests-tigers,cronulla-sutherland-sharks,12,36,CommBank
 2023,Round 19,2023-07-07,st-george-illawarra-dragons,canberra-raiders,26,36,WIN
 2023,Round 19,2023-07-08,south-sydney-rabbitohs,canterbury-bankstown-bulldogs,32,36,Accor
@@ -2930,8 +2930,8 @@ season,round,date,home_team,away_team,home_score,away_score,venue
 2023,Round 20,2023-07-16,warriors,cronulla-sutherland-sharks,44,12,Go Media
 2023,Round 20,2023-07-16,dolphins,penrith-panthers,14,24,Kayo
 2023,Round 21,2023-07-20,st-george-illawarra-dragons,wests-tigers,18,14,WIN
-2023,Round 21,2023-07-21,warriors,canberra-raiders,21,20,Go Media
 2023,Round 21,2023-07-21,south-sydney-rabbitohs,brisbane-broncos,20,36,Sunshine Coast
+2023,Round 21,2023-07-21,warriors,canberra-raiders,21,20,Go Media
 2023,Round 21,2023-07-22,north-queensland-cowboys,parramatta-eels,24,16,QLD C. Bank
 2023,Round 21,2023-07-22,gold-coast-titans,sydney-roosters,18,36,Cbus Super
 2023,Round 21,2023-07-22,newcastle-knights,melbourne-storm,26,18,McD. Jones
@@ -2943,8 +2943,8 @@ season,round,date,home_team,away_team,home_score,away_score,venue
 2023,Round 22 - Women in League Round,2023-07-29,penrith-panthers,cronulla-sutherland-sharks,28,0,BlueBet
 2023,Round 22 - Women in League Round,2023-07-29,canberra-raiders,newcastle-knights,6,28,GIO
 2023,Round 22 - Women in League Round,2023-07-29,st-george-illawarra-dragons,manly-warringah-sea-eagles,18,24,WIN
-2023,Round 22 - Women in League Round,2023-07-30,canterbury-bankstown-bulldogs,dolphins,23,22,Salter
 2023,Round 22 - Women in League Round,2023-07-30,gold-coast-titans,north-queensland-cowboys,22,13,Cbus Super
+2023,Round 22 - Women in League Round,2023-07-30,canterbury-bankstown-bulldogs,dolphins,23,22,Salter
 2023,Round 23,2023-08-03,sydney-roosters,manly-warringah-sea-eagles,26,16,SCG
 2023,Round 23,2023-08-04,gold-coast-titans,warriors,18,28,Cbus Super
 2023,Round 23,2023-08-04,penrith-panthers,melbourne-storm,26,6,BlueBet
@@ -2956,9 +2956,9 @@ season,round,date,home_team,away_team,home_score,away_score,venue
 2023,Round 24,2023-08-10,manly-warringah-sea-eagles,penrith-panthers,12,24,4 Pines
 2023,Round 24,2023-08-11,brisbane-broncos,parramatta-eels,54,10,The Gabba
 2023,Round 24,2023-08-11,cronulla-sutherland-sharks,gold-coast-titans,36,6,Pointsbet
-2023,Round 24,2023-08-12,sydney-roosters,dolphins,30,14,Allianz
 2023,Round 24,2023-08-12,south-sydney-rabbitohs,st-george-illawarra-dragons,26,14,Barlow
 2023,Round 24,2023-08-12,wests-tigers,warriors,22,30,FMG
+2023,Round 24,2023-08-12,sydney-roosters,dolphins,30,14,Allianz
 2023,Round 24,2023-08-13,newcastle-knights,canterbury-bankstown-bulldogs,42,6,McD. Jones
 2023,Round 24,2023-08-13,melbourne-storm,canberra-raiders,48,2,AAMI
 2023,Round 25,2023-08-17,north-queensland-cowboys,cronulla-sutherland-sharks,12,32,QLD C. Bank
@@ -2970,8 +2970,8 @@ season,round,date,home_team,away_team,home_score,away_score,venue
 2023,Round 25,2023-08-20,canberra-raiders,canterbury-bankstown-bulldogs,36,24,GIO
 2023,Round 25,2023-08-20,newcastle-knights,south-sydney-rabbitohs,29,10,McD. Jones
 2023,Round 26,2023-08-24,penrith-panthers,parramatta-eels,18,32,BlueBet
-2023,Round 26,2023-08-25,dolphins,north-queensland-cowboys,10,34,Suncorp
 2023,Round 26,2023-08-25,warriors,st-george-illawarra-dragons,18,6,Go Media
+2023,Round 26,2023-08-25,dolphins,north-queensland-cowboys,10,34,Suncorp
 2023,Round 26,2023-08-26,canberra-raiders,brisbane-broncos,18,29,GIO
 2023,Round 26,2023-08-26,sydney-roosters,wests-tigers,32,8,Allianz
 2023,Round 26,2023-08-26,melbourne-storm,gold-coast-titans,37,16,AAMI
@@ -2983,11 +2983,11 @@ season,round,date,home_team,away_team,home_score,away_score,venue
 2023,Round 27,2023-09-02,penrith-panthers,north-queensland-cowboys,44,12,BlueBet
 2023,Round 27,2023-09-02,st-george-illawarra-dragons,newcastle-knights,12,32,Netstrata
 2023,Round 27,2023-09-02,dolphins,warriors,34,10,Suncorp
-2023,Round 27,2023-09-03,cronulla-sutherland-sharks,canberra-raiders,24,6,Pointsbet
 2023,Round 27,2023-09-03,gold-coast-titans,canterbury-bankstown-bulldogs,34,30,Cbus Super
+2023,Round 27,2023-09-03,cronulla-sutherland-sharks,canberra-raiders,24,6,Pointsbet
 2023,Round 27,2023-09-08,brisbane-broncos,melbourne-storm,26,0,Suncorp
-2023,Round 27,2023-09-09,penrith-panthers,warriors,32,6,BlueBet
 2023,Round 27,2023-09-09,cronulla-sutherland-sharks,sydney-roosters,12,13,Pointsbet
+2023,Round 27,2023-09-09,penrith-panthers,warriors,32,6,BlueBet
 2023,Round 27,2023-09-10,newcastle-knights,canberra-raiders,30,28,McD. Jones
 2023,Round 27,2023-09-15,melbourne-storm,sydney-roosters,18,13,AAMI
 2023,Round 27,2023-09-16,warriors,newcastle-knights,40,10,Go Media
@@ -2999,8 +2999,8 @@ season,round,date,home_team,away_team,home_score,away_score,venue
 2024,Round 1,2024-03-07,newcastle-knights,canberra-raiders,12,28,McD. Jones
 2024,Round 1,2024-03-08,warriors,cronulla-sutherland-sharks,12,16,Go Media
 2024,Round 1,2024-03-08,melbourne-storm,penrith-panthers,8,0,AAMI
-2024,Round 1,2024-03-09,parramatta-eels,canterbury-bankstown-bulldogs,26,8,CommBank
 2024,Round 1,2024-03-09,gold-coast-titans,st-george-illawarra-dragons,4,28,Cbus Super
+2024,Round 1,2024-03-09,parramatta-eels,canterbury-bankstown-bulldogs,26,8,CommBank
 2024,Round 1,2024-03-10,dolphins,north-queensland-cowboys,18,43,Suncorp
 2024,Round 2,2024-03-14,brisbane-broncos,south-sydney-rabbitohs,28,18,Suncorp
 2024,Round 2,2024-03-15,penrith-panthers,parramatta-eels,26,18,BlueBet
@@ -3011,11 +3011,11 @@ season,round,date,home_team,away_team,home_score,away_score,venue
 2024,Round 2,2024-03-17,manly-warringah-sea-eagles,sydney-roosters,21,14,4 Pines
 2024,Round 2,2024-03-17,dolphins,st-george-illawarra-dragons,38,0,Kayo
 2024,Round 3 - Multicultural Round,2024-03-21,penrith-panthers,brisbane-broncos,34,12,BlueBet
-2024,Round 3 - Multicultural Round,2024-03-22,sydney-roosters,south-sydney-rabbitohs,48,6,Allianz
 2024,Round 3 - Multicultural Round,2024-03-22,warriors,canberra-raiders,18,10,Apollo
-2024,Round 3 - Multicultural Round,2024-03-23,st-george-illawarra-dragons,north-queensland-cowboys,24,46,Netstrata
-2024,Round 3 - Multicultural Round,2024-03-23,wests-tigers,cronulla-sutherland-sharks,32,6,Leichhardt
+2024,Round 3 - Multicultural Round,2024-03-22,sydney-roosters,south-sydney-rabbitohs,48,6,Allianz
 2024,Round 3 - Multicultural Round,2024-03-23,canterbury-bankstown-bulldogs,gold-coast-titans,32,0,Belmore
+2024,Round 3 - Multicultural Round,2024-03-23,wests-tigers,cronulla-sutherland-sharks,32,6,Leichhardt
+2024,Round 3 - Multicultural Round,2024-03-23,st-george-illawarra-dragons,north-queensland-cowboys,24,46,Netstrata
 2024,Round 3 - Multicultural Round,2024-03-24,parramatta-eels,manly-warringah-sea-eagles,28,24,CommBank
 2024,Round 3 - Multicultural Round,2024-03-24,newcastle-knights,melbourne-storm,14,12,McD. Jones
 2024,Round 4,2024-03-28,sydney-roosters,penrith-panthers,16,22,Allianz
@@ -3027,8 +3027,8 @@ season,round,date,home_team,away_team,home_score,away_score,venue
 2024,Round 4,2024-03-31,cronulla-sutherland-sharks,canberra-raiders,36,22,Sharks
 2024,Round 4,2024-04-01,parramatta-eels,wests-tigers,16,17,CommBank
 2024,Round 5,2024-04-04,melbourne-storm,brisbane-broncos,34,32,AAMI
-2024,Round 5,2024-04-05,newcastle-knights,st-george-illawarra-dragons,30,10,McD. Jones
 2024,Round 5,2024-04-05,canterbury-bankstown-bulldogs,sydney-roosters,30,26,Accor
+2024,Round 5,2024-04-05,newcastle-knights,st-george-illawarra-dragons,30,10,McD. Jones
 2024,Round 5,2024-04-06,south-sydney-rabbitohs,warriors,4,34,Accor
 2024,Round 5,2024-04-06,dolphins,wests-tigers,26,16,Suncorp
 2024,Round 5,2024-04-06,manly-warringah-sea-eagles,penrith-panthers,32,18,4 Pines
@@ -3043,8 +3043,8 @@ season,round,date,home_team,away_team,home_score,away_score,venue
 2024,Round 6,2024-04-14,canberra-raiders,gold-coast-titans,21,20,GIO
 2024,Round 6,2024-04-14,wests-tigers,st-george-illawarra-dragons,12,24,Campbelltown
 2024,Round 7,2024-04-18,sydney-roosters,melbourne-storm,12,18,Allianz
-2024,Round 7,2024-04-19,parramatta-eels,dolphins,16,44,TIO
 2024,Round 7,2024-04-19,st-george-illawarra-dragons,warriors,30,12,WIN
+2024,Round 7,2024-04-19,parramatta-eels,dolphins,16,44,TIO
 2024,Round 7,2024-04-20,brisbane-broncos,canberra-raiders,34,10,Suncorp
 2024,Round 7,2024-04-20,gold-coast-titans,manly-warringah-sea-eagles,30,34,Cbus Super
 2024,Round 7,2024-04-20,penrith-panthers,wests-tigers,22,6,Carrington
@@ -3072,8 +3072,8 @@ season,round,date,home_team,away_team,home_score,away_score,venue
 2024,Round 10,2024-05-11,wests-tigers,newcastle-knights,14,20,Scully
 2024,Round 10,2024-05-11,st-george-illawarra-dragons,south-sydney-rabbitohs,28,14,Netstrata
 2024,Round 10,2024-05-11,melbourne-storm,cronulla-sutherland-sharks,18,25,AAMI
-2024,Round 10,2024-05-12,gold-coast-titans,north-queensland-cowboys,20,18,Cbus Super
 2024,Round 10,2024-05-12,sydney-roosters,warriors,38,18,Allianz
+2024,Round 10,2024-05-12,gold-coast-titans,north-queensland-cowboys,20,18,Cbus Super
 2024,Round 11 - Magic Round,2024-05-17,manly-warringah-sea-eagles,brisbane-broncos,12,13,Suncorp
 2024,Round 11 - Magic Round,2024-05-17,canberra-raiders,canterbury-bankstown-bulldogs,24,20,Suncorp
 2024,Round 11 - Magic Round,2024-05-18,gold-coast-titans,newcastle-knights,24,28,Suncorp
@@ -3085,9 +3085,9 @@ season,round,date,home_team,away_team,home_score,away_score,venue
 2024,Round 12 - Indigenous Round,2024-05-23,canterbury-bankstown-bulldogs,st-george-illawarra-dragons,44,12,Accor
 2024,Round 12 - Indigenous Round,2024-05-24,north-queensland-cowboys,wests-tigers,42,28,QLD C. Bank
 2024,Round 12 - Indigenous Round,2024-05-24,manly-warringah-sea-eagles,melbourne-storm,26,20,4 Pines
-2024,Round 12 - Indigenous Round,2024-05-25,cronulla-sutherland-sharks,penrith-panthers,0,42,Sharks
-2024,Round 12 - Indigenous Round,2024-05-25,south-sydney-rabbitohs,parramatta-eels,42,26,Accor
 2024,Round 12 - Indigenous Round,2024-05-25,canberra-raiders,sydney-roosters,16,44,GIO
+2024,Round 12 - Indigenous Round,2024-05-25,south-sydney-rabbitohs,parramatta-eels,42,26,Accor
+2024,Round 12 - Indigenous Round,2024-05-25,cronulla-sutherland-sharks,penrith-panthers,0,42,Sharks
 2024,Round 12 - Indigenous Round,2024-05-26,brisbane-broncos,gold-coast-titans,34,36,Suncorp
 2024,Round 12 - Indigenous Round,2024-05-26,warriors,dolphins,24,20,Go Media
 2024,Round 13,2024-05-30,parramatta-eels,cronulla-sutherland-sharks,34,22,CommBank
@@ -3099,8 +3099,8 @@ season,round,date,home_team,away_team,home_score,away_score,venue
 2024,Round 14,2024-06-08,north-queensland-cowboys,warriors,12,42,QLD C. Bank
 2024,Round 14,2024-06-08,gold-coast-titans,south-sydney-rabbitohs,12,46,Cbus Super
 2024,Round 14,2024-06-08,brisbane-broncos,cronulla-sutherland-sharks,12,22,Suncorp
-2024,Round 14,2024-06-09,penrith-panthers,manly-warringah-sea-eagles,32,22,BlueBet
 2024,Round 14,2024-06-09,melbourne-storm,newcastle-knights,36,28,AAMI
+2024,Round 14,2024-06-09,penrith-panthers,manly-warringah-sea-eagles,32,22,BlueBet
 2024,Round 14,2024-06-10,canterbury-bankstown-bulldogs,parramatta-eels,22,18,Accor
 2024,Round 15 - Beanies for Brain Cancer Round,2024-06-13,cronulla-sutherland-sharks,dolphins,28,30,Sharks
 2024,Round 15 - Beanies for Brain Cancer Round,2024-06-14,canberra-raiders,north-queensland-cowboys,16,34,GIO
@@ -3111,9 +3111,9 @@ season,round,date,home_team,away_team,home_score,away_score,venue
 2024,Round 15 - Beanies for Brain Cancer Round,2024-06-16,manly-warringah-sea-eagles,st-george-illawarra-dragons,30,14,4 Pines
 2024,Round 15 - Beanies for Brain Cancer Round,2024-06-16,newcastle-knights,penrith-panthers,18,26,McD. Jones
 2024,Round 16,2024-06-21,dolphins,melbourne-storm,24,30,Suncorp
-2024,Round 16,2024-06-22,gold-coast-titans,warriors,66,6,Cbus Super
 2024,Round 16,2024-06-22,sydney-roosters,canterbury-bankstown-bulldogs,26,8,Industree
 2024,Round 16,2024-06-22,south-sydney-rabbitohs,manly-warringah-sea-eagles,14,0,Accor
+2024,Round 16,2024-06-22,gold-coast-titans,warriors,66,6,Cbus Super
 2024,Round 16,2024-06-23,wests-tigers,canberra-raiders,48,24,Campbelltown
 2024,Round 17,2024-06-28,canterbury-bankstown-bulldogs,cronulla-sutherland-sharks,15,14,Accor
 2024,Round 17,2024-06-29,newcastle-knights,parramatta-eels,34,26,McD. Jones
@@ -3123,11 +3123,11 @@ season,round,date,home_team,away_team,home_score,away_score,venue
 2024,Round 17,2024-06-30,penrith-panthers,north-queensland-cowboys,6,16,BlueBet
 2024,Round 17,2024-06-30,sydney-roosters,wests-tigers,40,6,Allianz
 2024,Round 18,2024-07-04,parramatta-eels,south-sydney-rabbitohs,16,32,CommBank
-2024,Round 18,2024-07-05,cronulla-sutherland-sharks,gold-coast-titans,16,20,C.ex Coffs
 2024,Round 18,2024-07-05,brisbane-broncos,penrith-panthers,6,14,Suncorp
-2024,Round 18,2024-07-06,canterbury-bankstown-bulldogs,warriors,13,12,Accor
+2024,Round 18,2024-07-05,cronulla-sutherland-sharks,gold-coast-titans,16,20,C.ex Coffs
 2024,Round 18,2024-07-06,north-queensland-cowboys,manly-warringah-sea-eagles,20,21,QLD C. Bank
 2024,Round 18,2024-07-06,wests-tigers,melbourne-storm,28,40,Leichhardt
+2024,Round 18,2024-07-06,canterbury-bankstown-bulldogs,warriors,13,12,Accor
 2024,Round 18,2024-07-07,sydney-roosters,st-george-illawarra-dragons,42,12,Allianz
 2024,Round 18,2024-07-07,canberra-raiders,newcastle-knights,12,16,GIO
 2024,Round 19,2024-07-11,dolphins,south-sydney-rabbitohs,36,28,Kayo
@@ -3136,28 +3136,28 @@ season,round,date,home_team,away_team,home_score,away_score,venue
 2024,Round 19,2024-07-13,gold-coast-titans,parramatta-eels,24,16,Cbus Super
 2024,Round 19,2024-07-14,manly-warringah-sea-eagles,newcastle-knights,44,6,4 Pines
 2024,Round 20,2024-07-19,canberra-raiders,warriors,20,18,GIO
+2024,Round 20,2024-07-20,newcastle-knights,brisbane-broncos,14,30,McD. Jones
 2024,Round 20,2024-07-20,south-sydney-rabbitohs,wests-tigers,42,28,Industree
 2024,Round 20,2024-07-20,melbourne-storm,sydney-roosters,24,8,AAMI
-2024,Round 20,2024-07-20,newcastle-knights,brisbane-broncos,14,30,McD. Jones
-2024,Round 20,2024-07-21,manly-warringah-sea-eagles,gold-coast-titans,38,8,4 Pines
-2024,Round 20,2024-07-21,penrith-panthers,dolphins,28,26,BlueBet
 2024,Round 20,2024-07-21,north-queensland-cowboys,canterbury-bankstown-bulldogs,20,18,QLD C. Bank
+2024,Round 20,2024-07-21,penrith-panthers,dolphins,28,26,BlueBet
+2024,Round 20,2024-07-21,manly-warringah-sea-eagles,gold-coast-titans,38,8,4 Pines
 2024,Round 21,2024-07-26,parramatta-eels,melbourne-storm,14,32,CommBank
 2024,Round 21,2024-07-26,warriors,wests-tigers,28,16,Go Media
 2024,Round 21,2024-07-27,sydney-roosters,manly-warringah-sea-eagles,34,30,Allianz
 2024,Round 21,2024-07-27,brisbane-broncos,canterbury-bankstown-bulldogs,16,41,Suncorp
 2024,Round 21,2024-07-27,north-queensland-cowboys,cronulla-sutherland-sharks,30,22,QLD C. Bank
+2024,Round 21,2024-07-28,dolphins,gold-coast-titans,14,21,Suncorp
 2024,Round 21,2024-07-28,st-george-illawarra-dragons,penrith-panthers,10,46,WIN
 2024,Round 21,2024-07-28,canberra-raiders,south-sydney-rabbitohs,32,12,GIO
-2024,Round 21,2024-07-28,dolphins,gold-coast-titans,14,21,Suncorp
 2024,Round 22 - Women in League Round,2024-08-01,wests-tigers,north-queensland-cowboys,30,48,Leichhardt
-2024,Round 22 - Women in League Round,2024-08-02,warriors,parramatta-eels,20,30,Go Media
 2024,Round 22 - Women in League Round,2024-08-02,dolphins,sydney-roosters,34,40,HBF
-2024,Round 22 - Women in League Round,2024-08-03,melbourne-storm,st-george-illawarra-dragons,16,18,AAMI
+2024,Round 22 - Women in League Round,2024-08-02,warriors,parramatta-eels,20,30,Go Media
 2024,Round 22 - Women in League Round,2024-08-03,cronulla-sutherland-sharks,south-sydney-rabbitohs,20,6,Sharks
 2024,Round 22 - Women in League Round,2024-08-03,gold-coast-titans,brisbane-broncos,46,18,Cbus Super
-2024,Round 22 - Women in League Round,2024-08-04,penrith-panthers,newcastle-knights,22,14,BlueBet
+2024,Round 22 - Women in League Round,2024-08-03,melbourne-storm,st-george-illawarra-dragons,16,18,AAMI
 2024,Round 22 - Women in League Round,2024-08-04,canterbury-bankstown-bulldogs,canberra-raiders,22,18,Belmore
+2024,Round 22 - Women in League Round,2024-08-04,penrith-panthers,newcastle-knights,22,14,BlueBet
 2024,Round 23,2024-08-08,south-sydney-rabbitohs,melbourne-storm,16,28,Accor
 2024,Round 23,2024-08-09,parramatta-eels,penrith-panthers,34,36,CommBank
 2024,Round 23,2024-08-09,gold-coast-titans,cronulla-sutherland-sharks,0,44,Cbus Super
@@ -3169,9 +3169,9 @@ season,round,date,home_team,away_team,home_score,away_score,venue
 2024,Round 24,2024-08-15,penrith-panthers,melbourne-storm,22,24,BlueBet
 2024,Round 24,2024-08-16,manly-warringah-sea-eagles,warriors,24,10,4 Pines
 2024,Round 24,2024-08-16,sydney-roosters,parramatta-eels,38,14,Allianz
-2024,Round 24,2024-08-17,north-queensland-cowboys,canberra-raiders,42,4,QLD C. Bank
-2024,Round 24,2024-08-17,wests-tigers,south-sydney-rabbitohs,18,16,Campbelltown
 2024,Round 24,2024-08-17,canterbury-bankstown-bulldogs,dolphins,30,10,Salter
+2024,Round 24,2024-08-17,wests-tigers,south-sydney-rabbitohs,18,16,Campbelltown
+2024,Round 24,2024-08-17,north-queensland-cowboys,canberra-raiders,42,4,QLD C. Bank
 2024,Round 24,2024-08-18,cronulla-sutherland-sharks,newcastle-knights,19,18,Sharks
 2024,Round 24,2024-08-18,st-george-illawarra-dragons,gold-coast-titans,32,16,WIN
 2024,Round 25,2024-08-22,wests-tigers,manly-warringah-sea-eagles,34,26,Leichhardt
@@ -3183,8 +3183,8 @@ season,round,date,home_team,away_team,home_score,away_score,venue
 2024,Round 25,2024-08-25,gold-coast-titans,sydney-roosters,22,48,Cbus Super
 2024,Round 25,2024-08-25,st-george-illawarra-dragons,cronulla-sutherland-sharks,10,38,WIN
 2024,Round 26,2024-08-29,north-queensland-cowboys,melbourne-storm,38,30,QLD C. Bank
-2024,Round 26,2024-08-30,canterbury-bankstown-bulldogs,manly-warringah-sea-eagles,22,34,Accor
 2024,Round 26,2024-08-30,penrith-panthers,south-sydney-rabbitohs,34,12,BlueBet
+2024,Round 26,2024-08-30,canterbury-bankstown-bulldogs,manly-warringah-sea-eagles,22,34,Accor
 2024,Round 26,2024-08-31,parramatta-eels,st-george-illawarra-dragons,44,40,CommBank
 2024,Round 26,2024-08-31,cronulla-sutherland-sharks,warriors,28,30,Sharks
 2024,Round 26,2024-08-31,dolphins,brisbane-broncos,40,6,Suncorp
@@ -3196,8 +3196,8 @@ season,round,date,home_team,away_team,home_score,away_score,venue
 2024,Round 27,2024-09-07,penrith-panthers,gold-coast-titans,18,12,BlueBet
 2024,Round 27,2024-09-07,canterbury-bankstown-bulldogs,north-queensland-cowboys,6,44,Accor
 2024,Round 27,2024-09-07,st-george-illawarra-dragons,canberra-raiders,24,26,Netstrata
-2024,Round 27,2024-09-08,manly-warringah-sea-eagles,cronulla-sutherland-sharks,20,40,4 Pines
 2024,Round 27,2024-09-08,newcastle-knights,dolphins,14,6,McD. Jones
+2024,Round 27,2024-09-08,manly-warringah-sea-eagles,cronulla-sutherland-sharks,20,40,4 Pines
 2024,Round 27,2024-09-13,penrith-panthers,sydney-roosters,30,10,BlueBet
 2024,Round 27,2024-09-14,north-queensland-cowboys,newcastle-knights,28,16,QLD C. Bank
 2024,Round 27,2024-09-14,melbourne-storm,cronulla-sutherland-sharks,37,10,AAMI
@@ -3212,8 +3212,8 @@ season,round,date,home_team,away_team,home_score,away_score,venue
 2025,Round 1,2025-03-06,sydney-roosters,brisbane-broncos,14,50,Allianz
 2025,Round 1,2025-03-07,south-sydney-rabbitohs,dolphins,16,14,CommBank
 2025,Round 1,2025-03-07,wests-tigers,newcastle-knights,8,10,Campbelltown
-2025,Round 1,2025-03-08,manly-warringah-sea-eagles,north-queensland-cowboys,42,12,4 Pines
 2025,Round 1,2025-03-08,st-george-illawarra-dragons,canterbury-bankstown-bulldogs,20,28,Netstrata
+2025,Round 1,2025-03-08,manly-warringah-sea-eagles,north-queensland-cowboys,42,12,4 Pines
 2025,Round 1,2025-03-09,melbourne-storm,parramatta-eels,56,18,AAMI
 2025,Round 2,2025-03-13,newcastle-knights,dolphins,26,12,McD. Jones
 2025,Round 2,2025-03-14,penrith-panthers,sydney-roosters,32,38,CommBank
@@ -3226,9 +3226,9 @@ season,round,date,home_team,away_team,home_score,away_score,venue
 2025,Round 3,2025-03-20,melbourne-storm,penrith-panthers,30,24,AAMI
 2025,Round 3,2025-03-21,warriors,sydney-roosters,14,6,Go Media
 2025,Round 3,2025-03-21,brisbane-broncos,north-queensland-cowboys,26,16,Suncorp
+2025,Round 3,2025-03-22,dolphins,wests-tigers,18,30,Kayo
 2025,Round 3,2025-03-22,gold-coast-titans,newcastle-knights,26,6,Cbus Super
 2025,Round 3,2025-03-22,cronulla-sutherland-sharks,south-sydney-rabbitohs,27,12,Sharks
-2025,Round 3,2025-03-22,dolphins,wests-tigers,18,30,Kayo
 2025,Round 3,2025-03-23,parramatta-eels,canterbury-bankstown-bulldogs,8,16,CommBank
 2025,Round 3,2025-03-23,manly-warringah-sea-eagles,canberra-raiders,40,12,4 Pines
 2025,Round 4,2025-03-27,south-sydney-rabbitohs,penrith-panthers,28,18,Accor
@@ -3240,8 +3240,8 @@ season,round,date,home_team,away_team,home_score,away_score,venue
 2025,Round 4,2025-03-30,manly-warringah-sea-eagles,parramatta-eels,26,12,4 Pines
 2025,Round 4,2025-03-30,wests-tigers,warriors,24,26,Campbelltown
 2025,Round 5 - Multicultural Round,2025-04-03,canberra-raiders,cronulla-sutherland-sharks,24,20,GIO
-2025,Round 5 - Multicultural Round,2025-04-04,south-sydney-rabbitohs,sydney-roosters,20,14,Accor
 2025,Round 5 - Multicultural Round,2025-04-04,penrith-panthers,north-queensland-cowboys,18,22,CommBank
+2025,Round 5 - Multicultural Round,2025-04-04,south-sydney-rabbitohs,sydney-roosters,20,14,Accor
 2025,Round 5 - Multicultural Round,2025-04-05,gold-coast-titans,dolphins,10,36,Cbus Super
 2025,Round 5 - Multicultural Round,2025-04-05,brisbane-broncos,wests-tigers,46,24,Suncorp
 2025,Round 5 - Multicultural Round,2025-04-05,parramatta-eels,st-george-illawarra-dragons,23,22,CommBank
@@ -3253,8 +3253,8 @@ season,round,date,home_team,away_team,home_score,away_score,venue
 2025,Round 6,2025-04-12,cronulla-sutherland-sharks,manly-warringah-sea-eagles,24,18,Optus Stadium
 2025,Round 6,2025-04-12,south-sydney-rabbitohs,north-queensland-cowboys,16,24,Optus Stadium
 2025,Round 6,2025-04-12,parramatta-eels,canberra-raiders,12,50,TIO
-2025,Round 6,2025-04-13,melbourne-storm,warriors,42,14,AAMI
 2025,Round 6,2025-04-13,newcastle-knights,wests-tigers,4,20,McD. Jones
+2025,Round 6,2025-04-13,melbourne-storm,warriors,42,14,AAMI
 2025,Round 7,2025-04-17,manly-warringah-sea-eagles,st-george-illawarra-dragons,18,20,4 Pines
 2025,Round 7,2025-04-18,dolphins,melbourne-storm,42,22,Suncorp
 2025,Round 7,2025-04-18,canterbury-bankstown-bulldogs,south-sydney-rabbitohs,32,0,Accor
@@ -3264,13 +3264,13 @@ season,round,date,home_team,away_team,home_score,away_score,venue
 2025,Round 7,2025-04-20,gold-coast-titans,canberra-raiders,20,30,Cbus Super
 2025,Round 7,2025-04-21,wests-tigers,parramatta-eels,22,38,CommBank
 2025,Round 8 - ANZAC Round,2025-04-24,brisbane-broncos,canterbury-bankstown-bulldogs,42,18,Suncorp
-2025,Round 8 - ANZAC Round,2025-04-25,sydney-roosters,st-george-illawarra-dragons,46,18,Allianz
 2025,Round 8 - ANZAC Round,2025-04-25,warriors,newcastle-knights,26,12,Apollo
+2025,Round 8 - ANZAC Round,2025-04-25,sydney-roosters,st-george-illawarra-dragons,46,18,Allianz
 2025,Round 8 - ANZAC Round,2025-04-25,melbourne-storm,south-sydney-rabbitohs,24,16,AAMI
 2025,Round 8 - ANZAC Round,2025-04-26,penrith-panthers,manly-warringah-sea-eagles,10,26,CommBank
 2025,Round 8 - ANZAC Round,2025-04-26,north-queensland-cowboys,gold-coast-titans,50,18,QLD C. Bank
-2025,Round 8 - ANZAC Round,2025-04-27,wests-tigers,cronulla-sutherland-sharks,20,18,Leichhardt
 2025,Round 8 - ANZAC Round,2025-04-27,canberra-raiders,dolphins,40,28,GIO
+2025,Round 8 - ANZAC Round,2025-04-27,wests-tigers,cronulla-sutherland-sharks,20,18,Leichhardt
 2025,Round 9 - Magic Round,2025-05-02,cronulla-sutherland-sharks,parramatta-eels,28,18,Suncorp
 2025,Round 9 - Magic Round,2025-05-02,sydney-roosters,dolphins,36,26,Suncorp
 2025,Round 9 - Magic Round,2025-05-03,south-sydney-rabbitohs,newcastle-knights,4,30,Suncorp
@@ -3282,9 +3282,9 @@ season,round,date,home_team,away_team,home_score,away_score,venue
 2025,Round 10 - Women in League Round,2025-05-08,parramatta-eels,dolphins,16,20,CommBank
 2025,Round 10 - Women in League Round,2025-05-09,newcastle-knights,gold-coast-titans,20,24,McD. Jones
 2025,Round 10 - Women in League Round,2025-05-09,south-sydney-rabbitohs,brisbane-broncos,22,14,Accor
-2025,Round 10 - Women in League Round,2025-05-10,canberra-raiders,canterbury-bankstown-bulldogs,20,32,GIO
-2025,Round 10 - Women in League Round,2025-05-10,st-george-illawarra-dragons,warriors,14,15,WIN
 2025,Round 10 - Women in League Round,2025-05-10,north-queensland-cowboys,penrith-panthers,30,30,QLD C. Bank
+2025,Round 10 - Women in League Round,2025-05-10,st-george-illawarra-dragons,warriors,14,15,WIN
+2025,Round 10 - Women in League Round,2025-05-10,canberra-raiders,canterbury-bankstown-bulldogs,20,32,GIO
 2025,Round 10 - Women in League Round,2025-05-11,melbourne-storm,wests-tigers,64,0,AAMI
 2025,Round 10 - Women in League Round,2025-05-11,manly-warringah-sea-eagles,cronulla-sutherland-sharks,14,30,4 Pines
 2025,Round 11,2025-05-16,newcastle-knights,parramatta-eels,6,28,McD. Jones
@@ -3297,8 +3297,8 @@ season,round,date,home_team,away_team,home_score,away_score,venue
 2025,Round 11,2025-05-18,brisbane-broncos,st-george-illawarra-dragons,26,30,Suncorp
 2025,Round 12,2025-05-22,canterbury-bankstown-bulldogs,dolphins,8,44,Accor
 2025,Round 12,2025-05-23,parramatta-eels,manly-warringah-sea-eagles,30,10,CommBank
-2025,Round 12,2025-05-24,sydney-roosters,cronulla-sutherland-sharks,42,16,Industree
 2025,Round 12,2025-05-24,penrith-panthers,newcastle-knights,6,25,Carrington
+2025,Round 12,2025-05-24,sydney-roosters,cronulla-sutherland-sharks,42,16,Industree
 2025,Round 12,2025-05-25,warriors,canberra-raiders,10,16,Go Media
 2025,Round 13,2025-05-30,st-george-illawarra-dragons,newcastle-knights,20,6,Jubilee
 2025,Round 13,2025-05-31,gold-coast-titans,melbourne-storm,16,28,Cbus Super
@@ -3310,8 +3310,8 @@ season,round,date,home_team,away_team,home_score,away_score,venue
 2025,Round 14,2025-06-05,newcastle-knights,manly-warringah-sea-eagles,26,22,McD. Jones
 2025,Round 14,2025-06-06,melbourne-storm,north-queensland-cowboys,38,14,AAMI
 2025,Round 14,2025-06-06,dolphins,st-george-illawarra-dragons,56,6,Suncorp
-2025,Round 14,2025-06-07,brisbane-broncos,gold-coast-titans,44,14,Suncorp
 2025,Round 14,2025-06-07,cronulla-sutherland-sharks,warriors,10,40,Sharks
+2025,Round 14,2025-06-07,brisbane-broncos,gold-coast-titans,44,14,Suncorp
 2025,Round 14,2025-06-08,canberra-raiders,south-sydney-rabbitohs,36,12,GIO
 2025,Round 14,2025-06-08,wests-tigers,penrith-panthers,14,18,CommBank
 2025,Round 14,2025-06-09,canterbury-bankstown-bulldogs,parramatta-eels,30,12,Accor
@@ -3321,12 +3321,12 @@ season,round,date,home_team,away_team,home_score,away_score,venue
 2025,Round 15,2025-06-14,north-queensland-cowboys,dolphins,4,58,QLD C. Bank
 2025,Round 15,2025-06-15,south-sydney-rabbitohs,canterbury-bankstown-bulldogs,18,24,Accor
 2025,Round 16,2025-06-20,wests-tigers,canberra-raiders,12,16,Campbelltown
+2025,Round 16,2025-06-21,warriors,penrith-panthers,18,28,Go Media
 2025,Round 16,2025-06-21,dolphins,newcastle-knights,20,26,HBF
 2025,Round 16,2025-06-21,south-sydney-rabbitohs,melbourne-storm,24,25,Accor
-2025,Round 16,2025-06-21,warriors,penrith-panthers,18,28,Go Media
+2025,Round 16,2025-06-22,sydney-roosters,north-queensland-cowboys,42,8,Allianz
 2025,Round 16,2025-06-22,brisbane-broncos,cronulla-sutherland-sharks,34,28,Suncorp
 2025,Round 16,2025-06-22,parramatta-eels,gold-coast-titans,36,20,CommBank
-2025,Round 16,2025-06-22,sydney-roosters,north-queensland-cowboys,42,8,Allianz
 2025,Round 17 - Beanies for Brain Cancer Round,2025-06-26,penrith-panthers,canterbury-bankstown-bulldogs,8,6,CommBank
 2025,Round 17 - Beanies for Brain Cancer Round,2025-06-27,newcastle-knights,canberra-raiders,18,22,McD. Jones
 2025,Round 17 - Beanies for Brain Cancer Round,2025-06-27,manly-warringah-sea-eagles,wests-tigers,28,10,4 Pines
@@ -3338,8 +3338,8 @@ season,round,date,home_team,away_team,home_score,away_score,venue
 2025,Round 18,2025-07-04,canterbury-bankstown-bulldogs,brisbane-broncos,18,22,Accor
 2025,Round 18,2025-07-05,canberra-raiders,st-george-illawarra-dragons,28,24,GIO
 2025,Round 18,2025-07-05,north-queensland-cowboys,melbourne-storm,20,26,QLD C. Bank
-2025,Round 18,2025-07-06,sydney-roosters,wests-tigers,28,30,Allianz
 2025,Round 18,2025-07-06,manly-warringah-sea-eagles,south-sydney-rabbitohs,30,12,4 Pines
+2025,Round 18,2025-07-06,sydney-roosters,wests-tigers,28,30,Allianz
 2025,Round 19,2025-07-11,cronulla-sutherland-sharks,dolphins,24,12,Sharks
 2025,Round 19,2025-07-12,north-queensland-cowboys,canterbury-bankstown-bulldogs,8,12,QLD C. Bank
 2025,Round 19,2025-07-12,st-george-illawarra-dragons,sydney-roosters,24,31,Jubilee
@@ -3350,9 +3350,9 @@ season,round,date,home_team,away_team,home_score,away_score,venue
 2025,Round 20,2025-07-17,dolphins,north-queensland-cowboys,43,24,Suncorp
 2025,Round 20,2025-07-18,cronulla-sutherland-sharks,sydney-roosters,31,18,Sharks
 2025,Round 20,2025-07-18,penrith-panthers,south-sydney-rabbitohs,30,10,CommBank
-2025,Round 20,2025-07-19,canberra-raiders,parramatta-eels,40,16,GIO
-2025,Round 20,2025-07-19,melbourne-storm,manly-warringah-sea-eagles,16,18,AAMI
 2025,Round 20,2025-07-19,canterbury-bankstown-bulldogs,st-george-illawarra-dragons,20,18,Accor
+2025,Round 20,2025-07-19,melbourne-storm,manly-warringah-sea-eagles,16,18,AAMI
+2025,Round 20,2025-07-19,canberra-raiders,parramatta-eels,40,16,GIO
 2025,Round 20,2025-07-20,wests-tigers,gold-coast-titans,21,20,Leichhardt
 2025,Round 20,2025-07-20,newcastle-knights,warriors,15,20,McD. Jones
 2025,Round 21,2025-07-24,sydney-roosters,melbourne-storm,30,34,Allianz
@@ -3364,8 +3364,8 @@ season,round,date,home_team,away_team,home_score,away_score,venue
 2025,Round 21,2025-07-27,canberra-raiders,newcastle-knights,44,18,GIO
 2025,Round 21,2025-07-27,canterbury-bankstown-bulldogs,manly-warringah-sea-eagles,42,4,Allianz
 2025,Round 22,2025-07-31,parramatta-eels,melbourne-storm,10,16,CommBank
-2025,Round 22,2025-08-01,warriors,dolphins,18,20,Go Media
 2025,Round 22,2025-08-01,brisbane-broncos,south-sydney-rabbitohs,60,14,Suncorp
+2025,Round 22,2025-08-01,warriors,dolphins,18,20,Go Media
 2025,Round 22,2025-08-02,st-george-illawarra-dragons,canberra-raiders,18,12,WIN
 2025,Round 22,2025-08-02,manly-warringah-sea-eagles,sydney-roosters,4,20,4 Pines
 2025,Round 22,2025-08-02,gold-coast-titans,penrith-panthers,26,30,Cbus Super
@@ -3377,14 +3377,14 @@ season,round,date,home_team,away_team,home_score,away_score,venue
 2025,Round 23 - Indigenous Round,2025-08-09,canterbury-bankstown-bulldogs,warriors,32,14,Accor
 2025,Round 23 - Indigenous Round,2025-08-09,dolphins,sydney-roosters,12,64,Suncorp
 2025,Round 23 - Indigenous Round,2025-08-09,st-george-illawarra-dragons,cronulla-sutherland-sharks,22,14,Jubilee
-2025,Round 23 - Indigenous Round,2025-08-10,parramatta-eels,north-queensland-cowboys,19,18,CommBank
 2025,Round 23 - Indigenous Round,2025-08-10,gold-coast-titans,south-sydney-rabbitohs,18,20,Cbus Super
+2025,Round 23 - Indigenous Round,2025-08-10,parramatta-eels,north-queensland-cowboys,19,18,CommBank
 2025,Round 24 - Indigenous Round,2025-08-14,penrith-panthers,melbourne-storm,18,22,CommBank
-2025,Round 24 - Indigenous Round,2025-08-15,warriors,st-george-illawarra-dragons,14,10,Go Media
 2025,Round 24 - Indigenous Round,2025-08-15,sydney-roosters,canterbury-bankstown-bulldogs,32,12,Allianz
+2025,Round 24 - Indigenous Round,2025-08-15,warriors,st-george-illawarra-dragons,14,10,Go Media
+2025,Round 24 - Indigenous Round,2025-08-16,cronulla-sutherland-sharks,gold-coast-titans,54,22,Sharks
 2025,Round 24 - Indigenous Round,2025-08-16,brisbane-broncos,dolphins,38,28,Suncorp
 2025,Round 24 - Indigenous Round,2025-08-16,south-sydney-rabbitohs,parramatta-eels,20,16,Allianz
-2025,Round 24 - Indigenous Round,2025-08-16,cronulla-sutherland-sharks,gold-coast-titans,54,22,Sharks
 2025,Round 24 - Indigenous Round,2025-08-17,wests-tigers,manly-warringah-sea-eagles,26,12,Allianz
 2025,Round 24 - Indigenous Round,2025-08-17,north-queensland-cowboys,newcastle-knights,38,4,QLD C. Bank
 2025,Round 25,2025-08-21,south-sydney-rabbitohs,st-george-illawarra-dragons,40,0,Accor
@@ -3396,8 +3396,8 @@ season,round,date,home_team,away_team,home_score,away_score,venue
 2025,Round 25,2025-08-24,wests-tigers,north-queensland-cowboys,28,34,Leichhardt
 2025,Round 25,2025-08-24,newcastle-knights,brisbane-broncos,12,46,McD. Jones
 2025,Round 26,2025-08-28,canterbury-bankstown-bulldogs,penrith-panthers,28,4,Accor
-2025,Round 26,2025-08-29,melbourne-storm,sydney-roosters,10,40,AAMI
 2025,Round 26,2025-08-29,warriors,parramatta-eels,22,26,Go Media
+2025,Round 26,2025-08-29,melbourne-storm,sydney-roosters,10,40,AAMI
 2025,Round 26,2025-08-30,north-queensland-cowboys,brisbane-broncos,30,38,QLD C. Bank
 2025,Round 26,2025-08-30,canberra-raiders,wests-tigers,24,10,GIO
 2025,Round 26,2025-08-30,st-george-illawarra-dragons,manly-warringah-sea-eagles,24,40,Jubilee
@@ -3425,8 +3425,8 @@ season,round,date,home_team,away_team,home_score,away_score,venue
 2026,Round 1,2026-03-05,melbourne-storm,parramatta-eels,52,4,AAMI
 2026,Round 1,2026-03-06,brisbane-broncos,penrith-panthers,0,26,Suncorp
 2026,Round 1,2026-03-06,warriors,sydney-roosters,42,18,Go Media
-2026,Round 1,2026-03-07,cronulla-sutherland-sharks,gold-coast-titans,50,10,Ocean Protect
 2026,Round 1,2026-03-07,manly-warringah-sea-eagles,canberra-raiders,28,29,4 Pines
+2026,Round 1,2026-03-07,cronulla-sutherland-sharks,gold-coast-titans,50,10,Ocean Protect
 2026,Round 1,2026-03-08,dolphins,south-sydney-rabbitohs,30,40,Suncorp
 2026,Round 2,2026-03-12,brisbane-broncos,parramatta-eels,32,40,Suncorp
 2026,Round 2,2026-03-13,sydney-roosters,south-sydney-rabbitohs,26,18,Allianz
@@ -3439,9 +3439,9 @@ season,round,date,home_team,away_team,home_score,away_score,venue
 2026,Round 3 - Multicultural Round,2026-03-19,canberra-raiders,canterbury-bankstown-bulldogs,10,14,GIO
 2026,Round 3 - Multicultural Round,2026-03-20,sydney-roosters,penrith-panthers,4,40,Allianz
 2026,Round 3 - Multicultural Round,2026-03-20,melbourne-storm,brisbane-broncos,14,18,AAMI
+2026,Round 3 - Multicultural Round,2026-03-21,cronulla-sutherland-sharks,dolphins,10,38,Ocean Protect
 2026,Round 3 - Multicultural Round,2026-03-21,south-sydney-rabbitohs,wests-tigers,20,16,polytec
 2026,Round 3 - Multicultural Round,2026-03-21,newcastle-knights,warriors,12,38,McD. Jones
-2026,Round 3 - Multicultural Round,2026-03-21,cronulla-sutherland-sharks,dolphins,10,38,Ocean Protect
 2026,Round 3 - Multicultural Round,2026-03-22,parramatta-eels,st-george-illawarra-dragons,30,20,CommBank
 2026,Round 3 - Multicultural Round,2026-03-22,north-queensland-cowboys,gold-coast-titans,30,16,QLD C. Bank
 2026,Round 4,2026-03-26,manly-warringah-sea-eagles,sydney-roosters,16,33,4 Pines
@@ -3453,8 +3453,8 @@ season,round,date,home_team,away_team,home_score,away_score,venue
 2026,Round 4,2026-03-29,canberra-raiders,cronulla-sutherland-sharks,22,34,GIO
 2026,Round 4,2026-03-29,gold-coast-titans,st-george-illawarra-dragons,22,14,Cbus Super
 2026,Round 5,2026-04-02,dolphins,manly-warringah-sea-eagles,18,52,Kayo
-2026,Round 5,2026-04-03,south-sydney-rabbitohs,canterbury-bankstown-bulldogs,32,24,Accor
 2026,Round 5,2026-04-03,penrith-panthers,melbourne-storm,50,10,CommBank
+2026,Round 5,2026-04-03,south-sydney-rabbitohs,canterbury-bankstown-bulldogs,32,24,Accor
 2026,Round 5,2026-04-04,gold-coast-titans,brisbane-broncos,12,26,Cbus Super
 2026,Round 5,2026-04-04,st-george-illawarra-dragons,north-queensland-cowboys,0,32,SGV Jubilee
 2026,Round 5,2026-04-05,cronulla-sutherland-sharks,warriors,36,22,Ocean Protect
@@ -3479,9 +3479,9 @@ season,round,date,home_team,away_team,home_score,away_score,venue
 2026,Round 8 - ANZAC Round,2026-04-23,wests-tigers,canberra-raiders,33,14,Leichhardt
 2026,Round 8 - ANZAC Round,2026-04-24,north-queensland-cowboys,cronulla-sutherland-sharks,46,34,QLD C. Bank
 2026,Round 8 - ANZAC Round,2026-04-24,brisbane-broncos,canterbury-bankstown-bulldogs,32,12,Suncorp
-2026,Round 8 - ANZAC Round,2026-04-25,st-george-illawarra-dragons,sydney-roosters,16,62,Allianz
-2026,Round 8 - ANZAC Round,2026-04-25,melbourne-storm,south-sydney-rabbitohs,6,48,AAMI
 2026,Round 8 - ANZAC Round,2026-04-25,warriors,dolphins,20,18,Hnry
+2026,Round 8 - ANZAC Round,2026-04-25,melbourne-storm,south-sydney-rabbitohs,6,48,AAMI
+2026,Round 8 - ANZAC Round,2026-04-25,st-george-illawarra-dragons,sydney-roosters,16,62,Allianz
 2026,Round 8 - ANZAC Round,2026-04-26,newcastle-knights,penrith-panthers,12,44,McD. Jones
 2026,Round 8 - ANZAC Round,2026-04-26,manly-warringah-sea-eagles,parramatta-eels,33,18,4 Pines
 2026,Round 9,2026-05-01,dolphins,melbourne-storm,28,10,Suncorp
@@ -3493,11 +3493,11 @@ season,round,date,home_team,away_team,home_score,away_score,venue
 2026,Round 9,2026-05-03,penrith-panthers,manly-warringah-sea-eagles,18,16,CommBank
 2026,Round 9,2026-05-03,cronulla-sutherland-sharks,wests-tigers,52,10,Ocean Protect
 2026,Round 10,2026-05-07,dolphins,canterbury-bankstown-bulldogs,44,12,Suncorp
-2026,Round 10,2026-05-08,north-queensland-cowboys,parramatta-eels,30,33,QLD C. Bank
 2026,Round 10,2026-05-08,sydney-roosters,gold-coast-titans,28,12,polytec
+2026,Round 10,2026-05-08,north-queensland-cowboys,parramatta-eels,30,33,QLD C. Bank
+2026,Round 10,2026-05-09,manly-warringah-sea-eagles,brisbane-broncos,32,4,4 Pines
 2026,Round 10,2026-05-09,st-george-illawarra-dragons,newcastle-knights,10,44,WIN
 2026,Round 10,2026-05-09,south-sydney-rabbitohs,cronulla-sutherland-sharks,36,12,Accor
-2026,Round 10,2026-05-09,manly-warringah-sea-eagles,brisbane-broncos,32,4,4 Pines
 2026,Round 10,2026-05-10,melbourne-storm,wests-tigers,44,16,AAMI
 2026,Round 10,2026-05-10,canberra-raiders,penrith-panthers,18,30,GIO
 2026,Round 11 - Magic Round,2026-05-15,south-sydney-rabbitohs,dolphins,10,32,Suncorp
@@ -3523,8 +3523,8 @@ season,round,date,home_team,away_team,home_score,away_score,venue
 2026,Round 14,2026-06-04,manly-warringah-sea-eagles,south-sydney-rabbitohs,28,14,4 Pines
 2026,Round 14,2026-06-05,melbourne-storm,newcastle-knights,32,30,AAMI
 2026,Round 14,2026-06-05,canberra-raiders,sydney-roosters,0,26,GIO
-2026,Round 14,2026-06-06,north-queensland-cowboys,dolphins,14,40,QLD C. Bank
 2026,Round 14,2026-06-06,brisbane-broncos,gold-coast-titans,23,28,Suncorp
+2026,Round 14,2026-06-06,north-queensland-cowboys,dolphins,14,40,QLD C. Bank
 2026,Round 14,2026-06-07,cronulla-sutherland-sharks,st-george-illawarra-dragons,34,12,Ocean Protect
 2026,Round 14,2026-06-07,wests-tigers,penrith-panthers,0,68,CommBank
 2026,Round 14,2026-06-08,canterbury-bankstown-bulldogs,parramatta-eels,14,12,Accor
@@ -3534,25 +3534,25 @@ season,round,date,home_team,away_team,home_score,away_score,venue
 2026,Round 15,2026-06-13,parramatta-eels,canberra-raiders,15,12,CommBank
 2026,Round 15,2026-06-14,wests-tigers,gold-coast-titans,36,28,Leichhardt
 2026,Round 16,2026-06-19,newcastle-knights,st-george-illawarra-dragons,22,20,McD. Jones
+2026,Round 16,2026-06-20,canterbury-bankstown-bulldogs,manly-warringah-sea-eagles,13,12,Accor
 2026,Round 16,2026-06-20,wests-tigers,dolphins,22,36,Campbelltown
 2026,Round 16,2026-06-20,gold-coast-titans,penrith-panthers,19,18,Cbus Super
-2026,Round 16,2026-06-20,canterbury-bankstown-bulldogs,manly-warringah-sea-eagles,13,12,Accor
+2026,Round 16,2026-06-21,sydney-roosters,cronulla-sutherland-sharks,27,8,Allianz
 2026,Round 16,2026-06-21,melbourne-storm,canberra-raiders,42,20,AAMI
 2026,Round 16,2026-06-21,warriors,north-queensland-cowboys,38,20,One NZ
-2026,Round 16,2026-06-21,sydney-roosters,cronulla-sutherland-sharks,27,8,Allianz
 2026,Round 17 - Beanie for Brain Cancer Round,2026-06-25,parramatta-eels,south-sydney-rabbitohs,12,32,CommBank
 2026,Round 17 - Beanie for Brain Cancer Round,2026-06-26,gold-coast-titans,canterbury-bankstown-bulldogs,12,30,Cbus Super
 2026,Round 17 - Beanie for Brain Cancer Round,2026-06-26,brisbane-broncos,sydney-roosters,18,24,Suncorp
 2026,Round 17 - Beanie for Brain Cancer Round,2026-06-27,manly-warringah-sea-eagles,melbourne-storm,30,4,4 Pines
 2026,Round 17 - Beanie for Brain Cancer Round,2026-06-27,dolphins,warriors,26,24,Suncorp
 2026,Round 17 - Beanie for Brain Cancer Round,2026-06-27,north-queensland-cowboys,penrith-panthers,26,12,QLD C. Bank
-2026,Round 17 - Beanie for Brain Cancer Round,2026-06-28,canberra-raiders,st-george-illawarra-dragons,24,16,GIO
 2026,Round 17 - Beanie for Brain Cancer Round,2026-06-28,newcastle-knights,wests-tigers,12,6,McD. Jones
+2026,Round 17 - Beanie for Brain Cancer Round,2026-06-28,canberra-raiders,st-george-illawarra-dragons,24,16,GIO
 2026,Round 18,2026-07-03,penrith-panthers,south-sydney-rabbitohs,36,14,CommBank
-2026,Round 18,2026-07-04,brisbane-broncos,cronulla-sutherland-sharks,16,28,Suncorp
 2026,Round 18,2026-07-04,st-george-illawarra-dragons,wests-tigers,24,10,SGV Jubilee
-2026,Round 18,2026-07-05,newcastle-knights,dolphins,13,12,McD. Jones
+2026,Round 18,2026-07-04,brisbane-broncos,cronulla-sutherland-sharks,16,28,Suncorp
 2026,Round 18,2026-07-05,parramatta-eels,manly-warringah-sea-eagles,23,14,CommBank
+2026,Round 18,2026-07-05,newcastle-knights,dolphins,13,12,McD. Jones
 2026,Round 19,2026-07-10,wests-tigers,warriors,6,32,Campbelltown
 2026,Round 19,2026-07-11,canterbury-bankstown-bulldogs,canberra-raiders,16,40,Accor
 2026,Round 19,2026-07-11,dolphins,cronulla-sutherland-sharks,0,66,Kayo
@@ -3563,9 +3563,9 @@ season,round,date,home_team,away_team,home_score,away_score,venue
 2026,Round 20 - Women in League Round,2026-07-16,penrith-panthers,brisbane-broncos,12,14,CommBank
 2026,Round 20 - Women in League Round,2026-07-17,sydney-roosters,melbourne-storm,14,6,Allianz
 2026,Round 20 - Women in League Round,2026-07-17,cronulla-sutherland-sharks,newcastle-knights,20,18,Ocean Protect
-2026,Round 20 - Women in League Round,2026-07-18,canberra-raiders,south-sydney-rabbitohs,34,24,GIO
 2026,Round 20 - Women in League Round,2026-07-18,warriors,st-george-illawarra-dragons,20,12,Go Media
 2026,Round 20 - Women in League Round,2026-07-18,canterbury-bankstown-bulldogs,wests-tigers,32,0,Accor
+2026,Round 20 - Women in League Round,2026-07-18,canberra-raiders,south-sydney-rabbitohs,34,24,GIO
 2026,Round 20 - Women in League Round,2026-07-19,gold-coast-titans,manly-warringah-sea-eagles,38,32,Cbus Super
 2026,Round 20 - Women in League Round,2026-07-19,dolphins,north-queensland-cowboys,36,16,Suncorp
 2026,Round 21,2026-07-23,parramatta-eels,penrith-panthers,18,24,CommBank
@@ -3577,8 +3577,8 @@ season,round,date,home_team,away_team,home_score,away_score,venue
 2026,Round 21,2026-07-26,st-george-illawarra-dragons,gold-coast-titans,18,38,SGV Jubilee
 2026,Round 21,2026-07-26,manly-warringah-sea-eagles,cronulla-sutherland-sharks,12,48,4 Pines
 2026,Round 22,2026-07-30,north-queensland-cowboys,sydney-roosters,12,82,QLD C. Bank
-2026,Round 22,2026-07-31,st-george-illawarra-dragons,dolphins,22,28,WIN
 2026,Round 22,2026-07-31,melbourne-storm,canterbury-bankstown-bulldogs,22,36,AAMI
+2026,Round 22,2026-07-31,st-george-illawarra-dragons,dolphins,22,28,WIN
 2026,Round 22,2026-08-01,penrith-panthers,canberra-raiders,42,18,Glen Willow
 2026,Round 22,2026-08-01,brisbane-broncos,newcastle-knights,6,30,Suncorp
 2026,Round 22,2026-08-01,gold-coast-titans,warriors,6,42,Cbus Super
@@ -3590,8 +3590,8 @@ season,round,date,home_team,away_team,home_score,away_score,venue
 2026,Round 23 - Indigenous Round,2026-08-08,south-sydney-rabbitohs,parramatta-eels,28,24,Allianz
 2026,Round 23 - Indigenous Round,2026-08-08,melbourne-storm,manly-warringah-sea-eagles,42,20,HBF
 2026,Round 23 - Indigenous Round,2026-08-08,dolphins,brisbane-broncos,40,32,Suncorp
-2026,Round 23 - Indigenous Round,2026-08-09,st-george-illawarra-dragons,cronulla-sutherland-sharks,24,16,SGV Jubilee
 2026,Round 23 - Indigenous Round,2026-08-09,canberra-raiders,newcastle-knights,24,30,GIO
+2026,Round 23 - Indigenous Round,2026-08-09,st-george-illawarra-dragons,cronulla-sutherland-sharks,24,16,SGV Jubilee
 2026,Round 24 - Indigenous Round,2026-08-13,penrith-panthers,sydney-roosters,6,12,CommBank
 2026,Round 24 - Indigenous Round,2026-08-14,canterbury-bankstown-bulldogs,south-sydney-rabbitohs,6,22,Accor
 2026,Round 24 - Indigenous Round,2026-08-14,manly-warringah-sea-eagles,dolphins,0,22,4 Pines
@@ -3603,6 +3603,8 @@ season,round,date,home_team,away_team,home_score,away_score,venue
 2026,Round 25 - Telstra Together Round,2026-08-20,melbourne-storm,penrith-panthers,14,22,AAMI
 2026,Round 25 - Telstra Together Round,2026-08-21,canberra-raiders,brisbane-broncos,30,34,GIO
 2026,Round 25 - Telstra Together Round,2026-08-21,dolphins,parramatta-eels,34,16,Suncorp
-2026,Round 25 - Telstra Together Round,2026-08-22,south-sydney-rabbitohs,warriors,26,45,Accor
 2026,Round 25 - Telstra Together Round,2026-08-22,newcastle-knights,manly-warringah-sea-eagles,24,44,McD. Jones
+2026,Round 25 - Telstra Together Round,2026-08-22,south-sydney-rabbitohs,warriors,26,45,Accor
 2026,Round 25 - Telstra Together Round,2026-08-22,st-george-illawarra-dragons,canterbury-bankstown-bulldogs,14,44,Allianz
+2026,Round 25 - Telstra Together Round,2026-08-23,gold-coast-titans,cronulla-sutherland-sharks,22,30,Cbus Super
+2026,Round 25 - Telstra Together Round,2026-08-23,sydney-roosters,wests-tigers,24,25,Allianz

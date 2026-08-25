@@ -57,5 +57,13 @@ run_date,season,round,date,home_team,away_team,venue,p_home_win,predicted_winner
 2026-08-17,2026,Round 25 - Telstra Together Round,2026-08-22,newcastle-knights,manly-warringah-sea-eagles,McD. Jones,0.411,manly-warringah-sea-eagles,0.0
 2026-08-17,2026,Round 25 - Telstra Together Round,2026-08-22,south-sydney-rabbitohs,warriors,Accor,0.747,south-sydney-rabbitohs,0.0
 2026-08-17,2026,Round 25 - Telstra Together Round,2026-08-22,st-george-illawarra-dragons,canterbury-bankstown-bulldogs,Allianz,0.329,canterbury-bankstown-bulldogs,0.0
-2026-08-17,2026,Round 25 - Telstra Together Round,2026-08-23,gold-coast-titans,cronulla-sutherland-sharks,Cbus Super,0.283,cronulla-sutherland-sharks,
-2026-08-17,2026,Round 25 - Telstra Together Round,2026-08-23,sydney-roosters,wests-tigers,Allianz,0.867,sydney-roosters,
+2026-08-17,2026,Round 25 - Telstra Together Round,2026-08-23,gold-coast-titans,cronulla-sutherland-sharks,Cbus Super,0.283,cronulla-sutherland-sharks,0.0
+2026-08-17,2026,Round 25 - Telstra Together Round,2026-08-23,sydney-roosters,wests-tigers,Allianz,0.867,sydney-roosters,0.0
+2026-08-25,2026,Round 26,2026-08-27,brisbane-broncos,melbourne-storm,Suncorp,0.404,melbourne-storm,
+2026-08-25,2026,Round 26,2026-08-28,manly-warringah-sea-eagles,st-george-illawarra-dragons,4 Pines,0.735,manly-warringah-sea-eagles,
+2026-08-25,2026,Round 26,2026-08-28,penrith-panthers,canterbury-bankstown-bulldogs,CommBank,0.688,penrith-panthers,
+2026-08-25,2026,Round 26,2026-08-29,gold-coast-titans,south-sydney-rabbitohs,Cbus Super,0.621,gold-coast-titans,
+2026-08-25,2026,Round 26,2026-08-29,sydney-roosters,dolphins,Allianz,0.309,dolphins,
+2026-08-25,2026,Round 26,2026-08-29,north-queensland-cowboys,wests-tigers,QLD C. Bank,0.811,north-queensland-cowboys,
+2026-08-25,2026,Round 26,2026-08-30,warriors,newcastle-knights,Go Media,0.83,warriors,
+2026-08-25,2026,Round 26,2026-08-30,parramatta-eels,cronulla-sutherland-sharks,CommBank,0.292,cronulla-sutherland-sharks,

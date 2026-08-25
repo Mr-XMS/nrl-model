@@ -519,107 +519,211 @@ run_time,kickoff,home,away,market,selection,sim_prob,sim_fair_odds,book_odds,act
 2026-08-11 18:37,2026-08-16,wests-tigers,st-george-illawarra-dragons,anytime_try,Clinton Gutherson,0.4439,2.25,3.1,0.0
 2026-08-11 18:37,2026-08-16,wests-tigers,st-george-illawarra-dragons,anytime_try,Valentine Holmes,0.4132,2.42,2.5,0.0
 2026-08-11 18:37,2026-08-16,wests-tigers,st-george-illawarra-dragons,sgm_combo,wests-tigers win + over 41.5,0.2449,4.08,,0.0
-2026-08-18 18:08,2026-08-20,melbourne-storm,penrith-panthers,h2h,melbourne-storm,0.3976,2.52,2.97,
-2026-08-18 18:08,2026-08-20,melbourne-storm,penrith-panthers,h2h,penrith-panthers,0.6024,1.66,1.4,
-2026-08-18 18:08,2026-08-20,melbourne-storm,penrith-panthers,line,melbourne-storm -6.5,0.2432,4.11,,
-2026-08-18 18:08,2026-08-20,melbourne-storm,penrith-panthers,line,penrith-panthers +6.5,0.7568,1.32,,
-2026-08-18 18:08,2026-08-20,melbourne-storm,penrith-panthers,total,over 41.5,0.6152,1.63,,
-2026-08-18 18:08,2026-08-20,melbourne-storm,penrith-panthers,total,over 47.5,0.468,2.14,,
-2026-08-18 18:08,2026-08-20,melbourne-storm,penrith-panthers,anytime_try,Sualauvi Faalogo,0.46,2.17,2.45,
-2026-08-18 18:08,2026-08-20,melbourne-storm,penrith-panthers,anytime_try,Moses Leo,0.4063,2.46,2.6,
-2026-08-18 18:08,2026-08-20,melbourne-storm,penrith-panthers,anytime_try,Nick Meaney,0.3423,2.92,4.25,
-2026-08-18 18:08,2026-08-20,melbourne-storm,penrith-panthers,anytime_try,Thomas Jenkins,0.5648,1.77,1.7,
-2026-08-18 18:08,2026-08-20,melbourne-storm,penrith-panthers,anytime_try,Brian To'o,0.5274,1.9,1.95,
-2026-08-18 18:08,2026-08-20,melbourne-storm,penrith-panthers,anytime_try,Casey McLean,0.4041,2.47,2.6,
-2026-08-18 18:08,2026-08-20,melbourne-storm,penrith-panthers,sgm_combo,melbourne-storm win + over 41.5,0.2384,4.19,,
-2026-08-18 18:08,2026-08-21,canberra-raiders,brisbane-broncos,h2h,canberra-raiders,0.6996,1.43,1.31,
-2026-08-18 18:08,2026-08-21,canberra-raiders,brisbane-broncos,h2h,brisbane-broncos,0.3004,3.33,3.48,
-2026-08-18 18:08,2026-08-21,canberra-raiders,brisbane-broncos,line,canberra-raiders -6.5,0.5351,1.87,,
-2026-08-18 18:08,2026-08-21,canberra-raiders,brisbane-broncos,line,brisbane-broncos +6.5,0.4649,2.15,,
-2026-08-18 18:08,2026-08-21,canberra-raiders,brisbane-broncos,total,over 41.5,0.6252,1.6,,
-2026-08-18 18:08,2026-08-21,canberra-raiders,brisbane-broncos,total,over 47.5,0.475,2.11,,
-2026-08-18 18:08,2026-08-21,canberra-raiders,brisbane-broncos,anytime_try,Xavier Savage,0.5132,1.95,1.8,
-2026-08-18 18:08,2026-08-21,canberra-raiders,brisbane-broncos,anytime_try,Kaeo Weekes,0.3935,2.54,1.9,
-2026-08-18 18:08,2026-08-21,canberra-raiders,brisbane-broncos,anytime_try,Ethan Strange,0.3817,2.62,2.6,
-2026-08-18 18:08,2026-08-21,canberra-raiders,brisbane-broncos,anytime_try,Ezra Mam,0.3852,2.6,3.75,
-2026-08-18 18:08,2026-08-21,canberra-raiders,brisbane-broncos,anytime_try,Deine Mariner,0.3819,2.62,3.5,
-2026-08-18 18:08,2026-08-21,canberra-raiders,brisbane-broncos,anytime_try,Kotoni Staggs,0.3404,2.94,3.5,
-2026-08-18 18:08,2026-08-21,canberra-raiders,brisbane-broncos,sgm_combo,canberra-raiders win + over 41.5,0.4502,2.22,,
-2026-08-18 18:08,2026-08-21,dolphins,parramatta-eels,h2h,dolphins,0.7016,1.43,1.24,
-2026-08-18 18:08,2026-08-21,dolphins,parramatta-eels,h2h,parramatta-eels,0.2984,3.35,4.1,
-2026-08-18 18:08,2026-08-21,dolphins,parramatta-eels,line,dolphins -6.5,0.5397,1.85,,
-2026-08-18 18:08,2026-08-21,dolphins,parramatta-eels,line,parramatta-eels +6.5,0.4602,2.17,,
-2026-08-18 18:08,2026-08-21,dolphins,parramatta-eels,total,over 41.5,0.6221,1.61,,
-2026-08-18 18:08,2026-08-21,dolphins,parramatta-eels,total,over 47.5,0.4754,2.1,,
-2026-08-18 18:08,2026-08-21,dolphins,parramatta-eels,anytime_try,Hamiso Tabuai-Fidow,0.5645,1.77,1.72,
-2026-08-18 18:08,2026-08-21,dolphins,parramatta-eels,anytime_try,Selwyn Cobbo,0.5104,1.96,1.55,
-2026-08-18 18:08,2026-08-21,dolphins,parramatta-eels,anytime_try,Jamayne Isaako,0.5073,1.97,1.64,
-2026-08-18 18:08,2026-08-21,dolphins,parramatta-eels,anytime_try,Josh Addo-Carr,0.5223,1.91,2.25,
-2026-08-18 18:08,2026-08-21,dolphins,parramatta-eels,anytime_try,Brian Kelly,0.2945,3.4,2.55,
-2026-08-18 18:08,2026-08-21,dolphins,parramatta-eels,anytime_try,Will Penisini,0.2933,3.41,3.35,
-2026-08-18 18:08,2026-08-21,dolphins,parramatta-eels,sgm_combo,dolphins win + over 41.5,0.4492,2.23,,
-2026-08-18 18:08,2026-08-22,newcastle-knights,manly-warringah-sea-eagles,h2h,newcastle-knights,0.5613,1.78,1.47,
-2026-08-18 18:08,2026-08-22,newcastle-knights,manly-warringah-sea-eagles,h2h,manly-warringah-sea-eagles,0.4387,2.28,2.71,
-2026-08-18 18:08,2026-08-22,newcastle-knights,manly-warringah-sea-eagles,line,newcastle-knights -6.5,0.3866,2.59,1.95,
-2026-08-18 18:08,2026-08-22,newcastle-knights,manly-warringah-sea-eagles,line,manly-warringah-sea-eagles +6.5,0.6134,1.63,1.9,
-2026-08-18 18:08,2026-08-22,newcastle-knights,manly-warringah-sea-eagles,total,over 41.5,0.6073,1.65,,
-2026-08-18 18:08,2026-08-22,newcastle-knights,manly-warringah-sea-eagles,total,over 47.5,0.4566,2.19,,
-2026-08-18 18:08,2026-08-22,newcastle-knights,manly-warringah-sea-eagles,anytime_try,Dominic Young,0.568,1.76,1.65,
-2026-08-18 18:08,2026-08-22,newcastle-knights,manly-warringah-sea-eagles,anytime_try,Fletcher Sharpe,0.5066,1.97,2.35,
-2026-08-18 18:08,2026-08-22,newcastle-knights,manly-warringah-sea-eagles,anytime_try,Greg Marzhew,0.4983,2.01,1.7,
-2026-08-18 18:08,2026-08-22,newcastle-knights,manly-warringah-sea-eagles,anytime_try,Tom Trbojevic,0.4891,2.04,2.5,
-2026-08-18 18:08,2026-08-22,newcastle-knights,manly-warringah-sea-eagles,anytime_try,Jason Saab,0.4387,2.28,2.15,
-2026-08-18 18:08,2026-08-22,newcastle-knights,manly-warringah-sea-eagles,anytime_try,Reuben Garrick,0.3819,2.62,3.25,
-2026-08-18 18:08,2026-08-22,newcastle-knights,manly-warringah-sea-eagles,sgm_combo,newcastle-knights win + over 41.5,0.3471,2.88,,
-2026-08-18 18:08,2026-08-22,south-sydney-rabbitohs,warriors,h2h,south-sydney-rabbitohs,0.446,2.24,2.22,
-2026-08-18 18:08,2026-08-22,south-sydney-rabbitohs,warriors,h2h,warriors,0.554,1.8,1.67,
-2026-08-18 18:08,2026-08-22,south-sydney-rabbitohs,warriors,line,south-sydney-rabbitohs -6.5,0.2758,3.63,,
-2026-08-18 18:08,2026-08-22,south-sydney-rabbitohs,warriors,line,warriors +6.5,0.7242,1.38,,
-2026-08-18 18:08,2026-08-22,south-sydney-rabbitohs,warriors,total,over 41.5,0.5369,1.86,,
-2026-08-18 18:08,2026-08-22,south-sydney-rabbitohs,warriors,total,over 47.5,0.3872,2.58,,
-2026-08-18 18:08,2026-08-22,south-sydney-rabbitohs,warriors,anytime_try,Alex Johnston,0.5744,1.74,1.83,
-2026-08-18 18:08,2026-08-22,south-sydney-rabbitohs,warriors,anytime_try,Campbell Graham,0.2954,3.39,2.35,
-2026-08-18 18:08,2026-08-22,south-sydney-rabbitohs,warriors,anytime_try,Cody Walker,0.2883,3.47,4.25,
-2026-08-18 18:08,2026-08-22,south-sydney-rabbitohs,warriors,anytime_try,Alofiana Khan-Pereira,0.6001,1.67,1.83,
-2026-08-18 18:08,2026-08-22,south-sydney-rabbitohs,warriors,anytime_try,Dallin Watene-Zelezniak,0.539,1.86,1.78,
-2026-08-18 18:08,2026-08-22,south-sydney-rabbitohs,warriors,anytime_try,Leka Halasima,0.3285,3.04,2.75,
-2026-08-18 18:08,2026-08-22,south-sydney-rabbitohs,warriors,sgm_combo,south-sydney-rabbitohs win + over 41.5,0.2363,4.23,,
-2026-08-18 18:08,2026-08-22,st-george-illawarra-dragons,canterbury-bankstown-bulldogs,h2h,st-george-illawarra-dragons,0.4458,2.24,2.67,
-2026-08-18 18:08,2026-08-22,st-george-illawarra-dragons,canterbury-bankstown-bulldogs,h2h,canterbury-bankstown-bulldogs,0.5542,1.8,1.48,
-2026-08-18 18:08,2026-08-22,st-george-illawarra-dragons,canterbury-bankstown-bulldogs,line,st-george-illawarra-dragons -6.5,0.2767,3.61,,
-2026-08-18 18:08,2026-08-22,st-george-illawarra-dragons,canterbury-bankstown-bulldogs,line,canterbury-bankstown-bulldogs +6.5,0.7233,1.38,,
-2026-08-18 18:08,2026-08-22,st-george-illawarra-dragons,canterbury-bankstown-bulldogs,total,over 41.5,0.5412,1.85,,
-2026-08-18 18:08,2026-08-22,st-george-illawarra-dragons,canterbury-bankstown-bulldogs,total,over 47.5,0.3856,2.59,,
-2026-08-18 18:08,2026-08-22,st-george-illawarra-dragons,canterbury-bankstown-bulldogs,anytime_try,Tyrell Sloan,0.5197,1.92,2.05,
-2026-08-18 18:08,2026-08-22,st-george-illawarra-dragons,canterbury-bankstown-bulldogs,anytime_try,Valentine Holmes,0.4247,2.35,3.25,
-2026-08-18 18:08,2026-08-22,st-george-illawarra-dragons,canterbury-bankstown-bulldogs,anytime_try,Mathew Feagai,0.3554,2.81,2.5,
-2026-08-18 18:08,2026-08-22,st-george-illawarra-dragons,canterbury-bankstown-bulldogs,anytime_try,Jacob Kiraz,0.3861,2.59,2.05,
-2026-08-18 18:08,2026-08-22,st-george-illawarra-dragons,canterbury-bankstown-bulldogs,anytime_try,Stephen Crichton,0.3849,2.6,3.1,
-2026-08-18 18:08,2026-08-22,st-george-illawarra-dragons,canterbury-bankstown-bulldogs,anytime_try,Enari Tuala,0.3351,2.98,1.98,
-2026-08-18 18:08,2026-08-22,st-george-illawarra-dragons,canterbury-bankstown-bulldogs,sgm_combo,st-george-illawarra-dragons win + over 41.5,0.2346,4.26,,
-2026-08-18 18:08,2026-08-23,gold-coast-titans,cronulla-sutherland-sharks,h2h,gold-coast-titans,0.2928,3.41,2.74,
-2026-08-18 18:08,2026-08-23,gold-coast-titans,cronulla-sutherland-sharks,h2h,cronulla-sutherland-sharks,0.7071,1.41,1.46,
-2026-08-18 18:08,2026-08-23,gold-coast-titans,cronulla-sutherland-sharks,line,gold-coast-titans -6.5,0.1616,6.19,,
-2026-08-18 18:08,2026-08-23,gold-coast-titans,cronulla-sutherland-sharks,line,cronulla-sutherland-sharks +6.5,0.8385,1.19,,
-2026-08-18 18:08,2026-08-23,gold-coast-titans,cronulla-sutherland-sharks,total,over 41.5,0.6224,1.61,,
-2026-08-18 18:08,2026-08-23,gold-coast-titans,cronulla-sutherland-sharks,total,over 47.5,0.4708,2.12,,
-2026-08-18 18:08,2026-08-23,gold-coast-titans,cronulla-sutherland-sharks,anytime_try,Phillip Sami,0.3929,2.55,2.0,
-2026-08-18 18:08,2026-08-23,gold-coast-titans,cronulla-sutherland-sharks,anytime_try,Jojo Fifita,0.3175,3.15,3.1,
-2026-08-18 18:08,2026-08-23,gold-coast-titans,cronulla-sutherland-sharks,anytime_try,AJ Brimson,0.293,3.41,3.6,
-2026-08-18 18:08,2026-08-23,gold-coast-titans,cronulla-sutherland-sharks,anytime_try,Ronaldo Mulitalo,0.558,1.79,1.67,
-2026-08-18 18:08,2026-08-23,gold-coast-titans,cronulla-sutherland-sharks,anytime_try,Sione Katoa,0.5101,1.96,1.85,
-2026-08-18 18:08,2026-08-23,gold-coast-titans,cronulla-sutherland-sharks,anytime_try,KL Iro,0.3874,2.58,,
-2026-08-18 18:08,2026-08-23,gold-coast-titans,cronulla-sutherland-sharks,sgm_combo,gold-coast-titans win + over 41.5,0.1706,5.86,,
-2026-08-18 18:08,2026-08-23,sydney-roosters,wests-tigers,h2h,sydney-roosters,0.8706,1.15,1.06,
-2026-08-18 18:08,2026-08-23,sydney-roosters,wests-tigers,h2h,wests-tigers,0.1294,7.73,9.5,
-2026-08-18 18:08,2026-08-23,sydney-roosters,wests-tigers,line,sydney-roosters -6.5,0.7517,1.33,,
-2026-08-18 18:08,2026-08-23,sydney-roosters,wests-tigers,line,wests-tigers +6.5,0.2483,4.03,,
-2026-08-18 18:08,2026-08-23,sydney-roosters,wests-tigers,total,over 41.5,0.6903,1.45,,
-2026-08-18 18:08,2026-08-23,sydney-roosters,wests-tigers,total,over 47.5,0.5476,1.83,,
-2026-08-18 18:08,2026-08-23,sydney-roosters,wests-tigers,anytime_try,Mark Nawaqanitawase,0.7039,1.42,1.42,
-2026-08-18 18:08,2026-08-23,sydney-roosters,wests-tigers,anytime_try,James Tedesco,0.5406,1.85,1.77,
-2026-08-18 18:08,2026-08-23,sydney-roosters,wests-tigers,anytime_try,Billy Smith,0.4269,2.34,1.57,
-2026-08-18 18:08,2026-08-23,sydney-roosters,wests-tigers,anytime_try,Jahream Bula,0.3232,3.09,3.6,
-2026-08-18 18:08,2026-08-23,sydney-roosters,wests-tigers,anytime_try,Jeral Skelton,0.3074,3.25,2.8,
-2026-08-18 18:08,2026-08-23,sydney-roosters,wests-tigers,anytime_try,Solomone Saukuru,0.2606,3.84,4.4,
-2026-08-18 18:08,2026-08-23,sydney-roosters,wests-tigers,sgm_combo,sydney-roosters win + over 41.5,0.6143,1.63,,
+2026-08-18 18:08,2026-08-20,melbourne-storm,penrith-panthers,h2h,melbourne-storm,0.3976,2.52,2.97,0.0
+2026-08-18 18:08,2026-08-20,melbourne-storm,penrith-panthers,h2h,penrith-panthers,0.6024,1.66,1.4,1.0
+2026-08-18 18:08,2026-08-20,melbourne-storm,penrith-panthers,line,melbourne-storm -6.5,0.2432,4.11,,0.0
+2026-08-18 18:08,2026-08-20,melbourne-storm,penrith-panthers,line,penrith-panthers +6.5,0.7568,1.32,,1.0
+2026-08-18 18:08,2026-08-20,melbourne-storm,penrith-panthers,total,over 41.5,0.6152,1.63,,0.0
+2026-08-18 18:08,2026-08-20,melbourne-storm,penrith-panthers,total,over 47.5,0.468,2.14,,0.0
+2026-08-18 18:08,2026-08-20,melbourne-storm,penrith-panthers,anytime_try,Sualauvi Faalogo,0.46,2.17,2.45,0.0
+2026-08-18 18:08,2026-08-20,melbourne-storm,penrith-panthers,anytime_try,Moses Leo,0.4063,2.46,2.6,0.0
+2026-08-18 18:08,2026-08-20,melbourne-storm,penrith-panthers,anytime_try,Nick Meaney,0.3423,2.92,4.25,0.0
+2026-08-18 18:08,2026-08-20,melbourne-storm,penrith-panthers,anytime_try,Thomas Jenkins,0.5648,1.77,1.7,0.0
+2026-08-18 18:08,2026-08-20,melbourne-storm,penrith-panthers,anytime_try,Brian To'o,0.5274,1.9,1.95,1.0
+2026-08-18 18:08,2026-08-20,melbourne-storm,penrith-panthers,anytime_try,Casey McLean,0.4041,2.47,2.6,0.0
+2026-08-18 18:08,2026-08-20,melbourne-storm,penrith-panthers,sgm_combo,melbourne-storm win + over 41.5,0.2384,4.19,,0.0
+2026-08-18 18:08,2026-08-21,canberra-raiders,brisbane-broncos,h2h,canberra-raiders,0.6996,1.43,1.31,0.0
+2026-08-18 18:08,2026-08-21,canberra-raiders,brisbane-broncos,h2h,brisbane-broncos,0.3004,3.33,3.48,1.0
+2026-08-18 18:08,2026-08-21,canberra-raiders,brisbane-broncos,line,canberra-raiders -6.5,0.5351,1.87,,0.0
+2026-08-18 18:08,2026-08-21,canberra-raiders,brisbane-broncos,line,brisbane-broncos +6.5,0.4649,2.15,,1.0
+2026-08-18 18:08,2026-08-21,canberra-raiders,brisbane-broncos,total,over 41.5,0.6252,1.6,,1.0
+2026-08-18 18:08,2026-08-21,canberra-raiders,brisbane-broncos,total,over 47.5,0.475,2.11,,1.0
+2026-08-18 18:08,2026-08-21,canberra-raiders,brisbane-broncos,anytime_try,Xavier Savage,0.5132,1.95,1.8,0.0
+2026-08-18 18:08,2026-08-21,canberra-raiders,brisbane-broncos,anytime_try,Kaeo Weekes,0.3935,2.54,1.9,1.0
+2026-08-18 18:08,2026-08-21,canberra-raiders,brisbane-broncos,anytime_try,Ethan Strange,0.3817,2.62,2.6,0.0
+2026-08-18 18:08,2026-08-21,canberra-raiders,brisbane-broncos,anytime_try,Ezra Mam,0.3852,2.6,3.75,1.0
+2026-08-18 18:08,2026-08-21,canberra-raiders,brisbane-broncos,anytime_try,Deine Mariner,0.3819,2.62,3.5,0.0
+2026-08-18 18:08,2026-08-21,canberra-raiders,brisbane-broncos,anytime_try,Kotoni Staggs,0.3404,2.94,3.5,0.0
+2026-08-18 18:08,2026-08-21,canberra-raiders,brisbane-broncos,sgm_combo,canberra-raiders win + over 41.5,0.4502,2.22,,0.0
+2026-08-18 18:08,2026-08-21,dolphins,parramatta-eels,h2h,dolphins,0.7016,1.43,1.24,1.0
+2026-08-18 18:08,2026-08-21,dolphins,parramatta-eels,h2h,parramatta-eels,0.2984,3.35,4.1,0.0
+2026-08-18 18:08,2026-08-21,dolphins,parramatta-eels,line,dolphins -6.5,0.5397,1.85,,1.0
+2026-08-18 18:08,2026-08-21,dolphins,parramatta-eels,line,parramatta-eels +6.5,0.4602,2.17,,0.0
+2026-08-18 18:08,2026-08-21,dolphins,parramatta-eels,total,over 41.5,0.6221,1.61,,1.0
+2026-08-18 18:08,2026-08-21,dolphins,parramatta-eels,total,over 47.5,0.4754,2.1,,1.0
+2026-08-18 18:08,2026-08-21,dolphins,parramatta-eels,anytime_try,Hamiso Tabuai-Fidow,0.5645,1.77,1.72,0.0
+2026-08-18 18:08,2026-08-21,dolphins,parramatta-eels,anytime_try,Selwyn Cobbo,0.5104,1.96,1.55,1.0
+2026-08-18 18:08,2026-08-21,dolphins,parramatta-eels,anytime_try,Jamayne Isaako,0.5073,1.97,1.64,1.0
+2026-08-18 18:08,2026-08-21,dolphins,parramatta-eels,anytime_try,Josh Addo-Carr,0.5223,1.91,2.25,0.0
+2026-08-18 18:08,2026-08-21,dolphins,parramatta-eels,anytime_try,Brian Kelly,0.2945,3.4,2.55,1.0
+2026-08-18 18:08,2026-08-21,dolphins,parramatta-eels,anytime_try,Will Penisini,0.2933,3.41,3.35,0.0
+2026-08-18 18:08,2026-08-21,dolphins,parramatta-eels,sgm_combo,dolphins win + over 41.5,0.4492,2.23,,1.0
+2026-08-18 18:08,2026-08-22,newcastle-knights,manly-warringah-sea-eagles,h2h,newcastle-knights,0.5613,1.78,1.47,0.0
+2026-08-18 18:08,2026-08-22,newcastle-knights,manly-warringah-sea-eagles,h2h,manly-warringah-sea-eagles,0.4387,2.28,2.71,1.0
+2026-08-18 18:08,2026-08-22,newcastle-knights,manly-warringah-sea-eagles,line,newcastle-knights -6.5,0.3866,2.59,1.95,0.0
+2026-08-18 18:08,2026-08-22,newcastle-knights,manly-warringah-sea-eagles,line,manly-warringah-sea-eagles +6.5,0.6134,1.63,1.9,1.0
+2026-08-18 18:08,2026-08-22,newcastle-knights,manly-warringah-sea-eagles,total,over 41.5,0.6073,1.65,,1.0
+2026-08-18 18:08,2026-08-22,newcastle-knights,manly-warringah-sea-eagles,total,over 47.5,0.4566,2.19,,1.0
+2026-08-18 18:08,2026-08-22,newcastle-knights,manly-warringah-sea-eagles,anytime_try,Dominic Young,0.568,1.76,1.65,1.0
+2026-08-18 18:08,2026-08-22,newcastle-knights,manly-warringah-sea-eagles,anytime_try,Fletcher Sharpe,0.5066,1.97,2.35,0.0
+2026-08-18 18:08,2026-08-22,newcastle-knights,manly-warringah-sea-eagles,anytime_try,Greg Marzhew,0.4983,2.01,1.7,1.0
+2026-08-18 18:08,2026-08-22,newcastle-knights,manly-warringah-sea-eagles,anytime_try,Tom Trbojevic,0.4891,2.04,2.5,0.0
+2026-08-18 18:08,2026-08-22,newcastle-knights,manly-warringah-sea-eagles,anytime_try,Jason Saab,0.4387,2.28,2.15,1.0
+2026-08-18 18:08,2026-08-22,newcastle-knights,manly-warringah-sea-eagles,anytime_try,Reuben Garrick,0.3819,2.62,3.25,1.0
+2026-08-18 18:08,2026-08-22,newcastle-knights,manly-warringah-sea-eagles,sgm_combo,newcastle-knights win + over 41.5,0.3471,2.88,,0.0
+2026-08-18 18:08,2026-08-22,south-sydney-rabbitohs,warriors,h2h,south-sydney-rabbitohs,0.446,2.24,2.22,0.0
+2026-08-18 18:08,2026-08-22,south-sydney-rabbitohs,warriors,h2h,warriors,0.554,1.8,1.67,1.0
+2026-08-18 18:08,2026-08-22,south-sydney-rabbitohs,warriors,line,south-sydney-rabbitohs -6.5,0.2758,3.63,,0.0
+2026-08-18 18:08,2026-08-22,south-sydney-rabbitohs,warriors,line,warriors +6.5,0.7242,1.38,,1.0
+2026-08-18 18:08,2026-08-22,south-sydney-rabbitohs,warriors,total,over 41.5,0.5369,1.86,,1.0
+2026-08-18 18:08,2026-08-22,south-sydney-rabbitohs,warriors,total,over 47.5,0.3872,2.58,,1.0
+2026-08-18 18:08,2026-08-22,south-sydney-rabbitohs,warriors,anytime_try,Alex Johnston,0.5744,1.74,1.83,1.0
+2026-08-18 18:08,2026-08-22,south-sydney-rabbitohs,warriors,anytime_try,Campbell Graham,0.2954,3.39,2.35,0.0
+2026-08-18 18:08,2026-08-22,south-sydney-rabbitohs,warriors,anytime_try,Cody Walker,0.2883,3.47,4.25,1.0
+2026-08-18 18:08,2026-08-22,south-sydney-rabbitohs,warriors,anytime_try,Alofiana Khan-Pereira,0.6001,1.67,1.83,1.0
+2026-08-18 18:08,2026-08-22,south-sydney-rabbitohs,warriors,anytime_try,Dallin Watene-Zelezniak,0.539,1.86,1.78,1.0
+2026-08-18 18:08,2026-08-22,south-sydney-rabbitohs,warriors,anytime_try,Leka Halasima,0.3285,3.04,2.75,1.0
+2026-08-18 18:08,2026-08-22,south-sydney-rabbitohs,warriors,sgm_combo,south-sydney-rabbitohs win + over 41.5,0.2363,4.23,,0.0
+2026-08-18 18:08,2026-08-22,st-george-illawarra-dragons,canterbury-bankstown-bulldogs,h2h,st-george-illawarra-dragons,0.4458,2.24,2.67,0.0
+2026-08-18 18:08,2026-08-22,st-george-illawarra-dragons,canterbury-bankstown-bulldogs,h2h,canterbury-bankstown-bulldogs,0.5542,1.8,1.48,1.0
+2026-08-18 18:08,2026-08-22,st-george-illawarra-dragons,canterbury-bankstown-bulldogs,line,st-george-illawarra-dragons -6.5,0.2767,3.61,,0.0
+2026-08-18 18:08,2026-08-22,st-george-illawarra-dragons,canterbury-bankstown-bulldogs,line,canterbury-bankstown-bulldogs +6.5,0.7233,1.38,,1.0
+2026-08-18 18:08,2026-08-22,st-george-illawarra-dragons,canterbury-bankstown-bulldogs,total,over 41.5,0.5412,1.85,,1.0
+2026-08-18 18:08,2026-08-22,st-george-illawarra-dragons,canterbury-bankstown-bulldogs,total,over 47.5,0.3856,2.59,,1.0
+2026-08-18 18:08,2026-08-22,st-george-illawarra-dragons,canterbury-bankstown-bulldogs,anytime_try,Tyrell Sloan,0.5197,1.92,2.05,0.0
+2026-08-18 18:08,2026-08-22,st-george-illawarra-dragons,canterbury-bankstown-bulldogs,anytime_try,Valentine Holmes,0.4247,2.35,3.25,1.0
+2026-08-18 18:08,2026-08-22,st-george-illawarra-dragons,canterbury-bankstown-bulldogs,anytime_try,Mathew Feagai,0.3554,2.81,2.5,1.0
+2026-08-18 18:08,2026-08-22,st-george-illawarra-dragons,canterbury-bankstown-bulldogs,anytime_try,Jacob Kiraz,0.3861,2.59,2.05,0.0
+2026-08-18 18:08,2026-08-22,st-george-illawarra-dragons,canterbury-bankstown-bulldogs,anytime_try,Stephen Crichton,0.3849,2.6,3.1,0.0
+2026-08-18 18:08,2026-08-22,st-george-illawarra-dragons,canterbury-bankstown-bulldogs,anytime_try,Enari Tuala,0.3351,2.98,1.98,0.0
+2026-08-18 18:08,2026-08-22,st-george-illawarra-dragons,canterbury-bankstown-bulldogs,sgm_combo,st-george-illawarra-dragons win + over 41.5,0.2346,4.26,,0.0
+2026-08-18 18:08,2026-08-23,gold-coast-titans,cronulla-sutherland-sharks,h2h,gold-coast-titans,0.2928,3.41,2.74,0.0
+2026-08-18 18:08,2026-08-23,gold-coast-titans,cronulla-sutherland-sharks,h2h,cronulla-sutherland-sharks,0.7071,1.41,1.46,1.0
+2026-08-18 18:08,2026-08-23,gold-coast-titans,cronulla-sutherland-sharks,line,gold-coast-titans -6.5,0.1616,6.19,,0.0
+2026-08-18 18:08,2026-08-23,gold-coast-titans,cronulla-sutherland-sharks,line,cronulla-sutherland-sharks +6.5,0.8385,1.19,,1.0
+2026-08-18 18:08,2026-08-23,gold-coast-titans,cronulla-sutherland-sharks,total,over 41.5,0.6224,1.61,,1.0
+2026-08-18 18:08,2026-08-23,gold-coast-titans,cronulla-sutherland-sharks,total,over 47.5,0.4708,2.12,,1.0
+2026-08-18 18:08,2026-08-23,gold-coast-titans,cronulla-sutherland-sharks,anytime_try,Phillip Sami,0.3929,2.55,2.0,1.0
+2026-08-18 18:08,2026-08-23,gold-coast-titans,cronulla-sutherland-sharks,anytime_try,Jojo Fifita,0.3175,3.15,3.1,1.0
+2026-08-18 18:08,2026-08-23,gold-coast-titans,cronulla-sutherland-sharks,anytime_try,AJ Brimson,0.293,3.41,3.6,1.0
+2026-08-18 18:08,2026-08-23,gold-coast-titans,cronulla-sutherland-sharks,anytime_try,Ronaldo Mulitalo,0.558,1.79,1.67,1.0
+2026-08-18 18:08,2026-08-23,gold-coast-titans,cronulla-sutherland-sharks,anytime_try,Sione Katoa,0.5101,1.96,1.85,1.0
+2026-08-18 18:08,2026-08-23,gold-coast-titans,cronulla-sutherland-sharks,anytime_try,KL Iro,0.3874,2.58,,0.0
+2026-08-18 18:08,2026-08-23,gold-coast-titans,cronulla-sutherland-sharks,sgm_combo,gold-coast-titans win + over 41.5,0.1706,5.86,,0.0
+2026-08-18 18:08,2026-08-23,sydney-roosters,wests-tigers,h2h,sydney-roosters,0.8706,1.15,1.06,0.0
+2026-08-18 18:08,2026-08-23,sydney-roosters,wests-tigers,h2h,wests-tigers,0.1294,7.73,9.5,1.0
+2026-08-18 18:08,2026-08-23,sydney-roosters,wests-tigers,line,sydney-roosters -6.5,0.7517,1.33,,0.0
+2026-08-18 18:08,2026-08-23,sydney-roosters,wests-tigers,line,wests-tigers +6.5,0.2483,4.03,,1.0
+2026-08-18 18:08,2026-08-23,sydney-roosters,wests-tigers,total,over 41.5,0.6903,1.45,,1.0
+2026-08-18 18:08,2026-08-23,sydney-roosters,wests-tigers,total,over 47.5,0.5476,1.83,,1.0
+2026-08-18 18:08,2026-08-23,sydney-roosters,wests-tigers,anytime_try,Mark Nawaqanitawase,0.7039,1.42,1.42,0.0
+2026-08-18 18:08,2026-08-23,sydney-roosters,wests-tigers,anytime_try,James Tedesco,0.5406,1.85,1.77,0.0
+2026-08-18 18:08,2026-08-23,sydney-roosters,wests-tigers,anytime_try,Billy Smith,0.4269,2.34,1.57,1.0
+2026-08-18 18:08,2026-08-23,sydney-roosters,wests-tigers,anytime_try,Jahream Bula,0.3232,3.09,3.6,0.0
+2026-08-18 18:08,2026-08-23,sydney-roosters,wests-tigers,anytime_try,Jeral Skelton,0.3074,3.25,2.8,1.0
+2026-08-18 18:08,2026-08-23,sydney-roosters,wests-tigers,anytime_try,Solomone Saukuru,0.2606,3.84,4.4,1.0
+2026-08-18 18:08,2026-08-23,sydney-roosters,wests-tigers,sgm_combo,sydney-roosters win + over 41.5,0.6143,1.63,,0.0
+2026-08-25 18:11,2026-08-27,brisbane-broncos,melbourne-storm,h2h,brisbane-broncos,0.389,2.57,2.21,
+2026-08-25 18:11,2026-08-27,brisbane-broncos,melbourne-storm,h2h,melbourne-storm,0.611,1.64,1.67,
+2026-08-25 18:11,2026-08-27,brisbane-broncos,melbourne-storm,line,brisbane-broncos -6.5,0.2299,4.35,,
+2026-08-25 18:11,2026-08-27,brisbane-broncos,melbourne-storm,line,melbourne-storm +6.5,0.7701,1.3,,
+2026-08-25 18:11,2026-08-27,brisbane-broncos,melbourne-storm,total,over 41.5,0.6232,1.6,,
+2026-08-25 18:11,2026-08-27,brisbane-broncos,melbourne-storm,total,over 47.5,0.476,2.1,,
+2026-08-25 18:11,2026-08-27,brisbane-broncos,melbourne-storm,anytime_try,Ezra Mam,0.4203,2.38,2.9,
+2026-08-25 18:11,2026-08-27,brisbane-broncos,melbourne-storm,anytime_try,Deine Mariner,0.4049,2.47,3.3,
+2026-08-25 18:11,2026-08-27,brisbane-broncos,melbourne-storm,anytime_try,Kotoni Staggs,0.3603,2.78,2.4,
+2026-08-25 18:11,2026-08-27,brisbane-broncos,melbourne-storm,anytime_try,Sualauvi Faalogo,0.508,1.97,1.83,
+2026-08-25 18:11,2026-08-27,brisbane-broncos,melbourne-storm,anytime_try,Moses Leo,0.4464,2.24,1.83,
+2026-08-25 18:11,2026-08-27,brisbane-broncos,melbourne-storm,anytime_try,Jahrome Hughes,0.3963,2.52,3.7,
+2026-08-25 18:11,2026-08-27,brisbane-broncos,melbourne-storm,sgm_combo,brisbane-broncos win + over 41.5,0.2352,4.25,,
+2026-08-25 18:11,2026-08-28,manly-warringah-sea-eagles,st-george-illawarra-dragons,h2h,manly-warringah-sea-eagles,0.695,1.44,1.41,
+2026-08-25 18:11,2026-08-28,manly-warringah-sea-eagles,st-george-illawarra-dragons,h2h,st-george-illawarra-dragons,0.305,3.28,2.93,
+2026-08-25 18:11,2026-08-28,manly-warringah-sea-eagles,st-george-illawarra-dragons,line,manly-warringah-sea-eagles -6.5,0.5258,1.9,,
+2026-08-25 18:11,2026-08-28,manly-warringah-sea-eagles,st-george-illawarra-dragons,line,st-george-illawarra-dragons +6.5,0.4742,2.11,,
+2026-08-25 18:11,2026-08-28,manly-warringah-sea-eagles,st-george-illawarra-dragons,total,over 41.5,0.6305,1.59,,
+2026-08-25 18:11,2026-08-28,manly-warringah-sea-eagles,st-george-illawarra-dragons,total,over 47.5,0.4811,2.08,,
+2026-08-25 18:11,2026-08-28,manly-warringah-sea-eagles,st-george-illawarra-dragons,anytime_try,Tom Trbojevic,0.5945,1.68,2.05,
+2026-08-25 18:11,2026-08-28,manly-warringah-sea-eagles,st-george-illawarra-dragons,anytime_try,Jason Saab,0.5363,1.86,1.87,
+2026-08-25 18:11,2026-08-28,manly-warringah-sea-eagles,st-george-illawarra-dragons,anytime_try,Reuben Garrick,0.4763,2.1,3.0,
+2026-08-25 18:11,2026-08-28,manly-warringah-sea-eagles,st-george-illawarra-dragons,anytime_try,Tyrell Sloan,0.5202,1.92,2.05,
+2026-08-25 18:11,2026-08-28,manly-warringah-sea-eagles,st-george-illawarra-dragons,anytime_try,Valentine Holmes,0.436,2.29,2.9,
+2026-08-25 18:11,2026-08-28,manly-warringah-sea-eagles,st-george-illawarra-dragons,anytime_try,Mathew Feagai,0.3723,2.69,2.15,
+2026-08-25 18:11,2026-08-28,manly-warringah-sea-eagles,st-george-illawarra-dragons,sgm_combo,manly-warringah-sea-eagles win + over 41.5,0.449,2.23,,
+2026-08-25 18:11,2026-08-28,penrith-panthers,canterbury-bankstown-bulldogs,h2h,penrith-panthers,0.6388,1.57,1.33,
+2026-08-25 18:11,2026-08-28,penrith-panthers,canterbury-bankstown-bulldogs,h2h,canterbury-bankstown-bulldogs,0.3612,2.77,3.37,
+2026-08-25 18:11,2026-08-28,penrith-panthers,canterbury-bankstown-bulldogs,line,penrith-panthers -6.5,0.4653,2.15,,
+2026-08-25 18:11,2026-08-28,penrith-panthers,canterbury-bankstown-bulldogs,line,canterbury-bankstown-bulldogs +6.5,0.5347,1.87,,
+2026-08-25 18:11,2026-08-28,penrith-panthers,canterbury-bankstown-bulldogs,total,over 41.5,0.6185,1.62,1.88,
+2026-08-25 18:11,2026-08-28,penrith-panthers,canterbury-bankstown-bulldogs,total,over 47.5,0.4653,2.15,,
+2026-08-25 18:11,2026-08-28,penrith-panthers,canterbury-bankstown-bulldogs,anytime_try,Thomas Jenkins,0.5534,1.81,1.7,
+2026-08-25 18:11,2026-08-28,penrith-panthers,canterbury-bankstown-bulldogs,anytime_try,Brian To'o,0.5321,1.88,1.98,
+2026-08-25 18:11,2026-08-28,penrith-panthers,canterbury-bankstown-bulldogs,anytime_try,Casey McLean,0.3943,2.54,2.5,
+2026-08-25 18:11,2026-08-28,penrith-panthers,canterbury-bankstown-bulldogs,anytime_try,Stephen Crichton,0.3631,2.75,4.75,
+2026-08-25 18:11,2026-08-28,penrith-panthers,canterbury-bankstown-bulldogs,anytime_try,Jacob Kiraz,0.3582,2.79,3.0,
+2026-08-25 18:11,2026-08-28,penrith-panthers,canterbury-bankstown-bulldogs,anytime_try,Enari Tuala,0.3105,3.22,3.0,
+2026-08-25 18:11,2026-08-28,penrith-panthers,canterbury-bankstown-bulldogs,sgm_combo,penrith-panthers win + over 41.5,0.4049,2.47,,
+2026-08-25 18:11,2026-08-29,gold-coast-titans,south-sydney-rabbitohs,h2h,gold-coast-titans,0.4058,2.46,3.21,
+2026-08-25 18:11,2026-08-29,gold-coast-titans,south-sydney-rabbitohs,h2h,south-sydney-rabbitohs,0.5942,1.68,1.35,
+2026-08-25 18:11,2026-08-29,gold-coast-titans,south-sydney-rabbitohs,line,gold-coast-titans -6.5,0.2511,3.98,,
+2026-08-25 18:11,2026-08-29,gold-coast-titans,south-sydney-rabbitohs,line,south-sydney-rabbitohs +6.5,0.7489,1.34,,
+2026-08-25 18:11,2026-08-29,gold-coast-titans,south-sydney-rabbitohs,total,over 41.5,0.6143,1.63,,
+2026-08-25 18:11,2026-08-29,gold-coast-titans,south-sydney-rabbitohs,total,over 47.5,0.463,2.16,,
+2026-08-25 18:11,2026-08-29,gold-coast-titans,south-sydney-rabbitohs,anytime_try,Phillip Sami,0.4603,2.17,1.8,
+2026-08-25 18:11,2026-08-29,gold-coast-titans,south-sydney-rabbitohs,anytime_try,Jojo Fifita,0.3836,2.61,3.0,
+2026-08-25 18:11,2026-08-29,gold-coast-titans,south-sydney-rabbitohs,anytime_try,AJ Brimson,0.3553,2.81,3.5,
+2026-08-25 18:11,2026-08-29,gold-coast-titans,south-sydney-rabbitohs,anytime_try,Alex Johnston,0.6515,1.53,1.42,
+2026-08-25 18:11,2026-08-29,gold-coast-titans,south-sydney-rabbitohs,anytime_try,Campbell Graham,0.3441,2.91,1.87,
+2026-08-25 18:11,2026-08-29,gold-coast-titans,south-sydney-rabbitohs,anytime_try,Cody Walker,0.3404,2.94,3.3,
+2026-08-25 18:11,2026-08-29,gold-coast-titans,south-sydney-rabbitohs,sgm_combo,gold-coast-titans win + over 41.5,0.2407,4.15,,
+2026-08-25 18:11,2026-08-29,sydney-roosters,dolphins,h2h,sydney-roosters,0.547,1.83,1.55,
+2026-08-25 18:11,2026-08-29,sydney-roosters,dolphins,h2h,dolphins,0.453,2.21,2.47,
+2026-08-25 18:11,2026-08-29,sydney-roosters,dolphins,line,sydney-roosters -6.5,0.3708,2.7,,
+2026-08-25 18:11,2026-08-29,sydney-roosters,dolphins,line,dolphins +6.5,0.6291,1.59,,
+2026-08-25 18:11,2026-08-29,sydney-roosters,dolphins,total,over 41.5,0.6158,1.62,,
+2026-08-25 18:11,2026-08-29,sydney-roosters,dolphins,total,over 47.5,0.466,2.15,1.9,
+2026-08-25 18:11,2026-08-29,sydney-roosters,dolphins,anytime_try,Mark Nawaqanitawase,0.5818,1.72,1.8,
+2026-08-25 18:11,2026-08-29,sydney-roosters,dolphins,anytime_try,James Tedesco,0.4328,2.31,2.25,
+2026-08-25 18:11,2026-08-29,sydney-roosters,dolphins,anytime_try,Billy Smith,0.3477,2.88,1.85,
+2026-08-25 18:11,2026-08-29,sydney-roosters,dolphins,anytime_try,Hamiso Tabuai-Fidow,0.4814,2.08,2.25,
+2026-08-25 18:11,2026-08-29,sydney-roosters,dolphins,anytime_try,Selwyn Cobbo,0.4434,2.26,2.05,
+2026-08-25 18:11,2026-08-29,sydney-roosters,dolphins,anytime_try,Jamayne Isaako,0.4351,2.3,2.0,
+2026-08-25 18:11,2026-08-29,sydney-roosters,dolphins,sgm_combo,sydney-roosters win + over 41.5,0.342,2.92,,
+2026-08-25 18:11,2026-08-29,north-queensland-cowboys,wests-tigers,h2h,north-queensland-cowboys,0.7046,1.42,1.27,
+2026-08-25 18:11,2026-08-29,north-queensland-cowboys,wests-tigers,h2h,wests-tigers,0.2954,3.38,3.78,
+2026-08-25 18:11,2026-08-29,north-queensland-cowboys,wests-tigers,line,north-queensland-cowboys -6.5,0.5389,1.86,,
+2026-08-25 18:11,2026-08-29,north-queensland-cowboys,wests-tigers,line,wests-tigers +6.5,0.4611,2.17,,
+2026-08-25 18:11,2026-08-29,north-queensland-cowboys,wests-tigers,total,over 41.5,0.6304,1.59,,
+2026-08-25 18:11,2026-08-29,north-queensland-cowboys,wests-tigers,total,over 47.5,0.483,2.07,,
+2026-08-25 18:11,2026-08-29,north-queensland-cowboys,wests-tigers,anytime_try,Jeremiah Nanai,0.4925,2.03,2.7,
+2026-08-25 18:11,2026-08-29,north-queensland-cowboys,wests-tigers,anytime_try,Braidon Burns,0.4469,2.24,1.62,
+2026-08-25 18:11,2026-08-29,north-queensland-cowboys,wests-tigers,anytime_try,Scott Drinkwater,0.416,2.4,2.25,
+2026-08-25 18:11,2026-08-29,north-queensland-cowboys,wests-tigers,anytime_try,Jeral Skelton,0.3694,2.71,2.15,
+2026-08-25 18:11,2026-08-29,north-queensland-cowboys,wests-tigers,anytime_try,Jahream Bula,0.3606,2.77,2.75,
+2026-08-25 18:11,2026-08-29,north-queensland-cowboys,wests-tigers,anytime_try,Solomone Saukuru,0.3446,2.9,2.95,
+2026-08-25 18:11,2026-08-29,north-queensland-cowboys,wests-tigers,sgm_combo,north-queensland-cowboys win + over 41.5,0.4576,2.19,,
+2026-08-25 18:11,2026-08-30,warriors,newcastle-knights,h2h,warriors,0.5856,1.71,1.33,
+2026-08-25 18:11,2026-08-30,warriors,newcastle-knights,h2h,newcastle-knights,0.4144,2.41,3.35,
+2026-08-25 18:11,2026-08-30,warriors,newcastle-knights,line,warriors -6.5,0.4097,2.44,,
+2026-08-25 18:11,2026-08-30,warriors,newcastle-knights,line,newcastle-knights +6.5,0.5903,1.69,,
+2026-08-25 18:11,2026-08-30,warriors,newcastle-knights,total,over 41.5,0.6115,1.64,,
+2026-08-25 18:11,2026-08-30,warriors,newcastle-knights,total,over 47.5,0.4617,2.17,1.9,
+2026-08-25 18:11,2026-08-30,warriors,newcastle-knights,anytime_try,Alofiana Khan-Pereira,0.6552,1.53,1.5,
+2026-08-25 18:11,2026-08-30,warriors,newcastle-knights,anytime_try,Leka Halasima,0.387,2.58,2.4,
+2026-08-25 18:11,2026-08-30,warriors,newcastle-knights,anytime_try,Luke Laulilii,0.3865,2.59,,
+2026-08-25 18:11,2026-08-30,warriors,newcastle-knights,anytime_try,Greg Marzhew,0.5203,1.92,2.15,
+2026-08-25 18:11,2026-08-30,warriors,newcastle-knights,anytime_try,Fletcher Sharpe,0.5192,1.93,2.65,
+2026-08-25 18:11,2026-08-30,warriors,newcastle-knights,anytime_try,Fletcher Hunt,0.3674,2.72,2.2,
+2026-08-25 18:11,2026-08-30,warriors,newcastle-knights,sgm_combo,warriors win + over 41.5,0.3686,2.71,,
+2026-08-25 18:11,2026-08-30,parramatta-eels,cronulla-sutherland-sharks,h2h,parramatta-eels,0.3689,2.71,2.63,
+2026-08-25 18:11,2026-08-30,parramatta-eels,cronulla-sutherland-sharks,h2h,cronulla-sutherland-sharks,0.6311,1.58,1.49,
+2026-08-25 18:11,2026-08-30,parramatta-eels,cronulla-sutherland-sharks,line,parramatta-eels -6.5,0.2242,4.46,,
+2026-08-25 18:11,2026-08-30,parramatta-eels,cronulla-sutherland-sharks,line,cronulla-sutherland-sharks +6.5,0.7758,1.29,,
+2026-08-25 18:11,2026-08-30,parramatta-eels,cronulla-sutherland-sharks,total,over 41.5,0.6274,1.59,,
+2026-08-25 18:11,2026-08-30,parramatta-eels,cronulla-sutherland-sharks,total,over 47.5,0.4768,2.1,,
+2026-08-25 18:11,2026-08-30,parramatta-eels,cronulla-sutherland-sharks,anytime_try,Josh Addo-Carr,0.5466,1.83,2.1,
+2026-08-25 18:11,2026-08-30,parramatta-eels,cronulla-sutherland-sharks,anytime_try,Sean Russell,0.3201,3.12,3.05,
+2026-08-25 18:11,2026-08-30,parramatta-eels,cronulla-sutherland-sharks,anytime_try,Will Penisini,0.3154,3.17,3.0,
+2026-08-25 18:11,2026-08-30,parramatta-eels,cronulla-sutherland-sharks,anytime_try,Ronaldo Mulitalo,0.5441,1.84,1.58,
+2026-08-25 18:11,2026-08-30,parramatta-eels,cronulla-sutherland-sharks,anytime_try,Sione Katoa,0.4966,2.01,1.62,
+2026-08-25 18:11,2026-08-30,parramatta-eels,cronulla-sutherland-sharks,anytime_try,KL Iro,0.362,2.76,,
+2026-08-25 18:11,2026-08-30,parramatta-eels,cronulla-sutherland-sharks,sgm_combo,parramatta-eels win + over 41.5,0.2248,4.45,,

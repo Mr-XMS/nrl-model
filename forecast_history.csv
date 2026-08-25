@@ -179,3 +179,11 @@ run_time,date,home_team,away_team,kickoff,venue_city,p_base,p_market,wet,returni
 2026-08-22 09:36,2026-08-23,sydney-roosters,wests-tigers,2026-08-23T06:05:00Z,Sydney,0.8833,0.8996,0,0,0,0,0,1
 2026-08-23 09:32,2026-08-23,gold-coast-titans,cronulla-sutherland-sharks,2026-08-23T04:00:00Z,Gold Coast,0.2035,0.3333,0,0,0,0,0,1
 2026-08-23 09:32,2026-08-23,sydney-roosters,wests-tigers,2026-08-23T06:05:00Z,Sydney,0.8842,0.8811,0,0,0,0,0,1
+2026-08-25 18:09,2026-08-27,brisbane-broncos,melbourne-storm,2026-08-27T09:50:00Z,Brisbane,0.3337,0.4304,0,0,0,0,1,1
+2026-08-25 18:09,2026-08-28,manly-warringah-sea-eagles,st-george-illawarra-dragons,2026-08-28T08:00:00Z,Sydney,0.8151,0.6751,0,0,0,0,0,1
+2026-08-25 18:09,2026-08-28,penrith-panthers,canterbury-bankstown-bulldogs,2026-08-28T10:00:00Z,Sydney,0.7353,0.717,0,0,1,0,0,1
+2026-08-25 18:09,2026-08-29,gold-coast-titans,south-sydney-rabbitohs,2026-08-29T05:00:00Z,Gold Coast,0.3224,0.2961,0,1,1,0,0,3
+2026-08-25 18:09,2026-08-29,sydney-roosters,dolphins,2026-08-29T07:30:00Z,Sydney,0.6662,0.6144,0,1,0,0,0,1
+2026-08-25 18:09,2026-08-29,north-queensland-cowboys,wests-tigers,2026-08-29T09:35:00Z,Townsville,0.7632,0.7485,0,2,0,0,0,3
+2026-08-25 18:09,2026-08-30,warriors,newcastle-knights,2026-08-30T04:00:00Z,Auckland,0.7917,0.7158,0,2,2,0,0,6
+2026-08-25 18:09,2026-08-30,parramatta-eels,cronulla-sutherland-sharks,2026-08-30T06:05:00Z,Sydney,0.3788,0.3617,0,1,0,0,0,2
