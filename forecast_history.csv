@@ -194,3 +194,10 @@ run_time,date,home_team,away_team,kickoff,venue_city,p_base,p_market,wet,returni
 2026-08-28 02:29,2026-08-29,north-queensland-cowboys,wests-tigers,2026-08-29T09:35:00Z,Townsville,0.7648,0.7619,0,0,0,0,0,1
 2026-08-28 02:29,2026-08-30,warriors,newcastle-knights,2026-08-30T04:00:00Z,Auckland,0.792,0.7505,0,0,0,0,0,2
 2026-08-28 02:29,2026-08-30,parramatta-eels,cronulla-sutherland-sharks,2026-08-30T06:05:00Z,Sydney,0.3797,0.3617,0,0,0,0,0,1
+2026-08-28 16:55,2026-08-28,manly-warringah-sea-eagles,st-george-illawarra-dragons,2026-08-28T08:00:00Z,Sydney,0.8151,0.7203,0,0,0,0,0,1
+2026-08-28 16:55,2026-08-28,penrith-panthers,canterbury-bankstown-bulldogs,2026-08-28T10:00:00Z,Sydney,0.7351,0.7152,0,0,0,0,0,0
+2026-08-28 16:55,2026-08-29,gold-coast-titans,south-sydney-rabbitohs,2026-08-29T05:00:00Z,Gold Coast,0.326,0.2686,0,0,0,0,0,1
+2026-08-28 16:55,2026-08-29,sydney-roosters,dolphins,2026-08-29T07:30:00Z,Sydney,0.6664,0.609,0,0,0,0,0,0
+2026-08-28 16:55,2026-08-29,north-queensland-cowboys,wests-tigers,2026-08-29T09:35:00Z,Townsville,0.7648,0.7573,0,0,0,0,0,1
+2026-08-28 16:55,2026-08-30,warriors,newcastle-knights,2026-08-30T04:00:00Z,Auckland,0.792,0.7505,0,0,0,0,0,2
+2026-08-28 16:55,2026-08-30,parramatta-eels,cronulla-sutherland-sharks,2026-08-30T06:05:00Z,Sydney,0.3797,0.3566,0,0,0,0,0,1
