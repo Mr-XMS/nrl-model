@@ -6146,3 +6146,25 @@ done: 0 scraped
 Paper bets: graded 0 new | season: 20 bets, staked $51, P&L $-9 (-18.5% ROI)
 publish_rounds: 9 round page(s) written, 0 sealed
 ===== done =====
+
+===== 2026-08-31 15:29 (day 1) =====
+Fetching NRL 2026 from Rugby League Project...
+Season 2026: 188 completed matches on site, 0 new added to dataset (3609 total). 16 future fixtures listed.
+Graded 0 new predictions. Running record: 59 graded, accuracy 64.4%, Brier 0.2380
+Lineups refreshed.
+
+Predictions — Round 26:
+  2026-08-27  brisbane-broncos                 v melbourne-storm                  -> melbourne-storm (60%)
+  2026-08-28  manly-warringah-sea-eagles       v st-george-illawarra-dragons      -> manly-warringah-sea-eagles (74%)
+  2026-08-28  penrith-panthers                 v canterbury-bankstown-bulldogs    -> penrith-panthers (69%)
+  2026-08-29  gold-coast-titans                v south-sydney-rabbitohs           -> gold-coast-titans (62%)
+  2026-08-29  sydney-roosters                  v dolphins                         -> dolphins (69%)
+  2026-08-29  north-queensland-cowboys         v wests-tigers                     -> north-queensland-cowboys (81%)
+  2026-08-30  warriors                         v newcastle-knights                -> warriors (83%)
+  2026-08-30  parramatta-eels                  v cronulla-sutherland-sharks       -> cronulla-sutherland-sharks (71%)
+
+Logged to predictions.csv
+done: 0 scraped
+Paper bets: graded 0 new | season: 20 bets, staked $51, P&L $-9 (-18.5% ROI)
+publish_rounds: 9 round page(s) written, 0 sealed
+===== done =====
