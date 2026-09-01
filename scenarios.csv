@@ -1,13 +1,9 @@
 home,away,player,team,status,p_fit,p_named,p_withdrawn,swing_pts
-brisbane-broncos,melbourne-storm,Jahrome Hughes,melbourne-storm,IN DOUBT,0.3236,0.3294,0.3237,0.0
-penrith-panthers,canterbury-bankstown-bulldogs,Enari Tuala,canterbury-bankstown-bulldogs,returning,0.7243,0.7246,0.7223,0.2
-gold-coast-titans,south-sydney-rabbitohs,Josh Patston,gold-coast-titans,returning,0.3235,0.3233,0.3262,0.3
-gold-coast-titans,south-sydney-rabbitohs,Jamie Humphreys,south-sydney-rabbitohs,returning,0.3215,0.3233,0.3205,0.1
-sydney-roosters,dolphins,James Tedesco,sydney-roosters,returning,0.6523,0.6521,0.6542,0.2
-north-queensland-cowboys,wests-tigers,Tom Dearden,north-queensland-cowboys,returning,0.7731,0.7731,0.7825,0.9
-north-queensland-cowboys,wests-tigers,Jeremiah Nanai,north-queensland-cowboys,returning,0.7751,0.7731,0.7678,0.7
-warriors,newcastle-knights,Ali Leiataua,warriors,returning,0.7936,0.7921,0.7916,0.2
-warriors,newcastle-knights,Te Maire Martin,warriors,returning,0.7921,0.7921,0.778,1.4
-warriors,newcastle-knights,Dane Gagai,newcastle-knights,returning,0.7911,0.7921,0.7923,0.1
-warriors,newcastle-knights,Francis Manuleleua,newcastle-knights,returning,0.792,0.7921,0.7913,0.1
-parramatta-eels,cronulla-sutherland-sharks,Dylan Walker,parramatta-eels,returning,0.3895,0.3886,0.3903,0.1
+gold-coast-titans,dolphins,Beau Fermor,gold-coast-titans,returning,0.2091,0.2087,0.2098,0.1
+south-sydney-rabbitohs,sydney-roosters,Daniel Tupou,sydney-roosters,returning,0.3846,0.3863,0.3896,0.5
+warriors,manly-warringah-sea-eagles,Charnze Nicoll-Klokstad,warriors,returning,0.6855,0.6844,0.69,0.5
+warriors,manly-warringah-sea-eagles,Chanel Harris-Tavita,warriors,returning,0.6846,0.6844,0.6951,1.0
+warriors,manly-warringah-sea-eagles,Te Maire Martin,warriors,returning,0.6844,0.6844,0.7101,2.6
+st-george-illawarra-dragons,parramatta-eels,Jordan Samrani,parramatta-eels,returning,0.3478,0.3485,0.3435,0.4
+penrith-panthers,wests-tigers,Mitch Kenny,penrith-panthers,IN DOUBT,0.8782,0.8763,0.8749,0.3
+penrith-panthers,wests-tigers,Latu Fainu,wests-tigers,returning,0.8763,0.8763,0.8719,0.4

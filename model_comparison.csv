@@ -62,3 +62,11 @@ run_date,date,home_team,away_team,p_base,p_retadj,p_wet,forecast_rain_mm,actual_
 2026-08-25,2026-08-29,north-queensland-cowboys,wests-tigers,0.7632,0.7604,0.7741,,,0.7485,0.7559
 2026-08-25,2026-08-30,warriors,newcastle-knights,0.7917,0.788,0.8095,0.3,,0.7158,0.7557
 2026-08-25,2026-08-30,parramatta-eels,cronulla-sutherland-sharks,0.3788,0.3821,0.372,0.0,,0.3617,0.3702
+2026-09-01,2026-09-03,canterbury-bankstown-bulldogs,brisbane-broncos,0.7065,0.7044,0.7182,0.0,,0.7152,0.7109
+2026-09-01,2026-09-04,gold-coast-titans,dolphins,0.2141,0.2198,0.2022,0.0,,0.2322,0.223
+2026-09-01,2026-09-04,south-sydney-rabbitohs,sydney-roosters,0.4087,0.3989,0.3997,0.0,,0.8642,0.6771
+2026-09-01,2026-09-05,warriors,manly-warringah-sea-eagles,0.6805,0.6793,0.6989,0.0,,0.7259,0.7037
+2026-09-01,2026-09-05,north-queensland-cowboys,canberra-raiders,0.5814,0.5806,0.5849,0.0,,0.6188,0.6003
+2026-09-01,2026-09-05,cronulla-sutherland-sharks,melbourne-storm,0.5724,0.5758,0.5874,0.0,,0.3009,0.4315
+2026-09-01,2026-09-06,st-george-illawarra-dragons,parramatta-eels,0.3535,0.3567,0.3473,,,0.4404,0.3962
+2026-09-01,2026-09-06,penrith-panthers,wests-tigers,0.8692,0.8673,0.881,0.0,,0.8642,0.8667
