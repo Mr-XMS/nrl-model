@@ -216,3 +216,11 @@ run_time,date,home_team,away_team,kickoff,venue_city,p_base,p_market,wet,returni
 2026-09-01 21:04,2026-09-05,cronulla-sutherland-sharks,melbourne-storm,2026-09-05T09:35:00Z,Sydney,0.5724,0.3009,0,0,0,0,0,1
 2026-09-01 21:04,2026-09-06,st-george-illawarra-dragons,parramatta-eels,2026-09-06T04:00:00Z,Wollongong,0.3535,0.4404,0,0,1,0,0,2
 2026-09-01 21:04,2026-09-06,penrith-panthers,wests-tigers,2026-09-06T06:05:00Z,Sydney,0.8692,0.8642,0,0,1,1,0,3
+2026-09-01 21:46,2026-09-03,canterbury-bankstown-bulldogs,brisbane-broncos,2026-09-03T09:50:00Z,Sydney,0.7066,0.7152,0,0,0,0,0,0
+2026-09-01 21:46,2026-09-04,gold-coast-titans,dolphins,2026-09-04T08:00:00Z,Gold Coast,0.2131,0.2322,0,1,0,0,0,2
+2026-09-01 21:46,2026-09-04,south-sydney-rabbitohs,sydney-roosters,2026-09-04T10:00:00Z,Sydney,0.4108,0.8642,0,0,1,0,0,2
+2026-09-01 21:46,2026-09-05,warriors,manly-warringah-sea-eagles,2026-09-05T05:00:00Z,Auckland,0.6808,0.7265,0,3,0,0,0,4
+2026-09-01 21:46,2026-09-05,north-queensland-cowboys,canberra-raiders,2026-09-05T07:30:00Z,Townsville,0.5799,0.6188,0,0,0,0,0,1
+2026-09-01 21:46,2026-09-05,cronulla-sutherland-sharks,melbourne-storm,2026-09-05T09:35:00Z,Sydney,0.5717,0.3072,0,0,0,0,0,1
+2026-09-01 21:46,2026-09-06,st-george-illawarra-dragons,parramatta-eels,2026-09-06T04:00:00Z,Wollongong,0.3528,0.4404,0,0,1,0,0,2
+2026-09-01 21:46,2026-09-06,penrith-panthers,wests-tigers,2026-09-06T06:05:00Z,Sydney,0.869,0.8579,0,0,1,1,0,3
