@@ -9,7 +9,12 @@ echo "" >> "$LOG"
 echo "===== $(date '+%Y-%m-%d %H:%M') (day $DAY) =====" >> "$LOG"
 
 case $DAY in
-  1)  # Monday: results + grading
+  1)  # Monday: grade the round just played.
+      # The RLP lineup scrape has been dead since July, so recover the
+      # completed round's team lists from the NRL match centre first.
+      # Idempotent: skips fixtures already in lineups.jsonl.
+      python3 backfill_lineups.py --rounds 1-30 --write >> "$LOG" 2>&1
+      # Monday: results + grading
       python3 update_nrl.py >> "$LOG" 2>&1
       python3 scrape_stats.py >> "$LOG" 2>&1
       python3 paper_bets.py >> "$LOG" 2>&1
