@@ -256,7 +256,7 @@ delay the forecast.</p>
 <p class="sub">Each layer adjusts the probability produced by the preceding
 one. The sequence is deliberate: team strength, squad selection, player
 quality, availability, conditions, then market price.</p>
-<div class="layer"><div class="n">1</div><div class="body"><h3>Team rating</h3><p>Each club holds an Elo rating updated after every result. Defeating a higher rated opponent produces a larger adjustment than defeating a lower rated one. Ratings regress toward the mean between seasons to limit the persistence of historical form.</p><div class="params">start 1500 &middot; K = 32 &middot; home advantage = 55 pts<br>between-season regression = 30% &middot; trained on 3,609 matches since 2009</div></div></div><div class="layer"><div class="n">2</div><div class="body"><h3>Who is actually playing</h3><p>Team lists are published on Tuesday. The model reads the named 17, calculates retention against the previous week&rsquo;s side, and measures continuity across the spine positions, which carry a side&rsquo;s structure.</p><div class="params">spine = Fullback, Five-eighth, Halfback, Hooker<br>retention and spine continuity computed per side, per round</div></div></div><div class="layer"><div class="n">3</div><div class="body"><h3>Player quality from statistics</h3><p>Each player holds a rating derived from per-game career statistics rather than reputation. Players with limited appearances are shrunk toward the league average, so that small samples do not produce extreme ratings.</p><div class="params">shrinkage prior = 8 games<br>ratings refresh weekly as new match statistics land</div></div></div><div class="layer"><div class="n">4</div><div class="body"><h3>Availability</h3><p>The NRL casualty ward is collected each week. Players returning from injury are discounted for match fitness. Players listed as in doubt are discounted further, as the named side is not always the side that takes the field.</p><div class="params">returning from injury &times; 0.80<br>listed in doubt &times; 0.60</div></div></div><div class="layer"><div class="n">5</div><div class="body"><h3>Conditions</h3><p>The rainfall forecast for each venue is retrieved at prediction time. Wet conditions historically compress the margin between sides: favourites win less frequently than their rating implies and scoring falls. The magnitude of the adjustment is estimated from the historical record.</p><div class="params">wet threshold = 5mm forecast rainfall<br>effect fitted across all historical matches with match-day rainfall</div></div></div><div class="layer"><div class="n">6</div><div class="body"><h3>The market</h3><p>The bookmaker price is adjusted to remove the margin and averaged with the model on the log-odds scale. The market aggregates information not available to the model, and the model incorporates lineup detail the market may price slowly. Neither input is used in isolation.</p><div class="params">blend = 50/50 logit average of model and de-vigged price</div></div></div>
+<div class="layer"><div class="n">1</div><div class="body"><h3>Team rating</h3><p>Each club holds an Elo rating updated after every result. Defeating a higher rated opponent produces a larger adjustment than defeating a lower rated one. Ratings regress toward the mean between seasons to limit the persistence of historical form.</p><div class="params">start 1500 &middot; K = 32 &middot; home advantage = 55 pts<br>between-season regression = 30% &middot; trained on 3,617 matches since 2009</div></div></div><div class="layer"><div class="n">2</div><div class="body"><h3>Who is actually playing</h3><p>Team lists are published on Tuesday. The model reads the named 17, calculates retention against the previous week&rsquo;s side, and measures continuity across the spine positions, which carry a side&rsquo;s structure.</p><div class="params">spine = Fullback, Five-eighth, Halfback, Hooker<br>retention and spine continuity computed per side, per round</div></div></div><div class="layer"><div class="n">3</div><div class="body"><h3>Player quality from statistics</h3><p>Each player holds a rating derived from per-game career statistics rather than reputation. Players with limited appearances are shrunk toward the league average, so that small samples do not produce extreme ratings.</p><div class="params">shrinkage prior = 8 games<br>ratings refresh weekly as new match statistics land</div></div></div><div class="layer"><div class="n">4</div><div class="body"><h3>Availability</h3><p>The NRL casualty ward is collected each week. Players returning from injury are discounted for match fitness. Players listed as in doubt are discounted further, as the named side is not always the side that takes the field.</p><div class="params">returning from injury &times; 0.80<br>listed in doubt &times; 0.60</div></div></div><div class="layer"><div class="n">5</div><div class="body"><h3>Conditions</h3><p>The rainfall forecast for each venue is retrieved at prediction time. Wet conditions historically compress the margin between sides: favourites win less frequently than their rating implies and scoring falls. The magnitude of the adjustment is estimated from the historical record.</p><div class="params">wet threshold = 5mm forecast rainfall<br>effect fitted across all historical matches with match-day rainfall</div></div></div><div class="layer"><div class="n">6</div><div class="body"><h3>The market</h3><p>The bookmaker price is adjusted to remove the margin and averaged with the model on the log-odds scale. The market aggregates information not available to the model, and the model incorporates lineup detail the market may price slowly. Neither input is used in isolation.</p><div class="params">blend = 50/50 logit average of model and de-vigged price</div></div></div>
 
 <h2 class="sec">Concurrent scenarios</h2>
 <p class="sub">Two parallel processes run on every fixture.</p>
@@ -267,8 +267,8 @@ is published as the forecast. All five are recorded and graded. This allows the
 value of any adjustment to be settled by the record rather than by judgement.
 Versions that do not demonstrate an improvement are removed.</p>
 <div class="fan"><div class="arm live"><div class="nm">Version A: baseline</div><div class="ds">The full model with no experimental adjustment. This is the number published as the forecast.</div></div><div class="arm"><div class="nm">Version B: fitness ramp</div><div class="ds">Identical to A, except that returning players are discounted on a graded ramp rather than a flat multiplier.</div></div><div class="arm"><div class="nm">Version C: weather</div><div class="ds">Identical to A, with an adjustment that shrinks short-priced favourites when heavy rain is forecast at the venue.</div></div><div class="arm"><div class="nm">Market</div><div class="ds">The bookmaker price with the margin removed. Not a model, but the benchmark against which each model is measured.</div></div><div class="arm"><div class="nm">Blend</div><div class="ds">A 50/50 logit average of Version A and the market. If the model holds information the market lacks, this should outperform both.</div></div></div>
-<table class="tbl"><thead><tr><th>Version</th><th class="num">Graded</th><th class="num">Correct</th><th class="num">Log loss</th></tr></thead><tbody><tr class=""><td>Version A: baseline</td><td class="num">55</td><td class="num">64%</td><td class="num">0.7048</td></tr><tr class=""><td>Version B: fitness ramp</td><td class="num">55</td><td class="num">64%</td><td class="num">0.7046</td></tr><tr class=""><td>Version C: weather</td><td class="num">55</td><td class="num">65%</td><td class="num">0.7056</td></tr><tr class="best"><td>Market</td><td class="num">48</td><td class="num">62%</td><td class="num">0.6690</td></tr><tr class=""><td>Blend</td><td class="num">48</td><td class="num">62%</td><td class="num">0.6745</td></tr></tbody></table>
-<p class="caption">2026 standings across 55 graded matches. Lower
+<table class="tbl"><thead><tr><th>Version</th><th class="num">Graded</th><th class="num">Correct</th><th class="num">Log loss</th></tr></thead><tbody><tr class=""><td>Version A: baseline</td><td class="num">63</td><td class="num">65%</td><td class="num">0.6768</td></tr><tr class=""><td>Version B: fitness ramp</td><td class="num">63</td><td class="num">65%</td><td class="num">0.6771</td></tr><tr class=""><td>Version C: weather</td><td class="num">63</td><td class="num">67%</td><td class="num">0.6770</td></tr><tr class="best"><td>Market</td><td class="num">56</td><td class="num">64%</td><td class="num">0.6491</td></tr><tr class=""><td>Blend</td><td class="num">56</td><td class="num">64%</td><td class="num">0.6501</td></tr></tbody></table>
+<p class="caption">2026 standings across 63 graded matches. Lower
 log loss is better: it rewards confident correct forecasts and penalises
 confident errors, which accuracy does not.
 <strong>This sample is not sufficient to support a conclusion.</strong>
@@ -282,19 +282,19 @@ is forecast three times: assuming full fitness, as named on the team sheet, and
 assuming withdrawal.</p>
 <div class="fan">
   <div class="arm"><div class="nm">Declared fit</div>
-    <div class="ds">Warriors win
-      <strong class="num">68.4%</strong></div></div>
+    <div class="ds">South-Sydney-Rabbitohs win
+      <strong class="num">41.7%</strong></div></div>
   <div class="arm live"><div class="nm">As named</div>
-    <div class="ds">Warriors win
-      <strong class="num">68.4%</strong></div></div>
+    <div class="ds">South-Sydney-Rabbitohs win
+      <strong class="num">41.8%</strong></div></div>
   <div class="arm"><div class="nm">Withdrawn</div>
-    <div class="ds">Warriors win
-      <strong class="num">71.0%</strong></div></div>
+    <div class="ds">South-Sydney-Rabbitohs win
+      <strong class="num">43.0%</strong></div></div>
 </div>
 <p class="caption">Example from the current round:
-<strong>Te Maire Martin</strong> (Warriors, returning from injury).
+<strong>Daniel Tupou</strong> (Sydney-Roosters, returning from injury).
 The three cases are computed together. The spread between them, here
-2.6 points, quantifies the effect of the selection. Most players
+1.3 points, quantifies the effect of the selection. Most players
 move the probability by less than one point. Publishing the spread in advance
 prevents a late withdrawal being used retrospectively to explain a
 result.</p>
@@ -356,7 +356,7 @@ results.</p>
   <p>Forecasts are the output of a statistical model and are published for
   research purposes. They are not betting advice. Gamble responsibly.
   Gambling Help 1800 858 858.</p>
-  <p class="num">Built 2026-09-01 22:43 AEST &middot;
-     <code>d3bd226</code></p>
+  <p class="num">Built 2026-09-03 07:12 AEST &middot;
+     <code>d68230f</code></p>
 </footer>
 </div></body></html>
