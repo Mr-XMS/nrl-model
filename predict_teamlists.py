@@ -387,6 +387,23 @@ def main(round_arg=None):
 
     if comp_rows:
         new = pd.DataFrame(comp_rows)
+
+        # GUARD: never log a trial row for a fixture that has already been
+        # played. The comparison log is the evidence base for the A/B/C trial
+        # and for every accuracy figure published on the site; a row written
+        # after kickoff is contamination, however it got there.
+        new["date"] = pd.to_datetime(new["date"])
+        today = pd.Timestamp.now().normalize()
+        late = new[new["date"] < today]
+        if len(late):
+            print(f"!! refusing to log {len(late)} fixture(s) already played "
+                  f"(latest {late['date'].max().date()}) - upstream results "
+                  f"feed is behind")
+            new = new[new["date"] >= today]
+        if new.empty:
+            print("No un-started fixtures to log.")
+            return
+
         n_before = 0
         if os.path.exists(COMPARE_LOG):
             old = pd.read_csv(COMPARE_LOG, parse_dates=["date"])

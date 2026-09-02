@@ -145,8 +145,40 @@ def predict_upcoming(results, upcoming):
     # only the next round (earliest unplayed round)
     up = pd.DataFrame(upcoming)
     up["date"] = pd.to_datetime(up["date"])
+
+    # GUARD: a fixture the source still lists as unplayed, but whose date has
+    # passed, means the upstream results feed has stalled - not that the game
+    # is upcoming. Forecasting it would write a "prediction" for a match that
+    # has already been decided, which is exactly the claim this project makes
+    # it never does. Drop those fixtures and refuse to publish the round.
+    today = pd.Timestamp(datetime.now().date())
+    stale = up[up["date"] < today]
+    if len(stale):
+        rounds = ", ".join(sorted(stale["round"].unique()))
+        print(f"\n!! STALE RESULTS: {len(stale)} fixture(s) in {rounds} were "
+              f"played on or before {stale['date'].max().date()} but the source "
+              f"has published no score.")
+        print("!! The results feed is behind. Skipping prediction to avoid "
+              "logging a forecast for a completed match.")
+        print("!! Check https://www.rugbyleagueproject.org/seasons/"
+              f"nrl-{datetime.now().year}/results.html")
+        up = up[up["date"] >= today]
+        if up.empty:
+            return
+
     next_round = up.sort_values("date").iloc[0]["round"]
     up = up[up["round"] == next_round].copy()
+
+    # GUARD: even within the next round, drop any individual fixture already
+    # under way. A Thursday-night game must not be "predicted" on Friday.
+    now = pd.Timestamp(datetime.now())
+    started = up[up["date"] < pd.Timestamp(now.date())]
+    if len(started):
+        print(f"  skipping {len(started)} fixture(s) already played")
+        up = up[up["date"] >= pd.Timestamp(now.date())]
+    if up.empty:
+        print("No un-started fixtures remain in the next round.")
+        return
 
     # train on all completed matches
     df, X, y, mask, _ = build_features(results)
