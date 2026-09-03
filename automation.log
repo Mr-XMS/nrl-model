@@ -7009,3 +7009,50 @@ penrith-panthers v wests-tigers  (home win, production baseline: 88.2%)
 1027 players -> player_ratings.csv
 publish_rounds: 9 round page(s) written, 1 sealed; next unlock round 27 at 2026-09-07 00:00
 ===== done =====
+
+===== 2026-09-03 19:42 (day 4) =====
+8 upcoming NRL games, scanning...
+
+canterbury-bankstown-bulldogs v brisbane-broncos
+  best: canterbury-bankstown-bulldogs @ 1.48 (Ladbrokes)  |  brisbane-broncos @ 3.20 (Betfair)
+  combined implied: 98.8%   *** ARBITRAGE 1.18% *** (stake split 68% / 32%)
+  live blend 70% home -> best-price EV: canterbury-bankstown-bulldogs +2.9% @ 1.48 (Ladbrokes)
+
+gold-coast-titans v dolphins
+  best: gold-coast-titans @ 4.10 (Betfair)  |  dolphins @ 1.32 (SportsBet)
+  combined implied: 100.1%
+  live blend 23% home -> best-price EV: dolphins +1.8% @ 1.32 (SportsBet)
+
+south-sydney-rabbitohs v sydney-roosters
+  best: south-sydney-rabbitohs @ 1.12 (Betfair)  |  sydney-roosters @ 8.00 (Betfair)
+  combined implied: 101.8%
+  live blend 69% home -> best-price EV: sydney-roosters +148.3% @ 8.00 (Betfair)  >>> VALUE
+
+warriors v manly-warringah-sea-eagles
+  best: warriors @ 1.36 (Betfair)  |  manly-warringah-sea-eagles @ 3.50 (Ladbrokes)
+  combined implied: 102.1%
+  live blend 70% home -> best-price EV: manly-warringah-sea-eagles +4.8% @ 3.50 (Ladbrokes)  >>> VALUE
+
+north-queensland-cowboys v canberra-raiders
+  best: north-queensland-cowboys @ 1.57 (Betfair)  |  canberra-raiders @ 2.65 (PointsBet (AU))
+  combined implied: 101.4%
+  live blend 60% home -> best-price EV: canberra-raiders +4.7% @ 2.65 (PointsBet (AU))  >>> VALUE
+
+cronulla-sutherland-sharks v melbourne-storm
+  best: cronulla-sutherland-sharks @ 3.10 (Ladbrokes)  |  melbourne-storm @ 1.41 (Betfair)
+  combined implied: 103.2%
+  live blend 44% home -> best-price EV: cronulla-sutherland-sharks +35.9% @ 3.10 (Ladbrokes)  >>> VALUE
+
+st-george-illawarra-dragons v parramatta-eels
+  best: st-george-illawarra-dragons @ 2.32 (Betfair)  |  parramatta-eels @ 1.66 (Betfair)
+  combined implied: 103.3%
+  live blend 38% home -> best-price EV: parramatta-eels +2.1% @ 1.66 (Betfair)
+
+penrith-panthers v wests-tigers
+  best: penrith-panthers @ 1.13 (Betfair)  |  wests-tigers @ 8.00 (PlayUp)
+  combined implied: 101.0%
+  live blend 87% home -> best-price EV: wests-tigers +1.8% @ 8.00 (PlayUp)
+
+Price snapshot logged: 176 quotes -> odds_history.csv
+publish_rounds: 9 round page(s) written, 1 sealed; next unlock round 27 at 2026-09-07 00:00
+===== done =====
