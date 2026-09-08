@@ -70,3 +70,7 @@ run_date,date,home_team,away_team,p_base,p_retadj,p_wet,forecast_rain_mm,actual_
 2026-09-01,2026-09-05,cronulla-sutherland-sharks,melbourne-storm,0.5724,0.5758,0.5874,0.0,,0.3009,0.4315
 2026-09-01,2026-09-06,st-george-illawarra-dragons,parramatta-eels,0.3535,0.3567,0.3473,,,0.4404,0.3962
 2026-09-01,2026-09-06,penrith-panthers,wests-tigers,0.8692,0.8673,0.881,0.0,,0.8642,0.8667
+2026-09-08,2026-09-11,south-sydney-rabbitohs,newcastle-knights,0.6512,0.6503,0.6605,0.4,,0.669,0.6602
+2026-09-08,2026-09-12,warriors,dolphins,0.4945,0.4941,0.4984,1.0,,0.5914,0.5433
+2026-09-08,2026-09-12,cronulla-sutherland-sharks,north-queensland-cowboys,0.6863,0.6863,0.6932,0.6,,0.6556,0.6711
+2026-09-08,2026-09-13,penrith-panthers,sydney-roosters,0.6177,0.6162,0.6208,0.0,,0.7215,0.6717

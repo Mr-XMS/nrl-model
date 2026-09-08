@@ -7398,3 +7398,142 @@ done: 0 scraped
 Paper bets: graded 0 new | season: 21 bets, staked $55, P&L $-8 (-14.1% ROI)
 publish_rounds: 10 round page(s) written, 0 sealed
 ===== done =====
+
+===== 2026-09-08 22:15 (day 2) =====
+Fetching NRL 2026 from Rugby League Project...
+Season 2026: 188 completed matches on site, 0 new added to dataset (3617 total). 16 future fixtures listed.
+Graded 0 new predictions. Running record: 67 graded, accuracy 65.7%, Brier 0.2302
+Lineups refreshed.
+
+!! STALE RESULTS: 16 fixture(s) in Round 26, Round 27 were played on or before 2026-09-06 but the source has published no score.
+!! The results feed is behind. Skipping prediction to avoid logging a forecast for a completed match.
+!! Check https://www.rugbyleagueproject.org/seasons/nrl-2026/results.html
+Fetching announced team lists: 2026 Round 28...
+Casualty ward: 79 players listed
+done: 2 scraped
+Running model comparison record:
+  A: baseline            n=63  acc=0.651  logloss=0.6768  brier=0.2387
+  B: return-adjusted     n=63  acc=0.651  logloss=0.6771  brier=0.2389
+  C: weather-adjusted    n=63  acc=0.667  logloss=0.6770  brier=0.2390
+  Market (bookmaker)     n=63  acc=0.643  logloss=0.6491  brier=0.2247
+  Blend (model+market)   n=63  acc=0.643  logloss=0.6501  brier=0.2254
+  Matches where the two models actually differ: 57 of 63
+
+south-sydney-rabbitohs v newcastle-knights: south-sydney-rabbitohs (65%)
+    market 67% home | blend 66% home
+    player strength diff +0.89 | retention 94% v 76% | spine run 4 v 1
+    note: south-sydney-rabbitohs: Tallis Duncan (Hamstring, listed return Finals Week 1) - IN DOUBT, rating x0.6
+    note: newcastle-knights: Dominic Young (Suspension, listed return Finals Week 1) - IN DOUBT, rating x0.6
+    note: newcastle-knights: Tyson Frizell (Suspension, listed return Finals Week 1) - IN DOUBT, rating x0.6
+    note: newcastle-knights: Phoenix Crossland (Knee, listed return Finals Week 1) - IN DOUBT, rating x0.6
+    note: newcastle-knights: Francis Manuleleua (Elbow, listed return Finals Week 1) - IN DOUBT, rating x0.6
+    note: newcastle-knights: 1 debutant/unmatched (rated league-average): Lachlan Crouch
+
+warriors v dolphins: dolphins (51%)
+    market 59% home | blend 54% home  >>> EDGE: model likes dolphins (10 pts vs market)
+    player strength diff +0.29 | retention 71% v 88% | spine run 1 v 5
+    note: warriors: Leka Halasima (Ankle, listed return Finals Week 1) - IN DOUBT, rating x0.6
+    note: warriors: Jackson Ford (Pectoral, listed return Finals Week 1) - IN DOUBT, rating x0.6
+    note: warriors: 1 debutant/unmatched (rated league-average): Leka Halasima
+    note: dolphins: Selwyn Cobbo (Ankle, listed return Finals Week 1) - IN DOUBT, rating x0.6
+
+cronulla-sutherland-sharks v north-queensland-cowboys: cronulla-sutherland-sharks (69%)
+    market 66% home | blend 67% home
+    player strength diff +0.41 | retention 88% v 100% | spine run 1 v 2
+    note: cronulla-sutherland-sharks: Braydon Trindall (Shoulder, listed return Finals Week 1) - IN DOUBT, rating x0.6
+    note: cronulla-sutherland-sharks: Thomas Hazelton (Suspension, listed return Finals Week 1) - IN DOUBT, rating x0.6
+    note: north-queensland-cowboys: Zac Laybutt (Concussion, listed return Finals) - IN DOUBT, rating x0.6
+    note: north-queensland-cowboys: Griffin Neame (Toe, listed return Finals Week 1) - IN DOUBT, rating x0.6
+    note: north-queensland-cowboys: Jeremiah Nanai (Knee, listed return Finals Week 1) - IN DOUBT, rating x0.6
+
+penrith-panthers v sydney-roosters: penrith-panthers (62%)  [return-adjusted variant: home 62%]
+    market 72% home | blend 67% home  >>> EDGE: model likes sydney-roosters (10 pts vs market)
+    player strength diff +0.04 | retention 88% v 82% | spine run 1 v 1
+    note: sydney-roosters: Victor Radley (Concussion, listed return Finals Week 1) - IN DOUBT, rating x0.6
+    note: sydney-roosters: Angus Crichton (Foot, listed return Finals Week 1) - IN DOUBT, rating x0.6
+
+Logged 4 new fixtures to model comparison trial.
+Graded 0 new. Ledger record: 728 legs, hit rate 45.5%, avg sim prob 46.0%, brier 0.2300
+Ledger: 884 total rows -> sgm_ledger.csv (fill book_odds column from your betting app before kickoff)
+82 blank legs across 12 games
+  no upcoming event for canterbury-bankstown-bulldogs v brisbane-broncos (already started?)
+  no upcoming event for gold-coast-titans v dolphins (already started?)
+  no upcoming event for south-sydney-rabbitohs v sydney-roosters (already started?)
+  no upcoming event for warriors v manly-warringah-sea-eagles (already started?)
+  no upcoming event for north-queensland-cowboys v canberra-raiders (already started?)
+  no upcoming event for cronulla-sutherland-sharks v melbourne-storm (already started?)
+  no upcoming event for st-george-illawarra-dragons v parramatta-eels (already started?)
+  no upcoming event for penrith-panthers v wests-tigers (already started?)
+
+Filled 28 legs -> sgm_ledger.csv
+API credits remaining this month: 359
+54 legs still blank (combos + anything the books don't list) - fill manually or leave.
+4 upcoming NRL games, scanning...
+
+south-sydney-rabbitohs v newcastle-knights
+  best: south-sydney-rabbitohs @ 1.42 (SportsBet)  |  newcastle-knights @ 3.10 (TAB)
+  combined implied: 102.7%
+  live blend 67% home -> best-price EV: newcastle-knights +2.7% @ 3.10 (TAB)
+
+warriors v dolphins
+  best: warriors @ 1.65 (Betfair)  |  dolphins @ 2.45 (Neds)
+  combined implied: 101.4%
+  live blend 55% home -> best-price EV: dolphins +11.1% @ 2.45 (Neds)  >>> VALUE
+
+cronulla-sutherland-sharks v north-queensland-cowboys
+  best: cronulla-sutherland-sharks @ 1.45 (SportsBet)  |  north-queensland-cowboys @ 3.05 (Betfair)
+  combined implied: 101.8%
+  live blend 68% home -> best-price EV: cronulla-sutherland-sharks -1.1% @ 1.45 (SportsBet)
+
+penrith-panthers v sydney-roosters
+  best: penrith-panthers @ 1.34 (TAB)  |  sydney-roosters @ 3.55 (TABtouch)
+  combined implied: 102.8%
+  live blend 67% home -> best-price EV: sydney-roosters +15.7% @ 3.55 (TABtouch)  >>> VALUE
+
+Price snapshot logged: 88 quotes -> odds_history.csv
+Paper bets: graded 0 new | season: 21 bets, staked $55, P&L $-8 (-14.1% ROI)
+Paper bets: 2 new bets recorded -> bets_ledger.csv
+Scenario analysis: 2026 Round 28
+
+south-sydney-rabbitohs v newcastle-knights  (home win, production baseline: 63.2%)
+  Tallis Duncan              (south-sydney-rabbitohs, IN DOUBT)
+      plays fully fit 63.2% | as named 63.2% | WITHDRAWN 62.8%   swing fit-to-out: 0.4 pts
+  Dominic Young              (newcastle-knights, IN DOUBT)
+      plays fully fit 63.1% | as named 63.2% | WITHDRAWN 63.0%   swing fit-to-out: 0.1 pts
+  Tyson Frizell              (newcastle-knights, IN DOUBT)
+      plays fully fit 63.2% | as named 63.2% | WITHDRAWN 63.0%   swing fit-to-out: 0.2 pts
+  Phoenix Crossland          (newcastle-knights, IN DOUBT)
+      plays fully fit 63.1% | as named 63.2% | WITHDRAWN 63.2%   swing fit-to-out: 0.0 pts
+  Francis Manuleleua         (newcastle-knights, IN DOUBT)
+      plays fully fit 63.1% | as named 63.2% | WITHDRAWN 63.9%   swing fit-to-out: 0.8 pts
+
+warriors v dolphins  (home win, production baseline: 49.2%)
+  Leka Halasima              (warriors, IN DOUBT)
+      plays fully fit 49.3% | as named 49.2% | WITHDRAWN 49.1%   swing fit-to-out: 0.2 pts
+  Jackson Ford               (warriors, IN DOUBT)
+      plays fully fit 49.2% | as named 49.2% | WITHDRAWN 49.2%   swing fit-to-out: 0.0 pts
+  Selwyn Cobbo               (dolphins, IN DOUBT)
+      plays fully fit 49.2% | as named 49.2% | WITHDRAWN 50.0%   swing fit-to-out: 0.8 pts
+
+cronulla-sutherland-sharks v north-queensland-cowboys  (home win, production baseline: 67.7%)
+  Braydon Trindall           (cronulla-sutherland-sharks, IN DOUBT)
+      plays fully fit 68.0% | as named 67.7% | WITHDRAWN 67.3%   swing fit-to-out: 0.7 pts
+  Thomas Hazelton            (cronulla-sutherland-sharks, IN DOUBT)
+      plays fully fit 67.7% | as named 67.7% | WITHDRAWN 66.9%   swing fit-to-out: 0.8 pts
+  Zac Laybutt                (north-queensland-cowboys, IN DOUBT)
+      plays fully fit 67.7% | as named 67.7% | WITHDRAWN 67.8%   swing fit-to-out: 0.1 pts
+  Griffin Neame              (north-queensland-cowboys, IN DOUBT)
+      plays fully fit 67.5% | as named 67.7% | WITHDRAWN 68.4%   swing fit-to-out: 1.0 pts
+  Jeremiah Nanai             (north-queensland-cowboys, IN DOUBT)
+      plays fully fit 67.4% | as named 67.7% | WITHDRAWN 68.7%   swing fit-to-out: 1.3 pts
+
+penrith-panthers v sydney-roosters  (home win, production baseline: 62.3%)
+  Victor Radley              (sydney-roosters, IN DOUBT)
+      plays fully fit 62.3% | as named 62.3% | WITHDRAWN 62.3%   swing fit-to-out: 0.0 pts
+  Angus Crichton             (sydney-roosters, IN DOUBT)
+      plays fully fit 62.2% | as named 62.3% | WITHDRAWN 62.3%   swing fit-to-out: 0.1 pts
+
+15 scenarios -> scenarios.csv
+1027 players -> player_ratings.csv
+publish_rounds: 10 round page(s) written, 0 sealed
+===== done =====
