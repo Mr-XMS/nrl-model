@@ -67,11 +67,11 @@ run_date,season,round,date,home_team,away_team,venue,p_home_win,predicted_winner
 2026-08-25,2026,Round 26,2026-08-29,north-queensland-cowboys,wests-tigers,QLD C. Bank,0.811,north-queensland-cowboys,1.0
 2026-08-25,2026,Round 26,2026-08-30,warriors,newcastle-knights,Go Media,0.83,warriors,1.0
 2026-08-25,2026,Round 26,2026-08-30,parramatta-eels,cronulla-sutherland-sharks,CommBank,0.292,cronulla-sutherland-sharks,1.0
-2026-09-03,2026,Round 27,2026-09-03,canterbury-bankstown-bulldogs,brisbane-broncos,Accor,0.806,canterbury-bankstown-bulldogs,
-2026-09-03,2026,Round 27,2026-09-04,gold-coast-titans,dolphins,Cbus Super,0.148,dolphins,
-2026-09-03,2026,Round 27,2026-09-04,south-sydney-rabbitohs,sydney-roosters,Allianz,0.45,sydney-roosters,
-2026-09-03,2026,Round 27,2026-09-05,warriors,manly-warringah-sea-eagles,Go Media,0.567,warriors,
-2026-09-03,2026,Round 27,2026-09-05,north-queensland-cowboys,canberra-raiders,QLD C. Bank,0.792,north-queensland-cowboys,
-2026-09-03,2026,Round 27,2026-09-05,cronulla-sutherland-sharks,melbourne-storm,Ocean Protect,0.662,cronulla-sutherland-sharks,
-2026-09-03,2026,Round 27,2026-09-06,st-george-illawarra-dragons,parramatta-eels,WIN,0.323,parramatta-eels,
-2026-09-03,2026,Round 27,2026-09-06,penrith-panthers,wests-tigers,CommBank,0.907,penrith-panthers,
+2026-09-03,2026,Round 27,2026-09-03,canterbury-bankstown-bulldogs,brisbane-broncos,Accor,0.806,canterbury-bankstown-bulldogs,0.0
+2026-09-03,2026,Round 27,2026-09-04,gold-coast-titans,dolphins,Cbus Super,0.148,dolphins,0.0
+2026-09-03,2026,Round 27,2026-09-04,south-sydney-rabbitohs,sydney-roosters,Allianz,0.45,sydney-roosters,1.0
+2026-09-03,2026,Round 27,2026-09-05,warriors,manly-warringah-sea-eagles,Go Media,0.567,warriors,1.0
+2026-09-03,2026,Round 27,2026-09-05,north-queensland-cowboys,canberra-raiders,QLD C. Bank,0.792,north-queensland-cowboys,0.0
+2026-09-03,2026,Round 27,2026-09-05,cronulla-sutherland-sharks,melbourne-storm,Ocean Protect,0.662,cronulla-sutherland-sharks,0.0
+2026-09-03,2026,Round 27,2026-09-06,st-george-illawarra-dragons,parramatta-eels,WIN,0.323,parramatta-eels,1.0
+2026-09-03,2026,Round 27,2026-09-06,penrith-panthers,wests-tigers,CommBank,0.907,penrith-panthers,1.0

@@ -235,16 +235,19 @@ code that generated the forecasts in the archive.</p>
 
 <h2 class="sec">The weekly clock</h2>
 <p class="sub">The forecast is produced on Tuesday, when team lists are
-released. This is the largest single information event in the weekly cycle.
-The forecast is recorded at that point and is not revised.</p>
+released. This is the largest single information event in the weekly cycle. The
+forecast is recorded at that point. It may be revised up to a match's kickoff to
+reflect late team changes, with every superseded version retained in
+<code>forecast_revisions.csv</code>. At kickoff the forecast for that fixture is
+locked permanently.</p>
 <div class="clock">
   <div><div class="d">Monday</div><div class="w">Results scraped, last
     round graded, player statistics refreshed.</div></div>
   <div><div class="d">Tuesday</div><div class="w">Team lists released. The
     forecast is computed and recorded. Available to subscribers.</div></div>
   <div><div class="d">Thu &ndash; Sun</div><div class="w">Prices and late
-    lineup changes are logged, but the recorded forecast does not
-    change.</div></div>
+    lineup changes are logged. A forecast may be revised until its own kickoff,
+    then locks.</div></div>
   <div class="open"><div class="d">Sunday midnight</div><div class="w">The
     round is published here in full, at no cost.</div></div>
 </div>
@@ -256,7 +259,7 @@ delay the forecast.</p>
 <p class="sub">Each layer adjusts the probability produced by the preceding
 one. The sequence is deliberate: team strength, squad selection, player
 quality, availability, conditions, then market price.</p>
-<div class="layer"><div class="n">1</div><div class="body"><h3>Team rating</h3><p>Each club holds an Elo rating updated after every result. Defeating a higher rated opponent produces a larger adjustment than defeating a lower rated one. Ratings regress toward the mean between seasons to limit the persistence of historical form.</p><div class="params">start 1500 &middot; K = 32 &middot; home advantage = 55 pts<br>between-season regression = 30% &middot; trained on 3,617 matches since 2009</div></div></div><div class="layer"><div class="n">2</div><div class="body"><h3>Who is actually playing</h3><p>Team lists are published on Tuesday. The model reads the named 17, calculates retention against the previous week&rsquo;s side, and measures continuity across the spine positions, which carry a side&rsquo;s structure.</p><div class="params">spine = Fullback, Five-eighth, Halfback, Hooker<br>retention and spine continuity computed per side, per round</div></div></div><div class="layer"><div class="n">3</div><div class="body"><h3>Player quality from statistics</h3><p>Each player holds a rating derived from per-game career statistics rather than reputation. Players with limited appearances are shrunk toward the league average, so that small samples do not produce extreme ratings.</p><div class="params">shrinkage prior = 8 games<br>ratings refresh weekly as new match statistics land</div></div></div><div class="layer"><div class="n">4</div><div class="body"><h3>Availability</h3><p>The NRL casualty ward is collected each week. Players returning from injury are discounted for match fitness. Players listed as in doubt are discounted further, as the named side is not always the side that takes the field.</p><div class="params">returning from injury &times; 0.80<br>listed in doubt &times; 0.60</div></div></div><div class="layer"><div class="n">5</div><div class="body"><h3>Conditions</h3><p>The rainfall forecast for each venue is retrieved at prediction time. Wet conditions historically compress the margin between sides: favourites win less frequently than their rating implies and scoring falls. The magnitude of the adjustment is estimated from the historical record.</p><div class="params">wet threshold = 5mm forecast rainfall<br>effect fitted across all historical matches with match-day rainfall</div></div></div><div class="layer"><div class="n">6</div><div class="body"><h3>The market</h3><p>The bookmaker price is adjusted to remove the margin and averaged with the model on the log-odds scale. The market aggregates information not available to the model, and the model incorporates lineup detail the market may price slowly. Neither input is used in isolation.</p><div class="params">blend = 50/50 logit average of model and de-vigged price</div></div></div>
+<div class="layer"><div class="n">1</div><div class="body"><h3>Team rating</h3><p>Each club holds an Elo rating updated after every result. Defeating a higher rated opponent produces a larger adjustment than defeating a lower rated one. Ratings regress toward the mean between seasons to limit the persistence of historical form.</p><div class="params">start 1500 &middot; K = 32 &middot; home advantage = 55 pts<br>between-season regression = 30% &middot; trained on 3,625 matches since 2009</div></div></div><div class="layer"><div class="n">2</div><div class="body"><h3>Who is actually playing</h3><p>Team lists are published on Tuesday. The model reads the named 17, calculates retention against the previous week&rsquo;s side, and measures continuity across the spine positions, which carry a side&rsquo;s structure.</p><div class="params">spine = Fullback, Five-eighth, Halfback, Hooker<br>retention and spine continuity computed per side, per round</div></div></div><div class="layer"><div class="n">3</div><div class="body"><h3>Player quality from statistics</h3><p>Each player holds a rating derived from per-game career statistics rather than reputation. Players with limited appearances are shrunk toward the league average, so that small samples do not produce extreme ratings.</p><div class="params">shrinkage prior = 8 games<br>ratings refresh weekly as new match statistics land</div></div></div><div class="layer"><div class="n">4</div><div class="body"><h3>Availability</h3><p>The NRL casualty ward is collected each week. Players returning from injury are discounted for match fitness. Players listed as in doubt are discounted further, as the named side is not always the side that takes the field.</p><div class="params">returning from injury &times; 0.80<br>listed in doubt &times; 0.60</div></div></div><div class="layer"><div class="n">5</div><div class="body"><h3>Conditions</h3><p>The rainfall forecast for each venue is retrieved at prediction time. Wet conditions historically compress the margin between sides: favourites win less frequently than their rating implies and scoring falls. The magnitude of the adjustment is estimated from the historical record.</p><div class="params">wet threshold = 5mm forecast rainfall<br>effect fitted across all historical matches with match-day rainfall</div></div></div><div class="layer"><div class="n">6</div><div class="body"><h3>The market</h3><p>The bookmaker price is adjusted to remove the margin and averaged with the model on the log-odds scale. The market aggregates information not available to the model, and the model incorporates lineup detail the market may price slowly. Neither input is used in isolation.</p><div class="params">blend = 50/50 logit average of model and de-vigged price</div></div></div>
 
 <h2 class="sec">Concurrent scenarios</h2>
 <p class="sub">Two parallel processes run on every fixture.</p>
@@ -350,13 +353,14 @@ results.</p>
 <p style="margin-top:26px"><a href="index.html">Back to the archive</a></p>
 
 <footer>
-  <p>Every forecast published here was recorded to a version history before
-  the relevant round began. Records are not amended after the result.
-  Incorrect selections remain on the page.</p>
+  <p>Every forecast published here was recorded to a version history and
+  locked when its match kicked off. Revisions made before kickoff are retained
+  in full. No record is amended after a result is known, and incorrect
+  selections remain on the page.</p>
   <p>Forecasts are the output of a statistical model and are published for
   research purposes. They are not betting advice. Gamble responsibly.
   Gambling Help 1800 858 858.</p>
-  <p class="num">Built 2026-09-08 22:16 AEST &middot;
-     <code>9627c88</code></p>
+  <p class="num">Built 2026-09-09 20:50 AEST &middot;
+     <code>78259e9</code></p>
 </footer>
 </div></body></html>
