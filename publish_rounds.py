@@ -446,9 +446,10 @@ def shell(title, body, desc, home="index.html", canonical=""):
 </div></header>
 {body}
 <footer>
-  <p>Every forecast published here was recorded to a version history before
-  the relevant round began. Records are not amended after the result.
-  Incorrect selections remain on the page.</p>
+  <p>Every forecast published here was recorded to a version history and
+  locked when its match kicked off. Revisions made before kickoff are retained
+  in full. No record is amended after a result is known, and incorrect
+  selections remain on the page.</p>
   <p>Forecasts are the output of a statistical model and are published for
   research purposes. They are not betting advice. Gamble responsibly.
   Gambling Help 1800 858 858.</p>
@@ -541,7 +542,7 @@ def render_round(rnd, g, unlock):
   <div>
     <div class="stamp">Sealed {esc(frozen_txt)} &middot; Opened
       {esc(unlock.strftime('%d %b, midnight'))}</div>
-    <div class="when">Recorded before the first kickoff and unchanged
+    <div class="when">Each forecast locked at its own kickoff and unchanged
       since.</div>
   </div>
 </div>
@@ -671,8 +672,9 @@ def render_index(df, published, sealed):
   <div class="lock-head">
     <div>
       <div class="stamp">Round {nxt} is sealed</div>
-      <div class="when">The board is computed when team lists are released
-        and remains sealed until the round concludes.</div>
+      <div class="when">The board is computed when team lists are released,
+        locks fixture by fixture at kickoff, and stays sealed until the round
+        concludes.</div>
     </div>
     <div class="buy">
       <span class="soon">{PRICE_SEASON} &middot; about $1 a round<br>
@@ -685,7 +687,8 @@ def render_index(df, published, sealed):
       <div class="t-who">Subscribers</div>
       <div class="t-when">{esc(tl.strftime('%A %-d %B, 4pm'))}</div>
       <div class="t-note">Team lists released. The forecast is computed,
-        recorded and available to subscribers the same afternoon.</div>
+        recorded and available to subscribers the same afternoon. It may be
+        revised for late changes up to each kickoff.</div>
     </div>
     <div class="t-gap"><span>{WORDS.get(gap, gap)} days later</span></div>
     <div class="t-later">
@@ -702,9 +705,11 @@ def render_index(df, published, sealed):
 
     body = f"""
 <p class="lede">A statistical model forecasts every NRL fixture. Each
-forecast is <strong>recorded to a public version history before the round
-begins</strong> and cannot be altered afterwards. When the round finishes, the
-full board is published here: every selection, its probability, and the result.
+forecast is <strong>recorded to a public version history and locked at
+kickoff</strong>. Until a match starts its forecast may be revised to reflect
+late team changes, and every earlier version is kept. Once the match begins the
+forecast cannot be altered. When the round finishes, the full board is published
+here: every selection, its probability, and the result.
 <strong>The archive is free and remains free.</strong> A subscription changes
 only the timing of access.</p>
 {rec}
@@ -892,16 +897,19 @@ code that generated the forecasts in the archive.</p>
 
 <h2 class="sec">The weekly clock</h2>
 <p class="sub">The forecast is produced on Tuesday, when team lists are
-released. This is the largest single information event in the weekly cycle.
-The forecast is recorded at that point and is not revised.</p>
+released. This is the largest single information event in the weekly cycle. The
+forecast is recorded at that point. It may be revised up to a match's kickoff to
+reflect late team changes, with every superseded version retained in
+<code>forecast_revisions.csv</code>. At kickoff the forecast for that fixture is
+locked permanently.</p>
 <div class="clock">
   <div><div class="d">Monday</div><div class="w">Results scraped, last
     round graded, player statistics refreshed.</div></div>
   <div><div class="d">Tuesday</div><div class="w">Team lists released. The
     forecast is computed and recorded. Available to subscribers.</div></div>
   <div><div class="d">Thu &ndash; Sun</div><div class="w">Prices and late
-    lineup changes are logged, but the recorded forecast does not
-    change.</div></div>
+    lineup changes are logged. A forecast may be revised until its own kickoff,
+    then locks.</div></div>
   <div class="open"><div class="d">Sunday midnight</div><div class="w">The
     round is published here in full, at no cost.</div></div>
 </div>

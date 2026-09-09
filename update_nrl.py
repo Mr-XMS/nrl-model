@@ -211,10 +211,20 @@ def predict_upcoming(results, upcoming):
             "venue", "p_home_win", "predicted_winner", "actual_home_win"]
     if os.path.exists(PRED_LOG):
         log = pd.read_csv(PRED_LOG, parse_dates=["date"])
-        # don't duplicate a fixture already predicted (keep the earliest prediction)
         key = ["date", "home_team", "away_team"]
-        new = up[~up.set_index(key).index.isin(log.set_index(key).index)]
-        log = pd.concat([log, new[cols]], ignore_index=True)
+        # A forecast may be revised until its own kickoff, so a late team
+        # change is reflected. After kickoff the row is sealed permanently.
+        today = pd.Timestamp(datetime.now().date())
+        li, ui = log.set_index(key), up.set_index(key)
+        dup = ui.index.isin(li.index)
+        keep = log[~li.index.isin(ui.index[dup]) | (log["date"] < today)]
+        revise = up[dup & (up["date"] >= today).values]
+        fresh = up[~dup]
+        n_rev = len(log) - len(keep)
+        if n_rev:
+            print(f"  revised {n_rev} forecast(s) still before kickoff")
+        log = pd.concat([keep, revise[cols], fresh[cols]], ignore_index=True)
+        log = log.sort_values(["date", "home_team"]).reset_index(drop=True)
     else:
         log = up[cols]
     log.to_csv(PRED_LOG, index=False)

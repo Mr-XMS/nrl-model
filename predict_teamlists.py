@@ -108,6 +108,7 @@ def fetch_round_teamlists(season, round_no):
 
 RETURN_FACTOR = 0.85     # variant B: first 3 games after a 28-200 day absence
 COMPARE_LOG = os.path.join(HERE, "model_comparison.csv")
+REVISIONS = os.path.join(HERE, "forecast_revisions.csv")
 
 def build_appearances(lineups):
     """pid -> sorted list of appearance dates."""
@@ -409,8 +410,47 @@ def main(round_arg=None):
             old = pd.read_csv(COMPARE_LOG, parse_dates=["date"])
             n_before = len(old)
             key = ["date", "home_team", "away_team"]
-            new = new[~new.set_index(key).index.isin(old.set_index(key).index)]
-            new = pd.concat([old, new], ignore_index=True)
+
+            # A forecast stays open to revision until its own kickoff, so a
+            # late team-list change can be reflected. Once a match starts the
+            # row is sealed and can never be rewritten - that is the claim the
+            # public archive makes and it is enforced here, per fixture, not
+            # per round.
+            #
+            # Superseded rows are appended to REVISIONS rather than discarded,
+            # so "updatable until kickoff" stays auditable: every version of a
+            # forecast, and when it was made, remains on the record.
+            oi = old.set_index(key)
+            ni = new.set_index(key)
+            dup = ni.index.isin(oi.index)
+
+            replaced = old[oi.index.isin(ni.index[dup])].copy()
+            open_now = replaced[replaced["date"] >= today]
+            sealed = replaced[replaced["date"] < today]
+
+            if len(sealed):
+                print(f"!! {len(sealed)} fixture(s) already under way - "
+                      f"forecast sealed, not revised")
+
+            # keep: rows not being touched, plus sealed rows
+            keep_mask = ~oi.index.isin(ni.index[dup]) | (old["date"] < today)
+            kept = old[keep_mask]
+
+            # only revise fixtures that are still in the future
+            revise = new[dup & (new["date"] >= today).values]
+            fresh = new[~dup]
+
+            if len(open_now):
+                arch = open_now.copy()
+                arch["superseded_on"] = pd.Timestamp.now().strftime("%Y-%m-%d %H:%M")
+                hdr = not os.path.exists(REVISIONS)
+                arch.to_csv(REVISIONS, mode="a", header=hdr, index=False)
+                print(f"   revised {len(open_now)} forecast(s) before kickoff "
+                      f"(previous versions -> {os.path.basename(REVISIONS)})")
+
+            new = pd.concat([kept, revise, fresh], ignore_index=True)
+            new = new.sort_values(["date", "home_team"]).reset_index(drop=True)
+            n_before = len(kept) + len(revise)
         appended = len(new) - n_before
         new.to_csv(COMPARE_LOG, index=False)
         if appended > 0:
