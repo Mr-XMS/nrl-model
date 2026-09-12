@@ -7802,3 +7802,57 @@ penrith-panthers v sydney-roosters: penrith-panthers (70%)  [return-adjusted var
 All fixtures already logged this week (first predictions kept).
 publish_rounds: 10 round page(s) written, 0 sealed
 ===== done =====
+
+===== 2026-09-12 11:05 (day 6) =====
+3 upcoming NRL games, scanning...
+
+warriors v dolphins
+  best: warriors @ 1.68 (PointsBet (AU))  |  dolphins @ 2.52 (Betfair)
+  combined implied: 99.2%   *** ARBITRAGE 0.79% *** (stake split 60% / 40%)
+  live blend 54% home -> best-price EV: dolphins +15.8% @ 2.52 (Betfair)  >>> VALUE
+
+cronulla-sutherland-sharks v north-queensland-cowboys
+  best: cronulla-sutherland-sharks @ 1.45 (Betfair)  |  north-queensland-cowboys @ 3.10 (Betfair)
+  combined implied: 101.2%
+  live blend 71% home -> best-price EV: cronulla-sutherland-sharks +3.2% @ 1.45 (Betfair)
+
+penrith-panthers v sydney-roosters
+  best: penrith-panthers @ 1.38 (Betfair)  |  sydney-roosters @ 3.55 (Betfair)
+  combined implied: 100.6%
+  live blend 71% home -> best-price EV: sydney-roosters +3.7% @ 3.55 (Betfair)
+
+Price snapshot logged: 66 quotes -> odds_history.csv
+Fetching announced team lists: 2026 Round 28...
+Casualty ward: 66 players listed
+done: 4 scraped
+Running model comparison record:
+  A: baseline            n=71  acc=0.620  logloss=0.6801  brier=0.2414
+  B: return-adjusted     n=71  acc=0.620  logloss=0.6807  brier=0.2416
+  C: weather-adjusted    n=71  acc=0.634  logloss=0.6812  brier=0.2422
+  Market (bookmaker)     n=71  acc=0.641  logloss=0.6347  brier=0.2195
+  Blend (model+market)   n=71  acc=0.641  logloss=0.6436  brier=0.2234
+  Matches where the two models actually differ: 65 of 71
+
+south-sydney-rabbitohs v newcastle-knights: south-sydney-rabbitohs (64%)  [return-adjusted variant: home 64%]   [PLAYED: 10-20]
+    player strength diff +0.69 | retention 94% v 76% | spine run 1 v 1
+    note: south-sydney-rabbitohs: Cody Walker (Calf, listed return TBC) - IN DOUBT, rating x0.6
+    note: newcastle-knights: 1 debutant/unmatched (rated league-average): Lachlan Crouch
+
+warriors v dolphins: dolphins (52%)
+    market 57% home | blend 53% home  >>> EDGE: model likes dolphins (9 pts vs market)
+    player strength diff +0.38 | retention 71% v 76% | spine run 1 v 1
+    note: warriors: 1 debutant/unmatched (rated league-average): Leka Halasima
+
+cronulla-sutherland-sharks v north-queensland-cowboys: cronulla-sutherland-sharks (73%)
+    market 67% home | blend 70% home  >>> EDGE: model likes cronulla-sutherland-sharks (6 pts vs market)
+    player strength diff +0.47 | retention 65% v 76% | spine run 1 v 3
+    note: north-queensland-cowboys: Zac Laybutt (Concussion, listed return Finals) - IN DOUBT, rating x0.6
+
+penrith-panthers v sydney-roosters: penrith-panthers (70%)  [return-adjusted variant: home 69%]
+    market 70% home | blend 70% home
+    player strength diff +0.10 | retention 88% v 24% | spine run 2 v 1
+
+   revised 3 forecast(s) before kickoff (previous versions -> forecast_revisions.csv)
+All fixtures already logged this week (first predictions kept).
+publish_rounds: 10 round page(s) written, 0 sealed
+===== done =====
