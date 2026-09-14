@@ -7913,3 +7913,34 @@ forced day: 9
 publish-only run
 publish_rounds: 10 round page(s) written, 0 sealed
 ===== done =====
+
+===== 2026-09-14 14:51 (day 1) =====
+name index: 1,093 known players
+lineups.jsonl: 1,818 existing records
+
+  Round 28: 2026-09-11  south-sydney-rabbitohs     v newcastle-knights           34 players, 8 spine, 1 unresolved
+  Round 28: 2026-09-12  warriors                   v dolphins                    33 players, 8 spine, 0 unresolved
+  Round 28: 2026-09-12  cronulla-sutherland-sharks v north-queensland-cowboys    33 players, 8 spine, 0 unresolved
+  Round 28: 2026-09-13  penrith-panthers           v sydney-roosters             32 players, 8 spine, 0 unresolved
+  Round 29: sydney-roosters v cronulla-sutherland-sharks not complete (Upcoming), skipping
+  Round 29: warriors v newcastle-knights not complete (Upcoming), skipping
+  Round 30: sydney-roosters v cronulla-sutherland-sharks not complete (Upcoming), skipping
+  Round 30: warriors v newcastle-knights not complete (Upcoming), skipping
+
+4 new record(s), 204 already present
+1 unresolved player(s) written with null id:
+    newcastle-knights: Lachlan Crouch
+
+appended 4 record(s) -> lineups.jsonl
+Fetching NRL 2026 from Rugby League Project...
+Season 2026: 188 completed matches on site, 0 new added to dataset (3625 total). 16 future fixtures listed.
+Graded 0 new predictions. Running record: 75 graded, accuracy 62.7%, Brier 0.2415
+Lineups refreshed.
+
+!! STALE RESULTS: 16 fixture(s) in Round 26, Round 27 were played on or before 2026-09-06 but the source has published no score.
+!! The results feed is behind. Skipping prediction to avoid logging a forecast for a completed match.
+!! Check https://www.rugbyleagueproject.org/seasons/nrl-2026/results.html
+done: 0 scraped
+Paper bets: graded 0 new | season: 24 bets, staked $66, P&L $-19 (-28.4% ROI)
+publish_rounds: 10 round page(s) written, 0 sealed
+===== done =====
