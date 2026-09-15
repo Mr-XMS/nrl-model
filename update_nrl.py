@@ -22,6 +22,8 @@ from datetime import datetime
 import numpy as np
 import pandas as pd
 
+from finals_rounds import round_label
+
 HERE = os.path.dirname(os.path.abspath(__file__))
 RESULTS = os.path.join(HERE, "nrl_results.csv")
 PRED_LOG = os.path.join(HERE, "predictions.csv")
@@ -165,6 +167,11 @@ def predict_upcoming(results, upcoming):
         up = up[up["date"] >= today]
         if up.empty:
             return
+
+    # The draw API reuses the last regular-season round title for every
+    # finals fixture, which collapsed three weekends into one round. Resolve
+    # the real round from the fixture date before anything is grouped on it.
+    up["round"] = [round_label(l, d, 2026) for l, d in zip(up["round"], up["date"])]
 
     next_round = up.sort_values("date").iloc[0]["round"]
     up = up[up["round"] == next_round].copy()
