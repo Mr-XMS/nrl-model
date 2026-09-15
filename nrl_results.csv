@@ -3624,7 +3624,14 @@ season,round,date,home_team,away_team,home_score,away_score,venue
 2026,Round 27,2026-09-05,cronulla-sutherland-sharks,melbourne-storm,20,24,
 2026,Round 27,2026-09-06,penrith-panthers,wests-tigers,38,10,
 2026,Round 27,2026-09-06,st-george-illawarra-dragons,parramatta-eels,24,22,
+<<<<<<< HEAD
 2026,Finals Week 1,2026-09-11,south-sydney-rabbitohs,newcastle-knights,10,20,Allianz
 2026,Finals Week 1,2026-09-12,cronulla-sutherland-sharks,north-queensland-cowboys,26,16,Allianz
 2026,Finals Week 1,2026-09-12,warriors,dolphins,16,26,Go Media
 2026,Finals Week 1,2026-09-13,penrith-panthers,sydney-roosters,19,12,CommBank
+=======
+2026,Round 27,2026-09-11,south-sydney-rabbitohs,newcastle-knights,10,20,Allianz
+2026,Round 27,2026-09-12,cronulla-sutherland-sharks,north-queensland-cowboys,26,16,Allianz
+2026,Round 27,2026-09-12,warriors,dolphins,16,26,Go Media
+2026,Round 27,2026-09-13,penrith-panthers,sydney-roosters,19,12,CommBank
+>>>>>>> 8f4155c1c56abbd3016da0492fb44774ccd1a075
