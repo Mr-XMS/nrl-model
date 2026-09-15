@@ -187,10 +187,22 @@ with tab_record:
             st.line_chart(done.set_index("date")["cumulative accuracy"])
             st.caption("Long-run backtest expectation: ~65%")
             st.subheader("Accuracy by round")
-            import re as _re
-            done["rnd"] = done["round"].astype(str).apply(
-                lambda s: "R" + _re.search(r"(\d+)", s).group(1)
-                if _re.search(r"(\d+)", s) else s)
+            # "Finals Week 1" contains a digit, so a bare \d+ match rendered
+            # it as "R1" and sorted it to the front of the season. Resolve the
+            # round from the fixture date instead, and label finals F1-F4.
+            from finals_rounds import round_order, FINALS
+
+            def _tag(label, date):
+                n = round_order(label, date, 2026)
+                if n is None:
+                    return str(label)
+                return f"F{n - 27}" if n in FINALS else f"R{n}"
+
+            done["ord"] = [round_order(l, d, 2026)
+                           for l, d in zip(done["round"], done["date"])]
+            done["rnd"] = [_tag(l, d)
+                           for l, d in zip(done["round"], done["date"])]
+            done = done.sort_values(["ord", "date"])
             byr = done.groupby("rnd", sort=False).agg(
                 picks=("correct", "size"),
                 won=("correct", "sum"),

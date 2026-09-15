@@ -33,7 +33,7 @@ from zoneinfo import ZoneInfo
 import numpy as np
 import pandas as pd
 
-from finals_rounds import round_order, round_slug, relabel
+from finals_rounds import FINALS, round_order, round_slug, relabel
 
 HERE = os.path.dirname(os.path.abspath(__file__))
 DOCS = os.path.join(HERE, "docs")
@@ -681,7 +681,8 @@ def render_index(df, published, sealed):
         gr = [grade(r) for r in g.itertuples()]
         ok2 = [c for _, c in gr if c is not None]
         right = (f"{sum(ok2)}/{len(ok2)} correct" if ok2 else "results pending")
-        part = ("" if len(g) >= 6 else
+        is_finals = int(rnd) in FINALS
+        part = ("" if len(g) >= 6 or is_finals else
                 ' <span style="font-weight:400;color:var(--muted)">'
                 '(partial round: model commenced mid-round)</span>')
         rows.append(f"""<a href="{g['slug'].iloc[0]}.html">
