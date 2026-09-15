@@ -1,0 +1,310 @@
+<!DOCTYPE html>
+<html lang="en-AU"><head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Finals Week 1 | NRL Forecast 2026</title>
+<meta name="description" content="Finals Week 1 2026 NRL forecast. Model probabilities recorded before kickoff and graded against results.">
+<link rel="canonical" href="https://nrl-model.xaviermsmith.workers.dev/finals-week-1.html">
+<meta property="og:type" content="website">
+<meta property="og:title" content="Finals Week 1 | NRL Forecast 2026">
+<meta property="og:description" content="Finals Week 1 2026 NRL forecast. Model probabilities recorded before kickoff and graded against results.">
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@600;700&family=IBM+Plex+Mono:wght@400;600&family=IBM+Plex+Sans:wght@400;600&display=swap" rel="stylesheet">
+<style>
+:root{
+  --paper:#EEF1F4; --card:#FFFFFF; --ink:#10161D; --muted:#5C6874;
+  --rule:#C9D2DA; --seal:#2D4B7A; --hit:#1B6B49; --miss:#A8402C;
+  --bar-model:#2D4B7A; --bar-market:#9AA9B8;
+}
+*{box-sizing:border-box}
+html{-webkit-text-size-adjust:100%}
+body{margin:0;background:var(--paper);color:var(--ink);
+  font-family:"IBM Plex Sans",system-ui,-apple-system,sans-serif;
+  font-size:16px;line-height:1.55}
+.wrap{max-width:900px;margin:0 auto;padding:0 20px 72px}
+a{color:var(--seal)}
+h1,h2,h3,.disp{font-family:"Barlow Condensed","IBM Plex Sans",sans-serif;
+  font-weight:700;letter-spacing:.01em;text-transform:uppercase;margin:0}
+.num{font-family:"IBM Plex Mono",ui-monospace,monospace;
+  font-variant-numeric:tabular-nums}
+
+header{border-bottom:2px solid var(--ink);margin-bottom:34px}
+.masthead{display:flex;justify-content:space-between;align-items:flex-end;
+  gap:16px;flex-wrap:wrap;padding:30px 0 14px}
+.masthead h1{font-size:clamp(30px,6vw,46px);line-height:.95}
+.masthead .tag{color:var(--muted);font-size:13px;letter-spacing:.14em;
+  text-transform:uppercase}
+nav a{margin-left:18px;font-size:14px;text-decoration:none;
+  border-bottom:1px solid var(--rule)}
+nav a:hover{border-color:var(--seal)}
+
+.lede{max-width:62ch;color:var(--muted);margin:0 0 34px}
+.lede strong{color:var(--ink)}
+
+/* the seal - signature device */
+.seal{border:1px solid var(--rule);background:var(--card);border-radius:2px;
+  padding:20px 22px;margin:0 0 34px;display:flex;gap:22px;flex-wrap:wrap;
+  align-items:center;justify-content:space-between}
+.seal.locked{border-color:var(--seal);border-left:5px solid var(--seal)}
+.seal .stamp{font-size:12px;letter-spacing:.16em;text-transform:uppercase;
+  color:var(--seal);font-weight:600}
+.seal .when{font-size:13px;color:var(--muted)}
+.buy{display:flex;gap:10px;flex-wrap:wrap}
+.buy a{display:inline-block;text-decoration:none;padding:9px 15px;
+  border:1px solid var(--seal);border-radius:2px;font-size:14px;
+  font-weight:600;white-space:nowrap}
+.buy a.primary{background:var(--seal);color:#fff}
+.buy .soon{font-size:15px;font-weight:600;line-height:1.55;text-align:right}
+.buy .soon-b{font-weight:400;color:var(--muted);font-size:14px}
+.buy .soon-c{display:inline-block;margin-top:6px;font-weight:400;
+  font-size:11px;letter-spacing:.13em;text-transform:uppercase;
+  color:var(--seal);border:1px solid var(--seal);border-radius:2px;
+  padding:3px 8px}
+@media (max-width:560px){.buy .soon{text-align:left}}
+.seal.locked{display:block}
+.lock-head{display:flex;justify-content:space-between;gap:20px;
+  flex-wrap:wrap;align-items:flex-start}
+.timing{display:grid;grid-template-columns:1fr auto 1fr;gap:0;
+  align-items:stretch;margin:20px 0 0;border:1px solid var(--rule);
+  background:var(--paper)}
+.timing>div{padding:14px 16px}
+.t-now{background:var(--seal);color:#fff}
+.t-now .t-who{color:#B9CCE6}
+.t-now .t-note{color:#D7E2EF}
+.t-who{font-size:11px;letter-spacing:.15em;text-transform:uppercase;
+  font-weight:600;color:var(--muted);margin-bottom:3px}
+.t-when{font-family:"Barlow Condensed",sans-serif;font-weight:700;
+  font-size:21px;text-transform:uppercase;line-height:1.15;margin-bottom:6px}
+.t-note{font-size:13px;line-height:1.45;color:var(--muted);max-width:34ch}
+.t-gap{display:flex;align-items:center;justify-content:center;
+  background:var(--card);border-left:1px solid var(--rule);
+  border-right:1px solid var(--rule);padding:0 14px!important}
+.t-gap span{font-family:"IBM Plex Mono",monospace;font-size:11px;
+  letter-spacing:.13em;text-transform:uppercase;color:var(--seal);
+  white-space:nowrap;writing-mode:vertical-rl;transform:rotate(180deg)}
+.lock-foot{margin:16px 0 0;font-size:14px;color:var(--muted);max-width:70ch}
+.lock-foot strong{color:var(--ink)}
+@media (max-width:640px){
+  .timing{grid-template-columns:1fr}
+  .t-gap{border-left:none;border-right:none;border-top:1px solid var(--rule);
+    border-bottom:1px solid var(--rule);padding:7px 14px!important}
+  .t-gap span{writing-mode:horizontal-tb;transform:none}
+  .t-note{max-width:none}
+}
+
+/* record strip */
+.record{display:grid;grid-template-columns:repeat(auto-fit,minmax(118px,1fr));
+  gap:1px;background:var(--rule);border:1px solid var(--rule);margin:0 0 34px}
+.record div{background:var(--card);padding:14px 16px}
+.record .k{font-size:11px;letter-spacing:.13em;text-transform:uppercase;
+  color:var(--muted)}
+.record .v{font-size:26px;font-weight:600;line-height:1.2}
+
+/* fixtures */
+.game{border-top:1px solid var(--rule);padding:18px 0}
+.game:last-child{border-bottom:1px solid var(--rule)}
+.gmeta{font-size:12px;color:var(--muted);letter-spacing:.06em;
+  text-transform:uppercase;margin-bottom:7px;
+  display:flex;gap:12px;flex-wrap:wrap}
+.teams{display:flex;justify-content:space-between;align-items:baseline;
+  gap:14px;flex-wrap:wrap}
+.teams .t{font-size:19px;font-weight:600}
+.teams .t .away{color:var(--muted);font-weight:400}
+.score{font-size:19px;font-weight:600}
+.verdict{font-size:12px;letter-spacing:.1em;text-transform:uppercase;
+  font-weight:700}
+.hit{color:var(--hit)} .miss{color:var(--miss)} .nores{color:var(--muted)}
+
+/* probability bar */
+.bars{margin-top:11px;display:grid;gap:5px;max-width:560px}
+.bar{display:grid;grid-template-columns:56px 1fr 46px;gap:9px;
+  align-items:center;font-size:12px;color:var(--muted)}
+.track{height:7px;background:#DDE3E9;border-radius:1px;overflow:hidden}
+.fill{height:100%}
+.fill.model{background:var(--bar-model)}
+.fill.market{background:var(--bar-market)}
+.bar .val{text-align:right;color:var(--ink)}
+
+/* round index */
+.rounds{display:grid;gap:1px;background:var(--rule);
+  border:1px solid var(--rule)}
+.rounds a,.rounds .row{display:flex;justify-content:space-between;
+  align-items:center;gap:14px;background:var(--card);padding:15px 17px;
+  text-decoration:none;color:var(--ink)}
+.rounds a:hover{background:#F6F8FA}
+.rounds .row.sealed{background:#E7ECF1;color:var(--muted)}
+.rounds .lbl{font-weight:600}
+.rounds .right{font-size:13px;color:var(--muted);text-align:right}
+
+
+/* disclosure box - used when a round departs from the normal cycle */
+.warnbox{border:1px solid var(--miss);border-left:5px solid var(--miss);
+  background:#FBF3F1;padding:14px 17px;margin:0 0 24px;font-size:14px;
+  line-height:1.55;color:var(--muted);max-width:74ch}
+.warnbox strong{color:var(--ink)}
+
+/* weekly clock - the embargo, drawn */
+.clock{display:grid;grid-template-columns:repeat(auto-fit,minmax(150px,1fr));
+  gap:1px;background:var(--rule);border:1px solid var(--rule);margin:0 0 8px}
+.clock div{background:var(--card);padding:13px 15px}
+.clock .d{font-size:11px;letter-spacing:.13em;text-transform:uppercase;
+  color:var(--seal);font-weight:600;margin-bottom:4px}
+.clock .w{font-size:14px;line-height:1.4}
+.clock div.open{background:var(--seal);color:#fff}
+.clock div.open .d{color:#B9CCE6}
+
+/* sequential layers - each one adjusts the number above it */
+.layer{display:grid;grid-template-columns:34px 1fr;gap:16px;
+  border-left:2px solid var(--rule);padding:0 0 26px 20px;margin-left:8px;
+  position:relative}
+.layer:last-of-type{border-left-color:transparent;padding-bottom:6px}
+.layer .n{font-family:"IBM Plex Mono",monospace;font-size:13px;font-weight:600;
+  color:#fff;background:var(--seal);width:26px;height:26px;border-radius:50%;
+  display:flex;align-items:center;justify-content:center;
+  position:absolute;left:-14px;top:0}
+.layer .body{grid-column:1/-1}
+.layer h3{font-size:19px;margin:0 0 6px}
+.layer p{margin:0 0 8px;color:var(--muted);max-width:60ch}
+.layer .params{font-family:"IBM Plex Mono",monospace;font-size:12.5px;
+  color:var(--ink);background:#E4E9EE;border-radius:2px;padding:8px 11px;
+  display:inline-block;line-height:1.7}
+
+/* concurrent scenarios - fan out sideways, deliberately unlike the stack */
+.fan{display:grid;grid-template-columns:repeat(auto-fit,minmax(168px,1fr));
+  gap:12px;margin:16px 0 8px}
+.fan .arm{border:1px solid var(--rule);background:var(--card);
+  border-top:3px solid var(--seal);padding:13px 14px;border-radius:2px}
+.fan .arm .nm{font-weight:600;font-size:15px;margin-bottom:4px}
+.fan .arm .ds{font-size:13px;color:var(--muted);line-height:1.45}
+.fan .arm.live{border-top-color:var(--hit)}
+.tbl{width:100%;border-collapse:collapse;font-size:14px;margin:8px 0 6px}
+.tbl th{text-align:left;font-size:11px;letter-spacing:.11em;
+  text-transform:uppercase;color:var(--muted);font-weight:600;
+  border-bottom:1px solid var(--ink);padding:7px 9px 7px 0}
+.tbl td{padding:8px 9px 8px 0;border-bottom:1px solid var(--rule)}
+.tbl td.num,.tbl th.num{text-align:right;padding-right:0;
+  font-family:"IBM Plex Mono",monospace;font-variant-numeric:tabular-nums}
+.tbl tr.best td{font-weight:600}
+.caption{font-size:13px;color:var(--muted);margin:4px 0 30px;max-width:62ch}
+.limits li{color:var(--muted);margin-bottom:9px;max-width:62ch}
+.limits strong{color:var(--ink)}
+h2.sec{font-size:24px;margin:46px 0 6px}
+.sub{color:var(--muted);max-width:62ch;margin:0 0 22px}
+
+
+/* Brier explainer - <details> so it works with no JS at all */
+.record .k{display:flex;align-items:center;gap:5px}
+details.tip{position:relative;display:inline}
+details.tip summary{list-style:none;cursor:pointer;width:14px;height:14px;
+  border:1px solid var(--muted);color:var(--muted);border-radius:50%;
+  font-size:10px;line-height:12px;text-align:center;display:inline-block;
+  font-family:"IBM Plex Sans",sans-serif}
+details.tip summary::-webkit-details-marker{display:none}
+details.tip summary:hover{border-color:var(--seal);color:var(--seal)}
+details.tip[open] summary{background:var(--seal);color:#fff;
+  border-color:var(--seal)}
+details.tip .pop{position:absolute;z-index:20;top:22px;left:-10px;width:270px;
+  background:var(--card);border:1px solid var(--seal);border-radius:2px;
+  padding:12px 14px;font-size:13px;line-height:1.5;color:var(--muted);
+  text-transform:none;letter-spacing:0;font-weight:400;
+  box-shadow:0 6px 20px rgba(16,22,29,.13)}
+details.tip .pop strong{color:var(--ink)}
+@media (max-width:560px){details.tip .pop{left:auto;right:-10px;width:240px}}
+
+/* how the model is tracking against the market */
+.versus{border:1px solid var(--rule);border-left:5px solid var(--muted);
+  background:var(--card);padding:18px 20px;margin:0 0 34px}
+.versus h3{font-size:17px;margin:0 0 8px}
+.versus p{margin:0 0 9px;color:var(--muted);font-size:14.5px;max-width:64ch}
+.versus p:last-child{margin-bottom:0}
+.versus .num{color:var(--ink);font-weight:600}
+
+footer{margin-top:52px;padding-top:20px;border-top:1px solid var(--rule);
+  font-size:13px;color:var(--muted)}
+footer code{font-size:12px}
+@media (max-width:520px){
+  .bar{grid-template-columns:50px 1fr 40px}
+  .record .v{font-size:22px}
+}
+@media (prefers-reduced-motion:reduce){*{transition:none!important}}
+</style>
+</head><body><div class="wrap">
+<header><div class="masthead">
+  <div><h1><a href="index.html" style="color:inherit;text-decoration:none">NRL Forecast</a></h1>
+       <div class="tag">An open research project</div></div>
+  <nav><a href="index.html">Archive</a><a href="method.html">Method</a></nav>
+</div></header>
+
+<h2 style="font-size:30px">Finals Week 1</h2>
+<div class="seal">
+  <div>
+    <div class="stamp">Sealed 11 Sep 2026 &middot; Opened
+      14 Sep, midnight</div>
+    <div class="when">Each forecast locked at its own kickoff and unchanged
+      since.</div>
+  </div>
+</div>
+<div class="warnbox"><strong>Reduced notice.</strong> The forecasts for this round were recorded a median of 0 days before kickoff, rather than on the Tuesday. A fault in the fixture data meant these matches were not identified as a separate round until the week was under way. Each forecast was still recorded before its own match began, and the short notice is stated here because lead time is what a subscription provides.</div>
+<div class="record"><div><div class="k">Round</div><div class="v num">28</div></div><div><div class="k">Fixtures</div><div class="v num">4</div></div><div><div class="k">Correct</div><div class="v num">3/4</div></div><div><div class="k">Accuracy</div><div class="v num">75%</div></div></div>
+<div class="game">
+  <div class="gmeta">Fri 11 Sep &middot; Allianz &middot; sim 24&ndash;22</div>
+  <div class="teams">
+    <span class="t">South-Sydney-Rabbitohs
+      <span class="away">v Newcastle-Knights</span></span>
+    <span><span class="score num">10&ndash;20</span> <span class="verdict miss">Missed</span></span>
+  </div>
+  <div class="gmeta" style="margin:9px 0 0">
+    Called <strong style="color:var(--ink)">South-Sydney-Rabbitohs</strong>
+    at <span class="num">65%</span>
+  </div>
+  <div class="bars"><div class="bar"><span>Model</span><div class="track"><div class="fill model" style="width:65%"></div></div><span class="val num">65%</span></div><div class="bar"><span>Market</span><div class="track"><div class="fill market" style="width:68%"></div></div><span class="val num">68%</span></div></div>
+</div><div class="game">
+  <div class="gmeta">Sat 12 Sep &middot; Allianz &middot; sim 24&ndash;20</div>
+  <div class="teams">
+    <span class="t">Cronulla-Sutherland-Sharks
+      <span class="away">v North-Queensland-Cowboys</span></span>
+    <span><span class="score num">26&ndash;16</span> <span class="verdict hit">Correct</span></span>
+  </div>
+  <div class="gmeta" style="margin:9px 0 0">
+    Called <strong style="color:var(--ink)">Cronulla-Sutherland-Sharks</strong>
+    at <span class="num">73%</span>
+  </div>
+  <div class="bars"><div class="bar"><span>Model</span><div class="track"><div class="fill model" style="width:73%"></div></div><span class="val num">73%</span></div><div class="bar"><span>Market</span><div class="track"><div class="fill market" style="width:67%"></div></div><span class="val num">67%</span></div></div>
+</div><div class="game">
+  <div class="gmeta">Sat 12 Sep &middot; Go Media &middot; sim 22&ndash;24</div>
+  <div class="teams">
+    <span class="t">Warriors
+      <span class="away">v Dolphins</span></span>
+    <span><span class="score num">16&ndash;26</span> <span class="verdict hit">Correct</span></span>
+  </div>
+  <div class="gmeta" style="margin:9px 0 0">
+    Called <strong style="color:var(--ink)">Dolphins</strong>
+    at <span class="num">52%</span>
+  </div>
+  <div class="bars"><div class="bar"><span>Model</span><div class="track"><div class="fill model" style="width:48%"></div></div><span class="val num">48%</span></div><div class="bar"><span>Market</span><div class="track"><div class="fill market" style="width:57%"></div></div><span class="val num">57%</span></div></div>
+</div><div class="game">
+  <div class="gmeta">Sun 13 Sep &middot; CommBank &middot; sim 24&ndash;20</div>
+  <div class="teams">
+    <span class="t">Penrith-Panthers
+      <span class="away">v Sydney-Roosters</span></span>
+    <span><span class="score num">19&ndash;12</span> <span class="verdict hit">Correct</span></span>
+  </div>
+  <div class="gmeta" style="margin:9px 0 0">
+    Called <strong style="color:var(--ink)">Penrith-Panthers</strong>
+    at <span class="num">69%</span>
+  </div>
+  <div class="bars"><div class="bar"><span>Model</span><div class="track"><div class="fill model" style="width:69%"></div></div><span class="val num">69%</span></div><div class="bar"><span>Market</span><div class="track"><div class="fill market" style="width:71%"></div></div><span class="val num">71%</span></div></div>
+</div>
+<p style="margin-top:26px"><a href="index.html">All rounds</a></p>
+
+<footer>
+  <p>Every forecast published here was recorded to a version history and
+  locked when its match kicked off. Revisions made before kickoff are retained
+  in full. No record is amended after a result is known, and incorrect
+  selections remain on the page.</p>
+  <p>Forecasts are the output of a statistical model and are published for
+  research purposes. They are not betting advice. Gamble responsibly.
+  Gambling Help 1800 858 858.</p>
+  <p class="num">Built 2026-09-15 23:45 AEST &middot;
+     <code>8f4155c</code></p>
+</footer>
+</div></body></html>

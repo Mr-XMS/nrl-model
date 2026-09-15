@@ -33,6 +33,8 @@ from zoneinfo import ZoneInfo
 import numpy as np
 import pandas as pd
 
+from finals_rounds import round_order, round_slug, relabel
+
 HERE = os.path.dirname(os.path.abspath(__file__))
 DOCS = os.path.join(HERE, "docs")
 TZ = ZoneInfo("Australia/Sydney")
@@ -187,7 +189,9 @@ def load():
     df["frozen"] = df.run_date.fillna(df.run_date_c if "run_date_c" in df else np.nan)
     if "run_date_c" in df.columns:
         df["frozen"] = df.run_date_c.fillna(df.run_date)
-    df["rnd"] = df["round"].apply(round_number)
+    df = relabel(df)
+    df["rnd"] = [round_order(l, d, 2026) for l, d in zip(df["round"], df.date)]
+    df["slug"] = [round_slug(l, d, 2026) for l, d in zip(df["round"], df.date)]
     return df.dropna(subset=["rnd"]).sort_values(["rnd", "date"])
 
 
@@ -331,6 +335,12 @@ nav a:hover{border-color:var(--seal)}
 .rounds .right{font-size:13px;color:var(--muted);text-align:right}
 
 
+/* disclosure box - used when a round departs from the normal cycle */
+.warnbox{border:1px solid var(--miss);border-left:5px solid var(--miss);
+  background:#FBF3F1;padding:14px 17px;margin:0 0 24px;font-size:14px;
+  line-height:1.55;color:var(--muted);max-width:74ch}
+.warnbox strong{color:var(--ink)}
+
 /* weekly clock - the embargo, drawn */
 .clock{display:grid;grid-template-columns:repeat(auto-fit,minmax(150px,1fr));
   gap:1px;background:var(--rule);border:1px solid var(--rule);margin:0 0 8px}
@@ -472,7 +482,23 @@ def bar_row(label, p, cls):
 def render_round(rnd, g, unlock):
     label = tidy_round(g["round"].iloc[0])
     frozen = pd.to_datetime(g["frozen"].dropna()).min()
-    frozen_txt = frozen.strftime("%d %b %Y") if pd.notna(frozen) else "—"
+    frozen_txt = frozen.strftime("%d %b %Y") if pd.notna(frozen) else "not recorded"
+
+    # Median days between a forecast being recorded and its match starting.
+    runs = pd.to_datetime(g["run_date"], errors="coerce")
+    leads = (pd.to_datetime(g["date"]) - runs).dt.days.dropna()
+    lead = int(leads.median()) if len(leads) else None
+    short_lead = ""
+    if lead is not None and lead < 2:
+        short_lead = (
+            '<div class="warnbox"><strong>Reduced notice.</strong> The '
+            'forecasts for this round were recorded a median of '
+            f'{lead} day{"" if lead == 1 else "s"} before kickoff, rather '
+            'than on the Tuesday. A fault in the fixture data meant these '
+            'matches were not identified as a separate round until the week '
+            'was under way. Each forecast was still recorded before its own '
+            'match began, and the short notice is stated here because lead '
+            'time is what a subscription provides.</div>')
 
     graded = [grade(r) for r in g.itertuples()]
     ok = [c for _, c in graded if c is not None]
@@ -546,6 +572,7 @@ def render_round(rnd, g, unlock):
       since.</div>
   </div>
 </div>
+{short_lead}
 {hdr}
 {''.join(rows)}
 <p style="margin-top:26px"><a href="index.html">All rounds</a></p>
@@ -553,7 +580,7 @@ def render_round(rnd, g, unlock):
     desc = (f"{label} {SEASON} NRL forecast. Model probabilities recorded "
             f"before kickoff and graded against results.")
     return shell(f"{label} | {SITE_NAME} {SEASON}", body, desc,
-                 canonical=f"round-{rnd}.html")
+                 canonical=f"{g['slug'].iloc[0]}.html")
 
 
 def market_block():
@@ -646,7 +673,7 @@ def render_index(df, published, sealed):
         g = df[df.rnd == rnd]
         unlock = unlock_moment(max(g.date))
         rows.append(f"""<div class="row sealed">
-  <span class="lbl">Round {rnd}: sealed</span>
+  <span class="lbl">{esc(tidy_round(g["round"].iloc[0]))}: sealed</span>
   <span class="right">Opens {esc(unlock.strftime('%a %d %b'))}, midnight<br>
     {len(g)} fixtures</span></div>""")
     for rnd in sorted(published, reverse=True):
@@ -657,7 +684,7 @@ def render_index(df, published, sealed):
         part = ("" if len(g) >= 6 else
                 ' <span style="font-weight:400;color:var(--muted)">'
                 '(partial round: model commenced mid-round)</span>')
-        rows.append(f"""<a href="round-{rnd}.html">
+        rows.append(f"""<a href="{g['slug'].iloc[0]}.html">
   <span class="lbl">{esc(tidy_round(g['round'].iloc[0]))}{part}</span>
   <span class="right">{right}<br>{esc(min(g.date).strftime('%d %b'))}</span></a>""")
 
@@ -671,7 +698,7 @@ def render_index(df, published, sealed):
         cta = f"""<div class="seal locked" id="subscribe">
   <div class="lock-head">
     <div>
-      <div class="stamp">Round {nxt} is sealed</div>
+      <div class="stamp">{esc(tidy_round(df[df.rnd == nxt]["round"].iloc[0]))} is sealed</div>
       <div class="when">The board is computed when team lists are released,
         locks fixture by fixture at kickoff, and stays sealed until the round
         concludes.</div>
@@ -1041,7 +1068,8 @@ def main():
     for rnd in sorted(published):
         g = df[df.rnd == rnd]
         u = unlock_moment(max(g.date))
-        with open(os.path.join(DOCS, f"round-{rnd}.html"), "w") as f:
+        slug = g["slug"].iloc[0]
+        with open(os.path.join(DOCS, f"{slug}.html"), "w") as f:
             f.write(render_round(rnd, g, u))
         if rnd not in seen:
             new.append(dict(round=rnd, unlock=u.strftime("%Y-%m-%d %H:%M"),
@@ -1074,7 +1102,7 @@ def main():
     # pages do not exist yet.
     if SITE_URL:
         urls = [f"{SITE_URL}/index.html", f"{SITE_URL}/method.html"] + [
-            f"{SITE_URL}/round-{r}.html" for r in sorted(published)]
+            f"{SITE_URL}/{df[df.rnd == r]['slug'].iloc[0]}.html" for r in sorted(published)]
         today = now.strftime("%Y-%m-%d")
         sm = ('<?xml version="1.0" encoding="UTF-8"?>\n'
               '<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n'
