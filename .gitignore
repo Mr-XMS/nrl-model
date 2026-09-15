@@ -3,3 +3,4 @@ __pycache__/
 *.pyc
 scrape_progress.txt
 .DS_Store
+*.bak

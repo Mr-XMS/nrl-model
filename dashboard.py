@@ -211,7 +211,19 @@ with tab_record:
                 lambda g: ((g.p_home_win - g.actual_home_win) ** 2).mean()).round(3)
             byr["accuracy"] = (byr.accuracy * 100).round(0).astype(int).astype(str) + "%"
             st.dataframe(byr, use_container_width=True)
-            st.bar_chart(done.groupby("rnd", sort=False).correct.mean())
+            # st.bar_chart sorts its index alphabetically, which puts "F1"
+            # ahead of "R18". Chart explicitly so finals stay in play order.
+            import altair as alt
+            _order = list(dict.fromkeys(done["rnd"]))
+            _acc = (done.groupby("rnd", sort=False).correct.mean()
+                    .reset_index().rename(columns={"correct": "accuracy"}))
+            st.altair_chart(
+                alt.Chart(_acc).mark_bar(color="#2b6cb0").encode(
+                    x=alt.X("rnd:N", sort=_order, title=None),
+                    y=alt.Y("accuracy:Q", title="accuracy",
+                            scale=alt.Scale(domain=[0, 1])),
+                    tooltip=["rnd", alt.Tooltip("accuracy:Q", format=".0%")]),
+                use_container_width=True)
         else:
             st.info("No graded picks yet.")
     with c2:
