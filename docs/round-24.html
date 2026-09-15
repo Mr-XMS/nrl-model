@@ -136,6 +136,12 @@ nav a:hover{border-color:var(--seal)}
 .rounds .right{font-size:13px;color:var(--muted);text-align:right}
 
 
+/* disclosure box - used when a round departs from the normal cycle */
+.warnbox{border:1px solid var(--miss);border-left:5px solid var(--miss);
+  background:#FBF3F1;padding:14px 17px;margin:0 0 24px;font-size:14px;
+  line-height:1.55;color:var(--muted);max-width:74ch}
+.warnbox strong{color:var(--ink)}
+
 /* weekly clock - the embargo, drawn */
 .clock{display:grid;grid-template-columns:repeat(auto-fit,minmax(150px,1fr));
   gap:1px;background:var(--rule);border:1px solid var(--rule);margin:0 0 8px}
@@ -237,6 +243,7 @@ footer code{font-size:12px}
       since.</div>
   </div>
 </div>
+
 <div class="record"><div><div class="k">Round</div><div class="v num">24</div></div><div><div class="k">Fixtures</div><div class="v num">8</div></div><div><div class="k">Correct</div><div class="v num">3/8</div></div><div><div class="k">Accuracy</div><div class="v num">38%</div></div></div>
 <div class="game">
   <div class="gmeta">Thu 13 Aug &middot; CommBank &middot; sim 22&ndash;22</div>
@@ -345,7 +352,7 @@ footer code{font-size:12px}
   <p>Forecasts are the output of a statistical model and are published for
   research purposes. They are not betting advice. Gamble responsibly.
   Gambling Help 1800 858 858.</p>
-  <p class="num">Built 2026-09-15 22:51 AEST &middot;
-     <code>ad296fd</code></p>
+  <p class="num">Built 2026-09-15 23:55 AEST &middot;
+     <code>8da8993</code></p>
 </footer>
 </div></body></html>

@@ -136,6 +136,12 @@ nav a:hover{border-color:var(--seal)}
 .rounds .right{font-size:13px;color:var(--muted);text-align:right}
 
 
+/* disclosure box - used when a round departs from the normal cycle */
+.warnbox{border:1px solid var(--miss);border-left:5px solid var(--miss);
+  background:#FBF3F1;padding:14px 17px;margin:0 0 24px;font-size:14px;
+  line-height:1.55;color:var(--muted);max-width:74ch}
+.warnbox strong{color:var(--ink)}
+
 /* weekly clock - the embargo, drawn */
 .clock{display:grid;grid-template-columns:repeat(auto-fit,minmax(150px,1fr));
   gap:1px;background:var(--rule);border:1px solid var(--rule);margin:0 0 8px}
@@ -236,7 +242,7 @@ forecast cannot be altered. When the round finishes, the full board is published
 here: every selection, its probability, and the result.
 <strong>The archive is free and remains free.</strong> A subscription changes
 only the timing of access.</p>
-<div class="record"><div><div class="k">Rounds published</div><div class="v num">9</div></div><div><div class="k">Graded picks</div><div class="v num">68</div></div><div><div class="k">Correct</div><div class="v num">43</div></div><div><div class="k">Accuracy</div><div class="v num">63%</div></div><div><div class="k">Brier <details class="tip"><summary>i</summary><div class="pop"><strong>Brier score</strong> grades the probabilities, not just the pick. Call a game at 90% and get it right, you score well; call it at 90% and get it wrong, you are punished hard. <strong>Lower is better.</strong> 0 is perfect, 0.25 is what you would score by saying &ldquo;50/50&rdquo; to every game, and anything above that is worse than guessing.</div></details></div><div class="v num">0.241</div></div></div>
+<div class="record"><div><div class="k">Rounds published</div><div class="v num">11</div></div><div><div class="k">Graded picks</div><div class="v num">80</div></div><div><div class="k">Correct</div><div class="v num">49</div></div><div><div class="k">Accuracy</div><div class="v num">61%</div></div><div><div class="k">Brier <details class="tip"><summary>i</summary><div class="pop"><strong>Brier score</strong> grades the probabilities, not just the pick. Call a game at 90% and get it right, you score well; call it at 90% and get it wrong, you are punished hard. <strong>Lower is better.</strong> 0 is perfect, 0.25 is what you would score by saying &ldquo;50/50&rdquo; to every game, and anything above that is worse than guessing.</div></details></div><div class="v num">0.241</div></div></div>
 <div class="versus">
   <h3>Performance against the market</h3>
   <p>Across the <span class="num">68</span> matches with a recorded closing
@@ -250,7 +256,7 @@ only the timing of access.</p>
 <div class="seal locked" id="subscribe">
   <div class="lock-head">
     <div>
-      <div class="stamp">Round 27 is sealed</div>
+      <div class="stamp">Semi Finals is sealed</div>
       <div class="when">The board is computed when team lists are released,
         locks fixture by fixture at kickoff, and stays sealed until the round
         concludes.</div>
@@ -264,12 +270,12 @@ only the timing of access.</p>
   <div class="timing">
     <div class="t-now">
       <div class="t-who">Subscribers</div>
-      <div class="t-when">Tuesday 1 September, 4pm</div>
+      <div class="t-when">Tuesday 15 September, 4pm</div>
       <div class="t-note">Team lists released. The forecast is computed,
         recorded and available to subscribers the same afternoon. It may be
         revised for late changes up to each kickoff.</div>
     </div>
-    <div class="t-gap"><span>19 days later</span></div>
+    <div class="t-gap"><span>five days later</span></div>
     <div class="t-later">
       <div class="t-who">Everyone</div>
       <div class="t-when">Monday 21 September, midnight</div>
@@ -279,13 +285,17 @@ only the timing of access.</p>
   </div>
   <p class="lock-foot"><strong>A subscription does not purchase exclusive
     information.</strong> Every forecast is published to everyone. It purchases
-    19 days of earlier access, and funds the research.</p>
+    five days of earlier access, and funds the research.</p>
 </div>
 <h2 style="font-size:22px;margin:34px 0 14px">2026 season</h2>
 <div class="rounds"><div class="row sealed">
-  <span class="lbl">Round 27: sealed</span>
+  <span class="lbl">Semi Finals: sealed</span>
   <span class="right">Opens Mon 21 Sep, midnight<br>
-    10 fixtures</span></div><a href="round-26.html">
+    2 fixtures</span></div><a href="finals-week-1.html">
+  <span class="lbl">Finals Week 1 <span style="font-weight:400;color:var(--muted)">(partial round: model commenced mid-round)</span></span>
+  <span class="right">3/4 correct<br>11 Sep</span></a><a href="round-27.html">
+  <span class="lbl">Round 27</span>
+  <span class="right">3/8 correct<br>03 Sep</span></a><a href="round-26.html">
   <span class="lbl">Round 26</span>
   <span class="right">6/8 correct<br>27 Aug</span></a><a href="round-25.html">
   <span class="lbl">Round 25 – Telstra Together Round</span>
@@ -327,7 +337,7 @@ fund its continuation.</p>
   <p>Forecasts are the output of a statistical model and are published for
   research purposes. They are not betting advice. Gamble responsibly.
   Gambling Help 1800 858 858.</p>
-  <p class="num">Built 2026-09-15 22:51 AEST &middot;
-     <code>ad296fd</code></p>
+  <p class="num">Built 2026-09-15 23:55 AEST &middot;
+     <code>8da8993</code></p>
 </footer>
 </div></body></html>

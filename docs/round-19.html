@@ -136,6 +136,12 @@ nav a:hover{border-color:var(--seal)}
 .rounds .right{font-size:13px;color:var(--muted);text-align:right}
 
 
+/* disclosure box - used when a round departs from the normal cycle */
+.warnbox{border:1px solid var(--miss);border-left:5px solid var(--miss);
+  background:#FBF3F1;padding:14px 17px;margin:0 0 24px;font-size:14px;
+  line-height:1.55;color:var(--muted);max-width:74ch}
+.warnbox strong{color:var(--ink)}
+
 /* weekly clock - the embargo, drawn */
 .clock{display:grid;grid-template-columns:repeat(auto-fit,minmax(150px,1fr));
   gap:1px;background:var(--rule);border:1px solid var(--rule);margin:0 0 8px}
@@ -237,6 +243,7 @@ footer code{font-size:12px}
       since.</div>
   </div>
 </div>
+
 <div class="record"><div><div class="k">Round</div><div class="v num">19</div></div><div><div class="k">Fixtures</div><div class="v num">8</div></div><div><div class="k">Correct</div><div class="v num">4/8</div></div><div><div class="k">Accuracy</div><div class="v num">50%</div></div></div>
 <div class="game">
   <div class="gmeta">Fri 10 Jul &middot; Campbelltown</div>
@@ -250,6 +257,18 @@ footer code{font-size:12px}
     at <span class="num">81%</span>
   </div>
   <div class="bars"><div class="bar"><span>Model</span><div class="track"><div class="fill model" style="width:19%"></div></div><span class="val num">19%</span></div></div>
+</div><div class="game">
+  <div class="gmeta">Sat 11 Jul &middot; Allianz</div>
+  <div class="teams">
+    <span class="t">Sydney-Roosters
+      <span class="away">v Parramatta-Eels</span></span>
+    <span><span class="score num">28&ndash;12</span> <span class="verdict hit">Correct</span></span>
+  </div>
+  <div class="gmeta" style="margin:9px 0 0">
+    Called <strong style="color:var(--ink)">Sydney-Roosters</strong>
+    at <span class="num">77%</span>
+  </div>
+  <div class="bars"><div class="bar"><span>Model</span><div class="track"><div class="fill model" style="width:77%"></div></div><span class="val num">77%</span></div></div>
 </div><div class="game">
   <div class="gmeta">Sat 11 Jul &middot; Accor</div>
   <div class="teams">
@@ -287,29 +306,17 @@ footer code{font-size:12px}
   </div>
   <div class="bars"><div class="bar"><span>Model</span><div class="track"><div class="fill model" style="width:66%"></div></div><span class="val num">66%</span></div></div>
 </div><div class="game">
-  <div class="gmeta">Sat 11 Jul &middot; Allianz</div>
+  <div class="gmeta">Sun 12 Jul &middot; Accor</div>
   <div class="teams">
-    <span class="t">Sydney-Roosters
-      <span class="away">v Parramatta-Eels</span></span>
-    <span><span class="score num">28&ndash;12</span> <span class="verdict hit">Correct</span></span>
+    <span class="t">South-Sydney-Rabbitohs
+      <span class="away">v Newcastle-Knights</span></span>
+    <span><span class="score num">26&ndash;24</span> <span class="verdict hit">Correct</span></span>
   </div>
   <div class="gmeta" style="margin:9px 0 0">
-    Called <strong style="color:var(--ink)">Sydney-Roosters</strong>
-    at <span class="num">77%</span>
+    Called <strong style="color:var(--ink)">South-Sydney-Rabbitohs</strong>
+    at <span class="num">56%</span>
   </div>
-  <div class="bars"><div class="bar"><span>Model</span><div class="track"><div class="fill model" style="width:77%"></div></div><span class="val num">77%</span></div></div>
-</div><div class="game">
-  <div class="gmeta">Sun 12 Jul &middot; 4 Pines</div>
-  <div class="teams">
-    <span class="t">Manly-Warringah-Sea-Eagles
-      <span class="away">v North-Queensland-Cowboys</span></span>
-    <span><span class="score num">18&ndash;19</span> <span class="verdict miss">Missed</span></span>
-  </div>
-  <div class="gmeta" style="margin:9px 0 0">
-    Called <strong style="color:var(--ink)">Manly-Warringah-Sea-Eagles</strong>
-    at <span class="num">70%</span>
-  </div>
-  <div class="bars"><div class="bar"><span>Model</span><div class="track"><div class="fill model" style="width:70%"></div></div><span class="val num">70%</span></div></div>
+  <div class="bars"><div class="bar"><span>Model</span><div class="track"><div class="fill model" style="width:56%"></div></div><span class="val num">56%</span></div></div>
 </div><div class="game">
   <div class="gmeta">Sun 12 Jul &middot; AAMI &middot; 6mm forecast</div>
   <div class="teams">
@@ -323,17 +330,17 @@ footer code{font-size:12px}
   </div>
   <div class="bars"><div class="bar"><span>Model</span><div class="track"><div class="fill model" style="width:75%"></div></div><span class="val num">75%</span></div></div>
 </div><div class="game">
-  <div class="gmeta">Sun 12 Jul &middot; Accor</div>
+  <div class="gmeta">Sun 12 Jul &middot; 4 Pines</div>
   <div class="teams">
-    <span class="t">South-Sydney-Rabbitohs
-      <span class="away">v Newcastle-Knights</span></span>
-    <span><span class="score num">26&ndash;24</span> <span class="verdict hit">Correct</span></span>
+    <span class="t">Manly-Warringah-Sea-Eagles
+      <span class="away">v North-Queensland-Cowboys</span></span>
+    <span><span class="score num">18&ndash;19</span> <span class="verdict miss">Missed</span></span>
   </div>
   <div class="gmeta" style="margin:9px 0 0">
-    Called <strong style="color:var(--ink)">South-Sydney-Rabbitohs</strong>
-    at <span class="num">56%</span>
+    Called <strong style="color:var(--ink)">Manly-Warringah-Sea-Eagles</strong>
+    at <span class="num">70%</span>
   </div>
-  <div class="bars"><div class="bar"><span>Model</span><div class="track"><div class="fill model" style="width:56%"></div></div><span class="val num">56%</span></div></div>
+  <div class="bars"><div class="bar"><span>Model</span><div class="track"><div class="fill model" style="width:70%"></div></div><span class="val num">70%</span></div></div>
 </div>
 <p style="margin-top:26px"><a href="index.html">All rounds</a></p>
 
@@ -345,7 +352,7 @@ footer code{font-size:12px}
   <p>Forecasts are the output of a statistical model and are published for
   research purposes. They are not betting advice. Gamble responsibly.
   Gambling Help 1800 858 858.</p>
-  <p class="num">Built 2026-09-15 22:51 AEST &middot;
-     <code>ad296fd</code></p>
+  <p class="num">Built 2026-09-15 23:55 AEST &middot;
+     <code>8da8993</code></p>
 </footer>
 </div></body></html>
