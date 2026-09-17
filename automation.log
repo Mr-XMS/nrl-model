@@ -8050,3 +8050,20 @@ forced day: 9
 publish-only run
 publish_rounds: 11 round page(s) written, 1 sealed; next unlock round 29 at 2026-09-21 00:00
 ===== done =====
+
+===== 2026-09-17 19:57 (day 4) =====
+2 upcoming NRL games, scanning...
+
+sydney-roosters v cronulla-sutherland-sharks
+  best: sydney-roosters @ 1.46 (Neds)  |  cronulla-sutherland-sharks @ 3.05 (Betfair)
+  combined implied: 101.3%
+  live blend 63% home -> best-price EV: cronulla-sutherland-sharks +12.5% @ 3.05 (Betfair)  >>> VALUE
+
+warriors v newcastle-knights
+  best: warriors @ 1.55 (Betfair)  |  newcastle-knights @ 2.76 (Betfair)
+  combined implied: 100.7%
+  live blend 67% home -> best-price EV: warriors +3.2% @ 1.55 (Betfair)
+
+Price snapshot logged: 44 quotes -> odds_history.csv
+publish_rounds: 11 round page(s) written, 1 sealed; next unlock round 29 at 2026-09-21 00:00
+===== done =====
