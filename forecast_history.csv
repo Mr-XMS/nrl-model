@@ -280,3 +280,5 @@ run_time,date,home_team,away_team,kickoff,venue_city,p_base,p_market,wet,returni
 2026-09-13 10:57,2026-09-13,penrith-panthers,sydney-roosters,2026-09-13T06:05:00Z,Sydney,0.6881,0.7065,0,0,0,0,0,0
 2026-09-15 22:51,2026-09-19,sydney-roosters,cronulla-sutherland-sharks,2026-09-19T09:50:00Z,Sydney,0.5838,0.6612,0,0,0,1,0,1
 2026-09-15 22:51,2026-09-20,warriors,newcastle-knights,2026-09-20T06:05:00Z,Auckland,0.6908,0.6284,0,0,0,0,0,1
+2026-09-18 11:16,2026-09-19,sydney-roosters,cronulla-sutherland-sharks,2026-09-19T09:50:00Z,Sydney,0.5837,0.6612,0,0,0,1,0,1
+2026-09-18 11:16,2026-09-20,warriors,newcastle-knights,2026-09-20T06:05:00Z,Auckland,0.6906,0.6299,0,0,0,0,0,1
