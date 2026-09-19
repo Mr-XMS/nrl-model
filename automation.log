@@ -8107,3 +8107,43 @@ warriors v newcastle-knights: warriors (69%)  [return-adjusted variant: home 69%
 All fixtures already logged this week (first predictions kept).
 publish_rounds: 11 round page(s) written, 1 sealed; next unlock round 29 at 2026-09-21 00:00
 ===== done =====
+
+===== 2026-09-19 11:09 (day 6) =====
+2 upcoming NRL games, scanning...
+
+sydney-roosters v cronulla-sutherland-sharks
+  best: sydney-roosters @ 1.48 (Betfair)  |  cronulla-sutherland-sharks @ 3.05 (Betfair)
+  combined implied: 100.4%
+  live blend 63% home -> best-price EV: cronulla-sutherland-sharks +13.0% @ 3.05 (Betfair)  >>> VALUE
+
+warriors v newcastle-knights
+  best: warriors @ 1.52 (Betr)  |  newcastle-knights @ 2.80 (Betfair)
+  combined implied: 101.5%
+  live blend 67% home -> best-price EV: warriors +1.8% @ 1.52 (Betr)
+
+Price snapshot logged: 44 quotes -> odds_history.csv
+Fetching announced team lists: 2026 Round 29...
+Casualty ward: 68 players listed
+done: 0 scraped
+Running model comparison record:
+  A: baseline            n=75  acc=0.627  logloss=0.6755  brier=0.2394
+  B: return-adjusted     n=75  acc=0.627  logloss=0.6760  brier=0.2396
+  C: weather-adjusted    n=75  acc=0.640  logloss=0.6768  brier=0.2403
+  Market (bookmaker)     n=75  acc=0.632  logloss=0.6377  brier=0.2211
+  Blend (model+market)   n=75  acc=0.632  logloss=0.6433  brier=0.2235
+  Matches where the two models actually differ: 69 of 75
+
+sydney-roosters v cronulla-sutherland-sharks: sydney-roosters (58%)  [return-adjusted variant: home 58%]
+    market 66% home | blend 62% home  >>> EDGE: model likes cronulla-sutherland-sharks (8 pts vs market)
+    player strength diff +0.38 | retention 94% v 100% | spine run 2 v 2
+    note: sydney-roosters: Angus Crichton (Foot, listed return Finals Week 2) - IN DOUBT, rating x0.6
+
+warriors v newcastle-knights: warriors (69%)  [return-adjusted variant: home 69%]
+    market 63% home | blend 66% home  >>> EDGE: model likes warriors (6 pts vs market)
+    player strength diff +1.03 | retention 88% v 94% | spine run 2 v 2
+    note: newcastle-knights: 1 debutant/unmatched (rated league-average): Lachlan Crouch
+
+   revised 2 forecast(s) before kickoff (previous versions -> forecast_revisions.csv)
+All fixtures already logged this week (first predictions kept).
+publish_rounds: 11 round page(s) written, 1 sealed; next unlock round 29 at 2026-09-21 00:00
+===== done =====
