@@ -8147,3 +8147,41 @@ warriors v newcastle-knights: warriors (69%)  [return-adjusted variant: home 69%
 All fixtures already logged this week (first predictions kept).
 publish_rounds: 11 round page(s) written, 1 sealed; next unlock round 29 at 2026-09-21 00:00
 ===== done =====
+
+===== 2026-09-20 11:03 (day 7) =====
+2 upcoming NRL games, scanning...
+
+warriors v newcastle-knights
+  best: warriors @ 1.50 (Betfair)  |  newcastle-knights @ 2.94 (Betfair)
+  combined implied: 100.7%
+  live blend 68% home -> best-price EV: warriors +1.5% @ 1.50 (Betfair)
+
+dolphins v sydney-roosters
+  best: dolphins @ 1.68 (TAB)  |  sydney-roosters @ 2.40 (PointsBet (AU))
+  combined implied: 101.2%
+
+Price snapshot logged: 40 quotes -> odds_history.csv
+Fetching announced team lists: 2026 Round 29...
+Casualty ward: 64 players listed
+done: 3 scraped
+Running model comparison record:
+  A: baseline            n=75  acc=0.627  logloss=0.6755  brier=0.2394
+  B: return-adjusted     n=75  acc=0.627  logloss=0.6760  brier=0.2396
+  C: weather-adjusted    n=75  acc=0.640  logloss=0.6768  brier=0.2403
+  Market (bookmaker)     n=75  acc=0.632  logloss=0.6377  brier=0.2211
+  Blend (model+market)   n=75  acc=0.632  logloss=0.6433  brier=0.2235
+  Matches where the two models actually differ: 69 of 75
+
+sydney-roosters v cronulla-sutherland-sharks: sydney-roosters (60%)  [return-adjusted variant: home 60%]   [PLAYED: 46-10]
+    player strength diff +0.51 | retention 94% v 100% | spine run 2 v 2
+    note: cronulla-sutherland-sharks: Nicho Hynes (Head knock, listed return TBC) - IN DOUBT, rating x0.6
+
+warriors v newcastle-knights: warriors (69%)  [return-adjusted variant: home 69%]
+    market 65% home | blend 67% home
+    player strength diff +1.03 | retention 88% v 94% | spine run 2 v 2
+    note: newcastle-knights: 1 debutant/unmatched (rated league-average): Lachlan Crouch
+
+   revised 1 forecast(s) before kickoff (previous versions -> forecast_revisions.csv)
+All fixtures already logged this week (first predictions kept).
+publish_rounds: 11 round page(s) written, 1 sealed; next unlock round 29 at 2026-09-21 00:00
+===== done =====
