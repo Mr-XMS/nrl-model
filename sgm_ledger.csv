@@ -883,29 +883,55 @@ run_time,kickoff,home,away,market,selection,sim_prob,sim_fair_odds,book_odds,act
 2026-09-08 22:15,2026-09-13,penrith-panthers,sydney-roosters,anytime_try,Daniel Tupou,0.4403,2.27,2.6,0.0
 2026-09-08 22:15,2026-09-13,penrith-panthers,sydney-roosters,anytime_try,James Tedesco,0.3348,2.99,3.25,0.0
 2026-09-08 22:15,2026-09-13,penrith-panthers,sydney-roosters,sgm_combo,penrith-panthers win + over 41.5,0.3893,2.57,,0.0
-2026-09-15 22:51,2026-09-19,sydney-roosters,cronulla-sutherland-sharks,h2h,sydney-roosters,0.4946,2.02,1.44,
-2026-09-15 22:51,2026-09-19,sydney-roosters,cronulla-sutherland-sharks,h2h,cronulla-sutherland-sharks,0.5054,1.98,2.81,
-2026-09-15 22:51,2026-09-19,sydney-roosters,cronulla-sutherland-sharks,line,sydney-roosters -6.5,0.3272,3.06,,
-2026-09-15 22:51,2026-09-19,sydney-roosters,cronulla-sutherland-sharks,line,cronulla-sutherland-sharks +6.5,0.6728,1.49,,
-2026-09-15 22:51,2026-09-19,sydney-roosters,cronulla-sutherland-sharks,total,over 41.5,0.633,1.58,,
-2026-09-15 22:51,2026-09-19,sydney-roosters,cronulla-sutherland-sharks,total,over 47.5,0.4895,2.04,,
-2026-09-15 22:51,2026-09-19,sydney-roosters,cronulla-sutherland-sharks,anytime_try,Mark Nawaqanitawase,0.5062,1.98,1.8,
-2026-09-15 22:51,2026-09-19,sydney-roosters,cronulla-sutherland-sharks,anytime_try,Daniel Tupou,0.4692,2.13,1.94,
-2026-09-15 22:51,2026-09-19,sydney-roosters,cronulla-sutherland-sharks,anytime_try,James Tedesco,0.3724,2.69,2.5,
-2026-09-15 22:51,2026-09-19,sydney-roosters,cronulla-sutherland-sharks,anytime_try,Sione Katoa,0.4844,2.06,2.35,
-2026-09-15 22:51,2026-09-19,sydney-roosters,cronulla-sutherland-sharks,anytime_try,Ronaldo Mulitalo,0.4778,2.09,2.45,
-2026-09-15 22:51,2026-09-19,sydney-roosters,cronulla-sutherland-sharks,anytime_try,William Kennedy,0.3059,3.27,3.4,
-2026-09-15 22:51,2026-09-19,sydney-roosters,cronulla-sutherland-sharks,sgm_combo,sydney-roosters win + over 41.5,0.3159,3.17,,
-2026-09-15 22:51,2026-09-20,warriors,newcastle-knights,h2h,warriors,0.5552,1.8,1.52,
-2026-09-15 22:51,2026-09-20,warriors,newcastle-knights,h2h,newcastle-knights,0.4448,2.25,2.57,
-2026-09-15 22:51,2026-09-20,warriors,newcastle-knights,line,warriors -6.5,0.3808,2.63,2.0,
-2026-09-15 22:51,2026-09-20,warriors,newcastle-knights,line,newcastle-knights +6.5,0.6191,1.62,1.87,
-2026-09-15 22:51,2026-09-20,warriors,newcastle-knights,total,over 41.5,0.6339,1.58,,
-2026-09-15 22:51,2026-09-20,warriors,newcastle-knights,total,over 47.5,0.4857,2.06,,
-2026-09-15 22:51,2026-09-20,warriors,newcastle-knights,anytime_try,Alofiana Khan-Pereira,0.6338,1.58,1.82,
-2026-09-15 22:51,2026-09-20,warriors,newcastle-knights,anytime_try,Charnze Nicoll-Klokstad,0.387,2.58,2.0,
-2026-09-15 22:51,2026-09-20,warriors,newcastle-knights,anytime_try,Taine Tuaupiki,0.3412,2.93,2.45,
-2026-09-15 22:51,2026-09-20,warriors,newcastle-knights,anytime_try,Dominic Young,0.5585,1.79,2.15,
-2026-09-15 22:51,2026-09-20,warriors,newcastle-knights,anytime_try,Greg Marzhew,0.4812,2.08,2.25,
-2026-09-15 22:51,2026-09-20,warriors,newcastle-knights,anytime_try,Fletcher Sharpe,0.4522,2.21,3.1,
-2026-09-15 22:51,2026-09-20,warriors,newcastle-knights,sgm_combo,warriors win + over 41.5,0.3564,2.81,,
+2026-09-15 22:51,2026-09-19,sydney-roosters,cronulla-sutherland-sharks,h2h,sydney-roosters,0.4946,2.02,1.44,1.0
+2026-09-15 22:51,2026-09-19,sydney-roosters,cronulla-sutherland-sharks,h2h,cronulla-sutherland-sharks,0.5054,1.98,2.81,0.0
+2026-09-15 22:51,2026-09-19,sydney-roosters,cronulla-sutherland-sharks,line,sydney-roosters -6.5,0.3272,3.06,,1.0
+2026-09-15 22:51,2026-09-19,sydney-roosters,cronulla-sutherland-sharks,line,cronulla-sutherland-sharks +6.5,0.6728,1.49,,0.0
+2026-09-15 22:51,2026-09-19,sydney-roosters,cronulla-sutherland-sharks,total,over 41.5,0.633,1.58,,1.0
+2026-09-15 22:51,2026-09-19,sydney-roosters,cronulla-sutherland-sharks,total,over 47.5,0.4895,2.04,,1.0
+2026-09-15 22:51,2026-09-19,sydney-roosters,cronulla-sutherland-sharks,anytime_try,Mark Nawaqanitawase,0.5062,1.98,1.8,1.0
+2026-09-15 22:51,2026-09-19,sydney-roosters,cronulla-sutherland-sharks,anytime_try,Daniel Tupou,0.4692,2.13,1.94,1.0
+2026-09-15 22:51,2026-09-19,sydney-roosters,cronulla-sutherland-sharks,anytime_try,James Tedesco,0.3724,2.69,2.5,1.0
+2026-09-15 22:51,2026-09-19,sydney-roosters,cronulla-sutherland-sharks,anytime_try,Sione Katoa,0.4844,2.06,2.35,1.0
+2026-09-15 22:51,2026-09-19,sydney-roosters,cronulla-sutherland-sharks,anytime_try,Ronaldo Mulitalo,0.4778,2.09,2.45,1.0
+2026-09-15 22:51,2026-09-19,sydney-roosters,cronulla-sutherland-sharks,anytime_try,William Kennedy,0.3059,3.27,3.4,0.0
+2026-09-15 22:51,2026-09-19,sydney-roosters,cronulla-sutherland-sharks,sgm_combo,sydney-roosters win + over 41.5,0.3159,3.17,,1.0
+2026-09-15 22:51,2026-09-20,warriors,newcastle-knights,h2h,warriors,0.5552,1.8,1.52,0.0
+2026-09-15 22:51,2026-09-20,warriors,newcastle-knights,h2h,newcastle-knights,0.4448,2.25,2.57,1.0
+2026-09-15 22:51,2026-09-20,warriors,newcastle-knights,line,warriors -6.5,0.3808,2.63,2.0,0.0
+2026-09-15 22:51,2026-09-20,warriors,newcastle-knights,line,newcastle-knights +6.5,0.6191,1.62,1.87,1.0
+2026-09-15 22:51,2026-09-20,warriors,newcastle-knights,total,over 41.5,0.6339,1.58,,0.0
+2026-09-15 22:51,2026-09-20,warriors,newcastle-knights,total,over 47.5,0.4857,2.06,,0.0
+2026-09-15 22:51,2026-09-20,warriors,newcastle-knights,anytime_try,Alofiana Khan-Pereira,0.6338,1.58,1.82,0.0
+2026-09-15 22:51,2026-09-20,warriors,newcastle-knights,anytime_try,Charnze Nicoll-Klokstad,0.387,2.58,2.0,0.0
+2026-09-15 22:51,2026-09-20,warriors,newcastle-knights,anytime_try,Taine Tuaupiki,0.3412,2.93,2.45,0.0
+2026-09-15 22:51,2026-09-20,warriors,newcastle-knights,anytime_try,Dominic Young,0.5585,1.79,2.15,1.0
+2026-09-15 22:51,2026-09-20,warriors,newcastle-knights,anytime_try,Greg Marzhew,0.4812,2.08,2.25,0.0
+2026-09-15 22:51,2026-09-20,warriors,newcastle-knights,anytime_try,Fletcher Sharpe,0.4522,2.21,3.1,1.0
+2026-09-15 22:51,2026-09-20,warriors,newcastle-knights,sgm_combo,warriors win + over 41.5,0.3564,2.81,,0.0
+2026-09-22 22:49,2026-09-25,dolphins,sydney-roosters,h2h,dolphins,0.6077,1.65,1.63,
+2026-09-22 22:49,2026-09-25,dolphins,sydney-roosters,h2h,sydney-roosters,0.3923,2.55,2.27,
+2026-09-22 22:49,2026-09-25,dolphins,sydney-roosters,line,dolphins -6.5,0.4337,2.31,,
+2026-09-22 22:49,2026-09-25,dolphins,sydney-roosters,line,sydney-roosters +6.5,0.5663,1.77,,
+2026-09-22 22:49,2026-09-25,dolphins,sydney-roosters,total,over 41.5,0.6374,1.57,,
+2026-09-22 22:49,2026-09-25,dolphins,sydney-roosters,total,over 47.5,0.4914,2.04,,
+2026-09-22 22:49,2026-09-25,dolphins,sydney-roosters,anytime_try,Hamiso Tabuai-Fidow,0.5484,1.82,2.2,
+2026-09-22 22:49,2026-09-25,dolphins,sydney-roosters,anytime_try,Selwyn Cobbo,0.4897,2.04,1.95,
+2026-09-22 22:49,2026-09-25,dolphins,sydney-roosters,anytime_try,Jamayne Isaako,0.442,2.26,2.1,
+2026-09-22 22:49,2026-09-25,dolphins,sydney-roosters,anytime_try,Mark Nawaqanitawase,0.4925,2.03,2.03,
+2026-09-22 22:49,2026-09-25,dolphins,sydney-roosters,anytime_try,Daniel Tupou,0.4285,2.33,2.2,
+2026-09-22 22:49,2026-09-25,dolphins,sydney-roosters,anytime_try,James Tedesco,0.3335,3.0,2.75,
+2026-09-22 22:49,2026-09-25,dolphins,sydney-roosters,sgm_combo,dolphins win + over 41.5,0.3958,2.53,,
+2026-09-22 22:49,2026-09-27,penrith-panthers,newcastle-knights,h2h,penrith-panthers,0.6064,1.65,1.29,
+2026-09-22 22:49,2026-09-27,penrith-panthers,newcastle-knights,h2h,newcastle-knights,0.3936,2.54,3.66,
+2026-09-22 22:49,2026-09-27,penrith-panthers,newcastle-knights,line,penrith-panthers -6.5,0.4386,2.28,,
+2026-09-22 22:49,2026-09-27,penrith-panthers,newcastle-knights,line,newcastle-knights +6.5,0.5614,1.78,,
+2026-09-22 22:49,2026-09-27,penrith-panthers,newcastle-knights,total,over 41.5,0.6352,1.57,1.9,
+2026-09-22 22:49,2026-09-27,penrith-panthers,newcastle-knights,total,over 47.5,0.4901,2.04,,
+2026-09-22 22:49,2026-09-27,penrith-panthers,newcastle-knights,anytime_try,Thomas Jenkins,0.5596,1.79,1.89,
+2026-09-22 22:49,2026-09-27,penrith-panthers,newcastle-knights,anytime_try,Brian To'o,0.5353,1.87,2.0,
+2026-09-22 22:49,2026-09-27,penrith-panthers,newcastle-knights,anytime_try,Casey McLean,0.4257,2.35,2.45,
+2026-09-22 22:49,2026-09-27,penrith-panthers,newcastle-knights,anytime_try,Dominic Young,0.5175,1.93,2.65,
+2026-09-22 22:49,2026-09-27,penrith-panthers,newcastle-knights,anytime_try,Greg Marzhew,0.4343,2.3,2.65,
+2026-09-22 22:49,2026-09-27,penrith-panthers,newcastle-knights,anytime_try,Fletcher Sharpe,0.4186,2.39,3.75,
+2026-09-22 22:49,2026-09-27,penrith-panthers,newcastle-knights,sgm_combo,penrith-panthers win + over 41.5,0.3921,2.55,,

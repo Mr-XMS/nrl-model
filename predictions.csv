@@ -79,5 +79,6 @@ run_date,season,round,date,home_team,away_team,venue,p_home_win,predicted_winner
 2026-09-12,2026,Finals Week 1,2026-09-12,warriors,dolphins,Go Media,0.4797,,0.0
 2026-09-13,2026,Finals Week 1,2026-09-13,penrith-panthers,sydney-roosters,CommBank,0.6881,,1.0
 2026-09-15,2026,Semi Finals,2026-09-19,sydney-roosters,cronulla-sutherland-sharks,Allianz,0.685,sydney-roosters,1.0
-2026-09-15,2026,Semi Finals,2026-09-20,warriors,newcastle-knights,Eden Park,0.783,warriors,
-2026-09-21,2026,Preliminary Finals,2026-09-25,dolphins,sydney-roosters,Suncorp,0.806,dolphins,
+2026-09-15,2026,Semi Finals,2026-09-20,warriors,newcastle-knights,Eden Park,0.783,warriors,0.0
+2026-09-22,2026,Preliminary Finals,2026-09-25,dolphins,sydney-roosters,Suncorp,0.793,dolphins,
+2026-09-22,2026,Preliminary Finals,2026-09-27,penrith-panthers,newcastle-knights,Accor,0.819,penrith-panthers,

@@ -1,2 +1,5 @@
 home,away,player,team,status,p_fit,p_named,p_withdrawn,swing_pts
-sydney-roosters,cronulla-sutherland-sharks,Angus Crichton,sydney-roosters,IN DOUBT,0.5858,0.5851,0.584,0.2
+dolphins,sydney-roosters,Thomas Flegler,dolphins,IN DOUBT,0.6659,0.6659,0.6624,0.4
+dolphins,sydney-roosters,Sam Walker,sydney-roosters,IN DOUBT,0.6565,0.6659,0.6797,2.3
+penrith-panthers,newcastle-knights,Nathan Cleary,penrith-panthers,IN DOUBT,0.7403,0.7282,0.7037,3.7
+penrith-panthers,newcastle-knights,Jack Cogger,penrith-panthers,IN DOUBT,0.7282,0.7282,0.7375,0.9

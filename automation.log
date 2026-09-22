@@ -8224,3 +8224,81 @@ done: 0 scraped
 Paper bets: graded 1 new | season: 28 bets, staked $72, P&L $-17 (-23.0% ROI)
 publish_rounds: 12 round page(s) written, 1 sealed; next unlock round 30 at 2026-09-28 00:00
 ===== done =====
+
+===== 2026-09-22 22:46 (day 2) =====
+Fetching NRL 2026 from Rugby League Project...
+Season 2026: 210 completed matches on site, 1 new added to dataset (3631 total). 2 future fixtures listed.
+Graded 1 new predictions. Running record: 81 graded, accuracy 63.0%, Brier 0.2425
+Lineups refreshed.
+
+Predictions — Preliminary Finals:
+  2026-09-25  dolphins                         v sydney-roosters                  -> dolphins (79%)
+  2026-09-27  penrith-panthers                 v newcastle-knights                -> penrith-panthers (82%)
+  revised 1 forecast(s) still before kickoff
+
+Logged to predictions.csv
+Fetching announced team lists: 2026 Round 30...
+Casualty ward: 60 players listed
+done: 1 scraped
+Running model comparison record:
+  A: baseline            n=77  acc=0.623  logloss=0.6802  brier=0.2416
+  B: return-adjusted     n=77  acc=0.623  logloss=0.6807  brier=0.2418
+  C: weather-adjusted    n=77  acc=0.636  logloss=0.6818  brier=0.2426
+  Market (bookmaker)     n=77  acc=0.629  logloss=0.6405  brier=0.2225
+  Blend (model+market)   n=77  acc=0.629  logloss=0.6476  brier=0.2256
+  Matches where the two models actually differ: 71 of 77
+
+dolphins v sydney-roosters: dolphins (65%)
+    market 58% home | blend 62% home  >>> EDGE: model likes dolphins (7 pts vs market)
+    player strength diff +0.43 | retention 100% v 94% | spine run 2 v 1
+    note: dolphins: Thomas Flegler (Concussion, listed return Finals Week 3) - IN DOUBT, rating x0.6
+    note: sydney-roosters: Sam Walker (Ankle, listed return Finals Week 3) - IN DOUBT, rating x0.6
+
+penrith-panthers v newcastle-knights: penrith-panthers (76%)
+    market 74% home | blend 75% home
+    player strength diff -0.46 | retention 88% v 88% | spine run 3 v 3
+    note: penrith-panthers: Nathan Cleary (Foot, listed return Finals Week 3) - IN DOUBT, rating x0.6
+    note: penrith-panthers: Jack Cogger (Suspension, listed return Finals Week 3) - IN DOUBT, rating x0.6
+    note: newcastle-knights: 1 debutant/unmatched (rated league-average): Lachlan Crouch
+
+Logged 2 new fixtures to model comparison trial.
+Graded 26 new. Ledger record: 910 legs, hit rate 46.3%, avg sim prob 46.2%, brier 0.2309
+Ledger: 936 total rows -> sgm_ledger.csv (fill book_odds column from your betting app before kickoff)
+22 blank legs across 2 games
+
+Filled 13 legs -> sgm_ledger.csv
+API credits remaining this month: 324
+9 legs still blank (combos + anything the books don't list) - fill manually or leave.
+2 upcoming NRL games, scanning...
+
+dolphins v sydney-roosters
+  best: dolphins @ 1.72 (Betfair)  |  sydney-roosters @ 2.27 (SportsBet)
+  combined implied: 102.2%
+  live blend 61% home -> best-price EV: dolphins +4.7% @ 1.72 (Betfair)  >>> VALUE
+
+penrith-panthers v newcastle-knights
+  best: penrith-panthers @ 1.29 (SportsBet)  |  newcastle-knights @ 4.30 (Betfair)
+  combined implied: 100.8%
+  live blend 76% home -> best-price EV: newcastle-knights +2.1% @ 4.30 (Betfair)
+
+Price snapshot logged: 44 quotes -> odds_history.csv
+Paper bets: graded 0 new | season: 28 bets, staked $72, P&L $-17 (-23.0% ROI)
+Paper bets: no edges clear the 6% bar - nothing placed this round
+Scenario analysis: 2026 Round 30
+
+dolphins v sydney-roosters  (home win, production baseline: 66.6%)
+  Thomas Flegler             (dolphins, IN DOUBT)
+      plays fully fit 66.6% | as named 66.6% | WITHDRAWN 66.2%   swing fit-to-out: 0.4 pts
+  Sam Walker                 (sydney-roosters, IN DOUBT)
+      plays fully fit 65.6% | as named 66.6% | WITHDRAWN 68.0%   swing fit-to-out: 2.3 pts
+
+penrith-panthers v newcastle-knights  (home win, production baseline: 72.8%)
+  Nathan Cleary              (penrith-panthers, IN DOUBT)
+      plays fully fit 74.0% | as named 72.8% | WITHDRAWN 70.4%   swing fit-to-out: 3.7 pts
+  Jack Cogger                (penrith-panthers, IN DOUBT)
+      plays fully fit 72.8% | as named 72.8% | WITHDRAWN 73.7%   swing fit-to-out: 0.9 pts
+
+4 scenarios -> scenarios.csv
+1027 players -> player_ratings.csv
+publish_rounds: 12 round page(s) written, 1 sealed; next unlock round 30 at 2026-09-28 00:00
+===== done =====
