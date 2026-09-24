@@ -27,17 +27,37 @@ def clean_price(b, l):
 
 def main():
     odds_file = os.path.join(HERE, "odds", "nrl_2026.csv")
-    if not os.path.exists(odds_file):
-        import urllib.request
-        os.makedirs(os.path.join(HERE, "odds"), exist_ok=True)
-        url = "https://betfair-datascientists.github.io/data/assets/NRL_2026_Match_Odds.csv"
-        print(f"Flat P&L: downloading Betfair 2026 odds from source...")
+    # The Betfair file grows every round, so it must be re-fetched, not just
+    # fetched once. Downloading only when the file was missing left the
+    # analysis frozen on whatever snapshot happened to land first.
+    import urllib.request
+    os.makedirs(os.path.join(HERE, "odds"), exist_ok=True)
+    url = "https://betfair-datascientists.github.io/data/assets/NRL_2026_Match_Odds.csv"
+    before = 0
+    if os.path.exists(odds_file):
         try:
-            urllib.request.urlretrieve(url, odds_file)
-            print(f"  saved -> odds/nrl_2026.csv")
-        except Exception as e:
-            print(f"Flat P&L: download failed ({e}) - aborting")
+            before = pd.read_csv(odds_file).EVENT_ID.nunique()
+        except Exception:
+            before = 0
+    try:
+        tmp = odds_file + ".tmp"
+        urllib.request.urlretrieve(url, tmp)
+        n_new = pd.read_csv(tmp).EVENT_ID.nunique()
+        # Only replace on a file that is at least as complete, so a truncated
+        # or failed download can never shrink the price history.
+        if n_new >= before:
+            os.replace(tmp, odds_file)
+            print(f"Flat P&L: Betfair odds refreshed, {before} -> {n_new} matches")
+        else:
+            os.remove(tmp)
+            print(f"Flat P&L: source returned {n_new} matches vs {before} held "
+                  f"- keeping existing file")
+    except Exception as e:
+        print(f"Flat P&L: odds refresh failed ({e})")
+        if not os.path.exists(odds_file):
+            print("Flat P&L: no local odds file - aborting")
             return
+        print("Flat P&L: continuing on the existing odds file")
     BF_TEAM = {
         "Brisbane Broncos": "brisbane-broncos", "Canberra Raiders": "canberra-raiders",
         "Canterbury": "canterbury-bankstown-bulldogs",
@@ -112,17 +132,36 @@ def main():
                 ko[(fr.home_team, fr.away_team)] = t.tz_localize(None)
             except Exception:
                 continue
+        overround = []
         for (h_, a_), g in H.groupby(["home", "away"]):
             k = ko.get((h_, a_))
             if k is None:
                 continue
             pre = g[g.scan_time < k]
             pre = pre[(pre.odds > 1.01) & (pre.odds <= 15)]
-            if len(pre):
-                bh = pre[pre.team == h_].odds.max()
-                ba = pre[pre.team == a_].odds.max()
+            if not len(pre):
+                continue
+            # Take best-of-books WITHIN A SINGLE SCAN, not the maximum across
+            # every scan before kickoff. The all-time maxima for the two sides
+            # occur at different moments and often different books, so the
+            # pair was never simultaneously obtainable: it produced a
+            # synthetic sub-100% book and made "back every underdog" look
+            # profitable. One scan is what a line-shopper can actually take.
+            chosen = None
+            for t in sorted(pre.scan_time.unique(), reverse=True):
+                snap = pre[pre.scan_time == t]
+                bh = snap[snap.team == h_].odds.max()
+                ba = snap[snap.team == a_].odds.max()
                 if bh == bh and ba == ba:
-                    live_px[(h_, a_)] = (float(bh), float(ba))
+                    chosen = (float(bh), float(ba))
+                    break
+            if chosen:
+                live_px[(h_, a_)] = chosen
+                overround.append(1 / chosen[0] + 1 / chosen[1])
+        if overround:
+            print(f"Flat P&L: median book overround on live prices "
+                  f"{np.median(overround) * 100:.1f}% "
+                  f"(under 100% would mean unobtainable prices)")
         print(f"Flat P&L: {len(live_px)} live games priced from scanner history "
               f"(best-of-books, pre-kickoff)")
 
@@ -174,7 +213,10 @@ def main():
     print(f"Mirror (back every predicted LOSER): P&L ${F.dog_pl.sum():+,.0f} "
           f"({F.dog_pl.sum()/(len(F)*100):+.1%} ROI), hit rate {(1-F.won).mean():.0%}")
     print(f"Both-sides friction check: picks + mirror = "
-          f"${F.pl.sum()+F.dog_pl.sum():+,.0f} (spread + commission paid twice per game)")
+          f"${F.pl.sum()+F.dog_pl.sum():+,.0f} "
+          f"(a negative number is the expected friction; positive means the "
+          f"longer-priced side won more often than the book implied - a "
+          f"property of this sample, not an edge)")
     print(f"Market underdogs (longer price every game): P&L ${F.mdog_pl.sum():+,.0f} "
           f"({F.mdog_pl.sum()/(len(F)*100):+.1%} ROI)")
     agree = F[F.model_on_mdog == 1]

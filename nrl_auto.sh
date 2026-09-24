@@ -19,6 +19,10 @@ case $DAY in
       python3 scrape_stats.py >> "$LOG" 2>&1
       python3 paper_bets.py >> "$LOG" 2>&1
       python3 notify.py grades >> "$LOG" 2>&1
+      # Flat-stake exhibit. Refreshes the Betfair file and recomputes the
+      # whole season; it was previously a manual force_day 98 job and sat
+      # four rounds out of date because nobody ran it.
+      python3 flat_pnl.py >> "$LOG" 2>&1
       ;;
   2)  # Tuesday evening: full forecast + SGM ledger (team lists are out)
       python3 update_nrl.py >> "$LOG" 2>&1
