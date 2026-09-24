@@ -8302,3 +8302,20 @@ penrith-panthers v newcastle-knights  (home win, production baseline: 72.8%)
 1027 players -> player_ratings.csv
 publish_rounds: 12 round page(s) written, 1 sealed; next unlock round 30 at 2026-09-28 00:00
 ===== done =====
+
+===== 2026-09-24 19:56 (day 4) =====
+2 upcoming NRL games, scanning...
+
+dolphins v sydney-roosters
+  best: dolphins @ 1.73 (TABtouch)  |  sydney-roosters @ 2.34 (Betfair)
+  combined implied: 100.5%
+  live blend 61% home -> best-price EV: dolphins +5.8% @ 1.73 (TABtouch)  >>> VALUE
+
+penrith-panthers v newcastle-knights
+  best: penrith-panthers @ 1.30 (Betfair)  |  newcastle-knights @ 4.20 (Betfair)
+  combined implied: 100.7%
+  live blend 76% home -> best-price EV: newcastle-knights +1.0% @ 4.20 (Betfair)
+
+Price snapshot logged: 44 quotes -> odds_history.csv
+publish_rounds: 12 round page(s) written, 1 sealed; next unlock round 30 at 2026-09-28 00:00
+===== done =====
