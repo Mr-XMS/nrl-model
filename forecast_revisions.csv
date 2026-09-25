@@ -24,3 +24,5 @@ run_date,date,home_team,away_team,p_base,p_retadj,p_wet,forecast_rain_mm,actual_
 2026-09-18,2026-09-19,sydney-roosters,cronulla-sutherland-sharks,0.5837,0.5822,0.5894,0.0,,0.6612,0.6232,2026-09-19 11:10
 2026-09-18,2026-09-20,warriors,newcastle-knights,0.6906,0.6891,0.7002,0.4,,0.6299,0.6609,2026-09-19 11:10
 2026-09-19,2026-09-20,warriors,newcastle-knights,0.6906,0.6891,0.7002,1.2,,0.6299,0.6609,2026-09-20 11:03
+2026-09-22,2026-09-25,dolphins,sydney-roosters,0.6474,0.6475,0.6591,0.3,,0.5821,0.6152,2026-09-25 11:28
+2026-09-22,2026-09-27,penrith-panthers,newcastle-knights,0.7556,0.7549,0.7649,2.4,,0.7394,0.7476,2026-09-25 11:28
