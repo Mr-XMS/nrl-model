@@ -8362,3 +8362,39 @@ penrith-panthers v newcastle-knights: penrith-panthers (76%)
 All fixtures already logged this week (first predictions kept).
 publish_rounds: 12 round page(s) written, 1 sealed; next unlock round 30 at 2026-09-28 00:00
 ===== done =====
+
+===== 2026-09-26 11:31 (day 6) =====
+1 upcoming NRL games, scanning...
+
+penrith-panthers v newcastle-knights
+  best: penrith-panthers @ 1.30 (Betfair)  |  newcastle-knights @ 4.30 (Betfair)
+  combined implied: 100.2%
+  live blend 76% home -> best-price EV: newcastle-knights +2.4% @ 4.30 (Betfair)
+
+Price snapshot logged: 22 quotes -> odds_history.csv
+Fetching announced team lists: 2026 Round 30...
+Casualty ward: 58 players listed
+done: 1 scraped
+Running model comparison record:
+  A: baseline            n=77  acc=0.623  logloss=0.6802  brier=0.2416
+  B: return-adjusted     n=77  acc=0.623  logloss=0.6807  brier=0.2418
+  C: weather-adjusted    n=77  acc=0.636  logloss=0.6818  brier=0.2426
+  Market (bookmaker)     n=77  acc=0.629  logloss=0.6405  brier=0.2225
+  Blend (model+market)   n=77  acc=0.629  logloss=0.6476  brier=0.2256
+  Matches where the two models actually differ: 71 of 77
+
+dolphins v sydney-roosters: dolphins (65%)   [PLAYED: 20-36]
+    player strength diff +0.42 | retention 100% v 94% | spine run 2 v 1
+    note: sydney-roosters: Connor Watson (Head knock, listed return TBC) - IN DOUBT, rating x0.6
+
+penrith-panthers v newcastle-knights: penrith-panthers (76%)
+    market 74% home | blend 75% home
+    player strength diff -0.46 | retention 88% v 88% | spine run 3 v 3
+    note: penrith-panthers: Nathan Cleary (Foot, listed return Finals Week 3) - IN DOUBT, rating x0.6
+    note: penrith-panthers: Jack Cogger (Suspension, listed return Finals Week 3) - IN DOUBT, rating x0.6
+    note: newcastle-knights: 1 debutant/unmatched (rated league-average): Lachlan Crouch
+
+   revised 1 forecast(s) before kickoff (previous versions -> forecast_revisions.csv)
+All fixtures already logged this week (first predictions kept).
+publish_rounds: 12 round page(s) written, 1 sealed; next unlock round 30 at 2026-09-28 00:00
+===== done =====
