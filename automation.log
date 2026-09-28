@@ -8441,3 +8441,41 @@ publish-only run
 publish_rounds: opened round(s) 30
 publish_rounds: 13 round page(s) written, 0 sealed
 ===== done =====
+
+===== 2026-09-28 15:18 (day 1) =====
+name index: 1,093 known players
+lineups.jsonl: 1,824 existing records
+
+  Round 30: 2026-09-25  dolphins                   v sydney-roosters             34 players, 8 spine, 0 unresolved
+  Round 30: 2026-09-27  penrith-panthers           v newcastle-knights           34 players, 8 spine, 1 unresolved
+
+2 new record(s), 210 already present
+1 unresolved player(s) written with null id:
+    newcastle-knights: Lachlan Crouch
+
+appended 2 record(s) -> lineups.jsonl
+Fetching NRL 2026 from Rugby League Project...
+Season 2026: 212 completed matches on site, 2 new added to dataset (3633 total). 1 future fixtures listed.
+Graded 2 new predictions. Running record: 83 graded, accuracy 61.4%, Brier 0.2523
+Lineups refreshed.
+
+Predictions — Grand Final:
+  2026-10-04  sydney-roosters                  v newcastle-knights                -> sydney-roosters (73%)
+
+Logged to predictions.csv
+done: 0 scraped
+Paper bets: graded 0 new | season: 28 bets, staked $72, P&L $-17 (-23.0% ROI)
+Flat P&L: Betfair odds refreshed, 213 -> 215 matches
+Flat P&L: median book overround on live prices 100.8% (under 100% would mean unobtainable prices)
+Flat P&L: 70 live games priced from scanner history (best-of-books, pre-kickoff)
+Flat P&L [backtest]: 113 bets, 59% won, staked $11,300, P&L $-782 (-6.9% ROI)
+Flat P&L [live]: 65 bets, 57% won, staked $6,500, P&L $-894 (-13.8% ROI)
+Flat P&L [FULL SEASON]: 178 bets, 58% won, staked $17,800, P&L $-1,676 (-9.4% ROI)
+Mirror (back every predicted LOSER): P&L $+3,150 (+17.7% ROI), hit rate 42%
+Both-sides friction check: picks + mirror = $+1,474 (a negative number is the expected friction; positive means the longer-priced side won more often than the book implied - a property of this sample, not an edge)
+Market underdogs (longer price every game): P&L $+3,553 (+20.0% ROI)
+  ...where the MODEL also picked the outsider (n=30): $+160 (+5.3%)
+  ...where the model sided with the favourite (n=148): $+3,393 (+22.9%)
+Season equity range: best $-19, worst $-1,676 -> flat_bets.csv
+publish_rounds: 13 round page(s) written, 1 sealed; next unlock round 31 at 2026-10-05 00:00
+===== done =====
