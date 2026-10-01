@@ -8484,3 +8484,14 @@ publish_rounds: 13 round page(s) written, 1 sealed; next unlock round 31 at 2026
 no scheduled tasks today
 publish_rounds: 13 round page(s) written, 1 sealed; next unlock round 31 at 2026-10-05 00:00
 ===== done =====
+
+===== 2026-10-01 21:35 (day 4) =====
+1 upcoming NRL games, scanning...
+
+sydney-roosters v newcastle-knights
+  best: sydney-roosters @ 1.46 (Betfair)  |  newcastle-knights @ 3.10 (Betfair)
+  combined implied: 100.8%
+
+Price snapshot logged: 22 quotes -> odds_history.csv
+publish_rounds: 13 round page(s) written, 1 sealed; next unlock round 31 at 2026-10-05 00:00
+===== done =====
