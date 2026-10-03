@@ -8524,3 +8524,34 @@ sydney-roosters v newcastle-knights: sydney-roosters (69%)
 Logged 1 new fixtures to model comparison trial.
 publish_rounds: 13 round page(s) written, 1 sealed; next unlock round 31 at 2026-10-05 00:00
 ===== done =====
+
+===== 2026-10-03 11:55 (day 6) =====
+1 upcoming NRL games, scanning...
+
+sydney-roosters v newcastle-knights
+  best: sydney-roosters @ 1.46 (Neds)  |  newcastle-knights @ 3.15 (Betfair)
+  combined implied: 100.2%
+  live blend 68% home -> best-price EV: sydney-roosters -0.0% @ 1.46 (Neds)
+
+Price snapshot logged: 22 quotes -> odds_history.csv
+Fetching announced team lists: 2026 Round 31...
+Casualty ward: 59 players listed
+done: 0 scraped
+Running model comparison record:
+  A: baseline            n=79  acc=0.608  logloss=0.6941  brier=0.2480
+  B: return-adjusted     n=79  acc=0.608  logloss=0.6945  brier=0.2482
+  C: weather-adjusted    n=79  acc=0.620  logloss=0.6923  brier=0.2477
+  Market (bookmaker)     n=79  acc=0.611  logloss=0.6530  brier=0.2284
+  Blend (model+market)   n=79  acc=0.611  logloss=0.6617  brier=0.2322
+  Matches where the two models actually differ: 73 of 79
+
+sydney-roosters v newcastle-knights: sydney-roosters (69%)
+    market 66% home | blend 67% home
+    player strength diff -0.31 | retention 100% v 88% | spine run 2 v 1
+    note: sydney-roosters: Connor Watson (Concussion, listed return Next Season) - IN DOUBT, rating x0.6
+    note: newcastle-knights: 1 debutant/unmatched (rated league-average): Lachlan Crouch
+
+   revised 1 forecast(s) before kickoff (previous versions -> forecast_revisions.csv)
+All fixtures already logged this week (first predictions kept).
+publish_rounds: 13 round page(s) written, 1 sealed; next unlock round 31 at 2026-10-05 00:00
+===== done =====
