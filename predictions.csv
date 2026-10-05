@@ -82,4 +82,4 @@ run_date,season,round,date,home_team,away_team,venue,p_home_win,predicted_winner
 2026-09-15,2026,Semi Finals,2026-09-20,warriors,newcastle-knights,Eden Park,0.783,warriors,0.0
 2026-09-22,2026,Preliminary Finals,2026-09-25,dolphins,sydney-roosters,Suncorp,0.793,dolphins,0.0
 2026-09-22,2026,Preliminary Finals,2026-09-27,penrith-panthers,newcastle-knights,Accor,0.819,penrith-panthers,0.0
-2026-09-28,2026,Grand Final,2026-10-04,sydney-roosters,newcastle-knights,Accor,0.729,sydney-roosters,
+2026-09-28,2026,Grand Final,2026-10-04,sydney-roosters,newcastle-knights,Accor,0.729,sydney-roosters,1.0
