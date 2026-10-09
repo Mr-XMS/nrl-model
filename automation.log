@@ -8631,3 +8631,25 @@ publish_rounds: 14 round page(s) written, 0 sealed
 
 publish_rounds: 14 round page(s) written, 0 sealed
 ===== done =====
+
+===== 2026-10-09 13:55 (day 5) =====
+0 upcoming NRL games, scanning...
+
+Fetching announced team lists: 2026 Round 31...
+Casualty ward: 60 players listed
+done: 1 scraped
+Running model comparison record:
+  A: baseline            n=80  acc=0.613  logloss=0.6901  brier=0.2462
+  B: return-adjusted     n=80  acc=0.613  logloss=0.6905  brier=0.2464
+  C: weather-adjusted    n=80  acc=0.625  logloss=0.6882  brier=0.2458
+  Market (bookmaker)     n=80  acc=0.616  logloss=0.6495  brier=0.2267
+  Blend (model+market)   n=80  acc=0.616  logloss=0.6579  brier=0.2304
+  Matches where the two models actually differ: 74 of 80
+
+sydney-roosters v newcastle-knights: sydney-roosters (64%)   [PLAYED: 19-18]
+    player strength diff -0.40 | retention 94% v 88% | spine run 2 v 1
+    note: sydney-roosters: Lindsay Collins (Foot, listed return Next Season) - IN DOUBT, rating x0.6
+    note: newcastle-knights: 1 debutant/unmatched (rated league-average): Lachlan Crouch
+
+publish_rounds: 14 round page(s) written, 0 sealed
+===== done =====
