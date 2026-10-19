@@ -8816,3 +8816,30 @@ forced day: 9
 publish-only run
 publish_rounds: 14 round page(s) written, 0 sealed
 ===== done =====
+
+===== 2026-10-19 15:35 (day 1) =====
+name index: 1,093 known players
+lineups.jsonl: 1,826 existing records
+
+
+0 new record(s), 212 already present
+Fetching NRL 2026 from Rugby League Project...
+Season 2026: 213 completed matches on site, 0 new added to dataset (3634 total). 0 future fixtures listed.
+Lineups refreshed.
+No upcoming fixtures found.
+done: 0 scraped
+Paper bets: graded 0 new | season: 28 bets, staked $72, P&L $-17 (-23.0% ROI)
+Flat P&L: Betfair odds refreshed, 216 -> 216 matches
+Flat P&L: median book overround on live prices 100.8% (under 100% would mean unobtainable prices)
+Flat P&L: 71 live games priced from scanner history (best-of-books, pre-kickoff)
+Flat P&L [backtest]: 113 bets, 65% won, staked $11,300, P&L $+1,579 (+14.0% ROI)
+Flat P&L [live]: 66 bets, 56% won, staked $6,600, P&L $-907 (-13.7% ROI)
+Flat P&L [FULL SEASON]: 179 bets, 62% won, staked $17,900, P&L $+671 (+3.8% ROI)
+Mirror (back every predicted LOSER): P&L $+1,013 (+5.7% ROI), hit rate 38%
+Both-sides friction check: picks + mirror = $+1,684 (a negative number is the expected friction; positive means the longer-priced side won more often than the book implied - a property of this sample, not an edge)
+Market underdogs (longer price every game): P&L $+3,863 (+21.6% ROI)
+  ...where the MODEL also picked the outsider (n=37): $+1,868 (+50.5%)
+  ...where the model sided with the favourite (n=142): $+1,996 (+14.1%)
+Season equity range: best $+1,779, worst $-539 -> flat_bets.csv
+publish_rounds: 14 round page(s) written, 0 sealed
+===== done =====
