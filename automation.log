@@ -8843,3 +8843,75 @@ Market underdogs (longer price every game): P&L $+3,863 (+21.6% ROI)
 Season equity range: best $+1,779, worst $-539 -> flat_bets.csv
 publish_rounds: 14 round page(s) written, 0 sealed
 ===== done =====
+
+===== 2026-10-20 23:52 (day 2) =====
+Fetching NRL 2026 from Rugby League Project...
+Season 2026: 213 completed matches on site, 0 new added to dataset (3634 total). 0 future fixtures listed.
+Lineups refreshed.
+No upcoming fixtures found.
+Fetching announced team lists: 2026 Round 31...
+Casualty ward: 56 players listed
+done: 0 scraped
+Running model comparison record:
+  A: baseline            n=80  acc=0.613  logloss=0.6901  brier=0.2462
+  B: return-adjusted     n=80  acc=0.613  logloss=0.6905  brier=0.2464
+  C: weather-adjusted    n=80  acc=0.625  logloss=0.6882  brier=0.2458
+  Market (bookmaker)     n=80  acc=0.616  logloss=0.6495  brier=0.2267
+  Blend (model+market)   n=80  acc=0.616  logloss=0.6579  brier=0.2304
+  Matches where the two models actually differ: 74 of 80
+
+sydney-roosters v newcastle-knights: sydney-roosters (64%)   [PLAYED: 19-18]
+    player strength diff -0.35 | retention 94% v 88% | spine run 2 v 1
+    note: sydney-roosters: Lindsay Collins (Foot, listed return Next Season) - IN DOUBT, rating x0.6
+    note: newcastle-knights: Kalyn Ponga (Arm, listed return TBC) - IN DOUBT, rating x0.6
+    note: newcastle-knights: 1 debutant/unmatched (rated league-average): Lachlan Crouch
+
+Graded 26 new. Ledger record: 936 legs, hit rate 46.0%, avg sim prob 46.3%, brier 0.2315
+Traceback (most recent call last):
+  File "/home/runner/work/nrl-model/nrl-model/sgm_simulator.py", line 399, in <module>
+    write_ledger(d["selectedRoundId"])
+  File "/home/runner/work/nrl-model/nrl-model/sgm_simulator.py", line 336, in write_ledger
+    new = new[~new.set_index(key).index.isin(old.set_index(key).index)]
+               ^^^^^^^^^^^^^^^^^^
+  File "/opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/pandas/core/frame.py", line 6991, in set_index
+    raise KeyError(f"None of {missing} are in the columns")
+KeyError: "None of ['kickoff', 'home', 'away', 'market', 'selection'] are in the columns"
+No blank pre-game rows to fill.
+0 upcoming NRL games, scanning...
+
+Paper bets: graded 0 new | season: 28 bets, staked $72, P&L $-17 (-23.0% ROI)
+Paper bets: no edges clear the 6% bar - nothing placed this round
+Scenario analysis: 2026 Round 31
+
+0 scenarios -> scenarios.csv
+1027 players -> player_ratings.csv
+Traceback (most recent call last):
+  File "/home/runner/work/nrl-model/nrl-model/publish_rounds.py", line 1127, in <module>
+    main()
+  File "/home/runner/work/nrl-model/nrl-model/publish_rounds.py", line 1083, in main
+    f.write(render_method(df))
+            ^^^^^^^^^^^^^^^^^
+  File "/home/runner/work/nrl-model/nrl-model/publish_rounds.py", line 976, in render_method
+    {scenario_example()}
+     ^^^^^^^^^^^^^^^^^^
+  File "/home/runner/work/nrl-model/nrl-model/publish_rounds.py", line 834, in scenario_example
+    sc = pd.read_csv(p)
+         ^^^^^^^^^^^^^^
+  File "/opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/pandas/io/parsers/readers.py", line 872, in read_csv
+    return _read(filepath_or_buffer, kwds)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/pandas/io/parsers/readers.py", line 300, in _read
+    parser = TextFileReader(filepath_or_buffer, **kwds)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/pandas/io/parsers/readers.py", line 1643, in __init__
+    self._engine = self._make_engine(f, self.engine)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/pandas/io/parsers/readers.py", line 1925, in _make_engine
+    return mapping[engine](f, **self.options)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/pandas/io/parsers/c_parser_wrapper.py", line 95, in __init__
+    self._reader = parsers.TextReader(src, **kwds)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "pandas/_libs/parsers.pyx", line 575, in pandas._libs.parsers.TextReader.__cinit__
+pandas.errors.EmptyDataError: No columns to parse from file
+===== done =====
