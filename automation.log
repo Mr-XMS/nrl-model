@@ -9258,3 +9258,54 @@ Traceback (most recent call last):
   File "pandas/_libs/parsers.pyx", line 735, in pandas._libs.parsers.TextReader.__cinit__
 pandas.errors.EmptyDataError: No columns to parse from file
 ===== done =====
+
+===== 2026-10-30 13:34 (day 5) =====
+0 upcoming NRL games, scanning...
+
+Fetching announced team lists: 2026 Round 31...
+Casualty ward: 48 players listed
+done: 0 scraped
+Running model comparison record:
+  A: baseline            n=80  acc=0.613  logloss=0.6901  brier=0.2462
+  B: return-adjusted     n=80  acc=0.613  logloss=0.6905  brier=0.2464
+  C: weather-adjusted    n=80  acc=0.625  logloss=0.6882  brier=0.2458
+  Market (bookmaker)     n=80  acc=0.616  logloss=0.6495  brier=0.2267
+  Blend (model+market)   n=80  acc=0.616  logloss=0.6579  brier=0.2304
+  Matches where the two models actually differ: 74 of 80
+
+sydney-roosters v newcastle-knights: sydney-roosters (64%)   [PLAYED: 19-18]
+    player strength diff -0.35 | retention 94% v 88% | spine run 2 v 1
+    note: sydney-roosters: Lindsay Collins (Foot, listed return Next Season) - IN DOUBT, rating x0.6
+    note: newcastle-knights: Kalyn Ponga (Arm, listed return TBC) - IN DOUBT, rating x0.6
+    note: newcastle-knights: 1 debutant/unmatched (rated league-average): Lachlan Crouch
+
+Traceback (most recent call last):
+  File "/home/runner/work/nrl-model/nrl-model/publish_rounds.py", line 1127, in <module>
+    main()
+  File "/home/runner/work/nrl-model/nrl-model/publish_rounds.py", line 1083, in main
+    f.write(render_method(df))
+            ^^^^^^^^^^^^^^^^^
+  File "/home/runner/work/nrl-model/nrl-model/publish_rounds.py", line 976, in render_method
+    {scenario_example()}
+     ^^^^^^^^^^^^^^^^^^
+  File "/home/runner/work/nrl-model/nrl-model/publish_rounds.py", line 834, in scenario_example
+    sc = pd.read_csv(p)
+         ^^^^^^^^^^^^^^
+  File "/opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/pandas/io/parsers/readers.py", line 1866, in read_csv
+    return _read(filepath_or_buffer, kwds)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/pandas/io/parsers/readers.py", line 423, in _read
+    parser = TextFileReader(filepath_or_buffer, **kwds)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/pandas/io/parsers/readers.py", line 2721, in __init__
+    self._engine = self._make_engine(f, self.engine)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/pandas/io/parsers/readers.py", line 3006, in _make_engine
+    return mapping[engine](f, **self.options)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/pandas/io/parsers/c_parser_wrapper.py", line 107, in __init__
+    self._reader = parsers.TextReader(src, **kwds)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "pandas/_libs/parsers.pyx", line 735, in pandas._libs.parsers.TextReader.__cinit__
+pandas.errors.EmptyDataError: No columns to parse from file
+===== done =====
